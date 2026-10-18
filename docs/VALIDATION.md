@@ -1,6 +1,12 @@
 # Validation record — 18 October 2026
 
-## Latest: verified Tesla cargo presentation — 18 October 2026
+## Latest: intentional chart highlighting — 18 October 2026
+
+- Both charts start without a highlighted car. Legend buttons, annual points and scatter dots toggle only on click/tap or Enter/Space; hover/focus handlers and native SVG hover tooltips are removed. Adding a visible line does not highlight it.
+- Production-preview browser verified equal line widths/opacity, no default labels/cursor/overlays, repeated legend activation, annual-point selection and deselection, scatter keyboard toggles, dropdown selection/clearing and both Show all equally actions. Tabbing between points preserves the selected car/year without selecting another. The clear actions remain mounted and focusable.
+- The year selector still updates every legend value when all lines are equal. Both chart panels fit at **320, 390, 1024 and 1280 px** without internal/document horizontal overflow. No preview console errors. **154 existing tests pass**, and strict TypeScript/production build pass; chart calculations and storage are unchanged.
+
+## Previous: verified Tesla cargo presentation — 18 October 2026
 
 - **154 automated tests across eleven suites pass**, with strict TypeScript and the production build. Existing Zod annotation and static research chunk warnings remain.
 - Original Model Y capacities are 854 L rear seats up, 117 L front and 2,041 L rear folded; the Premium five-seat Juniper table gives 822 L, 116 L and 2,022 L. Australian manual references, checked dates and model scope are retained. Combined values are derived once, without an extra underfloor addition. The six-seat Model Y L is excluded.

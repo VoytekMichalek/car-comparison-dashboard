@@ -171,6 +171,8 @@ Each annual depreciation point records signed percentage change from the actual 
 
 The scatter defaults to a clearly labelled focused score range with a minimum two-point span and 0.5-point tick bounds. A Full scale 1–10 selector is always available. All valid scores stay within the plotted axis, including edge scores of 1 and 10. Selected car callouts and guides keep names/values legible; annotations are clamped inside the plot. DOM point order stays stable for keyboard navigation. Ten-year line labels are thinned on intermediate widths, while all yearly numbers remain available in the value cards and ledger.
 
+Chart highlighting starts empty and changes only through explicit click/tap, Enter/Space or an inspector choice. Hover and focus do not select or change the inspected year; SVG labels use accessible names/descriptions without native hover tooltips. The active line legend, annual point or scatter dot toggles off when activated again (a different annual point selects that year). Each chart has a persistent Show all equally action. Clearing leaves every line at the same width/opacity and removes cursor/selection callouts. The common year selector remains usable without highlighting a car. Adding/removing visible lines does not create a highlight.
+
 
 ### Headline-first score explanations
 

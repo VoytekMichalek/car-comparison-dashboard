@@ -8,6 +8,8 @@ The latest research audit was checked **18 October 2026**. It contains **35 conf
 
 Score categories show their actual figure or rating immediately: purchase price and fees, annual running budget, boot litres, range standard, safety result and owner rating. Expand a category for a short explanation; detailed sources and formulas sit under **Evidence & scoring**. Uncertain price and running-budget headlines retain yellow estimate highlighting. These presentation changes leave the main scoring formulas unchanged.
 
+Both charts start without a highlight. Click, tap or activate a car with Enter/Space to inspect it; activate it again or use **Show all equally** to clear. Moving the pointer, scrolling, tabbing and adding lines do not select a car. The line chart's year selector and each car's values remain available with equal emphasis; the scatter dropdown also offers **No highlight**.
+
 The original five-seat Model Y now has a prominent boot section: **854 L rear seats up, 117 L front storage, 971 L combined**, plus folded-seat values. Juniper has its own figures. Tesla's published measurement is not verified as VDA, so the known capacity remains visible while its numeric boot score says **Not comparable**. [Cargo research and measurement limits](docs/research/TESLA-BOOT-2026-10-18.md).
 
 ## Latest research update
