@@ -1,11 +1,11 @@
 [
   {
     "vehicleId": "model-y-rwd-2022",
-    "point": 1800,
-    "low": 700,
-    "high": 3500,
+    "point": 1000,
+    "low": 400,
+    "high": 2500,
     "confidence": "low",
-    "basis": "Published planning default: A$1,800/year for original Model Y RWD. This is a level savings contribution across ownership, not an observed average repair bill. Basic cover can expire before battery cover; Australian upper-arm and thermal-system price examples support keeping a buffer. German inspection and roadside studies measure different outcomes and do not establish Australian paid-repair frequency. A$700–3,500 are editable sensitivity budgets, not statistical bounds. Excludes scheduled servicing, tyres and insured collision repairs. Claim warranty/recall remedies first. Unspent savings remain yours; full battery replacement can exceed the fund.",
+    "basis": "Independent planning estimate: A$1,000/year repair savings for an original Model Y, not an observed average repair bill. Over ten years this builds A$10,000: an illustrative pool for occasional uncovered thermal, suspension and electrical work. Australian examples include one A$1,823 fitted aftermarket upper-arm pair and a rough A$2,000–4,000+ compressor guide; neither establishes how often repairs occur. Same-age RWD and Long Range use the same fund because evidence does not justify a precise frequency difference. A$400–2,500 are alternative annual savings budgets, not statistical bounds. Excludes servicing, tyres and insured crashes; use warranty/recall remedies first. Unspent savings remain cash. Major battery replacement can exceed the pool.",
     "sourceIds": [
       "own-ev-tesla-warranty",
       "own-ev-tesla-historic",
@@ -18,11 +18,11 @@
   },
   {
     "vehicleId": "model-y-long-range-2023",
-    "point": 1800,
-    "low": 800,
-    "high": 3500,
+    "point": 1000,
+    "low": 400,
+    "high": 2500,
     "confidence": "low",
-    "basis": "A$1,800/year, aligned with the same-age original RWD: no credible Australian paid-repair evidence supports a lower Long Range fund. Shared chassis/thermal exposure, short basic cover and a second motor warrant a buffer without inventing failure probabilities. Analyst level savings contribution, not an observed average repair bill. A$800–3,500 are sensitivity budgets, not statistical bounds. Excludes scheduled servicing, tyres and insured crashes; claim warranty/recall remedies first. Unspent savings remain yours. Full battery replacement is a separate stress case.",
+    "basis": "Independent planning estimate: A$1,000/year repair savings for an original Model Y, not an observed average repair bill. Over ten years this builds A$10,000: an illustrative pool for occasional uncovered thermal, suspension and electrical work. Australian examples include one A$1,823 fitted aftermarket upper-arm pair and a rough A$2,000–4,000+ compressor guide; neither establishes how often repairs occur. Same-age RWD and Long Range use the same fund because evidence does not justify a precise frequency difference. A$400–2,500 are alternative annual savings budgets, not statistical bounds. Excludes servicing, tyres and insured crashes; use warranty/recall remedies first. Unspent savings remain cash. Major battery replacement can exceed the pool.",
     "sourceIds": [
       "own-ev-tesla-warranty",
       "own-ev-tesla-historic",
@@ -35,11 +35,11 @@
   },
   {
     "vehicleId": "model-y-rwd-juniper-2025",
-    "point": 1000,
-    "low": 350,
-    "high": 2500,
+    "point": 700,
+    "low": 300,
+    "high": 2000,
     "confidence": "low",
-    "basis": "A$1,000/year level savings contribution across ownership, including later years beyond warranty. Newer Juniper has more remaining cover; original-body defect studies do not establish Juniper reliability. Delivery-date terms differ: 2025 four-year/80,000-km versus eligible 2026 five-year/unlimited basic cover. Analyst allowance, not an observed average repair bill. A$350–2,500 are sensitivity budgets; long-term evidence is limited. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first; unspent savings remain yours. Full battery replacement can exceed the fund.",
+    "basis": "Independent planning estimate: A$700/year repair savings for newer Juniper, not an observed average repair bill. More remaining vehicle warranty supports a lower starting contingency than original-body used cars, while a ten-year hold extends beyond basic cover. Long-term Juniper paid-repair evidence is limited; original-body defect studies cannot establish its failure rate. A$300–2,000 are sensitivity savings budgets. Excludes servicing, tyres and insured crashes; claim warranty/recall remedies first. Unspent funds remain cash and a major traction-battery event can exceed the pool.",
     "sourceIds": [
       "own-ev-tesla-warranty",
       "own-ev-tesla-historic",

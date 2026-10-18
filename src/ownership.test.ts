@@ -233,13 +233,22 @@ it('uses configuration service budgets when available and preserves quote preced
 
 
 describe('car-specific repair savings', () => {
+  it('separates running costs before the repair fund from the total cash budget', () => {
+    const personal = emptyPersonal();
+    const cost = ownershipEstimate(ev, personal);
+    const changed = ownershipEstimate(ev, { ...personal, ownership: { ...defaultOwnership, vehicleOverrides: { [ev.id]: { repairReserve: 0 } } } });
+    expect(cost.annualBeforeRepairFund).toBe(changed.annual);
+    expect(cost.runningBeforeRepairFund).toBe(changed.runningTotal);
+    expect(cost.annual - changed.annual).toBe(1000);
+    expect(cost.runningTotal! - changed.runningTotal!).toBe(10000);
+  });
   it('aligns same-age original Model Ys and retains low-confidence savings bounds', () => {
     const rwd = ownershipEstimate(ev, emptyPersonal());
     const lr = ownershipEstimate(vehicles.find(v => v.id === 'model-y-long-range-2023')!, emptyPersonal());
-    expect(rwd.components.reserve).toBe(1800);
-    expect(lr.components.reserve).toBe(1800);
-    expect(rwd.evidence.reserve.high).toBe(3500);
-    expect(ownershipEstimate(vehicles.find(v => v.id === 'model-y-rwd-juniper-2025')!, emptyPersonal()).components.reserve).toBe(1000);
+    expect(rwd.components.reserve).toBe(1000);
+    expect(lr.components.reserve).toBe(1000);
+    expect(rwd.evidence.reserve.high).toBe(2500);
+    expect(ownershipEstimate(vehicles.find(v => v.id === 'model-y-rwd-juniper-2025')!, emptyPersonal()).components.reserve).toBe(700);
   });
   it('varies the default by configuration while exposing estimate ranges', () => {
     const original = ownershipEstimate(ev, emptyPersonal());
@@ -263,7 +272,7 @@ describe('car-specific repair savings', () => {
     const custom = { ...emptyPersonal(), ownership: { ...defaultOwnership, repairMode: undefined, repairReserve: 875 } };
     expect(ownershipEstimate(ev, custom).components.reserve).toBe(875);
     const oldDefault = { ...custom, ownership: { ...custom.ownership, repairReserve: 500 } };
-    expect(ownershipEstimate(ev, oldDefault).components.reserve).toBe(1800);
+    expect(ownershipEstimate(ev, oldDefault).components.reserve).toBe(1000);
   });
   it('counts a fund once and adds only a stress repair above that fund', () => {
     const p = { ...emptyPersonal(), ownership: { ...defaultOwnership, years: 5, repairScenario: 9000, vehicleOverrides: {} } };

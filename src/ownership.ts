@@ -88,6 +88,8 @@ export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
   const missing = Object.entries(components).filter(([, value]) => value === null).map(([key]) => ({ energy: 'energy', insurance: 'insurance', rego: 'registration', servicing: 'servicing' }[key] ?? key));
   const annual = Object.values(components).reduce<number>((sum, value) => sum + (value ?? 0), 0);
   const runningTotal = missing.length ? null : annual * s.years;
+  const annualBeforeRepairFund = missing.length ? null : annual - reserve;
+  const runningBeforeRepairFund = annualBeforeRepairFund === null ? null : annualBeforeRepairFund * s.years;
   const budgetEvidence = [evidence.energy, evidence.insurance, evidence.servicing, evidence.rego, evidence.tyres, evidence.reserve];
   const annualLow = annual + (evidence.energy.low ?? 0) - (energy ?? 0) + (evidence.insurance.low ?? 0) - (insurance ?? 0) + (evidence.servicing.low ?? 0) - (servicing ?? 0) + (evidence.rego.low ?? 0) - (rego.total ?? 0) + evidence.tyres.low - tyres + evidence.reserve.low - reserve;
   const annualHigh = annual + (evidence.energy.high ?? 0) - (energy ?? 0) + (evidence.insurance.high ?? 0) - (insurance ?? 0) + (evidence.servicing.high ?? 0) - (servicing ?? 0) + (evidence.rego.high ?? 0) - (rego.total ?? 0) + evidence.tyres.high - tyres + evidence.reserve.high - reserve;
@@ -111,5 +113,5 @@ export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
   const depreciation = purchasePrice !== null && resale !== null ? (purchasePrice - resale) / s.years : null;
   const excessRepair = Math.max(0, s.repairScenario - reserve * s.years);
   const total = !missing.length && purchasePrice !== null && resale !== null && duty !== null ? annual * s.years + purchasePrice - resale + upfront + excessRepair : null;
-  return { components, energyCosts: { electricity, petrol }, evidence, annual, runningTotal, annualLow, annualHigh, runningConfidence, missing, complete: !missing.length, energyReason: evidence.energy.basis, rego, info, purchasePrice, resale, resaleEstimated, resaleLow, resaleHigh, depreciation, feesIncluded, duty, transfer, ppsr, upfront, total, excessRepair };
+  return { components, energyCosts: { electricity, petrol }, evidence, annual, runningTotal, annualBeforeRepairFund, runningBeforeRepairFund, annualLow, annualHigh, runningConfidence, missing, complete: !missing.length, energyReason: evidence.energy.basis, rego, info, purchasePrice, resale, resaleEstimated, resaleLow, resaleHigh, depreciation, feesIncluded, duty, transfer, ppsr, upfront, total, excessRepair };
 }

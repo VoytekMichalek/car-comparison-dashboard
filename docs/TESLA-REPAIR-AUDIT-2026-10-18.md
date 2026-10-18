@@ -2,7 +2,7 @@
 
 Checked 18 October 2026. Australian Model Y, especially the original 2022–24 body. This is an independent check of the repair evidence, not an actuarial estimate.
 
-The current A$1,800 annual original-RWD reserve is already the largest default in the catalogue. The evidence supports a meaningful suspension and thermal-system contingency, but does **not** establish that Tesla owners pay the most in annual mechanical repairs. A high individual bill, frequent roadside calls, insurance repair costs and an annual repair average measure different things.
+The previous A$1,800 annual original-RWD reserve was the largest default in the catalogue. The evidence supports a meaningful suspension and thermal-system contingency, but does **not** establish that Tesla owners pay the most in annual mechanical repairs. A high individual bill, frequent roadside calls, insurance repair costs and an annual repair average measure different things. The revised independent planning recommendation below supersedes the earlier decision to retain A$1,800.
 
 ## Australian price evidence
 
@@ -36,10 +36,23 @@ Recommended editorial defaults, if retaining a single flat annual saving amount:
 
 | Configuration | Annual reserve | Low/high saving scenarios | Rationale |
 |---|---:|---:|---|
-| Original Model Y RWD | **Keep A$1,800** | **A$700–3,500** | Preserves the selected public budget; broadens a previously narrow A$2,000 high scenario to acknowledge lumpy multi-thousand-dollar work. |
-| Original Model Y Long Range | **A$1,800** | **A$800–3,500** | Same-age chassis/thermal exposure. A lower reserve than RWD lacks a clear evidential basis. A second motor alone does not quantify a higher failure cost, particularly while drive-unit cover remains. |
-| Juniper RWD | **A$1,000** | **A$350–2,500** | An explicitly cautious long-ownership budget: more remaining basic cover reduces early cash exposure, but a ten-year holding period extends beyond cover. No long-term Juniper failure-rate evidence supports precision. |
+| Original Model Y RWD | **A$1,000** | **A$400–2,500** | Rounded contingency: A$10,000 contributed over ten years, before withdrawals. Allows room for substantial uncovered work without treating a possible bill as an annual recurrence. |
+| Original Model Y Long Range | **A$1,000** | **A$400–2,500** | Same-age chassis/thermal exposure. No representative Australian paid-repair data supports a precise RWD/LR difference. A second motor alone does not quantify a higher owner-paid failure cost, particularly while drive-unit cover remains. |
+| Juniper RWD | **A$700** | **A$300–2,000** | Younger vehicle with more remaining basic cover: A$7,000 contributed over ten years, before withdrawals. Later years still extend beyond cover. No long-term Juniper failure-rate evidence supports precision. |
 
 These proposed amounts are **analyst saving assumptions**, not numbers directly calculated from repair incidence. No Australian representative model/year dataset with failure probabilities and owner-paid bills was found. There is no credible basis here to multiply all Tesla costs simply to ensure it looks worst. If the calculator later models years under cover separately, it should apply that same method to every model and preserve personal overrides.
+
+## Follow-up reassessment — 18 October 2026
+
+The user clarified that the earlier A$1,800 instruction concerned insurance and requested an independent repair estimate. Retaining A$1,800 as an agreed repair default is therefore no longer justified. Research also does not establish A$1,800 as an expected annual repair bill. The revised funds above are a practical contingency choice; replacing the old amount with A$1,000 does **not** turn it into a measured repair-cost average.
+
+Two further Australian primary sources were checked:
+
+- The [EVC / University of Sydney 2025 EV Ownership Survey, second edition](https://electricvehiclecouncil.com.au/wp-content/uploads/2026/03/2025-Ownership-Survey.pdf), published March 2026, surveyed **1,839 BEV/PHEV owners during May–July 2025**. **73% reported maintenance spending below A$300/year**. It covers multiple makes, is self-reported, and predominantly describes recent vehicles. The report does not publish an age-adjusted original-Model-Y unscheduled-repair average or define that number as a separate mechanical-repair allowance. It supports caution about assuming high routine EV expenditure; it cannot establish a A$300 Model Y repair fund or predict costs through vehicle age thirteen.
+- [RACQ's 2025 operating-cost model](https://www.racq.com.au/voc) lists **A$83.03/month for servicing and tyres** for a **new MY25.5 Model Y RWD**, over five years / 15,000 km annually. That is approximately **A$996/year**, a calculation from the published monthly amount. RACQ describes scheduled dealer servicing, a replacement tyre set and a low-voltage battery for most models. This combined new-car planning figure is neither an original-body Model Y repair average nor an additional amount to add on top of separately budgeted servicing and tyres.
+
+The revised original-body A$10,000 ten-year contribution pool could accommodate, for example, one A$2,000–4,000-plus compressor event and one A$1,823 aftermarket upper-arm job, with money left for other work. This illustrates its size; it does **not** assume those events will happen, assigns them no probability, and is not a promise that all major failures fit within the fund. Full traction-battery replacement remains a separate stress case. Savings also accumulate over time: a first-year bill may need an existing emergency fund.
+
+Show repair savings separately from the annual bills subtotal and label any combined total as a **budget including repair savings**. Money still in the fund is the owner's cash, so ten years of contributions should not be described as ten years of actual repair spending. Keep the fund yellow, editable and distinct from scheduled servicing, tyres, insurance and insured collision repairs. Preserve deliberate personal overrides when updating public defaults.
 
 Roadside reliability and inspection evidence are reviewed separately in the release audit: [ADAC 2026](https://www.adac.de/rund-ums-fahrzeug/unfall-schaden-panne/adac-pannenstatistik-2026/) rates the Model Y favourably for breakdowns, while the [TÜV 2026 report](https://www.tuev-verband.de/pressemitteilungen/tuev-report-2026) flags suspension/brakes/lights at German roadworthiness inspections. Neither supplies Australian repair dollars, and neither is evidence for Juniper's long-term record.

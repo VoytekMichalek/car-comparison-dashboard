@@ -1,6 +1,6 @@
 {
   "checked": "2026-10-18",
-  "method": "Repair funds are editable savings contributions, not predicted annual bills. No comparable Australian model-by-model paid-repair dataset was verified. Defaults reflect age, warranty exposure and priced component examples; low/high figures are sensitivity budgets. Unspent funds remain cash. Ten years of contributions is not ten years of repair spending. Service and tyres are separate; insured crash repairs belong primarily in insurance. A major battery or engine event can exceed the fund.",
+  "method": "Repair funds are editable savings contributions, not predicted annual bills. No comparable Australian model-by-model paid-repair dataset was verified. Defaults reflect age, warranty exposure and component prices; low/high figures are alternative savings budgets. Running costs before this fund are shown separately. Unspent money remains cash. Servicing, tyres and insured crashes are separate; a major battery or engine event can exceed the pool.",
   "findings": [
     {
       "familyIds": [
@@ -18,7 +18,7 @@
         "tesla-model-y"
       ],
       "title": "Australian repair prices support a buffer",
-      "text": "Whiteline lists an original-body upper-arm pair fitted with alignment at A$1,823 incl. GST; it is one aftermarket offer, not a minimum. JPI estimates compressor work at A$2,000–4,000+. Original RWD and Long Range both use A$1,800/year; newer Juniper A$1,000. All remain low-confidence savings budgets.",
+      "text": "Whiteline lists an original-body upper-arm pair fitted with alignment at A$1,823 incl. GST; one offer, not a minimum. JPI estimates compressor replacement at A$2,000–4,000+. Neither provides failure frequency. Independent repair-fund estimates are A$1,000/year for original RWD/Long Range and A$700 for newer Juniper. These build contingency savings, not predicted repair spending.",
       "sourceIds": [
         "repair-tesla-upper-arms-au",
         "repair-jpi-tesla-au"

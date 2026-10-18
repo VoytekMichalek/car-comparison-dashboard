@@ -70,7 +70,7 @@ export default function App() {
   }
   function representative(list: Vehicle[]) {
     const grouped = new Map<string, Vehicle[]>(); list.forEach(v => grouped.set(v.familyId, [...(grouped.get(v.familyId) ?? []), v]));
-    return [...grouped.entries()].map(([family, options]) => options.find(v => v.id === variants[family]) ?? options.find(v => priceGroup(getPrice(v.id), filters.budget) === 'budget') ?? options.find(v => getPrice(v.id)?.low != null) ?? options[0]).sort((a, b) => sort === 'score' ? scoreVehicle(b, personal, weights, filters.budget).total - scoreVehicle(a, personal, weights, filters.budget).total : sort === 'price' ? (getPrice(a.id)?.low ?? Infinity) - (getPrice(b.id)?.low ?? Infinity) : sort === 'range' ? (b.range.value ?? 0) - (a.range.value ?? 0) : familyOrder.indexOf(a.familyId) - familyOrder.indexOf(b.familyId));
+    return [...grouped.entries()].map(([family, options]) => options.find(v => v.id === variants[family]) ?? options.find(v => priceGroup(getPrice(v.id), filters.budget) === 'budget') ?? options.find(v => getPrice(v.id)?.low != null) ?? options[0]).sort((a, b) => sort === 'score' ? (scoreVehicle(b, personal, weights, filters.budget).total ?? -1) - (scoreVehicle(a, personal, weights, filters.budget).total ?? -1) : sort === 'price' ? (getPrice(a.id)?.low ?? Infinity) - (getPrice(b.id)?.low ?? Infinity) : sort === 'range' ? (b.range.value ?? 0) - (a.range.value ?? 0) : familyOrder.indexOf(a.familyId) - familyOrder.indexOf(b.familyId));
   }
   const filtered = filterVehicles(vehicles, filters, personal.favourites, personal.fitChecks, prices);
   const visible = representative(filtered);

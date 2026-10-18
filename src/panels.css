@@ -1,0 +1,155 @@
+/* Panels must shrink to their available space at laptop and phone widths. */
+.panel,
+.field,
+.page-content,
+.section-title > *,
+.vehicle-grid > *,
+.notebook-grid > *,
+.rankings-layout > *,
+.rating-detail-grid > *,
+.cost-layout > *,
+.reviews-panel > *,
+.vehicle-cost-ledgers > *,
+.vehicle-warranty-grid > *,
+.repair-risk-grid > *,
+.estimate-basis-grid > *,
+.family-detail-grid > *,
+.purchase-summary-grid > *,
+.two-column > * {
+  min-width: 0;
+}
+
+.panel p,
+.panel li,
+.panel h2,
+.panel h3,
+.listing-card h3,
+.listing-notes,
+.favourite-summary strong,
+.favourite-summary > span,
+.source-list > a > div {
+  overflow-wrap: anywhere;
+}
+
+.source-refs { flex-wrap: wrap; max-width: 100%; }
+.research-dialog > h2,
+.confirm-dialog h2 { padding-right: 44px; }
+
+/* Some reviews have a sentence as their verdict, rather than a number. */
+.reviews-panel .professional-reviews { margin: 0; }
+.professional-reviews summary {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px 16px;
+}
+.professional-reviews summary > span {
+  flex: 1 1 180px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.professional-reviews summary > strong {
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+/* Research added after the original panel styles needs the same inset. */
+.repair-evidence,
+.estimate-method,
+.estimate-benchmarks { padding: 22px 24px; }
+.repair-evidence { margin-bottom: 22px; }
+.repair-evidence > p { margin: 16px 0 0; font-size: 13px; line-height: 1.8; }
+.repair-evidence > section { margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--line); }
+.repair-evidence > section h3 { margin: 0 0 8px; font-size: 15px; line-height: 1.6; }
+.repair-evidence > section p { margin: 0; font-size: 13px; line-height: 1.8; }
+.repair-evidence > .micro { font-size: 12px; }
+
+/* Preserve the disclosure arrow's space when the count moves below its title. */
+:root .catalogue-filters > summary {
+  flex-wrap: wrap;
+  padding-right: 45px;
+  gap: 6px 12px;
+}
+.catalogue-filters > summary > span { min-width: 0; flex: 1 1 150px; flex-wrap: wrap; }
+.catalogue-filters > summary > small { min-width: 0; max-width: 100%; line-height: 1.5; }
+
+.card-heading { flex-wrap: wrap; }
+.card-heading > div { min-width: 0; flex: 1 1 140px; }
+.card-heading .score-badge { flex: none; }
+.card-heading h3 { overflow-wrap: anywhere; }
+.card-specs > div { min-width: 0; }
+.card-specs strong { overflow-wrap: anywhere; }
+.card-specs small { white-space: normal; overflow-wrap: anywhere; }
+.price { max-width: 100%; overflow-wrap: anywhere; }
+
+:root .variant-select select:not([multiple]) {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.5;
+  height: auto;
+}
+
+/* Leave enough space for the widest score, including its /10 suffix. */
+:root .breakdown-rows details > summary,
+:root .vehicle-score-panel .breakdown-rows details > summary {
+  grid-template-columns: minmax(0, 1fr) 75px 62px;
+}
+.breakdown-rows summary > * { min-width: 0; }
+.breakdown-rows summary > strong { white-space: nowrap; }
+.coverage { display: inline-block; max-width: 100%; white-space: normal; line-height: 1.6; }
+.category-weight { overflow-wrap: normal; }
+:root .breakdown-rows summary .unscored-value,
+:root .vehicle-score-panel .breakdown-rows summary .unscored-value,
+.comparison-table .unscored-value {
+  font-size: 12px;
+  line-height: 1.5;
+  white-space: normal;
+  overflow-wrap: normal;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.vehicle-cost-table tbody td,
+.vehicle-cost-table tbody td small { white-space: normal; overflow-wrap: anywhere; }
+.vehicle-cost-table tbody td:last-child { min-width: 0; }
+.cost-ledger dd { min-width: 0; white-space: normal; }
+.cost-ledger dd .source-refs { display: flex; justify-content: flex-end; margin-top: 3px; }
+
+@media (max-width: 1100px) {
+  .vehicle-cost-ledgers { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 1000px) {
+  .rank-row {
+    display: grid;
+    grid-template-columns: 20px minmax(0, 1fr) 76px;
+    gap: 10px;
+  }
+  .rank-number { min-width: 0; }
+  .rank-score { min-width: 0; }
+  :root .breakdown-rows details > summary,
+  :root .vehicle-score-panel .breakdown-rows details > summary {
+    grid-template-columns: minmax(0, 1fr) 52px 62px;
+  }
+  .repair-evidence,
+  .estimate-method,
+  .estimate-benchmarks { padding: 18px; }
+}
+
+@media (max-width: 700px) {
+  .vehicle-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .catalogue-filters > summary > small { max-width: 100%; text-align: left; }
+}
+
+@media (max-width: 359px) {
+  .catalogue-filter-fields { grid-template-columns: minmax(0, 1fr); }
+  .rank-row { grid-template-columns: 16px minmax(0, 1fr) 66px; gap: 7px; }
+  .repair-evidence,
+  .estimate-method,
+  .estimate-benchmarks { padding: 15px; }
+}

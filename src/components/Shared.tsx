@@ -2,6 +2,7 @@ import { ExternalLink, ImageOff, ArrowUpRight, Check, Plus, Heart, Star } from '
 import { imageFor, sourceMap } from '../data';
 import { isFuelOnly, isPlugIn, fitLabel, money, number, powerLabel, rangeStandard, yearLabel } from '../lib';
 import type { Fact, ImageAsset, PriceSnapshot, Vehicle } from '../types';
+import { formatScore } from '../scoring';
 import type { ScoreResult } from '../scoring';
 
 export function SourceRefs({ ids }: { ids: string[] }) {
@@ -40,12 +41,12 @@ export function VehicleCard({ vehicle: v, options, price, favourite, compared, c
   }
   return <article className="vehicle-card">
     <div className="card-photo"><Photo vehicle={v} /><span className={`power-badge ${v.powertrain.toLowerCase()}`}>{powerLabel(v.powertrain)}</span><button className={`icon-button favourite ${favourite ? 'is-favourite' : ''}`} onClick={() => onFavourite(v.id)} aria-label={`${favourite ? 'Unsave' : 'Save'} ${v.make} ${v.model}`} aria-pressed={favourite}><Heart size={17} fill={favourite ? 'currentColor' : 'none'} /></button><span className="reference-photo">Reference photo</span></div>
-    <div className="card-body"><div className="card-heading"><div><p className="make-label">{v.make}</p><h3><a className="card-title-link" href={detailHref} onClick={e => follow(e, () => onDetail(v))} aria-label={`View ${v.make} ${v.model} ${yearLabel(v)} ${v.variant} details`}>{v.model}</a></h3></div><a className="score-badge" href={scoreHref} onClick={e => follow(e, () => onScore(v))} aria-label={`Overall score ${score.total} out of 10 for ${v.make} ${v.model}. View score breakdown.`}><Star size={12} fill="currentColor" /><strong>{score.total.toFixed(1)}</strong><span>/10</span></a></div>
+    <div className="card-body"><div className="card-heading"><div><p className="make-label">{v.make}</p><h3><a className="card-title-link" href={detailHref} onClick={e => follow(e, () => onDetail(v))} aria-label={`View ${v.make} ${v.model} ${yearLabel(v)} ${v.variant} details`}>{v.model}</a></h3></div><a className="score-badge" href={scoreHref} onClick={e => follow(e, () => onScore(v))} aria-label={`${score.total === null ? 'Insufficient score data' : `Overall score ${formatScore(score.total)} out of 10`} for ${v.make} ${v.model}. ${score.coverage}% evidence coverage${score.provisional ? '; provisional' : ''}. View score breakdown.`}><Star size={12} fill="currentColor" /><strong>{formatScore(score.total)}</strong>{score.total !== null && <span>/10</span>}</a></div>
       <label className="variant-select"><span className="sr-only">{v.make} {v.model} year and variant</span><select value={v.id} onChange={e => { const selected = options.find(o => o.id === e.target.value); if (selected) onVariant(selected); }}>{options.map(o => <option key={o.id} value={o.id}>{yearLabel(o)} · {o.variant}</option>)}</select></label>
       <div className="card-price"><Price price={price} /></div>
       <div className="card-specs"><div><span className="spec-label">{isHybrid ? 'Fuel use' : 'Electric range'}</span><strong>{isHybrid ? <FactValue fact={v.consumption} /> : <FactValue fact={v.range} />}</strong><small>{isHybrid ? 'Combined' : v.range.value === null ? 'Evidence gap' : rangeStandard(v.range)}</small></div><div><span className="spec-label">Seats</span><strong>{v.seats}</strong><small>{v.seats > 5 ? '3 rows' : '2 rows'}</small></div><div><span className="spec-label">Boot</span><strong><FactValue fact={v.boot} /></strong><small>{v.seats > 5 ? 'Third row folded' : 'Rear seats up'}</small></div></div>
       <FitBadge vehicle={v} confirmed={confirmed} />
-      <p className="card-evidence">{score.coverage}% evidence coverage · {confirmed ? 'Your fit confirmed' : 'Your seat fit pending'}</p>
+      <p className="card-evidence">{score.coverage}% evidence coverage{score.provisional ? ' · Provisional' : ''} · {confirmed ? 'Your fit confirmed' : 'Your seat fit pending'}</p>
     </div>
     <div className="card-footer"><a className="text-button" href={detailHref} onClick={e => follow(e, () => onDetail(v))}>View car details <ArrowUpRight size={16} /></a><button className={`compare-button ${compared ? 'selected' : ''}`} onClick={() => onCompare(v.id)} aria-label={`${compared ? 'Remove' : 'Add'} ${v.make} ${v.model} ${v.variant} ${compared ? 'from' : 'to'} comparison`} aria-pressed={compared}>{compared ? <Check size={14} /> : <Plus size={14} />}<span>Compare</span></button></div>
   </article>;
