@@ -1,0 +1,120 @@
+[
+  {
+    "familyId": "tesla-model-y",
+    "rating": 4.4,
+    "outOf": 5,
+    "count": 30,
+    "scope": "Australian ProductReview Model Y page, all years and RWD / Long Range / Performance variants. Includes original and Juniper cars, test-drive commentary and an identified expert’s borrowed-car reviews; not a verified-owner-only survey.",
+    "summary": "Mostly favourable visible posts, alongside ride / control-layout and support complaints. Self-selected contributors and mixed generations make this a shopping prompt rather than reliability evidence.",
+    "positiveThemes": [
+      "Owners praise smooth acceleration, storage and app / charging convenience.",
+      "Several owners report low home-energy spend and enjoyable daily driving."
+    ],
+    "negativeThemes": [
+      "Some posts describe firm ride, screen-dependent controls and inconsistent driver assistance.",
+      "Individual contributors report difficulty arranging service or resolving warranty concerns."
+    ],
+    "sourceIds": [
+      "ownreview-ev-model-y"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "byd-atto-3",
+    "rating": 3.2,
+    "outOf": 5,
+    "count": 10,
+    "scope": "Australian ProductReview Atto 3 (2022–2026) page, mixed Standard / Extended variants and contribution dates. Visible ownership is mainly the original front-drive model; not evidence of EVO ownership.",
+    "summary": "Visible reports combine satisfaction with value and everyday driving with complaints about software changes and repair support. The small, self-selected sample cannot establish fault prevalence.",
+    "positiveThemes": [
+      "Owners describe comfortable family use, good value and economical home charging.",
+      "Some report satisfactory range and largely trouble-free use."
+    ],
+    "negativeThemes": [
+      "Several contributors describe slow after-sales communication or repair scheduling.",
+      "Individual posts complain about a software update, reduced usable range or a steering noise."
+    ],
+    "sourceIds": [
+      "ownreview-ev-atto-3"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "kia-ev6",
+    "rating": 4.0,
+    "outOf": 5,
+    "count": 2,
+    "scope": "ProductReview EV6 CV RWD Air page: two contributions, one ownership report and one identified expert using a borrowed car. Original Air RWD; not a facelift-specific survey.",
+    "summary": "Better variant match than the mixed EV6 parent page, but only two contributors. They praise the drive and charging while questioning equipment for the original new price.",
+    "positiveThemes": [
+      "Enjoyable, quiet driving and adjustable regeneration.",
+      "Fast-charging capability and useful range."
+    ],
+    "negativeThemes": [
+      "Equipment omissions and value against newer competitors.",
+      "Lane assistance and some cabin-material concerns."
+    ],
+    "sourceIds": [
+      "ownreview-ev-ev6-air"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "kia-ev5",
+    "rating": 5,
+    "outOf": 5,
+    "count": 1,
+    "scope": "Australian ProductReview EV5 (2024–2026) page. Only one visible review, tagged GT-Line Long Range, purchased August 2026; not an Air-variant sample.",
+    "summary": "The single post mainly praises the dealership purchase and delivery experience. It provides almost no long-term vehicle evidence; the five-star figure should carry very little decision weight.",
+    "positiveThemes": [
+      "One buyer praises sales knowledge, finance help and delivery."
+    ],
+    "negativeThemes": [
+      "No negative vehicle theme established by this one-post sample.",
+      "Long-term ownership, reliability and Air-specific evidence are missing."
+    ],
+    "sourceIds": [
+      "ownreview-ev-ev5"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "hyundai-ioniq-5",
+    "rating": 3.8,
+    "outOf": 5,
+    "count": 8,
+    "scope": "Australian ProductReview IONIQ 5 (2021–2026) page, mixed early RWD / AWD variants; includes two posts by the site’s identified expert using borrowed cars. Not a verified-owner-only or 84-kWh-facelift sample.",
+    "summary": "Owners praise comfort and features, while individual reports describe ICCU disruption and support delays. This tiny mixed-contributor sample cannot quantify reliability or establish warranty policy.",
+    "positiveThemes": [
+      "Owners describe a quiet, comfortable cabin and enjoyable driving.",
+      "Visible owners praise equipment and vehicle-to-load usefulness."
+    ],
+    "negativeThemes": [
+      "One owner reports ICCU breakdowns and a lengthy repair wait.",
+      "Individual posts mention CarPlay connection trouble or concerns about connected-service privacy."
+    ],
+    "sourceIds": [
+      "ownreview-ev-ioniq-5"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "zeekr-7x",
+    "rating": null,
+    "outOf": 5,
+    "count": null,
+    "scope": "No verified Australian 7X-only aggregate located. The linked ProductReview listing is a mixed Zeekr brand / dealer page covering X, 7X, purchase enquiries and delivery experiences.",
+    "summary": "Model rating withheld. Visible 7X-specific posts include both purchase praise and order / communication complaints; mixing them with other models would mislabel a brand-service score as a 7X vehicle score.",
+    "positiveThemes": [
+      "Some identified 7X buyers praise the car and delivery experience."
+    ],
+    "negativeThemes": [
+      "Some identified 7X customers describe order delays or poor dealer communication.",
+      "Long-term 7X-specific aggregate and verified owner count remain unavailable."
+    ],
+    "sourceIds": [
+      "ownreview-ev-zeekr-context"
+    ],
+    "checked": "2026-10-18"
+  }
+]

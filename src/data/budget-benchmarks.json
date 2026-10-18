@@ -1,0 +1,110 @@
+{
+  "checked": "2026-10-18",
+  "currency": "AUD",
+  "insuranceMethodology": {
+    "sourceIds": [
+      "budget-insurance-study",
+      "budget-insurance-factors"
+    ],
+    "profile": "Published March 2026 reference: 34-year-old male, Alderley Brisbane, clean record, garaged, 15,000km/year, market value, about A$900 excess; entry variants.",
+    "interpretation": "Research anchors and explicit model/class proxies support planning estimates. They are not quotes for this household, every model year or every variant. Low/high bounds and proxy multipliers are dashboard assumptions, not observed insurer minima/maxima or actuarial adjustments. Replace with actual quotes when available.",
+    "rangeMeaning": "Illustrative household-budget sensitivity range. Actual premiums can fall outside it, especially with young drivers, claims, different parking/address, excess or cover."
+  },
+  "tyresAnnual": {
+    "low": 360,
+    "high": 1200,
+    "point": 600,
+    "basis": "At 15,000km/year: point = A$1,600 fitted set × 15,000/40,000km. Low = A$1,200 × 15,000/50,000; high = A$2,400 × 15,000/30,000. Set prices and service lives are planning assumptions anchored to current fitted SUV-tyre retail prices, not model-specific quotes or guaranteed tyre life. Larger/staggered wheels can cost more; use the correct size and load rating.",
+    "confidence": "low",
+    "sourceIds": [
+      "budget-tyre-prices",
+      "budget-tyre-life"
+    ],
+    "annualKmBasis": 15000,
+    "setCostPoint": 1600,
+    "lifeKmPoint": 40000,
+    "formula": "annualTyreAllowance = 1600 * annualKm / 40000",
+    "note": "An accrual for eventual replacement, not an assertion that four tyres are purchased every year. Fitting/balancing are included in the reference retail prices; additional alignment/repair costs are separate."
+  },
+  "charger": {
+    "low": 1800,
+    "high": 2300,
+    "point": 2050,
+    "basis": "All-in standard-home planning budget: A$800 Wall Connector hardware + EVSE’s typical Brisbane installation A$1,000–1,500. Midpoint A$800 + A$1,250 = A$2,050. This combines two published references, not an installation quote or bundled offer. Assumes suitable existing electrical supply, straightforward cable route and no major switchboard/strata/civil works. Set to zero if already equipped or not needed.",
+    "confidence": "low",
+    "sourceIds": [
+      "budget-charger-hardware",
+      "budget-charger-install"
+    ],
+    "hardware": 800,
+    "installationLow": 1000,
+    "installationHigh": 1500,
+    "installationPoint": 1250,
+    "note": "Not all chargers, homes or cars need the same setup. Confirm compatible connector, AC charging limit, hardware availability, GST/inclusions and site quote. Complex works can exceed this range; no rebate assumed."
+  },
+  "inspection": {
+    "low": 315,
+    "high": 680,
+    "point": 385,
+    "basis": "Default A$385 is RACQ Premium Inspection non-member pricing. Mechanical inspection is A$315 member/A$340 non-member; Premium is A$360/A$385. A$680 upper planning option combines A$385 Premium + A$295 mobile EV battery check. The range spans different inclusions, not varying prices for the same inspection. No safety-certificate add-on included.",
+    "confidence": "medium",
+    "sourceIds": [
+      "budget-inspection",
+      "budget-battery-check"
+    ],
+    "evBatteryCheck": {
+      "low": 200,
+      "high": 295,
+      "point": 225,
+      "basis": "Optional RACQ battery-health diagnostic: in-store member/non-member A$200/A$225; mobile A$270/A$295. Confirm model compatibility and location. Separate from mechanical/body inspection.",
+      "confidence": "medium",
+      "sourceIds": [
+        "budget-battery-check"
+      ]
+    },
+    "note": "Add the optional battery check only when selected; do not add it twice or assume a generic inspection establishes traction-battery health."
+  },
+  "depreciation": {
+    "BEV": {
+      "annualRate": 0.15,
+      "lowRate": 0.08,
+      "highRate": 0.25,
+      "basis": "Dashboard planning assumption: 15% annual reducing-balance loss, with 8–25% sensitivity. AADA documents BEV resale pressure from price cuts; it does not publish these forecast rates. Apply from today’s purchase price, not original MSRP. Age, model, new-car prices and condition can overwhelm the class assumption.",
+      "sourceIds": [
+        "budget-depreciation-annual",
+        "budget-depreciation-ev"
+      ],
+      "confidence": "low"
+    },
+    "PHEV": {
+      "annualRate": 0.12,
+      "lowRate": 0.07,
+      "highRate": 0.2,
+      "basis": "Dashboard planning assumption: 12% annual reducing-balance loss, with 7–20% sensitivity. Intermediate scenario reflecting AADA’s mixed PHEV resale picture; no claimed measured annual rate or resale guarantee. Apply to today’s purchase price and allow an owner-entered resale override.",
+      "sourceIds": [
+        "budget-depreciation-hybrid",
+        "budget-depreciation-annual"
+      ],
+      "confidence": "low"
+    },
+    "HEV": {
+      "annualRate": 0.1,
+      "lowRate": 0.05,
+      "highRate": 0.16,
+      "basis": "Dashboard planning assumption: 10% annual reducing-balance loss, with 5–16% sensitivity. AADA reports stronger recent hybrid retention, which supports a lower-loss scenario direction, not these exact rates. Exceptional historical prices are not projected as future appreciation.",
+      "sourceIds": [
+        "budget-depreciation-hybrid",
+        "budget-depreciation-annual"
+      ],
+      "confidence": "low"
+    }
+  },
+  "depreciationMethodology": {
+    "rateUnit": "fraction per year; 0.15 means 15%",
+    "formula": "resale = purchasePrice * Math.pow(1 - annualRate, years)",
+    "lowResaleFormula": "purchasePrice * Math.pow(1 - highRate, years)",
+    "highResaleFormula": "purchasePrice * Math.pow(1 - lowRate, years)",
+    "note": "Low rate means less depreciation and higher retained value. Model economic depreciation as purchase less resale; do not double-count purchase principal and depreciation in ownership cost. These are scenario assumptions, not predicted transaction prices or confidence intervals."
+  },
+  "displayNote": "All estimates, proxy adjustments, assumed bounds and future resale scenarios should carry the dashboard’s yellow estimate styling. Published supplier or research anchors do not make a personal projection certain."
+}

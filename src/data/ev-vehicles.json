@@ -1,0 +1,2341 @@
+[
+  {
+    "id": "model-y-rwd-2022",
+    "familyId": "tesla-model-y",
+    "make": "Tesla",
+    "model": "Model Y",
+    "variant": "RWD · original",
+    "years": [
+      2022,
+      2023,
+      2024
+    ],
+    "generation": "Original Australian five-seat body",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "RWD",
+    "headline": "The late-2023 starting point",
+    "summary": "A useful family shortlist anchor with a published three-seat test. Check the actual build and restraint combination before buying.",
+    "range": {
+      "value": 455,
+      "unit": "km",
+      "basis": "WLTP combined; original Australian RWD claim",
+      "sourceIds": [
+        "ev-tesla-range"
+      ]
+    },
+    "battery": {
+      "value": null,
+      "unit": "kWh",
+      "basis": "Tesla did not publish pack capacity in the Australian launch specification",
+      "sourceIds": []
+    },
+    "consumption": {
+      "value": 15.9,
+      "unit": "kWh/100km",
+      "basis": "Observed 2023 CarExpert mixed urban/suburban/freeway test; not WLTP or a promise for your use",
+      "sourceIds": [
+        "ev-tesla-used-review"
+      ],
+      "energyBasis": "unspecified"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": 11,
+      "unit": "kW",
+      "basis": "Three-phase AC maximum reported in Australian road test",
+      "sourceIds": [
+        "ev-tesla-used-review"
+      ]
+    },
+    "dcCharging": {
+      "value": 170,
+      "unit": "kW",
+      "basis": "Reported peak, not sustained charging power",
+      "sourceIds": [
+        "ev-tesla-used-review"
+      ]
+    },
+    "chargeTime": "Australian road test reports roughly 18–20 min to 80% at a suitable fast charger; starting charge and conditions vary.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 854,
+      "unit": "L",
+      "basis": "Tesla own cargo measure behind second row, seats up; not stated as VDA; excludes 117 L front boot; not directly comparable with VDA figures",
+      "sourceIds": [
+        "ev-tesla-original-dimensions"
+      ]
+    },
+    "bootAllRows": {
+      "value": 854,
+      "unit": "L",
+      "basis": "Tesla own cargo measure behind second row, seats up; not stated as VDA; excludes 117 L front boot; not directly comparable with VDA figures",
+      "sourceIds": [
+        "ev-tesla-original-dimensions"
+      ]
+    },
+    "length": {
+      "value": 4751,
+      "unit": "mm",
+      "basis": "Original-generation Tesla owner manual; approximate overall length",
+      "sourceIds": [
+        "ev-tesla-original-dimensions"
+      ]
+    },
+    "width": {
+      "value": 1921,
+      "unit": "mm",
+      "basis": "Tesla body width excluding mirrors; 1978 mm is folded-mirror width, not body width",
+      "sourceIds": [
+        "ev-tesla-original-dimensions"
+      ]
+    },
+    "towing": {
+      "value": null,
+      "unit": "kg",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "warranty": "Originally 4 years / 80,000 km; check the remaining original cover. The 2026 warranty is not retroactive.",
+    "batteryWarranty": "8 years / 160,000 km with minimum 70% capacity retention; original terms apply.",
+    "servicing": "No compulsory annual service in the Australian road test; inspect the vehicle-specific maintenance schedule.",
+    "safety": {
+      "stars": 5,
+      "year": 2022,
+      "applicability": "Original five-seat Australian-delivered variants, built February 2022–April 2025.",
+      "sourceIds": [
+        "ev-tesla-old-ancap"
+      ]
+    },
+    "familyFit": {
+      "status": "tested-three",
+      "summary": "BabyDrive fitted a named three-restraint combination to a 2023 car; your own seats are unconfirmed.",
+      "row2": "Two outer ISOFIX positions; top tether on all three rear backrests.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "2023 test: rear-facing InfaSecure Attain More plus forward-facing Achieve More and Attain More; an alternative two Achieve More plus one Attain More also fitted.",
+      "buckleAccess": "Independent test did not establish fit or daily buckle access for your three boosters.",
+      "access": "Flat rear floor helps moving between positions.",
+      "ventilation": "Rear console vents; verify airflow with your restraints fitted.",
+      "sourceIds": [
+        "ev-tesla-family-2023"
+      ]
+    },
+    "pros": [
+      "Published three-across restraint evidence.",
+      "BabyDrive fitted a twin pram with shopping alongside.",
+      "Observed mixed-driving efficiency provides a transparent cost example."
+    ],
+    "cons": [
+      "Original general warranty is relatively short.",
+      "No verified VDA boot figure in this dataset.",
+      "Three boosters can need different buckle space from harnessed seats."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty.",
+      "For a late-2023 listing, record build and delivery dates; ask Tesla to confirm suspension hardware and inspect the actual interior.",
+      "Confirm the VIN is clear of outstanding REC-006300 power-steering software action."
+    ],
+    "changes": [
+      {
+        "period": "Late 2023",
+        "text": "The October 2023 ambient-light/dashboard update was reported for China with Australian availability unconfirmed; do not infer Australian equipment from the China announcement.",
+        "sourceIds": [
+          "ev-tesla-china"
+        ]
+      },
+      {
+        "period": "2025",
+        "text": "Juniper changes body/interior and has separate restraint-test and ANCAP evidence; see the separate entry.",
+        "sourceIds": [
+          "ev-tesla-new-ancap",
+          "ev-tesla-family-2025"
+        ]
+      }
+    ],
+    "gaps": [
+      "Exact Australian comfort-suspension cutover and late-2023 hardware are not verified by VIN.",
+      "Pack gross/usable capacity and a VDA-comparable boot measure remain unverified.",
+      "2025 pre-refresh stock must be identified by body/build date; not included in this year group."
+    ],
+    "sourceIds": [
+      "ev-tesla-used-review",
+      "ev-tesla-range",
+      "ev-tesla-family-2023",
+      "ev-tesla-china",
+      "ev-tesla-recall",
+      "ev-tesla-warranty",
+      "ev-tesla-old-ancap",
+      "ev-tesla-rwd-market",
+      "ev-tesla-original-dimensions"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "model-y-long-range-2023",
+    "familyId": "tesla-model-y",
+    "make": "Tesla",
+    "model": "Model Y",
+    "variant": "Long Range AWD · original",
+    "years": [
+      2023,
+      2024
+    ],
+    "generation": "Original Australian five-seat body",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "AWD",
+    "headline": "More range, same family-fit homework",
+    "summary": "A longer-range used benchmark. The named 2023 body-generation seat test is relevant context, but its tested drivetrain was not verified as this AWD configuration.",
+    "range": {
+      "value": 533,
+      "unit": "km",
+      "basis": "WLTP combined Australian Long Range claim",
+      "sourceIds": [
+        "ev-tesla-range"
+      ]
+    },
+    "battery": {
+      "value": null,
+      "unit": "kWh",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "consumption": {
+      "value": null,
+      "unit": "kWh/100km",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": [],
+      "energyBasis": "unspecified"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "dcCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "chargeTime": "Configuration-specific charging-time evidence not verified.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 854,
+      "unit": "L",
+      "basis": "Tesla own cargo measure behind second row, seats up; not stated as VDA; excludes 117 L front boot; not directly comparable with VDA figures",
+      "sourceIds": [
+        "ev-tesla-original-dimensions"
+      ]
+    },
+    "bootAllRows": {
+      "value": 854,
+      "unit": "L",
+      "basis": "Tesla own cargo measure behind second row, seats up; not stated as VDA; excludes 117 L front boot; not directly comparable with VDA figures",
+      "sourceIds": [
+        "ev-tesla-original-dimensions"
+      ]
+    },
+    "length": {
+      "value": 4751,
+      "unit": "mm",
+      "basis": "Original-generation Tesla owner manual; approximate overall length",
+      "sourceIds": [
+        "ev-tesla-original-dimensions"
+      ]
+    },
+    "width": {
+      "value": 1921,
+      "unit": "mm",
+      "basis": "Tesla body width excluding mirrors; 1978 mm is folded-mirror width, not body width",
+      "sourceIds": [
+        "ev-tesla-original-dimensions"
+      ]
+    },
+    "towing": {
+      "value": null,
+      "unit": "kg",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "warranty": "Originally 4 years / 80,000 km; verify remaining original cover.",
+    "batteryWarranty": "8 years / 192,000 km, minimum 70% retention; check original vehicle terms.",
+    "servicing": "Check the original maintenance schedule and service record; no fixed annual price is assumed.",
+    "safety": {
+      "stars": 5,
+      "year": 2022,
+      "applicability": "Original Australian five-seat variants built February 2022–April 2025.",
+      "sourceIds": [
+        "ev-tesla-old-ancap"
+      ]
+    },
+    "familyFit": {
+      "status": "unverified",
+      "summary": "A 2023 Model Y body-generation test exists; the exact Long Range AWD restraint fit is pending.",
+      "row2": "2023 body test reports outer ISOFIX and three rear top tethers; confirm this VIN.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "Reference only: InfaSecure Attain More / Achieve More combinations in BabyDrive’s 2023 Model Y, not a verified AWD-specific test.",
+      "buckleAccess": "Your exact boosters and buckle reach are untested.",
+      "access": "Check access with all three seats installed.",
+      "ventilation": "Confirm rear-console airflow in the inspected vehicle.",
+      "sourceIds": [
+        "ev-tesla-family-2023"
+      ]
+    },
+    "pros": [
+      "Longer published WLTP range than original RWD.",
+      "Same five-seat body-generation practicality to investigate."
+    ],
+    "cons": [
+      "Extra purchase cost needs a real travel-use case.",
+      "No verified configuration-specific consumption estimate in this dataset."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty."
+    ],
+    "changes": [
+      {
+        "period": "2023–24",
+        "text": "Original Long Range group; exclude later Juniper and verify the listed car’s build/equipment.",
+        "sourceIds": [
+          "ev-tesla-range"
+        ]
+      }
+    ],
+    "gaps": [
+      "Verified AWD-specific child-seat trial, consumption and pack usable capacity are missing.",
+      "AWD charging caps remain unverified; Tesla’s cargo measurement is not directly comparable with VDA boot figures."
+    ],
+    "sourceIds": [
+      "ev-tesla-range",
+      "ev-tesla-used-review",
+      "ev-tesla-warranty",
+      "ev-tesla-recall",
+      "ev-tesla-family-2023",
+      "ev-tesla-old-ancap",
+      "ev-tesla-lr-market",
+      "ev-tesla-original-dimensions"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "model-y-rwd-juniper-2025",
+    "familyId": "tesla-model-y",
+    "make": "Tesla",
+    "model": "Model Y",
+    "variant": "RWD / Premium RWD · Juniper",
+    "years": [
+      2025,
+      2026
+    ],
+    "generation": "Juniper Australian five-seat body",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "RWD",
+    "headline": "The refreshed benchmark",
+    "summary": "Independent testing confirms a three-restraint combination in the refreshed RWD body. It remains a separate, more expensive comparison to the late-2023 car.",
+    "range": {
+      "value": 466,
+      "unit": "km",
+      "basis": "WLTP; current Australian Premium RWD configurator, standard 19-inch wheels",
+      "sourceIds": [
+        "ev-tesla-order"
+      ]
+    },
+    "battery": {
+      "value": null,
+      "unit": "kWh",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "consumption": {
+      "value": null,
+      "unit": "kWh/100km",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": [],
+      "energyBasis": "unspecified"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "dcCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "chargeTime": "Configuration-specific charging-time evidence not verified.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": null,
+      "unit": "L",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "bootAllRows": {
+      "value": null,
+      "unit": "L",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "length": {
+      "value": null,
+      "unit": "mm",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "width": {
+      "value": null,
+      "unit": "mm",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "towing": {
+      "value": null,
+      "unit": "kg",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "warranty": "2025 deliveries: verify original terms. New deliveries from 1 January 2026: 5 years / unlimited km under normal use; exclusions apply.",
+    "batteryWarranty": "Current Premium RWD: 8 years / 160,000 km, minimum 70% retention; verify the original contract.",
+    "servicing": "Confirm maintenance intervals in the vehicle’s owner manual and obtain local quotes.",
+    "safety": {
+      "stars": 5,
+      "year": 2025,
+      "applicability": "Five-seat, two-row Model Y built from February 2025 / on sale from May 2025; excludes Model Y L.",
+      "sourceIds": [
+        "ev-tesla-new-ancap"
+      ]
+    },
+    "familyFit": {
+      "status": "tested-three",
+      "summary": "BabyDrive fitted three restraints in the 2025 refreshed RWD; three forward-facing seats/boosters still need your trial.",
+      "row2": "Two outer ISOFIX positions and three rear top tethers.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "2025 RWD test fitted two forward-facing seats and one rear-facing seat; product model names not stated in the text.",
+      "buckleAccess": "A three-booster daily buckle-access test was not documented.",
+      "access": "Flat rear floor; check your usual driver position.",
+      "ventilation": "Rear-console vents and rear climate controls in the tested RWD.",
+      "sourceIds": [
+        "ev-tesla-family-2025"
+      ]
+    },
+    "pros": [
+      "Separate published restraint test for the refresh.",
+      "Rear climate controls and substantial pram storage in the family test."
+    ],
+    "cons": [
+      "Above the target budget as a new car.",
+      "Do not apply original Model Y measurements to the refresh."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty."
+    ],
+    "changes": [
+      {
+        "period": "2025 refresh",
+        "text": "Updated exterior, cabin and suspension, with separate safety rating and family test.",
+        "sourceIds": [
+          "ev-tesla-family-2025",
+          "ev-tesla-new-ancap"
+        ]
+      },
+      {
+        "period": "2026 delivery",
+        "text": "Basic warranty changes for new deliveries from January 2026.",
+        "sourceIds": [
+          "ev-tesla-current",
+          "ev-tesla-warranty"
+        ]
+      }
+    ],
+    "gaps": [
+      "Battery capacity, matched rated consumption, charging maxima and comparable boot volume not verified.",
+      "Current 466 km figure is not a universal claim for every 2025 wheel/build combination.",
+      "Six-seat Model Y L and any newly added Standard trim require separate research."
+    ],
+    "sourceIds": [
+      "ev-tesla-order",
+      "ev-tesla-current",
+      "ev-tesla-warranty",
+      "ev-tesla-family-2025",
+      "ev-tesla-new-ancap"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "atto3-standard-2022",
+    "familyId": "byd-atto-3",
+    "make": "BYD",
+    "model": "Atto 3",
+    "variant": "Standard Range",
+    "years": [
+      2022,
+      2023,
+      2024
+    ],
+    "generation": "Original Atto 3 body",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "FWD",
+    "headline": "Great value; a tight three-seat brief",
+    "summary": "Affordable used-EV context, but the published family test flags shoulder-width limits for three forward-facing restraints.",
+    "range": {
+      "value": 345,
+      "unit": "km",
+      "basis": "WLTP combined; manufacturer reference; not 480/410 km NEDC",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "battery": {
+      "value": 49.92,
+      "unit": "kWh",
+      "basis": "Published manufacturer pack capacity; usable/gross split not stated; confirm early build",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "consumption": {
+      "value": null,
+      "unit": "kWh/100km",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": [],
+      "energyBasis": "unspecified"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": 7,
+      "unit": "kW",
+      "basis": "Reported original Australian AC maximum",
+      "sourceIds": [
+        "ev-atto-original"
+      ]
+    },
+    "dcCharging": {
+      "value": 70,
+      "unit": "kW",
+      "basis": "Reported original Australian peak DC rating",
+      "sourceIds": [
+        "ev-atto-original"
+      ]
+    },
+    "chargeTime": "Australian review quotes about 35 min for 10–80% on a suitable DC charger; conditions vary.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 440,
+      "unit": "L",
+      "basis": "Manufacturer rear luggage claim, rear seats up; measurement standard unspecified",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "bootAllRows": {
+      "value": 440,
+      "unit": "L",
+      "basis": "Manufacturer rear luggage claim, rear seats up; measurement standard unspecified",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "length": {
+      "value": 4455,
+      "unit": "mm",
+      "basis": "Manufacturer overall length",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "width": {
+      "value": 1875,
+      "unit": "mm",
+      "basis": "Manufacturer overall body width; mirrors not included",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "towing": {
+      "value": 750,
+      "unit": "kg",
+      "basis": "Braked claim; verify vehicle/towbar approval and local limits",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "warranty": "Current Australian terms: 6 years / 150,000 km vehicle cover. Confirm applicable updated policy, original start date and remaining VIN-specific cover.",
+    "batteryWarranty": "Current handbook: power battery and drive unit 8 years / 160,000 km; 70% battery-retention threshold, conditions apply. Confirm applicability to this VIN.",
+    "servicing": "Current BYD guide: 12 months / 20,000 km; original schedule and early check requirements must be confirmed.",
+    "safety": {
+      "stars": 5,
+      "year": 2022,
+      "applicability": "Australian Standard/Extended built from 21 November 2022; earlier cars only after the prescribed child-restraint anchorage updates.",
+      "sourceIds": [
+        "ev-atto-ancap"
+      ]
+    },
+    "familyFit": {
+      "status": "limitations",
+      "summary": "BabyDrive’s 2024 combination fitted, but the reviewer reported insufficient shoulder room for three forward-facing seats.",
+      "row2": "Outer ISOFIX; three rear top tethers after applicable Australian updates.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "InfaSecure Achieve More and Liberty Onyx booster forward-facing, plus Cocoon Go capsule rear-facing behind driver.",
+      "buckleAccess": "Test every booster buckle; the published mixed-direction combination is not a three-forward-facing endorsement.",
+      "access": "No third row to spread the restraints across.",
+      "ventilation": "Rear directional vents reported; check airflow with all restraints.",
+      "sourceIds": [
+        "ev-atto-family",
+        "ev-atto-original"
+      ]
+    },
+    "pros": [
+      "Used asking prices can sit comfortably below the target.",
+      "Compact exterior with rear vents and a flat rear floor."
+    ],
+    "cons": [
+      "Published three-forward-facing shoulder-space limitation.",
+      "DC charging is slower than the newer 800 V benchmarks."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty.",
+      "On a 2022 car, obtain evidence that the Australian child-restraint anchorage updates were completed.",
+      "Verify range standard: 480 km NEDC is not 480 km WLTP."
+    ],
+    "changes": [
+      {
+        "period": "2024 equipment",
+        "text": "Updated tyres, exterior details and larger screen were reported; battery/drivetrain group retained here. Check exact equipment.",
+        "sourceIds": [
+          "ev-atto-original"
+        ]
+      },
+      {
+        "period": "2025 / 2026",
+        "text": "Essential/Premium naming and later EVO are separate entries; do not use this original-body fit result as evidence for EVO.",
+        "sourceIds": [
+          "ev-atto-2025-spec",
+          "ev-atto-evo"
+        ]
+      }
+    ],
+    "gaps": [
+      "Standard-range pack appears as 49.94 kWh in one review versus 49.92 in the manufacturer reference; use VIN-specific documents.",
+      "Comparable rated consumption not confirmed; energy-cost estimate withheld.",
+      "A tested fit for your three forward-facing seats/boosters remains missing."
+    ],
+    "sourceIds": [
+      "ev-atto-2025-spec",
+      "ev-atto-original",
+      "ev-atto-family",
+      "ev-atto-ancap",
+      "ev-byd-warranty",
+      "ev-atto-standard-market",
+      "own-ev-byd-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "atto3-extended-2022",
+    "familyId": "byd-atto-3",
+    "make": "BYD",
+    "model": "Atto 3",
+    "variant": "Extended Range",
+    "years": [
+      2022,
+      2023,
+      2024
+    ],
+    "generation": "Original Atto 3 body",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "FWD",
+    "headline": "Great value; a tight three-seat brief",
+    "summary": "Affordable used-EV context, but the published family test flags shoulder-width limits for three forward-facing restraints.",
+    "range": {
+      "value": 420,
+      "unit": "km",
+      "basis": "WLTP combined; manufacturer reference; not 480/410 km NEDC",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "battery": {
+      "value": 60.48,
+      "unit": "kWh",
+      "basis": "Published manufacturer pack capacity; usable/gross split not stated; confirm early build",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "consumption": {
+      "value": null,
+      "unit": "kWh/100km",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": [],
+      "energyBasis": "unspecified"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": 7,
+      "unit": "kW",
+      "basis": "Reported original Australian AC maximum",
+      "sourceIds": [
+        "ev-atto-original"
+      ]
+    },
+    "dcCharging": {
+      "value": 88,
+      "unit": "kW",
+      "basis": "Reported original Australian peak DC rating",
+      "sourceIds": [
+        "ev-atto-original"
+      ]
+    },
+    "chargeTime": "Australian review quotes about 35 min for 10–80% on a suitable DC charger; conditions vary.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 440,
+      "unit": "L",
+      "basis": "Manufacturer rear luggage claim, rear seats up; measurement standard unspecified",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "bootAllRows": {
+      "value": 440,
+      "unit": "L",
+      "basis": "Manufacturer rear luggage claim, rear seats up; measurement standard unspecified",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "length": {
+      "value": 4455,
+      "unit": "mm",
+      "basis": "Manufacturer overall length",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "width": {
+      "value": 1875,
+      "unit": "mm",
+      "basis": "Manufacturer overall body width; mirrors not included",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "towing": {
+      "value": 750,
+      "unit": "kg",
+      "basis": "Braked claim; verify vehicle/towbar approval and local limits",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "warranty": "Current Australian terms: 6 years / 150,000 km vehicle cover. Confirm applicable updated policy, original start date and remaining VIN-specific cover.",
+    "batteryWarranty": "Current handbook: power battery and drive unit 8 years / 160,000 km; 70% battery-retention threshold, conditions apply. Confirm applicability to this VIN.",
+    "servicing": "Current BYD guide: 12 months / 20,000 km; original schedule and early check requirements must be confirmed.",
+    "safety": {
+      "stars": 5,
+      "year": 2022,
+      "applicability": "Australian Standard/Extended built from 21 November 2022; earlier cars only after the prescribed child-restraint anchorage updates.",
+      "sourceIds": [
+        "ev-atto-ancap"
+      ]
+    },
+    "familyFit": {
+      "status": "limitations",
+      "summary": "BabyDrive’s 2024 combination fitted, but the reviewer reported insufficient shoulder room for three forward-facing seats.",
+      "row2": "Outer ISOFIX; three rear top tethers after applicable Australian updates.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "InfaSecure Achieve More and Liberty Onyx booster forward-facing, plus Cocoon Go capsule rear-facing behind driver.",
+      "buckleAccess": "Test every booster buckle; the published mixed-direction combination is not a three-forward-facing endorsement.",
+      "access": "No third row to spread the restraints across.",
+      "ventilation": "Rear directional vents reported; check airflow with all restraints.",
+      "sourceIds": [
+        "ev-atto-family",
+        "ev-atto-original"
+      ]
+    },
+    "pros": [
+      "Used asking prices can sit comfortably below the target.",
+      "Compact exterior with rear vents and a flat rear floor."
+    ],
+    "cons": [
+      "Published three-forward-facing shoulder-space limitation.",
+      "DC charging is slower than the newer 800 V benchmarks."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty.",
+      "On a 2022 car, obtain evidence that the Australian child-restraint anchorage updates were completed.",
+      "Verify range standard: 480 km NEDC is not 480 km WLTP."
+    ],
+    "changes": [
+      {
+        "period": "2024 equipment",
+        "text": "Updated tyres, exterior details and larger screen were reported; battery/drivetrain group retained here. Check exact equipment.",
+        "sourceIds": [
+          "ev-atto-original"
+        ]
+      },
+      {
+        "period": "2025 / 2026",
+        "text": "Essential/Premium naming and later EVO are separate entries; do not use this original-body fit result as evidence for EVO.",
+        "sourceIds": [
+          "ev-atto-2025-spec",
+          "ev-atto-evo"
+        ]
+      }
+    ],
+    "gaps": [
+      "Standard-range pack appears as 49.94 kWh in one review versus 49.92 in the manufacturer reference; use VIN-specific documents.",
+      "Comparable rated consumption not confirmed; energy-cost estimate withheld.",
+      "A tested fit for your three forward-facing seats/boosters remains missing."
+    ],
+    "sourceIds": [
+      "ev-atto-2025-spec",
+      "ev-atto-original",
+      "ev-atto-family",
+      "ev-atto-ancap",
+      "ev-byd-warranty",
+      "ev-atto-market",
+      "own-ev-byd-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "atto3-essential-2025",
+    "familyId": "byd-atto-3",
+    "make": "BYD",
+    "model": "Atto 3",
+    "variant": "Essential",
+    "years": [
+      2025,
+      2026
+    ],
+    "generation": "Original Atto 3 body · Essential",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "FWD",
+    "headline": "The smaller-battery new-car option",
+    "summary": "A distinct equipment grade with a smaller battery. Carry the original-body seating limitations into your inspection questions, not into a fit guarantee.",
+    "range": {
+      "value": 345,
+      "unit": "km",
+      "basis": "WLTP combined; 410 km NEDC is a separate claim",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "battery": {
+      "value": 49.92,
+      "unit": "kWh",
+      "basis": "Published pack capacity; gross/usable not separated",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "consumption": {
+      "value": null,
+      "unit": "kWh/100km",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": [],
+      "energyBasis": "unspecified"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "dcCharging": {
+      "value": 70,
+      "unit": "kW",
+      "basis": "Manufacturer CCS2 Standard Range rating",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "chargeTime": "Configuration-specific charging-time evidence not verified.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 440,
+      "unit": "L",
+      "basis": "Manufacturer rear luggage claim, seats up; standard unspecified",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "bootAllRows": {
+      "value": 440,
+      "unit": "L",
+      "basis": "Manufacturer rear luggage claim, seats up; standard unspecified",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "length": {
+      "value": 4455,
+      "unit": "mm",
+      "basis": "Overall length",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "width": {
+      "value": 1875,
+      "unit": "mm",
+      "basis": "Body width",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "towing": {
+      "value": 750,
+      "unit": "kg",
+      "basis": "Braked rating subject to approved towbar and regulations",
+      "sourceIds": [
+        "ev-atto-2025-spec"
+      ]
+    },
+    "warranty": "Current Australian terms: 6 years / 150,000 km vehicle cover. Confirm applicable updated policy, original start date and remaining VIN-specific cover.",
+    "batteryWarranty": "Current handbook: power battery and drive unit 8 years / 160,000 km; 70% battery-retention threshold, conditions apply. Confirm applicability to this VIN.",
+    "servicing": "BYD guide: 12 months / 20,000 km; confirm the car-specific schedule.",
+    "safety": {
+      "stars": null,
+      "year": null,
+      "applicability": "Rating applicability not verified for this configuration.",
+      "sourceIds": []
+    },
+    "familyFit": {
+      "status": "limitations",
+      "summary": "Original-body 2024 test flags shoulder-room limits; this Essential grade has not been individually fit-tested here.",
+      "row2": "Confirm two outer ISOFIX positions and all rear top tethers against the handbook.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "Reference mixed-direction 2024 test only; no verified Essential-specific three-forward-facing combination.",
+      "buckleAccess": "Your booster buckle reach remains untested.",
+      "access": "Five seats only; no third-row alternative.",
+      "ventilation": "Confirm rear vents and airflow on the Essential grade.",
+      "sourceIds": [
+        "ev-atto-family",
+        "ev-atto-2025-spec"
+      ]
+    },
+    "pros": [
+      "Lower new-car entry price.",
+      "Small battery may suit short local trips with regular charging."
+    ],
+    "cons": [
+      "Shorter WLTP range than Extended/Premium.",
+      "Three-forward-facing fit remains a priority concern."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty."
+    ],
+    "changes": [
+      {
+        "period": "2025",
+        "text": "Essential separates the smaller pack and equipment from Premium; do not mix the two variants.",
+        "sourceIds": [
+          "ev-atto-2025-spec"
+        ]
+      }
+    ],
+    "gaps": [
+      "ANCAP applicability to this later-named Essential grade not independently matched; no star value entered.",
+      "Rated consumption, AC maximum and charging time not verified in the matched manufacturer document."
+    ],
+    "sourceIds": [
+      "ev-atto-2025-spec",
+      "ev-atto-family",
+      "ev-byd-warranty",
+      "ev-atto-essential-order",
+      "own-ev-byd-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "atto3-evo-premium-2026",
+    "familyId": "byd-atto-3",
+    "make": "BYD",
+    "model": "Atto 3",
+    "variant": "EVO Premium RWD",
+    "years": [
+      2026
+    ],
+    "generation": "Atto 3 EVO Premium body / rear-drive platform",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "RWD",
+    "headline": "A very different Atto 3 to investigate",
+    "summary": "A newer rear-drive, larger-battery alternative. Its original-body predecessor’s restraint fit must not be carried across.",
+    "range": {
+      "value": 510,
+      "unit": "km",
+      "basis": "Manufacturer WLTP combined claim; 600 km NEDC is separate",
+      "sourceIds": [
+        "ev-atto-evo"
+      ]
+    },
+    "battery": {
+      "value": 74.88,
+      "unit": "kWh",
+      "basis": "Published LFP battery capacity; usable/gross split not stated",
+      "sourceIds": [
+        "ev-atto-evo"
+      ]
+    },
+    "consumption": {
+      "value": null,
+      "unit": "kWh/100km",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": [],
+      "energyBasis": "unspecified"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "dcCharging": {
+      "value": 220,
+      "unit": "kW",
+      "basis": "Manufacturer peak on compatible DC infrastructure; not sustained",
+      "sourceIds": [
+        "ev-atto-evo"
+      ]
+    },
+    "chargeTime": "Configuration-specific charging-time evidence not verified.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 490,
+      "unit": "L",
+      "basis": "Manufacturer Premium rear-boot claim; standard unspecified; excludes 101 L frunk",
+      "sourceIds": [
+        "ev-atto-evo"
+      ]
+    },
+    "bootAllRows": {
+      "value": 490,
+      "unit": "L",
+      "basis": "Manufacturer Premium rear-boot claim; standard unspecified; excludes 101 L frunk",
+      "sourceIds": [
+        "ev-atto-evo"
+      ]
+    },
+    "length": {
+      "value": null,
+      "unit": "mm",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "width": {
+      "value": null,
+      "unit": "mm",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "towing": {
+      "value": null,
+      "unit": "kg",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "warranty": "Current Australian terms: 6 years / 150,000 km vehicle cover. Confirm applicable updated policy, original start date and remaining VIN-specific cover.",
+    "batteryWarranty": "Current handbook: power battery and drive unit 8 years / 160,000 km; 70% battery-retention threshold, conditions apply. Confirm applicability to this VIN.",
+    "servicing": "Confirm the EVO Premium handbook schedule; current general BYD guide uses 12 months / 20,000 km.",
+    "safety": {
+      "stars": null,
+      "year": null,
+      "applicability": "Rating applicability not verified for this configuration.",
+      "sourceIds": []
+    },
+    "familyFit": {
+      "status": "unverified",
+      "summary": "No matching Australian EVO Premium three-restraint test verified.",
+      "row2": "ISOFIX advertised; exact Australian anchor positions and permitted combinations need handbook confirmation.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "None verified for EVO Premium.",
+      "buckleAccess": "Confirm shoulders and all booster buckles with your seats fitted.",
+      "access": "Do not extrapolate the 2024 Atto 3 test to this rear-drive version.",
+      "ventilation": "Rear ventilation for Australian Premium not independently checked.",
+      "sourceIds": [
+        "ev-atto-evo"
+      ]
+    },
+    "pros": [
+      "Longer published range and higher DC peak than original Atto 3.",
+      "Additional front luggage space in manufacturer specification."
+    ],
+    "cons": [
+      "Above the target before on-road charges.",
+      "Restraint fit and long-term used evidence remain gaps."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty."
+    ],
+    "changes": [
+      {
+        "period": "2026 EVO",
+        "text": "Premium changes to rear-wheel drive, a larger battery and 800 V architecture; Dynamic remains a different front-drive configuration.",
+        "sourceIds": [
+          "ev-atto-evo"
+        ]
+      }
+    ],
+    "gaps": [
+      "EVO Dynamic is not yet separately populated.",
+      "Matching ANCAP applicability, anchor map, consumption, dimensions, towing and AC charging maximum still need verification."
+    ],
+    "sourceIds": [
+      "ev-atto-evo",
+      "ev-byd-warranty",
+      "ev-atto-evo-price",
+      "own-ev-byd-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev6-air-2022",
+    "familyId": "kia-ev6",
+    "make": "Kia",
+    "model": "EV6",
+    "variant": "Air RWD · 77.4 kWh",
+    "years": [
+      2022,
+      2023,
+      2024
+    ],
+    "generation": "Original Australian EV6",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "RWD",
+    "headline": "Fast-charge capability, careful buckle check",
+    "summary": "A useful used alternative. The published family test is in the GT-Line RWD, so trial the Air’s exact seat trim and buckle access.",
+    "range": {
+      "value": 528,
+      "unit": "km",
+      "basis": "WLTP combined Air RWD, 19-inch wheels",
+      "sourceIds": [
+        "ev-ev6-spec"
+      ]
+    },
+    "battery": {
+      "value": 77.4,
+      "unit": "kWh",
+      "basis": "Manufacturer battery energy; usable/gross split not stated",
+      "sourceIds": [
+        "ev-ev6-spec"
+      ]
+    },
+    "consumption": {
+      "value": 16.5,
+      "unit": "kWh/100km",
+      "basis": "WLTP combined; converted from 165 Wh/km",
+      "sourceIds": [
+        "ev-ev6-spec",
+        "ev-energy-method-wltp"
+      ],
+      "energyBasis": "wall"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": 10.5,
+      "unit": "kW",
+      "basis": "On-board AC maximum; three-phase required for maximum",
+      "sourceIds": [
+        "ev-ev6-spec"
+      ]
+    },
+    "dcCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "chargeTime": "Manufacturer: approximately 18 min, 10–80%, using suitable 350 kW infrastructure; this is not a 350 kW vehicle peak.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 490,
+      "unit": "L",
+      "basis": "VDA, rear seats up, Air RWD; excludes 52 L front storage",
+      "sourceIds": [
+        "ev-ev6-spec"
+      ]
+    },
+    "bootAllRows": {
+      "value": 490,
+      "unit": "L",
+      "basis": "VDA, rear seats up, Air RWD; excludes 52 L front storage",
+      "sourceIds": [
+        "ev-ev6-spec"
+      ]
+    },
+    "length": {
+      "value": 4680,
+      "unit": "mm",
+      "basis": "Air overall length; GT-Line differs",
+      "sourceIds": [
+        "ev-ev6-spec"
+      ]
+    },
+    "width": {
+      "value": 1880,
+      "unit": "mm",
+      "basis": "Air body width; mirrors excluded",
+      "sourceIds": [
+        "ev-ev6-spec"
+      ]
+    },
+    "towing": {
+      "value": 1600,
+      "unit": "kg",
+      "basis": "MY24 manufacturer braked capacity; towbar and operating conditions apply",
+      "sourceIds": [
+        "ev-ev6-spec"
+      ]
+    },
+    "warranty": "7 years / unlimited km for eligible private-use vehicles; original terms and exclusions apply.",
+    "batteryWarranty": "Pre-MY27 HV capacity cover: 7 years / 150,000 km against capacity below 70%; terms apply.",
+    "servicing": "Obtain a written original-model service schedule and quote; servicing is separate from estimated energy costs.",
+    "safety": {
+      "stars": 5,
+      "year": 2022,
+      "applicability": "Australian EV6 non-GT variants; verify current rating applicability against VIN and body update.",
+      "sourceIds": [
+        "ev-ev6-ancap"
+      ]
+    },
+    "familyFit": {
+      "status": "unverified",
+      "summary": "Three restraints fitted in the 2022 GT-Line RWD test, with difficult centre buckle access; Air-specific confirmation pending.",
+      "row2": "GT-Line test: two outer ISOFIX and three rear top tethers; confirm Air handbook.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "Reference GT-Line RWD: InfaSecure Attain More and Achieve More rear-facing, Aspire More in the centre.",
+      "buckleAccess": "Test found the centre buckle awkward with three across; particularly relevant to boosters.",
+      "access": "Flat rear floor and generous reported legroom; still trial the exact Air seats.",
+      "ventilation": "Rear pillar vents in GT-Line test; verify Air equipment.",
+      "sourceIds": [
+        "ev-ev6-family"
+      ]
+    },
+    "pros": [
+      "Published WLTP efficiency and VDA luggage measurement.",
+      "Short manufacturer DC charging-time claim on suitable infrastructure."
+    ],
+    "cons": [
+      "Reference family test flags centre buckle access.",
+      "Air is not the exact trim used for the published three-seat trial."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty.",
+      "Check VIN completion of REC-006238 ICCU software recall; request documentation for any associated repair.",
+      "Test both AC and DC charging and inspect the auxiliary-battery history."
+    ],
+    "changes": [
+      {
+        "period": "2022–24",
+        "text": "This entry uses the original 77.4 kWh Air specification; cosmetic/feature running changes require inspection.",
+        "sourceIds": [
+          "ev-ev6-spec"
+        ]
+      }
+    ],
+    "gaps": [
+      "Later 84 kWh facelift EV6 is not included; original range/fit evidence must not be applied to it.",
+      "Manufacturer brochure gives charging-station power, not a verified vehicle DC peak; peak left blank."
+    ],
+    "sourceIds": [
+      "ev-ev6-spec",
+      "ev-ev6-family",
+      "ev-ev6-ancap",
+      "ev-kia-warranty",
+      "ev-kia-battery",
+      "ev-ev6-recall",
+      "ev-ev6-market"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev5-air-standard-2024",
+    "familyId": "kia-ev5",
+    "make": "Kia",
+    "model": "EV5",
+    "variant": "Air Standard Range",
+    "years": [
+      2024,
+      2025,
+      2026
+    ],
+    "generation": "First-generation Australian EV5",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "FWD",
+    "headline": "Upright family space; a tight seat trial",
+    "summary": "A practical shape with pillar vents and a published family test in the Earth AWD grade. That test was very tight, so Air-specific restraint confirmation is essential.",
+    "range": {
+      "value": 400,
+      "unit": "km",
+      "basis": "WLTP combined, Air FWD",
+      "sourceIds": [
+        "ev-ev5-spec",
+        "ev-ev5-launch"
+      ]
+    },
+    "battery": {
+      "value": 64.2,
+      "unit": "kWh",
+      "basis": "Published LFP pack energy; gross/usable split not stated",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "consumption": {
+      "value": 18.2,
+      "unit": "kWh/100km",
+      "basis": "MY26 WLTP combined; converted from Wh/km; verify earlier build approval",
+      "sourceIds": [
+        "ev-ev5-spec",
+        "ev-energy-method-wltp"
+      ],
+      "energyBasis": "wall"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": 6.6,
+      "unit": "kW",
+      "basis": "MY26 on-board maximum; LR three-phase, SR single-phase",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "dcCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "chargeTime": "MY26 manufacturer: about 36 min for 10–80% on suitable 350 kW infrastructure; verify earlier build specification.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 513,
+      "unit": "L",
+      "basis": "VDA rear luggage, rear seats up; excludes 67 L front storage",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "bootAllRows": {
+      "value": 513,
+      "unit": "L",
+      "basis": "VDA rear luggage, rear seats up; excludes 67 L front storage",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "length": {
+      "value": 4615,
+      "unit": "mm",
+      "basis": "Manufacturer overall length",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "width": {
+      "value": 1875,
+      "unit": "mm",
+      "basis": "Manufacturer body width",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "towing": {
+      "value": 300,
+      "unit": "kg",
+      "basis": "MY26 braked rating; do not apply LR rating to SR",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "warranty": "7 years / unlimited km eligible private-use vehicle cover; original terms apply.",
+    "batteryWarranty": "Pre-MY27 capacity warranty: 7 years / 150,000 km, capacity threshold 70%; confirm original terms.",
+    "servicing": "Ask Kia for the VIN-specific schedule, service-history printout and prepaid-plan quote.",
+    "safety": {
+      "stars": 5,
+      "year": 2024,
+      "applicability": "Australian EV5 variants on sale from October 2024; check the rating report for the exact build.",
+      "sourceIds": [
+        "ev-ev5-ancap"
+      ]
+    },
+    "familyFit": {
+      "status": "unverified",
+      "summary": "BabyDrive just fitted three restraints in 2025 Earth AWD; a very tight fit. This Air configuration has not been individually confirmed.",
+      "row2": "Air brochure: three rear top tethers and two outer ISOFIX positions.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "Reference Earth AWD test: three seats fitted; exact child-seat model names not provided in the article text.",
+      "buckleAccess": "No documented daily booster-buckle trial for your combination.",
+      "access": "Flat rear floor; repeat the full fit trial in the Air.",
+      "ventilation": "Second-row pillar air vents listed across Air grades.",
+      "sourceIds": [
+        "ev-ev5-family",
+        "ev-ev5-spec"
+      ]
+    },
+    "pros": [
+      "Useful VDA boot space with all seats available.",
+      "Rear pillar vents and flat floor."
+    ],
+    "cons": [
+      "Three-seat reference test was at the seat base’s limit.",
+      "Air trim differs from the independently tested Earth AWD."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty."
+    ],
+    "changes": [
+      {
+        "period": "2024 launch / MY25",
+        "text": "Australian launch Air range and pack sizes established; FWD Air differs from AWD Earth and GT-Line.",
+        "sourceIds": [
+          "ev-ev5-launch"
+        ]
+      },
+      {
+        "period": "MY26",
+        "text": "Shown charging time and efficiency follow the current MY26 brochure; verify earlier builds before relying on these figures.",
+        "sourceIds": [
+          "ev-ev5-spec"
+        ]
+      }
+    ],
+    "gaps": [
+      "Exact Air three-restraint combination is unverified; do not treat Earth test as a guarantee.",
+      "Peak DC input is not clearly specified in the matched brochure and remains blank.",
+      "Earlier-model charging-time applicability and individual equipment changes need VIN-level checking."
+    ],
+    "sourceIds": [
+      "ev-ev5-spec",
+      "ev-ev5-launch",
+      "ev-ev5-family",
+      "ev-ev5-ancap",
+      "ev-kia-warranty",
+      "ev-kia-battery",
+      "ev-ev5-sr-market"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev5-air-long-2024",
+    "familyId": "kia-ev5",
+    "make": "Kia",
+    "model": "EV5",
+    "variant": "Air Long Range",
+    "years": [
+      2024,
+      2025,
+      2026
+    ],
+    "generation": "First-generation Australian EV5",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "FWD",
+    "headline": "Upright family space; a tight seat trial",
+    "summary": "A practical shape with pillar vents and a published family test in the Earth AWD grade. That test was very tight, so Air-specific restraint confirmation is essential.",
+    "range": {
+      "value": 555,
+      "unit": "km",
+      "basis": "WLTP combined, Air FWD",
+      "sourceIds": [
+        "ev-ev5-spec",
+        "ev-ev5-launch"
+      ]
+    },
+    "battery": {
+      "value": 88.1,
+      "unit": "kWh",
+      "basis": "Published LFP pack energy; gross/usable split not stated",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "consumption": {
+      "value": 18.0,
+      "unit": "kWh/100km",
+      "basis": "MY26 WLTP combined; converted from Wh/km; verify earlier build approval",
+      "sourceIds": [
+        "ev-ev5-spec",
+        "ev-energy-method-wltp"
+      ],
+      "energyBasis": "wall"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": 11,
+      "unit": "kW",
+      "basis": "MY26 on-board maximum; LR three-phase, SR single-phase",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "dcCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "chargeTime": "MY26 manufacturer: about 38 min for 10–80% on suitable 350 kW infrastructure; verify earlier build specification.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 513,
+      "unit": "L",
+      "basis": "VDA rear luggage, rear seats up; excludes 67 L front storage",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "bootAllRows": {
+      "value": 513,
+      "unit": "L",
+      "basis": "VDA rear luggage, rear seats up; excludes 67 L front storage",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "length": {
+      "value": 4615,
+      "unit": "mm",
+      "basis": "Manufacturer overall length",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "width": {
+      "value": 1875,
+      "unit": "mm",
+      "basis": "Manufacturer body width",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "towing": {
+      "value": 1250,
+      "unit": "kg",
+      "basis": "MY26 braked rating; do not apply LR rating to SR",
+      "sourceIds": [
+        "ev-ev5-spec"
+      ]
+    },
+    "warranty": "7 years / unlimited km eligible private-use vehicle cover; original terms apply.",
+    "batteryWarranty": "Pre-MY27 capacity warranty: 7 years / 150,000 km, capacity threshold 70%; confirm original terms.",
+    "servicing": "Ask Kia for the VIN-specific schedule, service-history printout and prepaid-plan quote.",
+    "safety": {
+      "stars": 5,
+      "year": 2024,
+      "applicability": "Australian EV5 variants on sale from October 2024; check the rating report for the exact build.",
+      "sourceIds": [
+        "ev-ev5-ancap"
+      ]
+    },
+    "familyFit": {
+      "status": "unverified",
+      "summary": "BabyDrive just fitted three restraints in 2025 Earth AWD; a very tight fit. This Air configuration has not been individually confirmed.",
+      "row2": "Air brochure: three rear top tethers and two outer ISOFIX positions.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "Reference Earth AWD test: three seats fitted; exact child-seat model names not provided in the article text.",
+      "buckleAccess": "No documented daily booster-buckle trial for your combination.",
+      "access": "Flat rear floor; repeat the full fit trial in the Air.",
+      "ventilation": "Second-row pillar air vents listed across Air grades.",
+      "sourceIds": [
+        "ev-ev5-family",
+        "ev-ev5-spec"
+      ]
+    },
+    "pros": [
+      "Useful VDA boot space with all seats available.",
+      "Rear pillar vents and flat floor."
+    ],
+    "cons": [
+      "Three-seat reference test was at the seat base’s limit.",
+      "Air trim differs from the independently tested Earth AWD."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty."
+    ],
+    "changes": [
+      {
+        "period": "2024 launch / MY25",
+        "text": "Australian launch Air range and pack sizes established; FWD Air differs from AWD Earth and GT-Line.",
+        "sourceIds": [
+          "ev-ev5-launch"
+        ]
+      },
+      {
+        "period": "MY26",
+        "text": "Shown charging time and efficiency follow the current MY26 brochure; verify earlier builds before relying on these figures.",
+        "sourceIds": [
+          "ev-ev5-spec"
+        ]
+      }
+    ],
+    "gaps": [
+      "Exact Air three-restraint combination is unverified; do not treat Earth test as a guarantee.",
+      "Peak DC input is not clearly specified in the matched brochure and remains blank.",
+      "Earlier-model charging-time applicability and individual equipment changes need VIN-level checking."
+    ],
+    "sourceIds": [
+      "ev-ev5-spec",
+      "ev-ev5-launch",
+      "ev-ev5-family",
+      "ev-ev5-ancap",
+      "ev-kia-warranty",
+      "ev-kia-battery",
+      "ev-ev5-lr-market"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ioniq5-awd-2021",
+    "familyId": "hyundai-ioniq-5",
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "variant": "AWD / Techniq AWD · 72.6 kWh",
+    "years": [
+      2021,
+      2022
+    ],
+    "generation": "Original Ioniq 5 · 72.6 kWh",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "AWD",
+    "headline": "One of the stronger published seat trials",
+    "summary": "The original AWD family test documents named InfaSecure combinations. Keep its 72.6 kWh specification separate from later battery updates.",
+    "range": {
+      "value": 430,
+      "unit": "km",
+      "basis": "WLTP combined AWD claim; not the later larger-battery versions",
+      "sourceIds": [
+        "ev-ioniq-old-spec",
+        "ev-ioniq-launch-spec"
+      ]
+    },
+    "battery": {
+      "value": 72.6,
+      "unit": "kWh",
+      "basis": "Manufacturer battery capacity; usable/gross split not stated",
+      "sourceIds": [
+        "ev-ioniq-old-spec",
+        "ev-ioniq-launch-spec"
+      ]
+    },
+    "consumption": {
+      "value": 19.0,
+      "unit": "kWh/100km",
+      "basis": "WLTP combined 72.6 kWh Techniq AWD",
+      "sourceIds": [
+        "ev-ioniq-old-spec",
+        "ev-ioniq-launch-spec",
+        "ev-energy-method-wltp"
+      ],
+      "energyBasis": "wall"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": 10.5,
+      "unit": "kW",
+      "basis": "Manufacturer onboard three-phase AC maximum",
+      "sourceIds": [
+        "ev-ioniq-old-spec",
+        "ev-ioniq-launch-spec"
+      ]
+    },
+    "dcCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "chargeTime": "Manufacturer Australian release: 10–80% in about 18 min on suitable 350 kW infrastructure; charger rating is not vehicle DC peak.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 527,
+      "unit": "L",
+      "basis": "July 2022 manufacturer VDA minimum rear cargo; sliding rear-seat position affects usable space",
+      "sourceIds": [
+        "ev-ioniq-old-spec",
+        "ev-ioniq-launch-spec"
+      ]
+    },
+    "bootAllRows": {
+      "value": 527,
+      "unit": "L",
+      "basis": "July 2022 manufacturer VDA minimum rear cargo; sliding rear-seat position affects usable space",
+      "sourceIds": [
+        "ev-ioniq-old-spec",
+        "ev-ioniq-launch-spec"
+      ]
+    },
+    "length": {
+      "value": 4635,
+      "unit": "mm",
+      "basis": "Manufacturer overall length",
+      "sourceIds": [
+        "ev-ioniq-old-spec",
+        "ev-ioniq-launch-spec"
+      ]
+    },
+    "width": {
+      "value": 1890,
+      "unit": "mm",
+      "basis": "Manufacturer body width",
+      "sourceIds": [
+        "ev-ioniq-old-spec",
+        "ev-ioniq-launch-spec"
+      ]
+    },
+    "towing": {
+      "value": 1600,
+      "unit": "kg",
+      "basis": "Manufacturer braked towing subject to towbar and operating limits",
+      "sourceIds": [
+        "ev-ioniq-old-spec",
+        "ev-ioniq-launch-spec"
+      ]
+    },
+    "warranty": "Original 5 years / unlimited km; remaining cover depends on first registration and original terms.",
+    "batteryWarranty": "Original 8 years / 160,000 km high-voltage battery warranty; confirm remaining coverage.",
+    "servicing": "Obtain original VIN-specific service schedule; verify coolant and auxiliary-battery history rather than assuming current-model intervals.",
+    "safety": {
+      "stars": 5,
+      "year": 2021,
+      "applicability": "Australian Ioniq 5 covered by 2021 report; Ioniq 5 N excluded.",
+      "sourceIds": [
+        "ev-ioniq-ancap"
+      ]
+    },
+    "familyFit": {
+      "status": "tested-three",
+      "summary": "BabyDrive’s 2022 AWD test fitted named three-restraint combinations; your exact three-forward-facing/booster arrangement is still pending.",
+      "row2": "Two outer ISOFIX and three rear-backrest top tethers.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "Two InfaSecure Attain More with an Achieve More centre seat; article also discusses forward- and rear-facing Achieve More / Attain More combinations.",
+      "buckleAccess": "Specific booster buckle access is not established by the harnessed-seat trial.",
+      "access": "Flat floor and sliding rear bench help allocate legroom; trial boot space in the final bench position.",
+      "ventilation": "Rear pillar air vents in the independently tested AWD.",
+      "sourceIds": [
+        "ev-ioniq-family"
+      ]
+    },
+    "pros": [
+      "Named three-restraint evidence in an AWD test.",
+      "Sliding rear bench offers useful legroom flexibility."
+    ],
+    "cons": [
+      "Sliding seats trade luggage room against passenger room.",
+      "Used-car ICCU campaign completion needs verification."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty.",
+      "Check VIN eligibility and completion of current Australian ICCU recall REC-006224, which supersedes REC-005942, and any later campaigns.",
+      "Test AC/DC charging and inspect auxiliary-battery and scheduled-coolant records."
+    ],
+    "changes": [
+      {
+        "period": "2022",
+        "text": "Techniq naming uses the original AWD battery; the RWD Dynamiq wheel/range change is not this AWD entry.",
+        "sourceIds": [
+          "ev-ioniq-old-release"
+        ]
+      },
+      {
+        "period": "Later battery updates",
+        "text": "Do not apply this 72.6 kWh specification to 77.4 kWh MY23–24 or the later 84 kWh refresh.",
+        "sourceIds": [
+          "ev-ioniq-new-spec"
+        ]
+      }
+    ],
+    "gaps": [
+      "Original launch versus Techniq equipment changes require inspection of the listed car.",
+      "2023–24 77.4 kWh configurations not yet populated.",
+      "Vehicle peak DC input is not separated from charger power in the old brochure and remains blank."
+    ],
+    "sourceIds": [
+      "ev-ioniq-old-spec",
+      "ev-ioniq-old-release",
+      "ev-ioniq-family",
+      "ev-ioniq-ancap",
+      "ev-ioniq-recall",
+      "ev-ioniq-launch-spec",
+      "ev-ioniq-old-market",
+      "ev-ioniq-old-market-basis",
+      "own-ev-hyundai-recall"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ioniq5-rwd-84-2025",
+    "familyId": "hyundai-ioniq-5",
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "variant": "RWD 84 kWh · 19-inch wheels",
+    "years": [
+      2025,
+      2026
+    ],
+    "generation": "Refreshed Ioniq 5 · 84 kWh",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "RWD",
+    "headline": "Longer-range contemporary benchmark",
+    "summary": "The 84 kWh RWD reference gives a useful new-car benchmark. Its changed cabin must receive its own restraint trial.",
+    "range": {
+      "value": 570,
+      "unit": "km",
+      "basis": "WLTP combined, RWD 19-inch wheel variant only; 20-inch Elite is 530 km",
+      "sourceIds": [
+        "ev-ioniq-new-spec"
+      ]
+    },
+    "battery": {
+      "value": 84,
+      "unit": "kWh",
+      "basis": "Manufacturer capacity; gross/usable split not specified",
+      "sourceIds": [
+        "ev-ioniq-new-spec"
+      ]
+    },
+    "consumption": {
+      "value": 16.04,
+      "unit": "kWh/100km",
+      "basis": "MY26 WLTP combined 19-inch RWD; 20-inch Elite differs",
+      "sourceIds": [
+        "ev-ioniq-new-spec",
+        "ev-energy-method-wltp"
+      ],
+      "energyBasis": "wall"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": 10.5,
+      "unit": "kW",
+      "basis": "Manufacturer onboard maximum, three-phase",
+      "sourceIds": [
+        "ev-ioniq-new-spec"
+      ]
+    },
+    "dcCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "chargeTime": "Manufacturer: about 18 min, 10–80%, with suitable 350 kW ultra-fast infrastructure; about 10 h 50 min, 10–100%, at 7 kW AC.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 520,
+      "unit": "L",
+      "basis": "VDA minimum rear luggage; excludes 57 L RWD front luggage",
+      "sourceIds": [
+        "ev-ioniq-new-spec"
+      ]
+    },
+    "bootAllRows": {
+      "value": 520,
+      "unit": "L",
+      "basis": "VDA minimum rear luggage; excludes 57 L RWD front luggage",
+      "sourceIds": [
+        "ev-ioniq-new-spec"
+      ]
+    },
+    "length": {
+      "value": 4655,
+      "unit": "mm",
+      "basis": "Refreshed manufacturer overall length",
+      "sourceIds": [
+        "ev-ioniq-new-spec"
+      ]
+    },
+    "width": {
+      "value": 1890,
+      "unit": "mm",
+      "basis": "Manufacturer body width",
+      "sourceIds": [
+        "ev-ioniq-new-spec"
+      ]
+    },
+    "towing": {
+      "value": 1600,
+      "unit": "kg",
+      "basis": "Manufacturer braked towing rating; subject to conditions",
+      "sourceIds": [
+        "ev-ioniq-new-spec"
+      ]
+    },
+    "warranty": "5-year base cover; eligible vehicles first registered from 1 June 2025 can reach 7 years / unlimited km when scheduled services meet Hyundai dealer conditions. Verify original terms.",
+    "batteryWarranty": "Confirm original high-voltage battery terms and remaining cover for the exact registration date.",
+    "servicing": "Obtain the exact model-year schedule and quote; dealer-service conditions matter for the conditional longer vehicle warranty.",
+    "safety": {
+      "stars": null,
+      "year": null,
+      "applicability": "Rating applicability not verified for this configuration.",
+      "sourceIds": []
+    },
+    "familyFit": {
+      "status": "unverified",
+      "summary": "Original AWD family test is context only; no matching refreshed 84 kWh RWD restraint combination verified.",
+      "row2": "Verify anchor map in the refreshed Australian owner manual.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "No matching refresh-specific three-restraint test verified.",
+      "buckleAccess": "Test your three boosters/harnessed seats and every buckle.",
+      "access": "Confirm the final sliding-bench position still holds your pram.",
+      "ventilation": "Check rear pillar vents and airflow in the listed grade.",
+      "sourceIds": [
+        "ev-ioniq-family",
+        "ev-ioniq-new-spec"
+      ]
+    },
+    "pros": [
+      "Long WLTP range on the specified 19-inch configuration.",
+      "Published VDA boot measure and efficiency."
+    ],
+    "cons": [
+      "New-car price is a benchmark above target.",
+      "Wheel/grade changes materially affect the range claim."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty."
+    ],
+    "changes": [
+      {
+        "period": "84 kWh refresh",
+        "text": "Larger battery and changed body dimensions; keep separate from earlier 72.6/77.4 kWh specifications.",
+        "sourceIds": [
+          "ev-ioniq-new-spec"
+        ]
+      }
+    ],
+    "gaps": [
+      "Refresh-specific restraint and ANCAP applicability have not been independently matched; rating left blank.",
+      "MY25 versus MY26 grade names need checking: this entry uses the MY26 19-inch RWD specification.",
+      "Peak vehicle DC input remains unverified; the 350 kW charging-station rating is not used as a vehicle peak."
+    ],
+    "sourceIds": [
+      "ev-ioniq-new-spec",
+      "ev-hyundai-warranty",
+      "ev-ioniq-family",
+      "ev-ioniq-new-market",
+      "own-ev-hyundai-recall"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "zeekr7x-rwd-2025",
+    "familyId": "zeekr-7x",
+    "make": "Zeekr",
+    "model": "7X",
+    "variant": "RWD",
+    "years": [
+      2025,
+      2026
+    ],
+    "generation": "First-generation Australian 7X",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "RWD",
+    "headline": "A fast-charging benchmark",
+    "summary": "A newer Australian-market alternative with rapid manufacturer charging claims. Anchor count alone does not establish a three-seat fit.",
+    "range": {
+      "value": 480,
+      "unit": "km",
+      "basis": "Australian manufacturer WLTP target range; brochure labels it target, not an observed road result",
+      "sourceIds": [
+        "ev-zeekr-spec"
+      ]
+    },
+    "battery": {
+      "value": 75,
+      "unit": "kWh",
+      "basis": "Manufacturer nominal pack; NCM on Long Range, LFP on RWD; usable capacity not specified",
+      "sourceIds": [
+        "ev-zeekr-spec"
+      ]
+    },
+    "consumption": {
+      "value": null,
+      "unit": "kWh/100km",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": [],
+      "energyBasis": "unspecified"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": 22,
+      "unit": "kW",
+      "basis": "Manufacturer onboard maximum; compatible three-phase supply needed",
+      "sourceIds": [
+        "ev-zeekr-spec"
+      ]
+    },
+    "dcCharging": {
+      "value": 450,
+      "unit": "kW",
+      "basis": "Manufacturer DC capability on suitable infrastructure; peak is conditional",
+      "sourceIds": [
+        "ev-zeekr-spec"
+      ]
+    },
+    "chargeTime": "Manufacturer best-case 10–80%: 13 min; compatible high-power equipment, battery temperature and starting conditions matter.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 539,
+      "unit": "L",
+      "basis": "Australian review reports rear cargo seats up; measurement standard unspecified; do not compare directly with VDA values",
+      "sourceIds": [
+        "ev-zeekr-boot"
+      ]
+    },
+    "bootAllRows": {
+      "value": 539,
+      "unit": "L",
+      "basis": "Australian review reports rear cargo seats up; measurement standard unspecified; do not compare directly with VDA values",
+      "sourceIds": [
+        "ev-zeekr-boot"
+      ]
+    },
+    "length": {
+      "value": 4787,
+      "unit": "mm",
+      "basis": "Manufacturer overall length",
+      "sourceIds": [
+        "ev-zeekr-spec"
+      ]
+    },
+    "width": {
+      "value": 1930,
+      "unit": "mm",
+      "basis": "Manufacturer body width, mirrors excluded",
+      "sourceIds": [
+        "ev-zeekr-spec"
+      ]
+    },
+    "towing": {
+      "value": null,
+      "unit": "kg",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "warranty": "5 years / unlimited km basic vehicle cover; exclusions apply.",
+    "batteryWarranty": "8 years / 160,000 km; confirm capacity threshold and original terms.",
+    "servicing": "Obtain the local VIN-specific maintenance schedule and written quote; no fixed service cost assumed.",
+    "safety": {
+      "stars": 5,
+      "year": 2025,
+      "applicability": "Australian/New Zealand 7X introduced September 2025; ANCAP says all variants.",
+      "sourceIds": [
+        "ev-zeekr-ancap"
+      ]
+    },
+    "familyFit": {
+      "status": "unverified",
+      "summary": "No exact Australian three-restraint family test was verified.",
+      "row2": "ANCAP: ISOFIX on both outer rear seats and top tethers at all three rear positions. Multiple restraints were not assessed together.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "No matching independent three-across combination verified.",
+      "buckleAccess": "Trial booster buckle access and shoulder room; width alone is insufficient.",
+      "access": "Check door opening, rear-bench shape and loading all three children.",
+      "ventilation": "Australian review reports three-zone climate; verify grade-specific outlets and airflow.",
+      "sourceIds": [
+        "ev-zeekr-review",
+        "ev-zeekr-ancap",
+        "ev-zeekr-anchor-report"
+      ]
+    },
+    "pros": [
+      "Manufacturer 22 kW AC capability with the right home supply.",
+      "Rapid conditional DC charging-time claim."
+    ],
+    "cons": [
+      "New-car pricing sits above the target.",
+      "Three-restraint fit remains unverified."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty."
+    ],
+    "changes": [
+      {
+        "period": "2025 Australian launch",
+        "text": "Use the Australian specification; later China-market updates are not assumed to apply.",
+        "sourceIds": [
+          "ev-zeekr-spec"
+        ]
+      }
+    ],
+    "gaps": [
+      "No independent three-forward-facing/booster trial or rated consumption verified.",
+      "Rear-boot measurement method, towing and VIN-specific servicing cost remain unverified.",
+      "Manufacturer brochure calls range a WLTP target; confirm final approval for the listed car."
+    ],
+    "sourceIds": [
+      "ev-zeekr-spec",
+      "ev-zeekr-model",
+      "ev-zeekr-ancap",
+      "ev-zeekr-review",
+      "ev-zeekr-price",
+      "ev-zeekr-boot",
+      "ev-zeekr-anchor-report"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "zeekr7x-long-range-2025",
+    "familyId": "zeekr-7x",
+    "make": "Zeekr",
+    "model": "7X",
+    "variant": "Long Range RWD",
+    "years": [
+      2025,
+      2026
+    ],
+    "generation": "First-generation Australian 7X",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "RWD",
+    "headline": "A newer long-range benchmark",
+    "summary": "A newer Australian-market alternative with rapid manufacturer charging claims. Anchor count alone does not establish a three-seat fit.",
+    "range": {
+      "value": 615,
+      "unit": "km",
+      "basis": "Australian manufacturer WLTP target range; brochure labels it target, not an observed road result",
+      "sourceIds": [
+        "ev-zeekr-spec"
+      ]
+    },
+    "battery": {
+      "value": 100,
+      "unit": "kWh",
+      "basis": "Manufacturer nominal pack; NCM on Long Range, LFP on RWD; usable capacity not specified",
+      "sourceIds": [
+        "ev-zeekr-spec"
+      ]
+    },
+    "consumption": {
+      "value": null,
+      "unit": "kWh/100km",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": [],
+      "energyBasis": "unspecified"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": 22,
+      "unit": "kW",
+      "basis": "Manufacturer onboard maximum; compatible three-phase supply needed",
+      "sourceIds": [
+        "ev-zeekr-spec"
+      ]
+    },
+    "dcCharging": {
+      "value": 420,
+      "unit": "kW",
+      "basis": "Manufacturer DC capability on suitable infrastructure; peak is conditional",
+      "sourceIds": [
+        "ev-zeekr-spec"
+      ]
+    },
+    "chargeTime": "Manufacturer best-case 10–80%: 16 min; compatible high-power equipment, battery temperature and starting conditions matter.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 539,
+      "unit": "L",
+      "basis": "Australian review reports rear cargo seats up; measurement standard unspecified; do not compare directly with VDA values",
+      "sourceIds": [
+        "ev-zeekr-boot"
+      ]
+    },
+    "bootAllRows": {
+      "value": 539,
+      "unit": "L",
+      "basis": "Australian review reports rear cargo seats up; measurement standard unspecified; do not compare directly with VDA values",
+      "sourceIds": [
+        "ev-zeekr-boot"
+      ]
+    },
+    "length": {
+      "value": 4787,
+      "unit": "mm",
+      "basis": "Manufacturer overall length",
+      "sourceIds": [
+        "ev-zeekr-spec"
+      ]
+    },
+    "width": {
+      "value": 1930,
+      "unit": "mm",
+      "basis": "Manufacturer body width, mirrors excluded",
+      "sourceIds": [
+        "ev-zeekr-spec"
+      ]
+    },
+    "towing": {
+      "value": null,
+      "unit": "kg",
+      "basis": "Not verified for this Australian configuration",
+      "sourceIds": []
+    },
+    "warranty": "5 years / unlimited km basic vehicle cover; exclusions apply.",
+    "batteryWarranty": "8 years / 160,000 km; confirm capacity threshold and original terms.",
+    "servicing": "Obtain the local VIN-specific maintenance schedule and written quote; no fixed service cost assumed.",
+    "safety": {
+      "stars": 5,
+      "year": 2025,
+      "applicability": "Australian/New Zealand 7X introduced September 2025; ANCAP says all variants.",
+      "sourceIds": [
+        "ev-zeekr-ancap"
+      ]
+    },
+    "familyFit": {
+      "status": "unverified",
+      "summary": "No exact Australian three-restraint family test was verified.",
+      "row2": "ANCAP: ISOFIX on both outer rear seats and top tethers at all three rear positions. Multiple restraints were not assessed together.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "No matching independent three-across combination verified.",
+      "buckleAccess": "Trial booster buckle access and shoulder room; width alone is insufficient.",
+      "access": "Check door opening, rear-bench shape and loading all three children.",
+      "ventilation": "Australian review reports three-zone climate; verify grade-specific outlets and airflow.",
+      "sourceIds": [
+        "ev-zeekr-review",
+        "ev-zeekr-ancap",
+        "ev-zeekr-anchor-report"
+      ]
+    },
+    "pros": [
+      "Manufacturer 22 kW AC capability with the right home supply.",
+      "Rapid conditional DC charging-time claim."
+    ],
+    "cons": [
+      "New-car pricing sits above the target.",
+      "Three-restraint fit remains unverified."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty."
+    ],
+    "changes": [
+      {
+        "period": "2025 Australian launch",
+        "text": "Use the Australian specification; later China-market updates are not assumed to apply.",
+        "sourceIds": [
+          "ev-zeekr-spec"
+        ]
+      }
+    ],
+    "gaps": [
+      "No independent three-forward-facing/booster trial or rated consumption verified.",
+      "Rear-boot measurement method, towing and VIN-specific servicing cost remain unverified.",
+      "Manufacturer brochure calls range a WLTP target; confirm final approval for the listed car."
+    ],
+    "sourceIds": [
+      "ev-zeekr-spec",
+      "ev-zeekr-model",
+      "ev-zeekr-ancap",
+      "ev-zeekr-review",
+      "ev-zeekr-price",
+      "ev-zeekr-boot",
+      "ev-zeekr-anchor-report"
+    ],
+    "checked": "2026-10-18"
+  }
+]

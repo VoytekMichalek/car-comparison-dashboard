@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ownreview-ev-model-y",
+    "title": "Tesla Model Y — Australian mixed-contributor model reviews",
+    "url": "https://www.productreview.com.au/listings/tesla-model-y",
+    "publisher": "ProductReview.com.au",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ownreview-ev-atto-3",
+    "title": "BYD Atto 3 — Australian mixed-year model reviews",
+    "url": "https://www.productreview.com.au/listings/byd-atto-3",
+    "publisher": "ProductReview.com.au",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ownreview-ev-ev6",
+    "title": "Kia EV6 — Australian mixed-contributor model reviews",
+    "url": "https://www.productreview.com.au/listings/kia-ev6",
+    "publisher": "ProductReview.com.au",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ownreview-ev-ev5",
+    "title": "Kia EV5 — single Australian purchase-experience review",
+    "url": "https://www.productreview.com.au/listings/kia-ev5",
+    "publisher": "ProductReview.com.au",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ownreview-ev-ioniq-5",
+    "title": "Hyundai IONIQ 5 — Australian mixed-contributor model reviews",
+    "url": "https://www.productreview.com.au/listings/hyundai-ioniq-5",
+    "publisher": "ProductReview.com.au",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ownreview-ev-zeekr-context",
+    "title": "Zeekr — mixed brand/dealer page; not a 7X-only rating",
+    "url": "https://www.productreview.com.au/listings/zeekr",
+    "publisher": "ProductReview.com.au",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ownreview-ev-ev6-air",
+    "title": "EV6 CV RWD Air: 4.0/5 from two contributions",
+    "url": "https://www.productreview.com.au/listings/kia-ev6-rwd-air",
+    "publisher": "ProductReview.com.au",
+    "kind": "review",
+    "checked": "2026-10-18"
+  }
+]

@@ -1,0 +1,329 @@
+[
+  {
+    "vehicleId": "model-y-rwd-2022",
+    "point": 1800,
+    "low": 700,
+    "high": 2000,
+    "confidence": "low",
+    "basis": "Published planning default: A$1,800/year for the original Model Y RWD repair fund. Older original Model Y: four-year/80,000-km basic cover can expire well before battery cover. Allow for paid suspension, thermal-system and electrical diagnosis as the car ages. Savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-tesla-warranty",
+      "own-ev-tesla-historic",
+      "repair-tesla-upper-arms-au"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "model-y-long-range-2023",
+    "point": 1400,
+    "low": 800,
+    "high": 2300,
+    "confidence": "low",
+    "basis": "Older dual-motor Model Y: short basic cover, a second drive unit and potentially large thermal/electrical bills justify a larger cash buffer; this does not claim more frequent failures. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-tesla-warranty",
+      "own-ev-tesla-historic",
+      "repair-tesla-upper-arms-au"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "model-y-rwd-juniper-2025",
+    "point": 800,
+    "low": 450,
+    "high": 1600,
+    "confidence": "low",
+    "basis": "Newer Juniper has more remaining cover than the original used car. Delivery-date terms differ: 2025 four-year/80,000-km versus eligible 2026 five-year/unlimited basic cover. Post-warranty costs are uncertain. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-tesla-warranty",
+      "own-ev-tesla-historic",
+      "own-ev-tesla-maintenance"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "atto3-standard-2022",
+    "point": 650,
+    "low": 350,
+    "high": 1300,
+    "confidence": "low",
+    "basis": "Original Atto 3 is ageing towards warranty limits; some electrical/accessory items have shorter terms than the headline vehicle warranty. Reserve for uncovered component and diagnostic work. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-byd-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "atto3-extended-2022",
+    "point": 650,
+    "low": 350,
+    "high": 1300,
+    "confidence": "low",
+    "basis": "Same original-generation repair allowance as Standard Range. There is insufficient evidence to price a different failure frequency merely from battery size. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-byd-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "atto3-essential-2025",
+    "point": 550,
+    "low": 300,
+    "high": 1150,
+    "confidence": "low",
+    "basis": "Younger original-platform Essential generally retains more vehicle cover. Shorter component terms, wear and future post-warranty repairs still require a buffer. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-byd-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "atto3-evo-premium-2026",
+    "point": 650,
+    "low": 350,
+    "high": 1500,
+    "confidence": "low",
+    "basis": "New rear-drive EVO architecture has little Australian long-term repair evidence. Warranty limits early exposure; the broad buffer reflects unknown parts and post-cover costs, not a measured defect rate. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-byd-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "ev6-air-2022",
+    "point": 1000,
+    "low": 550,
+    "high": 1900,
+    "confidence": "low",
+    "basis": "Original used EV6: seven-year cover has time/km limits for HV components. ICCU recall remedies may be free; paid electronic and thermal repairs are relevant only if no cover or other remedy applies. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-kia-warranty",
+      "own-ev-kia-terms",
+      "own-ev-kia-plan"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "ev5-air-standard-2024",
+    "point": 650,
+    "low": 350,
+    "high": 1400,
+    "confidence": "low",
+    "basis": "Relatively young EV5 with long vehicle cover but separate HV terms. Australian long-term paid-repair evidence is limited; use a broad post-cover contingency. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-kia-warranty",
+      "own-ev-kia-terms",
+      "own-ev-kia-plan"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "ev5-air-long-2024",
+    "point": 650,
+    "low": 350,
+    "high": 1400,
+    "confidence": "low",
+    "basis": "Same EV5 Air contingency as Standard Range. Listed used examples have roughly 46,000–55,000 km, so confirm remaining kilometre-limited HV cover and prior use. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-kia-warranty",
+      "own-ev-kia-terms",
+      "own-ev-kia-plan"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "ioniq5-awd-2021",
+    "point": 1200,
+    "low": 650,
+    "high": 2300,
+    "confidence": "low",
+    "basis": "Early AWD Ioniq 5 is near the original five-year basic-warranty limit. Reserve for uncovered thermal/electrical or chassis work; confirm ICCU recall and any component extension before treating it as payable. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-hyundai-warranty",
+      "own-ev-hyundai-terms"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "ioniq5-rwd-84-2025",
+    "point": 700,
+    "low": 350,
+    "high": 1500,
+    "confidence": "low",
+    "basis": "Newer RWD has more remaining cover; eligible post-June-2025 cars can receive a service-conditional extension. Keep a post-cover electrical/thermal contingency. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-hyundai-warranty",
+      "own-ev-hyundai-terms"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "zeekr7x-rwd-2025",
+    "point": 900,
+    "low": 450,
+    "high": 2000,
+    "confidence": "low",
+    "basis": "Young car with warranty protection, but limited Australian long-term repair prices and a developing support network. Larger uncertainty buffer; not evidence of poor reliability. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-zeekr-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "zeekr7x-long-range-2025",
+    "point": 900,
+    "low": 450,
+    "high": 2000,
+    "confidence": "low",
+    "basis": "Same RWD-platform contingency as the standard battery. Insufficient evidence supports a different annual failure cost from battery capacity alone. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-ev-zeekr-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "outlander-phev-aspire-20",
+    "point": 850,
+    "low": 450,
+    "high": 1700,
+    "confidence": "low",
+    "basis": "Used PHEV has petrol and electric systems. Ten-year vehicle cover depends on service eligibility; battery cover is separate. Verify the actual service history and exclusions. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-hy-mitsubishi-warranty",
+      "own-hy-mitsubishi-capacity",
+      "own-hy-mitsubishi-maintenance"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "outlander-phev-aspire-227",
+    "point": 650,
+    "low": 350,
+    "high": 1400,
+    "confidence": "low",
+    "basis": "Newer PHEV with substantial conditional vehicle cover. Keep a wear and post-cover buffer; do not assume ten-year battery cover or zero repair costs. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-hy-mitsubishi-warranty",
+      "own-hy-mitsubishi-capacity",
+      "own-hy-mitsubishi-maintenance"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "sealion6-dynamic-183",
+    "point": 650,
+    "low": 350,
+    "high": 1400,
+    "confidence": "low",
+    "basis": "Used plug-in hybrid: separate engine, battery and electronics exposures, shorter component terms and limited long-term Australian repair pricing. Budget remains provisional. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-hy-byd-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "sealion6-dynamic-extended",
+    "point": 600,
+    "low": 300,
+    "high": 1400,
+    "confidence": "low",
+    "basis": "Newer plug-in hybrid retains more warranty. Post-cover battery and engine repair costs are uncertain; no measured failure rate is assumed. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-hy-byd-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "xtrail-ti-epower-awd",
+    "point": 850,
+    "low": 450,
+    "high": 1700,
+    "confidence": "low",
+    "basis": "Earlier used dual-motor e-Power: verify eligibility for service-activated extended cover. Engine/generator and HV systems can require diagnosis; battery capacity loss has different treatment from a defect. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-hy-nissan-warranty",
+      "own-hy-nissan-epower"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "xtrail-stl-epower-fwd-2026",
+    "point": 600,
+    "low": 300,
+    "high": 1300,
+    "confidence": "low",
+    "basis": "Newer single-driven-axle e-Power with potential service-activated cover. Reserve excludes free recalls and assumes covered defects are claimed first; post-cover prices remain uncertain. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-hy-nissan-warranty",
+      "own-hy-nissan-epower"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "rav4-gxl-hev-2021-25",
+    "point": 700,
+    "low": 350,
+    "high": 1400,
+    "confidence": "low",
+    "basis": "Older FWD hybrid: basic warranty may expire during ownership. Independent Australian hybrid-battery alternatives are documented; confirm chemistry/VIN and conditional extended battery cover. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-hy-toyota-warranty",
+      "own-hy-toyota-service-terms"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "rav4-gxl-hev-2026",
+    "point": 500,
+    "low": 250,
+    "high": 1150,
+    "confidence": "low",
+    "basis": "New-generation hybrid with more remaining basic cover. A lower early-life buffer is an age/cover assumption, not proof the new generation is more reliable. Long-term repair evidence is limited. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-hy-toyota-warranty",
+      "own-hy-toyota-service-terms"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "kluger-gx-hev-awd",
+    "point": 800,
+    "low": 400,
+    "high": 1600,
+    "confidence": "low",
+    "basis": "Older large AWD hybrid: allow for chassis/accessory work and hybrid-system diagnosis outside cover. Independent pack options exist, but exact generation and battery compatibility need confirmation. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-hy-toyota-warranty",
+      "own-hy-toyota-service-terms"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "sorento-gtline-hev-awd-2026",
+    "point": 650,
+    "low": 350,
+    "high": 1450,
+    "confidence": "low",
+    "basis": "Newer HEV with seven-year vehicle cover and separate HV limits. Reserve for uncovered components and later ownership; scheduled services are charged separately. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-hy-kia-warranty",
+      "own-hy-kia-battery-warranty",
+      "own-hy-kia-powertrain"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "sorento-phev-gtline-2021-23",
+    "point": 1100,
+    "low": 600,
+    "high": 2100,
+    "confidence": "low",
+    "basis": "Older turbo PHEV combines combustion and plug-in systems and is further through its seven-year/HV cover. Larger paid-component contingency once cover expires; not a measured failure rate. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "sourceIds": [
+      "own-hy-kia-warranty",
+      "own-hy-kia-battery-warranty",
+      "own-hy-kia-powertrain"
+    ],
+    "checked": "2026-10-18"
+  }
+]

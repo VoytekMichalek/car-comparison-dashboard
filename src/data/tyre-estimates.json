@@ -1,0 +1,407 @@
+[
+  {
+    "vehicleId": "model-y-rwd-2022",
+    "setCost": 1800,
+    "setLow": 1400,
+    "setHigh": 2500,
+    "lifeKm": 35000,
+    "lifeLowKm": 25000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "19-inch Tesla / performance-EV price class planning proxy for this configuration. Fitted-set budget A$1,800 (A$1,400–2,500); assumed life 35,000 km (25,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-prices",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "model-y-long-range-2023",
+    "setCost": 1800,
+    "setLow": 1400,
+    "setHigh": 2500,
+    "lifeKm": 35000,
+    "lifeLowKm": 25000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "19-inch Tesla / performance-EV price class planning proxy for this configuration. Fitted-set budget A$1,800 (A$1,400–2,500); assumed life 35,000 km (25,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-prices",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "model-y-rwd-juniper-2025",
+    "setCost": 1800,
+    "setLow": 1400,
+    "setHigh": 2500,
+    "lifeKm": 35000,
+    "lifeLowKm": 25000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "19-inch Tesla / performance-EV price class planning proxy for this configuration. Fitted-set budget A$1,800 (A$1,400–2,500); assumed life 35,000 km (25,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-prices",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "atto3-standard-2022",
+    "setCost": 1200,
+    "setLow": 900,
+    "setHigh": 1700,
+    "lifeKm": 40000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "18-inch compact-SUV price class planning proxy for this configuration. Fitted-set budget A$1,200 (A$900–1,700); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-18compact",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "atto3-extended-2022",
+    "setCost": 1200,
+    "setLow": 900,
+    "setHigh": 1700,
+    "lifeKm": 40000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "18-inch compact-SUV price class planning proxy for this configuration. Fitted-set budget A$1,200 (A$900–1,700); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-18compact",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "atto3-essential-2025",
+    "setCost": 1000,
+    "setLow": 700,
+    "setHigh": 1500,
+    "lifeKm": 40000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "Essential-specific factory size is 215/60 R17 in BYD’s 2025 Australian sheet, unlike Premium’s 18-inch fitment. A$1,000 fitted-set planning point (A$700–1,500), assumed life 40,000 km (30,000–50,000). Scaled down from the documented 18-inch retail price-class anchor; this is not a 17-inch fitted quote. Set cost and tyre life remain low-confidence assumptions; confirm actual placard, load/speed rating and fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "ev-atto-2025-spec",
+      "budget-tyre-18compact",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "atto3-evo-premium-2026",
+    "setCost": 1600,
+    "setLow": 1200,
+    "setHigh": 2300,
+    "lifeKm": 40000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "19-inch electric-SUV price class planning proxy for this configuration. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-19suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "ev6-air-2022",
+    "setCost": 1600,
+    "setLow": 1200,
+    "setHigh": 2300,
+    "lifeKm": 40000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "19-inch electric-SUV price class planning proxy for this configuration. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-19suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "ev5-air-standard-2024",
+    "setCost": 1400,
+    "setLow": 1000,
+    "setHigh": 1900,
+    "lifeKm": 40000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "18-inch electric-SUV price class planning proxy for this configuration. Fitted-set budget A$1,400 (A$1,000–1,900); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-18suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "ev5-air-long-2024",
+    "setCost": 1400,
+    "setLow": 1000,
+    "setHigh": 1900,
+    "lifeKm": 40000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "18-inch electric-SUV price class planning proxy for this configuration. Fitted-set budget A$1,400 (A$1,000–1,900); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-18suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "ioniq5-awd-2021",
+    "setCost": 1800,
+    "setLow": 1300,
+    "setHigh": 2600,
+    "lifeKm": 40000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "20-inch large-SUV price class planning proxy for this configuration. Fitted-set budget A$1,800 (A$1,300–2,600); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-20suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "ioniq5-rwd-84-2025",
+    "setCost": 1600,
+    "setLow": 1200,
+    "setHigh": 2300,
+    "lifeKm": 40000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "19-inch electric-SUV price class planning proxy for this configuration. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-19suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "zeekr7x-rwd-2025",
+    "setCost": 1600,
+    "setLow": 1200,
+    "setHigh": 2300,
+    "lifeKm": 35000,
+    "lifeLowKm": 25000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "19-inch electric-SUV price class: the Australian August2025 brochure specifies 19-inch wheels for RWD and LongRangeRWD; the AWD Performance's21-inch wheels are a different variant. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life35,000km (25,000–50,000). Annual allowance = set cost × your annual kilometres / life. JAX retail prices anchor the class; set price and service life remain dashboard assumptions, not a Zeekr fitted quote. Exact tyre dimensions/load rating are not established by the retailer reference; check the car's placard and local quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-zeekr7x-au",
+      "budget-tyre-19suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "zeekr7x-long-range-2025",
+    "setCost": 1600,
+    "setLow": 1200,
+    "setHigh": 2300,
+    "lifeKm": 35000,
+    "lifeLowKm": 25000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "19-inch electric-SUV price class: the Australian August2025 brochure specifies 19-inch wheels for RWD and LongRangeRWD; the AWD Performance's21-inch wheels are a different variant. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life35,000km (25,000–50,000). Annual allowance = set cost × your annual kilometres / life. JAX retail prices anchor the class; set price and service life remain dashboard assumptions, not a Zeekr fitted quote. Exact tyre dimensions/load rating are not established by the retailer reference; check the car's placard and local quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-zeekr7x-au",
+      "budget-tyre-19suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "outlander-phev-aspire-20",
+    "setCost": 1800,
+    "setLow": 1300,
+    "setHigh": 2600,
+    "lifeKm": 40000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "20-inch large-SUV price class planning proxy for this configuration. Fitted-set budget A$1,800 (A$1,300–2,600); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-20suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "outlander-phev-aspire-227",
+    "setCost": 1800,
+    "setLow": 1300,
+    "setHigh": 2600,
+    "lifeKm": 40000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "20-inch large-SUV price class planning proxy for this configuration. Fitted-set budget A$1,800 (A$1,300–2,600); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-20suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "sealion6-dynamic-183",
+    "setCost": 1600,
+    "setLow": 1200,
+    "setHigh": 2300,
+    "lifeKm": 40000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "19-inch family-SUV price class. The 2024 Australian handbook specifies 235/50R19; wheel size is evidenced for this original Dynamic. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. JAX retail prices anchor the price class; this set budget and service life remain dashboard assumptions, not a model-specific fitted quote. The reference retailer's different tyre size does not establish fitment. Confirm load/speed rating, actual wheels and local quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-sealion6-manual",
+      "budget-tyre-19suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "sealion6-dynamic-extended",
+    "setCost": 1600,
+    "setLow": 1200,
+    "setHigh": 2300,
+    "lifeKm": 40000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 50000,
+    "confidence": "low",
+    "basis": "19-inch family-SUV price class. The current Australian Dynamic Extended page specifies 19-inch wheels; confirm exact tyre dimensions on its placard. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. JAX retail prices anchor the price class; this set budget and service life remain dashboard assumptions, not a model-specific fitted quote. The reference retailer's different tyre size does not establish fitment. Confirm load/speed rating, actual wheels and local quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-sealion6-current",
+      "budget-tyre-19suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "xtrail-ti-epower-awd",
+    "setCost": 1600,
+    "setLow": 1100,
+    "setHigh": 2200,
+    "lifeKm": 45000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 55000,
+    "confidence": "low",
+    "basis": "19-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,600 (A$1,100–2,200); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-19suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "xtrail-stl-epower-fwd-2026",
+    "setCost": 1400,
+    "setLow": 1000,
+    "setHigh": 1900,
+    "lifeKm": 45000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 55000,
+    "confidence": "low",
+    "basis": "18-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,400 (A$1,000–1,900); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-18suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "rav4-gxl-hev-2021-25",
+    "setCost": 1400,
+    "setLow": 1000,
+    "setHigh": 1900,
+    "lifeKm": 45000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 55000,
+    "confidence": "low",
+    "basis": "18-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,400 (A$1,000–1,900); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-18suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "rav4-gxl-hev-2026",
+    "setCost": 1400,
+    "setLow": 1000,
+    "setHigh": 1900,
+    "lifeKm": 45000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 55000,
+    "confidence": "low",
+    "basis": "18-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,400 (A$1,000–1,900); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-18suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "kluger-gx-hev-awd",
+    "setCost": 1400,
+    "setLow": 1000,
+    "setHigh": 1900,
+    "lifeKm": 45000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 55000,
+    "confidence": "low",
+    "basis": "18-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,400 (A$1,000–1,900); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-18suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "sorento-gtline-hev-awd-2026",
+    "setCost": 1600,
+    "setLow": 1100,
+    "setHigh": 2200,
+    "lifeKm": 45000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 55000,
+    "confidence": "low",
+    "basis": "19-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,600 (A$1,100–2,200); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-19suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "sorento-phev-gtline-2021-23",
+    "setCost": 1600,
+    "setLow": 1100,
+    "setHigh": 2200,
+    "lifeKm": 45000,
+    "lifeLowKm": 30000,
+    "lifeHighKm": 55000,
+    "confidence": "low",
+    "basis": "19-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,600 (A$1,100–2,200); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "sourceIds": [
+      "budget-tyre-19suv",
+      "budget-tyre-life"
+    ],
+    "checked": "2026-10-18"
+  }
+]

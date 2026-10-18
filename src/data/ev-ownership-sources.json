@@ -1,0 +1,306 @@
+[
+  {
+    "id": "own-ev-tesla-warranty",
+    "title": "Vehicle warranty — Australian coverage and delivery-date caveat",
+    "url": "https://www.tesla.com/en_AU/support/Vehicle-warranty",
+    "publisher": "Tesla Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-tesla-historic",
+    "title": "2023 Tesla Model Y RWD review — original Australian warranty",
+    "url": "https://www.carexpert.com.au/car-reviews/2023-tesla-model-y-rwd-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-tesla-maintenance",
+    "title": "Model Y 2020–2024 maintenance service intervals",
+    "url": "https://www.tesla.com/ownersmanual/2020_2024_modely/en_au/GUID-E95DAAD9-646E-4249-9930-B109ED7B1D91.html",
+    "publisher": "Tesla",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-tesla-recall",
+    "title": "REC-006300 — Model 3 / Model Y 2022–2023 steering-assist software recall",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006300",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-tesla-repairer",
+    "title": "Independent Tesla high-voltage repair and replacement capability",
+    "url": "https://www.granddandenongautoservice.com.au/",
+    "publisher": "Grand Dandenong Auto Service",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-byd-warranty",
+    "title": "BYD Australian vehicle warranty handbook — 2026 edition",
+    "url": "https://bydautomotive.com.au/public/vehicle-warranty-2026.pdf",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-byd-update",
+    "title": "BYD simplifies warranty and backdates it to August 2022 deliveries",
+    "url": "https://www.carexpert.com.au/car-news/byd-cuts-strings-attached-to-its-new-car-warranty",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-byd-service",
+    "title": "Australian servicing and warranty guidance",
+    "url": "https://bydautomotive.com.au/service-and-warranty",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-byd-recall",
+    "title": "REC-005579 — 2022 Atto 3 child-restraint anchorage / airbag compliance recall",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005579",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-kia-prices",
+    "title": "Kia Australian EV prepaid service plan prices",
+    "url": "https://www.kia.com/au/owners/prepaid-servicing.html",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-kia-plan",
+    "title": "Prepaid servicing for passenger electric Kia vehicles — eligibility and inclusions",
+    "url": "https://www.kia.com/content/dam/kwcms/au/en/files/service/prepaid-servicing-for-ev-terms-and-conditions.pdf",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-kia-warranty",
+    "title": "Kia Australian seven-year warranty",
+    "url": "https://www.kia.com/au/owners/warranty.html/",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-kia-battery",
+    "title": "Kia Australian FAQ — high-voltage capacity and auxiliary battery warranty",
+    "url": "https://www.kia.com/au/util/faq.html",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-kia-recall",
+    "title": "REC-006238 — EV6 2021–2024 ICCU recall, superseding the earlier action",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006238",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-hyundai-warranty",
+    "title": "Hyundai Australian warranty and seven-year eligibility",
+    "url": "https://www.hyundai.com/au/en/owning/myhyundaicare/warranty.html",
+    "publisher": "Hyundai Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-hyundai-terms",
+    "title": "Hyundai Australian warranty terms and conditions — 2025",
+    "url": "https://www.hyundai.com/content/dam/hyundai/au/en/documents/2025/2025-Warranty-Terms-and-Conditions.pdf",
+    "publisher": "Hyundai Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-hyundai-recall",
+    "title": "REC-006224 — Ioniq 5 / Ioniq 6 2021–2024 ICCU recall, replacing REC-005942",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006224",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-zeekr-warranty",
+    "title": "ZEEKR Australian warranty policy",
+    "url": "https://zcms.zeekrlife.com/published/assets/69db768999ef6f7067b88de5729fc40de340be85193f2813f0cc4d4dcce3eac4/Australian-Warranty-Policy.pdf",
+    "publisher": "ZEEKR Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-zeekr-manual",
+    "title": "ZEEKR 7X Australian user manual — scheduled maintenance",
+    "url": "https://www.zeekr7xaustralia.com.au/info/Zeekr%207X%20User%20Manual%20Z7XA.pdf",
+    "publisher": "ZEEKR Australia / Australian dealer",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-kia-terms",
+    "title": "Kia Australian new-vehicle warranty terms — updated 20 August 2026",
+    "url": "https://www.kia.com/content/dam/kwcms/au/en/files/service/Kia-Warranty-terms-and-conditions.pdf",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-battery-ica",
+    "title": "Charging Ahead: Electric Vehicles & Insurance — general A$7,500–30,000 battery replacement guidance (May 2024)",
+    "url": "https://insurancecouncil.com.au/wp-content/uploads/2024/05/EV-Industry-Paper-final_-FINAL_MAY2024.pdf",
+    "publisher": "Insurance Council of Australia",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-battery-broker",
+    "title": "Australian EV insurance costs — general A$10,000–30,000+ battery replacement exposure (April 2026)",
+    "url": "https://nationalcover.com.au/cost-of-electric-car-insurance/",
+    "publisher": "National Cover Insurance",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-service-racq",
+    "title": "Maintaining an EV — general annual inspection benchmark A$200–400",
+    "url": "https://www.racq.com.au/articles/car-maintenance/maintaining-an-ev",
+    "publisher": "RACQ / NRMA",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-service-tesla",
+    "title": "Independent Tesla servicing — advertised from A$199",
+    "url": "https://rodz.com.au/services/tesla-service",
+    "publisher": "Rodz",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-service-atto-minor",
+    "title": "Atto 3 12-month service — dated supplied/fitted/GST-inclusive booking observations",
+    "url": "https://www.autoguru.com.au/car-service/byd/atto-3/20000-kms-12-months",
+    "publisher": "AutoGuru",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-service-byd-proxy",
+    "title": "Australian BYD dealer service table — Dolphin schedule used only as a stated Atto 3 major-service proxy",
+    "url": "https://evdealergroup-byd.com.au/service-and-warranty",
+    "publisher": "EV Dealer Group",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-service-ioniq",
+    "title": "Ioniq 5 48-month service — independent quotes and completed jobs, not full authorised-dealer schedule",
+    "url": "https://www.autoguru.com.au/car-service/hyundai/ioniq-5/60000-kms-48-months",
+    "publisher": "AutoGuru",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-service-ioniq-dealer",
+    "title": "2026 Ioniq 5 review — reported Australian manufacturer service table",
+    "url": "https://origin.carexpert.com.au/car-reviews/2026-hyundai-ioniq-5-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-service-zeekr",
+    "title": "Zeekr 7X launch service schedule — reproduced manufacturer pricing statement (September 2025)",
+    "url": "https://thedriven.io/2025/09/22/zeekr-7x-first-drive-a-beast-on-the-track-and-a-surprise-off-roader/",
+    "publisher": "The Driven / Zeekr Australia statement",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-suspension",
+    "title": "Australian repairer suspension guide — conventional front damper pair A$650–1,300 including labour (February 2026)",
+    "url": "https://www.autorepairperth.com.au/blog/cost-to-replace-shock-absorber-in-australia/",
+    "publisher": "Auto Repair Perth",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-ac",
+    "title": "Australian repairer compressor replacement guide — general A$1,000–2,500 installed benchmark (May 2026)",
+    "url": "https://coastalcoolair.com.au/car-ac-compressor-replacement-cost/",
+    "publisher": "Coastal Cool Air",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-glass",
+    "title": "Gold Coast windscreen specialist FAQ — general ADAS/HUD screen A$850–1,500",
+    "url": "https://premierwindscreens.com.au/faq/",
+    "publisher": "Premier Windscreens",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-brakes",
+    "title": "Brisbane workshop brake repair guide — parts, labour and repair scope",
+    "url": "https://www.cbdauto.com.au/brake-repair-cost-brisbane/",
+    "publisher": "CBD Auto",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-brakes-booking",
+    "title": "Australian front brake pads and rotors — general A$500–700+ benchmark",
+    "url": "https://www.autoguru.com.au/repairs/front-brake-pad-rotor-replacement",
+    "publisher": "AutoGuru",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-12v",
+    "title": "Australian supplied-and-installed SUV battery starting prices — class proxy, not EV5/7X fitment",
+    "url": "https://jss.sitecore.prod.svc.mynrma.com.au/roadside-assistance/car-batteries/wollongong",
+    "publisher": "NRMA",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-iccu-hyundai-us",
+    "title": "US first-party OEM ICCU part listing — overseas price/fitment proxy only, USD",
+    "url": "https://www.hyundaipartsdeal.com/parts-list/2022-hyundai-ioniq_5/motor/electronic_control.html",
+    "publisher": "HyundaiPartsDeal.com (United States)",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-est-iccu-kia-us",
+    "title": "US first-party OEM EV6 ICCU listing — overseas price/fitment proxy only, USD",
+    "url": "https://www.kia.parts/v-2024-kia-ev6--light-long-range--electric/electric-propulsion-system--cooling-system",
+    "publisher": "Kia.Parts Store (United States)",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-service-racq2024",
+    "title": "RACQ2024 vehicle operating costs —new-to-five-year servicing at15,000km/year",
+    "url": "https://www.racq.com.au/-/media/project/racqgroup/racq/articles/news/2024/11/racq-vehicle-operating-cost-report-2024/racq-vehicle-operating-cost-report-2024.pdf?rev=780cd7696cc24204b7141c01f643b7ad",
+    "publisher": "RACQ",
+    "kind": "market",
+    "checked": "2026-10-18"
+  }
+]

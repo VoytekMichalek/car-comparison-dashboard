@@ -1,0 +1,424 @@
+[
+  {
+    "id": "model-y-original",
+    "familyId": "tesla-model-y",
+    "vehicleIds": [
+      "model-y-rwd-2022"
+    ],
+    "tested": "2023 Tesla Model Y RWD",
+    "scope": "Original RWD on optional 20-inch wheels. March 2023 test does not verify a late-2023 suspension or build-date change.",
+    "publisher": "CarExpert",
+    "published": "2023-03-14",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Very Good",
+    "positiveThemes": [
+      "Efficient electric drive, equipment and useful storage."
+    ],
+    "negativeThemes": [
+      "Firm ride and road noise; many controls require the screen."
+    ],
+    "sourceIds": [
+      "expert-model-y-original"
+    ]
+  },
+  {
+    "id": "model-y-juniper",
+    "familyId": "tesla-model-y",
+    "vehicleIds": [
+      "model-y-rwd-juniper-2025"
+    ],
+    "tested": "2025 Tesla Model Y RWD Launch Series",
+    "scope": "Australian Juniper launch car. Equipment and warranty comments reflect May 2025, not every later Premium RWD.",
+    "publisher": "CarsGuide",
+    "published": "2025-05-07",
+    "checked": "2026-10-18",
+    "rating": 7.4,
+    "outOf": 10,
+    "verdict": "",
+    "positiveThemes": [
+      "Improved ride comfort, cabin finish and range."
+    ],
+    "negativeThemes": [
+      "Screen-based gear selection; weight is apparent on winding roads."
+    ],
+    "sourceIds": [
+      "expert-model-y-juniper"
+    ]
+  },
+  {
+    "id": "atto-original",
+    "familyId": "byd-atto-3",
+    "vehicleIds": [
+      "atto3-extended-2022"
+    ],
+    "tested": "2023 BYD Atto 3 Extended Range",
+    "scope": "Australian launch test of the original 60-kWh Extended Range. Factory tyres and warranty terms discussed are historical.",
+    "publisher": "WhichCar",
+    "published": "2022-09-17",
+    "checked": "2026-10-18",
+    "rating": 7.5,
+    "outOf": 10,
+    "verdict": "",
+    "positiveThemes": [
+      "Strong equipment value, cabin space and material quality."
+    ],
+    "negativeThemes": [
+      "Original tyres and pedal response; early ownership-support questions."
+    ],
+    "sourceIds": [
+      "expert-atto-original"
+    ]
+  },
+  {
+    "id": "atto-evo",
+    "familyId": "byd-atto-3",
+    "vehicleIds": [],
+    "tested": "2026 BYD Atto 3 EVO RWD",
+    "scope": "Overseas early drive in Spain before Australian launch. Reference only: Australian specification, pricing and ride require local evidence.",
+    "publisher": "CarExpert",
+    "published": "2026-03-03",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Early drive",
+    "positiveThemes": [
+      "More power, faster charging and practical packaging."
+    ],
+    "negativeThemes": [
+      "Ride and interface reservations; Australian ownership evidence is immature."
+    ],
+    "sourceIds": [
+      "expert-atto-evo"
+    ]
+  },
+  {
+    "id": "ev6-air",
+    "familyId": "kia-ev6",
+    "vehicleIds": [
+      "ev6-air-2022"
+    ],
+    "tested": "2023 Kia EV6 Air RWD 77.4 kWh",
+    "scope": "Original Air RWD, not a GT-Line or 84-kWh facelift. Historical supply and new-price comments are not current used-market evidence.",
+    "publisher": "CarExpert",
+    "published": "2022-12-05",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Very Good",
+    "positiveThemes": [
+      "Fast charging, long published range and enjoyable driving."
+    ],
+    "negativeThemes": [
+      "Manual door handles and equipment omissions relative to GT-Line."
+    ],
+    "sourceIds": [
+      "expert-ev6-air"
+    ]
+  },
+  {
+    "id": "ev5-air-lr",
+    "familyId": "kia-ev5",
+    "vehicleIds": [
+      "ev5-air-long-2024"
+    ],
+    "tested": "2026 Kia EV5 Air Long Range",
+    "scope": "88.1-kWh front-drive Air. The reviewer preferred its ride to an earlier Earth test; this is not a Standard Range test.",
+    "publisher": "CarExpert",
+    "published": "2026-08-21",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Very Good",
+    "positiveThemes": [
+      "Quiet, spacious cabin and comfortable ride for family use."
+    ],
+    "negativeThemes": [
+      "Base-grade equipment omissions and intrusive speed alerts."
+    ],
+    "sourceIds": [
+      "expert-ev5-air-lr"
+    ]
+  },
+  {
+    "id": "ioniq-original",
+    "familyId": "hyundai-ioniq-5",
+    "vehicleIds": [
+      "ioniq5-awd-2021"
+    ],
+    "tested": "2022 Hyundai Ioniq 5 AWD 72.6 kWh",
+    "scope": "Original Australian AWD launch model. Not evidence of the later 84-kWh RWD’s range or suspension.",
+    "publisher": "CarExpert",
+    "published": "2021-10-22",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Good",
+    "positiveThemes": [
+      "Finish, charging capability, V2L and efficiency."
+    ],
+    "negativeThemes": [
+      "High-speed body control and i-Pedal needing reactivation."
+    ],
+    "sourceIds": [
+      "expert-ioniq-original"
+    ]
+  },
+  {
+    "id": "ioniq-refresh",
+    "familyId": "hyundai-ioniq-5",
+    "vehicleIds": [],
+    "tested": "2025 Hyundai Ioniq 5 Epiq N Line AWD",
+    "scope": "84-kWh AWD with digital mirrors, a different trim and drivetrain from the dashboard’s RWD 19-inch configuration. Reference only.",
+    "publisher": "CarExpert",
+    "published": "2024-11-06",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Very Good",
+    "positiveThemes": [
+      "Practical cabin and easy everyday driving."
+    ],
+    "negativeThemes": [
+      "High price and persistent driver-assistance alerts."
+    ],
+    "sourceIds": [
+      "expert-ioniq-refresh"
+    ]
+  },
+  {
+    "id": "zeekr-long-test",
+    "familyId": "zeekr-7x",
+    "vehicleIds": [
+      "zeekr7x-rwd-2025"
+    ],
+    "tested": "Zeekr 7X RWD — three-month test",
+    "scope": "Australian RWD long-term report: 2383 km over three months. Not a Long Range variant or a long-term reliability survey.",
+    "publisher": "CarsGuide",
+    "published": "2026-05-18",
+    "checked": "2026-10-18",
+    "rating": 8.3,
+    "outOf": 10,
+    "verdict": "",
+    "positiveThemes": [
+      "Comfort, luxury equipment and charging capability."
+    ],
+    "negativeThemes": [
+      "Key-fob inconvenience and steering-wheel obstruction of the touchscreen."
+    ],
+    "sourceIds": [
+      "expert-zeekr-long-test"
+    ]
+  },
+  {
+    "id": "outlander-aspire",
+    "familyId": "mitsubishi-outlander-phev",
+    "vehicleIds": [
+      "outlander-phev-aspire-20"
+    ],
+    "tested": "2024 Mitsubishi Outlander Aspire PHEV",
+    "scope": "Five-seat 20-kWh Aspire tested in July 2023; article updated for 2024 pricing. Not the updated 22.7-kWh seven-seater.",
+    "publisher": "WhichCar",
+    "published": "2023-10-19",
+    "checked": "2026-10-18",
+    "rating": 7.5,
+    "outOf": 10,
+    "verdict": "",
+    "positiveThemes": [
+      "Quiet plug-in driving, family cabin and conditional long warranty."
+    ],
+    "negativeThemes": [
+      "Large purchase premium, detail finish and no spare wheel."
+    ],
+    "sourceIds": [
+      "expert-outlander-aspire"
+    ]
+  },
+  {
+    "id": "outlander-refresh",
+    "familyId": "mitsubishi-outlander-phev",
+    "vehicleIds": [],
+    "tested": "2026 Mitsubishi Outlander PHEV",
+    "scope": "Updated 22.7-kWh generation in a higher grade than Aspire. Reference only for the dashboard’s seven-seat Aspire.",
+    "publisher": "CarExpert",
+    "published": "2026-07-20",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Good",
+    "positiveThemes": [
+      "Useful family space and strong plug-in performance."
+    ],
+    "negativeThemes": [
+      "Price, driver monitoring and modest charging progress."
+    ],
+    "sourceIds": [
+      "expert-outlander-refresh"
+    ]
+  },
+  {
+    "id": "sealion-essential",
+    "familyId": "byd-sealion-6",
+    "vehicleIds": [],
+    "tested": "2026 BYD Sealion 6 Essential Standard Range",
+    "scope": "18.3-kWh FWD Essential with revised suspension, not Dynamic or Extended Range. Review body identifies the tested grade.",
+    "publisher": "CarExpert",
+    "published": "2025-09-26",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Very Good",
+    "positiveThemes": [
+      "Quiet everyday drive, rear-seat room and familiar controls."
+    ],
+    "negativeThemes": [
+      "Small boot, no spare and some sharp-bump harshness."
+    ],
+    "sourceIds": [
+      "expert-sealion-essential"
+    ]
+  },
+  {
+    "id": "xtrail-ti",
+    "familyId": "nissan-x-trail-epower",
+    "vehicleIds": [
+      "xtrail-ti-epower-awd"
+    ],
+    "tested": "2023 Nissan X-Trail Ti e-Power AWD",
+    "scope": "Ti e-4ORCE AWD, not the later ST-L front-drive configuration.",
+    "publisher": "CarExpert",
+    "published": "2023-03-19",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Very Good",
+    "positiveThemes": [
+      "Smooth motor-driven response and practical family cabin."
+    ],
+    "negativeThemes": [
+      "Fuel economy trails the strongest hybrids; engine can sound coarse."
+    ],
+    "sourceIds": [
+      "expert-xtrail-ti"
+    ]
+  },
+  {
+    "id": "rav4-original",
+    "familyId": "toyota-rav4-hybrid",
+    "vehicleIds": [
+      "rav4-gxl-hev-2021-25"
+    ],
+    "tested": "2022 Toyota RAV4 GXL Hybrid FWD",
+    "scope": "Fifth-generation GXL 2WD. Technology and new-price commentary are from 2022, before subsequent equipment updates.",
+    "publisher": "CarExpert",
+    "published": "2022-06-26",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Very Good",
+    "positiveThemes": [
+      "Fuel economy, value and ownership costs during the capped-service period."
+    ],
+    "negativeThemes": [
+      "Dated multimedia and limited towing capability."
+    ],
+    "sourceIds": [
+      "expert-rav4-original"
+    ]
+  },
+  {
+    "id": "rav4-new",
+    "familyId": "toyota-rav4-hybrid",
+    "vehicleIds": [
+      "rav4-gxl-hev-2026"
+    ],
+    "tested": "2026 Toyota RAV4 GXL",
+    "scope": "Short grade assessment of the sixth generation, not an extended GXL ownership test. Safety-rating and price comments are dated April 2026.",
+    "publisher": "CarsGuide",
+    "published": "2026-04-30",
+    "checked": "2026-10-18",
+    "rating": 7.6,
+    "outOf": 10,
+    "verdict": "",
+    "positiveThemes": [
+      "Refined hybrid drive, accessible controls and economy."
+    ],
+    "negativeThemes": [
+      "Higher price; styling may divide buyers."
+    ],
+    "sourceIds": [
+      "expert-rav4-new"
+    ]
+  },
+  {
+    "id": "kluger-gx",
+    "familyId": "toyota-kluger-hybrid",
+    "vehicleIds": [
+      "kluger-gx-hev-awd"
+    ],
+    "tested": "2022 Toyota Kluger GX Hybrid AWD",
+    "scope": "Article body tests GX Hybrid eFour. A dynamic showroom widget identifies another variant; it is not used as test evidence. Later equipment can differ.",
+    "publisher": "CarExpert",
+    "published": "2021-09-13",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Very Good",
+    "positiveThemes": [
+      "Refinement, practical equipment and efficient large-car driving."
+    ],
+    "negativeThemes": [
+      "Older multimedia and plain cabin presentation."
+    ],
+    "sourceIds": [
+      "expert-kluger-gx"
+    ]
+  },
+  {
+    "id": "sorento-phev",
+    "familyId": "kia-sorento",
+    "vehicleIds": [
+      "sorento-phev-gtline-2021-23"
+    ],
+    "tested": "2022 Kia Sorento GT-Line PHEV AWD",
+    "scope": "Original MQ4 13.8-kWh PHEV, not the facelift HEV. Regular charging is central to its economy case.",
+    "publisher": "CarExpert",
+    "published": "2021-10-08",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Very Good",
+    "positiveThemes": [
+      "Electric driving without losing the seven-seat layout."
+    ],
+    "negativeThemes": [
+      "Purchase premium and third-row curtain-airbag coverage concerns."
+    ],
+    "sourceIds": [
+      "expert-sorento-phev"
+    ]
+  },
+  {
+    "id": "sorento-hev",
+    "familyId": "kia-sorento",
+    "vehicleIds": [],
+    "tested": "2026 Kia Sorento GT-Line HEV FWD",
+    "scope": "Facelift front-drive hybrid. Reference only for the dashboard’s AWD HEV; drivetrain, economy and pricing differ.",
+    "publisher": "CarExpert",
+    "published": "2025-09-28",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Good",
+    "positiveThemes": [
+      "Fuel economy, equipment and cabin presentation."
+    ],
+    "negativeThemes": [
+      "Third-row airbag coverage and packaging compared with newer rivals."
+    ],
+    "sourceIds": [
+      "expert-sorento-hev"
+    ]
+  }
+]

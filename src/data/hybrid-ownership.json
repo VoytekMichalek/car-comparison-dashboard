@@ -1,0 +1,456 @@
+[
+  {
+    "familyId": "mitsubishi-outlander-phev",
+    "serviceInterval": "ZM schedule: 12 months or 15,000 km, whichever first; severe-use work can be earlier. Confirm the older ZL or MY26 schedule by VIN.",
+    "serviceAnnual": 550.0,
+    "serviceBasis": "ESTIMATE — A$550/year planning midpoint at 15,000 km/year, normal use. The MY23 maker table has minor visits A$349–399 and later A$449–749; the band allows a mix of ages and model years rather than promising one visit price. Confirm remaining capped eligibility; wear, tyres and unexpected repairs are separate.",
+    "warrantyCautions": [
+      "Standard cover is 5 years/100,000 km; up to 10 years/200,000 km requires eligible vehicles and Mitsubishi-network scheduled servicing. Check original registration and the complete history.",
+      "Drive-battery defects: 8 years/160,000 km for purchases after 1 October 2020. Capacity Care is separate: eligible MY22 onward batteries below 66% usable capacity; pre-MY22 Outlander is excluded. Confirm remaining cover and ownership details."
+    ],
+    "risks": [
+      {
+        "title": "Traction battery outside cover",
+        "detail": "Obtain a diagnostic battery report before paying for pack work; reduced range alone is not a diagnosis. This is a possible expense, not a predicted failure.",
+        "low": 12000,
+        "high": 22000,
+        "priceBasis": "ESTIMATE — A$12,000–22,000 for a fitted replacement/aftermarket pack scenario, assuming labour and GST. Anchor: an Australian installer advertises an 18 kWh Outlander upgrade at A$14,600 incl GST; widen for newer 20/22.7 kWh packs and OEM sourcing. That upgrade is NOT verified compatible with this generation. No exact VIN quote or failure probability.",
+        "warranty": "Defect and Capacity Care eligibility differ; a qualifying maker remedy may be free.",
+        "sourceIds": [
+          "own-hy-mitsubishi-warranty",
+          "own-hy-mitsubishi-capacity",
+          "own-hy-phev-pack-proxy"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Cooling, transaxle and engine work",
+        "detail": "The ZM schedule checks motor cooling, front/rear transaxle leaks and engine items. Get leaks or hybrid warnings diagnosed; these components are not asserted to fail commonly.",
+        "low": 500,
+        "high": 10000,
+        "priceBasis": "ESTIMATE — A$500–10,000 for ONE diagnosed cooling or major engine/transaxle event, not all systems together. Generic Australian cooling-fan work is A$240–610; a different 1.6T SUV engine is A$6,000–7,500 fitted. Wide PHEV planning allowance adds diagnosis, labour/GST and sourcing uncertainty; assembly replacement can exceed it. Routine servicing is separate.",
+        "warranty": "Scheduled fluids and wear are owner costs; an eligible manufacturing defect may be covered.",
+        "sourceIds": [
+          "own-hy-mitsubishi-maintenance",
+          "own-hy-mitsubishi-warranty",
+          "own-hy-cooling-fan-proxy",
+          "own-hy-engine-repair-proxy",
+          "own-hy-hybrid-inverter-proxy"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Rear-camera software recall",
+        "detail": "Check campaign 010172 completion for affected 2021–2023 Outlander/PHEV VINs; camera images can be interrupted.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "A$0 for the official recall software remedy only, including dealer work; not a general camera-replacement quote.",
+        "warranty": "Free dealer software remedy for an affected VIN; unrelated camera hardware is a separate diagnosis.",
+        "sourceIds": [
+          "own-hy-mitsubishi-camera-recall"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sourceIds": [
+      "own-hy-mitsubishi-warranty",
+      "own-hy-mitsubishi-capacity",
+      "own-hy-mitsubishi-maintenance",
+      "own-hy-mitsubishi-camera-recall",
+      "own-hy-out-service-caps"
+    ],
+    "checked": "2026-10-18",
+    "serviceLow": 350,
+    "serviceHigh": 750,
+    "serviceConfidence": "medium",
+    "energyEstimate": {
+      "low": 18,
+      "high": 26,
+      "point": 22,
+      "basis": "ESTIMATE — battery-side kWh/100 km during electric driving for the 20 and 22.7 kWh Outlander PHEVs. Assume 85% usable pack energy (unverified), divide by each stated NEDC range (84/103 km), then allow about 10% road-use uplift: roughly 20.6–22.3. Round to 22 with 18–26 sensitivity. Not a measured consumption claim; apply charging loss once when buying electricity.",
+      "sourceIds": [
+        "own-hy-out-energy-proxy",
+        "own-hy-out-new-energy-proxy"
+      ],
+      "confidence": "low"
+    },
+    "depletedEstimate": {
+      "low": 5.5,
+      "high": 8.5,
+      "point": 7,
+      "basis": "ESTIMATE — L/100 km in depleted hybrid driving, not weighted PHEV fuel. Larger-SUV anchor: Kluger Hybrid maker combined 5.6; choose 7.0 with 5.5–8.5 sensitivity for Outlander mass, road mix and load. A different powertrain is only an analogue, not a verified Outlander result.",
+      "sourceIds": [
+        "own-hy-hev-consumption-proxy",
+        "own-hy-out-energy-proxy"
+      ],
+      "confidence": "low"
+    }
+  },
+  {
+    "familyId": "byd-sealion-6",
+    "serviceInterval": "Published MY24 plan: 12 months/20,000 km plus initial 6 months/3,500 km inspection. The handbook also uses HEV-distance triggers; confirm your exact schedule.",
+    "serviceAnnual": 450.0,
+    "serviceBasis": "ESTIMATE — A$450/year planning midpoint at 15,000 km/year. MY24 Dynamic first-five annual caps total A$1,593 incl GST (A$318.60/year); later large visits and Premium/Extended/HEV-distance triggers justify the A$300–600 multi-year allowance. The year-eight A$1,119 visit can exceed a single-year budget; wear/repairs are separate. Confirm actual VIN caps.",
+    "warrantyCautions": [
+      "Headline vehicle cover is 6 years/150,000 km and traction battery 8 years/160,000 km. Obtain the original applicable booklet and written remaining-cover confirmation for a used vehicle.",
+      "Current 2026 booklet lists drive unit 8 years/160,000 km and battery retention 70%; do not assume these current-new terms apply retrospectively to a MY24 car. Maintenance, misuse and wear exclusions apply; replacements may be reconditioned."
+    ],
+    "risks": [
+      {
+        "title": "Traction battery diagnosis or replacement",
+        "detail": "Battery damage or out-of-cover faults could require specialist pack work. Confirm the applicable capacity threshold and battery health; no failure probability is established.",
+        "low": 12000,
+        "high": 24000,
+        "priceBasis": "ESTIMATE — A$12,000–24,000 fitted pack scenario, assuming labour and GST. Analogue: Australian-installed 18 kWh Outlander aftermarket upgrade A$14,600 incl GST; broaden roughly 0.8–1.6 times and round for Sealion 6 18.3/26.6 kWh packs and unknown OEM logistics. This is NOT a BYD quote or a claimed compatible part.",
+        "warranty": "Check original booklet and cause of fault before treating a quote as an owner-paid bill.",
+        "sourceIds": [
+          "own-hy-byd-warranty",
+          "own-hy-phev-pack-proxy"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Drive-unit controller and cooling",
+        "detail": "Motor/controller and coolant systems add components to inspect. Confirm warning-free operation and cooling-system service records; this is component exposure, not evidence of common failure.",
+        "low": 2000,
+        "high": 8000,
+        "priceBasis": "ESTIMATE — A$2,000–8,000 for ONE drive-controller/motor-cooling repair or replacement scenario, pack excluded. Toyota/Lexus specialist inverter repair/replacement guide A$1,000–2,500 is the donor benchmark; widen for newer BYD integrated electronics, fitment, assumed labour/GST and uncertain parts access. Not a compatible-unit quote.",
+        "warranty": "Current-booklet drive-unit cover is not automatically the original used-car contract; get VIN confirmation.",
+        "sourceIds": [
+          "own-hy-byd-warranty",
+          "own-hy-byd-handbook",
+          "own-hy-hybrid-inverter-proxy"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Petrol engine and EHS maintenance",
+        "detail": "Budget for engine oil, filters, plugs, EHS oil/filter and engine/motor coolant even when most kilometres are electric. Overdue work is distinct from an unexpected failure.",
+        "low": 450,
+        "high": 1150,
+        "priceBasis": "ESTIMATE — A$450–1,150 for a major scheduled/catch-up maintenance visit. Published MY24 Dynamic caps include A$457 at year four and A$1,119 at year eight incl GST; rounded for variant uncertainty. This work is already represented in annual servicing: do not add it again as an unexpected repair unless budgeting overdue work.",
+        "warranty": "Scheduled maintenance is payable; an eligible defect claim is conditional on the applicable warranty.",
+        "sourceIds": [
+          "own-hy-byd-servicing",
+          "own-hy-byd-handbook"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "sourceIds": [
+      "own-hy-byd-warranty",
+      "own-hy-byd-servicing",
+      "own-hy-byd-handbook"
+    ],
+    "checked": "2026-10-18",
+    "serviceLow": 300,
+    "serviceHigh": 600,
+    "serviceConfidence": "medium",
+    "energyEstimate": {
+      "low": 16,
+      "high": 22,
+      "point": 19,
+      "basis": "ESTIMATE — battery-side kWh/100 km of electric driving. From manufacturer SOC windows: 18.3×75%/92×100≈14.9; 26.6×80%/140×100≈15.2 on NEDC. Add about 25% real-road uplift and round to 19, with 16–22 sensitivity for load and HVAC. SOC is only a proxy for usable energy. Apply charging loss once; this does not reinterpret the published ADR electricity figure as verified battery-side data.",
+      "sourceIds": [
+        "own-hy-byd-energy-proxy",
+        "own-hy-byd-new-energy-proxy"
+      ],
+      "confidence": "low"
+    }
+  },
+  {
+    "familyId": "nissan-x-trail-epower",
+    "serviceInterval": "Earlier e-POWER: 12 months/10,000 km; MY26 increases to 12 months/15,000 km, whichever first.",
+    "serviceAnnual": 750,
+    "serviceBasis": "ESTIMATE — A$750/year at15,000km/year, with A$400–1,000 sensitivity. RACQ's2024 ST-L AWD e-Power study budgets A$63/month scheduled servicing (A$756/year), averaged across its firstfive years at this distance. Earlier10,000km schedules can require about1.5visits/year. MY26's15,000km schedule has A$399 incl.GST flat caps for five eligible new-retail visits; that offer does not automatically reprice an older car. The family midpoint favours the used-car schedule; confirm VIN caps and next major visit. Tyres/wear/repairs are separate.",
+    "warrantyCautions": [
+      "Base warranty is 5 years/unlimited km. Current Service Activated Warranty can extend eligible vehicles retailed from 1 January 2021 to 10 years/300,000 km, subject to Nissan-network service history and terms; confirm used-car eligibility.",
+      "Nissan explicitly excludes gradual HEV-battery capacity loss. Do not apply LEAF/BEV nine-bar capacity terms to e-POWER. The remaining manufacturer warranty follows eligible subsequent owners."
+    ],
+    "risks": [
+      {
+        "title": "Battery-controller recall",
+        "detail": "Affected T33 e-POWER 2022–2026 VINs require campaign R26A5 software; the controller fault can cause loss of drive and prevent charging.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "A$0 for the VIN-specific official software recall remedy, including dealer work; not battery replacement.",
+        "warranty": "Official dealer reprogramming is free for affected VINs.",
+        "sourceIds": [
+          "own-hy-nissan-lbc-recall"
+        ],
+        "confidence": "high"
+      },
+      {
+        "title": "Hybrid battery, inverter or motor",
+        "detail": "e-POWER uses a traction battery and electric drive. A diagnosed out-of-cover electrical fault can require specialist repair; there is no verified failure-rate claim here.",
+        "low": 3000,
+        "high": 12000,
+        "priceBasis": "ESTIMATE — A$3,000–12,000 for ONE battery/inverter/motor event, assuming labour and GST. Donor benchmarks: RAV4 new-genuine fitted pack A$4,500–7,000 and Toyota/Lexus inverter A$1,000–2,500. Broaden heavily for a different Nissan system, component scope and sourcing. Not the price of replacing all three or a failure forecast.",
+        "warranty": "Manufacturing-defect eligibility and exclusions must be checked; normal HEV capacity loss is excluded.",
+        "sourceIds": [
+          "own-hy-nissan-epower",
+          "own-hy-nissan-warranty",
+          "own-hy-rav4-battery-price",
+          "own-hy-hybrid-inverter-proxy"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Petrol generator/engine major repair",
+        "detail": "The petrol engine generates electricity and still needs servicing. This scenario is major engine/turbo work after diagnosis; routine visits belong in the service budget. No frequency claim is made.",
+        "low": 4000,
+        "high": 12000,
+        "priceBasis": "ESTIMATE — A$4,000–12,000 for substantial engine/turbo repair or replacement, assuming labour and GST. Australian donor: different Hyundai 1.6T SUV reconditioned engine A$6,000–7,500 fitted; broaden for Nissan variable-compression hardware and generator integration. Not a Nissan parts or fitment quote.",
+        "warranty": "Scheduled service/wear is not a defect claim; qualifying faults may have remaining warranty.",
+        "sourceIds": [
+          "own-hy-nissan-epower",
+          "own-hy-nissan-servicing",
+          "own-hy-engine-repair-proxy"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "sourceIds": [
+      "own-hy-nissan-warranty",
+      "own-hy-nissan-servicing",
+      "own-hy-nissan-my26",
+      "own-hy-nissan-epower",
+      "own-hy-nissan-lbc-recall",
+      "own-hy-service-racq2024"
+    ],
+    "checked": "2026-10-18",
+    "serviceLow": 400,
+    "serviceHigh": 1000,
+    "serviceConfidence": "medium",
+    "serviceByVehicle": {
+      "xtrail-stl-epower-fwd-2026": {
+        "serviceAnnual": 500,
+        "serviceLow": 399,
+        "serviceHigh": 750,
+        "serviceConfidence": "low",
+        "serviceBasis": "ESTIMATE — A$500/year normal-use planning allowance at 15,000 km/year for MY26 FWD. Eligible new-retail MY26 cars have five A$399 scheduled visits at 12 months/15,000 km. The allowance includes a self-set buffer for costs after those five visits; A$399 is not promised for a ten-year ownership period. Confirm eligibility, actual VIN schedule and post-cap prices. Tyres, wear and unexpected repairs are separate."
+      }
+    }
+  },
+  {
+    "familyId": "toyota-rav4-hybrid",
+    "serviceInterval": "12 months or 15,000 km, whichever first, under normal conditions; confirm VIN and severe-use additions.",
+    "serviceAnnual": 450.0,
+    "serviceBasis": "ESTIMATE — A$450/year planning midpoint at 15,000 km/year. A Queensland Toyota dealer publishes A$270 incl GST for five eligible 2025 annual capped visits; the A$250–650 allowance includes older caps and a self-set post-cap buffer. It is not a promised post-cap tariff; wear, tyres and repairs are separate.",
+    "warrantyCautions": [
+      "Private-use base cover is 5 years/unlimited km from original delivery; the remaining balance transfers with the car. Check the original service book and dates.",
+      "HEV battery defect cover can extend annually to 10 years with successful Toyota-specification health checks and conditions. Normal capacity degradation is excluded; the 70%/8-year capacity promise is BEV-only."
+    ],
+    "risks": [
+      {
+        "title": "Traction battery outside cover",
+        "detail": "First obtain a state-of-health diagnosis and check remaining Toyota cover. Full new-pack replacement is one option: the Australian specialist's2019-onward guide also lists fitted reconditioned packs A$2,500–4,000 and selective cell repairs A$800–1,400 where technically appropriate. These differ in scope and warranty; later-generation applicability requires a VIN check.",
+        "low": 4500,
+        "high": 7000,
+        "priceBasis": "ESTIMATE — Published Australian repairer-network guide (1 October 2026): A$4,500–7,000 fitted new genuine pack, pack plus labour; GST not stated. Retained as a planning band, not a VIN quote. Confirm tax, battery type and later-generation applicability.",
+        "warranty": "Eligible defects may have extended battery cover; obtain repair/parts warranty in writing.",
+        "sourceIds": [
+          "own-hy-rav4-battery-price",
+          "own-hy-toyota-warranty"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "title": "Battery cooling diagnosis",
+        "detail": "A battery warning need not mean whole-pack replacement: the repairer recommends checking cooling fan/filter and testing the pack first.",
+        "low": 150,
+        "high": 1000,
+        "priceBasis": "ESTIMATE — A$150–1,000 for diagnosis/cleaning through a fan/filter repair, pack replacement excluded. Hybrid specialist diagnostic guide A$100–150 and generic engine-fan replacement A$240–610 provide analogues; round outward for a different battery fan, parts, labour and assumed GST. Actual repair scope controls cost.",
+        "warranty": "A diagnostic quote should separate cooling work from pack replacement and establish cover.",
+        "sourceIds": [
+          "own-hy-rav4-battery-price",
+          "own-hy-hybrid-inverter-proxy",
+          "own-hy-cooling-fan-proxy"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "VSC control-software recall",
+        "detail": "Selected 2021–2022-production hybrid VINs may not automatically restore stability control after a specific restart. Verify campaign completion.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "A$0 for the applicable official VSC software recall only; not a general ABS/ECU repair price.",
+        "warranty": "Dealer ECU software update is free for involved VINs.",
+        "sourceIds": [
+          "own-hy-toyota-vsc-recall"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sourceIds": [
+      "own-hy-toyota-warranty",
+      "own-hy-toyota-service-terms",
+      "own-hy-rav4-battery-price",
+      "own-hy-toyota-vsc-recall",
+      "own-hy-rav-service-dealer"
+    ],
+    "checked": "2026-10-18",
+    "serviceLow": 250,
+    "serviceHigh": 650,
+    "serviceConfidence": "medium"
+  },
+  {
+    "familyId": "toyota-kluger-hybrid",
+    "serviceInterval": "12 months or 15,000 km, whichever first, under normal conditions; confirm VIN and severe-use additions.",
+    "serviceAnnual": 500.0,
+    "serviceBasis": "ESTIMATE — A$500/year planning midpoint at 15,000 km/year. The 2021 manufacturer launch capped five annual visits at A$250; A$300–700 is an analyst allowance for later years, expiry of caps and larger services, not a current Toyota quote. Wear, tyres and repairs are separate.",
+    "warrantyCautions": [
+      "Private-use base cover is 5 years/unlimited km from original delivery; the remaining balance transfers with the car. Check the original service book and dates.",
+      "HEV battery defect cover can extend annually to 10 years with successful Toyota-specification health checks and conditions. Normal capacity degradation is excluded; the 70%/8-year capacity promise is BEV-only."
+    ],
+    "risks": [
+      {
+        "title": "Hybrid battery outside cover",
+        "detail": "A traction-battery fault may require specialist repair or replacement. No reliable published fitted price was verified for the Australian 2021-onward AXUH78R pack; inspect health-check records.",
+        "low": 4500,
+        "high": 9000,
+        "priceBasis": "ESTIMATE — A$4,500–9,000 fitted new-genuine pack planning scenario, assuming labour and GST. Analogue: Australian 2019-on RAV4 guide A$4,500–7,000 fitted, with up to A$2,000 extra uncertainty for Kluger pack/sourcing; guide GST unspecified. No verified AXUH78R quote or compatible part is claimed.",
+        "warranty": "Confirm annual extended-cover eligibility before funding a repair; normal capacity degradation is excluded.",
+        "sourceIds": [
+          "own-hy-toyota-warranty",
+          "own-hy-rav4-battery-price"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Second-row seat-frame recall",
+        "detail": "Campaign ZGGA0 affects selected 2021–2024 Kluger petrol/hybrid vehicles: a seat-frame bar can protrude with the bench partly stowed.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "A$0 for the official VIN-specific recall remedy, including dealer installation; not a replacement-seat price.",
+        "warranty": "Free rear-protector installation for affected VINs.",
+        "sourceIds": [
+          "own-hy-kluger-seat-recall"
+        ],
+        "confidence": "high"
+      },
+      {
+        "title": "Driver-airbag spiral-cable recall",
+        "detail": "Selected March–July 2023 production can lose the driver-airbag circuit connection. Verify inspection and any required cable replacement.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "A$0 for Toyota’s VIN-specific recall inspection/replacement, including dealer work; unrelated airbag faults need diagnosis.",
+        "warranty": "Official serial-number inspection and necessary replacement are free for involved VINs.",
+        "sourceIds": [
+          "own-hy-kluger-airbag-recall"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sourceIds": [
+      "own-hy-toyota-warranty",
+      "own-hy-toyota-service-terms",
+      "own-hy-kluger-seat-recall",
+      "own-hy-kluger-airbag-recall",
+      "own-hy-kluger-service-launch"
+    ],
+    "checked": "2026-10-18",
+    "serviceLow": 300,
+    "serviceHigh": 700,
+    "serviceConfidence": "low"
+  },
+  {
+    "familyId": "kia-sorento",
+    "serviceInterval": "HEV and PHEV examples: 12 months or 10,000 km, whichever first; use the exact model-year/drivetrain schedule.",
+    "serviceAnnual": 1000.0,
+    "serviceBasis": "ESTIMATE — A$1,000/year planning midpoint at 15,000 km/year. MY26 HEV AWD seven-visit caps total A$4,679 incl GST per 70,000 km: A$668.43 per visit-year at ≤10,000 km/year, approximately A$1,003/year at 15,000 km. A$800–1,200 allows HEV/PHEV and service-cycle differences; this is proportional budgeting, not an actual year-by-year invoice. Wear/repairs are separate.",
+    "warrantyCautions": [
+      "Private-use vehicle warranty is 7 years/unlimited km; remaining cover transfers with the vehicle. Wear, scheduled maintenance and damage from missing/improper maintenance are excluded.",
+      "For pre-MY27 vehicles, Kia lists HV-battery capacity coverage below 70% for 7 years/150,000 km. The current MY27 8-year/160,000 km promise must not be applied to older Sorentos; a warranty repair need not restore 100% capacity."
+    ],
+    "risks": [
+      {
+        "title": "HEV traction battery outside cover",
+        "detail": "HEV only: a diagnosed battery defect/capacity issue may require pack work. The plug-in pack is a separate, larger scenario below. No failure-frequency claim is made.",
+        "low": 4500,
+        "high": 9000,
+        "priceBasis": "ESTIMATE — HEV ONLY: A$4,500–9,000 fitted pack planning scenario with assumed labour/GST. RAV4 fitted new-genuine A$4,500–7,000 is the donor benchmark; add up to A$2,000 for Kia pack/platform availability. Not a Sorento quote or compatible Toyota part.",
+        "warranty": "Check original defect and capacity coverage, kilometre limit and service history.",
+        "sourceIds": [
+          "own-hy-kia-battery-warranty",
+          "own-hy-kia-powertrain",
+          "own-hy-rav4-battery-price"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "PHEV traction battery outside cover",
+        "detail": "PHEV only: larger plug-in pack repair/replacement after diagnosis. This is an alternative to the HEV scenario, not an additional HEV bill.",
+        "low": 12000,
+        "high": 24000,
+        "priceBasis": "ESTIMATE — PHEV ONLY: A$12,000–24,000 fitted pack planning scenario with assumed labour/GST. Anchor: different Outlander 18 kWh aftermarket upgrade A$14,600 incl GST; broaden roughly 0.8–1.6 times for OEM replacement and uncertain Kia sourcing. Not compatible hardware or a Kia quote.",
+        "warranty": "Check remaining original battery defect/capacity cover and diagnosis before funding work.",
+        "sourceIds": [
+          "own-hy-kia-battery-warranty",
+          "own-hy-kia-powertrain",
+          "own-hy-phev-pack-proxy"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Turbo petrol engine major work",
+        "detail": "Major petrol-engine work only, separate from routine servicing. Verify oil/coolant records; the planning scenario does not assert common failure or include a simultaneous gearbox replacement.",
+        "low": 5000,
+        "high": 12000,
+        "priceBasis": "ESTIMATE — A$5,000–12,000 for major petrol-engine repair/reconditioned replacement with assumed labour/GST. A different Hyundai Tucson 1.6T fitted engine is A$6,000–7,500; widen for Sorento hybrid integration and parts sourcing. Not a compatible-engine or transmission quote.",
+        "warranty": "Covered manufacturing-defect repairs are conditional; routine service and normal wear remain payable.",
+        "sourceIds": [
+          "own-hy-kia-powertrain",
+          "own-hy-kia-warranty",
+          "own-hy-engine-repair-proxy"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "PHEV charging electronics",
+        "detail": "For plug-in variants, test an AC charge and inspect inlet/cable operation before purchase. Charging hardware is an additional possible repair item; no failure frequency is established.",
+        "low": 2000,
+        "high": 6000,
+        "priceBasis": "ESTIMATE — PHEV ONLY: A$2,000–6,000 for charging-electronics/inlet repair or replacement, pack excluded, assuming labour/GST. Toyota/Lexus inverter A$1,000–2,500 is a power-electronics cost analogue; double and round for a different onboard charger, fitment and uncertain Kia supply. Not identical hardware or a quote.",
+        "warranty": "Confirm exact component cover and fault cause; accident/misuse and wear exclusions can apply.",
+        "sourceIds": [
+          "own-hy-kia-powertrain",
+          "own-hy-kia-warranty",
+          "own-hy-hybrid-inverter-proxy"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "sourceIds": [
+      "own-hy-kia-warranty",
+      "own-hy-kia-battery-warranty",
+      "own-hy-kia-service-prices",
+      "own-hy-kia-powertrain"
+    ],
+    "checked": "2026-10-18",
+    "serviceLow": 800,
+    "serviceHigh": 1200,
+    "serviceConfidence": "medium",
+    "energyEstimate": {
+      "low": 18,
+      "high": 26,
+      "point": 22,
+      "basis": "ESTIMATE — PHEV only, battery-side kWh/100 km during electric driving; never use for HEV petrol running. Proxy: current brochure rounded 14 kWh pack × assumed 85% usable / 55 km midpoint of BabyDrive’s older-car 50–60 km observed range ×100≈21.6; round to 22 with 18–26 sensitivity. Cross-year pack/usable-energy applicability is unverified. Apply charging loss once; engine assistance/heating can add petrol.",
+      "sourceIds": [
+        "own-hy-kia-powertrain",
+        "own-hy-sorento-observed-range"
+      ],
+      "confidence": "low"
+    },
+    "depletedEstimate": {
+      "low": 5,
+      "high": 8,
+      "point": 6.5,
+      "basis": "ESTIMATE — PHEV only, L/100 km after usable electric range is depleted. A 2025 Australian test indicated 6.5 over 100 mixed km; use 5–8 sensitivity as an analogue for the older 2021–2023 PHEV. It is not an ADR claim or a direct test of the exact older car. Weighted 1.6 L/100 km is not substituted.",
+      "sourceIds": [
+        "own-hy-sorento-depleted-proxy"
+      ],
+      "confidence": "low"
+    }
+  }
+]

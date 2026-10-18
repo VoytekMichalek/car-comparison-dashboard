@@ -1,0 +1,102 @@
+[
+  {
+    "make": "Tesla",
+    "support": "established",
+    "summary": "Documented Australian direct-service, mobile-service and collision-repair pathways, with a verified Brisbane Service Centre. This is a support-access assessment; it does not measure fault rates or repair waiting times.",
+    "network": "Book in the Tesla app. Mobile Service depends on location and repair type; some work requires a Service Centre. Mount Gravatt is an official Brisbane service location. Check travel distance and collision-repair arrangements.",
+    "warrantyNote": "Coverage varies by delivery date, model and trim. Model 3/Y delivered from 1 January 2026 have a five-year/unlimited-kilometre basic warranty; do not apply that change automatically to a used 2023 car. Warranty work uses Tesla service.",
+    "sourceIds": [
+      "brand-tesla-service",
+      "brand-tesla-qld",
+      "brand-tesla-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "make": "BYD",
+    "support": "developing",
+    "summary": "BYD documents Australia-wide warranty and service specialists and says its service, parts and warranty network is still expanding. The developing label reflects that published expansion stage, rather than an inferred reliability penalty.",
+    "network": "Official locator distinguishes experience centres from service centres. Confirm the nearest workshop supports your exact EV or DM-i model, and ask about parts and booking lead times; a sales location is not automatically a service workshop.",
+    "warrantyNote": "Published Australian vehicle warranty is six years/150,000km and traction battery warranty eight years/160,000km, whichever occurs first. Component exclusions and the original vehicle warranty document still govern a used purchase.",
+    "sourceIds": [
+      "brand-byd-service",
+      "brand-byd-locator"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "make": "Kia",
+    "support": "established",
+    "summary": "An authorised dealer network provides Australian servicing, parts and warranty work. This supports a mature service-access classification, without claiming that a Kia will have fewer faults.",
+    "network": "Kia’s official locator lists sales plus service-and-parts contacts. Kia says warranty and service can be obtained at any authorised Kia dealer; verify the local workshop handles the relevant EV or hybrid.",
+    "warrantyNote": "Kia advertises seven-year transferable vehicle warranty support. EV, battery, usage and component limits need the applicable model terms; record the remaining original cover rather than restarting seven years for a used car.",
+    "sourceIds": [
+      "brand-kia-locator",
+      "brand-kia-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "make": "Hyundai",
+    "support": "established",
+    "summary": "Hyundai documents a national dealer network serving metropolitan and rural communities, with technician training and authorised service booking. Network presence is evidence of support access, not measured long-term vehicle reliability.",
+    "network": "Use the official dealer/service locator and confirm Ioniq-specific EV capability. Hyundai distinguishes electrified-model locations and its authorised network provides genuine servicing and warranty support.",
+    "warrantyNote": "Standard private passenger cover is five years/unlimited km. Eligible vehicles first registered from 1 June 2025 can reach seven years when all scheduled services meet authorised-dealer conditions. EV/hybrid drive batteries have separate eight-year/160,000km terms.",
+    "sourceIds": [
+      "brand-hyundai-locator",
+      "brand-hyundai-network",
+      "brand-hyundai-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "make": "Zeekr",
+    "support": "developing",
+    "summary": "Zeekr’s Australian market entry dates to 2024 and support is organised through authorised dealer partners. The developing label reflects its shorter local history; no failure-rate or parts-delay conclusion has been inferred.",
+    "network": "The official Australian service page and dealer locator identify the authorised-partner channel. Confirm the nearest actual service location, model capability, parts supply and collision repair before choosing a car. Do not assume related-brand workshops are authorised.",
+    "warrantyNote": "The current Australian policy linked by Zeekr states five years/unlimited km for private vehicles and eight years/160,000km for the high-voltage battery, subject to servicing and other terms. Promotional or model-specific cover may differ; verify the supplied policy for the VIN.",
+    "sourceIds": [
+      "brand-zeekr-service",
+      "brand-zeekr-locator",
+      "brand-zeekr-launch",
+      "brand-zeekr-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "make": "Mitsubishi",
+    "support": "established",
+    "summary": "Mitsubishi documents Australian authorised-dealer servicing, genuine parts and a service-linked extended-warranty program. These are support arrangements rather than evidence of a particular Outlander’s mechanical condition.",
+    "network": "The Australian genuine-service program uses authorised dealers with factory repair information and genuine parts. Confirm the workshop’s Outlander PHEV capability and the actual vehicle’s service history.",
+    "warrantyNote": "Standard cover is five years/100,000km; eligible vehicles can have up to ten years/200,000km when scheduled services satisfy Mitsubishi dealer conditions. A used vehicle needs evidence of eligibility and service compliance; battery coverage is separate.",
+    "sourceIds": [
+      "brand-mitsubishi-service",
+      "brand-mitsubishi-warranty"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "make": "Nissan",
+    "support": "established",
+    "summary": "Nissan documents an Australian authorised dealer/service network, trained technicians, genuine parts and owner support. This is a support-access proxy and does not predict e-POWER fault frequency.",
+    "network": "Use the official dealer locator and ask whether the service workshop supports X-Trail e-POWER. Servicing, parts, roadside assistance and owner support are available through Nissan’s Australian ownership program.",
+    "warrantyNote": "Nissan MORE offers eligible vehicles service-activated cover up to ten years/300,000km. The underlying standard protection remains five years/unlimited km plus qualifying activated extensions. Verify registration-date eligibility and the used vehicle’s service record.",
+    "sourceIds": [
+      "brand-nissan-locator",
+      "brand-nissan-ownership"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "make": "Toyota",
+    "support": "established",
+    "summary": "Toyota documents Australian dealer support for servicing, parts and warranty claims. Its support classification reflects those established channels, not a claim that every RAV4 or Kluger is trouble-free.",
+    "network": "The official Australian locator provides dealer/service contacts. Check the closest workshop and appointments for your actual hybrid, and obtain its service and battery-health history.",
+    "warrantyNote": "Private new vehicles purchased from 1 January 2019 have five-year/unlimited-kilometre cover, with the unexpired balance remaining with a used car. Engine/driveline and traction-battery extensions require the applicable servicing and health-check conditions.",
+    "sourceIds": [
+      "brand-toyota-locator",
+      "brand-toyota-warranty"
+    ],
+    "checked": "2026-10-18"
+  }
+]

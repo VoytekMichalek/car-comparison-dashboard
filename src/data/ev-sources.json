@@ -1,0 +1,682 @@
+[
+  {
+    "id": "ev-tesla-used-review",
+    "title": "2023 Tesla Model Y RWD Australian road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2023-tesla-model-y-rwd-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-tesla-range",
+    "title": "2023 Model Y Australian pricing and specifications",
+    "url": "https://www.whichcar.com.au/news/2023-tesla-model-y-australian-pricing-and-features-revealed",
+    "publisher": "WhichCar",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-tesla-old-ancap",
+    "title": "Model Y: February 2022–April 2025 rating",
+    "url": "https://www.ancap.com.au/safety-ratings/tesla/model-y/726c22",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-tesla-new-ancap",
+    "title": "Model Y: February 2025 onward rating",
+    "url": "https://www.ancap.com.au/safety-ratings/tesla/model-y/ad5601",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-tesla-family-2023",
+    "title": "2023 Tesla Model Y family restraint test",
+    "url": "https://babydrive.com.au/reviews/electric-cars/2023-tesla-model-y/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-tesla-family-2025",
+    "title": "2025 Tesla Model Y Juniper family restraint test",
+    "url": "https://babydrive.com.au/reviews/suvs/2025-tesla-model-y-review/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-tesla-china",
+    "title": "October 2023 China update: Australian availability unconfirmed",
+    "url": "https://www.carexpert.com.au/car-news/tesla-model-y-quietly-updated-in-china-australian-plans-unclear",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-tesla-warranty",
+    "title": "Tesla Australia vehicle warranty; coverage varies by delivery date",
+    "url": "https://www.tesla.com/en_AU/support/Vehicle-warranty",
+    "publisher": "Tesla Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-tesla-current",
+    "title": "Tesla Australia Model Y overview and 2026 warranty change",
+    "url": "https://www.tesla.com/en_AU/modely",
+    "publisher": "Tesla Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-tesla-order",
+    "title": "Model Y Premium RWD configurator: 466 km WLTP and list price",
+    "url": "https://www.tesla.com/en_au/modely/design?redirect=no",
+    "publisher": "Tesla Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-tesla-recall",
+    "title": "REC-006300: Model 3 / Model Y 2022–2023 power steering software",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006300",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-tesla-rwd-market",
+    "title": "Brisbane used Model Y RWD asking-price page",
+    "url": "https://www.autotrader.com.au/for-sale/used/tesla/model-y/rear-wheel-drive/qld/brisbane",
+    "publisher": "Autotrader",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-tesla-lr-market",
+    "title": "2023 Model Y Long Range: private Queensland asking price",
+    "url": "https://www.carsales.com.au/cars/details/2023-tesla-model-y-long-range-auto-awd/SSE-AD-20710586/",
+    "publisher": "carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-atto-original",
+    "title": "2024 Australian Atto 3 review, charging and year changes",
+    "url": "https://www.carexpert.com.au/car-reviews/2024-byd-atto-3-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-atto-2025-spec",
+    "title": "2025 Australian Atto 3 Essential / Premium specification sheet",
+    "url": "https://bydautomotive.com.au/brochures/BYD-ATTO-3-2025.pdf",
+    "publisher": "BYD Automotive Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-atto-family",
+    "title": "2024 Atto 3: two forward-facing plus capsule; shoulder-width limitation",
+    "url": "https://babydrive.com.au/reviews/suvs/2024-byd-atto-3-ev-review/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-atto-ancap",
+    "title": "ANCAP November 2022 Australian child-restraint anchorage update",
+    "url": "https://www.ancap.com.au/media-and-gallery/media-releases/five-star-safety-rating-for-australian-supplied-byd-atto-3",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-byd-warranty",
+    "title": "BYD Australia service and warranty terms",
+    "url": "https://bydautomotive.com.au/service-and-warranty",
+    "publisher": "BYD Automotive Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-atto-market",
+    "title": "2023 Atto 3 Extended stock U4095, Nundah",
+    "url": "https://norrisusedcars.com.au/u4095-1881171-byd-atto3-2023/?csEnquiryModal=active",
+    "publisher": "Norris Motor Group",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-atto-essential-order",
+    "title": "Atto 3 configurator asking prices",
+    "url": "https://bydautomotive.com.au/configurator/byd-atto-3?spec=1474-1475-1480-1479",
+    "publisher": "BYD Automotive Australia",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-atto-evo",
+    "title": "Australian Atto 3 EVO Dynamic / Premium model specifications",
+    "url": "https://bydautomotive.com.au/atto-3-evo",
+    "publisher": "BYD Automotive Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-atto-evo-price",
+    "title": "Atto 3 EVO Australian launch list prices; excludes on-road costs",
+    "url": "https://www.carsales.com.au/editorial/details/byd-atto-3-evo-revealed-for-australia-152738/?isModal=true",
+    "publisher": "carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ev6-spec",
+    "title": "Australian EV6 MY24 manufacturer mechanical/feature list (dealer-hosted copy)",
+    "url": "https://resource.digitaldealer.com.au/pdf/45505888866f3780287a48309089661.pdf",
+    "publisher": "Kia Australia (dealer-hosted manufacturer document)",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ev6-family",
+    "title": "2022 EV6 GT-Line RWD restraint and booster-buckle test",
+    "url": "https://babydrive.com.au/reviews/electric-cars/2022-kia-ev6-gt-line-rwd/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ev6-ancap",
+    "title": "Kia EV6 Australian safety rating",
+    "url": "https://www.ancap.com.au/safety-ratings/kia/ev6/1d4e4f",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ev6-recall",
+    "title": "REC-006238: EV6 2021–2024 ICCU software recall",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006238",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ev6-market",
+    "title": "2023 Kia EV6 Air MY24 private Queensland listing",
+    "url": "https://www.carsales.com.au/cars/details/2023-kia-ev6-air-auto-my24/SSE-AD-20675863/",
+    "publisher": "carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-kia-warranty",
+    "title": "Kia Australia seven-year vehicle warranty",
+    "url": "https://www.kia.com/au/owners/warranty.html/",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-kia-battery",
+    "title": "Kia Australia FAQ: HV battery warranty by model year",
+    "url": "https://www.kia.com/au/util/faq.html",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ev5-spec",
+    "title": "Australian EV5 MY26 mechanical and feature list",
+    "url": "https://www.kia.com/content/dam/kwcms/au/en/images/pdf/ev5/kia-ev5-brochure.pdf",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ev5-launch",
+    "title": "EV5 Australian launch battery, drive and range table",
+    "url": "https://thedriven.io/2024/10/12/kia-reveals-pricing-of-new-ev5-pitched-below-tesla-model-y/",
+    "publisher": "The Driven",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ev5-family",
+    "title": "2025 Kia EV5 Earth family test: three seats a very tight fit",
+    "url": "https://babydrive.com.au/reviews/suvs/2025-kia-ev5-review/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ev5-ancap",
+    "title": "Kia EV5 October 2024 onward safety rating",
+    "url": "https://www.ancap.com.au/safety-ratings/kia/ev5/518902",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ev5-sr-market",
+    "title": "EV5 Air Standard Range used asking-price page",
+    "url": "https://www.carsales.com.au/cars/kia/ev5/air-standard-range-badge/automatic-transmission/",
+    "publisher": "carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ev5-lr-market",
+    "title": "Sunshine Kia EV5 Air Long Range stock K022621",
+    "url": "https://www.sunshinekia.com.au/models/ev5",
+    "publisher": "Sunshine Kia",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-old-spec",
+    "title": "Australian Ioniq 5 72.6 kWh July 2022 specification sheet",
+    "url": "https://www.hyundai.com/content/dam/hyundai/au/en/models/ioniq5/images/IONIQ5_Spec-Table_July_2022.pdf",
+    "publisher": "Hyundai Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-old-release",
+    "title": "2022 Ioniq 5 Australian range and warranty details",
+    "url": "https://www.hyundai.com/au/en/news/vehicles/2022-ioniq-5-power-your-world",
+    "publisher": "Hyundai Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-family",
+    "title": "2022 Ioniq 5 AWD: named three-restraint combinations",
+    "url": "https://babydrive.com.au/reviews/electric-cars/2022-hyundai-ioniq-5-ev/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-ancap",
+    "title": "Ioniq 5 2021 ANCAP report; excludes Ioniq 5 N",
+    "url": "https://s3.amazonaws.com/cdn.ancap.com.au/app/public/assets/58e5822855174c125b22e2947d8b099770480648/original.pdf?1695096088=",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-recall",
+    "title": "REC-005942: 2021–2024 Ioniq 5 / Ioniq 6 ICCU recall",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005942",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-new-spec",
+    "title": "2026 Australian Ioniq 5 84 kWh specification sheet",
+    "url": "https://www.hyundai.com/content/dam/hyundai/au/en/models/ioniq5/docs/2026-IONIQ-5-Specification-Sheet.pdf",
+    "publisher": "Hyundai Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-hyundai-warranty",
+    "title": "Hyundai Australia warranty; conditional seven-year coverage",
+    "url": "https://www.hyundai.com/au/en/owning/myhyundaicare/warranty.html",
+    "publisher": "Hyundai Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-new-market",
+    "title": "Ioniq 5 asking-price page: new 2026 RWD 84 kWh in Seaford",
+    "url": "https://www.autotrader.com.au/for-sale/hyundai/ioniq-5/suv",
+    "publisher": "Autotrader",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-zeekr-model",
+    "title": "Zeekr 7X Australian range, dimensions and warranty",
+    "url": "https://www.zeekrlife.com/en-au/models/zeekr-7x/",
+    "publisher": "Zeekr Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-zeekr-spec",
+    "title": "Zeekr 7X Australian brochure dated August 2025",
+    "url": "https://www.datocms-assets.com/130529/1755670382-au-7x-brochure-200825-web.pdf",
+    "publisher": "Zeekr Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-zeekr-ancap",
+    "title": "Zeekr 7X Australian 2025 ANCAP rating",
+    "url": "https://www.ancap.com.au/safety-ratings/zeekr/7x/6ec0ef",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-zeekr-price",
+    "title": "2026 Zeekr 7X Australian list-price table",
+    "url": "https://www.carexpert.com.au/car-reviews/2026-zeekr-7x-long-range-rwd-review-long-term-introduction",
+    "publisher": "CarExpert",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-zeekr-review",
+    "title": "Australian Zeekr 7X RWD drive: family equipment and climate",
+    "url": "https://www.chasingcars.com.au/reviews/midsize-suvs/zeekr-7x-rwd-2026-review/",
+    "publisher": "Chasing Cars",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-atto-standard-market",
+    "title": "2023 Atto 3 Standard: Queensland dealer asking price",
+    "url": "https://www.carsales.com.au/cars/details/2023-byd-atto-3-standard-auto/OAG-AD-26222170/",
+    "publisher": "carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-old-market",
+    "title": "2022 Ioniq 5 AWD 72.6 kWh, 72,000 km, Kedron asking price",
+    "url": "https://www.autotrader.com.au/car/15281349/hyundai/ioniq-5/qld/kedron/suv",
+    "publisher": "Autotrader",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-old-market-basis",
+    "title": "Queensland used listing: Kedron Ioniq 5 drive-away price",
+    "url": "https://www.autotrader.com.au/for-sale/used/qld/burpengary/electric/awd/android-auto",
+    "publisher": "Autotrader",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-launch-spec",
+    "title": "Australian Ioniq 5 September 2021 launch specifications",
+    "url": "https://www.hyundai.com/content/dam/hyundai/au/en/edms/product-marketing-ioniq/IONIQ5_Spec-Table_Sept_2021.pdf",
+    "publisher": "Hyundai Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-zeekr-boot",
+    "title": "Australian Zeekr 7X review: rear cargo measurement",
+    "url": "https://www.carexpert.com.au/car-reviews/2026-zeekr-7x-review-quick-drive",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-zeekr-anchor-report",
+    "title": "Zeekr 7X ANCAP report, rear anchor map and single-position restraint testing",
+    "url": "https://cdn.ancap.com.au/app/public/assets/9b199e1ad4498802bf7b18ed9865d6f28e9c896e/original.pdf?1770171174=",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-tesla-original-dimensions",
+    "title": "Original 2020–2024 Model Y Australian owner manual: dimensions and cargo volume",
+    "url": "https://www.tesla.com/ownersmanual/2020_2024_modely/en_au/GUID-E47C4A6D-528E-419C-8C57-FD3864644C34.html",
+    "publisher": "Tesla",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-energy-method-wltp",
+    "title": "JEC Well-to-Wheels report: WLTP electricity consumption boundary, section 4.3.5",
+    "url": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC117560/jec_ttw_v5_pc_117560_final.pdf",
+    "publisher": "European Commission Joint Research Centre",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-my-rwd-twg",
+    "title": "2023 Tesla Model Y RWD · original price observation — TWG Cars Bundamba, QLD",
+    "url": "https://www.twgcars.com.au/cars/used-white-2023-tesla-model-y-b14026",
+    "publisher": "TWG Cars",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-my-lr-metro",
+    "title": "2023 Tesla Model Y Long Range AWD · original price observation — Metro GWM Windsor, Brisbane QLD",
+    "url": "https://metrogwm.com.au/u4239-1896388-tesla-modely-2023/",
+    "publisher": "Metro GWM",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-my-rwd-nmg",
+    "title": "2023 Tesla Model Y RWD · original — Norris Motor Group Nundah, QLD",
+    "url": "https://nmg.com.au/u3143-1831438-tesla-modely-2023/",
+    "publisher": "Norris Motor Group",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-my-rwd-salisbury",
+    "title": "2023 Tesla Model Y RWD · original — Salisbury, QLD; dealer via CarsGuide",
+    "url": "https://www.carsguide.com.au/buy-a-car/tesla/model-y/qld/brisbane-location/rear-wheel-drive",
+    "publisher": "CarsGuide",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-my-lr-private",
+    "title": "2023 Tesla Model Y Long Range AWD · original — Private seller, QLD",
+    "url": "https://www.carsales.com.au/cars/details/2023-tesla-model-y-long-range-auto-awd/SSE-AD-20710586/",
+    "publisher": "carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-atto-ext-vonbibra",
+    "title": "2023 BYD Atto 3 Extended Range — von Bibra Ferry Road, Southport QLD",
+    "url": "https://www.vonbibramitsubishi.com.au/stock/details/OAG-AD-26008305/2023-byd-atto-3-used",
+    "publisher": "von Bibra Mitsubishi",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-atto-essential-hendra",
+    "title": "2025 BYD Atto 3 Essential — easyauto123 Hendra, QLD",
+    "url": "https://www.autotrader.com.au/car/15341090/byd/atto-3/qld/hendra/suv",
+    "publisher": "Autotrader / easyauto123",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ev6-motorama",
+    "title": "2024 Kia EV6 Air RWD · 77.4 kWh — Motorama Toyota Hillcrest, QLD",
+    "url": "https://www.motoramachery.com.au/cars/used-2024-kia-ev6-p005132",
+    "publisher": "Motorama",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-atto-std-cars4us",
+    "title": "2023 BYD Atto 3 Standard Range price — Cars4us, Eagle Farm / Pinkenba QLD",
+    "url": "https://www.cars4us.com.au/vehicles/72387",
+    "publisher": "Cars4us",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-atto-ext-cars4us",
+    "title": "2022 BYD Atto 3 Extended Range price — Cars4us, Brisbane QLD",
+    "url": "https://www.cars4us.com.au/vehicles/72546",
+    "publisher": "Cars4us",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ev5-sr-qld",
+    "title": "2024 Kia EV5 Air Standard Range price — Dealer used, Brisbane region QLD",
+    "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-standard-range-auto-my25/OAG-AD-25914509/",
+    "publisher": "carsales / dealer ad",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ev5-sr-sa",
+    "title": "2024 Kia EV5 Air Standard Range price — Dealer used, southern Adelaide SA",
+    "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-standard-range-auto-my25/OAG-AD-25744810/",
+    "publisher": "carsales / dealer ad",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ev5-lr-25954540",
+    "title": "2024 Kia EV5 Air Long Range price — Dealer used, Brisbane region QLD",
+    "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-long-range-auto-my25/OAG-AD-25954540/",
+    "publisher": "carsales / dealer ad",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ev5-lr-25993354",
+    "title": "2024 Kia EV5 Air Long Range price — Dealer used, Brisbane region QLD",
+    "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-long-range-auto-my25/OAG-AD-25993354/",
+    "publisher": "carsales / dealer ad",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ev5-lr-25967001",
+    "title": "2024 Kia EV5 Air Long Range price — Dealer used, Brisbane region QLD",
+    "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-long-range-auto-my25/OAG-AD-25967001/",
+    "publisher": "carsales / dealer ad",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ev5-lr-25987078",
+    "title": "2024 Kia EV5 Air Long Range price — Dealer used, Brisbane region QLD",
+    "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-long-range-auto-my25/OAG-AD-25987078/",
+    "publisher": "carsales / dealer ad",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ioniq-awd-kedron",
+    "title": "2022 Hyundai Ioniq 5 AWD / Techniq AWD · 72.6 kWh price — Dealer used, Kedron QLD",
+    "url": "https://www.autotrader.com.au/car/15281349/hyundai/ioniq-5/qld/kedron/suv",
+    "publisher": "Autotrader / dealer ad",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ioniq-awd-nsw",
+    "title": "2022 Hyundai Ioniq 5 AWD / Techniq AWD · 72.6 kWh price — Dealer used, NSW",
+    "url": "https://www.carsales.com.au/cars/details/2022-hyundai-ioniq-5-techniq-auto-awd-my22/OAG-AD-26391063/",
+    "publisher": "carsales / dealer ad",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ioniq-84-sunco",
+    "title": "2026 Hyundai Ioniq 5 RWD 84 kWh · 19-inch wheels price — Sunco Hyundai, Sunshine Coast QLD",
+    "url": "https://suncohyundai.com.au/h25454-1876540-hyundai-ioniq5-2026/",
+    "publisher": "Sunco Hyundai",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ioniq-84-townsville",
+    "title": "2026 Hyundai Ioniq 5 RWD 84 kWh · 19-inch wheels price — Pickerings Hyundai, Townsville QLD",
+    "url": "https://www.autotrader.com.au/car/15216057/hyundai/ioniq-5/qld/townsville/suv",
+    "publisher": "Autotrader / Pickerings Hyundai",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-zeekr-lr-hz2033",
+    "title": "2026 Zeekr 7X Long Range RWD price — Zeekr Springwood, Slacks Creek QLD",
+    "url": "https://www.zeekrcarsspringwood.com.au/cars/new-grey-2026-zeekr-7x-hz2033",
+    "publisher": "Zeekr Springwood",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-zeekr-lr-hz2137",
+    "title": "2026 Zeekr 7X Long Range RWD price — Autopact / Cricks Highway, Springwood QLD",
+    "url": "https://www.autopact.com.au/stock/details/OAG-AD-26341373/2026-zeekr-7x-new",
+    "publisher": "Autopact",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-atto-std-cars24",
+    "title": "2023 BYD Atto 3 Standard Range asking price — Cars24, Sydney, NSW",
+    "url": "https://www.cars24.com.au/buy-used-byd-atto-3-car-22824906765376/",
+    "publisher": "Cars24",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ev6-private",
+    "title": "2023 Kia EV6 Air RWD · 77.4 kWh asking price — Private seller, Queensland",
+    "url": "https://www.carsales.com.au/cars/details/2023-kia-ev6-air-auto-my24/SSE-AD-20675863/",
+    "publisher": "Carsales / private seller",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-zeekr-rwd-qld",
+    "title": "2026 Zeekr 7X RWD asking price — Queensland dealer",
+    "url": "https://www.carsales.com.au/cars/details/2026-zeekr-7x-auto-my26/OAG-AD-26350362/",
+    "publisher": "Carsales / Queensland dealer",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-my-refresh-order",
+    "title": "Model Y Premium RWD manufacturer base-price quote",
+    "url": "https://www.tesla.com/en_au/modely/design?redirect=no",
+    "publisher": "Tesla Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-atto-evo-rrp",
+    "title": "2026 BYD Atto 3 EVO Australian variant prices",
+    "url": "https://www.carexpert.com.au/car-news/2026-byd-atto-3-evo-prices-updated-ev-available-with-front-or-rear-wheel-drive",
+    "publisher": "CarExpert",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ev6-cars4us",
+    "title": "2024 Kia EV6 Air MY24 stock74400 — Cars4us asking price",
+    "url": "https://www.cars4us.com.au/vehicles/74400",
+    "publisher": "Cars4us",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-audit-ev6-cars4us-crosspost",
+    "title": "2024 EV6 Air MY24 stock74400 — VIN and fee corroboration, counted once",
+    "url": "https://www.autotrader.com.au/car/15329952/kia/ev6/qld/pinkenba/suv",
+    "publisher": "Autotrader / Cars4us",
+    "kind": "market",
+    "checked": "2026-10-18"
+  }
+]

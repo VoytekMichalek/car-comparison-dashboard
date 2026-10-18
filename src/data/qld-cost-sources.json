@@ -1,0 +1,98 @@
+[
+  {
+    "id": "qld-cost-registration",
+    "title": "Queensland private vehicle registration and transfer fees — current 1 October 2026",
+    "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+    "publisher": "Queensland Government — Transport and Main Roads",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "qld-cost-registration-basis",
+    "title": "How Queensland registration is calculated — cylinder groups and annual indexation",
+    "url": "https://www.qld.gov.au/transport/registration/fees/comparison",
+    "publisher": "Queensland Government — Transport and Main Roads",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "qld-cost-ctp-classes",
+    "title": "Queensland CTP vehicle classes — Class 1 cars and station wagons",
+    "url": "https://maic.qld.gov.au/about-ctp-insurance/vehicle-classes/",
+    "publisher": "Motor Accident Insurance Commission",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "qld-cost-ctp-pricing",
+    "title": "Queensland CTP pricing — quarterly premiums and class-based pricing",
+    "url": "https://maic.qld.gov.au/about-ctp-insurance/pricing/",
+    "publisher": "Motor Accident Insurance Commission",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "qld-cost-duty-rates",
+    "title": "Queensland vehicle registration duty rates — hybrid and electric light vehicles",
+    "url": "https://www.qld.gov.au/transport/registration/fees/duty/rates",
+    "publisher": "Queensland Government — Queensland Revenue Office",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "qld-cost-duty-help",
+    "title": "Queensland vehicle registration duty help — dutiable value and whole-value examples",
+    "url": "https://www.qld.gov.au/transport/registration/fees/duty/help",
+    "publisher": "Queensland Government — Queensland Revenue Office",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "qld-cost-duty-calculator",
+    "title": "Queensland vehicle duty calculator — round value up to next $100",
+    "url": "https://www.qld.gov.au/transport/registration/fees/duty/calculator",
+    "publisher": "Queensland Government — Queensland Revenue Office",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "qld-cost-transfer",
+    "title": "Transfer a Queensland registered vehicle — buyer fees and dutiable value",
+    "url": "https://www.qld.gov.au/transport/registration/transfer/rego",
+    "publisher": "Queensland Government — Transport and Main Roads",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "qld-cost-ppsr",
+    "title": "Official PPSR vehicle search — $2 online self-service",
+    "url": "https://www.ppsr.gov.au/carcheck",
+    "publisher": "Australian Financial Security Authority — Personal Property Securities Register",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "qld-cost-insurance",
+    "title": "Choosing car insurance — comprehensive cover and premium factors",
+    "url": "https://moneysmart.gov.au/car-insurance/choosing-car-insurance",
+    "publisher": "Australian Securities and Investments Commission — Moneysmart",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "qld-cost-xtrail-engine",
+    "title": "Nissan X-TRAIL Australian specifications — e-POWER three-cylinder engine",
+    "url": "https://www.nissan.com.au/vehicles/browse-range/x-trail/specs-and-pricing.html",
+    "publisher": "Nissan Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "qld-cost-home-installation",
+    "title": "EVSE Brisbane home charger installation — indicative installation costs",
+    "url": "https://evse.com.au/queensland-ev-charger-installation/electric-vehicle-ev-charger-installation-brisbane/",
+    "publisher": "EVSE Australia",
+    "kind": "market",
+    "checked": "2026-10-18"
+  }
+]

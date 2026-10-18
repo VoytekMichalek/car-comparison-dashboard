@@ -1,0 +1,450 @@
+[
+  {
+    "id": "hy-price-out-used",
+    "vehicleId": "outlander-phev-aspire-20",
+    "low": 42888,
+    "high": 44990,
+    "condition": "used",
+    "basis": "drive-away",
+    "sampleCount": 2,
+    "geography": "Queensland · two dealer-used MY24 examples",
+    "kilometres": "33,959–43,477 km",
+    "observed": "2026-10-18",
+    "note": "Two distinct 2023–24 five-seat/20 kWh Aspire advertisements. Earlier A$42,989 example is stale and is excluded. This sample does not price the updated seven-seat 22.7 kWh Aspire.",
+    "sourceIds": [
+      "hy-priceaudit-out-motorama",
+      "hy-priceaudit-out-2024"
+    ],
+    "confidence": "medium",
+    "estimateBasis": "Observed asking prices for distinct vehicles, deduplicated by stock/VIN where available. Point is the median of this small selected sample, not a market valuation or sold-price estimate. Availability and contract charges require reconfirmation.",
+    "point": 43939.0,
+    "kind": "observation",
+    "observations": [
+      {
+        "price": 42888,
+        "basis": "drive-away",
+        "year": 2023,
+        "kilometres": 33959,
+        "location": "Springwood, QLD",
+        "url": "https://www.motoramakia.com.au/cars/used-white-2023-mitsubishi-outlander-u226401",
+        "sourceId": "hy-priceaudit-out-motorama",
+        "checked": "2026-10-18",
+        "note": "Used MY24 five-seat Aspire, 20 kWh generation. Direct dealer advert; same car also appears on carsales and is counted once."
+      },
+      {
+        "price": 44990,
+        "basis": "drive-away",
+        "year": 2024,
+        "kilometres": 43477,
+        "location": "Queensland dealer",
+        "url": "https://www.carsales.com.au/cars/details/2024-mitsubishi-outlander-phev-aspire-zm-auto-awd-my24/OAG-AD-26149455/",
+        "sourceId": "hy-priceaudit-out-2024",
+        "checked": "2026-10-18",
+        "note": "Dealer-used; listing specifications explicitly 20.0 kWh and five seats, May 2024 build. Price from QLD results; advert includes a $1,000 sale discount already in the displayed drive-away price. Do not subtract again."
+      }
+    ]
+  },
+  {
+    "id": "hy-price-out-new",
+    "vehicleId": "outlander-phev-aspire-227",
+    "low": 67420,
+    "high": 72990,
+    "condition": "new",
+    "basis": "drive-away",
+    "sampleCount": 2,
+    "geography": "Interstate benchmark: NSW and Tasmania · not Queensland drive-away quotes",
+    "kilometres": "10–15 km · two distinct new stock VINs",
+    "observed": "2026-10-18",
+    "note": "Two exact new advertised2026 larger-battery/seven-seat Aspire cars found interstate. NSW A$67,420 and TAS A$72,990 include those states’ advertised on-road basis. Queensland transport, registration and purchaser-specific charges require adjustment; no Queensland market band is claimed.",
+    "sourceIds": [
+      "hy-priceaudit-out-new-alto",
+      "hy-priceaudit-out-new-launceston"
+    ],
+    "confidence": "medium",
+    "estimateBasis": "Point A$70,205 is the median of two distinct exact-generation new advertisements, replacing the broad planning estimate. Alto explicitly verifies22.7 kWh/seven seats; model-year2026 stock can have2025 build/compliance. Original QLD five-seat MY25 ads were excluded. A$66,790 is the exact2026 Aspire base-price guide, not a grade proxy, but no longer supplies the observed band. These interstate asking prices are not Queensland purchase quotes.",
+    "kind": "observation",
+    "point": 70205,
+    "observations": [
+      {
+        "price": 67420,
+        "basis": "drive-away",
+        "year": 2026,
+        "kilometres": 15,
+        "location": "Pennant Hills, NSW",
+        "url": "https://www.alto.com.au/stock/details/OAG-AD-26074834/2026-mitsubishi-outlander-new",
+        "sourceId": "hy-priceaudit-out-new-alto",
+        "checked": "2026-10-18",
+        "note": "Direct dealer page now A$67,420 drive-away (was A$69,880). New, seven seats, battery specification22.7 kWh, stock0003054294, VIN JMFXDGN0WSZ000706. Advertised2026 model; August2025 build/December2025 compliance. Promotions already deducted. NSW fee basis: Queensland delivery/registration needs a fresh quote."
+      },
+      {
+        "price": 72990,
+        "basis": "drive-away",
+        "year": 2026,
+        "kilometres": 10,
+        "location": "Launceston, TAS",
+        "url": "https://www.launcestonmitsubishi.com.au/cars/new-white-diamond-2026-mitsubishi-outlander-0003054277",
+        "sourceId": "hy-priceaudit-out-new-launceston",
+        "checked": "2026-10-18",
+        "note": "Direct dealer page currently A$72,990 drive-away and10km, replacing indexed A$72,490 /15km. New2026 URL, seven seats, stock0003054277, VIN JMFXDGN0WSZ000893; White Diamond. Tasmania on-road basis; transport and Queensland registration may change total. Finance illustration expired30September2026; no expired finance offer used in cash price."
+      }
+    ]
+  },
+  {
+    "id": "hy-price-sl6-used",
+    "vehicleId": "sealion6-dynamic-183",
+    "low": 37490,
+    "high": 39990,
+    "condition": "used",
+    "basis": "drive-away",
+    "sampleCount": 2,
+    "geography": "Hendra, Queensland · two distinct indexed dealer cars",
+    "kilometres": "One confirmed indexed 9,193 km; other car mileage conflicting",
+    "observed": "2026-10-18",
+    "note": "Replaces the fee allowance with two explicit drive-away indexed dealer asks for the original 18.3 kWh Dynamic. Cross-post prices and one odometer conflict; confidence remains low and current dealer quotes may be lower.",
+    "sourceIds": [
+      "hy-priceaudit-sl6-blue",
+      "hy-priceaudit-sl6-grey"
+    ],
+    "confidence": "low",
+    "estimateBasis": "Observed asking prices for distinct vehicles, deduplicated by stock/VIN where available. Point is the median of this small selected sample, not a market valuation or sold-price estimate. Availability and contract charges require reconfirmation.",
+    "kind": "observation",
+    "point": 38740.0,
+    "observations": [
+      {
+        "price": 37490,
+        "basis": "drive-away",
+        "year": 2024,
+        "kilometres": null,
+        "location": "Hendra, QLD",
+        "url": "https://www.carsguide.com.au/car/15340581/byd/sealion-6/qld/hendra/suv",
+        "sourceId": "hy-priceaudit-sl6-blue",
+        "checked": "2026-10-18",
+        "note": "Indexed dealer listing: Azure Blue, registration 193ND9, stock H30165. Odometer conflicts across indexed pages (3,189 versus 9,000 km), so no single mileage is asserted. Headline drive-away asking price; direct dealer page renders no vehicle detail."
+      },
+      {
+        "price": 39990,
+        "basis": "drive-away",
+        "year": 2024,
+        "kilometres": 9193,
+        "location": "Hendra, QLD",
+        "url": "https://www.carsguide.com.au/car/15340890/byd/sealion-6/qld/hendra/suv",
+        "sourceId": "hy-priceaudit-sl6-grey",
+        "checked": "2026-10-18",
+        "note": "Indexed exact dealer advertisement: grey Dynamic, stock H31098. Other later search-result pages show A$38,990–39,490 for this same car; do not count those as additional cars. Confirm current price."
+      }
+    ]
+  },
+  {
+    "id": "hy-price-sl6-ext",
+    "vehicleId": "sealion6-dynamic-extended",
+    "low": 49000,
+    "high": 52000,
+    "condition": "new",
+    "basis": "drive-away",
+    "sampleCount": 0,
+    "geography": "Queensland · Noosa / Sunshine Coast advertised-stock anchors",
+    "kilometres": "2026 model inventory; odometer / first-registration status unstated",
+    "observed": "2026-10-18",
+    "note": "ESTIMATE — A$49,000–52,000 drive-away, point A$49,931. Two distinct Dynamic Extended stock numbers advertise Queensland registration/pickup, but first-registration status is unresolved; no verified new-car sample count is asserted.",
+    "sourceIds": [
+      "hy-priceaudit-sl6-ext-noosa",
+      "hy-priceaudit-sl6-ext-sunshine"
+    ],
+    "confidence": "low",
+    "estimateBasis": "Indexed authorised dealer stock 15143 A$49,931 (Noosa) and stock 8100543 A$49,849 (Sunshine Coast) are close anchors. New versus registered-demo status and odometers are unstated, so use an explicit rounded A$49,000–52,000 new-car budgeting interval rather than mixing them into a verified new-only sample. Promotional cashback/finance badges are not deducted again. The old 18.3 kWh Dynamic and 501 km demonstration stock are excluded.",
+    "kind": "estimate",
+    "point": 49931,
+    "observations": []
+  },
+  {
+    "id": "hy-price-xt-used",
+    "vehicleId": "xtrail-ti-epower-awd",
+    "low": 36990,
+    "high": 39999,
+    "condition": "used",
+    "basis": "drive-away",
+    "sampleCount": 2,
+    "geography": "Gatton and Sunshine Coast, Queensland",
+    "kilometres": "49,190–60,573 km",
+    "observed": "2026-10-18",
+    "note": "Two distinct dealer-used 2023 Ti e-POWER AWD cars. New ST-L FWD and near-new AWD demos were excluded.",
+    "sourceIds": [
+      "hy-priceaudit-xt-gatton",
+      "hy-priceaudit-xt-sunshine"
+    ],
+    "confidence": "medium",
+    "estimateBasis": "Observed asking prices for distinct vehicles, deduplicated by stock/VIN where available. Point is the median of this small selected sample, not a market valuation or sold-price estimate. Availability and contract charges require reconfirmation.",
+    "point": 38494.5,
+    "kind": "observation",
+    "observations": [
+      {
+        "price": 36990,
+        "basis": "drive-away",
+        "year": 2023,
+        "kilometres": 60573,
+        "location": "Gatton, QLD",
+        "url": "https://www.gattonauto.com.au/used-cars/for-sale/nissan/x-trail/2023/ti-e-power/4037637/",
+        "sourceId": "hy-priceaudit-xt-gatton",
+        "checked": "2026-10-18",
+        "note": "Direct dealer-used Ti e-POWER AWD advertisement. Drive-away disclaimer includes applicable government fees."
+      },
+      {
+        "price": 39999,
+        "basis": "drive-away",
+        "year": 2023,
+        "kilometres": 49190,
+        "location": "Sunshine Coast, QLD",
+        "url": "https://sunshinecoastnissan.com.au/u61979-1894471-nissan-xtrail-2023/",
+        "sourceId": "hy-priceaudit-xt-sunshine",
+        "checked": "2026-10-18",
+        "note": "Direct dealer-used MY23 Ti e-POWER advertisement. This is the original Australian AWD e-4ORCE configuration, not the new ST-L FWD."
+      }
+    ]
+  },
+  {
+    "id": "hy-price-xt-fwd",
+    "vehicleId": "xtrail-stl-epower-fwd-2026",
+    "low": 45990,
+    "high": 45990,
+    "condition": "new",
+    "basis": "excludes-charges",
+    "sampleCount": 0,
+    "geography": "Australia · manufacturer MSRP; no exact Queensland stock quote",
+    "kilometres": "No physical car sampled",
+    "observed": "2026-10-18",
+    "note": "Published September 2026 ST-L e-POWER 2WD MSRP A$45,990 excluding on-road costs. No distinct Queensland FWD stock car was verified; AWD ads are excluded. Transaction budgeting remains uncertain.",
+    "sourceIds": [
+      "hy-priceaudit-xt-fwd-msrp"
+    ],
+    "confidence": "medium",
+    "estimateBasis": "Verified manufacturer list-price anchor, used as a transaction-price proxy excluding charges. Zero physical-car samples; the figure is not a Queensland drive-away quote. This corrects the prior July launch-date wording.",
+    "point": 45990,
+    "kind": "estimate",
+    "observations": []
+  },
+  {
+    "id": "hy-price-rav-used",
+    "vehicleId": "rav4-gxl-hev-2021-25",
+    "low": 31900,
+    "high": 34990,
+    "condition": "used",
+    "basis": "drive-away",
+    "sampleCount": 2,
+    "geography": "Robina and Redcliffe, Queensland · early used GXL 2WD hybrid",
+    "kilometres": "89,191–140,146 km",
+    "observed": "2026-10-18",
+    "note": "Replaces the single Western Australian price excluding charges with two Queensland drive-away 2021–22 GXL 2WD hybrid cars. Higher kilometres materially affect price; this is not a valuation for low-kilometre 2025 stock.",
+    "sourceIds": [
+      "hy-priceaudit-rav-robina",
+      "hy-priceaudit-rav-norris"
+    ],
+    "confidence": "medium",
+    "estimateBasis": "Observed asking prices for distinct vehicles, deduplicated by stock/VIN where available. Point is the median of this small selected sample, not a market valuation or sold-price estimate. Availability and contract charges require reconfirmation.",
+    "point": 33445.0,
+    "kind": "observation",
+    "observations": [
+      {
+        "price": 31900,
+        "basis": "drive-away",
+        "year": 2021,
+        "kilometres": 89191,
+        "location": "Robina, QLD",
+        "url": "https://www.vonbibranissan.com.au/stock/details/OAG-AD-25900980/2021-toyota-rav4-used",
+        "sourceId": "hy-priceaudit-rav-robina",
+        "checked": "2026-10-18",
+        "note": "Direct dealer price A$31,900 drive-away replaces indexed A$34,797. VIN JTMW23FV10D082385; 89,191 km in details versus older 88,700 km in comments. GXL 2WD hybrid."
+      },
+      {
+        "price": 34990,
+        "basis": "drive-away",
+        "year": 2022,
+        "kilometres": 140146,
+        "location": "Redcliffe, QLD",
+        "url": "https://nmg.com.au/u4509-1905262-toyota-rav4-2022/",
+        "sourceId": "hy-priceaudit-rav-norris",
+        "checked": "2026-10-18",
+        "note": "Direct dealer-used AXAH52R GXL 2.5-litre hybrid Front Wheel Drive; stock U4509. Queensland drive-away price."
+      }
+    ]
+  },
+  {
+    "id": "hy-price-rav-new",
+    "vehicleId": "rav4-gxl-hev-2026",
+    "low": 53562,
+    "high": 53562,
+    "condition": "new",
+    "basis": "drive-away",
+    "sampleCount": 2,
+    "geography": "Brisbane, Queensland · two distinct new dealer-stock VINs",
+    "kilometres": "New · delivery kilometres not stated",
+    "observed": "2026-10-18",
+    "note": "Two distinct in-stock Queensland sixth-generation GXL 2WD hybrid cars, both A$53,562 drive-away. Replaces the A$48,990 manufacturer price excluding on-road charges. Dealer colours/accessories and registration circumstances may vary.",
+    "sourceIds": [
+      "hy-priceaudit-rav-new-motorama",
+      "hy-priceaudit-rav-new-south"
+    ],
+    "confidence": "medium",
+    "estimateBasis": "Observed asking prices for distinct vehicles, deduplicated by stock/VIN where available. Point is the median of this small selected sample, not a market valuation or sold-price estimate. Availability and contract charges require reconfirmation.",
+    "point": 53562.0,
+    "kind": "observation",
+    "observations": [
+      {
+        "price": 53562,
+        "basis": "drive-away",
+        "year": 2026,
+        "kilometres": null,
+        "location": "Brisbane, QLD",
+        "url": "https://motoramatoyota.dealer.toyota.com.au/new-vehicles/dealer-stock/rav4",
+        "sourceId": "hy-priceaudit-rav-new-motorama",
+        "checked": "2026-10-18",
+        "note": "Manufacturer dealer stock feed explicitly In Stock, GXL Hybrid 2WD, Mass Grey; VIN JTM5DABV50D339094. Delivery kilometres not stated."
+      },
+      {
+        "price": 53562,
+        "basis": "drive-away",
+        "year": 2026,
+        "kilometres": null,
+        "location": "Brisbane, QLD",
+        "url": "https://southsidetoyota.dealer.toyota.com.au/inventory/rav4/gxl/2wd/2026/JTM5DABV90D338174",
+        "sourceId": "hy-priceaudit-rav-new-south",
+        "checked": "2026-10-18",
+        "note": "Direct dealer inventory says In Stock and A$53,562 drive-away; distinct VIN from Motorama. Delivery kilometres not stated."
+      }
+    ]
+  },
+  {
+    "id": "hy-price-kluger-used",
+    "vehicleId": "kluger-gx-hev-awd",
+    "low": 39990,
+    "high": 51990,
+    "condition": "used",
+    "basis": "drive-away",
+    "sampleCount": 3,
+    "geography": "Kedron, Booval and Gympie, Queensland",
+    "kilometres": "9,852–106,500 km in fetched snapshots; reconfirm Gympie odometer",
+    "observed": "2026-10-18",
+    "note": "Three distinct 2021–22 GX Hybrid AWD advertisements. Median A$48,490 reflects very different kilometres; A$39,990 is a higher-mileage entry point, not a promise of similar condition across this range.",
+    "sourceIds": [
+      "hy-priceaudit-kluger-kedron",
+      "hy-priceaudit-kluger-booval",
+      "hy-priceaudit-kluger-gympie"
+    ],
+    "confidence": "medium",
+    "estimateBasis": "Observed asking prices for distinct vehicles, deduplicated by stock/VIN where available. Point is the median of this small selected sample, not a market valuation or sold-price estimate. Availability and contract charges require reconfirmation.",
+    "point": 48490,
+    "kind": "observation",
+    "observations": [
+      {
+        "price": 39990,
+        "basis": "drive-away",
+        "year": 2021,
+        "kilometres": 106500,
+        "location": "Kedron, QLD",
+        "url": "https://autorequest.com.au/current-stock/?make=Toyota",
+        "sourceId": "hy-priceaudit-kluger-kedron",
+        "checked": "2026-10-18",
+        "note": "Direct dealer stock 15437 now A$39,990 drive-away; replaces indexed A$38,992. Exact cross-post VIN 5TDLB3CH00S058648 confirms Hybrid AWD; dealer list labels fuel generically Petrol."
+      },
+      {
+        "price": 48490,
+        "basis": "drive-away",
+        "year": 2022,
+        "kilometres": 47122,
+        "location": "Booval, QLD",
+        "url": "https://www.toyota.com.au/used-vehicles/vehicle-listing/Toyota-KlugerHybrid-RKQ2TIEG66",
+        "sourceId": "hy-priceaudit-kluger-booval",
+        "checked": "2026-10-18",
+        "note": "Direct Toyota listing currently A$48,490 and 47,122 km. Prefer this over older result-page A$49,880 / 47,104 km for the same car."
+      },
+      {
+        "price": 51990,
+        "basis": "drive-away",
+        "year": 2022,
+        "kilometres": 9852,
+        "location": "Gympie, QLD",
+        "url": "https://www.pacificmitsubishi.com.au/stock/used-cars-for-sale-gympie/Toyota/Kluger/",
+        "sourceId": "hy-priceaudit-kluger-gympie",
+        "checked": "2026-10-18",
+        "note": "Indexed dealer list explicitly stock U13155, AXUH78R 4X4 On Demand hybrid, Graphite, A$51,990 drive-away. A later result lists 12,181 km for the same stock: 9,852 km is the fetched listing snapshot; reconfirm odometer. Not a separate car."
+      }
+    ]
+  },
+  {
+    "id": "hy-price-sorento-hev",
+    "vehicleId": "sorento-gtline-hev-awd-2026",
+    "low": 79190,
+    "high": 79190,
+    "condition": "new",
+    "basis": "drive-away",
+    "sampleCount": 1,
+    "geography": "Bundaberg, Queensland · authorised dealer",
+    "kilometres": "15 km · new · MY26 / May 2026 build",
+    "observed": "2026-10-18",
+    "note": "One exact new MY26 GT-Line HEV AWD Queensland car, stock 517701. Cheaper FWD advertisements and MY27/demo cars were excluded; no representative multi-car market band is claimed.",
+    "sourceIds": [
+      "hy-sorento-hev-new-price"
+    ],
+    "confidence": "medium",
+    "estimateBasis": "Observed A$79,190 drive-away advertisement for the exact MY26 AWD grade. Includes the advertised Queensland on-road basis; options, delivery to another location and purchaser circumstances may differ.",
+    "point": 79190,
+    "kind": "observation",
+    "observations": [
+      {
+        "price": 79190,
+        "basis": "drive-away",
+        "year": 2026,
+        "kilometres": 15,
+        "location": "Bundaberg, QLD",
+        "url": "https://bundabergkia.com.au/517701-1869135-kia-sorento-2026/",
+        "sourceId": "hy-sorento-hev-new-price",
+        "checked": "2026-10-18",
+        "note": "New MY26 HEV GT-Line AWD stock 517701; VIN KNARH81GSV5531684, May 2026 build, June 2026 compliance. Cheaper FWD stock and MY27/demos excluded."
+      }
+    ]
+  },
+  {
+    "id": "hy-price-sorento-phev",
+    "vehicleId": "sorento-phev-gtline-2021-23",
+    "low": 51990,
+    "high": 54990,
+    "condition": "used",
+    "basis": "drive-away",
+    "sampleCount": 2,
+    "geography": "Wynnum and another Queensland dealer · two used cars",
+    "kilometres": "35,432–42,342 km",
+    "observed": "2026-10-18",
+    "note": "Two distinct used original-generation 2022–23 PHEV GT-Line AWD dealer asks. The blue Kedron car marked sold/unavailable is excluded. Both remain above A$45,000; median A$53,490 is a small-sample planning reference.",
+    "sourceIds": [
+      "hy-priceaudit-sorento-wynnum",
+      "hy-priceaudit-sorento-2023"
+    ],
+    "confidence": "medium",
+    "estimateBasis": "Observed asking prices for distinct vehicles, deduplicated by stock/VIN where available. Point is the median of this small selected sample, not a market valuation or sold-price estimate. Availability and contract charges require reconfirmation.",
+    "point": 53490.0,
+    "kind": "observation",
+    "observations": [
+      {
+        "price": 54990,
+        "basis": "drive-away",
+        "year": 2022,
+        "kilometres": 35432,
+        "location": "Wynnum, QLD",
+        "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1345028914",
+        "sourceId": "hy-priceaudit-sorento-wynnum",
+        "checked": "2026-10-18",
+        "note": "Dealer-posted exact PHEV GT-Line AWD; stock W35894, VIN KNARM81HSN5083433, rego 596HA4. Drive-away basis corroborated by dealer cross-post; counted once."
+      },
+      {
+        "price": 51990,
+        "basis": "drive-away",
+        "year": 2023,
+        "kilometres": 42342,
+        "location": "Queensland dealer",
+        "url": "https://www.carsales.com.au/cars/details/2023-kia-sorento-phev-gt-line-auto-awd-my23/OAG-AD-26236225/",
+        "sourceId": "hy-priceaudit-sorento-2023",
+        "checked": "2026-10-18",
+        "note": "Active exact MY23 PHEV GT-Line AWD page, white, 42,342 km. A$51,990 drive-away is from the QLD result list; dealer identity/location beyond QLD not independently confirmed. A blue 50,412 km Kedron car marked sold/unavailable was excluded."
+      }
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "expert-model-y-original",
+    "title": "2023 Tesla Model Y RWD — road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2023-tesla-model-y-rwd-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-model-y-juniper",
+    "title": "2025 Tesla Model Y RWD Launch Series — road test",
+    "url": "https://www.carsguide.com.au/ev/tesla-model-y-rear-wheel-drive-97877",
+    "publisher": "CarsGuide",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-atto-original",
+    "title": "2023 BYD Atto 3 Extended Range — road test",
+    "url": "https://www.whichcar.com.au/reviews/2023-byd-atto3-ev-review-australia",
+    "publisher": "WhichCar",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-atto-evo",
+    "title": "2026 BYD Atto 3 EVO RWD — road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2026-byd-atto-3-evo-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-ev6-air",
+    "title": "2023 Kia EV6 Air RWD 77.4 kWh — road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2022-kia-ev6-air-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-ev5-air-lr",
+    "title": "2026 Kia EV5 Air Long Range — road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2026-kia-ev5-review-1",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-ioniq-original",
+    "title": "2022 Hyundai Ioniq 5 AWD 72.6 kWh — road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2022-hyundai-ioniq-5-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-ioniq-refresh",
+    "title": "2025 Hyundai Ioniq 5 Epiq N Line AWD — road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2025-hyundai-ioniq-5-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-zeekr-long-test",
+    "title": "Zeekr 7X RWD — three-month test — road test",
+    "url": "https://www.carsguide.com.au/ev/zeekr-7x-rwd-long-term-part-3-101636",
+    "publisher": "CarsGuide",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-outlander-aspire",
+    "title": "2024 Mitsubishi Outlander Aspire PHEV — road test",
+    "url": "https://www.whichcar.com.au/reviews/2024-mitsubishi-outlander-aspire-phev-review",
+    "publisher": "WhichCar",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-outlander-refresh",
+    "title": "2026 Mitsubishi Outlander PHEV — road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2026-mitsubishi-outlander-phev-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-sealion-essential",
+    "title": "2026 BYD Sealion 6 Essential Standard Range — road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2026-byd-sealion-6-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-xtrail-ti",
+    "title": "2023 Nissan X-Trail Ti e-Power AWD — road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2023-nissan-x-trail-ti-e-power-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-rav4-original",
+    "title": "2022 Toyota RAV4 GXL Hybrid FWD — road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2022-toyota-rav4-gxl-hybrid-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-rav4-new",
+    "title": "2026 Toyota RAV4 GXL — road test",
+    "url": "https://www.carsguide.com.au/ev/toyota-rav4-gxl-101463",
+    "publisher": "CarsGuide",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-kluger-gx",
+    "title": "2022 Toyota Kluger GX Hybrid AWD — road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2022-toyota-kluger-hybrid-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-sorento-phev",
+    "title": "2022 Kia Sorento GT-Line PHEV AWD — road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2022-kia-sorento-plug-in-hybrid-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-sorento-hev",
+    "title": "2026 Kia Sorento GT-Line HEV FWD — road test",
+    "url": "https://www.carexpert.com.au/car-reviews/2026-kia-sorento-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  }
+]

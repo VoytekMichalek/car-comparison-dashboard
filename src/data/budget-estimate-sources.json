@@ -1,0 +1,162 @@
+[
+  {
+    "id": "budget-insurance-study",
+    "title": "Compare the Market March 2026 Brisbane EV/HEV/PHEV comprehensive-insurance quote study",
+    "url": "https://www.comparethemarket.com.au/news/ev-insurance-up-in-12-months/",
+    "publisher": "Compare the Market Australia",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-insurance-factors",
+    "title": "RACQ comprehensive insurance — personal, vehicle and location premium factors",
+    "url": "https://www.racq.com.au/car/car-insurance",
+    "publisher": "RACQ",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-tyre-prices",
+    "title": "JAX fitted 255/45R19 tyre prices, including fitting, balancing, disposal and GST",
+    "url": "https://www.jaxtyres.com.au/tyres/sizes/19-inch/255-45r19",
+    "publisher": "JAX Tyres & Auto",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-tyre-life",
+    "title": "Michelin Australia tyre-care FAQ — mileage depends on use and maintenance",
+    "url": "https://www.michelin.com.au/auto/faq-cars",
+    "publisher": "Michelin Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-charger-hardware",
+    "title": "Tesla Australian home charging options — A$800 Wall Connector hardware",
+    "url": "https://www.tesla.com/en_au/support/charging/home-charging",
+    "publisher": "Tesla Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-charger-install",
+    "title": "EVSE Australia Brisbane installation — typical A$1,000–1,500 site-dependent installation",
+    "url": "https://evse.com.au/queensland-ev-charger-installation/electric-vehicle-ev-charger-installation-brisbane/",
+    "publisher": "EVSE Australia",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-inspection",
+    "title": "RACQ mechanical and premium inspection prices and inclusions",
+    "url": "https://www.racq.com.au/car/vehicle-inspections/compare-vehicle-inspections",
+    "publisher": "RACQ",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-battery-check",
+    "title": "RACQ electric-vehicle battery health check — in-store and mobile prices",
+    "url": "https://www.racq.com.au/car/electric-vehicles/ev-battery-health-check",
+    "publisher": "RACQ",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-depreciation-annual",
+    "title": "AADA and AutoGrab Annual 2025 Automotive Insights Report — retained-value trends and methodology",
+    "url": "https://www.aada.asn.au/wp-content/uploads/2026/01/2025_Annual_AIR.pdf",
+    "publisher": "Australian Automotive Dealer Association and AutoGrab",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-depreciation-ev",
+    "title": "AADA October 2025 used-EV retained-value market commentary",
+    "url": "https://www.aada.asn.au/press_release/used-car-sales-steady-but-retained-values-for-electric-vehicles-remain-challenged/",
+    "publisher": "Australian Automotive Dealer Association and AutoGrab",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-depreciation-hybrid",
+    "title": "AADA May 2026 hybrid and PHEV retained-value market analysis",
+    "url": "https://www.aada.asn.au/press_release/australians-chase-lower-running-costs-in-used-vehicles/",
+    "publisher": "Australian Automotive Dealer Association and AutoGrab",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-tyre-18compact",
+    "title": "JAX fitted 235-50R18 retail tyre prices — class-budget anchor, not vehicle fitment advice",
+    "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/235-50r18",
+    "publisher": "JAX Tyres & Auto",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-tyre-18suv",
+    "title": "JAX fitted 235-55R18 retail tyre prices — class-budget anchor, not vehicle fitment advice",
+    "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/235-55r18",
+    "publisher": "JAX Tyres & Auto",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-tyre-19suv",
+    "title": "JAX fitted 235-55R19 retail tyre prices — class-budget anchor, not vehicle fitment advice",
+    "url": "https://www.jaxtyres.com.au/tyres/sizes/19-inch/235-55r19",
+    "publisher": "JAX Tyres & Auto",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-tyre-20suv",
+    "title": "JAX fitted 255-45R20 retail tyre prices — class-budget anchor, not vehicle fitment advice",
+    "url": "https://www.jaxtyres.com.au/tyres/sizes/20-inch/255-45r20",
+    "publisher": "JAX Tyres & Auto",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-tyre-sealion6-manual",
+    "title": "BYD Sealion6 Australian2024 owner handbook —235/50R19 tyre specification (p232)",
+    "url": "https://bydautomotive.com.au/brochures/BYD-SEALION-6-Owners-Handbook-2024.pdf",
+    "publisher": "BYD Automotive Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-tyre-sealion6-current",
+    "title": "BYD Sealion6 current Australian range —19-inch wheels including Dynamic Extended",
+    "url": "https://bydautomotive.com.au/sealion-6",
+    "publisher": "BYD Automotive Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-tyre-zeekr7x-au",
+    "title": "Zeekr7X Australian August2025 brochure —19-inch RWD/LongRangeRWD;21-inch AWD",
+    "url": "https://www.datocms-assets.com/130529/1755670382-au-7x-brochure-200825-web.pdf",
+    "publisher": "Zeekr Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-insurance-atto3-2024-qld",
+    "title": "Compare the Market April2024 Brisbane Atto3 StandardRange insurance study and driver methodology",
+    "url": "https://www.comparethemarket.com.au/news/shock-difference-between-ev-and-petrol-car-running-costs-revealed/",
+    "publisher": "Compare the Market Australia",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "budget-insurance-atto3-2024-sept",
+    "title": "Compare the Market September2024 Brisbane4051 Atto3 StandardRange quote study",
+    "url": "https://www.comparethemarket.com.au/news/david-koch-urges-australians-to-compare-and-combat-the-electric-car-insurance-shock/",
+    "publisher": "Compare the Market Australia",
+    "kind": "market",
+    "checked": "2026-10-18"
+  }
+]

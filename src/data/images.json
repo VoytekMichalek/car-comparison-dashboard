@@ -1,0 +1,189 @@
+[
+  {
+    "familyId": "tesla-model-y",
+    "path": "/images/tesla-model-y.jpg",
+    "alt": "Red 2023 Tesla Model Y Long Range, front three-quarter view",
+    "credit": "Kevauto / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Tesla_Model_Y,_front_11.11.23.jpg",
+    "generation": "Original Model Y, pre-Juniper, 2022–2024 Australian shape",
+    "note": "2023 US-market Long Range photographed in New York; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "byd-atto-3",
+    "path": "/images/byd-atto-3.jpg",
+    "alt": "White original BYD Atto 3, front three-quarter view",
+    "credit": "Hubert Berberich (HubiB) / Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BYD_Atto_3_front-left.jpg",
+    "generation": "Original Atto 3, 2022–2025 Australian shape",
+    "note": "European-market Atto 3 pictured in Germany; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "kia-ev6",
+    "path": "/images/kia-ev6.jpg",
+    "alt": "Grey 2022 Kia EV6 Air, front three-quarter view",
+    "credit": "DieselFordMondeo / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Kia_EV6_Air_Long_Range_2WD_(Front).jpg",
+    "generation": "Original EV6, pre-facelift, 2022–2024",
+    "note": "2022 UK-market Air Long Range pictured; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "kia-ev5",
+    "path": "/images/kia-ev5.jpg",
+    "alt": "Sky blue 2024 Kia EV5, front three-quarter view",
+    "credit": "Ethan Llamas / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_Kia_EV5_EV_in_Sky_Blue,_front_right.jpg",
+    "generation": "First-generation EV5, 2024 onward",
+    "note": "2024 China-market import photographed overseas; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "hyundai-ioniq-5",
+    "path": "/images/hyundai-ioniq-5.jpg",
+    "alt": "Grey original Hyundai Ioniq 5, front three-quarter view",
+    "credit": "DieselFordMondeo / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2021_Hyundai_Ioniq_5_Premium_Standard_Range_2WD_(Front).jpg",
+    "generation": "Original Ioniq 5, pre-facelift, 2021–2024",
+    "note": "2021 UK-market Premium Standard Range pictured; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "zeekr-7x",
+    "path": "/images/zeekr-7x.jpg",
+    "alt": "Black 2025 Zeekr 7X in Bondi, side and front view",
+    "credit": "LuvsMG481 / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025_Zeekr_7X_front.jpg",
+    "generation": "First-generation Zeekr 7X, 2025 onward",
+    "note": "2025 Zeekr 7X photographed in Bondi, NSW; exact trim not identified. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "mitsubishi-outlander-phev",
+    "path": "/images/mitsubishi-outlander-phev.jpg",
+    "alt": "White fourth-generation Mitsubishi Outlander PHEV, front three-quarter view",
+    "credit": "オーバードライブ83 / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Mitsubishi_Outlander_PHEV_P_4WD_2.4_5LA-GN0W_(20220904).jpg",
+    "generation": "Fourth-generation Outlander PHEV GN, 2022 onward",
+    "note": "2022 Japan-market PHEV P 4WD pictured; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "byd-sealion-6",
+    "path": "/images/byd-sealion-6.jpg",
+    "alt": "Harbour grey BYD Sealion 6 DM-i, front three-quarter view",
+    "credit": "Ethan Llamas / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BYD_Sealion_6_DM-i_Harbour_Grey_01.jpg",
+    "generation": "First-generation Sealion 6 DM-i, 2024 onward",
+    "note": "Overseas Sealion 6 DM-i pictured; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "nissan-x-trail-epower",
+    "path": "/images/nissan-x-trail-epower.jpg",
+    "alt": "Red T33 Nissan X-Trail e-Power, front three-quarter view",
+    "credit": "Alexander Migl / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_e-Power_DSC_7092.jpg",
+    "generation": "Fourth-generation X-Trail T33 e-Power, 2023 onward in Australia",
+    "note": "European-market e-Power photographed in Germany; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "toyota-rav4-hybrid",
+    "path": "/images/toyota-rav4-hybrid.jpg",
+    "alt": "Black 2022 Toyota RAV4 Hybrid, front three-quarter view",
+    "credit": "Mr.choppers / Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Toyota_RAV4_Hybrid_LE_in_Midnight_Black_Metallic,_front_left.jpg",
+    "generation": "Fifth-generation RAV4 Hybrid XA50, 2021–2025 coverage",
+    "note": "2022 North American Hybrid LE pictured; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "toyota-kluger-hybrid",
+    "path": "/images/toyota-kluger-hybrid.jpg",
+    "alt": "Silver XU70 Toyota Highlander Hybrid, the overseas counterpart of Kluger, front three-quarter view",
+    "credit": "Alexander Migl / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toyota_Highlander_Hybrid_(XU70)_1X7A6356.jpg",
+    "generation": "Fourth-generation Kluger / Highlander Hybrid XU70, 2021 onward",
+    "note": "Overseas Highlander Hybrid pictured in Germany; sold as Kluger in Australia. Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "kia-sorento",
+    "path": "/images/kia-sorento.jpg",
+    "alt": "White original MQ4 Kia Sorento Hybrid, front three-quarter view",
+    "credit": "Vauxford / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020_Kia_Sorento_4_HEV_AWD_Automatic_1.6_Front.jpg",
+    "generation": "Fourth-generation Sorento MQ4, pre-facelift, 2021–2023 Australian shape",
+    "note": "2020 UK-market Sorento HEV pictured; represents pre-facelift MQ4 body, Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "tesla-model-y-juniper",
+    "path": "/images/tesla-model-y-juniper.jpg",
+    "alt": "White refreshed 2025 Tesla Model Y Juniper, front three-quarter view",
+    "credit": "Alexander Migl / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_(2025)_MYLE_Festival_2025_DSC_9565.jpg",
+    "generation": "Refreshed Model Y Juniper, 2025 onward",
+    "note": "2025 refreshed Model Y photographed at a German event; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "byd-atto-3-evo",
+    "path": "/images/byd-atto-3-evo.jpg",
+    "alt": "Grey 2026 BYD Atto 3 Evo, front three-quarter view",
+    "credit": "Alexander Migl / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BYD_Atto_3_Evo_IMG_7851.jpg",
+    "generation": "Atto 3 Evo, 2026 onward",
+    "note": "European-market Atto 3 Evo photographed in Germany; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "kia-ev6-facelift",
+    "path": "/images/kia-ev6-facelift.jpg",
+    "alt": "Grey facelift Kia EV6, front three-quarter view",
+    "credit": "Alexander Migl / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kia_EV6_(2024%E2%80%93)_Rutesheimer_Autoschau_2025_DSC_9204.jpg",
+    "generation": "Facelift EV6, 2025 onward in Australia",
+    "note": "Facelift EV6 photographed at a German event in 2025; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "hyundai-ioniq-5-facelift",
+    "path": "/images/hyundai-ioniq-5-facelift.jpg",
+    "alt": "Grey facelift 2025 Hyundai Ioniq 5 SEL, front three-quarter view",
+    "credit": "HJUdall / Wikimedia Commons",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:25_Hyundai_Ioniq_5_SEL.jpg",
+    "generation": "Facelift Ioniq 5, 2025 onward",
+    "note": "2025 US-market Ioniq 5 SEL photographed in Arizona; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  },
+  {
+    "familyId": "kia-sorento-facelift",
+    "path": "/images/kia-sorento-facelift.jpg",
+    "alt": "Silver facelift MQ4 Kia Sorento Hybrid, front three-quarter view",
+    "credit": "Ethan Llamas / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kia_Sorento_MQ4_FL_1.6_SX_Turbo_Hybrid_AWD_Silky_Silver_-_front.jpg",
+    "generation": "Fourth-generation Sorento MQ4 facelift, 2024 onward",
+    "note": "Overseas Sorento facelift SX Turbo Hybrid photographed in the Philippines; Australian trim and equipment may differ. Wikimedia 960px rendition; no other changes. License checked 18 October 2026."
+  }
+]

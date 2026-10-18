@@ -1,0 +1,136 @@
+[
+  {
+    "familyId": "mitsubishi-outlander-phev",
+    "rating": 4.7,
+    "outOf": 5,
+    "count": 4,
+    "scope": "ProductReview fourth-generation ZM PHEV page labelled 2022–2026; not the older ZL PHEV or all Outlanders. Four self-selected posts.",
+    "summary": "Visible owners like the electric drive and second-row space. The very small sample cannot establish long-term reliability or a brand-wide trust rating.",
+    "positiveThemes": [
+      "Smooth electric acceleration and quiet running",
+      "Sliding second row and space for family use",
+      "Petrol backup alongside regular electric driving"
+    ],
+    "negativeThemes": [
+      "Some cabin noise and startup/infotainment annoyances",
+      "Third row described by one owner as occasional-use space",
+      "Economy varies with charging and driving mode"
+    ],
+    "sourceIds": [
+      "ownreview-hy-outlander-zm-phev"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "byd-sealion-6",
+    "rating": 3.7,
+    "outOf": 5,
+    "count": 9,
+    "scope": "ProductReview Sealion 6 page labelled 2024–2026, mixed variants. Some posts rate dealer/lease experiences as well as the vehicle; nine self-selected posts.",
+    "summary": "Owners praise comfort, equipment and charged-up economy. Dealer and warranty experiences vary sharply; individual complaints are not verified fault-frequency evidence.",
+    "positiveThemes": [
+      "Quiet, comfortable driving and plentiful equipment",
+      "Low petrol use when regularly charged",
+      "Strong perceived value"
+    ],
+    "negativeThemes": [
+      "Dealer communication and dispute handling",
+      "Individual reports of panel fit, wipers or charging quirks",
+      "Soft suspension and limited boot space noted"
+    ],
+    "sourceIds": [
+      "ownreview-hy-sealion6"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "nissan-x-trail-epower",
+    "rating": 4.2,
+    "outOf": 5,
+    "count": 4,
+    "scope": "ProductReview T33 Ti e-POWER page labelled 2023–2026; this is a four-post Ti subset, not all e-POWER trims or the mixed-petrol X-Trail aggregate.",
+    "summary": "Visible owners value the smooth electric-motor drive. One detailed MY25 owner reports technology and after-sales frustrations; check the actual build and equipment.",
+    "positiveThemes": [
+      "Smooth, quiet EV-like response",
+      "Comfort and family space",
+      "AWD traction and surround-camera usability"
+    ],
+    "negativeThemes": [
+      "MY25 app/connectivity and map-update frustrations in one report",
+      "Variable dealer technology support",
+      "Individual concerns about engine noise, audio or lack of spare"
+    ],
+    "sourceIds": [
+      "ownreview-hy-xtrail-ti-epower"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "toyota-rav4-hybrid",
+    "rating": 3.9,
+    "outOf": 5,
+    "count": 18,
+    "scope": "ProductReview XA50 FWD 2.5L Hybrid page: 18 contributions across GX, GXL and Cruiser, including a hire-car report and pre-2021 cars. Not the sixth-generation 2026 RAV4.",
+    "summary": "The FWD hybrid subset is a closer match than the AWD aggregate. Contributors praise economy and practicality, with mixed views on cabin quality, noise and technology. Self-selected posts cannot establish reliability.",
+    "positiveThemes": [
+      "Hybrid economy in urban and mixed use",
+      "Responsive acceleration and everyday practicality",
+      "Owners appreciate the original capped-service period"
+    ],
+    "negativeThemes": [
+      "Road and wind noise at highway speeds",
+      "Radio/software frustrations and update delays",
+      "Some owners regard equipment or finish as poor value"
+    ],
+    "sourceIds": [
+      "ownreview-hy-rav4-fwd-hybrid"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "toyota-kluger-hybrid",
+    "rating": 3.0,
+    "outOf": 5,
+    "count": 7,
+    "scope": "ProductReview AWD Hybrid page labelled 2021–2026, seven posts across GX/GXL/Grande; not the older petrol Kluger aggregate. At least one post is marked incentivised.",
+    "summary": "Owners describe a spacious, quiet family car but disagree about finish, equipment and support. Seven posts cannot settle Toyota or Kluger reliability.",
+    "positiveThemes": [
+      "Roomy cabin and smooth, quiet driving",
+      "Economy praised against previous large family cars",
+      "Responsive acceleration"
+    ],
+    "negativeThemes": [
+      "Trim, wheel-cover or upholstery complaints",
+      "Lane-assist intrusiveness and a sunroof creak in one report",
+      "Individual dissatisfaction with warranty handling and equipment"
+    ],
+    "sourceIds": [
+      "ownreview-hy-kluger-awd-hybrid"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "kia-sorento",
+    "rating": 3.4,
+    "outOf": 5,
+    "count": 31,
+    "scope": "ProductReview MQ4 page labelled 2020–2026: MIXED petrol, diesel, HEV and PHEV; includes independent expert posts. The aggregate is not a Sorento hybrid reliability rating.",
+    "summary": "Broader MQ4 feedback praises comfort and equipment, with some after-sales complaints. Hybrid-only evidence is sparse: FWD HEV has two posts including an expert; PHEV has one expert post, not an owner sample.",
+    "positiveThemes": [
+      "Comfortable ride and family accommodation across mixed variants",
+      "Equipment and perceived interior quality praised",
+      "Owners value the long transferable warranty"
+    ],
+    "negativeThemes": [
+      "Mixed-variant reports of service communication and repair delays",
+      "Trim-dependent features can disappoint",
+      "One HEV owner reports seat discomfort; do a full family test drive"
+    ],
+    "sourceIds": [
+      "ownreview-hy-sorento-mq4-mixed",
+      "ownreview-hy-sorento-hev-fwd",
+      "ownreview-hy-sorento-phev"
+    ],
+    "checked": "2026-10-18"
+  }
+]

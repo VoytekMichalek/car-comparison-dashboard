@@ -1,0 +1,618 @@
+[
+  {
+    "id": "hy-out-23",
+    "title": "Mitsubishi Outlander MY23 Australian brochure",
+    "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/vehicle-brochures/23MY%20Outlander%20Brochure.pdf",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-out-24",
+    "title": "Mitsubishi Outlander MY24 Australian brochure",
+    "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/vehicle-brochures/24MY%20Outlander%20Brochure.pdf",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-out-current",
+    "title": "Current Australian Outlander Plug-in Hybrid EV range",
+    "url": "https://www.mitsubishi-motors.com.au/vehicles/outlander-plug-in-hybrid-ev.html",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-out-25",
+    "title": "Updated Outlander PHEV Australian brochure (labelled MY25)",
+    "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/vehicle-brochures/25MY%20Outlander%20PHEV%20Brochure.pdf",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-out-dealer",
+    "title": "Updated Outlander PHEV seating by Australian grade",
+    "url": "https://www.newenglandmitsubishi.com.au/models/outlander-plug-in-hybrid-ev",
+    "publisher": "New England Mitsubishi",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-out-fit",
+    "title": "BabyDrive: 2025 Mitsubishi Outlander PHEV five-seat family test",
+    "url": "https://babydrive.com.au/reviews/electric-cars/2025-mitsubishi-outlander-phev-review/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-out-safe-old",
+    "title": "ANCAP Outlander: original ZM specification, 2022 rating",
+    "url": "https://www.ancap.com.au/safety-ratings/mitsubishi/outlander/cc365d",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-out-safe-new",
+    "title": "ANCAP Outlander: updated safety specification, 2025 rating",
+    "url": "https://www.ancap.com.au/safety-ratings/mitsubishi/outlander/a62ab7",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-out-warranty",
+    "title": "Mitsubishi Diamond Advantage warranty and battery capacity terms",
+    "url": "https://www.mitsubishi-motors.com.au/owners/diamond-advantage/warranty.html",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-out-service",
+    "title": "MY23 Outlander PHEV capped-price service schedule",
+    "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/cps-updates/outlander/23MY_Outlander%20PHEV_4x4_2_4L_CPS_A4.pdf",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-out-recall",
+    "title": "REC-005692: Outlander rear-view camera software recall",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005692",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-out-used",
+    "title": "Observed listing: 2023 Outlander PHEV Aspire, QLD",
+    "url": "https://www.carsales.com.au/cars/details/2023-mitsubishi-outlander-phev-aspire-zm-auto-awd-my23/OAG-AD-25066944/",
+    "publisher": "carsales / dealer advertisement",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sl6-24",
+    "title": "BYD Sealion 6 Australian 2024 brochure",
+    "url": "https://bydautomotive.com.au/brochures/BYD-SEALION-6-2024.pdf",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sl6-25",
+    "title": "BYD Sealion 6 Australian specifications, September 2025",
+    "url": "https://bydautomotive.com.au/brochures/BYD-SEALION-6-2025.pdf",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sl6-current",
+    "title": "Current Australian BYD Sealion 6 variants",
+    "url": "https://bydautomotive.com.au/sealion-6",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sl6-safe",
+    "title": "ANCAP Sealion 6 rating and Australian variant applicability",
+    "url": "https://www.ancap.com.au/safety-ratings/byd/sealion-6/304014",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sl6-anchors",
+    "title": "ANCAP Sealion 6 technical report: child-restraint anchors",
+    "url": "https://s3.amazonaws.com/cdn.ancap.com.au/app/public/assets/1d72f990fae84d314701b822fc8b6f305d417f3a/original.pdf?1767071738=",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-byd-warranty",
+    "title": "BYD Australian service and warranty terms",
+    "url": "https://bydautomotive.com.au/service-and-warranty",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sl6-used",
+    "title": "Observed listing: 2024 Sealion 6 Dynamic, Hendra QLD",
+    "url": "https://www.carsguide.com.au/car/15340890/byd/sealion-6/qld/hendra/suv",
+    "publisher": "CarsGuide / dealer advertisement",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-xt-spec",
+    "title": "Nissan Australian X-Trail e-POWER launch specifications",
+    "url": "https://www.nissan.com.au/content/dam/Nissan/AU/Files/Brochures/Models/Specsheet/NIS4609_T33_X-TRAIL_eSpec_ePOWER_Desktop_Web.pdf",
+    "publisher": "Nissan Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-xt-current",
+    "title": "Nissan Australian X-Trail current grade specifications",
+    "url": "https://www.nissan.com.au/vehicles/browse-range/x-trail/specs-and-pricing.html",
+    "publisher": "Nissan Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-xt-fwd",
+    "title": "Nissan announces Australian front-wheel-drive e-POWER for September 2026 arrivals",
+    "url": "https://australia.nissannews.com/en-AU/releases/nissan-expands-x-trail-range-with-new-2wd-e-power-variants-and-rock-creek-grade?origin=channel-75f606e125080a9f50f6de56880080bc",
+    "publisher": "Nissan Australia newsroom",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-xt-fit",
+    "title": "BabyDrive: 2023 X-Trail e-POWER Australian family test",
+    "url": "https://babydrive.com.au/reviews/suvs/2023-nissan-x-trail-e-power-hybrid-launch-review/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-xt-safe",
+    "title": "Nissan: five-star ANCAP rating for Australian T33 X-Trail",
+    "url": "https://www.nissan.com.au/about-nissan/news-and-events/news/2022/nov/five-star-ancap-xtrail.html",
+    "publisher": "Nissan Australia",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-nissan-warranty",
+    "title": "Nissan Australian new-vehicle warranty terms from January 2025",
+    "url": "https://www.nissan.com.au/owners-hub/nissan-warranty/new-vehicle-warranty-terms.html",
+    "publisher": "Nissan Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-xt-recall",
+    "title": "REC-006653: X-Trail e-POWER battery-controller software recall, July 2026",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006653",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-xt-used",
+    "title": "Observed listing: 2023 X-Trail Ti e-POWER, Gatton QLD",
+    "url": "https://www.gattonauto.com.au/used-cars/for-sale/nissan/x-trail/2023/ti-e-power/4037637/",
+    "publisher": "Gatton Auto",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-rav-spec-25",
+    "title": "Toyota RAV4 Australian specification table, January 2025",
+    "url": "https://www.toyota.com.au/-/media/toyota/main-site/vehicle-hubs/rav4/files/20250129_gto008905_rav4_spec_table.pdf?rev=459566df983b4b85be03471981175485",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-rav-brochure-24",
+    "title": "Toyota RAV4 Australian brochure, June 2024 (dealer-hosted original)",
+    "url": "https://resource.digitaldealer.com.au/pdf/596780827667a27a128e9e617343088.pdf",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-rav-update-23",
+    "title": "Toyota Australian RAV4 safety and multimedia upgrades for 2023",
+    "url": "https://www.toyota.com.au/discover/news/toyota-upgrades-rav4-range-with-improvements-to-safety-and-technology",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-rav-spec-26",
+    "title": "Toyota sixth-generation RAV4 Australian specification table, May 2026",
+    "url": "https://www.toyota.com.au/-/media/toyota/main-site/vehicle-hubs/rav4/files/20260512_gto009809_rav4_spec_table.pdf?rev=ce8a2ddd60a64574988cc62705c3145a",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-rav-launch-26",
+    "title": "Toyota sixth-generation RAV4 Australian arrival and list prices",
+    "url": "https://www.toyota.com.au/discover/news/all-new-rav4-suv-arrives-australia-with-bold-new-styling-new-generation-technology-hybrid",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-rav-fit",
+    "title": "BabyDrive: 2021 RAV4 Hybrid Cruiser Australian family test",
+    "url": "https://babydrive.com.au/reviews/suvs/2021-toyota-rav4-hybrid-cruiser/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-toyota-safety",
+    "title": "ANCAP Toyota ratings: old RAV4 and new-generation RAV4 applicability",
+    "url": "https://www.ancap.com.au/safety-ratings/toyota?sort_by=rating_year",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-toyota-warranty",
+    "title": "Toyota Australia: standard and hybrid battery warranty FAQs",
+    "url": "https://www.toyota.com.au/support/faqs",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-rav-used",
+    "title": "Observed listing: 2021 RAV4 GXL Hybrid FWD, Joondalup WA",
+    "url": "https://easyauto123.com.au/buy/used-cars/details/2021/TOYOTA/RAV4/GXL/WA/Perth/Joondalup/Automatic/White/Wagon-SUV-Hybrid/JTMW23FVX0D104495",
+    "publisher": "easyauto123",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-kluger-spec",
+    "title": "Toyota Kluger Australian specification table, April 2025",
+    "url": "https://www.toyota.com.au/-/media/toyota/main-site/vehicle-hubs/kluger/files/20250429_kluger_spec_table_gto008891.pdf?rev=a48d51a6becb4cd8bcc401e5242431d9",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-kluger-current",
+    "title": "Current Australian Toyota Kluger grade specifications",
+    "url": "https://www.toyota.com.au/kluger/range",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-kluger-launch",
+    "title": "Toyota Australian Kluger hybrid launch and servicing information",
+    "url": "https://www.toyota.com.au/discover/news/all-new-toyota-kluger-arrives-in-australia",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-kluger-fit",
+    "title": "BabyDrive: 2021 Kluger Hybrid Grande Australian family test",
+    "url": "https://babydrive.com.au/reviews/suvs/2021-toyota-kluger-hybrid-grande/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-kluger-safe",
+    "title": "ANCAP Kluger technical report: 2021 rating and third-row coverage",
+    "url": "https://s3.amazonaws.com/cdn.ancap.com.au/app/public/assets/534362bf4ca200cb445ddb1b17b2fd7c1bde22c0/original.pdf?1676846050=",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-kluger-used",
+    "title": "Observed listing: 2021 Kluger GX Hybrid, Kedron QLD",
+    "url": "https://www.autotrader.com.au/for-sale/toyota/kluger/qld/suv/year-2021/android-auto",
+    "publisher": "Autotrader / dealer advertisement",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sorento-spec",
+    "title": "Kia Sorento HEV/PHEV Australian MY26 brochure",
+    "url": "https://www.kia.com/content/dam/kwcms/au/en/images/pdf/sorento/kia-sorento-hybrid-brochure.pdf",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sorento-current",
+    "title": "Kia Sorento Hybrid and PHEV Australian range features",
+    "url": "https://www.kia.com/au/cars/sorento-hybrid/features.html",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sorento-fit-hev",
+    "title": "BabyDrive: 2025 Sorento Hybrid GT-Line Australian family test",
+    "url": "https://babydrive.com.au/reviews/suvs/2025-kia-sorento-hybrid-gt-line-review/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sorento-fit-phev",
+    "title": "BabyDrive: 2021 Sorento PHEV Australian family test",
+    "url": "https://babydrive.com.au/reviews/suvs/2021-kia-sorento-phev/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sorento-safe",
+    "title": "ANCAP Sorento: 2020 rating extended to HEV and PHEV",
+    "url": "https://www.ancap.com.au/safety-ratings/kia/sorento/ef7126",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-kia-warranty",
+    "title": "Kia Australia battery and new-vehicle warranty FAQs",
+    "url": "https://www.kia.com/au/util/faq.html",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sorento-used",
+    "title": "Observed listing: 2022 Sorento GT-Line PHEV, Wynnum QLD",
+    "url": "https://www.carsguide.com.au/buy-a-car/used/kia/sorento/qld/brisbane-location/2022-year",
+    "publisher": "CarsGuide / dealer advertisement",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-recalls",
+    "title": "Australian Government Vehicle Recalls: current recall search",
+    "url": "https://www.vehiclerecalls.gov.au/",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sorento-technical",
+    "title": "ANCAP Sorento technical report: Australian anchor positions and curtain-airbag coverage",
+    "url": "https://cdn.ancap.com.au/app/public/assets/4512756d92eada2c7c7e052329a749e0fa654e94/original.pdf?1705637482=",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-out-new-price-proxy",
+    "title": "Aspire PHEV dealer PDF: A$65,990 drive-away, conflicting 2025 header / 2026 comments",
+    "url": "https://www.camdenvalleymitsubishi.com.au/download/stock-pdf/3898244",
+    "publisher": "Camden Valley Mitsubishi",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-out-new-guide-proxy",
+    "title": "2026 Outlander PHEV Aspire research guide: indicative new pricing; build applicability must be checked",
+    "url": "https://www.carsales.com.au/research/mitsubishi/outlander/2026/phev-aspire/",
+    "publisher": "carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sl6-ext-price-proxy",
+    "title": "BYD dealer shop: Dynamic Extended stock 15143, indexed A$49,931 drive-away, Noosa QLD pickup",
+    "url": "https://bydcarolinesprings.com.au/shop",
+    "publisher": "BYD Caroline Springs / BYD dealer online shop",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sl6-ext-guide-proxy",
+    "title": "2026 Sealion 6 Dynamic Extended: indicative drive-away price guide, not a Queensland quote",
+    "url": "https://www.carsales.com.au/research/byd/sealion-6/2026/dynamic-extended-range/3c5e322c-cc9e-4912-9f89-a9bcb97b23df/",
+    "publisher": "carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-sorento-hev-new-price",
+    "title": "New MY26 Sorento HEV GT-Line AWD stock 517701: A$79,190 drive-away, 15 km",
+    "url": "https://bundabergkia.com.au/517701-1869135-kia-sorento-2026/",
+    "publisher": "Bundaberg Kia",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-out-motorama",
+    "title": "2023 MY24 Outlander Aspire 20 kWh / five seats, Motorama stock U226401",
+    "url": "https://www.motoramakia.com.au/cars/used-white-2023-mitsubishi-outlander-u226401",
+    "publisher": "Motorama Kia",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-out-2024",
+    "title": "2024 MY24 Outlander Aspire stock FU34705, 43,477 km",
+    "url": "https://www.carsales.com.au/cars/details/2024-mitsubishi-outlander-phev-aspire-zm-auto-awd-my24/OAG-AD-26149455/",
+    "publisher": "Dealer advertisement on carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-sl6-blue",
+    "title": "2024 Sealion 6 Dynamic, Hendra stock H30165 / VIN LGXC74C41R0295589",
+    "url": "https://www.carsguide.com.au/car/15340581/byd/sealion-6/qld/hendra/suv",
+    "publisher": "easyauto123 Hendra via CarsGuide",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-sl6-grey",
+    "title": "2024 Sealion 6 Dynamic, Hendra stock H31098",
+    "url": "https://www.carsguide.com.au/car/15340890/byd/sealion-6/qld/hendra/suv",
+    "publisher": "easyauto123 Hendra via CarsGuide",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-xt-gatton",
+    "title": "2023 X-Trail Ti e-POWER e-4ORCE, Gatton stock 76188",
+    "url": "https://www.gattonauto.com.au/used-cars/for-sale/nissan/x-trail/2023/ti-e-power/4037637/",
+    "publisher": "Gatton Auto",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-xt-sunshine",
+    "title": "2023 X-Trail Ti e-POWER, Sunshine Coast stock U61979",
+    "url": "https://sunshinecoastnissan.com.au/u61979-1894471-nissan-xtrail-2023/",
+    "publisher": "Sunshine Coast Nissan",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-rav-robina",
+    "title": "2021 RAV4 GXL Hybrid FWD, Robina stock RU46310",
+    "url": "https://www.vonbibranissan.com.au/stock/details/OAG-AD-25900980/2021-toyota-rav4-used",
+    "publisher": "von Bibra Nissan",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-rav-norris",
+    "title": "2022 RAV4 GXL Hybrid FWD, Norris stock U4509",
+    "url": "https://nmg.com.au/u4509-1905262-toyota-rav4-2022/",
+    "publisher": "Norris Motor Group",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-rav-new-motorama",
+    "title": "2026 sixth-generation RAV4 GXL 2WD Hybrid, Motorama in-stock VIN JTM5DABV50D339094",
+    "url": "https://motoramatoyota.dealer.toyota.com.au/new-vehicles/dealer-stock/rav4",
+    "publisher": "Motorama Toyota",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-rav-new-south",
+    "title": "2026 sixth-generation RAV4 GXL 2WD Hybrid, Southside in-stock VIN JTM5DABV90D338174",
+    "url": "https://southsidetoyota.dealer.toyota.com.au/inventory/rav4/gxl/2wd/2026/JTM5DABV90D338174",
+    "publisher": "Southside Toyota",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-kluger-kedron",
+    "title": "2021 Kluger GX Hybrid AWD, Auto Request stock 15437",
+    "url": "https://autorequest.com.au/current-stock/?make=Toyota",
+    "publisher": "Auto Request",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-kluger-booval",
+    "title": "2022 Kluger GX Hybrid AWD Toyota certified stock RKQ2TIEG66",
+    "url": "https://www.toyota.com.au/used-vehicles/vehicle-listing/Toyota-KlugerHybrid-RKQ2TIEG66",
+    "publisher": "Toyota Australia / Llewellyn Toyota",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-kluger-gympie",
+    "title": "2022 Kluger GX Hybrid AWD, Gympie stock U13155",
+    "url": "https://www.pacificmitsubishi.com.au/stock/used-cars-for-sale-gympie/Toyota/Kluger/",
+    "publisher": "Pacific Mitsubishi",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-sorento-wynnum",
+    "title": "2022 Sorento PHEV GT-Line AWD, Bartons stock W35894",
+    "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1345028914",
+    "publisher": "Bartons Wynnum via Gumtree",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-sorento-2023",
+    "title": "2023 Sorento PHEV GT-Line AWD, QLD dealer OAG-AD-26236225",
+    "url": "https://www.carsales.com.au/cars/details/2023-kia-sorento-phev-gt-line-auto-awd-my23/OAG-AD-26236225/",
+    "publisher": "Queensland BMW dealer advertisement on carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-xt-fwd-msrp",
+    "title": "Nissan September 2026 arrival of X-Trail ST-L e-POWER 2WD: A$45,990 MSRP excluding on-road costs",
+    "url": "https://www.nissan.com.au/about-nissan/news-and-events/news/2026/september/twenty-five-years-of-x-trail-nissan-marks-the-milestone-with-rock-creek-and-2wd-e-power-arrival.html",
+    "publisher": "Nissan Australia",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-out-new-guide",
+    "title": "2026 Outlander Aspire seven-seat MY25 base-price guide: A$66,790 before on-road costs",
+    "url": "https://www.carsales.com.au/research/mitsubishi/outlander/2026/phev-aspire/0b4efcd0-a155-4495-a51e-b8870af69822/",
+    "publisher": "carsales / RedBook",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-sl6-ext-noosa",
+    "title": "BYD dealer indexed Dynamic Extended stock 15143: A$49,931 drive-away, 2026, Noosa QLD registration",
+    "url": "https://bydcarolinesprings.com.au/shop",
+    "publisher": "BYD dealer online shop",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-sl6-ext-sunshine",
+    "title": "BYD dealer inventory Dynamic Extended stock 8100543: A$49,849 drive-away, Sunshine Coast QLD registration",
+    "url": "https://evdealergroup-byd.com.au/inventory?fwp=385310&model=sealion-6&type=n&type=npg%3Dinventory",
+    "publisher": "BYD EV Dealer Group",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-out-new-alto",
+    "title": "2026 Outlander Aspire 22.7 kWh / seven seats: Alto new stock 0003054294",
+    "url": "https://www.alto.com.au/stock/details/OAG-AD-26074834/2026-mitsubishi-outlander-new",
+    "publisher": "Alto Mitsubishi Pennant Hills",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-priceaudit-out-new-launceston",
+    "title": "2026 Outlander Aspire seven seats: Launceston new stock0003054277",
+    "url": "https://www.launcestonmitsubishi.com.au/cars/new-white-diamond-2026-mitsubishi-outlander-0003054277",
+    "publisher": "Launceston Mitsubishi",
+    "kind": "market",
+    "checked": "2026-10-18"
+  }
+]

@@ -1,0 +1,26 @@
+import { Star, ShieldCheck } from 'lucide-react';
+import { brandFor, reviewFor, expertReviews } from '../data';
+import { formatDate } from '../lib';
+import { categoryLabels, categoryRules } from '../scoring';
+import type { ScoreResult } from '../scoring';
+import type { Vehicle } from '../types';
+import { SourceRefs } from './Shared';
+import { reviewScope } from '../reviewScope';
+
+export function ScoreBadge({ score, onClick }: { score: ScoreResult; onClick: () => void }) {
+  return <button className="score-badge" onClick={onClick} aria-label={`Overall score ${score.total} out of 10. ${score.coverage}% evidence coverage. View scoring weights.`}><Star size={12} fill="currentColor" /><strong>{score.total.toFixed(1)}</strong><span>/10</span></button>;
+}
+export function ScoreBreakdown({ score }: { score: ScoreResult }) {
+  return <section className="score-breakdown"><div className="score-summary"><div><p className="eyebrow">YOUR WEIGHTED SCORE</p><strong>{score.total.toFixed(1)}<span>/ 10</span></strong></div><div><span className={`coverage ${score.provisional ? 'low' : ''}`}>{score.coverage}% evidence coverage</span><p>Weak or missing evidence moves a category towards neutral 5.</p></div></div><div className="breakdown-rows">{score.categories.map(c => <details key={c.key}><summary><span>{categoryLabels[c.key]}</span><span className="category-weight">weight {c.weight}/10</span><strong>{c.adjusted.toFixed(1)}<small>/10</small></strong></summary><div><p>{c.reason} <SourceRefs ids={c.sourceIds} /></p><p className="micro muted">Raw criterion {c.score.toFixed(1)}/10 · evidence factor {Math.round(c.confidence * 100)}% · adjusted {c.adjusted.toFixed(1)}/10.</p><p className="micro muted">{categoryRules[c.key]}</p></div></details>)}</div><p className="score-method-note">Adjusted category = 5 + (raw score − 5) × evidence factor. Overall = sum(adjusted score × importance) ÷ sum(importance). Evidence coverage is an editorial indicator, not a probability. Scores can differ when local quotes or fit confirmations differ.</p></section>;
+}
+export function ReviewsPanel({ vehicle: v }: { vehicle: Vehicle }) {
+  const review = reviewFor(v.familyId);
+  const brand = brandFor(v.make);
+  const scope = reviewScope(v);
+  return <div className="reviews-panel"><section className="community-review"><h3><Star size={18} />People’s ratings</h3>{review?.rating != null ? <><div className="community-rating"><strong>{review.rating.toFixed(1)}<span>/{review.outOf}</span></strong><div><span className="review-stars" aria-hidden="true">{[1, 2, 3, 4, 5].map(n => <Star size={15} key={n} fill={n <= Math.round(review.rating!) ? 'currentColor' : 'none'} />)}</span><small>{review.count ?? 'Unverified count'} contributions · checked {formatDate(review.checked)}</small></div></div><p className="review-scope"><strong>{scope.factor === 0 ? 'Reference only — excluded from this score. ' : ''}</strong>{scope.note} {review.scope} <SourceRefs ids={review.sourceIds} /></p><p>{review.summary}</p>{(review.positiveThemes.length > 0 || review.negativeThemes.length > 0) && <div className="review-themes"><div><h4>Positive themes</h4><ul>{review.positiveThemes.map(t => <li key={t}>{t}</li>)}</ul></div><div><h4>Concerns raised</h4><ul>{review.negativeThemes.map(t => <li key={t}>{t}</li>)}</ul></div></div>}</> : <p>No suitable model-level aggregate verified. Brand/dealer ratings are not substituted. <SourceRefs ids={review?.sourceIds ?? []} /></p>}<p className="micro muted">Self-selected posts may mix trims, years and expert contributors. These are not verified failure rates. Small samples have less influence on your overall score.</p></section><ProfessionalReviews vehicle={v} />{brand && <section className="brand-review"><h3><ShieldCheck size={18} />Brand support</h3><span className="support-pill">{brand.support === 'established' ? 'Established Australian support' : brand.support === 'developing' ? 'Developing Australian network' : brand.support === 'limited' ? 'Limited verified support' : 'Support to verify'}</span><p>{brand.summary}</p><p>{brand.network} <SourceRefs ids={brand.sourceIds} /></p><p className="micro muted">{brand.warrantyNote}</p><p className="micro muted">Service access is a trust proxy. It does not establish a brand’s mechanical reliability or the condition of a used car.</p></section>}</div>;
+}
+
+function ProfessionalReviews({ vehicle }: { vehicle: Vehicle }) {
+  const entries = expertReviews.filter(r => r.familyId === vehicle.familyId).sort((a, b) => Number(b.vehicleIds.includes(vehicle.id)) - Number(a.vehicleIds.includes(vehicle.id)));
+  return <section className="professional-reviews"><h3>Professional reviews</h3><p className="micro muted">Published verdicts use each outlet’s method. They are separate from community ratings and your weighted score.</p>{entries.map(r => <details key={r.id}><summary><span>{r.tested}<small>{r.publisher} · {formatDate(r.published)} · {r.vehicleIds.includes(vehicle.id) ? 'Matching configuration / generation' : 'Other configuration — reference only'}</small></span><strong>{r.rating === null ? r.verdict : `${r.rating}/10`}</strong></summary><div><p>{r.scope} <SourceRefs ids={r.sourceIds} /></p><p><strong>Strengths: </strong>{r.positiveThemes.join(' ')}</p><p><strong>Concerns: </strong>{r.negativeThemes.join(' ')}</p></div></details>)}</section>;
+}

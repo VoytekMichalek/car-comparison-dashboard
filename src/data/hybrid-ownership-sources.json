@@ -1,0 +1,298 @@
+[
+  {
+    "id": "own-hy-mitsubishi-warranty",
+    "title": "Diamond Advantage: standard, conditional extended and drive-battery warranties",
+    "url": "https://www.mitsubishi-motors.com.au/owners/diamond-advantage/warranty.html",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-mitsubishi-capacity",
+    "title": "Drive Battery Capacity Care: eligibility and 66% threshold",
+    "url": "https://www.rossgraymitsubishi.com.au/mitsubishi-warranty/",
+    "publisher": "Ross Gray Mitsubishi (authorised Australian dealer)",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-mitsubishi-maintenance",
+    "title": "22MY ZM Outlander Plug-In Hybrid maintenance schedule",
+    "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/maintenance-schedules/22MY%20ZM%20Outlander%20Plug-In%20Hybrid%20service%20schedule%20%28WEB%29%20FINAL.pdf",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-mitsubishi-camera-recall",
+    "title": "REC-005692: Outlander rear-view camera software, campaign 010172",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005692",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-byd-warranty",
+    "title": "BYD Australia 2026 Vehicle Warranty: applicable booklet must be checked for used cars",
+    "url": "https://bydautomotive.com.au/public/vehicle-warranty-2026.pdf",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-byd-servicing",
+    "title": "Sealion 6 MY24 Dynamic, Essential and Premium published service schedules and prices",
+    "url": "https://evdealergroup-byd.com.au/service-and-warranty",
+    "publisher": "EVDealer Group BYD (authorised Australian dealer)",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-byd-handbook",
+    "title": "Australian 2024 Sealion 6 owner handbook: maintenance and HEV-distance requirements",
+    "url": "https://bydautomotive.com.au/brochures/BYD-SEALION-6-Owners-Handbook-2024.pdf",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-nissan-warranty",
+    "title": "Nissan new vehicle and Service Activated Warranty terms",
+    "url": "https://www.nissan.com.au/owners-hub/nissan-warranty/new-vehicle-warranty-terms.html",
+    "publisher": "Nissan Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-nissan-servicing",
+    "title": "Nissan service price guides: $399 flat-price plan eligibility and exclusions",
+    "url": "https://www.nissan.com.au/owners-hub/maintenance-and-repair/servicing-price-guides.html",
+    "publisher": "Nissan Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-nissan-my26",
+    "title": "MY26 X-Trail: revised 15,000 km service intervals",
+    "url": "https://australia.nissannews.com/en-AU/releases/my26-nissan-x-trail-now-on-sale-in-australia?origin=channel-75f606e125080a9f50f6de56880080bc",
+    "publisher": "Nissan Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-nissan-epower",
+    "title": "Nissan e-POWER: petrol generator, battery and electric-motor architecture",
+    "url": "https://www.nissan.com.au/about-nissan/hybrid-e-power.html",
+    "publisher": "Nissan Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-nissan-lbc-recall",
+    "title": "REC-006653: X-Trail e-POWER lithium-ion battery controller software R26A5",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006653",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-toyota-warranty",
+    "title": "Toyota Warranty Advantage: transfer, HEV health checks and BEV-only capacity coverage",
+    "url": "https://www.toyota.com.au/owners/warranty",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-toyota-service-terms",
+    "title": "Toyota Service Advantage terms (19 May 2025): intervals, included work and exclusions",
+    "url": "https://www.toyota.com.au/-/media/toyota/main-site/page-data/service/service_pricing_terms_and_conditions_20250519-v3.pdf?rev=bbd159226ba049d9ad7abe267a1746b4",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-toyota-vsc-recall",
+    "title": "Toyota Australia VSC software recall: selected RAV4 and Kluger hybrids",
+    "url": "https://www.toyota.com.au/discover/news/toyota-australia-recalls-vehicles-due-to-vehicle-stability-control-system-software",
+    "publisher": "Toyota Australia",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-rav4-battery-price",
+    "title": "RAV4 Hybrid 2019 onwards: published fitted battery replacement guide (1 October 2026)",
+    "url": "https://evhybridnetwork.com.au/toyota-rav4-camry-hybrid-battery-replacement-cost-australia/",
+    "publisher": "EV & Hybrid Network (Australian repairer network)",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-kluger-seat-recall",
+    "title": "REC-006125: Kluger 2021–2024 second-row seat-frame protector campaign ZGGA0",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006125",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-kluger-airbag-recall",
+    "title": "Kluger March–July 2023: driver-airbag spiral-cable recall",
+    "url": "https://www.toyota.com.au/discover/news/toyota-australia-recalls-kluger-vehicles-due-to-spiral-cable-assembly",
+    "publisher": "Toyota Australia",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-kia-warranty",
+    "title": "Kia Australia warranty: transferable balance and maintenance exclusions",
+    "url": "https://www.kia.com/au/owners/warranty.html",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-kia-battery-warranty",
+    "title": "Kia Australia FAQ: pre-MY27 battery capacity warranty",
+    "url": "https://www.kia.com/au/util/faq.html",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-kia-service-prices",
+    "title": "Kia Australian capped-price servicing table, selected by model year and HEV/PHEV drivetrain",
+    "url": "https://dashboard.kia.com.au/kia/cps/kia/20170105v1_flat.html",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-kia-powertrain",
+    "title": "Sorento Hybrid/PHEV Australian specification brochure",
+    "url": "https://www.kia.com/content/dam/kwcms/au/en/images/pdf/sorento/kia-sorento-hybrid-brochure.pdf",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-out-service-caps",
+    "title": "23MY Outlander PHEV manufacturer capped-service table",
+    "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/cps-updates/outlander/23MY_Outlander%20PHEV_4x4_2_4L_CPS_A4.pdf",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-rav-service-dealer",
+    "title": "RAV4 2025 capped servicing: A$270 including GST for five eligible annual services",
+    "url": "https://www.llewellyntoyota.com.au/blog/how-much-does-it-cost-to-service-a-toyota-rav-4-capped-price-guide-for-2025/3209/",
+    "publisher": "Llewellyn Toyota (authorised Queensland dealer)",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-kluger-service-launch",
+    "title": "2021 Kluger launch: A$250 annual service for first five eligible services",
+    "url": "https://www.toyota.com.au/discover/news/all-new-toyota-kluger-arrives-in-australia",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-phev-pack-proxy",
+    "title": "Australian Outlander 18 kWh aftermarket battery-upgrade installation: A$14,600 incl GST; donor-class price only",
+    "url": "https://www.electricdreammachine.com.au/mitsubishi-outlander-phev-battery-upgrade",
+    "publisher": "Electric Dream Machine (Australian installer)",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-hybrid-inverter-proxy",
+    "title": "Toyota/Lexus hybrid repair guide: diagnostics, wiring and inverter repair/replacement estimates",
+    "url": "https://www.hybridautomotives.com.au/c1310-hv-system-malfunction-cost-australia/",
+    "publisher": "Hybrid Automotive Service (Australian repairer)",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-engine-repair-proxy",
+    "title": "Hyundai Tucson reconditioned 1.6T engine fitted: A$6,000–7,500; analogue only",
+    "url": "https://hyunengines.com.au/hyundai-tucson-engine-replacement-cost/",
+    "publisher": "Hyun Engines (Australian supplier and fitter)",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-cooling-fan-proxy",
+    "title": "Generic Australian engine cooling-fan replacement: A$240–610; battery-fan analogy only",
+    "url": "https://www.autoguru.com.au/repairs/cooling-fan-replacement-cost",
+    "publisher": "AutoGuru (Australian workshop marketplace)",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-out-energy-proxy",
+    "title": "Outlander PHEV Australian original 20 kWh specification brochure",
+    "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/vehicle-brochures/23MY%20Outlander%20Brochure.pdf",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-out-new-energy-proxy",
+    "title": "Outlander PHEV Australian larger-battery specification",
+    "url": "https://www.mitsubishi-motors.com.au/vehicles/outlander-plug-in-hybrid-ev.html",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-byd-energy-proxy",
+    "title": "Sealion 6 Australian 2024 brochure: battery, NEDC SOC window and electric range",
+    "url": "https://bydautomotive.com.au/brochures/BYD-SEALION-6-2024.pdf",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-byd-new-energy-proxy",
+    "title": "Sealion 6 Australian 2025 brochure: extended battery and NEDC SOC window",
+    "url": "https://bydautomotive.com.au/brochures/BYD-SEALION-6-2025.pdf",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-sorento-observed-range",
+    "title": "2021 Sorento PHEV: BabyDrive observed 50–60 km electric running",
+    "url": "https://babydrive.com.au/reviews/suvs/2021-kia-sorento-phev/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-sorento-depleted-proxy",
+    "title": "2025 Sorento PHEV: direct 100 km charge-depleted test indicated 6.5 L/100 km",
+    "url": "https://www.carexpert.com.au/car-reviews/2025-kia-sorento-gt-line-phev-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-hev-consumption-proxy",
+    "title": "Australian Kluger Hybrid launch specification: combined 5.6 L/100 km; larger-SUV comparison only",
+    "url": "https://www.toyota.com.au/discover/news/all-new-toyota-kluger-arrives-in-australia",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-service-racq2024",
+    "title": "RACQ2024 vehicle operating costs —X-Trail e-Power scheduled servicing at15,000km/year",
+    "url": "https://www.racq.com.au/-/media/project/racqgroup/racq/articles/news/2024/11/racq-vehicle-operating-cost-report-2024/racq-vehicle-operating-cost-report-2024.pdf?rev=780cd7696cc24204b7141c01f643b7ad",
+    "publisher": "RACQ",
+    "kind": "market",
+    "checked": "2026-10-18"
+  }
+]

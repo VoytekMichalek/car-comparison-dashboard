@@ -1,0 +1,162 @@
+[
+  {
+    "id": "brand-tesla-service",
+    "title": "Tesla Australian service appointments — centres, mobile service and collision repairs",
+    "url": "https://www.tesla.com/en_au/support/service-visits",
+    "publisher": "Tesla Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-tesla-qld",
+    "title": "Tesla Brisbane Mount Gravatt Service Centre",
+    "url": "https://www.tesla.com/en_au/findus/location/service/teslamountgravatt",
+    "publisher": "Tesla Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-tesla-warranty",
+    "title": "Tesla Australian vehicle warranty — delivery-date applicability",
+    "url": "https://www.tesla.com/en_AU/support/Vehicle-warranty",
+    "publisher": "Tesla Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-byd-service",
+    "title": "BYD Australia service, warranty and expanding national service network",
+    "url": "https://bydautomotive.com.au/service-and-warranty",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-byd-locator",
+    "title": "BYD Australia experience and service centre locator",
+    "url": "https://bydautomotive.com.au/find-us",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-kia-locator",
+    "title": "Kia Australia authorised dealers, service and parts locator",
+    "url": "https://www.kia.com/au/shopping-tools/find-a-dealer.html",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-kia-warranty",
+    "title": "Kia Australia warranty and authorised warranty servicing",
+    "url": "https://www.kia.com/au/owners/warranty.html/",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-hyundai-locator",
+    "title": "Hyundai Australia dealer and service locator",
+    "url": "https://www.hyundai.com/au/en/find-a-dealer",
+    "publisher": "Hyundai Motor Company Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-hyundai-network",
+    "title": "Hyundai Australian dealer network and technician training",
+    "url": "https://www.hyundai.com/au/en/hyundai-info/careers/technicians-training",
+    "publisher": "Hyundai Motor Company Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-hyundai-warranty",
+    "title": "Hyundai Australian warranty — standard and service-conditional extended cover",
+    "url": "https://www.hyundai.com/au/en/owning/myhyundaicare/warranty.html",
+    "publisher": "Hyundai Motor Company Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-zeekr-service",
+    "title": "Zeekr Australia authorised service partners and warranty support",
+    "url": "https://www.zeekrlife.com/en-au/service/",
+    "publisher": "Zeekr Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-zeekr-locator",
+    "title": "Zeekr Australia authorised dealer locator",
+    "url": "https://www.zeekrlife.com/en-au/find-us/",
+    "publisher": "Zeekr Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-zeekr-launch",
+    "title": "Zeekr announces first Australian models and local subsidiary in 2024",
+    "url": "https://www.zeekrlife.com/en-au/posts/zeekr-enters-the-australian-market-with-innovative-electric-vehicle-models-zeekr/",
+    "publisher": "Zeekr Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-zeekr-warranty",
+    "title": "Zeekr current Australian Warranty Policy linked from official service page",
+    "url": "https://zcms.zeekrlife.com/published/assets/69db768999ef6f7067b88de5729fc40de340be85193f2813f0cc4d4dcce3eac4/Australian-Warranty-Policy.pdf",
+    "publisher": "Zeekr Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-mitsubishi-service",
+    "title": "Mitsubishi Australia genuine servicing and authorised dealer support",
+    "url": "https://www.mitsubishi-motors.com.au/owners/service.html",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-mitsubishi-warranty",
+    "title": "Mitsubishi Australian warranty — standard and dealer-service extended conditions",
+    "url": "https://www.mitsubishi-motors.com.au/owners/diamond-advantage/warranty.html",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-nissan-locator",
+    "title": "Nissan Australia dealer locator",
+    "url": "https://www.nissan.com.au/find-a-dealer.html",
+    "publisher": "Nissan Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-nissan-ownership",
+    "title": "Nissan Australian owner support, authorised servicing and warranty conditions",
+    "url": "https://www.nissan.com.au/owners-hub/overview.html",
+    "publisher": "Nissan Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-toyota-locator",
+    "title": "Toyota Australia dealer and service locator",
+    "url": "https://www.toyota.com.au/support/find-a-dealer",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "brand-toyota-warranty",
+    "title": "Toyota Australian Warranty Advantage and remaining used-vehicle warranty",
+    "url": "https://www.toyota.com.au/owners/warranty",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  }
+]

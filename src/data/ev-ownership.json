@@ -1,0 +1,456 @@
+[
+  {
+    "familyId": "tesla-model-y",
+    "serviceInterval": "Condition-based maintenance; original-body guide lists cabin filter every 2 years, brake-fluid health check every 4 years and tyre rotation at 10,000 km or uneven wear.",
+    "serviceAnnual": 350,
+    "serviceBasis": "ESTIMATE: A$350/year planning midpoint (A$200–500). An Australian Tesla specialist advertises service from A$199; RACQ gives A$200–400 for a general EV inspection. Allow periodic filters/fluid checks across the years. This is a voluntary/condition-based maintenance budget, not a mandatory Tesla annual package; tyres and fault repairs are separate.",
+    "warrantyCautions": [
+      "2022–2025 cars originally had 4 years / 80,000 km basic cover. The 5-year unlimited-kilometre offer applies to deliveries from 1 January 2026; confirm the original contract and start date.",
+      "HV battery / drive unit: RWD 8 years / 160,000 km; Long Range 8 years / 192,000 km, with 70% capacity retention. Warranty balance follows the transferred vehicle.",
+      "The extra used-car warranty applies to certified cars purchased directly from Tesla, not every used Model Y. Manufacturing warranty and accident insurance address different events."
+    ],
+    "risks": [
+      {
+        "title": "Full traction-battery replacement — stress case",
+        "detail": "Budget for a complete pack only if diagnosis supports replacement. A module, control-system or drive-unit-only repair can be substantially cheaper; this range does not predict failure.",
+        "low": 10000,
+        "high": 30000,
+        "priceBasis": "ESTIMATE: model-specific Australian quote unavailable; based on Insurance Council A$7,500–30,000 general guidance and a 2026 broker’s A$10,000–30,000+ benchmark, adjusted for the medium-SUV class; no Tesla-published pack capacity was used. Full replacement planning total assumes parts, labour and GST; not a hard ceiling or a priced repair offer.",
+        "warranty": "Check remaining HV warranty, fault diagnosis, battery health and damage exclusions.",
+        "sourceIds": [
+          "own-ev-tesla-warranty",
+          "own-ev-tesla-repairer",
+          "own-ev-est-battery-ica",
+          "own-ev-est-battery-broker"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "VIN-specific steering-assist software recall",
+        "detail": "REC-006300 covers selected 2022–2023 VINs. Ask for the applicable campaign/software status; vehicles on software 2023.38.4 or later are not subject to this action.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "Official VIN-applicable over-the-air recall remedy: A$0 planning allowance. This is software rectification, not a future paid steering-rack replacement.",
+        "warranty": "An official recall is separate from ordinary warranty expiry.",
+        "sourceIds": [
+          "own-ev-tesla-recall"
+        ],
+        "confidence": "high"
+      },
+      {
+        "title": "Air-conditioning / thermal-system diagnosis",
+        "detail": "The compressor also helps cool the battery. Test cooling and request diagnosis for warnings or poor operation; this is an inspection priority, not a claimed failure rate.",
+        "low": 1500,
+        "high": 4000,
+        "priceBasis": "ESTIMATE: model-specific quote unavailable; based on a Queensland repairer’s general A$1,000–2,500 installed compressor guidance, widened for an EV heat-pump/thermal system. Assumes parts, labour, refrigerant and GST; diagnosis, contamination or additional valves can exceed it.",
+        "warranty": "Improper third-party repair damage is excluded; non-warranty servicing may use an independent provider.",
+        "sourceIds": [
+          "own-ev-tesla-maintenance",
+          "own-ev-tesla-warranty",
+          "own-ev-est-ac"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Original Model Y front upper control-arm pair — supplier offer",
+        "detail": "A specific aftermarket suspension replacement example, not a failure prediction. Confirm exact VIN and part fitment; do not assume Juniper compatibility. Other providers, OEM parts or a narrower repair can cost less.",
+        "low": 1823,
+        "high": 1823,
+        "confidence": "medium",
+        "priceBasis": "Whiteline Australia WA533 displayed offer checked 18 October 2026: A$1,208 parts plus A$475 fitting, A$120 alignment and A$20 consumables = A$1,823 installed, GST included. Reconfirm the current fitted offer and workshop availability; an older category crawl had a different parts price.",
+        "warranty": "Manufacturing defects may be covered by remaining vehicle warranty; normal wear, external damage and chosen upgrades are separate. Diagnose before buying parts.",
+        "sourceIds": [
+          "repair-tesla-upper-arms-au"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "own-ev-tesla-warranty",
+      "own-ev-tesla-historic",
+      "own-ev-tesla-maintenance",
+      "own-ev-est-service-tesla",
+      "own-ev-est-service-racq"
+    ],
+    "checked": "2026-10-18",
+    "serviceLow": 200,
+    "serviceHigh": 500,
+    "serviceConfidence": "medium",
+    "energyEstimate": {
+      "low": 14,
+      "high": 22,
+      "point": 18,
+      "basis": "ESTIMATE, battery-side kWh/100km: family planning midpoint 18, range 14–22. The original RWD road test reports 15.9 with an unverified measurement boundary; treat that as an approximate starting observation and allow mixed variants, air-conditioning and family loads. This is not measured wall energy or a Juniper/LR homologation claim. Add the calculator’s charging-loss assumption once.",
+      "sourceIds": [
+        "ev-tesla-used-review",
+        "ev-tesla-range"
+      ],
+      "confidence": "low"
+    }
+  },
+  {
+    "familyId": "byd-atto-3",
+    "serviceInterval": "Current Australian EV guidance: 12 months / 20,000 km, whichever comes first; confirm the original vehicle or EVO schedule.",
+    "serviceAnnual": 350,
+    "serviceBasis": "ESTIMATE: A$350/year midpoint (A$250–450). Same-model historical reference: RACQ's2024 new-to-five-year study at15,000km/year budgets A$26.32/month servicing for both Standard and Extended Range (A$315.84/year). Current minor-service bookings are A$165–214 incl.GST; obtain the actual VIN's alternating major-service schedule and current price. This replaces the less-specific Dolphin service-price proxy. EVO is a different powertrain/schedule and remains unquoted. Excludes tyres and fault repairs.",
+    "warrantyCautions": [
+      "Current handbook: vehicle 6 years / 150,000 km; power battery and drive unit 8 years / 160,000 km. Confirm the updated terms against the VIN and first-registration date.",
+      "The April 2025 warranty simplification was reported as backdated to Australian deliveries from August 2022; do not use the original short infotainment/suspension carve-outs as current cover.",
+      "Battery retention threshold is 70%; an eligible remedy may use a repaired, new, reconditioned or remanufactured unit. Normal wear, impact and flood damage are excluded."
+    ],
+    "risks": [
+      {
+        "title": "2022 child-restraint compliance recall",
+        "detail": "REC-005579 affects selected 2022 Standard / Extended VINs. Verify rear-centre anchorage and airbag rectification before using the centre position.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "Official VIN-applicable inspection / rectification is free; this is not a later collision-repair allowance.",
+        "warranty": "Recall eligibility is checked by VIN.",
+        "sourceIds": [
+          "own-ev-byd-recall"
+        ],
+        "confidence": "high"
+      },
+      {
+        "title": "Full traction-battery replacement — stress case",
+        "detail": "Budget for a complete pack only if diagnosis supports replacement. A module, control-system or drive-unit-only repair can be substantially cheaper; this range does not predict failure.",
+        "low": 8000,
+        "high": 30000,
+        "priceBasis": "ESTIMATE: model-specific Australian quote unavailable; based on Insurance Council A$7,500–30,000 general guidance and a 2026 broker’s A$10,000–30,000+ benchmark, adjusted for the family’s roughly 50–75 kWh packs; lower end is a small-pack/class proxy. Full replacement planning total assumes parts, labour and GST; not a hard ceiling or a priced repair offer.",
+        "warranty": "8 years / 160,000 km under current policy; claim eligibility and exclusions matter.",
+        "sourceIds": [
+          "own-ev-byd-warranty",
+          "own-ev-est-battery-ica",
+          "own-ev-est-battery-broker"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Conventional suspension repair example — one axle",
+        "detail": "A worn damper/strut pair is a useful inspection-budget example. The amount is not a full collision or underbody-damage budget and does not assert an Atto 3 failure pattern.",
+        "low": 700,
+        "high": 2000,
+        "priceBasis": "ESTIMATE: model-specific quote unavailable; based on an Australian repairer’s A$650–1,300 conventional front-damper pair benchmark, widened for EV/OEM parts, mounts and alignment. Planning total assumes parts, labour and GST; excludes tyres and structural damage.",
+        "warranty": "Current policy excludes ordinary wear and external damage; this is not a short suspension warranty claim.",
+        "sourceIds": [
+          "own-ev-byd-warranty",
+          "own-ev-est-suspension"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "sourceIds": [
+      "own-ev-byd-warranty",
+      "own-ev-byd-update",
+      "own-ev-byd-service",
+      "own-ev-est-service-atto-minor",
+      "own-ev-est-service-byd-proxy",
+      "own-ev-service-racq2024"
+    ],
+    "checked": "2026-10-18",
+    "serviceLow": 250,
+    "serviceHigh": 450,
+    "serviceConfidence": "medium",
+    "energyEstimate": {
+      "low": 15,
+      "high": 21,
+      "point": 18,
+      "basis": "ESTIMATE, battery-side kWh/100km: 18 midpoint, range 15–21. Published nominal pack / WLTP range gives about 14.4–14.7 across 49.92/345, 60.48/420 and EVO 74.88/510; allow roughly 20–25% at the midpoint for gross/usable uncertainty, air-conditioning, load and mixed real driving. This ratio is a budgeting proxy, not measured efficiency. Add charging losses once.",
+      "sourceIds": [
+        "ev-atto-2025-spec",
+        "ev-atto-evo"
+      ],
+      "confidence": "low"
+    }
+  },
+  {
+    "familyId": "kia-ev6",
+    "serviceInterval": "12 months / 15,000 km, whichever comes first; severe-use extras can apply.",
+    "serviceAnnual": 350,
+    "serviceBasis": "ESTIMATE: A$350/year midpoint (A$250–450) for an ordinary used Air/GT-Line without an attached plan. Current eligible 5-service prepaid price is A$1,446 incl. GST (A$289/year); allow variation for pay-as-you-go and ageing. A new plan needs a car under 11 months / 15,000 km before scheduled servicing; existing plans transfer. Excludes tyres and repairs.",
+    "warrantyCautions": [
+      "Eligible private-use cars have transferable 7-year unlimited-kilometre vehicle cover; check start date, use and service records. HV electrical components have separate 7-year / 150,000-km cover.",
+      "Pre-MY2027 HV capacity cover is 7 years / 150,000 km to 70% retention. The MY2027 change to 8 years / 160,000 km does not automatically extend older cars.",
+      "A capacity remedy restores at least the threshold, not necessarily 100%. The 12V auxiliary battery has 2-year cover; normal wear and accident damage are separate."
+    ],
+    "risks": [
+      {
+        "title": "ICCU / 12V-charging recall",
+        "detail": "REC-006238 affects selected 2021–2024 EV6 VINs and supersedes the earlier action. The remedy includes software and ICCU inspection / replacement if required.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "Official VIN-applicable recall work is free. The separate paid ICCU scenario below applies only if recall, warranty, extended cover and other remedies do not cover the fault.",
+        "warranty": "Check campaign completion by VIN even after an earlier update. Ask Kia for written VIN-specific ICCU extended-cover confirmation; an Australian primary extension policy was not verified.",
+        "sourceIds": [
+          "own-ev-kia-recall"
+        ],
+        "confidence": "high"
+      },
+      {
+        "title": "Full traction-battery replacement — stress case",
+        "detail": "Budget for a complete pack only if diagnosis supports replacement. A module, control-system or drive-unit-only repair can be substantially cheaper; this range does not predict failure.",
+        "low": 10000,
+        "high": 35000,
+        "priceBasis": "ESTIMATE: model-specific Australian quote unavailable; based on Insurance Council A$7,500–30,000 general guidance and a 2026 broker’s A$10,000–30,000+ benchmark, adjusted for the 77.4 kWh class and an explicit allowance above the generic upper benchmark. Full replacement planning total assumes parts, labour and GST; not a hard ceiling or a priced repair offer.",
+        "warranty": "Apply the original model-year terms; do not infer full battery replacement from a warning light.",
+        "sourceIds": [
+          "own-ev-kia-battery",
+          "own-ev-kia-warranty",
+          "own-ev-est-battery-ica",
+          "own-ev-est-battery-broker"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Brake pads and discs example — one axle",
+        "detail": "A paid brake job is separate from standard prepaid servicing. Inspect before budgeting: regenerative braking changes wear, but does not remove the need for sound friction brakes.",
+        "low": 500,
+        "high": 1200,
+        "priceBasis": "ESTIMATE: EV6-specific quote unavailable; based on AutoGuru’s Australian A$500–700+ front pads/discs benchmark, widened for larger EV/OEM parts. Assumes one axle, parts, labour and GST; excludes tyres, calipers and unrelated repairs.",
+        "warranty": "Manufacturing cover excludes normal wear and external damage.",
+        "sourceIds": [
+          "own-ev-kia-plan",
+          "own-ev-kia-warranty",
+          "own-ev-est-brakes-booking",
+          "own-ev-est-brakes"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "ICCU hardware replacement if all cover is unavailable",
+        "detail": "Conditional paid stress case only: first confirm recall, original warranty, any ICCU extension and other remedies. This is not added as a routine annual cost and implies no failure probability.",
+        "low": 3500,
+        "high": 8000,
+        "confidence": "low",
+        "priceBasis": "ESTIMATE: Australian model-specific quote unavailable; first-party US OEM ICCU listing is about US$1,676–2,445 for EV6. Illustrative US$1=A$1.50, plus 10% GST/import/parts variation and roughly A$800–2,000 diagnosis, labour, coolant/fuse allowance. Foreign part is a pricing proxy, not confirmed Australian-VIN fitment; not a live FX or installation quote.",
+        "warranty": "Payable only when no applicable recall, warranty or other remedy covers the diagnosed fault; obtain written VIN-specific confirmation.",
+        "sourceIds": [
+          "own-ev-est-iccu-kia-us",
+          "own-ev-kia-terms"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "own-ev-kia-prices",
+      "own-ev-kia-plan",
+      "own-ev-kia-warranty",
+      "own-ev-kia-battery",
+      "own-ev-kia-terms"
+    ],
+    "checked": "2026-10-18",
+    "serviceLow": 250,
+    "serviceHigh": 450,
+    "serviceConfidence": "medium"
+  },
+  {
+    "familyId": "kia-ev5",
+    "serviceInterval": "12 months / 15,000 km, whichever comes first; severe-use extras can apply.",
+    "serviceAnnual": 450,
+    "serviceBasis": "ESTIMATE: A$450/year midpoint (A$350–550) for Air, allowing pay-as-you-go variation around the current A$1,839 five-service plan (A$368/year incl. GST). New plan eligibility is under 11 months / 15,000 km before scheduled servicing; attached plans transfer. Earth/GT-Line and severe-use work differ. Tyres and repairs are separate.",
+    "warrantyCautions": [
+      "Eligible private-use cars have transferable 7-year unlimited-kilometre vehicle cover; verify original in-service date and records. HV electrical components have separate 7-year / 150,000-km cover.",
+      "Pre-MY2027 HV capacity cover is 7 years / 150,000 km with 70% retention. Newer MY2027 terms are not assumed to apply to these earlier configurations.",
+      "These are financial exposures and warranty limits, not established EV5 failure patterns. No EV5-specific official recall is asserted by this research."
+    ],
+    "risks": [
+      {
+        "title": "Full traction-battery replacement — stress case",
+        "detail": "Budget for a complete pack only if diagnosis supports replacement. A module, control-system or drive-unit-only repair can be substantially cheaper; this range does not predict failure.",
+        "low": 9000,
+        "high": 35000,
+        "priceBasis": "ESTIMATE: model-specific Australian quote unavailable; based on Insurance Council A$7,500–30,000 general guidance and a 2026 broker’s A$10,000–30,000+ benchmark, adjusted for the family’s 64.2–88.1 kWh packs; upper end includes a larger-pack allowance. Full replacement planning total assumes parts, labour and GST; not a hard ceiling or a priced repair offer.",
+        "warranty": "Pre-MY2027 capacity promise: 7 years / 150,000 km, at least 70%.",
+        "sourceIds": [
+          "own-ev-kia-battery",
+          "own-ev-est-battery-ica",
+          "own-ev-est-battery-broker"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Shorter auxiliary-battery cover",
+        "detail": "The 12V battery has shorter cover than the traction battery and can become an owner-paid maintenance item.",
+        "low": 250,
+        "high": 600,
+        "priceBasis": "ESTIMATE: EV5-specific installed quote unavailable; based on NRMA’s SUV battery service starting at A$249 member / A$339 non-member incl. delivery/installation, widened for correct EV battery specification and workshop fitment. Assumes GST; not a fitment guarantee.",
+        "warranty": "Auxiliary-battery cover is 2 years, subject to terms.",
+        "sourceIds": [
+          "own-ev-kia-battery",
+          "own-ev-est-12v"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Conventional suspension repair example — one axle",
+        "detail": "A worn damper/strut pair is a paid-work example outside ordinary scheduled servicing. Structural accident damage needs a separate estimate; this does not establish an EV5 failure pattern.",
+        "low": 800,
+        "high": 2200,
+        "priceBasis": "ESTIMATE: EV5-specific quote unavailable; Australian conventional front-damper pair guidance is A$650–1,300. Widened for vehicle weight, OEM parts, mounts and alignment. Assumes parts, labour and GST; excludes tyres and collision reconstruction.",
+        "warranty": "Vehicle cover and prepaid services both have wear / damage exclusions.",
+        "sourceIds": [
+          "own-ev-kia-plan",
+          "own-ev-kia-warranty",
+          "own-ev-est-suspension"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "sourceIds": [
+      "own-ev-kia-prices",
+      "own-ev-kia-plan",
+      "own-ev-kia-warranty",
+      "own-ev-kia-battery",
+      "own-ev-kia-terms"
+    ],
+    "checked": "2026-10-18",
+    "serviceLow": 350,
+    "serviceHigh": 550,
+    "serviceConfidence": "medium"
+  },
+  {
+    "familyId": "hyundai-ioniq-5",
+    "serviceInterval": "Use the VIN / model-year service passport: early and later Ioniq 5 schedules differ.",
+    "serviceAnnual": 400,
+    "serviceBasis": "ESTIMATE: A$400/year midpoint (A$250–550), across differing early/later schedules. A current Australian road test reports A$667/689 two-year dealer visits (about A$339/year over eight years); independent 48-month booking examples are lower and may cover a different scope. Allow age/coolant uncertainty. Obtain the VIN schedule; dealer servicing is required for the newer 7-year extension. Excludes tyres and fault repairs.",
+    "warrantyCautions": [
+      "Older cars originally have 5-year unlimited-kilometre private-use cover. The 7-year offer is for eligible first registrations from 1 June 2025 and requires on-time authorised-dealer servicing for the extension.",
+      "Remaining vehicle cover transfers, but prior commercial use and service history can change eligibility. Confirm the original passport.",
+      "HV battery cover is 8 years / 160,000 km. Current terms specify a 70% state-of-health threshold and usage / maintenance conditions; confirm applicable original terms. The 12V battery has 2 years / 40,000 km."
+    ],
+    "risks": [
+      {
+        "title": "Superseding ICCU software recall",
+        "detail": "REC-006224 covers selected 2021–2024 Ioniq 5 / 6 VINs and replaces REC-005942. Confirm the later campaign is complete; the notice specifies a software update.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "Applicable official recall update is free. The separate paid ICCU scenario below applies only if recall, warranty, extended cover and other remedies do not cover the fault.",
+        "warranty": "VIN-specific recall remedy is separate from normal warranty expiry. Ask Hyundai for written ICCU extended-cover confirmation; an Australian primary extension policy was not verified.",
+        "sourceIds": [
+          "own-ev-hyundai-recall"
+        ],
+        "confidence": "high"
+      },
+      {
+        "title": "Full traction-battery replacement — stress case",
+        "detail": "Budget for a complete pack only if diagnosis supports replacement. A module, control-system or drive-unit-only repair can be substantially cheaper; this range does not predict failure.",
+        "low": 10000,
+        "high": 35000,
+        "priceBasis": "ESTIMATE: model-specific Australian quote unavailable; based on Insurance Council A$7,500–30,000 general guidance and a 2026 broker’s A$10,000–30,000+ benchmark, adjusted for the family’s 72.6–84 kWh packs; upper end includes a larger-pack allowance. Full replacement planning total assumes parts, labour and GST; not a hard ceiling or a priced repair offer.",
+        "warranty": "Current policy conditions and 70% threshold apply only as specified in the relevant warranty.",
+        "sourceIds": [
+          "own-ev-hyundai-terms",
+          "own-ev-est-battery-ica",
+          "own-ev-est-battery-broker"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Windscreen replacement and calibration example",
+        "detail": "A glass-only cash repair is separate from manufacturing warranty. The owner’s insurance excess may be lower; this estimate is the repair bill, not an insurance excess or full collision budget.",
+        "low": 900,
+        "high": 2200,
+        "priceBasis": "ESTIMATE: Ioniq-5-specific quote unavailable; Gold Coast specialist guidance is A$850–1,500 for ADAS/HUD glass. Widened for genuine/acoustic glass and calibration scope. Assumes installed glass, calibration and GST; confirm supplier inclusions and insurance treatment.",
+        "warranty": "Accident-related costs depend on insurance cover; ordinary manufacturing warranty is not accident insurance.",
+        "sourceIds": [
+          "own-ev-hyundai-terms",
+          "own-ev-est-glass"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "ICCU hardware replacement if all cover is unavailable",
+        "detail": "Conditional paid stress case only: first confirm recall, original warranty, any ICCU extension and other remedies. This is not added as a routine annual cost and implies no failure probability.",
+        "low": 3000,
+        "high": 7000,
+        "confidence": "low",
+        "priceBasis": "ESTIMATE: Australian model-specific quote unavailable; first-party US OEM ICCU listing is about US$1,297–1,855 for Ioniq 5. Illustrative US$1=A$1.50, plus 10% GST/import/parts variation and roughly A$800–2,000 diagnosis, labour, coolant/fuse allowance. Foreign part is a pricing proxy, not confirmed Australian-VIN fitment; not a live FX or installation quote.",
+        "warranty": "Payable only when no applicable recall, warranty or other remedy covers the diagnosed fault; obtain written VIN-specific confirmation.",
+        "sourceIds": [
+          "own-ev-est-iccu-hyundai-us",
+          "own-ev-hyundai-terms"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "own-ev-hyundai-warranty",
+      "own-ev-hyundai-terms",
+      "own-ev-est-service-ioniq",
+      "own-ev-est-service-ioniq-dealer"
+    ],
+    "checked": "2026-10-18",
+    "serviceLow": 250,
+    "serviceHigh": 550,
+    "serviceConfidence": "low"
+  },
+  {
+    "familyId": "zeekr-7x",
+    "serviceInterval": "Australian user manual: maintenance inspection at 24 months / 40,000 km, whichever comes first; confirm any interim checks and original offer.",
+    "serviceAnnual": 500,
+    "serviceBasis": "ESTIMATE: A$500/year midpoint (A$350–650). The September 2025 manufacturer schedule reproduced by The Driven totals A$1,755 for the two recommended services, or A$2,385 with optional checks over five years (A$351/477 per year). Allow 2026 dealer/eligibility variation; do not assume a free first check on every used car. Excludes tyres and fault repairs.",
+    "warrantyCautions": [
+      "Private-use vehicle cover is 5 years unlimited kilometres with required service records. Obtain written confirmation of balance / transfer for a used purchase.",
+      "Private-use HV battery cover is 8 years / 160,000 km with 70% retention; commercial-use limits differ.",
+      "Eligible battery remedies may repair, replace or recondition. Wear, external damage and misuse are excluded. Shorter auxiliary-battery cover does not match the HV term."
+    ],
+    "risks": [
+      {
+        "title": "Full traction-battery replacement — stress case",
+        "detail": "Budget for a complete pack only if diagnosis supports replacement. A module, control-system or drive-unit-only repair can be substantially cheaper; this range does not predict failure.",
+        "low": 10000,
+        "high": 40000,
+        "priceBasis": "ESTIMATE: model-specific Australian quote unavailable; based on Insurance Council A$7,500–30,000 general guidance and a 2026 broker’s A$10,000–30,000+ benchmark, adjusted for the 75–100 kWh family; upper end scales the A$30,000 medium-EV benchmark by 100/75. Full replacement planning total assumes parts, labour and GST; not a hard ceiling or a priced repair offer.",
+        "warranty": "Private-use HV limit is 8 years / 160,000 km and 70% retention, subject to conditions.",
+        "sourceIds": [
+          "own-ev-zeekr-warranty",
+          "own-ev-est-battery-ica",
+          "own-ev-est-battery-broker"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Shorter auxiliary-battery cover",
+        "detail": "The auxiliary battery has a shorter term than the vehicle or traction battery; check whether it has been replaced and obtain installed-price confirmation.",
+        "low": 300,
+        "high": 800,
+        "priceBasis": "ESTIMATE: 7X-specific installed quote unavailable; NRMA SUV installed-battery starts A$249 member / A$339 non-member. Allow more for correct EV specification, diagnostic fitting and limited local parts choices. Assumes GST; ordinary 12V class proxy only, not traction-battery pricing.",
+        "warranty": "Policy lists auxiliary battery cover at 12 months / 20,000 km.",
+        "sourceIds": [
+          "own-ev-zeekr-warranty",
+          "own-ev-est-12v"
+        ],
+        "confidence": "low"
+      },
+      {
+        "title": "Non-battery suspension repair example — one axle",
+        "detail": "A conventional damper/strut job is an illustrative owner-paid repair after cover or for excluded damage. This is not a comprehensive electronics/accident budget and does not assert a failure pattern.",
+        "low": 1000,
+        "high": 3000,
+        "priceBasis": "ESTIMATE: 7X-specific quote unavailable; based on Australian conventional damper-pair A$650–1,300 guidance, with a larger allowance for heavy vehicle/OEM parts, mounts, alignment and local availability. Assumes parts, labour and GST. Air-suspension repairs on other trims can cost more.",
+        "warranty": "5-year private-use vehicle term; insurance treatment depends on the event and chosen policy.",
+        "sourceIds": [
+          "own-ev-zeekr-warranty",
+          "own-ev-est-suspension"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "sourceIds": [
+      "own-ev-zeekr-warranty",
+      "own-ev-zeekr-manual",
+      "own-ev-est-service-zeekr"
+    ],
+    "checked": "2026-10-18",
+    "serviceLow": 350,
+    "serviceHigh": 650,
+    "serviceConfidence": "low",
+    "energyEstimate": {
+      "low": 17,
+      "high": 23,
+      "point": 20,
+      "basis": "ESTIMATE, battery-side kWh/100km: 20 midpoint, range 17–23. Manufacturer nominal pack / target WLTP range is 75/480≈15.6 and 100/615≈16.3; apply roughly 25% real-driving/headroom margin at the midpoint for load, climate and nominal/usable uncertainty. It is a family proxy, not a road-test or homologated consumption figure. Add charging losses once.",
+      "sourceIds": [
+        "ev-zeekr-spec"
+      ],
+      "confidence": "low"
+    }
+  }
+]

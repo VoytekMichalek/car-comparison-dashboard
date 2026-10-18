@@ -1,0 +1,285 @@
+/* One control language for filters, forms and expandable research. */
+:root {
+  --control-surface: #f8faf5;
+  --control-hover: #edf3e7;
+  --control-border: #dbe4d3;
+  --control-accent: #809b6e;
+  --control-chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%235e7950' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m7 10 5 5 5-5'/%3E%3C/svg%3E");
+}
+
+/* The fallback keeps the same trigger design and the browser's native picker. */
+:root select:not([multiple]) {
+  appearance: none;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 42px;
+  padding: 10px 39px 10px 13px;
+  border: 1px solid var(--control-border);
+  border-radius: 9px;
+  background: var(--control-chevron) no-repeat right 12px center / 16px var(--control-surface);
+  box-shadow: 0 1px 2px #283b3405;
+  color: #3f5d35;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  transition: background-color .18s, border-color .18s, box-shadow .18s;
+}
+
+:root select:not([multiple]):hover:not(:disabled) {
+  background-color: var(--control-hover);
+  border-color: #adbea0;
+  box-shadow: 0 2px 7px #35492a0a;
+}
+
+:root select:not([multiple]):focus-visible {
+  outline: 2px solid var(--control-accent);
+  outline-offset: 3px;
+  border-color: var(--control-accent);
+}
+
+:root select:not([multiple]):disabled {
+  opacity: .5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+:root .filter-bottom {
+  gap: 8px;
+  padding: 12px 15px;
+}
+
+:root .filter-bottom label:not(:first-of-type)::before {
+  display: none;
+}
+
+:root .filter-bottom select,
+:root .results-heading select,
+:root .variant-select select,
+:root .chart-select select {
+  min-height: 36px;
+  font-size: 11px;
+}
+
+:root .filter-bottom select { max-width: 205px; }
+:root .results-heading > label { gap: 9px; }
+:root .results-heading select { max-width: 200px; }
+:root .variant-select select { width: 100%; }
+:root .detail-variant select { margin-bottom: 14px; }
+
+/* Style the actual menu where customizable native selects are supported. */
+@supports (appearance: base-select) {
+  :root select:not([multiple]),
+  :root select:not([multiple])::picker(select) {
+    appearance: base-select;
+  }
+
+  :root select:not([multiple]) {
+    gap: 10px;
+    padding-right: 11px;
+    background-image: none;
+    align-items: center;
+  }
+
+  :root select:not([multiple])::picker-icon {
+    content: '';
+    width: 22px;
+    height: 22px;
+    margin-left: auto;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--control-chevron) no-repeat center / 16px #eaf0e3;
+    transition: transform .2s, background-color .2s;
+  }
+
+  :root select:not([multiple]):open {
+    border-color: var(--control-accent);
+    background-color: #eff4e9;
+    box-shadow: 0 0 0 3px #809b6e15;
+  }
+
+  :root select:not([multiple]):open::picker-icon {
+    transform: rotate(180deg);
+    background-color: #dce8d2;
+  }
+
+  :root select:not([multiple])::picker(select) {
+    width: max-content;
+    min-width: anchor-size(width);
+    max-width: calc(100vw - 24px);
+    max-height: min(380px, 60dvh);
+    margin: 6px 0;
+    padding: 6px;
+    overflow: auto;
+    border: 1px solid #d6e0ce;
+    border-radius: 12px;
+    background: #fffffb;
+    box-shadow: 0 16px 40px #283b3424, 0 3px 9px #283b340a;
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: #becdb2 transparent;
+  }
+
+  :root select option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: 38px;
+    padding: 10px 12px;
+    border: 0;
+    border-radius: 7px;
+    background: transparent;
+    color: #4e6445;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.55;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    cursor: pointer;
+  }
+
+  :root select option:checked {
+    background: #eaf1e3;
+    color: #315a38;
+    font-weight: 600;
+  }
+
+  :root select option:is(:hover, :focus-visible):not(:disabled) {
+    outline: none;
+    background: #f0f4eb;
+    color: #294a2c;
+  }
+
+  :root select option:checked::checkmark {
+    color: #557a3f;
+    font-size: 13px;
+  }
+
+  :root select option:disabled {
+    opacity: .4;
+    cursor: not-allowed;
+  }
+
+  :root select optgroup {
+    padding: 5px 0;
+    border-top: 1px solid #edf0e7;
+    color: #74836a;
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  :root select optgroup:first-of-type { border-top: 0; }
+  :root select optgroup > legend { padding: 8px 12px 5px; }
+}
+
+/* Disclosures retain native keyboard and screen-reader behaviour. */
+:root details > summary {
+  position: relative;
+  min-height: 40px;
+  padding: 10px 45px 10px 13px;
+  border: 1px solid #e2e8db;
+  border-radius: 8px;
+  background: var(--control-surface);
+  color: #4e6842;
+  line-height: 1.65;
+  list-style: none;
+  cursor: pointer;
+  transition: background-color .18s, border-color .18s, color .18s;
+}
+
+:root details > summary::-webkit-details-marker { display: none; }
+:root details > summary::marker { content: ''; }
+
+:root details > summary::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 11px;
+  width: 24px;
+  height: 24px;
+  margin-top: -12px;
+  border-radius: 6px;
+  background: var(--control-chevron) no-repeat center / 16px #eaf0e3;
+  transition: transform .2s, background-color .2s;
+}
+
+:root details > summary:hover {
+  background-color: var(--control-hover);
+  border-color: #bdcdb0;
+  color: #315a38;
+}
+
+:root details > summary:focus-visible {
+  outline: 2px solid var(--control-accent);
+  outline-offset: 3px;
+}
+
+:root details[open] > summary {
+  border-color: #c7d6bb;
+  background: #edf3e7;
+  color: #315a38;
+}
+
+:root details[open] > summary::after {
+  transform: rotate(180deg);
+  background-color: #dce8d2;
+}
+
+:root details.panel[open] { border-color: #c7d6bb; }
+
+:root .breakdown-rows details {
+  border: 0;
+  margin-bottom: 7px;
+}
+
+:root .breakdown-rows details > summary {
+  grid-template-columns: minmax(0, 1fr) 75px 48px;
+  padding: 12px 46px 12px 13px;
+  gap: 9px;
+}
+
+:root .breakdown-rows details > summary::before { display: none; }
+:root .breakdown-rows details > div { padding: 5px 14px 14px; }
+:root .compare-score-method > summary { font-size: 10px; }
+:root .weight-control details > summary { min-height: 34px; padding-block: 6px; }
+:root .weight-control details p { padding: 0 8px; }
+:root .estimate-basis-grid details,
+:root .estimate-benchmarks details,
+:root .professional-reviews details { border-top: 0; padding: 6px 0; }
+
+@media (max-width: 650px) {
+  :root select:not([multiple]) { min-height: 44px; }
+  :root .filter-bottom { gap: 7px; padding: 11px; }
+  :root .filter-bottom label { min-width: 0; flex: 1 1 calc(50% - 18px); }
+  :root .filter-bottom select { width: 100%; max-width: none; }
+  :root .filter-icon { display: none; }
+  :root .filter-save { margin-left: 0; min-height: 36px; }
+  :root .results-heading { flex-wrap: wrap; }
+  :root .results-heading select { font-size: 11px; }
+  :root details > summary { min-height: 44px; }
+  :root .weight-control details > summary { min-height: 40px; }
+  :root .breakdown-rows details > summary {
+    grid-template-columns: minmax(0, 1fr) 59px 40px;
+    gap: 5px;
+    padding: 11px 40px 11px 10px;
+  }
+  :root .breakdown-rows details > summary::after { right: 8px; }
+  :root .professional-reviews summary { flex-wrap: wrap; gap: 7px; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root details[open] > :not(summary) { animation: disclosure-reveal .18s ease-out; }
+  @keyframes disclosure-reveal {
+    from { opacity: .4; transform: translateY(-3px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root select,
+  :root select::picker-icon,
+  :root details > summary,
+  :root details > summary::after { transition: none; }
+}

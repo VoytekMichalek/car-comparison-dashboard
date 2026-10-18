@@ -1,0 +1,166 @@
+{
+  "checked": "2026-10-18",
+  "effective": "2026-10-01",
+  "currency": "AUD",
+  "jurisdiction": "Queensland",
+  "scope": "12-month private-use passenger cars and station wagons, up to and including 4 tonnes GVM, no concession, Class 1 CTP, no input-tax-credit entitlement. Not hire, taxi, business-use or heavy-vehicle rates.",
+  "bev": {
+    "registration": 303.1,
+    "trafficFee": 67.25,
+    "ctpLow": 411.8,
+    "ctpHigh": 427.8,
+    "sourceIds": [
+      "qld-cost-registration",
+      "qld-cost-registration-basis"
+    ],
+    "label": "1\u20133 cylinders, electric or steam",
+    "publishedTotalLow": 782.15,
+    "publishedTotalHigh": 798.15,
+    "excludesCtpInRegistrationComponent": true
+  },
+  "fourCylinder": {
+    "registration": 385.45,
+    "trafficFee": 67.25,
+    "ctpLow": 411.8,
+    "ctpHigh": 427.8,
+    "sourceIds": [
+      "qld-cost-registration",
+      "qld-cost-registration-basis"
+    ],
+    "label": "4 cylinders",
+    "publishedTotalLow": 864.5,
+    "publishedTotalHigh": 880.5,
+    "excludesCtpInRegistrationComponent": true
+  },
+  "registrationRules": {
+    "basis": "BEVs use the 1\u20133 cylinder/electric group. HEV and PHEV registration uses the petrol engine cylinder count; the separate hybrid duty discount does not make every hybrid an electric-registration vehicle.",
+    "familyOverrides": {
+      "nissan-x-trail-epower": "bev"
+    },
+    "overrideExplanation": "X-TRAIL e-POWER has a 1.5-litre three-cylinder petrol engine; use the 1\u20133 cylinder/electric group even though it is an HEV. Other covered HEV/PHEV configurations require verified four-cylinder applicability; do not infer cylinder count from powertrain alone for future additions.",
+    "unknownCylinderPolicy": "Require the actual engine cylinder count or an owner-entered registration figure; do not silently classify an unknown hybrid as four-cylinder.",
+    "annualFormula": "registration + trafficFee + selectedAnnualClass1Ctp",
+    "sourceIds": [
+      "qld-cost-registration-basis",
+      "qld-cost-xtrail-engine"
+    ]
+  },
+  "ctp": {
+    "class": 1,
+    "periodMonths": 12,
+    "gstIncluded": true,
+    "privateUseItce": false,
+    "effective": "2026-10-01",
+    "budgetMidpoint": 419.8,
+    "midpointNote": "Arithmetic midpoint of the official published range, for a clearly labelled budget only; not an insurer quote.",
+    "note": "CTP is collected with registration. The component amounts above exclude CTP until the annual formula adds it once. Premiums vary by insurer and quarter, not by a private Class 1 driver\u2019s age, driving record or vehicle location. Comprehensive cover is a separate cost.",
+    "sourceIds": [
+      "qld-cost-registration",
+      "qld-cost-ctp-classes",
+      "qld-cost-ctp-pricing"
+    ]
+  },
+  "transfer": {
+    "amount": 33.65,
+    "effective": "2026-07-01",
+    "sourceIds": [
+      "qld-cost-registration",
+      "qld-cost-transfer"
+    ],
+    "note": "Buyer fee for a Queensland registration transfer, separate from duty; exemptions can apply. Does not purchase another 12 months of registration."
+  },
+  "duty": {
+    "threshold": 100000,
+    "lowerRatePer100": 2,
+    "higherRatePer100": 4,
+    "effective": "2018-07-01",
+    "sourceIds": [
+      "qld-cost-duty-rates",
+      "qld-cost-duty-help",
+      "qld-cost-duty-calculator"
+    ],
+    "appliesTo": [
+      "BEV",
+      "PHEV",
+      "HEV"
+    ],
+    "maxGvmTonnes": 4.5,
+    "formula": "Math.ceil(dutiableValue / 100) * (dutiableValue > 100000 ? 4 : 2)",
+    "thresholdBasis": "Choose the rate using the original dutiable value, then round up to units of $100. The higher rate applies to the entire value once it is above $100,000; this is not a marginal bracket.",
+    "usedDutiableValue": "Greater of the total amount paid for the vehicle and its market value. The total includes trade-in allowance and applicable included equipment, dealer delivery fees and warranties; a trade-in does not reduce dutiable value.",
+    "newDutiableValue": "Use the applicable official list-price/optional-equipment rules, or the official calculator/help tool; a drive-away advertised price must not be treated as the untaxed list price.",
+    "examples": [
+      {
+        "value": 45000,
+        "duty": 900
+      },
+      {
+        "value": 45001,
+        "duty": 902
+      },
+      {
+        "value": 100000,
+        "duty": 2000
+      },
+      {
+        "value": 100000.01,
+        "duty": 4004
+      },
+      {
+        "value": 135600,
+        "duty": 5424
+      }
+    ],
+    "note": "Assumes an ordinary purchase without an exemption. Current light-vehicle regime applies to contracts from 1 July 2018. Confirm the dutiable value for the actual transaction."
+  },
+  "ppsr": {
+    "amount": 2,
+    "sourceIds": [
+      "qld-cost-ppsr"
+    ],
+    "method": "Official government online self-service VIN or chassis-number search",
+    "effective": null,
+    "note": "Published current fee checked 18 October 2026; commencement date not stated on the source. Search on or just before purchase. Third-party history-report charges are not the government PPSR fee."
+  },
+  "insuranceNote": "Insurance budgets use published Australian research and explicit model/class estimates. They are not personal quotes. Your actual premium depends on drivers, address, parking, cover and excess; enter a quote to replace the estimate. CTP covers injury liability and is separate from comprehensive property insurance.",
+  "insurance": {
+    "defaultAnnualPremium": null,
+    "sourceIds": [
+      "qld-cost-insurance"
+    ],
+    "basis": "Owner-entered quote or explicitly labelled personal budget; no generic model-specific quote."
+  },
+  "homeChargerInstallation": {
+    "low": 1000,
+    "high": 1500,
+    "basis": "EVSE Australia published typical Brisbane installation range; indicative only, site quote required",
+    "equipmentIncluded": null,
+    "gstBasis": "Not expressly specified in the cited FAQ",
+    "effective": null,
+    "sourceIds": [
+      "qld-cost-home-installation"
+    ],
+    "note": "Do not use as a complete charger-plus-installation budget. Hardware inclusions and GST must be confirmed. Site condition, cable route/distance and single/three-phase supply change the price."
+  },
+  "notes": [
+    "TMR labels the common-vehicle table current as at 1 October 2026 and states Class 1 CTP premiums include GST. Do not add another 10% GST to these published amounts. TMR says its other fees generally do not attract GST unless indicated.",
+    "Keep annual renewal costs separate from purchase-day transfer costs. A registered used car usually carries its remaining registration; do not add a whole annual renewal automatically to the purchase total.",
+    "Drive-away advertised prices can already include registration and duty. Show an inclusion control or exclude additional duty/registration when already included to avoid double counting.",
+    "No concessions, exemptions, short-period surcharges, optional number plates or interstate/unregistered vehicle establishment fees are included.",
+    "These are current-rate budgeting inputs checked on the stated date; future years in a projection should be labelled constant-rate assumptions unless changed by the owner."
+  ],
+  "sourceIds": [
+    "qld-cost-registration",
+    "qld-cost-registration-basis",
+    "qld-cost-ctp-classes",
+    "qld-cost-ctp-pricing",
+    "qld-cost-duty-rates",
+    "qld-cost-duty-help",
+    "qld-cost-duty-calculator",
+    "qld-cost-transfer",
+    "qld-cost-ppsr",
+    "qld-cost-insurance",
+    "qld-cost-xtrail-engine",
+    "qld-cost-home-installation"
+  ]
+}

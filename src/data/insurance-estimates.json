@@ -1,0 +1,159 @@
+[
+  {
+    "familyId": "tesla-model-y",
+    "low": 2200,
+    "high": 4500,
+    "point": 3200,
+    "basis": "Study RWD average A$3,203, rounded. Entry-model reference; other years/trims unquoted. Bounds are planning assumptions.",
+    "confidence": "medium",
+    "sourceIds": [
+      "budget-insurance-study",
+      "budget-insurance-factors"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "byd-atto-3",
+    "low": 1200,
+    "high": 2800,
+    "point": 1800,
+    "basis": "Historical same-model Queensland anchors: Compare the Market's April2024 Brisbane4000 study averaged A$2,109.53 for a2024 StandardRange,30-year-old woman,16,881km/year; its September2024 Brisbane4051 study averaged A$1,609.47 for a34-year-old man,15,000km/year and aboutA$900 excess. A$1,800 is a dashboard planning assumption between those differing profiles, not an inflation-adjusted2026 quote. A$1,200–2,800 bounds are assumed. Other years/trims remain unquoted; obtain personal quotes.",
+    "confidence": "low",
+    "sourceIds": [
+      "budget-insurance-atto3-2024-qld",
+      "budget-insurance-atto3-2024-sept",
+      "budget-insurance-factors"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "kia-ev6",
+    "low": 1600,
+    "high": 3500,
+    "point": 2300,
+    "basis": "BEV study mean A$2,306, rounded. EV6 unquoted; class proxy and bounds assumed.",
+    "confidence": "low",
+    "sourceIds": [
+      "budget-insurance-study",
+      "budget-insurance-factors"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "kia-ev5",
+    "low": 1300,
+    "high": 3000,
+    "point": 1920,
+    "basis": "Study Standard Range average A$1,921, rounded. Other trims/years unquoted; bounds assumed.",
+    "confidence": "medium",
+    "sourceIds": [
+      "budget-insurance-study",
+      "budget-insurance-factors"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "hyundai-ioniq-5",
+    "low": 1600,
+    "high": 3500,
+    "point": 2300,
+    "basis": "BEV study mean A$2,306, rounded. Ioniq 5 unquoted; class proxy and bounds assumed.",
+    "confidence": "low",
+    "sourceIds": [
+      "budget-insurance-study",
+      "budget-insurance-factors"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "zeekr-7x",
+    "low": 1800,
+    "high": 4000,
+    "point": 2600,
+    "basis": "Zeekr X study A$2,271 × assumed 1.15 larger-SUV factor, rounded. 7X unquoted; bounds assumed.",
+    "confidence": "low",
+    "sourceIds": [
+      "budget-insurance-study",
+      "budget-insurance-factors"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "mitsubishi-outlander-phev",
+    "low": 1300,
+    "high": 2900,
+    "point": 1900,
+    "basis": "HEV/PHEV mean A$1,709 × assumed 1.10 SUV factor, rounded. Model unquoted; bounds assumed.",
+    "confidence": "low",
+    "sourceIds": [
+      "budget-insurance-study",
+      "budget-insurance-factors"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "byd-sealion-6",
+    "low": 1250,
+    "high": 2800,
+    "point": 1820,
+    "basis": "Study Essential average A$1,821, rounded. Other trims/years unquoted; bounds assumed.",
+    "confidence": "medium",
+    "sourceIds": [
+      "budget-insurance-study",
+      "budget-insurance-factors"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "nissan-x-trail-epower",
+    "low": 1250,
+    "high": 2800,
+    "point": 1850,
+    "basis": "RAV4 HEV study A$1,844, rounded. Comparable hybrid-SUV proxy; X-Trail unquoted; bounds assumed.",
+    "confidence": "low",
+    "sourceIds": [
+      "budget-insurance-study",
+      "budget-insurance-factors"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "toyota-rav4-hybrid",
+    "low": 1250,
+    "high": 2800,
+    "point": 1840,
+    "basis": "Study GX 2WD HEV average A$1,844, rounded. Other trims/years unquoted; bounds assumed.",
+    "confidence": "medium",
+    "sourceIds": [
+      "budget-insurance-study",
+      "budget-insurance-factors"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "toyota-kluger-hybrid",
+    "low": 1400,
+    "high": 3200,
+    "point": 2100,
+    "basis": "RAV4 HEV A$1,844 × assumed 1.15 larger-SUV factor, rounded. Kluger unquoted; bounds assumed.",
+    "confidence": "low",
+    "sourceIds": [
+      "budget-insurance-study",
+      "budget-insurance-factors"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "familyId": "kia-sorento",
+    "low": 1400,
+    "high": 3300,
+    "point": 2100,
+    "basis": "RAV4 HEV A$1,844 × assumed 1.15 larger-SUV factor, rounded. Sorento unquoted; bounds assumed.",
+    "confidence": "low",
+    "sourceIds": [
+      "budget-insurance-study",
+      "budget-insurance-factors"
+    ],
+    "checked": "2026-10-18"
+  }
+]
