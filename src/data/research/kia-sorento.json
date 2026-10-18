@@ -768,9 +768,13 @@
       {
         "key": "insurance",
         "status": "estimate",
-        "finding": "Youi model mean A$1,393 and indicative A$935–1,742 range mix years and engines, with at least 10 policies. Not a household/new-hybrid quote; retain A$2,100 low-confidence planning pending matched quotes.",
+        "finding": "Insurance rechecked 18 October 2026: A$1,700/year planning budget; A$900–3,300 sensitivity, not guaranteed quotes. Hybrid/PHEV class proxy · no GT-Line hybrid quote. No unsupported SUV loading. Your drivers, excess, insured value and cover still need a quote; CTP is separate.",
         "sourceIds": [
-          "audit-kia-sorento-insurance-youi"
+          "budget-insurance-study",
+          "budget-insurance-factors",
+          "budget-insurance-youi-kia",
+          "insurance-audit-cover-excess",
+          "budget-insurance-kluger-nrma-2026"
         ],
         "vehicleIds": [
           "sorento-phev-gtline-2021-23",

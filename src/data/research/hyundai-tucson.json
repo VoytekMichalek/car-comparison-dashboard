@@ -450,11 +450,14 @@
       "low": 770,
       "high": 2500,
       "confidence": "low",
-      "basis": "Rounded planning proxy from Youi national mixed-year/model comprehensive mean A$1,191, policies sold 22 November 2025–22 May 2026. Not an exact trim/year or Queensland household quote. The published 80%-within-or-below band is not a confidence interval; displayed wider scenarios are analyst budgets. Replace with a personal quote.",
+      "basis": "Rounded planning proxy from Youi national mixed-year/model comprehensive mean A$1,191, policies sold 22 November 2025–22 May 2026. Not an exact trim/year or Queensland household quote. The published 80%-within-or-below band is not a confidence interval; displayed wider scenarios are analyst budgets. Replace with a personal quote. Comprehensive cover only; CTP is separately included in registration. The budget and low/high bounds are household planning assumptions, not a personalised quote, insurer minimum/maximum or confidence interval. Address, drivers, excess, insured value and cover can change the premium. Replace with a like-for-like current quote; no arbitrary SUV or generation multiplier is applied.",
       "sourceIds": [
-        "audit-hyundai-tucson-insurance"
+        "audit-hyundai-tucson-insurance",
+        "insurance-audit-cover-excess",
+        "insurance-audit-nrma-medium-2026"
       ],
-      "checked": "2026-10-18"
+      "checked": "2026-10-18",
+      "scope": "National model mean · years and powertrains pooled"
     }
   ],
   "tyreUpdates": [
@@ -608,9 +611,11 @@
       {
         "key": "insurance",
         "status": "estimate",
-        "finding": "Youi mixed Tucson mean A$1,191, published band A$766–1,519. Retain rounded A$1,190 budget / A$770–2,500 scenarios. No exact 2021–24 base QLD household quote.",
+        "finding": "Insurance rechecked 18 October 2026: A$1,190/year planning budget; A$770–2,500 sensitivity, not guaranteed quotes. National model mean · years and powertrains pooled. No unsupported SUV loading. Your drivers, excess, insured value and cover still need a quote; CTP is separate.",
         "sourceIds": [
-          "audit-hyundai-tucson-insurance"
+          "audit-hyundai-tucson-insurance",
+          "insurance-audit-cover-excess",
+          "insurance-audit-nrma-medium-2026"
         ],
         "vehicleIds": [
           "tucson-base-petrol-2021"

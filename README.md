@@ -2,13 +2,13 @@
 
 A local-first Australian car-research dashboard for a Queensland family with **one rear-facing restraint plus two forward-facing seats or boosters**, home charging and an A$45,000 purchase target. Exact seat models remain unconfirmed.
 
-The latest research audit was checked **18 October 2026**. It contains **35 configurations across 19 model families**, **1,199 source records** and **23 genuine, attributed vehicle photographs**. The data is curated, not a live inventory or a valuation service. Evidence gaps are part of the catalogue. The [latest model-by-model audit](docs/research/README.md) contains 190 item checks and 35 detailed fit assessments.
+The latest research audit was checked **18 October 2026**. It contains **35 configurations across 19 model families**, **1,205 source records** and **23 genuine, attributed vehicle photographs**. The data is curated, not a live inventory or a valuation service. Evidence gaps are part of the catalogue. The [latest model-by-model audit](docs/research/README.md) contains 190 item checks and 35 detailed fit assessments.
 
 ## Latest dashboard changes
 
-PHEVs no longer receive a low score for having a shorter electric-only range than battery-only EVs. The published range remains visible, while its category is excluded from both the total and evidence coverage. The same rule applies to the price-versus-score graph. With default inputs, the original Outlander PHEV moves from 7.1 to 7.7/10; non-PHEV totals are unchanged.
+PHEVs no longer receive a low score for having a shorter electric-only range than battery-only EVs. The published range remains visible, while its category is excluded from both the total and evidence coverage. The same rule applies to the price-versus-score graph. The range-only correction moved the original Outlander PHEV from 7.1 to 7.7/10 without changing non-PHEV totals. The subsequent insurance refresh also changes affected running budgets and their scores.
 
-Compare now puts vehicles in rows and the eight scoring categories in columns. Each score has a 0–10 bar: green at 7+, amber at 4–6.9 and red below 4. Unknown/non-comparable/not-applicable states stay neutral. Actual figures and evidence coverage remain visible; activating a category opens its evidence. Columns sort by score, while phones show every selected car as a labelled card with a sorting menu.
+Compare shows all 35 configurations by default, with filters applied to rows and an optional **Selected cars only** view for the four-car shortlist. Shared links preserve the view mode, selections and filters. Vehicles sit in rows and the eight scoring categories in columns. Each score has a 0–10 bar: green at 7+, amber at 4–6.9 and red below 4. Unknown/non-comparable/not-applicable states stay neutral. Actual figures and evidence coverage remain visible; activating a category opens its evidence. Columns sort by score, while phones show every selected car as a labelled card with a sorting menu.
 
 Score categories show their actual figure or rating immediately: purchase price and fees, annual running budget, boot litres, range standard, safety result and owner rating. Expand a category for a short explanation; detailed sources and formulas sit under **Evidence & scoring**. Uncertain price and running-budget headlines retain yellow estimate highlighting. These presentation changes leave the main scoring formulas unchanged.
 
@@ -88,7 +88,7 @@ The [earlier research refresh](docs/CURRENT-RESEARCH-REFRESH-2026-10-18.md) reco
 
 ## Mobile update — 18 October 2026
 
-Phone comparisons show two cars together with sticky photos/names and full-width category labels. With three or four selected cars, the Left car / Right car dropdowns choose which pair to display; the full shortlist remains in shared links and desktop comparisons. Ownership costs use sortable cards with annual and period totals first, followed by every expense. Mobile section jumps, larger touch controls, collapsible assumptions/weights and a readable price/range list replace cramped layouts.
+Phone comparisons show every visible configuration as a labelled score card with sticky photos/names. All cars is the default; Selected cars only narrows the list to the optional four-car shortlist. Filters and view mode remain in shared links. Ownership costs use sortable cards with annual and period totals first, followed by every expense. Mobile section jumps, larger touch controls, collapsible assumptions/weights and a readable price/range list replace cramped layouts.
 
 Added separate **2023 MY23 Ioniq 5 Dynamiq RWD and Techniq AWD** configurations (77.4 kWh). The MY23 configurations include matching late-2022 MY23 builds, separately from the earlier 72.6-kWh car. The Dynamiq price is a yellow, low-confidence A$41,900 NSW private asking example excluding charges, with one observation and unconfirmed seller availability. Techniq has one interstate dealer observation, also yellow because the sample is weak. Both retain unconfirmed personal seat fit; the related 2022 BabyDrive trial is not presented as a MY23-specific test.
 
@@ -123,3 +123,7 @@ The former A$2,000–6,500 scoring scale was too low for the full running budget
 ## Budget aftermarket tyres — 18 October 2026
 
 Replaced premium-only tyre price assumptions with sourced budget aftermarket allowances across all 35 configurations. The original Model Y now uses a yellow **A$1,000 fitted-set planning budget**, approximately **A$380/year** at 15,000 km and an assumed 40,000 km replacement life. Its default annual running budget is **A$5,525.15** including repair savings, and its running-budget score is **6.6/10**. Existing personal annual tyre inputs remain unchanged. The ownership editor and car details show set price, wheel reference, assumed life and annual calculation. Zeekr retains an explicit HL110 budget-fitment gap and premium fallback. [Research and limitations](docs/research/BUDGET-TYRES-UPDATE-2026-10-18.md).
+
+## Complete insurance review — 18 October 2026
+
+Rechecked all 35 configurations across 19 families. Revised annual estimates: Outlander PHEV **A$1,700** (A$800–2,900 planning sensitivity), X-Trail e-POWER **A$1,300**, Sorento HEV/PHEV **A$1,700**, and Tesla LR/Juniper family fallback **A$2,260**. The explicit original-RWD Tesla **A$2,000** default remains. Other central budgets remain supported by their existing model/profile evidence. Unsupported SUV multipliers were removed; a friend’s A$1,100 PHEV premium is plausible but not a population average. Ownership and vehicle costs now show default amount, scope, range and sources beside saved inputs. [Complete findings](docs/research/INSURANCE-UPDATE-2026-10-18.md).

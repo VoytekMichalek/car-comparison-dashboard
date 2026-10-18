@@ -819,11 +819,14 @@
       "low": 780,
       "high": 2500,
       "confidence": "low",
-      "basis": "A$1,160 is the rounded midpoint of Youi’s published A$785–1,531 Outlander premium range, not a reported mean. Policies sold 22 November 2025–22 May 2026; 80% fell within or below that range. Includes mixed years/powertrains and Australia-wide risks, not this LS or your Queensland address. A$780–2,500 is an analyst planning range, not an insurer interval. Replace with your comprehensive quote; CTP is in rego separately.",
+      "basis": "A$1,160 retained: rounded midpoint of Youi Outlander A$785–1,531 published premium band, not a reported mean. Policies sold 22 November 2025–22 May 2026; 80% fell within or below that band. Mixed years and powertrains Australia-wide, not this LS or your address. A$780–2,500 planning bounds are assumptions. Replace with a comprehensive household quote; CTP is in rego. Comprehensive cover only; CTP is separately included in registration. The budget and low/high bounds are household planning assumptions, not a personalised quote, insurer minimum/maximum or confidence interval. Address, drivers, excess, insured value and cover can change the premium. Replace with a like-for-like current quote; no arbitrary SUV or generation multiplier is applied.",
       "sourceIds": [
-        "budget-insurance-youi-mitsubishi"
+        "audit-mitsubishi-outlander-petrol-youi",
+        "insurance-audit-cover-excess",
+        "insurance-audit-nrma-medium-2026"
       ],
-      "checked": "2026-10-18"
+      "checked": "2026-10-18",
+      "scope": "National model range midpoint · petrol/PHEV pooled"
     },
     {
       "familyId": "nissan-x-trail-petrol",
@@ -831,11 +834,14 @@
       "low": 740,
       "high": 2500,
       "confidence": "low",
-      "basis": "Rounded from Youi’s published A$1,181 X-Trail comprehensive mean; A$744–1,521 indicative range. Policies sold 22 November 2025–22 May 2026; model averages require at least ten policies, and 80% fell within or below the range. Mixed generations/powertrains, not an ST AWD Queensland quote. A$740–2,500 planning bounds are analyst assumptions. Replace with your quote; CTP is separate.",
+      "basis": "Rounded from Youi’s published A$1,181 X-Trail comprehensive mean; A$744–1,521 indicative range. Policies sold 22 November 2025–22 May 2026; model averages require at least ten policies, and 80% fell within or below the range. Mixed generations/powertrains, not an ST AWD Queensland quote. A$740–2,500 planning bounds are analyst assumptions. Replace with your quote; CTP is separate. Comprehensive cover only; CTP is separately included in registration. The budget and low/high bounds are household planning assumptions, not a personalised quote, insurer minimum/maximum or confidence interval. Address, drivers, excess, insured value and cover can change the premium. Replace with a like-for-like current quote; no arbitrary SUV or generation multiplier is applied.",
       "sourceIds": [
-        "budget-insurance-youi-nissan"
+        "audit-nissan-x-trail-petrol-insurance",
+        "insurance-audit-cover-excess",
+        "insurance-audit-nrma-medium-2026"
       ],
-      "checked": "2026-10-18"
+      "checked": "2026-10-18",
+      "scope": "National model mean · years and powertrains pooled"
     }
   ],
   "tyres": [

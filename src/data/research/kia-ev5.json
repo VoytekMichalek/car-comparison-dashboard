@@ -843,14 +843,16 @@
       "low": 1300,
       "high": 3000,
       "point": 1920,
-      "basis": "A$1,920/year retained, rounded from Compare the Market March 2026 EV5 Standard Range quote average A$1,921: 34-year-old male in Alderley Brisbane, garaged, clean history, up to 15,000 km, market value, targeted A$900 excess. A$1,300–3,000 bounds are assumptions, not study quantiles. Youi national mixed-customer EV5 average A$1,765 is a different population; do not blend. Air LR and this household need actual quotes.",
+      "basis": "A$1,920/year retained, rounded from Compare the Market March 2026 EV5 Standard Range quote average A$1,921: 34-year-old male in Alderley Brisbane, garaged, clean history, up to 15,000 km, market value, targeted A$900 excess. A$1,300–3,000 bounds are assumptions, not study quantiles. Youi national mixed-customer EV5 average A$1,765 is a different population; do not blend. Air LR and this household need actual quotes. Comprehensive cover only; CTP is separately included in registration. The budget and low/high bounds are household planning assumptions, not a personalised quote, insurer minimum/maximum or confidence interval. Address, drivers, excess, insured value and cover can change the premium. Replace with a like-for-like current quote; no arbitrary SUV or generation multiplier is applied.",
       "confidence": "medium",
       "sourceIds": [
         "audit-kia-ev5-ctm-insurance",
         "audit-kia-ev5-youi-insurance",
-        "budget-insurance-factors"
+        "budget-insurance-factors",
+        "insurance-audit-cover-excess"
       ],
-      "checked": "2026-10-18"
+      "checked": "2026-10-18",
+      "scope": "Brisbane Standard Range quote study · Long Range proxy"
     }
   ],
   "tyreUpdates": [
@@ -1078,10 +1080,12 @@
       {
         "key": "insurance",
         "status": "estimate",
-        "finding": "A$1,920/year retained from A$1,921 model-specific March 2026 Brisbane study profile; Youi EV5 national mean A$1,765 is a different customer pool. Assumed bounds are not percentiles; LR and household-specific quotes absent.",
+        "finding": "Insurance rechecked 18 October 2026: A$1,920/year planning budget; A$1,300–3,000 sensitivity, not guaranteed quotes. Brisbane Standard Range quote study · Long Range proxy. No unsupported SUV loading. Your drivers, excess, insured value and cover still need a quote; CTP is separate.",
         "sourceIds": [
           "audit-kia-ev5-ctm-insurance",
-          "audit-kia-ev5-youi-insurance"
+          "audit-kia-ev5-youi-insurance",
+          "budget-insurance-factors",
+          "insurance-audit-cover-excess"
         ],
         "vehicleIds": [
           "ev5-air-standard-2024",

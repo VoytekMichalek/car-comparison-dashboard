@@ -563,12 +563,14 @@
       "low": 1520,
       "high": 4000,
       "point": 2270,
-      "basis": "Youi actual 7X policies sold 22 Nov 2025–22 May 2026: 80% of applicable comprehensive premiums fell within or below A$1,520–3,026. This is not stated to be a mean, median or middle-80% interval. The A$2,270 point is a rounded arithmetic midpoint chosen for planning. National mixed trims and households; A$1,520–4,000 sensitivity bounds are assumptions. Obtain your own postcode, driver, excess and use quote.",
+      "basis": "Youi actual 7X policies sold 22 Nov 2025–22 May 2026: 80% of applicable comprehensive premiums fell within or below A$1,520–3,026. This is not stated to be a mean, median or middle-80% interval. The A$2,270 point is a rounded arithmetic midpoint chosen for planning. National mixed trims and households; A$1,520–4,000 sensitivity bounds are assumptions. Obtain your own postcode, driver, excess and use quote. Comprehensive cover only; CTP is separately included in registration. The budget and low/high bounds are household planning assumptions, not a personalised quote, insurer minimum/maximum or confidence interval. Address, drivers, excess, insured value and cover can change the premium. Replace with a like-for-like current quote; no arbitrary SUV or generation multiplier is applied.",
       "confidence": "low",
       "sourceIds": [
-        "audit-zeekr-7x-insurance-youi"
+        "audit-zeekr-7x-insurance-youi",
+        "insurance-audit-cover-excess"
       ],
-      "checked": "2026-10-18"
+      "checked": "2026-10-18",
+      "scope": "National model range midpoint · not a published mean"
     }
   ],
   "repairReserveUpdates": [
@@ -759,9 +761,10 @@
       {
         "key": "insurance",
         "status": "estimate",
-        "finding": "Actual Youi 7X premium range A$1,520–3,026, with 80% within or below it. Retain the A$2,270 planning midpoint. This is neither a household quote nor a published average; postcode, driver, excess, use and trim matter.",
+        "finding": "Insurance rechecked 18 October 2026: A$2,270/year planning budget; A$1,520–4,000 sensitivity, not guaranteed quotes. National model range midpoint · not a published mean. No unsupported SUV loading. Your drivers, excess, insured value and cover still need a quote; CTP is separate.",
         "sourceIds": [
-          "audit-zeekr-7x-insurance-youi"
+          "audit-zeekr-7x-insurance-youi",
+          "insurance-audit-cover-excess"
         ],
         "vehicleIds": [
           "zeekr7x-rwd-2025",

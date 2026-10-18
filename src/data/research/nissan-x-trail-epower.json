@@ -636,17 +636,19 @@
   "insuranceUpdates": [
     {
       "familyId": "nissan-x-trail-epower",
-      "low": 1250,
+      "low": 750,
       "high": 2800,
-      "point": 1850,
-      "basis": "Low-confidence A$1,850/year planning proxy retained, rounded from the March 2026 Brisbane RAV4 HEV A$1,844 study; no e-POWER-specific quote found. Youi’s X-Trail A$1,181 mean and A$744–1,521 range mix generations/powertrains. Chasing Cars reports Budget Direct new-X-Trail median A$1,300 for first-purchased policies May 2025–May 2026, without an e-POWER-only sample. None is your household quote; A$1,250–2,800 bounds are analyst assumptions.",
+      "point": 1300,
+      "basis": "Published Budget Direct median annual comprehensive premium for a new X-Trail is A$1,300, first-time annual policies purchased 1 May 2025–1 May 2026, reported by Chasing Cars. This replaces the unrelated RAV4 proxy. The insurer cohort does not isolate e-POWER, Ti AWD, FWD or the reviewed grade; exact sample n and risk distribution are unavailable. Youi all-X-Trail mean A$1,181 is a separate mixed-generation/powertrain cross-check, not pooled with the median. Comprehensive cover only; CTP is separately included in registration. The budget and low/high bounds are household planning assumptions, not a personalised quote, insurer minimum/maximum or confidence interval. Address, drivers, excess, insured value and cover can change the premium. Replace with a like-for-like current quote; no arbitrary SUV or generation multiplier is applied.",
       "confidence": "low",
       "sourceIds": [
         "audit-nissan-x-trail-epower-insurance-study",
         "audit-nissan-x-trail-epower-youi",
-        "audit-nissan-x-trail-epower-fwd-second-drive"
+        "audit-nissan-x-trail-epower-fwd-second-drive",
+        "insurance-audit-cover-excess"
       ],
-      "checked": "2026-10-18"
+      "checked": "2026-10-18",
+      "scope": "New X-Trail policy median · e-POWER not isolated"
     }
   ],
   "tyreUpdates": [
@@ -893,11 +895,12 @@
       {
         "key": "insurance",
         "status": "estimate",
-        "finding": "A$1,850 proxy retained with low confidence. Available X-Trail public premium samples mix generations or powertrains; no separately identified e-POWER cohort or household quote. Do not present this as observed e-POWER insurance.",
+        "finding": "Insurance rechecked 18 October 2026: A$1,300/year planning budget; A$750–2,800 sensitivity, not guaranteed quotes. New X-Trail policy median · e-POWER not isolated. No unsupported SUV loading. Your drivers, excess, insured value and cover still need a quote; CTP is separate.",
         "sourceIds": [
-          "audit-nissan-x-trail-epower-youi",
           "audit-nissan-x-trail-epower-insurance-study",
-          "audit-nissan-x-trail-epower-fwd-second-drive"
+          "audit-nissan-x-trail-epower-youi",
+          "audit-nissan-x-trail-epower-fwd-second-drive",
+          "insurance-audit-cover-excess"
         ],
         "vehicleIds": [
           "xtrail-ti-epower-awd",

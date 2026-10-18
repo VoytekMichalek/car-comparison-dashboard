@@ -96,7 +96,13 @@ export const activeFilterCount = (filters: Filters): number => Object.entries(de
 export type View = 'browse' | 'compare' | 'vehicle' | 'costs' | 'notebook' | 'scores' | 'charts';
 export const vehicleSections = ['overview', 'costs', 'scores', 'specs', 'family', 'ownership', 'sources', 'notes'] as const;
 export type VehicleSection = typeof vehicleSections[number];
-export interface PublicState { view: View; compare: string[]; filters: Filters; weights?: ScoreWeights; vehicleId?: string; section?: VehicleSection }
+export type CompareScope = 'all' | 'selected';
+export interface PublicState { view: View; compare: string[]; filters: Filters; compareScope?: CompareScope; weights?: ScoreWeights; vehicleId?: string; section?: VehicleSection }
+export function comparisonVehicles(filtered: Vehicle[], selectedIds: string[], scope: CompareScope = 'all'): Vehicle[] {
+  if (scope === 'all') return filtered;
+  const byId = new Map(filtered.map(vehicle => [vehicle.id, vehicle]));
+  return [...new Set(selectedIds)].flatMap(id => { const vehicle = byId.get(id); return vehicle ? [vehicle] : []; });
+}
 export function parseHash(hash: string, validIds: Set<string>): PublicState {
   const p = new URLSearchParams(hash.replace(/^#/, ''));
   const allowedViews = ['browse', 'compare', 'vehicle', 'costs', 'notebook', 'scores', 'charts'];
@@ -111,7 +117,7 @@ export function parseHash(hash: string, validIds: Set<string>): PublicState {
   const budget = Number.isFinite(rawBudget) && rawBudget >= 10000 && rawBudget <= 150000 ? rawBudget : 45000;
   const rawWeights = p.get('weights')?.split(',').map(Number);
   const parsedWeights = rawWeights?.length === 8 ? weightsSchema.safeParse(Object.fromEntries(Object.keys(defaultWeights).map((key, i) => [key, rawWeights[i]]))) : null;
-  return { view, compare: [...new Set((p.get('cars') ?? '').split(',').filter(id => validIds.has(id)))].slice(0, 4), filters: { ...defaultFilters, search: (p.get('q') ?? '').slice(0, 150), powertrains, make: (p.get('make') ?? 'all').slice(0, 50), condition: p.get('condition') === 'new' ? 'new' : p.get('condition') === 'used' ? 'used' : 'all', withinBudgetOnly: p.get('budgetOnly') === '1', year, seats: p.get('seats') === '7' ? '7' : 'all', fit, budget }, ...(parsedWeights?.success ? { weights: parsedWeights.data } : {}), ...(view === 'vehicle' ? { vehicleId, ...(section ? { section } : {}) } : {}) };
+  return { view, compare: [...new Set((p.get('cars') ?? '').split(',').filter(id => validIds.has(id)))].slice(0, 4), filters: { ...defaultFilters, search: (p.get('q') ?? '').slice(0, 150), powertrains, make: (p.get('make') ?? 'all').slice(0, 50), condition: p.get('condition') === 'new' ? 'new' : p.get('condition') === 'used' ? 'used' : 'all', withinBudgetOnly: p.get('budgetOnly') === '1', year, seats: p.get('seats') === '7' ? '7' : 'all', fit, budget }, ...(['all', 'selected'].includes(p.get('compareScope') ?? '') ? { compareScope: p.get('compareScope') as CompareScope } : {}), ...(parsedWeights?.success ? { weights: parsedWeights.data } : {}), ...(view === 'vehicle' ? { vehicleId, ...(section ? { section } : {}) } : {}) };
 }
 export function publicHash(state: PublicState): string {
   const p = new URLSearchParams();
@@ -121,6 +127,7 @@ export function publicHash(state: PublicState): string {
     if (state.section) p.set('section', state.section);
   }
   if (state.compare.length) p.set('cars', state.compare.join(','));
+  if (state.compareScope) p.set('compareScope', state.compareScope);
   const f = state.filters;
   if (f.search) p.set('q', f.search);
   if (f.make !== 'all') p.set('make', f.make);

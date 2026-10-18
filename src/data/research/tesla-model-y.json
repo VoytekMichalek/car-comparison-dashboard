@@ -817,10 +817,12 @@
       {
         "key": "insurance",
         "status": "estimate",
-        "finding": "Youi Model Y mean A$2,261 and indicative A$1,542–2,765 sold-policy band, Nov 2025–May 2026. March 2026 Alderley quote-study RWD mean A$3,203 uses a 34-year-old male, 15,000 km, garaged, market value and targeted A$900 excess. These are different samples, not a pooled quote. Preserve user-requested original-RWD A$2,000 default and mark it a budget; LR/Juniper family proxy remains A$3,200.",
+        "finding": "Insurance rechecked 18 October 2026: A$2,260/year planning budget; A$1,540–4,500 sensitivity, not guaranteed quotes. National model mean · mixed years and variants. Original Model Y RWD retains its explicit A$2,000 user-set default. No unsupported SUV loading. Your drivers, excess, insured value and cover still need a quote; CTP is separate.",
         "sourceIds": [
-          "audit-tesla-model-y-insurance-youi",
-          "audit-tesla-model-y-insurance-brisbane"
+          "budget-insurance-youi-tesla",
+          "budget-insurance-study",
+          "budget-insurance-factors",
+          "insurance-audit-cover-excess"
         ],
         "vehicleIds": [
           "model-y-rwd-2022",

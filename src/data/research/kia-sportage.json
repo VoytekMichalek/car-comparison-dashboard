@@ -445,11 +445,13 @@
       "low": 760,
       "high": 2500,
       "confidence": "low",
-      "basis": "Rounded planning proxy from Youi national mixed-year/model comprehensive mean A$1,175, policies sold 22 November 2025–22 May 2026. Not an exact trim/year or Queensland household quote. The published 80%-within-or-below band is not a confidence interval; displayed wider scenarios are analyst budgets. Replace with a personal quote.",
+      "basis": "Rounded planning proxy from Youi national mixed-year/model comprehensive mean A$1,175, policies sold 22 November 2025–22 May 2026. Not an exact trim/year or Queensland household quote. The published 80%-within-or-below band is not a confidence interval; displayed wider scenarios are analyst budgets. Replace with a personal quote. Comprehensive cover only; CTP is separately included in registration. The budget and low/high bounds are household planning assumptions, not a personalised quote, insurer minimum/maximum or confidence interval. Address, drivers, excess, insured value and cover can change the premium. Replace with a like-for-like current quote; no arbitrary SUV or generation multiplier is applied.",
       "sourceIds": [
-        "audit-kia-sportage-insurance"
+        "audit-kia-sportage-insurance",
+        "insurance-audit-cover-excess"
       ],
-      "checked": "2026-10-18"
+      "checked": "2026-10-18",
+      "scope": "National model mean · years and powertrains pooled"
     }
   ],
   "tyreUpdates": [
@@ -618,9 +620,10 @@
       {
         "key": "insurance",
         "status": "estimate",
-        "finding": "A$1,180 annual planning point retained from Youi’s mixed-year Sportage A$1,175 national mean. Not an exact S/QLD household quote; public premium band is not a confidence interval.",
+        "finding": "Insurance rechecked 18 October 2026: A$1,180/year planning budget; A$760–2,500 sensitivity, not guaranteed quotes. National model mean · years and powertrains pooled. No unsupported SUV loading. Your drivers, excess, insured value and cover still need a quote; CTP is separate.",
         "sourceIds": [
-          "audit-kia-sportage-insurance"
+          "audit-kia-sportage-insurance",
+          "insurance-audit-cover-excess"
         ],
         "vehicleIds": [
           "sportage-s-petrol-2022"

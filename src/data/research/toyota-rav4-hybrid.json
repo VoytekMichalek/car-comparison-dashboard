@@ -389,18 +389,20 @@
   "insuranceUpdates": [
     {
       "familyId": "toyota-rav4-hybrid",
-      "low": 1250,
+      "low": 800,
       "high": 2800,
       "point": 1840,
-      "basis": "ESTIMATE — A$1,840 rounded from the March 2026 published A$1,844 GX 2WD HEV mean across available quotes. Study reference: 34-year-old male, Alderley Brisbane, targeted A$900 excess, garaged, clean history and up to 15,000 km/year. It does not identify an exact GXL, used-car age or sixth-generation quote. A$1,250–2,800 bounds remain planning assumptions, not published min/max quotes; obtain a household-specific quote.",
+      "basis": "March 2026 Brisbane GX 2WD HEV quote-study mean A$1,844 rounded to A$1,840; 34-year-old male, clean record, garaged, market value, about A$900 excess, 15,000 km/year. Available quotes from 11 insurers / six underwriters, per-model n undisclosed. GXL and sixth-generation cars are related proxies, not separately quoted. Youi national all-RAV4 mean A$1,265 and A$800–1,606 band mix generations/powertrains and are a separate lower-cost check, not a hybrid-only replacement. Comprehensive cover only; CTP is separately included in registration. The budget and low/high bounds are household planning assumptions, not a personalised quote, insurer minimum/maximum or confidence interval. Address, drivers, excess, insured value and cover can change the premium. Replace with a like-for-like current quote; no arbitrary SUV or generation multiplier is applied.",
       "confidence": "medium",
       "sourceIds": [
         "budget-insurance-study",
         "budget-insurance-factors",
         "budget-insurance-youi-toyota",
-        "audit-toyota-rav4-hybrid-insurance"
+        "audit-toyota-rav4-hybrid-insurance",
+        "insurance-audit-cover-excess"
       ],
-      "checked": "2026-10-18"
+      "checked": "2026-10-18",
+      "scope": "Brisbane GX HEV quote study · GXL/new-generation proxy"
     }
   ],
   "tyreUpdates": [
@@ -612,9 +614,13 @@
       {
         "key": "insurance",
         "status": "estimate",
-        "finding": "Keep A$1,840 annual point: the public A$1,844 GX 2WD HEV quote-study mean is relevant to Brisbane but not exact GXL, household or model year. Reference: 34-year-old Alderley male, target A$900 excess, garaged, clean history, up to 15,000 km/year. A$1,250–2,800 remains an assumed sensitivity band. New-generation premium is unverified.",
+        "finding": "Insurance rechecked 18 October 2026: A$1,840/year planning budget; A$800–2,800 sensitivity, not guaranteed quotes. Brisbane GX HEV quote study · GXL/new-generation proxy. No unsupported SUV loading. Your drivers, excess, insured value and cover still need a quote; CTP is separate.",
         "sourceIds": [
-          "audit-toyota-rav4-hybrid-insurance"
+          "budget-insurance-study",
+          "budget-insurance-factors",
+          "budget-insurance-youi-toyota",
+          "audit-toyota-rav4-hybrid-insurance",
+          "insurance-audit-cover-excess"
         ],
         "vehicleIds": [
           "rav4-gxl-hev-2021-25",

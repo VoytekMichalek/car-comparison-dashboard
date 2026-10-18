@@ -687,9 +687,12 @@
       {
         "key": "insurance",
         "status": "estimate",
-        "finding": "A$1,070/year retained from Youi mean A$1,069; model-wide sold-policy window 22 November 2025–22 May 2026. Published band A$691–1,352 is not a Queensland household quote or confidence interval; no separate S6 cohort.",
+        "finding": "Insurance rechecked 18 October 2026: A$1,070/year planning budget; A$690–2,500 sensitivity, not guaranteed quotes. National model mean · generations and variants pooled. No unsupported SUV loading. Your drivers, excess, insured value and cover still need a quote; CTP is separate.",
         "sourceIds": [
-          "audit-subaru-forester-insurance"
+          "ice-sub-insurance-youi",
+          "insurance-audit-cover-excess",
+          "insurance-audit-nrma-medium-2026",
+          "insurance-audit-forester-bd-2026"
         ],
         "vehicleIds": [
           "forester-25il-2021",

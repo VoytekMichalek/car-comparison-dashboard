@@ -1,13 +1,34 @@
 import { describe, expect, it } from 'vitest';
 import { getPrice, budgetBenchmarks, insuranceFor, ownershipFor, vehicles } from './data';
 import { calculateEnergy, representativePrice, defaultOwnership, emptyPersonal, parseBackup } from './lib';
-import { energyBudget, ownershipEstimate, qldDuty, registrationCost } from './ownership';
+import { energyBudget, insuranceReferenceFor, ownershipEstimate, qldDuty, registrationCost } from './ownership';
 
 const ev = vehicles.find(v => v.id === 'model-y-rwd-2022')!;
 const xtrail = vehicles.find(v => v.id === 'xtrail-ti-epower-awd')!;
 const rav4 = vehicles.find(v => v.id === 'rav4-gxl-hev-2021-25')!;
 
 describe('Queensland ownership budgeting', () => {
+  it('keeps insurance research separate from saved household amounts', () => {
+    const car = vehicles.find(v => v.id === 'outlander-phev-aspire-20')!;
+    const reference = insuranceReferenceFor(car)!;
+    expect(reference.scope).toContain('class proxy');
+    expect(reference.low).toBeLessThanOrEqual(1100);
+    expect(reference.high).toBeGreaterThanOrEqual(1100);
+    for (const amount of [1100, 0]) {
+      const personal = { ...emptyPersonal(), ownership: { ...defaultOwnership, insurance: 1500, vehicleOverrides: { [car.id]: { insurance: amount } } } };
+      const cost = ownershipEstimate(car, personal);
+      expect(cost.components.insurance).toBe(amount);
+      expect(cost.evidence.insurance.estimated).toBe(false);
+      expect(cost.evidence.insurance.low).toBe(amount);
+      expect(cost.evidence.insurance.high).toBe(amount);
+      expect(insuranceReferenceFor(car)).toEqual(reference);
+    }
+    for (const v of vehicles) {
+      const budget = insuranceReferenceFor(v)!;
+      expect(budget.scope.length).toBeGreaterThan(0);
+      expect(ownershipEstimate(v, emptyPersonal()).components.insurance).toBe(budget.point);
+    }
+  });
   it('uses matched observed EV energy without replacing official claims or counting mains losses twice', () => {
     const settings = { ...emptyPersonal().costs, annualKm: 10000, homeShare: 100, homeRate: .3, chargingLoss: 20 };
     const car = { ...ev, familyId: 'test', consumption: { value: 20, unit: 'kWh/100km', energyBasis: 'wall' as const, basis: 'Official mains claim', sourceIds: ['official'] }, observedConsumption: { value: 16, unit: 'kWh/100km', energyBasis: 'wall' as const, basis: 'Matched road test; mains recharge', sourceIds: ['observed'] } };

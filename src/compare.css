@@ -1,5 +1,10 @@
 /* Vehicle rows and score columns; independent of the retired transposed table. */
 .compare-page .compare-pickers { margin-bottom: 24px; }
+.compare-view-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 28px; margin: 18px 0; }
+.compare-view-controls .field { flex: 0 1 270px; min-width: 0; margin: 0; }
+.compare-view-controls select { width: 100%; min-height: 46px; }
+.compare-view-controls p { margin: 0; font-size: 13px; line-height: 1.7; color: #52674b; }
+.compare-view-controls p > span { display: block; margin-top: 4px; font-size: 12px; color: #65735e; }
 .compare-matrix-toolbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; margin: 28px 0 15px; }
 .compare-matrix-toolbar h2 { margin: 0 0 7px; font-size: 23px; }
 .compare-matrix-toolbar p { margin: 0; font-size: 13px; color: #5f6f5d; }
@@ -26,14 +31,17 @@
 .compare-score-table tbody tr:last-child > * { border-bottom: 0; }
 .compare-score-table tbody > tr > .compare-identity { position: sticky; left: 0; z-index: 3; background: #f8faf5; padding: 18px 12px; border-right: 1px solid #e0e6db; }
 .compare-identity-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
-.compare-identity-photo { position: relative; width: 100px; max-width: calc(100% - 36px); aspect-ratio: 16 / 9; overflow: hidden; border-radius: 4px; background: #eaf0e3; }
+.compare-identity-photo { position: relative; width: 100px; max-width: calc(100% - 80px); aspect-ratio: 16 / 9; overflow: hidden; border-radius: 4px; background: #eaf0e3; }
 .compare-identity-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .compare-identity-photo .photo-placeholder { min-height: 0; gap: 4px; padding: 4px; text-align: center; }
 .compare-identity-photo .photo-placeholder > span { display: none; }
 .compare-identity-photo .photo-placeholder > small { font-size: 8px; line-height: 1.3; }
 .compare-identity-photo .photo-placeholder > svg { width: 14px; height: 14px; }
 .compare-identity-photo.image-failed::before { content: 'Photo unavailable'; position: absolute; inset: 0; display: grid; place-items: center; padding: 4px; font-size: 10px; line-height: 1.4; }
-.compare-identity-top > button { flex: 0 0 30px; width: 30px; height: 30px; }
+.compare-identity-top > .compare-select-toggle { display: inline-flex; justify-content: center; align-items: center; gap: 3px; flex: 0 0 72px; width: 72px; min-height: 36px; padding: 6px 3px; border: 1px solid #d4dfcb; border-radius: 4px; font-size: 10px; line-height: 1.3; font-weight: 500; background: #fff; color: #426036; }
+.compare-select-toggle[aria-pressed="true"] { background: #e3eddb; border-color: #9cb78b; }
+.compare-select-toggle:disabled { opacity: .55; cursor: not-allowed; }
+.compare-select-toggle svg { flex-shrink: 0; }
 .compare-identity h3 { margin: 0 0 8px; }
 .compare-identity h3 button { padding: 0; font-size: 15px; line-height: 1.5; text-align: left; font-weight: 650; }
 .compare-identity h3 svg { display: inline-block; vertical-align: middle; }
@@ -106,10 +114,10 @@
   .compare-score-table tbody > tr > .compare-identity { grid-column: 1 / -1; position: sticky; top: var(--table-sticky-offset, 0px); left: auto; z-index: 5; border-right: 0; border-bottom: 2px solid #d3dfcb; border-radius: 7px 7px 0 0; padding: 17px 18px; box-shadow: 0 2px 0 #e8edde; }
   .compare-identity-top { float: left; width: 95px; margin: 0 16px 0 0; display: block; }
   .compare-identity-photo { width: 95px; max-width: 100%; }
-  .compare-identity-top > button { position: absolute; top: 12px; right: 10px; }
-  .compare-identity h3 { margin: 0 25px 5px 0; }
+  .compare-identity-top > .compare-select-toggle { position: static; width: 100%; min-height: 44px; margin-top: 8px; }
+  .compare-identity h3 { margin: 0 0 5px; }
   .compare-identity h3 button { font-size: 17px; }
-  .compare-identity > p { margin-right: 16px; }
+  .compare-identity > p { margin-right: 0; }
   .compare-row-actions { margin-top: 7px; }
   .compare-score-table tbody td { padding: 18px; border-bottom: 1px solid #e2e8dc; }
   .compare-score-table tbody td:nth-of-type(2n) { border-left: 1px solid #e2e8dc; }

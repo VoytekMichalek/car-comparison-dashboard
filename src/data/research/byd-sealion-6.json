@@ -825,19 +825,21 @@
   "insuranceUpdates": [
     {
       "familyId": "byd-sealion-6",
-      "low": 1250,
+      "low": 1000,
       "high": 2800,
       "point": 1820,
-      "basis": "ESTIMATE — A$1,820 per year, rounded from the March 2026 A$1,821 Essential average for a 34-year-old male in Alderley, Brisbane, 15,000 km per year and about A$900 excess. Dynamic and Extended were not separately quoted. Youi reports A$1,039–1,960 for its national mixed-trim policies sold November 2025–May 2026. The A$1,250–2,800 bounds are assumptions, not a personalised quote or statistical confidence interval.",
+      "basis": "March 2026 Brisbane Essential quote-study mean A$1,821 rounded to A$1,820; 34-year-old male, clean record, garaged, market value, about A$900 excess, 15,000 km/year. Available quotes from 11 insurers / six underwriters, exact per-model n undisclosed; these were quotes, not premiums chosen by a representative population. Dynamic/Extended are related variants. Youi national same-model mixed-trim band A$1,039–1,960 is a separate sold-policy check; it has no displayed mean. Do not pool these cohorts. Comprehensive cover only; CTP is separately included in registration. The budget and low/high bounds are household planning assumptions, not a personalised quote, insurer minimum/maximum or confidence interval. Address, drivers, excess, insured value and cover can change the premium. Replace with a like-for-like current quote; no arbitrary SUV or generation multiplier is applied.",
       "confidence": "medium",
       "sourceIds": [
         "budget-insurance-study",
         "budget-insurance-factors",
         "budget-insurance-youi-byd",
         "audit-byd-sealion-6-brisbane-insurance",
-        "audit-byd-sealion-6-youi-insurance"
+        "audit-byd-sealion-6-youi-insurance",
+        "insurance-audit-cover-excess"
       ],
-      "checked": "2026-10-18"
+      "checked": "2026-10-18",
+      "scope": "Brisbane Essential quote study · Dynamic/Extended proxy"
     }
   ],
   "tyreUpdates": [
@@ -1089,10 +1091,14 @@
       {
         "key": "insurance",
         "status": "estimate",
-        "finding": "Kept A$1,820 annual midpoint with a precisely scoped Essential Brisbane quote-study anchor and Youi national mixed-trim cross-check. Neither is a household quote for Dynamic or Extended; bounds remain assumptions.",
+        "finding": "Insurance rechecked 18 October 2026: A$1,820/year planning budget; A$1,000–2,800 sensitivity, not guaranteed quotes. Brisbane Essential quote study · Dynamic/Extended proxy. No unsupported SUV loading. Your drivers, excess, insured value and cover still need a quote; CTP is separate.",
         "sourceIds": [
+          "budget-insurance-study",
+          "budget-insurance-factors",
+          "budget-insurance-youi-byd",
           "audit-byd-sealion-6-brisbane-insurance",
-          "audit-byd-sealion-6-youi-insurance"
+          "audit-byd-sealion-6-youi-insurance",
+          "insurance-audit-cover-excess"
         ],
         "vehicleIds": [
           "sealion6-dynamic-183",

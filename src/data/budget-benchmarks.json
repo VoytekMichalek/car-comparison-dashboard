@@ -12,8 +12,9 @@
       "budget-insurance-kluger-nrma-2026"
     ],
     "profile": "Published March 2026 reference: 34-year-old male, Alderley Brisbane, clean record, garaged, 15,000km/year, market value, about A$900 excess; entry variants.",
-    "interpretation": "Prefer a recent exact-model benchmark over a generic class proxy. Brisbane entry-variant quote studies, national single-insurer sold-policy aggregates and a NSW annualised study have different populations; do not pool their means. A published range midpoint is a planning choice, not an observed mean. Youi describes its indicative range as covering 80% of applicable premiums within or below it, not a confidence interval. None is a household quote; bounds and proxy adjustments remain assumptions.",
-    "rangeMeaning": "Illustrative household-budget sensitivity range. Actual premiums can fall outside it, especially with young drivers, claims, different parking/address, excess or cover."
+    "interpretation": "Prefer a directly relevant model/powertrain/profile benchmark over a class proxy. Current means, medians, range midpoints and five-year annualised study costs describe different cohorts and must not be pooled or labelled interchangeable averages. Exact per-model sample counts are usually undisclosed. Compare the Market checked 11 insurers / six underwriters; its 908-person survey is not the premium quote sample. Youi model policy aggregates are national and mixed-year/variant; its 80% band is not a central 80% interval. PHEV class proxies have no arbitrary SUV multiplier. No estimate is a personal household quote.",
+    "rangeMeaning": "Illustrative household-budget sensitivity range. Actual premiums can fall outside it, especially with young drivers, claims, different parking/address, excess or cover.",
+    "reviewed": "2026-10-18"
   },
   "tyresAnnual": {
     "low": 175,

@@ -158,7 +158,7 @@ export interface BudgetEstimate {
   confidence: Confidence;
   sourceIds: string[];
 }
-export interface InsuranceEstimate extends BudgetEstimate { familyId: string; checked: string }
+export interface InsuranceEstimate extends BudgetEstimate { familyId: string; checked: string; scope: string }
 export interface OwnershipInfo {
   serviceByVehicle?: Record<string, { serviceAnnual: number; serviceLow: number; serviceHigh: number; serviceBasis: string; serviceConfidence: Confidence }>;
   familyId: string;

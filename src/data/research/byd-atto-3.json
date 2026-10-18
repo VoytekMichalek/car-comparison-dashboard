@@ -952,9 +952,13 @@
       {
         "key": "insurance",
         "status": "estimate",
-        "finding": "Youi actual Atto3 sold-policy range A$988–1,753,22Nov2025–22May2026, re-read. Existing A$1,370 midpoint proxy retained; no sample count, QLD household quote or EVO-specific premium published. Existing990–2,800 sensitivity range is an assumption, not the insurer result.",
+        "finding": "Insurance rechecked 18 October 2026: A$1,370/year planning budget; A$990–2,800 sensitivity, not guaranteed quotes. National model range midpoint · EVO/Essential not separately quoted. No unsupported SUV loading. Your drivers, excess, insured value and cover still need a quote; CTP is separate.",
         "sourceIds": [
-          "audit-byd-atto-3-youi-premiums"
+          "budget-insurance-youi-byd",
+          "budget-insurance-atto3-2024-qld",
+          "budget-insurance-atto3-2024-sept",
+          "budget-insurance-factors",
+          "insurance-audit-cover-excess"
         ],
         "vehicleIds": [
           "atto3-standard-2022",

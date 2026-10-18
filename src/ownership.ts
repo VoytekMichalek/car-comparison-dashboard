@@ -3,6 +3,14 @@ import { budgetBenchmarks, getPrice, insuranceFor, ownershipFor, qldCosts, tyreF
 import type { CostSettings, OwnershipSettings, PersonalData, Powertrain, Vehicle } from './types';
 import insuranceDefaults from './data/insurance-defaults.json';
 
+/** Resolve published planning defaults separately from browser-local quotes. */
+export function insuranceReferenceFor(v: Vehicle) {
+  const family = insuranceFor(v.familyId);
+  if (!family) return undefined;
+  const configuration = insuranceDefaults.find(item => item.vehicleId === v.id);
+  return configuration ? { ...family, ...configuration, point: configuration.annual, scope: 'User-set default · not an insurance quote' } : family;
+}
+
 export function settingsFor(personal: PersonalData): OwnershipSettings {
   const saved = personal.ownership;
   return { ...defaultOwnership, ...saved, repairMode: saved?.repairMode ?? (saved && saved.repairReserve !== defaultOwnership.repairReserve ? 'shared' : 'vehicle'), vehicleOverrides: saved?.vehicleOverrides ?? {} };
@@ -53,7 +61,7 @@ export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
   const override = s.vehicleOverrides[v.id] ?? {};
   const familyInfo = ownershipFor(v.familyId);
   const info = familyInfo ? { ...familyInfo, ...familyInfo.serviceByVehicle?.[v.id] } : undefined;
-  const insuranceReference = insuranceFor(v.familyId);
+  const insuranceReference = insuranceReferenceFor(v);
   const tyreReference = tyreFor(v.id);
   const energyResult = energyBudget(v, personal.costs);
   const legacyEnergy = override.energy != null && override.electricity == null && override.petrol == null;
@@ -69,10 +77,9 @@ export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
   const reserveInput = override.repairReserve ?? (s.repairMode === 'shared' ? s.repairReserve : null);
   const reserve = reserveInput ?? reserveReference?.point ?? s.repairReserve;
   const finance = override.financeInterestAnnual ?? s.financeInterestAnnual;
-  const insuranceDefault = insuranceDefaults.find(item => item.vehicleId === v.id);
   const insuranceBudget = override.insurance ?? s.insurance;
   const insuranceInput = insuranceBudget ?? null;
-  const insurance = insuranceInput ?? insuranceDefault?.annual ?? insuranceReference?.point ?? null;
+  const insurance = insuranceInput ?? insuranceReference?.point ?? null;
   const serviceInput = override.servicing ?? s.servicing;
   const servicing = serviceInput ?? info?.serviceAnnual ?? null;
   const rego = registrationCost(v, s);
@@ -82,7 +89,7 @@ export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
     energy: { estimated: !legacyEnergy && (isPlugIn(v.powertrain) && override.electricity == null || v.powertrain !== 'BEV' && override.petrol == null), low: legacyEnergy || override.electricity != null || override.petrol != null ? energy : energyResult.low, high: legacyEnergy || override.electricity != null || override.petrol != null ? energy : energyResult.high, basis: legacyEnergy ? 'Your saved total energy budget; electricity/fuel split uses the calculated energy mix.' : override.electricity != null || override.petrol != null ? 'Your electricity/fuel overrides, with the model estimate for any blank field.' : energyResult.reason, confidence: legacyEnergy || (isFuelOnly(v.powertrain) || override.electricity != null) && (v.powertrain === 'BEV' || override.petrol != null) ? 1 : energyResult.confidence, sourceIds: energyResult.sourceIds },
     electricity: { estimated: isPlugIn(v.powertrain) && override.electricity == null && !legacyEnergy, basis: legacyEnergy ? 'Your total energy budget, allocated using the calculated electric/fuel mix.' : override.electricity != null ? 'Your annual electricity budget' : energyResult.reason, sourceIds: energyResult.sourceIds },
     petrol: { estimated: v.powertrain !== 'BEV' && override.petrol == null && !legacyEnergy, basis: legacyEnergy ? 'Your total energy budget, allocated using the calculated electric/fuel mix.' : override.petrol != null ? 'Your annual fuel budget' : energyResult.reason, sourceIds: energyResult.sourceIds },
-    insurance: { estimated: insuranceInput == null, low: insuranceInput ?? insuranceDefault?.low ?? insuranceReference?.low ?? null, high: insuranceInput ?? insuranceDefault?.high ?? insuranceReference?.high ?? null, basis: insuranceBudget != null ? 'Your insurance quote / budget' : insuranceDefault?.basis ?? insuranceReference?.basis ?? 'No insurance estimate', confidence: insuranceInput != null ? 1 : confidenceValue(insuranceDefault?.confidence ?? insuranceReference?.confidence), sourceIds: insuranceInput != null ? [] : insuranceReference?.sourceIds ?? [] },
+    insurance: { estimated: insuranceInput == null, low: insuranceInput ?? insuranceReference?.low ?? null, high: insuranceInput ?? insuranceReference?.high ?? null, basis: insuranceBudget != null ? 'Your insurance quote / budget' : insuranceReference?.basis ?? 'No insurance estimate', confidence: insuranceInput != null ? 1 : confidenceValue(insuranceReference?.confidence), sourceIds: insuranceInput != null ? [] : insuranceReference?.sourceIds ?? [] },
     servicing: { estimated: serviceInput == null, low: serviceInput ?? info?.serviceLow ?? servicing, high: serviceInput ?? info?.serviceHigh ?? servicing, basis: serviceInput != null ? 'Your service quote / budget' : info?.serviceBasis ?? 'No service estimate', confidence: serviceInput != null ? 1 : confidenceValue(info?.serviceConfidence), sourceIds: info?.sourceIds ?? [] },
     rego: { estimated: !rego.overridden && rego.assumedCtp, low: rego.overridden || !rego.assumedCtp ? rego.total : rego.group ? rego.group.registration + rego.group.trafficFee + rego.group.ctpLow : null, high: rego.overridden || !rego.assumedCtp ? rego.total : rego.group ? rego.group.registration + rego.group.trafficFee + rego.group.ctpHigh : null, basis: 'Official QLD rates; CTP midpoint unless quoted.', confidence: .95, sourceIds: rego.group?.sourceIds ?? [] },
     tyres: { estimated: tyreInput == null, low: tyreInput ?? (tyreReference ? Math.round(tyreReference.setLow * annualKm / tyreReference.lifeHighKm / 10) * 10 : tyres), high: tyreInput ?? (tyreReference ? Math.round(tyreReference.setHigh * annualKm / tyreReference.lifeLowKm / 10) * 10 : tyres), basis: tyreInput != null ? 'Your tyre replacement allowance' : tyreReference?.basis ?? budgetBenchmarks.tyresAnnual.basis, confidence: tyreInput != null ? 1 : .35, sourceIds: tyreReference?.sourceIds ?? budgetBenchmarks.tyresAnnual.sourceIds },
