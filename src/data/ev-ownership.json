@@ -374,12 +374,30 @@
       "own-ev-hyundai-warranty",
       "own-ev-hyundai-terms",
       "own-ev-est-service-ioniq",
-      "own-ev-est-service-ioniq-dealer"
+      "own-ev-est-service-ioniq-dealer",
+      "ev-ioniq-2023-roadtest",
+      "ev-ioniq-2023-release"
     ],
     "checked": "2026-10-18",
     "serviceLow": 250,
     "serviceHigh": 550,
-    "serviceConfidence": "low"
+    "serviceConfidence": "low",
+    "serviceByVehicle": {
+      "ioniq5-dynamiq-rwd-2023": {
+        "serviceAnnual": 375,
+        "serviceLow": 285,
+        "serviceHigh": 650,
+        "serviceConfidence": "low",
+        "serviceBasis": "MY23 24-month / 30,000 km schedule. Historical first three services A$570 + A$1,090 + A$570 total A$2,230 over six years, rounded to A$375/year. A$285–650 sensitivity range allows visit and coolant variation; these 2023 capped prices are not a current service quote. Confirm the VIN schedule and current dealer pricing."
+      },
+      "ioniq5-techniq-awd-2023": {
+        "serviceAnnual": 375,
+        "serviceLow": 285,
+        "serviceHigh": 650,
+        "serviceConfidence": "low",
+        "serviceBasis": "MY23 24-month / 30,000 km schedule. Historical first three services A$570 + A$1,090 + A$570 total A$2,230 over six years, rounded to A$375/year. A$285–650 sensitivity range allows visit and coolant variation; these 2023 capped prices are not a current service quote. Confirm the VIN schedule and current dealer pricing."
+      }
+    }
   },
   {
     "familyId": "zeekr-7x",

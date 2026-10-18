@@ -92,3 +92,13 @@ Final research integration: **65 tests passed**; TypeScript and production build
 Final repair-fund checks: **70 tests passed**, TypeScript and production build passed. At 390px, the repair-reference panel is 293px wide and the cost table has equal 335px client/scroll widths.
 
 Public-source preparation: the original Model Y insurance amount is an anonymous, yellow planning budget (not a personal quote). Personal notebooks, browser data and preview screenshots are excluded from the GitHub upload.
+
+## Mobile overhaul and MY23 Ioniq 5 — 18 October 2026
+
+- Browser walkthrough at 320×740 and 390×844 phone sizes: Browse filters, comparison, Scores & reviews, Notebook, the research dialog, every ownership tab and every vehicle detail section. No page-wide horizontal overflow was found in these checks. Research dialog content also fits its own width.
+- Comparison displays two readable car columns on phones/tablets, with category labels above both values and photos/names sticking below the app header. Tested left/right selection with a four-car shortlist, including a nonadjacent pair and correct visual ordering. Reload preserved all four public configuration IDs. Desktop still shows all selected columns.
+- Ownership cards show yearly and period totals first, followed by all cost components; mobile sorting uses the same column state as desktop headers. Checked insurance sorting and the desktop table width at 1440×1000.
+- Tested 768×1024 tablet layouts and navigation. The mobile layout now applies through 1000px, avoiding the narrow content left by a permanent sidebar on portrait tablets. Desktop comparison was inspected at 1440×1000.
+- Category weights are collapsible on phones; keyboard arrows changed and restored the purchase-price weight. Selecting a ranking scrolls to its score details. Inputs use 16px text to avoid automatic input zoom on mobile Safari; physical iOS/Android hardware was not available for testing.
+- Checked MY23 Dynamiq and Techniq in the 2023 year filter, variant selector, vehicle page and comparison. New data tests verify the battery/range/consumption split, unconfirmed restraint evidence, scoped professional review and zero-observation valuation proxy.
+- Existing browser-local notes and overrides retain their storage format; no personal data or preview screenshots are included in the published source.

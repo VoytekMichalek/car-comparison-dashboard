@@ -36,6 +36,27 @@ describe('researched catalogue integrity', () => {
     expect(vehicles.find(v => v.familyId === 'toyota-kluger-hybrid')?.familyFit.row3.toLowerCase()).toMatch(/no|not/);
     expect(rangeStandard(vehicles.find(v => v.id === 'outlander-phev-aspire-20')!.range)).toBe('NEDC');
   });
+  it('keeps MY23 Ioniq 5 powertrains separate from the earlier battery and price samples', () => {
+    const rwd = vehicles.find(v => v.id === 'ioniq5-dynamiq-rwd-2023')!;
+    const awd = vehicles.find(v => v.id === 'ioniq5-techniq-awd-2023')!;
+    expect(rwd.years).toEqual([2023]);
+    expect(awd.years).toEqual([2023]);
+    expect(rwd.battery.value).toBe(77.4);
+    expect(awd.battery.value).toBe(77.4);
+    expect(rwd.range.value).toBe(507);
+    expect(awd.range.value).toBe(454);
+    expect(rwd.consumption.value).toBe(17);
+    expect(awd.consumption.value).toBe(19.1);
+    expect(rwd.familyFit.status).toBe('unverified');
+    expect(awd.familyFit.status).toBe('unverified');
+    expect(rwd.safety.sourceIds).toContain('ev-ioniq-ancap');
+    const guide = prices.find(p => p.vehicleId === rwd.id)!;
+    expect(guide.kind).toBe('estimate');
+    expect(guide.sampleCount).toBe(0);
+    expect(guide.confidence).toBe('low');
+    expect(prices.find(p => p.vehicleId === awd.id)?.observations?.[0].year).toBe(2023);
+    expect(expertReviews.find(r => r.id === 'ioniq5-techniq-2023')?.vehicleIds).toEqual([awd.id]);
+  });
   it('distinguishes sourced asking observations from explicit planning estimates', () => {
     for (const p of prices) {
       expect(p.note.length).toBeGreaterThan(15);

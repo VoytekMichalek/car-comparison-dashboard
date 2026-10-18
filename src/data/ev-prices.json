@@ -620,5 +620,59 @@
     ],
     "point": 71805,
     "kind": "observation"
+  },
+  {
+    "id": "ev-price-ioniq-2023-rwd",
+    "vehicleId": "ioniq5-dynamiq-rwd-2023",
+    "low": 26300,
+    "high": 35800,
+    "point": 31050,
+    "kind": "estimate",
+    "confidence": "low",
+    "condition": "used",
+    "basis": "excludes-charges",
+    "sampleCount": 0,
+    "geography": "Australia-wide private-sale guide; Queensland asking-price sample unavailable",
+    "kilometres": "Guide assumes age-appropriate kilometres; no individual odometer sample",
+    "observed": "2026-10-18",
+    "note": "RedBook private-sale guide retrieved at A$26,300–35,800, excluding government charges. Midpoint is used only as a provisional budget. This is a condition-based valuation guide, not a current asking or sold-price sample; dealer asking prices may be higher. Removed / sold advertisements were excluded.",
+    "estimateBasis": "Private-sale guide proxy: midpoint of A$26,300 and A$35,800. Zero live asking-price observations; confirm a current exact-variant listing and all Queensland charges.",
+    "sourceIds": [
+      "ev-ioniq-2023-rwd-guide"
+    ],
+    "observations": []
+  },
+  {
+    "id": "ev-price-ioniq-2023-awd",
+    "vehicleId": "ioniq5-techniq-awd-2023",
+    "low": 46950,
+    "high": 46950,
+    "point": 46950,
+    "kind": "observation",
+    "confidence": "low",
+    "condition": "used",
+    "basis": "excludes-charges",
+    "sampleCount": 1,
+    "geography": "Canberra Fleet and Wholesale Centre / Geely Belconnen, ACT",
+    "kilometres": "47,982 km; one 2023-build / 2023-compliance car",
+    "observed": "2026-10-18",
+    "note": "One MY23 Techniq AWD dealer advertisement, stock 234362, A$46,950 excluding government charges. Listed build and compliance years are 2023. Mirrored dealer advertisements for the same stock are not counted again. This is a small interstate asking sample, not a market valuation; confirm availability, QLD charges and transport.",
+    "estimateBasis": "One exact-configuration advertisement. The single point is provisional and highlighted yellow because n=1 gives weak market coverage.",
+    "sourceIds": [
+      "ev-ioniq-2023-awd-listing"
+    ],
+    "observations": [
+      {
+        "price": 46950,
+        "basis": "excludes-charges",
+        "year": 2023,
+        "kilometres": 47982,
+        "location": "Belconnen, ACT",
+        "url": "https://www.geelybelconnen.com.au/cars/used-blue-2023-hyundai-ioniq-5-234362",
+        "sourceId": "ev-ioniq-2023-awd-listing",
+        "checked": "2026-10-18",
+        "note": "Stock 234362; 2023 build / compliance, Techniq NE.V3, AWD, standard 20-inch wheels. Other sites may describe the same stock as 2022; confirm the VIN record before purchase."
+      }
+    ]
   }
 ]

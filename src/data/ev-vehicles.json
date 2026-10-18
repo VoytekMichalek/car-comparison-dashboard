@@ -1832,7 +1832,7 @@
     ],
     "gaps": [
       "Original launch versus Techniq equipment changes require inspection of the listed car.",
-      "2023–24 77.4 kWh configurations not yet populated.",
+      "MY24 equipment and Epiq grades need separate configuration checks; MY23 Dynamiq and Techniq are now listed separately.",
       "Vehicle peak DC input is not separated from charger power in the old brochure and remains blank."
     ],
     "sourceIds": [
@@ -1845,6 +1845,371 @@
       "ev-ioniq-old-market",
       "ev-ioniq-old-market-basis",
       "own-ev-hyundai-recall"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ioniq5-dynamiq-rwd-2023",
+    "familyId": "hyundai-ioniq-5",
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "variant": "Dynamiq RWD · 77.4 kWh · MY23",
+    "years": [
+      2023
+    ],
+    "generation": "Original Ioniq 5 · MY23 NE.V3 · 77.4 kWh",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "RWD",
+    "headline": "The larger-battery 2023 Ioniq 5",
+    "summary": "Rear-drive Dynamiq offers the longest MY23 range and smaller wheels; its purchase price is a labelled guide-based estimate.",
+    "range": {
+      "value": 507,
+      "unit": "km",
+      "basis": "WLTP combined · Australian MY23 Dynamiq RWD on 19-inch wheels",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "battery": {
+      "value": 77.4,
+      "unit": "kWh",
+      "basis": "Manufacturer stated capacity; gross / usable split not specified",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "consumption": {
+      "value": 17.0,
+      "unit": "kWh/100km",
+      "basis": "WLTP combined · Australian MY23",
+      "sourceIds": [
+        "ev-ioniq-2023-spec",
+        "ev-energy-method-wltp"
+      ],
+      "energyBasis": "wall"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": 10.5,
+      "unit": "kW",
+      "basis": "Onboard three-phase maximum; single-phase home supply differs",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "dcCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "Vehicle input peak not independently verified; 350 kW is the advertised charger rating",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "chargeTime": "Hyundai claim: 10–80% in about 18 minutes using a suitable 350 kW DC station; 73 minutes at 50 kW. At 7 kW AC, about 11 hours 45 minutes for 10–100%. Conditions apply.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 527,
+      "unit": "L",
+      "basis": "VDA rear cargo minimum, rear seats up; excludes front luggage and glovebox",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "bootAllRows": {
+      "value": 527,
+      "unit": "L",
+      "basis": "VDA rear cargo minimum, rear seats up; excludes front luggage and glovebox",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "length": {
+      "value": 4635,
+      "unit": "mm",
+      "basis": "Manufacturer overall length",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "width": {
+      "value": 1890,
+      "unit": "mm",
+      "basis": "Body width, excluding mirrors",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "towing": {
+      "value": 1600,
+      "unit": "kg",
+      "basis": "Braked trailer limit; 100 kg maximum towball load and vehicle limits apply",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "warranty": "Original 5 years / unlimited km for private use from first registration. A 2023 registration does not qualify for the later 7-year offer; confirm original terms and remaining cover.",
+    "batteryWarranty": "Original high-voltage battery cover: 8 years / 160,000 km from first registration; confirm original conditions and remaining kilometres.",
+    "servicing": "MY23 interval: 24 months / 30,000 km, whichever comes first. Historical first three capped services were A$570, A$1,090 and A$570; obtain a current VIN-specific quote, including coolant.",
+    "safety": {
+      "stars": 5,
+      "year": 2021,
+      "applicability": "ANCAP September 2023 applicability table explicitly includes 77.4 kWh Dynamiq 168 kW and Techniq 239 kW. Excludes Ioniq 5 N.",
+      "sourceIds": [
+        "ev-ioniq-ancap"
+      ]
+    },
+    "familyFit": {
+      "status": "unverified",
+      "summary": "MY23 has the documented anchor layout, but the named BabyDrive three-seat trial was a 2022 AWD. Treat it as related evidence until your seats are checked in this MY23 car.",
+      "row2": "Two outboard ISOFIX positions and three rear top-tether anchors, per MY23 specification guide.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "Related 2022 AWD test: two InfaSecure Attain More seats and an Achieve More centre seat. No matching MY23 three-forward-facing / booster trial verified.",
+      "buckleAccess": "Specific booster buckle access is not established by the harnessed-seat trial.",
+      "access": "Flat floor and sliding rear bench help allocate legroom; trial boot space in the final bench position.",
+      "ventilation": "Manufacturer lists rear B-pillar vents and rear floor ducts.",
+      "sourceIds": [
+        "ev-ioniq-2023-spec",
+        "ev-ioniq-family"
+      ]
+    },
+    "pros": [
+      "Sliding rear bench and rear vents help family use.",
+      "507 km WLTP range and 19-inch tyres suit a home-charged family car.",
+      "800 V charging architecture and vehicle-to-load capability."
+    ],
+    "cons": [
+      "No rear wiper on this original body.",
+      "No current exact-variant asking-price sample verified; the yellow price is a private-sale guide proxy.",
+      "This grade does not receive the Epiq-only MY23 heat pump and battery conditioning."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty.",
+      "Check VIN eligibility and completion of current Australian ICCU recall REC-006224, which supersedes REC-005942, and any later campaigns.",
+      "Test AC/DC charging and inspect auxiliary-battery and scheduled-coolant records.",
+      "Confirm MY23 NE.V3 and 77.4 kWh on the build / specification record; registration year alone is insufficient.",
+      "Check the tyre placard: 235/55R19 on standard Dynamiq wheels."
+    ],
+    "changes": [
+      {
+        "period": "MY23",
+        "text": "Battery grows from 72.6 to 77.4 kWh. Power rises to 168 kW RWD / 239 kW AWD, with revised suspension tuning and 24-month / 30,000 km servicing.",
+        "sourceIds": [
+          "ev-ioniq-2023-release"
+        ]
+      },
+      {
+        "period": "MY24 and facelift",
+        "text": "Later grade / equipment revisions and the 84 kWh facelift are separate. Check the model year, not just registration year.",
+        "sourceIds": [
+          "ev-ioniq-2023-release",
+          "ev-ioniq-new-spec"
+        ]
+      }
+    ],
+    "gaps": [
+      "Your exact three-seat or booster combination is unconfirmed.",
+      "Epiq, MY24 changes and 2022-built MY23 stock are outside this 2023-only configuration.",
+      "Vehicle peak DC input remains unverified; charging-station power is not treated as the vehicle maximum.",
+      "No current Australian exact-build asking-price sample verified. Private-sale guide figures are estimates, not current dealer offers."
+    ],
+    "sourceIds": [
+      "ev-ioniq-2023-spec",
+      "ev-ioniq-2023-release",
+      "ev-ioniq-ancap",
+      "ev-ioniq-family",
+      "own-ev-hyundai-recall",
+      "own-ev-hyundai-terms",
+      "ev-ioniq-2023-roadtest",
+      "ev-ioniq-2023-rwd-guide"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ioniq5-techniq-awd-2023",
+    "familyId": "hyundai-ioniq-5",
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "variant": "Techniq AWD · 77.4 kWh · MY23",
+    "years": [
+      2023
+    ],
+    "generation": "Original Ioniq 5 · MY23 NE.V3 · 77.4 kWh",
+    "powertrain": "BEV",
+    "seats": 5,
+    "drive": "AWD",
+    "headline": "The larger-battery 2023 Ioniq 5",
+    "summary": "Dual-motor Techniq adds comfort equipment; check its higher purchase and tyre costs.",
+    "range": {
+      "value": 454,
+      "unit": "km",
+      "basis": "WLTP combined · Australian MY23 Techniq AWD on 20-inch wheels",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "battery": {
+      "value": 77.4,
+      "unit": "kWh",
+      "basis": "Manufacturer stated capacity; gross / usable split not specified",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "consumption": {
+      "value": 19.1,
+      "unit": "kWh/100km",
+      "basis": "WLTP combined · Australian MY23",
+      "sourceIds": [
+        "ev-ioniq-2023-spec",
+        "ev-energy-method-wltp"
+      ],
+      "energyBasis": "wall"
+    },
+    "depletedConsumption": {
+      "value": null,
+      "unit": "L/100km",
+      "basis": "Not applicable: battery electric",
+      "sourceIds": []
+    },
+    "acCharging": {
+      "value": 10.5,
+      "unit": "kW",
+      "basis": "Onboard three-phase maximum; single-phase home supply differs",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "dcCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "Vehicle input peak not independently verified; 350 kW is the advertised charger rating",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "chargeTime": "Hyundai claim: 10–80% in about 18 minutes using a suitable 350 kW DC station; 73 minutes at 50 kW. At 7 kW AC, about 11 hours 45 minutes for 10–100%. Conditions apply.",
+    "connector": "Type 2 AC / CCS2 DC",
+    "boot": {
+      "value": 527,
+      "unit": "L",
+      "basis": "VDA rear cargo minimum, rear seats up; excludes front luggage and glovebox",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "bootAllRows": {
+      "value": 527,
+      "unit": "L",
+      "basis": "VDA rear cargo minimum, rear seats up; excludes front luggage and glovebox",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "length": {
+      "value": 4635,
+      "unit": "mm",
+      "basis": "Manufacturer overall length",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "width": {
+      "value": 1890,
+      "unit": "mm",
+      "basis": "Body width, excluding mirrors",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "towing": {
+      "value": 1600,
+      "unit": "kg",
+      "basis": "Braked trailer limit; 100 kg maximum towball load and vehicle limits apply",
+      "sourceIds": [
+        "ev-ioniq-2023-spec"
+      ]
+    },
+    "warranty": "Original 5 years / unlimited km for private use from first registration. A 2023 registration does not qualify for the later 7-year offer; confirm original terms and remaining cover.",
+    "batteryWarranty": "Original high-voltage battery cover: 8 years / 160,000 km from first registration; confirm original conditions and remaining kilometres.",
+    "servicing": "MY23 interval: 24 months / 30,000 km, whichever comes first. Historical first three capped services were A$570, A$1,090 and A$570; obtain a current VIN-specific quote, including coolant.",
+    "safety": {
+      "stars": 5,
+      "year": 2021,
+      "applicability": "ANCAP September 2023 applicability table explicitly includes 77.4 kWh Dynamiq 168 kW and Techniq 239 kW. Excludes Ioniq 5 N.",
+      "sourceIds": [
+        "ev-ioniq-ancap"
+      ]
+    },
+    "familyFit": {
+      "status": "unverified",
+      "summary": "MY23 has the documented anchor layout, but the named BabyDrive three-seat trial was a 2022 AWD. Treat it as related evidence until your seats are checked in this MY23 car.",
+      "row2": "Two outboard ISOFIX positions and three rear top-tether anchors, per MY23 specification guide.",
+      "row3": "No third row on this five-seat configuration.",
+      "testedSeats": "Related 2022 AWD test: two InfaSecure Attain More seats and an Achieve More centre seat. No matching MY23 three-forward-facing / booster trial verified.",
+      "buckleAccess": "Specific booster buckle access is not established by the harnessed-seat trial.",
+      "access": "Flat floor and sliding rear bench help allocate legroom; trial boot space in the final bench position.",
+      "ventilation": "Manufacturer lists rear B-pillar vents and rear floor ducts.",
+      "sourceIds": [
+        "ev-ioniq-2023-spec",
+        "ev-ioniq-family"
+      ]
+    },
+    "pros": [
+      "Sliding rear bench and rear vents help family use.",
+      "Ventilated front seats, heated rear seats and rear door sunshades in Techniq.",
+      "800 V charging architecture and vehicle-to-load capability."
+    ],
+    "cons": [
+      "No rear wiper on this original body.",
+      "20-inch tyres can cost more; one verified asking price is above the A$45,000 target.",
+      "This grade does not receive the Epiq-only MY23 heat pump and battery conditioning."
+    ],
+    "inspection": [
+      "Trial all three restraints together and check every buckle with the children seated.",
+      "Confirm VIN, build date, service history, recall completion and remaining warranty.",
+      "Check VIN eligibility and completion of current Australian ICCU recall REC-006224, which supersedes REC-005942, and any later campaigns.",
+      "Test AC/DC charging and inspect auxiliary-battery and scheduled-coolant records.",
+      "Confirm MY23 NE.V3 and 77.4 kWh on the build / specification record; registration year alone is insufficient.",
+      "Check the tyre placard: 255/45R20 on standard Techniq wheels."
+    ],
+    "changes": [
+      {
+        "period": "MY23",
+        "text": "Battery grows from 72.6 to 77.4 kWh. Power rises to 168 kW RWD / 239 kW AWD, with revised suspension tuning and 24-month / 30,000 km servicing.",
+        "sourceIds": [
+          "ev-ioniq-2023-release"
+        ]
+      },
+      {
+        "period": "MY24 and facelift",
+        "text": "Later grade / equipment revisions and the 84 kWh facelift are separate. Check the model year, not just registration year.",
+        "sourceIds": [
+          "ev-ioniq-2023-release",
+          "ev-ioniq-new-spec"
+        ]
+      }
+    ],
+    "gaps": [
+      "Your exact three-seat or booster combination is unconfirmed.",
+      "Epiq, MY24 changes and 2022-built MY23 stock are outside this 2023-only configuration.",
+      "Vehicle peak DC input remains unverified; charging-station power is not treated as the vehicle maximum."
+    ],
+    "sourceIds": [
+      "ev-ioniq-2023-spec",
+      "ev-ioniq-2023-release",
+      "ev-ioniq-ancap",
+      "ev-ioniq-family",
+      "own-ev-hyundai-recall",
+      "own-ev-hyundai-terms",
+      "ev-ioniq-2023-roadtest",
+      "ev-ioniq-2023-awd-listing"
     ],
     "checked": "2026-10-18"
   },

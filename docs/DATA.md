@@ -4,7 +4,7 @@
 
 The snapshot checked 18 October 2026 covers Tesla Model Y, BYD Atto 3, Kia EV6, Kia EV5, Hyundai Ioniq 5, Zeekr 7X, Mitsubishi Outlander PHEV, BYD Sealion 6, Nissan X-Trail e-Power, Toyota RAV4 Hybrid, Toyota Kluger Hybrid and Kia Sorento HEV/PHEV.
 
-There are 25 configurations, grouping unchanged Australian-delivered years. Coverage is deliberately incomplete at the trim level. For example, older ZL Outlander PHEVs, EV6 facelifts, 77.4 kWh Ioniq 5s and several Sorento configurations remain documented research gaps. Do not apply the populated configurations' specifications to those cars.
+There are 27 configurations, grouping unchanged Australian-delivered years. Coverage is deliberately incomplete at the trim level. For example, older ZL Outlander PHEVs, EV6 facelifts, MY24 / Epiq Ioniq 5s and several Sorento configurations remain documented research gaps. Do not apply the populated configurations' specifications to those cars.
 
 Late-2023 Model Y entries distinguish the Australian original body from the later Juniper refresh. The precise Australian suspension cutover and VIN-specific hardware are unverified. The October 2023 Chinese dashboard/ambient-light announcement does not establish Australian equipment. Build, compliance and delivery dates can differ.
 
@@ -97,3 +97,9 @@ Professional tests are in `professional-reviews.json` with their sources in `pro
 `repair-reserve-estimates.json` supplies an annual savings point and broad low/high range for each configuration, with source references and age/warranty assumptions. All are low-confidence analyst budgets, not observed annual repair averages or model failure rates. They exclude servicing, tyres and insured collision losses; large battery replacement is a separate stress case. A published parts/fitted offer establishes only the cost and scope of that job, not an annual probability.
 
 Precedence: per-car repair allowance (including zero), then an explicitly selected shared repair budget, then the configuration estimate. `repairMode` defaults to `vehicle`. Existing version-1 backups with a non-default legacy shared amount retain it; a legacy unchanged A$500 default adopts the new car-specific estimates. Quotes, totals, stress scenarios and running-cost scoring use the same calculation.
+
+### MY23 Ioniq 5 additions
+
+`ioniq5-dynamiq-rwd-2023` and `ioniq5-techniq-awd-2023` are 2023-only NE.V3 configurations, separate from 72.6 and 84 kWh cars. The manufacturer MY23 PDF documents their 77.4 kWh battery, 507 / 454 km WLTP range and 17.0 / 19.1 kWh/100 km consumption. ANCAP explicitly includes both in its 2021 assessment. Do not relabel registration-year or MY24 listings as these variants without checking their model/build record.
+
+Dynamiq pricing uses a low-confidence private-sale guide proxy, not a live asking sample. Techniq pricing uses one 2023-build ACT dealer car (stock 234362); advertisements for that stock are deduplicated. The family review aggregate stays scoped to mixed early variants. A new March 2023 Techniq road test is directly matched only to the AWD entry. Tyre and repair reserves are added for each ID, and the MY23 service override keeps historical capped-price assumptions separate from the family baseline.

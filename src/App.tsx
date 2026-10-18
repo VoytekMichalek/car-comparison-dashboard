@@ -33,11 +33,11 @@ export default function App() {
   const [showBenchmarks, setShowBenchmarks] = useState(false);
   const [showUnknown, setShowUnknown] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(() => window.matchMedia('(max-width: 760px)').matches);
+  const [isMobile, setIsMobile] = useState(() => window.matchMedia('(max-width: 1000px)').matches);
   const [sort, setSort] = useState('score');
   const main = useRef<HTMLElement>(null);
   const sidebar = useRef<HTMLElement>(null);
-  useEffect(() => { const media = window.matchMedia('(max-width: 760px)'); const update = () => setIsMobile(media.matches); media.addEventListener('change', update); return () => media.removeEventListener('change', update); }, []);
+  useEffect(() => { const media = window.matchMedia('(max-width: 1000px)'); const update = () => setIsMobile(media.matches); media.addEventListener('change', update); return () => media.removeEventListener('change', update); }, []);
   useEffect(() => { if (!menuOpen || !isMobile) return; sidebar.current?.querySelector<HTMLButtonElement>('nav button')?.focus(); const escape = (e: KeyboardEvent) => { if (e.key === 'Escape') { setMenuOpen(false); document.getElementById('mobile-menu-button')?.focus(); } }; window.addEventListener('keydown', escape); return () => window.removeEventListener('keydown', escape); }, [menuOpen, isMobile]);
 
   useEffect(() => { if (firstSave.current) { firstSave.current = false; return; } if (canSave) setStorageError(writePersonal(storage(), personal)); }, [personal, canSave]);

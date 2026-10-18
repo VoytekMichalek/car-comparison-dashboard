@@ -325,5 +325,33 @@
       "own-hy-kia-powertrain"
     ],
     "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "ioniq5-dynamiq-rwd-2023",
+    "point": 1000,
+    "low": 500,
+    "high": 2000,
+    "confidence": "low",
+    "basis": "MY23 single-motor Dynamiq savings allowance. Original five-year vehicle cover may last into 2028, but a ten-year ownership period extends beyond it. Confirm ICCU recall completion and applicable cover before paying for a fault. Analyst allowance, not an observed average repair bill or failure probability. Excludes servicing, tyres and insured crashes; complete battery replacement is a separate stress case.",
+    "sourceIds": [
+      "own-ev-hyundai-warranty",
+      "own-ev-hyundai-terms",
+      "own-ev-hyundai-recall"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "ioniq5-techniq-awd-2023",
+    "point": 1100,
+    "low": 600,
+    "high": 2200,
+    "confidence": "low",
+    "basis": "MY23 dual-motor Techniq savings allowance. Original five-year vehicle cover may last into 2028, but a ten-year ownership period extends beyond it. Confirm ICCU recall completion and applicable cover before paying for a fault. Analyst allowance, not an observed average repair bill or failure probability. Excludes servicing, tyres and insured crashes; complete battery replacement is a separate stress case.",
+    "sourceIds": [
+      "own-ev-hyundai-warranty",
+      "own-ev-hyundai-terms",
+      "own-ev-hyundai-recall"
+    ],
+    "checked": "2026-10-18"
   }
 ]

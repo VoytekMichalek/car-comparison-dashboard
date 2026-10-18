@@ -420,5 +420,31 @@
     "sourceIds": [
       "expert-sorento-hev"
     ]
+  },
+  {
+    "id": "ioniq5-techniq-2023",
+    "familyId": "hyundai-ioniq-5",
+    "vehicleIds": [
+      "ioniq5-techniq-awd-2023"
+    ],
+    "tested": "2023 Techniq AWD · 77.4 kWh",
+    "scope": "Australian MY23 Techniq AWD road test. Applies directly to the added Techniq; Dynamiq equipment, range and RWD driving behaviour differ. March 2023 supply commentary is historical.",
+    "publisher": "CarExpert",
+    "published": "2023-03-10",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Very Good",
+    "positiveThemes": [
+      "Comfortable seating and quiet power delivery.",
+      "Useful interior room and quick DC charging."
+    ],
+    "negativeThemes": [
+      "Ride control still trails the related EV6.",
+      "Body shape and rear packaging have compromises."
+    ],
+    "sourceIds": [
+      "ev-ioniq-2023-roadtest"
+    ]
   }
 ]

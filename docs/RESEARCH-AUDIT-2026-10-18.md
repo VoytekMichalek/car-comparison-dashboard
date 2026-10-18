@@ -2,7 +2,7 @@
 
 Research sprint: 09:57–10:12 AEST. All figures are AUD.
 
-The catalogue has 25 configurations across 12 families, 44 distinct physical-car price observations, 18 scoped professional reviews and 324 source records. Source records can share a URL; they are not a count of unique publications.
+After the MY23 Ioniq 5 addition, the catalogue has 27 configurations across 12 families, 45 distinct physical-car price observations, 19 scoped professional reviews and 329 source records. Source records can share a URL; they are not a count of unique publications.
 
 ## Material corrections
 
@@ -65,3 +65,9 @@ A newly checked Australian supplier offer lists original Model Y upper control-a
 Verified a further tyre-size correction: MY25 Atto 3 Essential is 215/60 R17, while Premium is 235/50 R18. Its set-price allowance remains an explicit scaled proxy until a fitted quote is entered.
 
 User-selected publication default: the original Model Y RWD repair savings contribution is now A$1,800/year, overriding the initial A$1,200 analyst point. Other configurations retain their individual budgets. The A$700–2,000 sensitivity band remains illustrative; the selected point is a preference, not new failure-rate evidence. Browser-specific overrides still take priority.
+
+## MY23 Ioniq 5 addition
+
+Added the 77.4 kWh 2023 Dynamiq RWD and Techniq AWD with Hyundai Australia MY23 specifications, explicit ANCAP applicability and separate tyre / repair budgets. Dynamiq uses a yellow private-sale guide proxy (A$26,300–35,800; midpoint A$31,050), with zero live observations. Techniq has one A$46,950 excluding-charges dealer listing in Belconnen ACT at 47,982 km; it remains yellow because n=1 and interstate costs require confirmation. Removed/sold listings were not counted.
+
+Historical March 2023 service caps inform a rounded A$375/year planning allowance, not a current dealer quote. The 2022 child-seat trial remains related evidence; neither MY23 configuration claims a matching verified three-seat trial.

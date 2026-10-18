@@ -1,0 +1,247 @@
+/* Responsive views keep the same data and actions as the desktop dashboard. */
+.mobile-compare-pair, .mobile-cost-sort, .mobile-section-jump, .range-mobile-list { display: none; }
+.compare-pickers > .compare-picker-heading { display: flex; margin: 0; align-items: center; gap: 12px; }
+.compare-picker-heading > strong { font-size: 16px; }
+.compare-picker-heading > span { font-size: 12px; font-weight: 400; }
+.compare-picker-help { font-size: 13px; color: #607357; margin: 18px 0; }
+.weights-panel > summary { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; }
+.weights-panel:not([open]) > summary { margin-bottom: 0; }
+.cost-settings > summary { display: flex; align-items: center; gap: 10px; }
+.cost-settings > .section-title { justify-content: flex-end; margin: 10px 0; }
+
+@media (max-width: 1000px) {
+  :root { --phone-header: 60px; }
+  html { scroll-padding-top: calc(var(--phone-header) + 16px); }
+  .app-main, main, .page-content, .panel, .field, .section-title > div,
+  .notebook-grid > *, .rankings-layout > *, .rating-detail-grid > *, .cost-layout > * { min-width: 0; }
+  .app-main { margin-left: 0; }
+  .sidebar { transform: translateX(-100%); transition: transform .2s; }
+  .sidebar.mobile-open { transform: translateX(0); z-index: 55; }
+  .mobile-backdrop { position: fixed; inset: 0; background: #26372c66; z-index: 50; backdrop-filter: blur(2px); }
+  .research-date { display: none; }
+  .skip-link { left: 16px; }
+  .page-content { padding: 24px 16px 36px; }
+  .topbar { position: sticky; top: 0; height: var(--phone-header); z-index: 40; padding-inline: 12px; }
+  .topbar-left { min-width: 0; gap: 6px; }
+  .topbar-breadcrumb { font-size: 12px; }
+  .topbar-save { gap: 4px; }
+  .topbar-save span { font-size: 11px; }
+  .mobile-menu, .icon-button, .tray-clear { min-width: 44px; min-height: 44px; }
+  .mobile-menu { display: flex; align-items: center; justify-content: center; }
+  .sidebar.mobile-open { width: min(300px, 85vw); padding-top: 24px; overflow-y: auto; }
+  .nav-item { font-size: 16px; min-height: 50px; }
+  .page-heading { align-items: flex-start; flex-direction: column; gap: 18px; }
+  .page-heading h1 { font-size: 32px; letter-spacing: -1.1px; }
+  .page-heading p:not(.eyebrow), .browse-heading p:not(.eyebrow) { font-size: 14px; }
+  .eyebrow { font-size: 10px; }
+  .button { min-height: 44px; font-size: 13px; white-space: normal; line-height: 1.5; }
+  .text-button { min-height: 36px; font-size: 13px; text-align: left; }
+  .section-title { flex-wrap: wrap; align-items: flex-start; gap: 14px; }
+  .section-title h2 { font-size: 22px; }
+  .micro, .section-title p:not(.eyebrow), .ownership-footer { font-size: 12px; line-height: 1.65; }
+  .pill { white-space: normal; line-height: 1.6; font-size: 11px; }
+  :root .field input, :root .field textarea, :root .field select, :root textarea,
+  :root select:not([multiple]), .search-field input, .seat-profile textarea { font-size: 16px; max-width: 100%; }
+  :root .field input, :root .field select { min-height: 48px; }
+  .field > span, .ownership-fields .field > span, .cost-fields .field > span { font-size: 13px; }
+  .field > small, .ownership-fields .field > small { font-size: 12px; }
+  .input-unit > span { font-size: 11px; }
+  .button-group { width: 100%; gap: 10px; }
+  .button-group .button { flex: 1 1 auto; }
+  .form-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
+  .privacy-strip, .notice, .storage-banner { font-size: 13px; overflow-wrap: anywhere; }
+  .site-footer { flex-direction: column; font-size: 11px; padding: 22px 16px 100px; }
+  .site-footer > div { align-items: flex-start; }
+  .site-footer button { font-size: 12px; min-height: 44px; }
+  .comparison-tray { left: 50%; max-width: calc(100vw - 28px); bottom: max(12px, env(safe-area-inset-bottom)); padding: 8px 10px; gap: 6px; }
+  .comparison-tray .tray-icon { display: none; }
+  .comparison-tray strong { font-size: 12px; }
+  .comparison-tray span { font-size: 11px; max-width: 130px; }
+  .comparison-tray .button { font-size: 12px; }
+  .toast { left: 50%; bottom: max(20px, env(safe-area-inset-bottom)); font-size: 13px; line-height: 1.5; }
+
+  /* Browse: readable filters, captions and card actions. */
+  .browse-heading { align-items: flex-start; }
+  .browse-heading h1 { font-size: 36px; }
+  .brief-card > small, .brief-card > div span, .catalogue-heading > p { font-size: 11px; }
+  .power-tabs { width: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+  .power-tabs button { font-size: 13px; min-height: 44px; padding: 10px; }
+  .search-field { width: 100%; max-width: none; min-height: 44px; }
+  .filter-top { align-items: stretch; flex-direction: column; }
+  .filter-save, .reset-filters { min-height: 44px; font-size: 12px; }
+  .results-heading { align-items: flex-start; gap: 12px; }
+  .results-heading > p { flex-wrap: wrap; font-size: 13px; }
+  .results-heading > p > span:last-child { font-size: 11px; }
+  .results-heading > label { margin-left: auto; font-size: 12px; gap: 8px; }
+  .results-note, .price-caption, .make-label, .spec-label { font-size: 12px; }
+  .card-specs { grid-template-columns: 1.2fr .8fr 1fr; }
+  .card-specs > div:not(:first-child) { padding-left: 10px; }
+  .card-specs small { white-space: normal; font-size: 11px; line-height: 1.5; }
+  .card-footer > .text-button, .compare-button { font-size: 13px; min-height: 44px; }
+  .card-commentary, .card-evidence { font-size: 13px; }
+  .fit-badge { font-size: 12px; line-height: 1.5; }
+  .benchmark-group { padding: 18px; }
+  .group-toggle p:not(.eyebrow), .research-reminder p { font-size: 12px; }
+
+  /* Two columns on phones. Row labels sit above both values, never beside them. */
+  .compare-pickers { padding: 12px; }
+  .compare-picker-grid { grid-template-columns: 1fr; gap: 16px; }
+  .compare-picker-grid .field > span { font-size: 13px; }
+  .comparison-note { font-size: 12px; gap: 8px; margin-block: 20px; }
+  .mobile-compare-pair { display: block; margin: 20px 0; }
+  .mobile-compare-pair p { font-size: 13px; color: #607357; margin-bottom: 12px; }
+  .mobile-compare-pair > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  :root .mobile-compare-pair select:not([multiple]) { font-size: 16px; }
+  .comparison-scroll { overflow: visible; max-height: none; min-height: 0; scrollbar-gutter: auto; isolation: auto; border: 0; }
+  .comparison-table { display: block; width: 100%; min-width: 0 !important; table-layout: fixed; }
+  .comparison-table thead { display: block; position: sticky; top: var(--phone-header); z-index: 5; background: #fff; box-shadow: 0 3px 0 #d4dfcc; }
+  .comparison-table tbody { display: block; }
+  .comparison-table tr { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .comparison-scroll[data-mobile-count="1"] .comparison-table tr { grid-template-columns: minmax(0, 1fr); }
+  .comparison-table [data-mobile-column="-1"] { display: none !important; }
+  .comparison-table [data-mobile-column="0"] { grid-column: 1; grid-row: 2; }
+  .comparison-table [data-mobile-column="1"] { grid-column: 2; grid-row: 2; }
+  .comparison-table thead [data-mobile-column] { grid-row: 1; }
+  .comparison-table thead .row-label { display: none; }
+  .comparison-table thead > tr > th:not(.row-label) { width: auto; min-width: 0; position: static; padding: 10px; box-shadow: none; }
+  .comparison-table .compare-photo { height: 64px; margin-bottom: 8px; border-radius: 4px; }
+  .comparison-table .compare-photo .icon-button { width: 32px; min-width: 32px; height: 32px; min-height: 32px; }
+  .comparison-table thead .eyebrow { font-size: 10px; margin-bottom: 2px; }
+  .comparison-table thead h2, .comparison-table thead h2 button { font-size: 16px; line-height: 1.3; margin: 0; }
+  .comparison-table thead h2 button { min-height: 26px; }
+  .comparison-table thead .compare-variant { font-size: 11px; line-height: 1.45; margin-top: 4px; }
+  .comparison-table thead .compare-edit-costs { font-size: 12px; min-height: 30px; margin-top: 2px; }
+  .comparison-table tbody th[scope="row"] { grid-column: 1 / -1; grid-row: 1; position: static; width: auto; padding: 11px 12px; border-right: 0; background: #edf2e8; box-shadow: none; font-size: 13px; text-align: left; }
+  .comparison-table tbody th[scope="row"] small { display: inline; margin-left: 8px; font-size: 11px; }
+  .comparison-table tbody td { min-width: 0; padding: 14px 10px; font-size: 14px; line-height: 1.65; overflow-wrap: anywhere; }
+  .comparison-table tbody td strong { font-size: 16px; }
+  .comparison-table td small { font-size: 12px; line-height: 1.6; }
+  .comparison-table .score-comparison-row td > strong { font-size: 23px; }
+  .comparison-table .category-comparison-score { font-size: 23px; }
+  .comparison-table .category-comparison-score > span { font-size: 12px; }
+  :root .comparison-table details > summary { font-size: 12px; padding: 9px 30px 9px 8px; line-height: 1.5; }
+  :root .comparison-table details > summary::after { right: 4px; width: 20px; height: 20px; background-size: 14px; }
+  .compare-score-method p, .comparison-table td ul { font-size: 13px; line-height: 1.7; }
+  .comparison-table .table-section th { grid-column: 1 / -1; padding: 18px 12px; font-size: 11px; }
+  .comparison-table .price { font-size: 20px; }
+  .comparison-table .price-caption { font-size: 11px; }
+  .comparison-table .source-refs { font-size: 11px; }
+  .comparison-footnote { font-size: 12px; line-height: 1.8; margin-top: 20px; }
+
+  /* Costs: totals first, full expense breakdown below, one sorting dropdown. */
+  .ownership-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; gap: 6px; padding: 6px; }
+  .ownership-tabs button { min-height: 48px; white-space: normal; font-size: 13px; line-height: 1.4; padding: 8px; }
+  .estimate-legend, .cost-table-hint, .ownership-footer { font-size: 13px; }
+  .cost-car-picker, .planning-panel, .vehicle-quotes, .estimate-method, .qld-method, .estimate-benchmarks { padding: 18px; }
+  .cost-car-picker .field { width: 100%; }
+  .cost-editor { scroll-margin-top: 76px; }
+  .cost-period { width: 100%; justify-content: space-between; }
+  .mobile-cost-sort { display: flex; align-items: flex-end; gap: 10px; margin: 18px 0; }
+  .mobile-cost-sort .field { flex: 1; }
+  .mobile-cost-sort .button { flex: none; font-size: 12px; padding-inline: 10px; }
+  .vehicle-cost-table thead { display: none; }
+  .vehicle-cost-table tbody tr { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .vehicle-cost-table tbody th[scope="row"] { order: -3; padding: 14px 16px; }
+  .vehicle-cost-table tbody th button { width: 100%; text-align: left; font-size: 17px; }
+  .vehicle-cost-table tbody th button > span { font-size: 12px; }
+  .vehicle-cost-table tbody th button::after { content: 'Edit costs →'; display: block; font-size: 12px; color: #315a48; margin-top: 7px; }
+  .vehicle-cost-table tbody td { padding: 14px 12px; }
+  .vehicle-cost-table td::before { font-size: 12px; min-height: 0; line-height: 1.5; margin-bottom: 7px; }
+  .vehicle-cost-table td > strong { font-size: 20px; font-variant-numeric: tabular-nums; }
+  .vehicle-cost-table small { font-size: 12px; }
+  .vehicle-cost-table .cost-total-cell:last-child { grid-column: auto; }
+  .vehicle-cost-table td[data-column="annual"] { order: -2; }
+  .vehicle-cost-table td[data-column="total"] { order: -1; }
+  .vehicle-cost-table .cost-total-cell > strong { font-size: 24px; }
+  .vehicle-cost-table .cost-total-cell::before { min-height: 36px; color: #315a48; font-weight: 600; }
+  .info-tooltip-trigger.with-text { min-height: 36px; font-size: 12px; }
+  .info-tooltip { max-height: calc(100dvh - 32px); overflow-y: auto; font-size: 13px; }
+  .info-tooltip-title, .info-tooltip .info-tooltip-note { font-size: 13px; }
+  .ownership-fields, .purchase-summary-grid, .warranty-grid, .repair-risk-grid { grid-template-columns: minmax(0, 1fr); }
+  .cost-ledger, .vehicle-ledger { font-size: 14px; }
+  .cost-ledger > div, .vehicle-ledger > div { gap: 12px; align-items: flex-start; }
+  .cost-ledger dt, .vehicle-ledger dt { min-width: 0; }
+  .cost-ledger dd, .vehicle-ledger dd { max-width: 48%; overflow-wrap: anywhere; }
+  .cost-metric, .cost-metric.estimated-value { font-size: 28px; overflow-wrap: anywhere; }
+  .repair-risk p, .warranty-grid p, .warranty-cautions li, .service-reference, .qld-method p { font-size: 14px; }
+
+  /* Energy: readable bars and a phone list in place of a squeezed chart. */
+  .cost-layout, .cost-fields { grid-template-columns: minmax(0, 1fr); }
+  .cost-fields .input-unit input { font-size: 16px; }
+  .energy-row { grid-template-columns: minmax(0, 1fr); gap: 10px; padding: 18px 0; }
+  .energy-name strong { font-size: 15px; white-space: normal; }
+  .energy-name span { font-size: 12px; line-height: 1.6; }
+  .energy-track-wrap { padding-right: 80px; }
+  .energy-total { font-size: 16px; }
+  .energy-track { height: 14px; }
+  .energy-results .section-title h2, .range-chart h2 { font-size: 23px; }
+  .range-chart .chart-scroll { display: none; }
+  .range-mobile-list { display: grid; }
+  .range-mobile-list button { display: grid; grid-template-columns: minmax(0, 1fr) auto 16px; gap: 12px; align-items: center; padding: 18px 0; border-bottom: 1px solid var(--line); text-align: left; }
+  .range-mobile-list button > span:last-of-type { text-align: right; }
+  .range-mobile-list strong { display: block; font-size: 15px; }
+  .range-mobile-list small { display: block; font-size: 12px; color: #607357; line-height: 1.6; margin-top: 5px; }
+  .chart-sources { font-size: 12px; overflow-wrap: anywhere; }
+  .methodology p, .small-callout p, .cost-footnote p { font-size: 13px; }
+
+  /* Scores and vehicle details: preserve room for labels and evidence. */
+  .rankings-layout, .rating-detail-grid, .notebook-grid { grid-template-columns: minmax(0, 1fr); }
+  .weights-panel, .ranking-results, .score-breakdown, .community-review, .brand-review { padding: 18px; }
+  .weights-panel { display: block; }
+  .weight-control > label, .weight-control details, .rank-car > small { font-size: 13px; }
+  .weight-control input[type="range"] { min-height: 32px; }
+  .rank-row { grid-template-columns: 20px minmax(0, 1fr) 70px; gap: 10px; }
+  .rank-car > strong { font-size: 15px; }
+  .rank-car > small { line-height: 1.6; }
+  .rank-score { min-width: 0; }
+  .rank-score > span { font-size: 11px; }
+  .rank-score > strong { font-size: 25px; }
+  .score-summary { flex-wrap: wrap; }
+  .scoring-car-selection { scroll-margin-top: 80px; }
+  .score-summary > div:last-child { max-width: none; }
+  .score-summary .eyebrow { font-size: 10px; }
+  .coverage, .score-summary p:not(.eyebrow), .score-method-note { font-size: 12px; }
+  :root .breakdown-rows details > summary, :root .vehicle-score-panel .breakdown-rows details > summary { grid-template-columns: minmax(0, 1fr) 52px 39px; gap: 6px; padding: 12px 35px 12px 10px; font-size: 13px; }
+  .breakdown-rows summary .category-weight { font-size: 10px; }
+  .breakdown-rows summary strong, .vehicle-score-panel .breakdown-rows summary strong { font-size: 18px; }
+  .breakdown-rows details p, .community-rating small, .review-scope, .review-themes li { font-size: 13px; }
+  .community-rating { flex-wrap: wrap; }
+  .vehicle-section-nav { top: var(--phone-header); display: block; padding: 8px 0; overflow: visible; }
+  .vehicle-section-nav > button { display: none; }
+  .mobile-section-jump { display: block; width: 100%; }
+  .vehicle-page-section { scroll-margin-top: 134px; }
+  .vehicle-intro { padding: 20px; }
+  .vehicle-intro > p:not(.eyebrow), .vehicle-page .spec-row, .family-detail-grid p:not(.eyebrow), .insight-list li, .timeline p { font-size: 14px; }
+  .vehicle-specifications .spec-row { grid-template-columns: minmax(0, 1fr); gap: 7px; padding-inline: 0; }
+  .vehicle-specifications .spec-row small { font-size: 12px; }
+  .vehicle-specifications .spec-row strong { font-size: 18px; }
+  .vehicle-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .vehicle-actions .button:last-child { grid-column: 1 / -1; }
+  .vehicle-actions .button { font-size: 13px; }
+  .vehicle-hero-photo > .photo-credit, .photo-credit { font-size: 11px; overflow-wrap: anywhere; }
+  .source-list > a { min-width: 0; gap: 12px; }
+  .source-list strong, .vehicle-page .source-list strong { font-size: 14px; overflow-wrap: anywhere; }
+  .source-list small { font-size: 12px; }
+  .listing-card, .listing-form-panel, .seat-profile { padding: 18px; }
+  .listing-numbers { flex-wrap: wrap; gap: 8px 18px; }
+  .listing-numbers span, .listing-notes, .listing-card > .text-button { font-size: 13px; overflow-wrap: anywhere; }
+  .research-dialog, .confirm-dialog { max-width: calc(100vw - 24px); padding: 22px 18px; }
+  .credits-list > div { grid-template-columns: minmax(0, 1fr); }
+  .credits-list span, .credits-list small, .research-dialog > p:not(.eyebrow) { font-size: 13px; overflow-wrap: anywhere; }
+}
+
+@media (max-width: 359px) {
+  .page-content { padding-inline: 12px; }
+  .topbar-breadcrumb { font-size: 11px; }
+  .topbar-save span { display: none; }
+  .comparison-table .compare-photo { height: 52px; }
+  .comparison-table tbody td { padding-inline: 8px; }
+  .comparison-table .price { font-size: 18px; }
+  .mobile-cost-sort { flex-wrap: wrap; }
+  .mobile-cost-sort .field { flex-basis: 100%; }
+  .form-row { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media print {
+  .mobile-compare-pair, .mobile-cost-sort, .mobile-section-jump { display: none; }
+}

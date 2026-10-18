@@ -678,5 +678,45 @@
     "publisher": "Autotrader / Cars4us",
     "kind": "market",
     "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-2023-spec",
+    "title": "Australian MY23 Ioniq 5: 77.4 kWh Dynamiq / Techniq / Epiq specification guide",
+    "url": "https://www.hyundai.com/content/dam/hyundai/au/en/ecomm/ioniq5v3/IONIQ5_Specification_Guide_version3.pdf",
+    "publisher": "Hyundai Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-2023-release",
+    "title": "MY23 Australian update: range, ride tuning, equipment and service intervals",
+    "url": "https://www.hyundai.com/au/en/news/electrified/2023-ioniq-5-more-power-increased-range-for-flagship-ev",
+    "publisher": "Hyundai Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-2023-rwd-guide",
+    "title": "2023 Ioniq 5 Dynamiq MY23 private-sale valuation guide; not an asking-price sample",
+    "url": "https://www.redbook.com.au/cars/details/2023-hyundai-ioniq-5-dynamiq-auto-2wd-my23/SPOT-ITM-605293/",
+    "publisher": "RedBook",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-2023-awd-listing",
+    "title": "2023 Ioniq 5 Techniq MY23, stock 234362: A$46,950 excluding government charges",
+    "url": "https://www.geelybelconnen.com.au/cars/used-blue-2023-hyundai-ioniq-5-234362",
+    "publisher": "Geely Belconnen / Canberra Fleet and Wholesale Centre",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-ioniq-2023-roadtest",
+    "title": "2023 Ioniq 5 Techniq AWD road test and original capped servicing prices",
+    "url": "https://www.carexpert.com.au/car-reviews/2023-hyundai-ioniq-5-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
   }
 ]
