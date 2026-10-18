@@ -232,3 +232,9 @@
 .vehicle-ledger .resale-percentage{display:block;margin-top:5px;font-size:12px;line-height:1.6;font-weight:400;color:#66501c;white-space:normal}
 
 .vehicle-page .cargo-capacity{margin-bottom:24px}
+
+.repair-fund-control { margin: 18px 0; padding: 16px 18px; background: #fff; border: 1px solid #dce2d5; border-radius: 12px; }
+.repair-fund-control label { display: flex; gap: 12px; align-items: flex-start; font-weight: 600; cursor: pointer; }
+.repair-fund-control input { flex: 0 0 auto; width: 20px; height: 20px; margin: 0; accent-color: #406c38; }
+.repair-fund-control p { margin: 8px 0 0 32px; font-size: 12px; line-height: 1.65; color: #65765d; }
+@media(max-width: 480px) { .repair-fund-control { padding: 14px; } .repair-fund-control p { margin-left: 0; } }

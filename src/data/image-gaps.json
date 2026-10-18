@@ -1,0 +1,22 @@
+[
+  {
+    "familyId": "gwm-haval-h6-phev",
+    "reason": "A reusable photograph of the correct Australian PHEV generation has not been verified. The dashboard displays a labelled vehicle fallback.",
+    "checked": "2026-10-19"
+  },
+  {
+    "familyId": "geely-starray-emi",
+    "reason": "A reusable photograph of the correct Australian PHEV generation has not been verified. The dashboard displays a labelled vehicle fallback.",
+    "checked": "2026-10-19"
+  },
+  {
+    "familyId": "chery-tiggo7-super-hybrid",
+    "reason": "A reusable photograph of the correct Australian PHEV generation has not been verified. The dashboard displays a labelled vehicle fallback.",
+    "checked": "2026-10-19"
+  },
+  {
+    "familyId": "chery-tiggo8-super-hybrid",
+    "reason": "A reusable photograph of the correct Australian PHEV generation has not been verified. The dashboard displays a labelled vehicle fallback.",
+    "checked": "2026-10-19"
+  }
+]

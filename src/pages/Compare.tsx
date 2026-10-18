@@ -2,7 +2,7 @@ import { useEffect, useId, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
 import { ArrowDown, ArrowUp, ArrowUpRight, Check, Columns3, Plus, Share2, X } from 'lucide-react';
 import { getPrice } from '../data';
-import { isFuelOnly, money, powerLabel, yearLabel } from '../lib';
+import { isFuelOnly, isPlugIn, money, powerLabel, yearLabel } from '../lib';
 import type { CompareScope } from '../lib';
 import type { Fact, PersonalData, ScoreCategory, ScoreWeights, Vehicle } from '../types';
 import { FactValue, FitBadge, Photo, Price, SourceRefs } from '../components/Shared';
@@ -39,7 +39,7 @@ type CompareProps = {
 const carName = (v: Vehicle) => `${v.make} ${v.model}`;
 const variant = (v: Vehicle) => `${yearLabel(v)} · ${v.variant}`;
 const categoryKeys = Object.keys(categoryLabels) as ScoreCategory[];
-const emptyScoreLabel = (c: CategoryScore) => c.unscoredLabel ?? (!c.applicable ? 'Not applicable' : 'No data');
+const emptyScoreLabel = (c: CategoryScore) => c.unscoredLabel ?? (!c.applicable ? 'Not applicable' : 'Check evidence');
 
 function ScoreEvidenceDialog({ vehicle, category, onClose }: { vehicle: Vehicle; category: CategoryScore; onClose: () => void }) {
   const ref = useRef<HTMLDialogElement>(null);
@@ -70,7 +70,7 @@ function VehicleResearch({ vehicle: v, personal, onEditCosts, onDetail }: { vehi
   const warrantySources = v.sourceIds.filter(id => /warranty|service/i.test(id));
   const facts: [string, Fact][] = [
     ...(!isFuelOnly(v.powertrain) ? [['Electric range', v.range], ['Battery capacity', v.battery], ['AC charging', v.acCharging], ['DC charging', v.dcCharging]] as [string, Fact][] : []),
-    ['Published consumption', v.consumption],
+    [isPlugIn(v.powertrain) ? 'Electricity consumption' : 'Fuel consumption', v.consumption], ...(v.weightedFuelConsumption ? [['Weighted petrol claim · assumes charging', v.weightedFuelConsumption] as [string, Fact]] : []),
     ...(v.observedConsumption ? [['Observed consumption', v.observedConsumption] as [string, Fact]] : []),
     ...(v.observedRange ? [['Road-test electric range', v.observedRange] as [string, Fact]] : []),
     [v.seats > 5 ? 'Boot, third row folded' : 'Rear boot, seats up', v.boot], ['Boot, all rows occupied', v.bootAllRows], ['Length', v.length], ['Width', v.width], ['Braked towing', v.towing],
@@ -95,9 +95,9 @@ function VehicleResearch({ vehicle: v, personal, onEditCosts, onDetail }: { vehi
         <ResearchFact label="Your own fit check">{personal.fitChecks[v.id] ? 'Confirmed by you' : 'Pending — try your seats'}</ResearchFact>
       </dl><p className="compare-research-sources">Fit sources <SourceRefs ids={v.familyFit.sourceIds} /></p></section>
       <section><div className="compare-research-heading"><h3>Running costs / year</h3><button className="text-button" onClick={() => onEditCosts(v)}>Edit costs <ArrowUpRight size={14} /></button></div><dl>
-        {(['energy', 'insurance', 'rego', 'servicing', 'tyres', 'reserve', 'finance'] as const).map(key => <ResearchFact key={key} label={{ energy: 'Electricity / fuel', insurance: 'Insurance', rego: 'QLD rego + CTP', servicing: 'Servicing', tyres: 'Tyres', reserve: 'Repair savings', finance: 'Finance interest' }[key]} note={key === 'finance' ? 'Your allowance · excludes loan principal' : <>{e.evidence[key].estimated ? 'Estimate' : 'Your input'} <SourceRefs ids={e.evidence[key].sourceIds} /></>}><strong className={key !== 'finance' && e.evidence[key].estimated ? 'estimated-value' : undefined}>{e.components[key] === null ? 'Unavailable' : money(e.components[key])}</strong></ResearchFact>)}
-        <ResearchFact label="Annual running budget" note={e.annualBeforeRepairFund === null ? 'Costs incomplete' : `${money(e.annualBeforeRepairFund)} before repair savings`}>{e.complete ? money(e.annual) : 'Unavailable'}</ResearchFact>
-        <ResearchFact label={`${personal.ownership?.years ?? 10}-year running budget`} note="Annual budget × years. Includes repair savings; purchase and depreciation are separate.">{e.runningTotal === null ? 'Unavailable' : money(e.runningTotal)}</ResearchFact>
+        {(['energy', 'insurance', 'rego', 'servicing', 'tyres', 'reserve', 'finance'] as const).map(key => <ResearchFact key={key} label={{ energy: 'Electricity / fuel', insurance: 'Insurance', rego: 'QLD rego + CTP', servicing: 'Servicing', tyres: 'Tyres', reserve: 'Optional repair savings (separate)', finance: 'Finance interest' }[key]} note={key === 'finance' ? 'Your allowance · excludes loan principal' : <>{e.evidence[key].estimated ? 'Estimate' : 'Your input'} <SourceRefs ids={e.evidence[key].sourceIds} /></>}><strong className={key !== 'finance' && e.evidence[key].estimated ? 'estimated-value' : undefined}>{e.components[key] === null ? 'Unavailable' : money(e.components[key])}</strong></ResearchFact>)}
+        <ResearchFact label="Annual running budget" note={e.includesRepairFund ? 'Optional repair savings enabled in your cost settings' : 'Repair savings excluded'}>{e.complete ? money(e.annual) : 'Unavailable'}</ResearchFact>
+        <ResearchFact label={`${personal.ownership?.years ?? 10}-year running budget`} note={e.includesRepairFund ? "Budget includes optional savings; purchase/depreciation separate." : "Annual running costs × years; repair savings excluded."}>{e.runningTotal === null ? 'Unavailable' : money(e.runningTotal)}</ResearchFact>
       </dl><details className="compare-reserve-basis"><summary>Repair fund: basis & range</summary><p>{money(e.evidence.reserve.low)}–{money(e.evidence.reserve.high)} / year. {e.evidence.reserve.basis} <SourceRefs ids={e.evidence.reserve.sourceIds} /></p></details></section>
       <section><h3>Warranty & safety</h3><dl>
         <ResearchFact label="Vehicle warranty" note={<SourceRefs ids={warrantySources} />}>{v.warranty}</ResearchFact>

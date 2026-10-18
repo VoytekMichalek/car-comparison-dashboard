@@ -9,7 +9,7 @@ export function SourceRefs({ ids }: { ids: string[] }) {
   return <span className="source-refs">{[...new Set(ids)].map((id, i) => { const s = sourceMap.get(id); return s ? <a key={id} href={s.url} target="_blank" rel="noreferrer" aria-label={`Source: ${s.title}`} title={s.title}>[{i + 1}]</a> : null; })}</span>;
 }
 export function FactValue({ fact }: { fact: Fact }) {
-  return fact.value === null ? <span className="muted">{/^not applicable/i.test(fact.basis) ? 'Not applicable' : 'Not verified'}</span> : <>{number(fact.value)} <span className="unit">{fact.unit}</span></>;
+  return fact.value === null ? <span className="muted">{/^not applicable/i.test(fact.basis) ? 'Not applicable' : 'Not verified'}</span> : <><span className={/estimate|proxy|indicative/i.test(fact.basis) ? 'estimated-value' : undefined}>{number(fact.value)}</span> <span className="unit">{fact.unit}</span>{/estimate|proxy|indicative/i.test(fact.basis) && <small className="fact-estimate-label">Estimate</small>}</>;
 }
 export function Photo({ vehicle, className = '' }: { vehicle: Vehicle; className?: string }) {
   const asset = imageFor(vehicle);

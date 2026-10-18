@@ -39,7 +39,7 @@ describe('comparison score bars', () => {
   });
 
   it('uses the default missing-data label and remains valid inside a button', () => {
-    expect(render(null)).toContain('No data');
+    expect(render(null)).toContain('Check evidence');
     const markup = renderToStaticMarkup(createElement('button', { type: 'button' }, createElement(ComparisonScoreBar, { score: 8.25, label: 'Boot space' })));
     expect(markup.match(/<button/g)).toHaveLength(1);
     expect(markup).toContain('8.3<small>/10</small>');

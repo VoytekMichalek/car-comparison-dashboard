@@ -1,13 +1,13 @@
 {
-  "checked": "2026-10-18",
-  "method": "Repair funds are editable savings contributions, not predicted annual bills. No comparable Australian model-by-model paid-repair dataset was verified. Defaults reflect age, warranty exposure and component prices; low/high figures are alternative savings budgets. Running costs before this fund are shown separately. Unspent money remains cash. Servicing, tyres and insured crashes are separate; a major battery or engine event can exceed the pool.",
+  "checked": "2026-10-19",
+  "method": "Unexpected repairs are separate from everyday running costs. The optional fund is savings, not expenditure, and is off by default. The Future repair exposure rating is a provisional editorial comparison of configuration age, remaining cover and component costs, using the researched allowance as a low-confidence proxy (25% evidence weight). It does not predict a failure rate or an annual repair bill. Your chosen savings amount does not change that rating. Exclude insured collision, fire, flood, theft and glass damage, covered warranty defects, free recall work, scheduled maintenance and tyres. A manufacturing fault may also attract a consumer-law remedy after the written warranty expires; verify eligibility before assuming you must pay.",
   "findings": [
     {
       "familyIds": [
         "tesla-model-y"
       ],
       "title": "Model Y: mixed reliability signals",
-      "text": "TÜV 2026 found significant defects in 17.3% of 2–3-year-old German Model Ys, especially suspension, brakes and lights. ADAC 2026 places Model Y among its strongest midsize roadside-breakdown performers. These measure different problems; neither provides Australian repair bills or a Juniper forecast.",
+      "text": "T\u00dcV 2026 found significant defects in 17.3% of 2\u20133-year-old German Model Ys, especially suspension, brakes and lights. ADAC 2026 places Model Y among its strongest midsize roadside-breakdown performers. These measure different problems; neither provides Australian repair bills or a Juniper forecast.",
       "sourceIds": [
         "repair-tuv-2026",
         "repair-adac-2026"
@@ -18,7 +18,7 @@
         "tesla-model-y"
       ],
       "title": "Australian repair prices support a buffer",
-      "text": "Whiteline lists an original-body upper-arm pair fitted with alignment at A$1,823 incl. GST; one offer, not a minimum. JPI estimates compressor replacement at A$2,000–4,000+. Neither provides failure frequency. Independent repair-fund estimates are A$1,000/year for original RWD/Long Range and A$700 for newer Juniper. These build contingency savings, not predicted repair spending.",
+      "text": "Whiteline lists an original-body upper-arm pair fitted with alignment at A$1,823 incl. GST; one offer, not a minimum. JPI estimates compressor replacement at A$2,000\u20134,000+. Neither provides failure frequency. Independent repair-fund estimates are A$1,000/year for original RWD/Long Range and A$700 for newer Juniper. These build contingency savings, not predicted repair spending.",
       "sourceIds": [
         "repair-tesla-upper-arms-au",
         "repair-jpi-tesla-au"
@@ -30,7 +30,7 @@
         "kia-ev6"
       ],
       "title": "ICCU: check Australian cover before budgeting a bill",
-      "text": "Drive reports Australian manufacturer confirmation of 15-year/300,000-km ICCU cover: Ioniq 5 built 2 Apr 2021–14 Feb 2024 and EV6 MY22–24, from first registration. Confirm VIN-specific terms in writing; an overseas policy alone is insufficient. Eligible recalls and covered defects should not be charged as routine owner repairs.",
+      "text": "Drive reports Australian manufacturer confirmation of 15-year/300,000-km ICCU cover: Ioniq 5 built 2 Apr 2021\u201314 Feb 2024 and EV6 MY22\u201324, from first registration. Confirm VIN-specific terms in writing; an overseas policy alone is insufficient. Eligible recalls and covered defects should not be charged as routine owner repairs.",
       "sourceIds": [
         "repair-iccu-au-extension"
       ]
@@ -41,9 +41,38 @@
         "toyota-rav4-hybrid"
       ],
       "title": "Breakdowns do not equal full repair costs",
-      "text": "ADAC 2026 flags German Ioniq 5 first registered 2022–23 and RAV4 2017–22 for roadside events. ICCU and 12V issues respectively are material context, but German incidents do not establish Australian out-of-pocket bills, every model year or the new RAV4 generation.",
+      "text": "ADAC 2026 flags German Ioniq 5 first registered 2022\u201323 and RAV4 2017\u201322 for roadside events. ICCU and 12V issues respectively are material context, but German incidents do not establish Australian out-of-pocket bills, every model year or the new RAV4 generation.",
       "sourceIds": [
         "repair-adac-2026"
+      ]
+    },
+    {
+      "familyIds": [
+        "byd-atto-3",
+        "byd-sealion-6",
+        "hyundai-ioniq-5",
+        "hyundai-tucson",
+        "kia-carnival",
+        "kia-ev5",
+        "kia-ev6",
+        "kia-sorento",
+        "kia-sportage",
+        "mitsubishi-outlander-petrol",
+        "mitsubishi-outlander-phev",
+        "nissan-x-trail-epower",
+        "nissan-x-trail-petrol",
+        "subaru-forester",
+        "subaru-outback",
+        "tesla-model-y",
+        "toyota-kluger-hybrid",
+        "toyota-rav4-hybrid",
+        "zeekr-7x"
+      ],
+      "title": "What counts as an uncovered repair",
+      "text": "Mechanical and electrical faults or non-routine wear only after applicable warranty, recall, consumer-law and insurance remedies. Insurance premium is already counted in everyday costs. Crash, flood, fire, theft, glass and body-damage claims do not increase this repair rating; no collision-repair index is used. Ordinary servicing and tyres are separate. An unknown failure frequency is not replaced by a claimed annual bill.",
+      "sourceIds": [
+        "repair-scope-nrma-2026-10-19",
+        "repair-scope-accc-2026-10-19"
       ]
     }
   ]

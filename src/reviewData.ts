@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import phevExpansion from './data/phev-expansion.json';
 
 const refs = z.array(z.string().min(1));
 const date = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
@@ -20,6 +21,7 @@ export const reviewExpansionPacks = Object.entries(import.meta.glob('./data/revi
   if (!parsed.success) throw new Error(`Invalid review research ${path}: ${parsed.error.message}`);
   return parsed.data;
 });
+reviewExpansionPacks.push(pack.parse({ checked: '2026-10-19', sources: [], cohorts: phevExpansion.reviewCohorts, coverage: phevExpansion.reviewCoverage }));
 export const reviewExpansionSources = reviewExpansionPacks.flatMap(p => p.sources);
 export const reviewCohorts = reviewExpansionPacks.flatMap(p => p.cohorts);
 export const reviewCoverage = reviewExpansionPacks.flatMap(p => p.coverage);

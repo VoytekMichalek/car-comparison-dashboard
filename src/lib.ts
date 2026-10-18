@@ -1,13 +1,13 @@
 import { z } from 'zod';
 import type { CostSettings, OwnershipSettings, PersonalData, PriceSnapshot, ScoreWeights, Powertrain, Vehicle } from './types';
 
-export const CHECKED_DATE = '2026-10-18';
+export const CHECKED_DATE = '2026-10-19';
 export const STORAGE_KEY = 'fieldnotes-family-cars:v1';
 export const CURRENT_FIT_TARGET = 'one-rear-facing-two-other-restraints-v1' as const;
 export const FIT_REVIEW_NOTICE = 'Older fit confirmations were cleared. Recheck one rear-facing seat plus two forward-facing seats / boosters.';
 export const defaultCosts: CostSettings = { annualKm: 15000, homeRate: 0.30, publicRate: 0.65, petrolRate: 2.21, premiumPetrolRate: 2.38, dieselRate: 2.72, homeShare: 90, electricShare: 80, chargingLoss: 10 };
-export const defaultOwnership: OwnershipSettings = { years: 10, insurance: null, servicing: null, tyres: 300, tyreMode: 'vehicle', repairReserve: 500, repairMode: 'vehicle', regoOverride: null, ctp: null, purchasePrice: null, dutiableValue: null, feesIncluded: 'auto', resaleValue: null, charger: 2050, inspection: 385, otherUpfront: 0, financeInterestAnnual: 0, repairScenario: 0, vehicleOverrides: {} };
-export const defaultWeights: ScoreWeights = { seating: 10, price: 9, running: 8, boot: 7, range: 6, safety: 8, owners: 6, brand: 6 };
+export const defaultOwnership: OwnershipSettings = { years: 10, insurance: null, servicing: null, tyres: 300, tyreMode: 'vehicle', repairReserve: 500, repairMode: 'vehicle', includeRepairFund: false, regoOverride: null, ctp: null, purchasePrice: null, dutiableValue: null, feesIncluded: 'auto', resaleValue: null, charger: 2050, inspection: 385, otherUpfront: 0, financeInterestAnnual: 0, repairScenario: 0, vehicleOverrides: {} };
+export const defaultWeights: ScoreWeights = { seating: 10, price: 9, running: 8, boot: 7, range: 6, safety: 8, owners: 6, brand: 6, repairs: 5 };
 export const emptyPersonal = (): PersonalData => ({ version: 1, fitTarget: CURRENT_FIT_TARGET, favourites: [], listings: [], notes: {}, fitChecks: {}, seatModels: '', costs: { ...defaultCosts } });
 
 export function chooseComparison(ids: string[], index: number, id: string): string[] {
@@ -21,10 +21,10 @@ export function chooseComparison(ids: string[], index: number, id: string): stri
 
 const numberOrNull = z.number().finite().nonnegative().nullable();
 const weight = z.number().int().min(1).max(10);
-export const weightsSchema = z.object({ seating: weight, price: weight, running: weight, boot: weight, range: weight, safety: weight, owners: weight, brand: weight });
+export const weightsSchema = z.object({ seating: weight, price: weight, running: weight, boot: weight, range: weight, safety: weight, owners: weight, brand: weight, repairs: weight.default(5) });
 const amount = z.number().finite().min(0).max(10_000_000);
 const optionalAmount = amount.nullable();
-export const ownershipSchema = z.object({ years: z.number().int().min(1).max(15), insurance: optionalAmount, servicing: optionalAmount, tyres: amount, tyreMode: z.enum(['vehicle', 'shared']).optional(), repairReserve: amount, repairMode: z.enum(['vehicle', 'shared']).optional(), regoOverride: optionalAmount, ctp: optionalAmount, purchasePrice: optionalAmount, dutiableValue: optionalAmount, feesIncluded: z.enum(['auto', 'yes', 'no']), resaleValue: optionalAmount, charger: amount, inspection: amount, otherUpfront: amount, financeInterestAnnual: amount, repairScenario: amount, vehicleOverrides: z.record(z.string(), z.object({ insurance: optionalAmount.optional(), servicing: optionalAmount.optional(), rego: optionalAmount.optional(), resale: optionalAmount.optional(), energy: optionalAmount.optional(), electricity: optionalAmount.optional(), petrol: optionalAmount.optional(), tyres: optionalAmount.optional(), repairReserve: optionalAmount.optional(), financeInterestAnnual: optionalAmount.optional(), purchase: optionalAmount.optional(), dutiableValue: optionalAmount.optional(), feesIncluded: z.enum(['auto', 'yes', 'no']).optional() })) });
+export const ownershipSchema = z.object({ years: z.number().int().min(1).max(15), insurance: optionalAmount, servicing: optionalAmount, tyres: amount, tyreMode: z.enum(['vehicle', 'shared']).optional(), repairReserve: amount, repairMode: z.enum(['vehicle', 'shared']).optional(), includeRepairFund: z.boolean().optional(), regoOverride: optionalAmount, ctp: optionalAmount, purchasePrice: optionalAmount, dutiableValue: optionalAmount, feesIncluded: z.enum(['auto', 'yes', 'no']), resaleValue: optionalAmount, charger: amount, inspection: amount, otherUpfront: amount, financeInterestAnnual: amount, repairScenario: amount, vehicleOverrides: z.record(z.string(), z.object({ insurance: optionalAmount.optional(), servicing: optionalAmount.optional(), rego: optionalAmount.optional(), resale: optionalAmount.optional(), energy: optionalAmount.optional(), electricity: optionalAmount.optional(), petrol: optionalAmount.optional(), tyres: optionalAmount.optional(), repairReserve: optionalAmount.optional(), financeInterestAnnual: optionalAmount.optional(), purchase: optionalAmount.optional(), dutiableValue: optionalAmount.optional(), feesIncluded: z.enum(['auto', 'yes', 'no']).optional() })) });
 const costsSchema = z.object({ annualKm: z.number().min(0).max(200000), homeRate: z.number().min(0).max(10), publicRate: z.number().min(0).max(10), petrolRate: z.number().min(0).max(10), premiumPetrolRate: z.number().min(0).max(10).optional(), dieselRate: z.number().min(0).max(10).optional(), homeShare: z.number().min(0).max(100), electricShare: z.number().min(0).max(100), chargingLoss: z.number().min(0).max(50) });
 export const personalSchema = z.object({
   version: z.literal(1),
@@ -116,7 +116,7 @@ export function parseHash(hash: string, validIds: Set<string>): PublicState {
   const rawBudget = Number(p.get('budget') ?? 45000);
   const budget = Number.isFinite(rawBudget) && rawBudget >= 10000 && rawBudget <= 150000 ? rawBudget : 45000;
   const rawWeights = p.get('weights')?.split(',').map(Number);
-  const parsedWeights = rawWeights?.length === 8 ? weightsSchema.safeParse(Object.fromEntries(Object.keys(defaultWeights).map((key, i) => [key, rawWeights[i]]))) : null;
+  const parsedWeights = rawWeights && [8, 9].includes(rawWeights.length) ? weightsSchema.safeParse(Object.fromEntries(Object.keys(defaultWeights).slice(0, rawWeights.length).map((key, i) => [key, rawWeights[i]]))) : null;
   return { view, compare: [...new Set((p.get('cars') ?? '').split(',').filter(id => validIds.has(id)))].slice(0, 4), filters: { ...defaultFilters, search: (p.get('q') ?? '').slice(0, 150), powertrains, make: (p.get('make') ?? 'all').slice(0, 50), condition: p.get('condition') === 'new' ? 'new' : p.get('condition') === 'used' ? 'used' : 'all', withinBudgetOnly: p.get('budgetOnly') === '1', year, seats: p.get('seats') === '7' ? '7' : 'all', fit, budget }, ...(['all', 'selected'].includes(p.get('compareScope') ?? '') ? { compareScope: p.get('compareScope') as CompareScope } : {}), ...(parsedWeights?.success ? { weights: parsedWeights.data } : {}), ...(view === 'vehicle' ? { vehicleId, ...(section ? { section } : {}) } : {}) };
 }
 export function publicHash(state: PublicState): string {

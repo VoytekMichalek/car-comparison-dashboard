@@ -60,20 +60,21 @@ describe('Tesla cargo figures and measurement scope', () => {
     expect(renderToStaticMarkup(createElement(CargoCapacity, { vehicle: other }))).toBe('');
   });
 
-  it('shows known cargo as not comparable rather than no data, without inventing a VDA score', () => {
+  it('keeps manufacturer cargo visible and uses a labelled independent scoring proxy', () => {
     const original = vehicles.find(v => v.id === 'model-y-rwd-2022')!;
     const score = scoreVehicle(original, emptyPersonal());
     const boot = score.categories.find(c => c.key === 'boot')!;
     expect(boot.headline).toBe('854 L rear boot');
-    expect(boot.headlineDetail).toBe('Tesla published capacity · seats up');
-    expect(boot.summary).toContain('117 L separate front storage');
-    expect(boot.score).toBeNull();
-    expect(boot.effectiveWeight).toBe(0);
-    expect(boot.unscoredLabel).toBe('Not comparable');
-    expect(renderToStaticMarkup(createElement(ScoreBreakdown, { score }))).toContain('Not comparable');
+    expect(boot.headlineDetail).toBe('525 L independent rear-storage scoring proxy');
+    expect(boot.summary).toContain('Separate front storage: 117 L');
+    expect(boot.score).toBe(7.8);
+    expect(boot.confidence).toBe(.7);
+    expect(boot.headlineEstimated).toBe(true);
+    expect(boot.reason).toContain('525');
+    expect(renderToStaticMarkup(createElement(ScoreBreakdown, { score }))).toContain('525 L independent rear-storage scoring proxy');
     const unknown = { ...original, id: 'unknown-cargo', boot: { ...original.boot, value: null } };
     const unknownBoot = scoreVehicle(unknown, emptyPersonal()).categories.find(c => c.key === 'boot')!;
     expect(unknownBoot.unscoredLabel).toBeUndefined();
-    expect(unknownBoot.headline).toBe('Boot capacity unavailable');
+    expect(unknownBoot.headline).toBe('Capacity needs verification');
   });
 });

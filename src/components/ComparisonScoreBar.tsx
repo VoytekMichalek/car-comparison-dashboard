@@ -4,7 +4,7 @@ type ComparisonScoreBarProps = {
   emptyLabel?: string;
 };
 
-export function ComparisonScoreBar({ score, label, emptyLabel = 'No data' }: ComparisonScoreBarProps) {
+export function ComparisonScoreBar({ score, label, emptyLabel = 'Check evidence' }: ComparisonScoreBarProps) {
   if (score === null || !Number.isFinite(score)) {
     return <span className="score-bar score-bar--empty"><span className="score-bar__value">{emptyLabel}</span></span>;
   }

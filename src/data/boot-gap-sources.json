@@ -1,0 +1,66 @@
+[
+  {
+    "id": "boot-audit-adac-method-2026",
+    "title": "ADAC January 2026 cargo measurement method: rear seats positioned consistently; normal volume to luggage-cover lower edge",
+    "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/autotest/kofferraumvolumen-vergleich-2026/",
+    "publisher": "ADAC",
+    "kind": "review",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "boot-audit-tesla-original-adac",
+    "title": "ADAC March 2023 Shanghai-built original Model Y LR AWD test: 420 L normal rear plus 105 L underfloor, separate front compartment",
+    "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/at6259-tesla-model-y-maximum-range-awd/tesla-model-y-maximum-range-awd.pdf",
+    "publisher": "ADAC",
+    "kind": "review",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "boot-audit-tesla-juniper-adac",
+    "title": "ADAC November 2025 Juniper Maximum Range test: independently measured rear cargo and underfloor storage",
+    "url": "https://assets.adac.de/image/upload/v1762938807/ADAC-eV/KOR/Text/PDF/tesla-model-y-maximum-range_n13ymi.pdf",
+    "publisher": "ADAC",
+    "kind": "review",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "boot-audit-sealion6-related-eu-vda",
+    "title": "BYD Netherlands Seal U DM-i November 2025 specification: 425 L VDA for 18.3 kWh Boost and Design; related-market corroboration only",
+    "url": "https://www.byd.com/material/byd-site/nl/pdfs/new-pricelist/Prijslijst-BYD-SEAL-U-DM-i-per-24-11-2025_compressed.pdf",
+    "publisher": "BYD Europe",
+    "kind": "manufacturer",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "boot-audit-zeekr-related-eu-vda",
+    "title": "Zeekr Netherlands 7X model matrix: 539 L VDA; current European updated powertrains differ from original Australian cars",
+    "url": "https://www.zeekr.eu/nl-nl/models/7x",
+    "publisher": "Zeekr Europe",
+    "kind": "manufacturer",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "boot-audit-xtrail-occupied-au",
+    "title": "WhichCar April 2025 Australian T33 X-Trail range guide: 177 L with all seven seats upright; measurement standard unspecified",
+    "url": "https://www.whichcar.com.au/reviews/first-drive/nissan-x-trail-discover-the-full-range-with-the-whichcar-guide",
+    "publisher": "WhichCar / Wheels",
+    "kind": "review",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "boot-audit-forester-s5-vda",
+    "title": "CarsGuide Australian MY22 Forester first drive: 498 L VDA to cargo cover, not the mixed-year catalogue summary",
+    "url": "https://www.carsguide.com.au/car-reviews/subaru-forester-85315",
+    "publisher": "CarsGuide",
+    "kind": "review",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "boot-audit-kluger-vda",
+    "title": "CarsGuide original fourth-generation Kluger launch test: 241 / 552 L VDA measured to beltline",
+    "url": "https://www.carsguide.com.au/car-reviews/toyota-kluger-83805",
+    "publisher": "CarsGuide",
+    "kind": "review",
+    "checked": "2026-10-19"
+  }
+]

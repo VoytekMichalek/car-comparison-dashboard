@@ -1,0 +1,24 @@
+[
+  {
+    "familyId": "mg-hs-phev",
+    "path": "/images/mg-hs-phev-original.jpg",
+    "alt": "Red first-generation MG EHS plug-in hybrid, front three-quarter view",
+    "credit": "Alexander Migl / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MG_EHS_IMG_6323.jpg",
+    "generation": "Original first-generation MG HS PHEV / European EHS, pre-facelift shape",
+    "note": "2022 European EHS plug-in hybrid photographed in Leinfelden-Echterdingen, Germany. Related-market PHEV image; Australian grade/equipment may differ. Pre-facelift body, not the later new-generation HS Super Hybrid. Wikimedia 1280px rendition; no other changes. Photo and reuse license checked 19 October 2026."
+  },
+  {
+    "familyId": "mitsubishi-eclipse-cross-phev",
+    "path": "/images/mitsubishi-eclipse-cross-phev.jpg",
+    "alt": "Blue facelift Mitsubishi Eclipse Cross PHEV, front three-quarter view",
+    "credit": "Alexander Migl / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Eclipse_Cross_PHEV_1X7A6477.jpg",
+    "generation": "Facelift 2021-onward Eclipse Cross PHEV body",
+    "note": "2023 German-market Eclipse Cross PHEV photographed in Stuttgart-Vaihingen; Australian grade/equipment may differ. Correct facelift plug-in hybrid body, not the previous petrol-only split-window shape. Wikimedia 1280px rendition; no other changes. Photo and reuse license checked 19 October 2026."
+  }
+]

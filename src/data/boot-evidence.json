@@ -1,0 +1,556 @@
+[
+  {
+    "vehicleId": "model-y-rwd-2022",
+    "measurement": "independent-proxy",
+    "evidenceFactor": 0.7,
+    "estimated": true,
+    "scoreLitres": 525,
+    "scoreBasis": "Related German-market ADAC test: 420 L normal rear compartment + 105 L separate underfloor storage = 525 L rear storage proxy. Front storage is excluded. This is an arithmetic utility proxy, not a VDA conversion of Tesla’s published capacity.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Tesla’s larger published rear number uses a different, unspecified boundary. Keep it visible, but do not treat 854/822 L as directly comparable to a shelf-height VDA number. German test vehicles are related configurations, not the exact Australian car.",
+    "practicalSummary": "BabyDrive’s 2023 original-body test carried a twin side-by-side pram plus five shopping bags, or a single pram plus seven. This applies to the tested prams.",
+    "sourceIds": [
+      "ev-tesla-original-dimensions",
+      "boot-audit-tesla-original-adac",
+      "boot-audit-adac-method-2026",
+      "ev-tesla-family-2023"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "model-y-long-range-2023",
+    "measurement": "independent-proxy",
+    "evidenceFactor": 0.7,
+    "estimated": true,
+    "scoreLitres": 525,
+    "scoreBasis": "Related German-market ADAC test: 420 L normal rear compartment + 105 L separate underfloor storage = 525 L rear storage proxy. Front storage is excluded. This is an arithmetic utility proxy, not a VDA conversion of Tesla’s published capacity.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Tesla’s larger published rear number uses a different, unspecified boundary. Keep it visible, but do not treat 854/822 L as directly comparable to a shelf-height VDA number. German test vehicles are related configurations, not the exact Australian car.",
+    "practicalSummary": "BabyDrive’s 2023 original-body test carried a twin side-by-side pram plus five shopping bags, or a single pram plus seven. This applies to the tested prams.",
+    "sourceIds": [
+      "ev-tesla-original-dimensions",
+      "boot-audit-tesla-original-adac",
+      "boot-audit-adac-method-2026",
+      "ev-tesla-family-2023"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "model-y-rwd-juniper-2025",
+    "measurement": "independent-proxy",
+    "evidenceFactor": 0.7,
+    "estimated": true,
+    "scoreLitres": 525,
+    "scoreBasis": "Related German-market ADAC test: 420 L normal rear compartment + 105 L separate underfloor storage = 525 L rear storage proxy. Front storage is excluded. This is an arithmetic utility proxy, not a VDA conversion of Tesla’s published capacity.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Tesla’s larger published rear number uses a different, unspecified boundary. Keep it visible, but do not treat 854/822 L as directly comparable to a shelf-height VDA number. German test vehicles are related configurations, not the exact Australian car.",
+    "practicalSummary": "Updated-body ADAC test found a large, usable rear compartment and additional underfloor storage. The original-body BabyDrive pram test is not a Juniper fit confirmation.",
+    "sourceIds": [
+      "ev-deep-tesla-refresh-dimensions",
+      "boot-audit-tesla-juniper-adac",
+      "boot-audit-adac-method-2026"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "atto3-standard-2022",
+    "measurement": "manufacturer",
+    "evidenceFactor": 0.6,
+    "estimated": true,
+    "scoreLitres": 440,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Australian manufacturer calls this minimum luggage capacity without a measurement standard. Do not silently relabel it VDA or include the EVO front compartment in the rear-boot score.",
+    "practicalSummary": "Related 2024 BabyDrive test fitted a Thule Sleek single plus one shopping bag; Urban Glide 2 required its rear wheels removed. Nine bags fitted without a pram.",
+    "sourceIds": [
+      "ev-atto-2025-spec",
+      "audit-byd-atto-3-family-2024"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "atto3-extended-2022",
+    "measurement": "manufacturer",
+    "evidenceFactor": 0.6,
+    "estimated": true,
+    "scoreLitres": 440,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Australian manufacturer calls this minimum luggage capacity without a measurement standard. Do not silently relabel it VDA or include the EVO front compartment in the rear-boot score.",
+    "practicalSummary": "Related 2024 BabyDrive test fitted a Thule Sleek single plus one shopping bag; Urban Glide 2 required its rear wheels removed. Nine bags fitted without a pram.",
+    "sourceIds": [
+      "ev-atto-2025-spec",
+      "audit-byd-atto-3-family-2024"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "atto3-essential-2025",
+    "measurement": "manufacturer",
+    "evidenceFactor": 0.6,
+    "estimated": true,
+    "scoreLitres": 440,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Australian manufacturer calls this minimum luggage capacity without a measurement standard. Do not silently relabel it VDA or include the EVO front compartment in the rear-boot score.",
+    "practicalSummary": "Related 2024 BabyDrive test fitted a Thule Sleek single plus one shopping bag; Urban Glide 2 required its rear wheels removed. Nine bags fitted without a pram.",
+    "sourceIds": [
+      "ev-atto-2025-spec",
+      "audit-byd-atto-3-family-2024"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "atto3-evo-premium-2026",
+    "measurement": "manufacturer",
+    "evidenceFactor": 0.6,
+    "estimated": true,
+    "scoreLitres": 490,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Australian manufacturer calls this minimum luggage capacity without a measurement standard. Do not silently relabel it VDA or include the EVO front compartment in the rear-boot score.",
+    "practicalSummary": "EVO adds 50 L of claimed rear capacity and separate 101 L front storage over the original body. The original Atto 3 pram test does not confirm EVO pram fit.",
+    "sourceIds": [
+      "ev-atto-evo"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "ev6-air-2022",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 490,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "ev-ev6-spec"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "ev5-air-standard-2024",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 513,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "audit-kia-ev5-my25-spec",
+      "audit-kia-ev5-my26-spec"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "ev5-air-long-2024",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 513,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "audit-kia-ev5-my25-spec",
+      "audit-kia-ev5-my26-spec"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "ioniq5-awd-2021",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 527,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "ev-ioniq-old-spec",
+      "ev-ioniq-launch-spec"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "ioniq5-dynamiq-rwd-2023",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 527,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "ev-ioniq-2023-spec"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "ioniq5-techniq-awd-2023",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 527,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "ev-ioniq-2023-spec"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "ioniq5-rwd-84-2025",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 520,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "ev-ioniq-new-spec"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "zeekr7x-rwd-2025",
+    "measurement": "manufacturer-related-VDA",
+    "evidenceFactor": 0.65,
+    "estimated": true,
+    "scoreLitres": 539,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Australian 539 L rear capacity omits the loading boundary. Current European 7X manufacturer table labels the same number VDA, but its updated drivetrain differs; use it only as related-market corroboration. Excludes front storage.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "ev-zeekr-model",
+      "boot-audit-zeekr-related-eu-vda"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "zeekr7x-long-range-2025",
+    "measurement": "manufacturer-related-VDA",
+    "evidenceFactor": 0.65,
+    "estimated": true,
+    "scoreLitres": 539,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Australian 539 L rear capacity omits the loading boundary. Current European 7X manufacturer table labels the same number VDA, but its updated drivetrain differs; use it only as related-market corroboration. Excludes front storage.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "ev-zeekr-model",
+      "boot-audit-zeekr-related-eu-vda"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "outlander-phev-aspire-20",
+    "measurement": "VDA",
+    "evidenceFactor": 0.8,
+    "estimated": true,
+    "scoreLitres": 494,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "494 L is the MY24 VDA five-seat Aspire figure. Some earlier original-body PHEV reviews report 485 L; the unresolved year difference reduces the score’s evidence weight.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "audit-mitsubishi-outlander-phev-my24"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "outlander-phev-aspire-227",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 468,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; third row folded.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "audit-mitsubishi-outlander-phev-my25"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "sealion6-dynamic-183",
+    "measurement": "manufacturer-related-VDA",
+    "evidenceFactor": 0.8,
+    "estimated": true,
+    "scoreLitres": 425,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Australian sheet does not identify the method. Related Netherlands Seal U DM-i 18.3 kWh models identify the same 425 L as VDA. This corroborates the original battery version; it does not prove an identical Australian test boundary or extended-battery measurement.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "hy-sl6-24",
+      "audit-byd-sealion-6-original-spec-archive",
+      "boot-audit-sealion6-related-eu-vda"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "sealion6-dynamic-extended",
+    "measurement": "manufacturer-related-VDA",
+    "evidenceFactor": 0.65,
+    "estimated": true,
+    "scoreLitres": 425,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Australian sheet does not identify the method. Related Netherlands Seal U DM-i 18.3 kWh models identify the same 425 L as VDA. This corroborates the original battery version; it does not prove an identical Australian test boundary or extended-battery measurement.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "hy-sl6-25",
+      "audit-byd-sealion-6-current-spec",
+      "boot-audit-sealion6-related-eu-vda"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "xtrail-ti-epower-awd",
+    "measurement": "roof",
+    "evidenceFactor": 0.4,
+    "estimated": true,
+    "scoreLitres": 575,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Nissan Australia explicitly measures this seats-up figure to the roof. This is an upper-bound space indicator, not an equivalent shelf-height VDA measurement; secure any cargo above the seatbacks.",
+    "practicalSummary": "BabyDrive’s related 2023 e-Power test fitted a twin side-by-side pram plus three bags, a single plus five, or 13 bags without a pram. Its sliding bench position affects the result.",
+    "sourceIds": [
+      "hy-xt-spec",
+      "hy-xt-fit"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "xtrail-stl-epower-fwd-2026",
+    "measurement": "roof",
+    "evidenceFactor": 0.4,
+    "estimated": true,
+    "scoreLitres": 575,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Nissan Australia explicitly measures this seats-up figure to the roof. This is an upper-bound space indicator, not an equivalent shelf-height VDA measurement; secure any cargo above the seatbacks.",
+    "practicalSummary": "BabyDrive’s related 2023 e-Power test fitted a twin side-by-side pram plus three bags, a single plus five, or 13 bags without a pram. Its sliding bench position affects the result.",
+    "sourceIds": [
+      "hy-deep-xt-my26",
+      "hy-xt-fit"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "rav4-gxl-hev-2021-25",
+    "measurement": "manufacturer",
+    "evidenceFactor": 0.85,
+    "estimated": true,
+    "scoreLitres": 542,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "542 L is the Australian upper-floor configuration, not the alternative 580 L low-floor number often quoted. Earlier-year spare-wheel and load-floor arrangements may differ.",
+    "practicalSummary": "Related 2021 Cruiser BabyDrive test fitted a twin stroller plus five bags, a tandem plus six below the blind, or 15 bags empty. GXL load-floor and spare-wheel arrangement should be checked.",
+    "sourceIds": [
+      "hy-rav-spec-25",
+      "hy-rav-fit"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "rav4-gxl-hev-2026",
+    "measurement": "manufacturer",
+    "evidenceFactor": 0.4,
+    "estimated": true,
+    "scoreLitres": 705,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "The new-generation up-to total cargo claim does not identify a shelf-height boundary in the verified Australian source. It is not directly comparable with the outgoing upper-floor 542 L measurement.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "hy-deep-rav-current"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "kluger-gx-hev-awd",
+    "measurement": "VDA",
+    "evidenceFactor": 0.9,
+    "estimated": false,
+    "scoreLitres": 552,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; third row folded.",
+    "caveat": "Toyota’s 552 L five-seat / 241 L seven-seat numbers are measured to the beltline in contemporary Australian road tests. The seven-seat number must be shown if any third-row position is needed.",
+    "practicalSummary": "Related Grande Hybrid BabyDrive test fitted a twin pram plus two bags with all seven seats up; with third row folded a twin stroller left room for ten bags. Tested pram/grade only.",
+    "sourceIds": [
+      "audit-toyota-kluger-hybrid-spec21",
+      "audit-toyota-kluger-hybrid-spec26",
+      "boot-audit-kluger-vda",
+      "hy-kluger-fit"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "sorento-gtline-hev-awd-2026",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 608,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; third row folded.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "hy-sorento-spec"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "sorento-phev-gtline-2021-23",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 604,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; third row folded.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "hy-deep-sorento-my23"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "forester-25il-2021",
+    "measurement": "VDA",
+    "evidenceFactor": 0.9,
+    "estimated": false,
+    "scoreLitres": 498,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Australian MY22 first drive identifies 498 L VDA to the cargo cover. Keep the matching petrol manufacturer figure; mixed-year catalogue summaries report different volumes.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "ice-sub-forester-old-spec",
+      "boot-audit-forester-s5-vda"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "forester-awd-petrol-2025",
+    "measurement": "manufacturer",
+    "evidenceFactor": 0.65,
+    "estimated": true,
+    "scoreLitres": 496,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "The current Australian base petrol table gives 496 L with the rear bench upright. Other hybrid/grade columns differ and the table does not label a VDA method; do not transfer another column’s figure.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "ice-sub-forester-new-spec"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "outback-awd-25-2021",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 522,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "audit-subaru-outback-family-base21",
+      "audit-subaru-outback-spec25"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "sportage-s-petrol-2022",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 543,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "ice-kr-sportage-spec"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "tucson-base-petrol-2021",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 539,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; all five seats available.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "ice-kr-tucson-spec"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "carnival-s-diesel-2021",
+    "measurement": "VDA",
+    "evidenceFactor": 0.65,
+    "estimated": true,
+    "scoreLitres": 2785,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; third row folded.",
+    "caveat": "MY22 Australian brochure labels 2785 L as VDA with row three folded and 627 L as VDA with all rows upright, alongside different SAE figures. The large folded-row value is not directly equivalent to a shelf-height SUV boot; the score is only a space indicator.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "ice-kr-carnival-spec"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "outlander-ls-petrol-fwd-2022",
+    "measurement": "VDA",
+    "evidenceFactor": 1,
+    "estimated": false,
+    "scoreLitres": 478,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; third row folded.",
+    "caveat": "Published VDA rear cargo with the second row upright. On seven/eight-seat cars the folded-third-row and occupied-third-row figures answer different questions.",
+    "practicalSummary": "Compare your pram with the rear seats in their required child-seat positions.",
+    "sourceIds": [
+      "audit-mitsubishi-outlander-petrol-period-spec"
+    ],
+    "checked": "2026-10-19"
+  },
+  {
+    "vehicleId": "xtrail-st-petrol-awd-2023",
+    "measurement": "roof",
+    "evidenceFactor": 0.4,
+    "estimated": true,
+    "scoreLitres": 465,
+    "scoreBasis": "Published rear seats-up capacity; the score is a simple space indicator, not a pram-fit guarantee.",
+    "scope": "Australian configuration rear cargo with the second row upright; third row folded.",
+    "caveat": "Nissan Australia explicitly measures this seats-up figure to the roof. This is an upper-bound space indicator, not an equivalent shelf-height VDA measurement; secure any cargo above the seatbacks.",
+    "practicalSummary": "Third-row use reduces the boot sharply: the Australian range guide reports 177 L with all seven seats up. Bring your actual pram; the five-seat e-Power test cannot establish this occupied-third-row fit.",
+    "sourceIds": [
+      "ice-jp-xt-spec",
+      "boot-audit-xtrail-occupied-au"
+    ],
+    "checked": "2026-10-19"
+  }
+]

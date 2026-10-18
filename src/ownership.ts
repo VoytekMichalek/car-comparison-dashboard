@@ -1,6 +1,6 @@
 import { calculateEnergy, defaultOwnership, representativePrice, isFuelOnly, isPlugIn } from './lib';
 import { budgetBenchmarks, getPrice, insuranceFor, ownershipFor, qldCosts, tyreFor, repairReserveFor } from './data';
-import type { CostSettings, OwnershipSettings, PersonalData, Powertrain, Vehicle } from './types';
+import type { CostSettings, OwnershipSettings, PersonalData, Powertrain, RepairRisk, Vehicle } from './types';
 import insuranceDefaults from './data/insurance-defaults.json';
 
 /** Resolve published planning defaults separately from browser-local quotes. */
@@ -17,7 +17,7 @@ export function settingsFor(personal: PersonalData): OwnershipSettings {
 }
 export function registrationGroup(v: Vehicle) {
   if (v.powertrain === 'BEV' || v.familyId === 'nissan-x-trail-epower') return qldCosts.bev;
-  if (['mitsubishi-outlander-phev', 'byd-sealion-6', 'toyota-rav4-hybrid', 'toyota-kluger-hybrid', 'kia-sorento', 'subaru-forester', 'subaru-outback', 'kia-sportage', 'hyundai-tucson', 'kia-carnival', 'mitsubishi-outlander-petrol', 'nissan-x-trail-petrol'].includes(v.familyId)) return qldCosts.fourCylinder;
+  if (['mitsubishi-outlander-phev', 'byd-sealion-6', 'toyota-rav4-hybrid', 'toyota-kluger-hybrid', 'kia-sorento', 'subaru-forester', 'subaru-outback', 'kia-sportage', 'hyundai-tucson', 'kia-carnival', 'mitsubishi-outlander-petrol', 'nissan-x-trail-petrol', 'mg-hs-phev', 'mitsubishi-eclipse-cross-phev', 'gwm-haval-h6-phev', 'geely-starray-emi', 'chery-tiggo7-super-hybrid', 'chery-tiggo8-super-hybrid'].includes(v.familyId)) return qldCosts.fourCylinder;
   return null;
 }
 export function registrationCost(v: Vehicle, settings: OwnershipSettings) {
@@ -95,14 +95,15 @@ export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
     tyres: { estimated: tyreInput == null, low: tyreInput ?? (tyreReference ? Math.round(tyreReference.setLow * annualKm / tyreReference.lifeHighKm / 10) * 10 : tyres), high: tyreInput ?? (tyreReference ? Math.round(tyreReference.setHigh * annualKm / tyreReference.lifeLowKm / 10) * 10 : tyres), basis: tyreInput != null ? 'Your tyre replacement allowance' : tyreReference?.basis ?? budgetBenchmarks.tyresAnnual.basis, confidence: tyreInput != null ? 1 : .35, sourceIds: tyreReference?.sourceIds ?? budgetBenchmarks.tyresAnnual.sourceIds },
   };
   const components = { energy, insurance, rego: rego.total, servicing, tyres, reserve, finance };
+  const includedReserve = s.includeRepairFund ? reserve : 0;
   const missing = Object.entries(components).filter(([, value]) => value === null).map(([key]) => ({ energy: 'energy', insurance: 'insurance', rego: 'registration', servicing: 'servicing' }[key] ?? key));
-  const annual = Object.values(components).reduce<number>((sum, value) => sum + (value ?? 0), 0);
+  const annual = Object.entries(components).reduce<number>((sum, [key, value]) => sum + (key === 'reserve' ? includedReserve : value ?? 0), 0);
   const runningTotal = missing.length ? null : annual * s.years;
-  const annualBeforeRepairFund = missing.length ? null : annual - reserve;
+  const annualBeforeRepairFund = missing.length ? null : annual - includedReserve;
   const runningBeforeRepairFund = annualBeforeRepairFund === null ? null : annualBeforeRepairFund * s.years;
-  const budgetEvidence = [evidence.energy, evidence.insurance, evidence.servicing, evidence.rego, evidence.tyres, evidence.reserve];
-  const annualLow = annual + (evidence.energy.low ?? 0) - (energy ?? 0) + (evidence.insurance.low ?? 0) - (insurance ?? 0) + (evidence.servicing.low ?? 0) - (servicing ?? 0) + (evidence.rego.low ?? 0) - (rego.total ?? 0) + evidence.tyres.low - tyres + evidence.reserve.low - reserve;
-  const annualHigh = annual + (evidence.energy.high ?? 0) - (energy ?? 0) + (evidence.insurance.high ?? 0) - (insurance ?? 0) + (evidence.servicing.high ?? 0) - (servicing ?? 0) + (evidence.rego.high ?? 0) - (rego.total ?? 0) + evidence.tyres.high - tyres + evidence.reserve.high - reserve;
+  const budgetEvidence = [evidence.energy, evidence.insurance, evidence.servicing, evidence.rego, evidence.tyres];
+  const annualLow = annual + (evidence.energy.low ?? 0) - (energy ?? 0) + (evidence.insurance.low ?? 0) - (insurance ?? 0) + (evidence.servicing.low ?? 0) - (servicing ?? 0) + (evidence.rego.low ?? 0) - (rego.total ?? 0) + evidence.tyres.low - tyres + (s.includeRepairFund ? evidence.reserve.low - reserve : 0);
+  const annualHigh = annual + (evidence.energy.high ?? 0) - (energy ?? 0) + (evidence.insurance.high ?? 0) - (insurance ?? 0) + (evidence.servicing.high ?? 0) - (servicing ?? 0) + (evidence.rego.high ?? 0) - (rego.total ?? 0) + evidence.tyres.high - tyres + (s.includeRepairFund ? evidence.reserve.high - reserve : 0);
   const runningConfidence = Math.min(...budgetEvidence.map(e => e.confidence));
   const price = getPrice(v.id);
   const purchaseInput = override.purchase ?? s.purchasePrice;
@@ -121,7 +122,12 @@ export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
   const resaleLow = resaleEstimated && purchasePrice !== null ? Math.round(purchasePrice * (1 - dep.highRate) ** s.years / 100) * 100 : resale;
   const resaleHigh = resaleEstimated && purchasePrice !== null ? Math.round(purchasePrice * (1 - dep.lowRate) ** s.years / 100) * 100 : resale;
   const depreciation = purchasePrice !== null && resale !== null ? (purchasePrice - resale) / s.years : null;
-  const excessRepair = Math.max(0, s.repairScenario - reserve * s.years);
-  const total = !missing.length && purchasePrice !== null && resale !== null && duty !== null ? annual * s.years + purchasePrice - resale + upfront + excessRepair : null;
-  return { components, energyCosts: { electricity, petrol }, evidence, annual, runningTotal, annualBeforeRepairFund, runningBeforeRepairFund, annualLow, annualHigh, runningConfidence, missing, complete: !missing.length, energyReason: evidence.energy.basis, rego, info, purchasePrice, resale, resaleEstimated, resaleLow, resaleHigh, depreciation, feesIncluded, duty, transfer, ppsr, upfront, total, excessRepair };
+  const excessRepair = Math.max(0, s.repairScenario - includedReserve * s.years);
+  const total = !missing.length && purchasePrice !== null && resale !== null && duty !== null ? annualBeforeRepairFund! * s.years + purchasePrice - resale + upfront + s.repairScenario : null;
+  return { includedReserve, includesRepairFund: Boolean(s.includeRepairFund), components, energyCosts: { electricity, petrol }, evidence, annual, runningTotal, annualBeforeRepairFund, runningBeforeRepairFund, annualLow, annualHigh, runningConfidence, missing, complete: !missing.length, energyReason: evidence.energy.basis, rego, info, purchasePrice, resale, resaleEstimated, resaleLow, resaleHigh, depreciation, feesIncluded, duty, transfer, ppsr, upfront, total, excessRepair };
+}
+
+/** Covered-event examples and scheduled wear are useful context, not mechanical fault scenarios. */
+export function repairScenarioEligible(risk: RepairRisk): boolean {
+  return risk.low !== null && risk.low > 0 && !/windscreen|windshield|glass|collision|crash|accident|body repair|brake pads|brake discs/i.test(risk.title);
 }

@@ -1,4 +1,6 @@
 import { z } from 'zod';
+import phevAudits from './data/phev-research-audits.json';
+import familyGapUpdates from './data/family-fit-gap-updates.json';
 import type { FamilyFitAssessment } from './types';
 
 export const researchItemKeys = ['pricing', 'powertrain', 'family', 'warranty', 'servicing', 'insurance', 'tyres', 'repairs', 'reviews', 'ownership'] as const;
@@ -22,8 +24,10 @@ export const researchPacks = Object.entries(import.meta.glob('./data/research/*.
   if (!result.success) throw new Error(`Invalid research pack ${path}: ${result.error.message}`);
   return result.data;
 });
+researchPacks.push(...phevAudits.map(raw => packSchema.parse(raw)));
 export const researchSources = researchPacks.flatMap(p => p.sources);
-export const familyFitAssessments: FamilyFitAssessment[] = researchPacks.flatMap(p => p.fitAssessments);
+const gapAssessments = z.array(fitSchema).parse(familyGapUpdates.fitAssessments);
+export const familyFitAssessments: FamilyFitAssessment[] = researchPacks.flatMap(p => p.fitAssessments).map(item => gapAssessments.find(update => update.vehicleId === item.vehicleId) ?? item);
 export const fitAssessmentFor = (vehicleId: string) => familyFitAssessments.find(a => a.vehicleId === vehicleId);
 export const researchFor = (familyId: string) => researchPacks.find(p => p.familyId === familyId);
 

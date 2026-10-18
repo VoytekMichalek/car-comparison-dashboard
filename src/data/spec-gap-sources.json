@@ -1,0 +1,98 @@
+[
+  {
+    "id": "spec-gap-tesla-original-rvd",
+    "title": "Australian ROVER VTA-060004 July 2023 applicant RVD: Model Y five-seat variants, 1600 kg braked towing",
+    "url": "https://www.rover.infrastructure.gov.au/PublishedApprovals/VTADetails/RVDVariants/?apprversionid=d378f952-33df-ed11-a7c7-002248933428&id=3b573a9a-fa15-ec11-a313-0050569ede77",
+    "publisher": "Australian Department of Infrastructure / Tesla applicant declaration",
+    "kind": "manufacturer",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "spec-gap-atto-extended-aaa-lab",
+    "title": "AAA original Australian 2023 Atto 3 Extended test: official ADR81/02 laboratory consumption 149 Wh/km, separate measured 180 Wh/km",
+    "url": "https://realworld.org.au/wp-protected/7ea00f8c93ec/uploads/2025/08/AUG25_BYD-Atto-3_WEB.pdf",
+    "publisher": "Australian Automobile Association",
+    "kind": "review",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "spec-gap-atto-essential-aaa-lab",
+    "title": "AAA Australian 2025 Atto 3 Essential report: mandated laboratory 148 Wh/km and separate real-world test",
+    "url": "https://realworld.org.au/wp-protected/be27311f4741/uploads/2026/06/JUNE26_BYD-Atto-3-Essential_BEV_WEB.pdf",
+    "publisher": "Australian Automobile Association",
+    "kind": "review",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "spec-gap-ev5-related-thai-dc",
+    "title": "Kia Thailand matching 64.2 / 88.1 kWh LFP EV5 specification: 102 / 141 kW DC maxima; related-market corroboration",
+    "url": "https://www.kia.com/th/en/cars/ev5/specification.html",
+    "publisher": "Kia Thailand",
+    "kind": "manufacturer",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "spec-gap-ev6-original-kia-peak",
+    "title": "Kia original EV6 2021 European press material: 77.4 kWh battery and 239 kW peak charging under suitable conditions",
+    "url": "https://preprod2-press.kia.com/content/kiapress/es/es/home/media-resouces/press-releases/2021/-el-ev6-de-kia-reinventa-la-experiencia-de-poseer-un-vehiculo-el.html",
+    "publisher": "Kia Europe",
+    "kind": "manufacturer",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "spec-gap-ioniq77-related-ch-spec",
+    "title": "Hyundai Swiss December 2024 77.4 kWh Ioniq 5 manufacturer specification, dealer-hosted original: maximum DC 240 kW",
+    "url": "https://www.ahg-cars.ch/sites/default/files/2024-12/IONIQ5_10_Internet_f.pdf",
+    "publisher": "Hyundai Switzerland / AHG Cars",
+    "kind": "manufacturer",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "spec-gap-ioniq84-hyundai-peak",
+    "title": "Hyundai UK current 84 kWh Ioniq 5 specification: up to 260 kW DC; current MY27 related-platform figure, not original Australian MY25 certification",
+    "url": "https://dmassets.hyundai.com/is/content/hyundaiautoever/IONIQ_5_Tech_and_Spec_Guidepdf",
+    "publisher": "Hyundai UK",
+    "kind": "manufacturer",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "spec-gap-outlander-my24-charge",
+    "title": "Mitsubishi Australian MY24 brochure: original 20 kWh PHEV uses Mode3 15A AC and Mode4 DC, with distinct charging times",
+    "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/vehicle-brochures/24MY%20Outlander%20Brochure.pdf",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "spec-gap-outlander-my25-charge",
+    "title": "Mitsubishi Australian updated 22.7 kWh Outlander PHEV brochure: 32-minute DC and 6.5-hour 15A AC charging claims",
+    "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/vehicle-brochures/25MY%20Outlander%20PHEV%20Brochure.pdf",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "spec-gap-ancap-atto-scope",
+    "title": "Current ANCAP Australian Atto 3 scope: broad all-variants heading but Standard/Extended named in detailed technical applicability",
+    "url": "https://www.ancap.com.au/safety-ratings/byd/atto-3/e5634a",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "spec-gap-ancap-xtrail-scope",
+    "title": "Current ANCAP T33 X-Trail page: all-variants heading, 2021 datestamp and December 2027 expiry; exact new FWD report extension unresolved",
+    "url": "https://www.ancap.com.au/safety-ratings/nissan/x-trail/7b8e49",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "spec-gap-ancap-rav4-sixth-unrated",
+    "title": "ANCAP current sixth-generation RAV4 page: March 2026-onward hybrid/PHEV is explicitly Unrated",
+    "url": "https://www.ancap.com.au/safety-ratings/toyota/rav4/b5089e",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-19"
+  }
+]

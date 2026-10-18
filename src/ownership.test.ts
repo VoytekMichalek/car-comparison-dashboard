@@ -161,7 +161,7 @@ describe('Queensland ownership budgeting', () => {
     const p = { ...emptyPersonal(), ownership: { ...defaultOwnership, insurance: 1200, servicing: 400, tyres: 300, tyreMode: 'shared' as const, repairMode: 'shared' as const, charger: 0, inspection: 0, vehicleOverrides: { [ev.id]: { energy: 1000 } } } };
     const e = ownershipEstimate(ev, p);
     expect(e.complete).toBe(true);
-    expect(e.annual).toBeCloseTo(4190.15);
+    expect(e.annual).toBeCloseTo(3690.15);
     expect(e.feesIncluded).toBe(true);
     expect(e.duty).toBe(0);
     expect(e.transfer).toBe(0);
@@ -184,7 +184,7 @@ describe('Queensland ownership budgeting', () => {
     const e = ownershipEstimate(ev, p);
     expect(e.depreciation).toBe(5000);
     expect(e.resaleEstimated).toBe(false);
-    expect(e.excessRepair).toBe(4500);
+    expect(e.excessRepair).toBe(7000);
   });
   it('prices tyres for each configuration and scales the allowance with distance', () => {
     const atto = vehicles.find(v => v.id === 'atto3-standard-2022')!;
@@ -203,7 +203,7 @@ describe('Queensland ownership budgeting', () => {
     expect(e.components.tyres).toBe(420);
     expect(e.components.reserve).toBe(600);
     expect(e.evidence.tyres.estimated).toBe(false);
-    expect(e.annual).toBeCloseTo(4260.15);
+    expect(e.annual).toBeCloseTo(3660.15);
     expect(ownershipEstimate(rav4, p).components.tyres).toBe(ownershipEstimate(rav4, emptyPersonal()).components.tyres);
     expect(parseBackup(JSON.stringify(p))).toEqual(p);
   });
@@ -272,10 +272,10 @@ describe('Queensland ownership budgeting', () => {
   it('counts purchase once in a ten-year total and deducts resale once', () => {
     const p = { ...emptyPersonal(), ownership: { ...defaultOwnership, years: 10, insurance: 1000, servicing: 200, tyres: 100, tyreMode: 'shared' as const, repairReserve: 300, repairMode: 'shared' as const, financeInterestAnnual: 150, purchasePrice: 40000, resaleValue: 10000, charger: 2000, inspection: 400, otherUpfront: 100, feesIncluded: 'yes' as const, repairScenario: 5000, vehicleOverrides: { [ev.id]: { energy: 600, rego: 800 } } } };
     const e = ownershipEstimate(ev, p);
-    expect(e.annual).toBe(3150);
+    expect(e.annual).toBe(2850);
     expect(e.upfront).toBe(2502);
-    expect(e.excessRepair).toBe(2000);
-    expect(e.runningTotal).toBe(31500);
+    expect(e.excessRepair).toBe(5000);
+    expect(e.runningTotal).toBe(28500);
     expect(e.total).toBe(66002);
   });
 });
@@ -302,14 +302,15 @@ it('uses configuration service budgets when available and preserves quote preced
 
 
 describe('car-specific repair savings', () => {
-  it('separates running costs before the repair fund from the total cash budget', () => {
+  it('excludes saved repair funds from spending by default', () => {
     const personal = emptyPersonal();
     const cost = ownershipEstimate(ev, personal);
     const changed = ownershipEstimate(ev, { ...personal, ownership: { ...defaultOwnership, vehicleOverrides: { [ev.id]: { repairReserve: 0 } } } });
     expect(cost.annualBeforeRepairFund).toBe(changed.annual);
     expect(cost.runningBeforeRepairFund).toBe(changed.runningTotal);
-    expect(cost.annual - changed.annual).toBe(1000);
-    expect(cost.runningTotal! - changed.runningTotal!).toBe(10000);
+    expect(cost.annual).toBe(changed.annual);
+    expect(cost.total).toBe(changed.total);
+    expect(cost.runningTotal).toBe(changed.runningTotal);
   });
   it('aligns same-age original Model Ys and retains low-confidence savings bounds', () => {
     const rwd = ownershipEstimate(ev, emptyPersonal());
@@ -343,11 +344,17 @@ describe('car-specific repair savings', () => {
     const oldDefault = { ...custom, ownership: { ...custom.ownership, repairReserve: 500 } };
     expect(ownershipEstimate(ev, oldDefault).components.reserve).toBe(1000);
   });
-  it('counts a fund once and adds only a stress repair above that fund', () => {
+  it('counts a repair scenario once without charging the savings fund', () => {
     const p = { ...emptyPersonal(), ownership: { ...defaultOwnership, years: 5, repairScenario: 9000, vehicleOverrides: {} } };
     const e = ownershipEstimate(ev, p);
-    expect(e.excessRepair).toBe(9000 - e.components.reserve * 5);
+    expect(e.excessRepair).toBe(9000);
     expect(e.runningTotal).toBe(e.annual * 5);
-    expect(e.annual).toBe(Object.values(e.components).reduce<number>((sum, n) => sum + (n ?? 0), 0));
+    expect(e.annual).toBe(Object.values(e.components).reduce<number>((sum, n) => sum + (n ?? 0), 0) - e.components.reserve);
+    const enabled = ownershipEstimate(ev, { ...p, ownership: { ...p.ownership, includeRepairFund: true } });
+    expect(enabled.annual).toBe(e.annual + e.components.reserve);
+    expect(enabled.annualBeforeRepairFund).toBe(e.annual);
+    expect(enabled.total).toBe(e.total);
+    expect(enabled.excessRepair).toBe(9000 - enabled.components.reserve * 5);
+    expect(e.total).toBe(e.annual * 5 + e.purchasePrice! - e.resale! + e.upfront + 9000);
   });
 });

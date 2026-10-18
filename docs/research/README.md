@@ -1,10 +1,12 @@
-# Model-by-model audit — 18 October 2026
+# Model-by-model audit — updated 19 October 2026
 
 The current family target is **three restraints: one rear-facing plus two forward-facing seats or boosters**. Exact restraint models and your own installation remain unconfirmed.
 
-**19 families · 35 configurations · 190 item checks · 1,179 source records.** Source records can cite the same URL for separate claims; there are 715 distinct URLs. Each model family has a dedicated research agent and a separate report. Every audit checks pricing, powertrain, family practicality, warranty, servicing, insurance, tyres, repairs, reviews and other ownership considerations. A checked item can still contain an explicitly labelled estimate or unresolved gap. These checks are not a percentage of facts proven correct.
+**25 families · 41 configurations · 250 item checks · 1,306 source records.** Sources can cite the same URL for separate claims. Each family has a report covering pricing, powertrain, family practicality, warranty, servicing, insurance, tyres, repairs, reviews and other ownership considerations. A checked item can still contain an estimate or unresolved applicability. These counts are not a percentage of facts proven correct.
 
-## Expanded rating research
+Latest follow-ups: [gaps and repair accounting](GAPS-AND-REPAIRS-2026-10-19.md), [boot and specifications](BOOT-GAPS-2026-10-19.md), [child seats](FAMILY-FIT-GAPS-2026-10-19.md), [owner ratings](OWNER-REVIEW-GAPS-2026-10-19.md), [six additional PHEVs](PHEV-EXPANSION-2026-10-19.md).
+
+## Expanded rating research — original 18 October pass
 
 The latest multi-site review pass adds 76 cohorts and 89 source records, covering all 19 families and explicitly matching or excluding all 35 configurations. There are 67 owner cohorts, seven professional rating cohorts and two reliability/quality entries. Fifteen related or matched owner cohorts have at least 50 contributions; these are not fifteen distinct cars or counts of unique people. Source websites may share contributors. Large incompatible cohorts remain reference-only, and newer models retain explicit small-sample gaps.
 
@@ -45,6 +47,14 @@ The individual reports below record checked sources, changed and retained values
 | Toyota Kluger Hybrid | 1 | [Findings and sources](toyota-kluger-hybrid.md) |
 | Toyota RAV4 Hybrid | 2 | [Findings and sources](toyota-rav4-hybrid.md) |
 | Zeekr 7X | 2 | [Findings and sources](zeekr-7x.md) |
+
+| MG HS Plus EV | 1 | [Findings and sources](mg-hs-phev.md) |
+| Mitsubishi Eclipse Cross PHEV | 1 | [Findings and sources](mitsubishi-eclipse-cross-phev.md) |
+| GWM Haval H6 PHEV | 1 | [Findings and sources](gwm-haval-h6-phev.md) |
+| Geely Starray EM-i | 1 | [Findings and sources](geely-starray-emi.md) |
+| Chery Tiggo 7 Super Hybrid | 1 | [Findings and sources](chery-tiggo7-super-hybrid.md) |
+| Chery Tiggo 8 Super Hybrid | 1 | [Findings and sources](chery-tiggo8-super-hybrid.md) |
+
 
 ## Remaining limits
 

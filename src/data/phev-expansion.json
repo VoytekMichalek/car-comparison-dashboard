@@ -1,0 +1,3763 @@
+{
+  "vehicles": [
+    {
+      "id": "mg-hs-plus-ev-essence-2021",
+      "familyId": "mg-hs-phev",
+      "make": "MG",
+      "model": "HS Plus EV",
+      "variant": "Essence · 16.6 kWh · original PHEV",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "generation": "SAS23 / EHS · original HS PHEV / Plus EV",
+      "powertrain": "PHEV",
+      "seats": 5,
+      "drive": "FWD",
+      "headline": "Low used price; three mixed-direction restraints tested.",
+      "summary": "Worth inspecting as a cheaper used PHEV. Original HS Plus EV is a different car from the newer HS Super Hybrid. A short service interval and unrated PHEV safety status are material compromises.",
+      "range": {
+        "value": 63,
+        "unit": "km",
+        "basis": "NEDC electric-only claim; Australian original Plus EV.",
+        "sourceIds": [
+          "phev19-mg-spec"
+        ]
+      },
+      "battery": {
+        "value": 16.6,
+        "unit": "kWh",
+        "basis": "Manufacturer pack capacity; usable portion not separately verified.",
+        "sourceIds": [
+          "phev19-mg-spec"
+        ]
+      },
+      "depletedConsumption": {
+        "value": 7.4,
+        "unit": "L/100km",
+        "basis": "Observed original Essence test after depleting charge; one urban/highway route, not a certified result.",
+        "sourceIds": [
+          "phev19-mg-road"
+        ]
+      },
+      "acCharging": {
+        "value": 3.7,
+        "unit": "kW",
+        "basis": "Estimate: conservative 3.7 kW planning limit. Australian reports conflict between 3.7 and 7 kW; the period manufacturer documents a 5-hour full-charge claim rather than an unambiguous maximum. Confirm on the actual car.",
+        "sourceIds": [
+          "phev19-mg-manual"
+        ]
+      },
+      "dcCharging": {
+        "value": 0,
+        "unit": "kW",
+        "basis": "No DC fast charging on the original HS Plus EV.",
+        "sourceIds": [
+          "phev19-mg-manual"
+        ]
+      },
+      "boot": {
+        "value": 451,
+        "unit": "L",
+        "basis": "Rear seats up, to cargo cover; original PHEV, not petrol or newer HS.",
+        "sourceIds": [
+          "phev19-mg-road"
+        ]
+      },
+      "bootAllRows": {
+        "value": 451,
+        "unit": "L",
+        "basis": "All five seats occupied; same rear-boot measure.",
+        "sourceIds": [
+          "phev19-mg-road"
+        ]
+      },
+      "length": {
+        "value": 4574,
+        "unit": "mm",
+        "basis": "Body length.",
+        "sourceIds": [
+          "phev19-mg-spec"
+        ]
+      },
+      "width": {
+        "value": 1876,
+        "unit": "mm",
+        "basis": "Body width excluding mirrors.",
+        "sourceIds": [
+          "phev19-mg-spec"
+        ]
+      },
+      "towing": {
+        "value": 1500,
+        "unit": "kg",
+        "basis": "Maximum braked; confirm actual towbar and payload limits.",
+        "sourceIds": [
+          "phev19-mg-spec"
+        ]
+      },
+      "warranty": "Period cover: 7 years/unlimited km. Confirm the original in-service date and booklet; current MG 10-year offers do not automatically apply to an older car.",
+      "batteryWarranty": "Period Plus EV battery cover: 7 years. Confirm kilometre, degradation and transfer conditions for the VIN; buying used does not restart cover.",
+      "servicing": "12 months/10,000 km. At 15,000 km/year, allow roughly 1.5 scheduled visits annually; the actual bill depends on age and kilometres.",
+      "connector": "Type 2 AC; no DC port.",
+      "chargeTime": "Manufacturer claim: about 5 hours from a suitable wallbox, or 9 hours from household supply. Supply and temperature affect this.",
+      "safety": {
+        "stars": null,
+        "year": null,
+        "applicability": "Unrated: ANCAP excludes the original HS PHEV/+EV from its 2019 petrol HS rating. Unrated does not mean a zero-star crash result.",
+        "sourceIds": [
+          "phev19-mg-ancap"
+        ]
+      },
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Published original PHEV test fitted two rear-facing seats plus a booster. Your one rear-facing plus two other-seat arrangement remains unconfirmed.",
+        "row2": "Two outboard ISOFIX positions; three top tethers on backrests.",
+        "row3": "Not applicable: five-seat vehicle.",
+        "testedSeats": "Two rear-facing Infasecure Optima/Serene seats plus Versatile Folding Booster; article also discusses forward-facing use. Not a verified one rear-facing plus two forward-facing combination.",
+        "buckleAccess": "A booster was included, but independent buckle access for your seats was not measured.",
+        "access": "Tester found loading from inside or outside easy; 180 cm driver or 184 cm passenger fitted ahead of a rear-facing seat.",
+        "ventilation": "Rear console vents; rear USB ports.",
+        "sourceIds": [
+          "phev19-mg-fit",
+          "phev19-mg-spec"
+        ]
+      },
+      "pros": [
+        "Low used asking price.",
+        "Three mixed-direction restraints fitted in a published test.",
+        "Rear vents; 451 L boot."
+      ],
+      "cons": [
+        "Original PHEV has no applicable ANCAP star rating.",
+        "10,000 km service interval; no DC charging.",
+        "Reviewers reported slow screens and uneven petrol handover."
+      ],
+      "inspection": [
+        "Bring all three restraints and check independent buckle access.",
+        "Verify free REC-005652 ground-stud recall work by VIN.",
+        "Test charging, engine handover, air-conditioning and screens; obtain diagnostics and a battery-health check.",
+        "Get remaining warranty terms and the next four service prices in writing."
+      ],
+      "changes": [
+        {
+          "period": "2021–24 original",
+          "text": "PHEV and Plus EV names cover the original 16.6 kWh family. Registration and build year can differ.",
+          "sourceIds": [
+            "phev19-mg-spec",
+            "phev19-mg-price"
+          ]
+        },
+        {
+          "period": "Newer HS Super Hybrid",
+          "text": "The 2025-onward HS Super Hybrid has a different body and battery; this entry does not transfer old fit or safety evidence to it.",
+          "sourceIds": [
+            "phev19-mg-ancap"
+          ]
+        }
+      ],
+      "gaps": [
+        "Exact Maxi-Cosi and booster combination remains unconfirmed.",
+        "No Australian age-adjusted failure rate or installed replacement-battery quote verified.",
+        "One indexed Queensland seller ask; availability unconfirmed.",
+        "Test photographs show two rear-facing plus a booster, not the exact desired combination."
+      ],
+      "sourceIds": [
+        "phev19-mg-spec",
+        "phev19-mg-manual",
+        "phev19-mg-road",
+        "phev19-mg-ancap",
+        "phev19-mg-recall",
+        "phev19-mg-warranty"
+      ],
+      "checked": "2026-10-19",
+      "weightedFuelConsumption": {
+        "value": 1.7,
+        "unit": "L/100km",
+        "basis": "Weighted ADR/NEDC combined claim with charge available; not petrol use after depletion.",
+        "sourceIds": [
+          "phev19-mg-spec"
+        ]
+      },
+      "consumption": {
+        "value": null,
+        "unit": "kWh/100km",
+        "basis": "EV-only electrical consumption not verified. Ownership-cost planning uses a separately labelled model-specific estimate.",
+        "energyBasis": "unspecified",
+        "sourceIds": [
+          "phev19-mg-spec"
+        ]
+      }
+    },
+    {
+      "id": "eclipse-cross-phev-aspire-2021",
+      "familyId": "mitsubishi-eclipse-cross-phev",
+      "make": "Mitsubishi",
+      "model": "Eclipse Cross PHEV",
+      "variant": "Aspire · 13.8 kWh · AWD",
+      "years": [
+        2021,
+        2022,
+        2023
+      ],
+      "generation": "YB facelift · original 13.8 kWh Australian PHEV",
+      "powertrain": "PHEV",
+      "seats": 5,
+      "drive": "AWD",
+      "headline": "Three-across evidence and good rear-facing legroom; smaller boot.",
+      "summary": "A cheaper used PHEV with Mitsubishi support. Its 359 L boot and lack of rear vents matter in Queensland. The published Exceed restraint test is related evidence for Aspire.",
+      "range": {
+        "value": 55,
+        "unit": "km",
+        "basis": "Period NEDC electric-only claim. The current website lists 54 km; do not present this as WLTP.",
+        "sourceIds": [
+          "phev19-eclipse-brochure",
+          "phev19-eclipse-expert"
+        ]
+      },
+      "battery": {
+        "value": 13.8,
+        "unit": "kWh",
+        "basis": "Published nominal lithium-ion pack capacity.",
+        "sourceIds": [
+          "phev19-eclipse-spec"
+        ]
+      },
+      "depletedConsumption": {
+        "value": 5.5,
+        "unit": "L/100km",
+        "basis": "A first-person Australian test drove a further 100 km after depletion without charging and reported 5.5 L/100 km. One route is not a guarantee.",
+        "sourceIds": [
+          "phev19-eclipse-expert"
+        ]
+      },
+      "acCharging": {
+        "value": 3.6,
+        "unit": "kW",
+        "basis": "Period Australian test reports a 3.6 kW AC maximum.",
+        "sourceIds": [
+          "phev19-eclipse-expert"
+        ]
+      },
+      "dcCharging": {
+        "value": 18,
+        "unit": "kW",
+        "basis": "Estimate: 18 kW planning reference for the original 13.8 kWh CHAdeMO system. Published sources also quote 22 kW; the supported manufacturer claim is 0–80% in 25 minutes.",
+        "sourceIds": [
+          "phev19-eclipse-brochure"
+        ]
+      },
+      "boot": {
+        "value": 359,
+        "unit": "L",
+        "basis": "VDA rear boot with the second row up; PHEV configuration.",
+        "sourceIds": [
+          "phev19-eclipse-spec",
+          "phev19-eclipse-expert"
+        ]
+      },
+      "bootAllRows": {
+        "value": 359,
+        "unit": "L",
+        "basis": "All five seats occupied; same rear-boot measure.",
+        "sourceIds": [
+          "phev19-eclipse-spec"
+        ]
+      },
+      "length": {
+        "value": 4545,
+        "unit": "mm",
+        "basis": "Australian facelift body length.",
+        "sourceIds": [
+          "phev19-eclipse-brochure"
+        ]
+      },
+      "width": {
+        "value": 1805,
+        "unit": "mm",
+        "basis": "Body width excluding mirrors.",
+        "sourceIds": [
+          "phev19-eclipse-brochure"
+        ]
+      },
+      "towing": {
+        "value": 1500,
+        "unit": "kg",
+        "basis": "Maximum braked trailer rating; towbar, payload and axle limits also apply.",
+        "sourceIds": [
+          "phev19-eclipse-brochure"
+        ]
+      },
+      "warranty": "Standard 5 years/100,000 km; up to 10 years/200,000 km subject to eligible dealer servicing. Confirm remaining term, transfer and service-history eligibility by VIN.",
+      "batteryWarranty": "Original 13.8 kWh traction-battery cover: 8 years/160,000 km. Confirm the period booklet, exclusions and remaining term.",
+      "servicing": "12 months/15,000 km. MY23 caps include expensive 90,000 and 120,000 km visits; ask for the actual VIN and age schedule.",
+      "connector": "Type 2 AC + CHAdeMO DC. Check local CHAdeMO availability.",
+      "chargeTime": "Period claims: about 3.5–4 hours AC, 6–7 hours household, or 0–80% DC in 25 minutes. These are different charge windows.",
+      "safety": {
+        "stars": 5,
+        "year": 2017,
+        "applicability": "2017 five-star rating covers Australian PHEVs introduced May 2021 and builds through December 2023. It has expired; 2024 builds do not inherit it.",
+        "sourceIds": [
+          "phev19-eclipse-ancap"
+        ]
+      },
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Related Exceed test shows three forward-facing seats and separately checks rear-facing space; your simultaneous arrangement remains pending.",
+        "row2": "Two outboard ISOFIX positions; three seatback top tethers.",
+        "row3": "Not applicable: five-seat vehicle.",
+        "testedSeats": "Two Infasecure Achieve More plus an Attain More. Three forward-facing photographed; rear-facing configurations checked separately.",
+        "buckleAccess": "No daily three-booster buckle-access test verified.",
+        "access": "Published test accommodated a 184 cm front occupant ahead of a rear-facing seat.",
+        "ventilation": "No rear console vents in Aspire.",
+        "sourceIds": [
+          "phev19-eclipse-fit",
+          "phev19-eclipse-brochure"
+        ]
+      },
+      "pros": [
+        "Same-body PHEV has published three-across and separate rear-facing evidence.",
+        "Promising rear-facing legroom.",
+        "Used asks below A$45,000."
+      ],
+      "cons": [
+        "359 L boot.",
+        "No rear vents in Aspire.",
+        "2017 safety protocol; less common CHAdeMO connector."
+      ],
+      "inspection": [
+        "Fit all three restraints; retain a comfortable front-seat position.",
+        "Test AC charging and, where possible, CHAdeMO; check supplied cables and battery health.",
+        "Obtain remaining warranty eligibility and VIN-specific capped-service prices.",
+        "Inspect cooling, air-conditioning, suspension and 12 V battery; these are checks, not asserted common faults.",
+        "Check recalls by VIN; do not apply unrelated old petrol campaigns."
+      ],
+      "changes": [
+        {
+          "period": "2021–23 YB",
+          "text": "Aspire 13.8 kWh AWD only. Earlier petrol cars and 2024-onward builds are outside this safety-rated configuration.",
+          "sourceIds": [
+            "phev19-eclipse-brochure",
+            "phev19-eclipse-ancap"
+          ]
+        },
+        {
+          "period": "Build versus registration",
+          "text": "Use the VIN and build date for ANCAP applicability. Registration year alone can mislead.",
+          "sourceIds": [
+            "phev19-eclipse-ancap"
+          ]
+        }
+      ],
+      "gaps": [
+        "Exceed restraint results transfer provisionally to Aspire.",
+        "Exact Maxi-Cosi fit and booster buckle reach remain unconfirmed.",
+        "No verified Australian major-repair quote or failure-rate dataset.",
+        "Simultaneous one rear-facing plus two other-seat arrangement was not demonstrated in the available photographs."
+      ],
+      "sourceIds": [
+        "phev19-eclipse-spec",
+        "phev19-eclipse-brochure",
+        "phev19-eclipse-ancap",
+        "phev19-eclipse-service",
+        "phev19-eclipse-expert",
+        "phev19-recalls",
+        "own-hy-mitsubishi-warranty"
+      ],
+      "checked": "2026-10-19",
+      "weightedFuelConsumption": {
+        "value": 1.9,
+        "unit": "L/100km",
+        "basis": "Weighted ADR 81/02 combined fuel claim; not petrol use after battery depletion.",
+        "sourceIds": [
+          "phev19-eclipse-spec"
+        ]
+      },
+      "consumption": {
+        "value": null,
+        "unit": "kWh/100km",
+        "basis": "EV-only electrical consumption not verified. Ownership-cost planning uses a separately labelled model-specific estimate.",
+        "energyBasis": "unspecified",
+        "sourceIds": [
+          "phev19-eclipse-spec"
+        ]
+      }
+    },
+    {
+      "id": "haval-h6-lux-phev-2026",
+      "familyId": "gwm-haval-h6-phev",
+      "make": "GWM",
+      "model": "Haval H6 PHEV",
+      "variant": "Lux · 19.09 kWh · FWD",
+      "years": [
+        2026
+      ],
+      "generation": "B01 facelift · MY26 Australian PHEV · not H6 GT",
+      "powertrain": "PHEV",
+      "seats": 5,
+      "drive": "FWD",
+      "headline": "New PHEV near budget; promising three-across evidence.",
+      "summary": "Sampled Queensland new Lux asks are below A$45,000. It offers DC charging and a large cabin. Verify build date and local suspension tune; H6 GT and Hi4 AWD are separate configurations.",
+      "range": {
+        "value": 106,
+        "unit": "km",
+        "basis": "NEDC electric-only claim for FWD. The AWD 100 km claim is separate.",
+        "sourceIds": [
+          "phev19-h6-spec"
+        ]
+      },
+      "battery": {
+        "value": 19.09,
+        "unit": "kWh",
+        "basis": "Manufacturer nominal LFP pack capacity.",
+        "sourceIds": [
+          "phev19-h6-spec"
+        ]
+      },
+      "depletedConsumption": {
+        "value": 5,
+        "unit": "L/100km",
+        "basis": "Manufacturer low-charge combined figure for FWD; AWD is 5.3 L/100 km.",
+        "sourceIds": [
+          "phev19-h6-spec"
+        ]
+      },
+      "acCharging": {
+        "value": 6.6,
+        "unit": "kW",
+        "basis": "Manufacturer AC maximum.",
+        "sourceIds": [
+          "phev19-h6-spec"
+        ]
+      },
+      "dcCharging": {
+        "value": 34,
+        "unit": "kW",
+        "basis": "Manufacturer DC maximum; peak is not average charging power.",
+        "sourceIds": [
+          "phev19-h6-spec"
+        ]
+      },
+      "boot": {
+        "value": 560,
+        "unit": "L",
+        "basis": "Manufacturer minimum luggage capacity with all five seats up; loading method unspecified.",
+        "sourceIds": [
+          "phev19-h6-spec"
+        ]
+      },
+      "bootAllRows": {
+        "value": 560,
+        "unit": "L",
+        "basis": "Manufacturer minimum luggage capacity with all five seats up; loading method unspecified.",
+        "sourceIds": [
+          "phev19-h6-spec"
+        ]
+      },
+      "length": {
+        "value": 4703,
+        "unit": "mm",
+        "basis": "Body length.",
+        "sourceIds": [
+          "phev19-h6-spec"
+        ]
+      },
+      "width": {
+        "value": 1886,
+        "unit": "mm",
+        "basis": "Body width excluding mirrors.",
+        "sourceIds": [
+          "phev19-h6-spec"
+        ]
+      },
+      "towing": {
+        "value": 1500,
+        "unit": "kg",
+        "basis": "Manufacturer braked rating; confirm towbar, download and loaded-vehicle limits.",
+        "sourceIds": [
+          "phev19-h6-spec"
+        ]
+      },
+      "warranty": "7 years/unlimited km for private use. Confirm commencement date on a new or demonstrator vehicle; commercial terms differ.",
+      "batteryWarranty": "8 years/unlimited km battery-pack headline cover in the Australian brochure. Obtain the actual capacity/degradation and exclusion terms for the VIN.",
+      "servicing": "First 12 months/10,000 km, then 12 months/15,000 km. Original five-service caps reach 70,000 km; confirm 2026 registration pricing.",
+      "connector": "Type 2 AC + CCS2 DC; V2L supported.",
+      "chargeTime": "Claims: DC 30–80% in 28 minutes; AC 15–100% in under 3 hours. Charger and conditions matter.",
+      "safety": {
+        "stars": 5,
+        "year": 2022,
+        "applicability": "2022 H6 five-star rating includes the PHEV in the report updated March 2026; expires December 2028. H6 GT is a different body.",
+        "sourceIds": [
+          "phev19-h6-ancap",
+          "phev19-h6-report"
+        ]
+      },
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Three-across reported in H6 PHEV; grade and restraint models unspecified.",
+        "row2": "Two outboard ISOFIX positions; three row-two top tethers.",
+        "row3": "Not applicable: five-seat vehicle.",
+        "testedSeats": "Three seats reported; exact models and direction mix not named.",
+        "buckleAccess": "Independent booster buckle access needs a trial.",
+        "access": "Published test reports room for a 182 cm driver ahead of a rear-facing seat.",
+        "ventilation": "Rear console vents; dual-zone climate.",
+        "sourceIds": [
+          "phev19-fit-roundup",
+          "phev19-h6-spec",
+          "phev19-h6-report"
+        ]
+      },
+      "pros": [
+        "Sampled new Queensland asks below A$45,000.",
+        "DC charging; manufacturer publishes depleted fuel use.",
+        "Spacious family-test findings; 560 L boot."
+      ],
+      "cons": [
+        "Little long-term Australian PHEV reliability history.",
+        "First service at 10,000 km.",
+        "Confirm local retune; test ADAS settings."
+      ],
+      "inspection": [
+        "Fit all restraints and check each booster buckle.",
+        "Verify build and steering/damper revision; drive rough roads.",
+        "Quote charger installation separately from any hardware offer.",
+        "Get six service prices and full battery warranty terms.",
+        "Check VIN campaigns and test both charging modes, cameras and engine handover."
+      ],
+      "changes": [
+        {
+          "period": "MY26 facelift",
+          "text": "Lux FWD PHEV: 19.09 kWh, 106 km NEDC. Hi4 AWD and H6 GT are excluded.",
+          "sourceIds": [
+            "phev19-h6-spec"
+          ]
+        },
+        {
+          "period": "Australian tune",
+          "text": "A local review describes steering and damper revisions reaching production during 2026. Verify build applicability, not just sale date.",
+          "sourceIds": [
+            "phev19-h6-road",
+            "phev19-h6-expert"
+          ]
+        }
+      ],
+      "gaps": [
+        "Published family test does not name Lux grade or exact seats.",
+        "No verified long-term PHEV failure rate or installed major-repair quote.",
+        "2026 VIN service caps require a dealer quote.",
+        "Simultaneous one rear-facing plus two other restraints not established by the short published roundup."
+      ],
+      "sourceIds": [
+        "phev19-h6-spec",
+        "phev19-h6-page",
+        "phev19-h6-service",
+        "phev19-h6-ancap",
+        "phev19-h6-report",
+        "phev19-h6-road",
+        "phev19-h6-expert",
+        "phev19-recalls"
+      ],
+      "checked": "2026-10-19",
+      "weightedFuelConsumption": {
+        "value": 1,
+        "unit": "L/100km",
+        "basis": "Weighted NEDC/ADR fuel claim with charge; not depleted fuel use.",
+        "sourceIds": [
+          "phev19-h6-spec"
+        ]
+      },
+      "consumption": {
+        "value": 18.4,
+        "unit": "kWh/100km",
+        "basis": "Published weighted electrical-consumption term in the mixed petrol/electric certification cycle. This is not EV-only energy use; the ownership model uses a separate estimate.",
+        "energyBasis": "unspecified",
+        "sourceIds": [
+          "phev19-h6-spec"
+        ]
+      }
+    },
+    {
+      "id": "starray-emi-complete-2025",
+      "familyId": "geely-starray-emi",
+      "make": "Geely",
+      "model": "Starray EM-i",
+      "variant": "Complete · 18.4 kWh · FWD",
+      "years": [
+        2025,
+        2026
+      ],
+      "generation": "P145 · Complete 18.4 kWh · MY26/MY27",
+      "powertrain": "PHEV",
+      "seats": 5,
+      "drive": "FWD",
+      "headline": "Promising three-seat and rear-facing legroom evidence.",
+      "summary": "A useful new PHEV test-drive candidate near A$40,000. Complete retains 18.4 kWh; Inspire Extended and AWD range, charging and equipment do not transfer to it.",
+      "range": {
+        "value": 83,
+        "unit": "km",
+        "basis": "WLTP electric-only claim for Complete 18.4 kWh; not 136 km Extended Range.",
+        "sourceIds": [
+          "phev19-geely-spec",
+          "phev19-geely-update"
+        ]
+      },
+      "battery": {
+        "value": 18.4,
+        "unit": "kWh",
+        "basis": "Manufacturer nominal LFP pack capacity.",
+        "sourceIds": [
+          "phev19-geely-spec"
+        ]
+      },
+      "depletedConsumption": {
+        "value": 5.8,
+        "unit": "L/100km",
+        "basis": "Estimate: 5.8 represents mid/high-5s observed in an original 18.4 kWh road test. Related Inspire grade, one route.",
+        "sourceIds": [
+          "phev19-geely-road"
+        ]
+      },
+      "acCharging": {
+        "value": 6.6,
+        "unit": "kW",
+        "basis": "Single-phase AC maximum.",
+        "sourceIds": [
+          "phev19-geely-spec"
+        ]
+      },
+      "dcCharging": {
+        "value": 30,
+        "unit": "kW",
+        "basis": "Complete 18.4 kWh maximum. 60 kW belongs to Extended Range.",
+        "sourceIds": [
+          "phev19-geely-spec",
+          "phev19-geely-update"
+        ]
+      },
+      "boot": {
+        "value": 528,
+        "unit": "L",
+        "basis": "Manufacturer figure reported at Australian launch; loading method unspecified.",
+        "sourceIds": [
+          "phev19-geely-boot"
+        ]
+      },
+      "bootAllRows": {
+        "value": 528,
+        "unit": "L",
+        "basis": "All five seats occupied; same published boot figure.",
+        "sourceIds": [
+          "phev19-geely-boot"
+        ]
+      },
+      "length": {
+        "value": 4740,
+        "unit": "mm",
+        "basis": "Australian body length.",
+        "sourceIds": [
+          "phev19-geely-spec"
+        ]
+      },
+      "width": {
+        "value": 1905,
+        "unit": "mm",
+        "basis": "Body width excluding mirrors.",
+        "sourceIds": [
+          "phev19-geely-spec"
+        ]
+      },
+      "towing": {
+        "value": null,
+        "unit": "kg",
+        "basis": "Braked capacity unverified. Original tow approval was delayed; obtain approved VIN-specific limits and towbar documentation before towing.",
+        "sourceIds": [
+          "phev19-geely-expert"
+        ]
+      },
+      "warranty": "7 years/unlimited km for private vehicles. Confirm commencement date and service conditions; commercial terms differ.",
+      "batteryWarranty": "8 years/unlimited km for the private-use high-voltage battery. Period Australian review reports a 70% capacity threshold; confirm the VIN booklet.",
+      "servicing": "12 months/15,000 km. Five MY25/MY26 visits total A$1,932; published prices are fixed through 31 December 2026, not ten years.",
+      "connector": "Type 2 AC + CCS2 DC; V2L available.",
+      "chargeTime": "Original 18.4 kWh charging claim: DC 30–80% about 20 minutes; AC full charge around 3 hours on 6.6 kW supply. Conditions vary.",
+      "safety": {
+        "stars": 5,
+        "year": 2025,
+        "applicability": "2025 five-star result: P145 variants built from June 2025, on sale September 2025. Published February 2026; expires December 2031.",
+        "sourceIds": [
+          "phev19-geely-ancap",
+          "phev19-geely-report"
+        ]
+      },
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Related Inspire fitted one rear-facing plus two forward-facing seats, with a tight shoulder fit. Your Complete/Maxi-Cosi check remains pending.",
+        "row2": "Two outboard ISOFIX positions; three top tethers.",
+        "row3": "Not applicable: five-seat vehicle.",
+        "testedSeats": "One rear-facing plus two forward-facing; also three forward-facing. Models not named; shoulder width was tight.",
+        "buckleAccess": "ANCAP could not install one tested booster in the centre; exact compatibility needs checking.",
+        "access": "Published test reports room for a 186 cm driver ahead of a rear-facing seat.",
+        "ventilation": "Rear console vents and USB ports.",
+        "sourceIds": [
+          "phev19-geely-report",
+          "phev19-geely-spec",
+          "phev19-geely-fit"
+        ]
+      },
+      "pros": [
+        "Strong published rear-facing legroom.",
+        "New Complete asking snapshot near A$40,000.",
+        "CCS2 DC charging; 2025 five-star ANCAP rating."
+      ],
+      "cons": [
+        "Check centre booster compatibility.",
+        "Short local operating history.",
+        "30 kW DC on Complete; Extended claims do not apply."
+      ],
+      "inspection": [
+        "Test the Maxi-Cosi and both other restraints, especially centre booster compatibility.",
+        "Confirm Complete 18.4 kWh configuration and software; do not confuse Inspire Extended.",
+        "Drive bumps and test lane and sign assistance.",
+        "Ask about battery terms, local parts lead times and service prices.",
+        "Check recalls and written towbar approval for the actual VIN."
+      ],
+      "changes": [
+        {
+          "period": "2025 launch / MY26",
+          "text": "Complete has 18.4 kWh, 83 km WLTP and 30 kW DC. The early specification guide is preliminary; check the actual car.",
+          "sourceIds": [
+            "phev19-geely-spec",
+            "phev19-geely-road"
+          ]
+        },
+        {
+          "period": "2026 / MY27",
+          "text": "Inspire Extended gains 29.8 kWh, 136 km WLTP and 60 kW DC. Complete retains the smaller pack; AWD is separate.",
+          "sourceIds": [
+            "phev19-geely-update"
+          ]
+        }
+      ],
+      "gaps": [
+        "Exact Complete grade and restraint combination unverified.",
+        "VIN-specific approved towing capacity requires written confirmation.",
+        "No credible long-term Australian mechanical-failure rate."
+      ],
+      "sourceIds": [
+        "phev19-geely-spec",
+        "phev19-geely-page",
+        "phev19-geely-service",
+        "phev19-geely-road",
+        "phev19-geely-boot",
+        "phev19-geely-ancap",
+        "phev19-geely-report",
+        "phev19-geely-update",
+        "phev19-recalls"
+      ],
+      "checked": "2026-10-19",
+      "weightedFuelConsumption": {
+        "value": 2.4,
+        "unit": "L/100km",
+        "basis": "Weighted WLTP combined fuel claim; petrol-only use after depletion is higher.",
+        "sourceIds": [
+          "phev19-geely-spec"
+        ]
+      },
+      "consumption": {
+        "value": 14.7,
+        "unit": "kWh/100km",
+        "basis": "Published weighted electrical-consumption term in the mixed petrol/electric certification cycle. This is not EV-only energy use; the ownership model uses a separate estimate.",
+        "energyBasis": "unspecified",
+        "sourceIds": [
+          "phev19-geely-spec"
+        ]
+      }
+    },
+    {
+      "id": "tiggo7-super-hybrid-urban-2025",
+      "familyId": "chery-tiggo7-super-hybrid",
+      "make": "Chery",
+      "model": "Tiggo 7 Super Hybrid",
+      "variant": "Urban · 18.4 kWh · FWD",
+      "years": [
+        2025,
+        2026
+      ],
+      "generation": "T32 · MY26 · July 2025 production onward",
+      "powertrain": "PHEV",
+      "seats": 5,
+      "drive": "FWD",
+      "headline": "Affordable new PHEV; boot litres are a labelled estimate.",
+      "summary": "A budget PHEV with rear vents and DC charging. Three-across reporting is promising. The 356 L boot figure is a conservative related-petrol estimate; Chery does not publish PHEV litres.",
+      "range": {
+        "value": 93,
+        "unit": "km",
+        "basis": "NEDC electric-only claim; not WLTP.",
+        "sourceIds": [
+          "phev19-t7-spec"
+        ]
+      },
+      "battery": {
+        "value": 18.4,
+        "unit": "kWh",
+        "basis": "Manufacturer nominal LFP capacity; some launch reviews round to 18.3 kWh.",
+        "sourceIds": [
+          "phev19-t7-spec"
+        ]
+      },
+      "depletedConsumption": {
+        "value": 6,
+        "unit": "L/100km",
+        "basis": "Estimate: approximately 6 L/100 km observed with low charge on a launch test. Route and retained battery reserve vary.",
+        "sourceIds": [
+          "phev19-t7-road"
+        ]
+      },
+      "acCharging": {
+        "value": 6.6,
+        "unit": "kW",
+        "basis": "Australian first-person Carsales review reports a 6.6 kW AC maximum.",
+        "sourceIds": [
+          "phev19-t7-charging"
+        ]
+      },
+      "dcCharging": {
+        "value": 40,
+        "unit": "kW",
+        "basis": "Australian first-person test reports a 40 kW DC maximum.",
+        "sourceIds": [
+          "phev19-t7-expert"
+        ]
+      },
+      "boot": {
+        "value": 356,
+        "unit": "L",
+        "basis": "Estimate: conservative 356 L related-petrol body figure to seatback height. PHEV floor and hardware may differ; this is not a measured PHEV capacity.",
+        "sourceIds": [
+          "phev19-t7-road",
+          "phev19-t7-expert"
+        ]
+      },
+      "bootAllRows": {
+        "value": 356,
+        "unit": "L",
+        "basis": "Estimate: all five seats up; same related-petrol proxy, not verified PHEV litres.",
+        "sourceIds": [
+          "phev19-t7-road"
+        ]
+      },
+      "length": {
+        "value": 4535,
+        "unit": "mm",
+        "basis": "Manufacturer body length.",
+        "sourceIds": [
+          "phev19-t7-spec"
+        ]
+      },
+      "width": {
+        "value": 1864,
+        "unit": "mm",
+        "basis": "Body width excluding mirrors.",
+        "sourceIds": [
+          "phev19-t7-spec"
+        ]
+      },
+      "towing": {
+        "value": null,
+        "unit": "kg",
+        "basis": "Braked rating unverified. The Australian sheet lists 750 kg UNBRAKED; that does not establish braked capacity.",
+        "sourceIds": [
+          "phev19-t7-spec"
+        ]
+      },
+      "warranty": "7 years/unlimited km private vehicle cover. Australian warranty-booklet exclusions apply.",
+      "batteryWarranty": "8 years/unlimited km high-voltage battery cover from first registration. Obtain capacity and degradation conditions in writing.",
+      "servicing": "12 months/15,000 km. Seven caps total A$3,174.15; the 90,000 km/six-year visit is A$1,291.31. The average is not each annual bill.",
+      "connector": "Type 2 AC + CCS2 DC.",
+      "chargeTime": "Claims: DC 30–80% in 20 minutes at a suitable charger; full AC charge roughly 3 hours at 6.6 kW. Conditions affect times.",
+      "safety": {
+        "stars": 5,
+        "year": 2025,
+        "applicability": "Updated Tiggo 7 built from 30 June 2025, on sale July 2025; includes Super Hybrid. Do not transfer the older Tiggo 7 Pro rating.",
+        "sourceIds": [
+          "phev19-t7-ancap"
+        ]
+      },
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Three-across reported; exact Urban grade and restraints unspecified.",
+        "row2": "Two outboard ISOFIX positions; three top tethers.",
+        "row3": "Not applicable: five-seat vehicle.",
+        "testedSeats": "Three seats reported; models not named.",
+        "buckleAccess": "Independent booster buckle reach is unverified.",
+        "access": "Published test reports room for a 180 cm driver ahead of a rear-facing seat.",
+        "ventilation": "Rear console and foot vents; dual-zone climate.",
+        "sourceIds": [
+          "phev19-fit-roundup",
+          "phev19-t7-spec"
+        ]
+      },
+      "pros": [
+        "Sampled new ask well below A$45,000.",
+        "Three-across and rear-facing legroom reported.",
+        "40 kW DC charging; rear vents."
+      ],
+      "cons": [
+        "356 L boot is a related-body estimate.",
+        "Reviewers criticised steering, soft suspension and software.",
+        "Little local long-term PHEV reliability evidence."
+      ],
+      "inspection": [
+        "Fit all restraints and check buckle reach.",
+        "Load your pram; do not rely on estimated boot litres.",
+        "Test engine/brake handover and current lane-assistance software.",
+        "Confirm the 90,000 km bill, battery terms and parts support.",
+        "Obtain written braked tow rating before towing."
+      ],
+      "changes": [
+        {
+          "period": "July 2025 / MY26",
+          "text": "Australian Super Hybrid: 18.4 kWh, 93 km NEDC. Separate from the previous petrol Tiggo 7 Pro.",
+          "sourceIds": [
+            "phev19-t7-spec"
+          ]
+        },
+        {
+          "period": "Later model years",
+          "text": "New MY27 changes are outside this MY26 entry; check the build plate and specification.",
+          "sourceIds": [
+            "phev19-t7-spec"
+          ]
+        }
+      ],
+      "gaps": [
+        "No published Australian PHEV boot litres; related-body estimate used.",
+        "Exact Urban restraint combination and buckle reach need trial.",
+        "Braked towing and capacity-warranty terms require confirmation.",
+        "Simultaneous one rear-facing plus two other restraints not established by the short published roundup."
+      ],
+      "sourceIds": [
+        "phev19-t7-spec",
+        "phev19-t7-page",
+        "phev19-t7-road",
+        "phev19-t7-expert",
+        "phev19-t7-ancap",
+        "phev19-chery-service",
+        "phev19-chery-network",
+        "phev19-recalls"
+      ],
+      "checked": "2026-10-19",
+      "weightedFuelConsumption": {
+        "value": 1.4,
+        "unit": "L/100km",
+        "basis": "Weighted NEDC/ADR fuel claim; not depleted use.",
+        "sourceIds": [
+          "phev19-t7-spec"
+        ]
+      },
+      "consumption": {
+        "value": 16.3,
+        "unit": "kWh/100km",
+        "basis": "Published weighted electrical-consumption term in the mixed petrol/electric certification cycle. This is not EV-only energy use; the ownership model uses a separate estimate.",
+        "energyBasis": "unspecified",
+        "sourceIds": [
+          "phev19-t7-spec"
+        ]
+      }
+    },
+    {
+      "id": "tiggo8-super-hybrid-urban-2025",
+      "familyId": "chery-tiggo8-super-hybrid",
+      "make": "Chery",
+      "model": "Tiggo 8 Super Hybrid",
+      "variant": "Urban · 18.4 kWh · 7 seats · FWD",
+      "years": [
+        2025,
+        2026
+      ],
+      "generation": "T31 · MY26 Australian original Super Hybrid",
+      "powertrain": "PHEV",
+      "seats": 7,
+      "drive": "FWD",
+      "headline": "Seven-seat benchmark; rear-facing legroom is a major catch.",
+      "summary": "Three restraints fitted in the tested Ultimate, but rear-facing legroom left room for only an approximately 162 cm driver. Row three lacks child-restraint anchors, so it does not solve your three-seat requirement.",
+      "range": {
+        "value": 95,
+        "unit": "km",
+        "basis": "NEDC electric-only claim; not the combined 1,200 km marketing range.",
+        "sourceIds": [
+          "phev19-t8-spec"
+        ]
+      },
+      "battery": {
+        "value": 18.4,
+        "unit": "kWh",
+        "basis": "Manufacturer nominal LFP pack capacity.",
+        "sourceIds": [
+          "phev19-t8-spec"
+        ]
+      },
+      "depletedConsumption": {
+        "value": 5.6,
+        "unit": "L/100km",
+        "basis": "First-person Australian Urban test reported 5.6 L/100 km after depletion. One route, not a certified or guaranteed result.",
+        "sourceIds": [
+          "phev19-t8-urban-review"
+        ]
+      },
+      "acCharging": {
+        "value": 6.6,
+        "unit": "kW",
+        "basis": "Australian first-person road test reports 6.6 kW AC.",
+        "sourceIds": [
+          "phev19-t8-road"
+        ]
+      },
+      "dcCharging": {
+        "value": 40,
+        "unit": "kW",
+        "basis": "Original Australian MY26 road test reports 40 kW DC; later or overseas 60 kW claims do not apply.",
+        "sourceIds": [
+          "phev19-t8-road"
+        ]
+      },
+      "boot": {
+        "value": 494,
+        "unit": "L",
+        "basis": "Australian test reports 494 L with row three folded. A related CarsGuide long-term test reports 479 L; methods are unspecified. Check pram fit.",
+        "sourceIds": [
+          "phev19-t8-road",
+          "phev19-t8-expert"
+        ]
+      },
+      "bootAllRows": {
+        "value": 117,
+        "unit": "L",
+        "basis": "Australian test reports 117 L behind all seven seats; check actual pram fit.",
+        "sourceIds": [
+          "phev19-t8-road"
+        ]
+      },
+      "length": {
+        "value": 4724,
+        "unit": "mm",
+        "basis": "Australian body length.",
+        "sourceIds": [
+          "phev19-t8-spec"
+        ]
+      },
+      "width": {
+        "value": 1865,
+        "unit": "mm",
+        "basis": "Body width excluding mirrors.",
+        "sourceIds": [
+          "phev19-t8-spec"
+        ]
+      },
+      "towing": {
+        "value": null,
+        "unit": "kg",
+        "basis": "Braked rating unverified. Official Australian sheet lists only 750 kg UNBRAKED; do not present that as braked capacity.",
+        "sourceIds": [
+          "phev19-t8-spec"
+        ]
+      },
+      "warranty": "7 years/unlimited km private vehicle cover. Confirm exclusions and the in-service date.",
+      "batteryWarranty": "8 years/unlimited km high-voltage battery cover. Confirm capacity and degradation rules in the Australian booklet.",
+      "servicing": "12 months/15,000 km. Seven caps total A$3,174.15, including A$1,291.31 at 90,000 km/six years; wear items are extra.",
+      "connector": "Type 2 AC + CCS2 DC.",
+      "chargeTime": "Published DC 30–80% claim: 20 minutes. Full AC charge roughly 3 hours on 6.6 kW supply; conditions vary.",
+      "safety": {
+        "stars": 5,
+        "year": 2025,
+        "applicability": "2025 five-star result covers updated builds from March 2025, on sale July 2025, including PHEV. ANCAP advises against third-row restraints: no top tethers.",
+        "sourceIds": [
+          "phev19-t8-ancap"
+        ]
+      },
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Related Ultimate fitted three forward-facing seats. Separate rear-facing legroom was severely restricted; simultaneous one rear-facing plus two others is unverified.",
+        "row2": "Two outboard row-two ISOFIX positions; three row-two top tethers.",
+        "row3": "No ISOFIX or top tethers. ANCAP advises against child restraints; published test reports no third-row curtain coverage.",
+        "testedSeats": "Three forward-facing in the photographed Ultimate; article checks rear-facing clearance separately. Simultaneous mixed-direction fit not established.",
+        "buckleAccess": "The fit was tight; daily booster buckle access was not verified.",
+        "access": "About 162 cm driver room in the tested rear-facing arrangement; remove one row-two restraint to reach row three.",
+        "ventilation": "Row-two console vents; no row-three vents.",
+        "sourceIds": [
+          "phev19-t8-fit",
+          "phev19-t8-spec"
+        ]
+      },
+      "pros": [
+        "Sampled new asks around A$45,000.",
+        "Occasional third row for suitable occupants.",
+        "117 L boot with all seven seats available."
+      ],
+      "cons": [
+        "Poor published front legroom with rear-facing restraint.",
+        "No row-three restraint anchors.",
+        "Conflicting 494/479 L boot figures with row three folded."
+      ],
+      "inspection": [
+        "Try your rear-facing Maxi-Cosi with front adults in their normal positions.",
+        "Check all booster buckles with three installed.",
+        "Keep row three outside your restraint plan; inspect egress and curtain coverage.",
+        "Load your pram with row three both up and folded.",
+        "Test software, handles, charging and shifter; obtain the 90,000 km service quote."
+      ],
+      "changes": [
+        {
+          "period": "MY26 original PHEV",
+          "text": "T31 Urban FWD seven-seater: 18.4 kWh, 95 km NEDC. Petrol Pro Max and later updates are excluded.",
+          "sourceIds": [
+            "phev19-t8-spec"
+          ]
+        },
+        {
+          "period": "Safety scope",
+          "text": "ANCAP covers the updated PHEV; this does not make the unanchored third row suitable for child restraints.",
+          "sourceIds": [
+            "phev19-t8-ancap"
+          ]
+        }
+      ],
+      "gaps": [
+        "Urban fit unverified; Ultimate test is related evidence.",
+        "Your Maxi-Cosi may differ; rear-facing legroom needs a priority trial.",
+        "Braked rating unverified; published boot methods conflict.",
+        "Photographs establish three forward-facing only; simultaneous requested mixed-direction arrangement remains unverified."
+      ],
+      "sourceIds": [
+        "phev19-t8-spec",
+        "phev19-t8-page",
+        "phev19-t8-fit",
+        "phev19-t8-ancap",
+        "phev19-t8-road",
+        "phev19-t8-expert",
+        "phev19-t8-urban-review",
+        "phev19-chery-service",
+        "phev19-chery-network",
+        "phev19-recalls"
+      ],
+      "checked": "2026-10-19",
+      "weightedFuelConsumption": {
+        "value": 1.3,
+        "unit": "L/100km",
+        "basis": "Weighted NEDC/ADR fuel claim with charge; not depleted use.",
+        "sourceIds": [
+          "phev19-t8-spec"
+        ]
+      },
+      "consumption": {
+        "value": 15.4,
+        "unit": "kWh/100km",
+        "basis": "Published weighted electrical-consumption term in the mixed petrol/electric certification cycle. This is not EV-only energy use; the ownership model uses a separate estimate.",
+        "energyBasis": "unspecified",
+        "sourceIds": [
+          "phev19-t8-spec"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "phev19-fit-roundup",
+      "title": "First-person family testing: mid-size PHEV SUVs, 17 June 2026",
+      "url": "https://www.carexpert.com.au/car-news/top-10-mid-size-phev-family-suvs-in-2026",
+      "publisher": "Tace Clifford / CarExpert",
+      "kind": "family-test",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-mg-spec",
+      "title": "MG HS Plus EV Australian manufacturer brochure (period dealer-hosted copy)",
+      "url": "https://web-assets.cdn.dealersolutions.com.au/modular.multisite.dealer.solutions/wp-content/uploads/2021/02/10115249/165066462662bd46ece9670375857426.pdf",
+      "publisher": "MG Motor Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-mg-manual",
+      "title": "HS Plus EV Australian owner manual",
+      "url": "https://s3-ap-southeast-2.amazonaws.com/files.digitaldealer.com.au/mgmotor/files/HS-Plus-EV-Owners-Manual.pdf",
+      "publisher": "MG Motor Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-mg-fit",
+      "title": "2021 MG HS PHEV: restraint installation and family test",
+      "url": "https://babydrive.com.au/reviews/suvs/2021-mg-hs-plug-in-hybrid/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-mg-road",
+      "title": "2022 MG HS Plus EV Essence road test",
+      "url": "https://www.carexpert.com.au/car-reviews/2022-mg-hs-plus-ev-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-mg-expert",
+      "title": "2022 MG HS +EV Excite Australian review, 7.5/10",
+      "url": "https://www.carsguide.com.au/ev/mg-hs-excite-86274",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-mg-ancap",
+      "title": "Original MG HS: petrol-only ANCAP applicability; PHEV unrated",
+      "url": "https://www.ancap.com.au/safety-ratings/mg/hs/10762e",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-mg-recall",
+      "title": "REC-005652: 2021–22 HS PHEV/+EV electrical ground/fire campaign",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005652",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-mg-owners",
+      "title": "Original HS Plus EV: 3.2/5 from 5 ProductReview contributors",
+      "url": "https://www.productreview.com.au/listings/mg-hs-plus-ev",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-mg-price",
+      "title": "2022 HS Plus EV Essence: Southport seller ask, stock FU34756",
+      "url": "https://vonbibra.com.au/stock/details/OAG-AD-26238847/2022-mg-hs-plus-ev-used",
+      "publisher": "von Bibra Ferry Road",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-mg-insurance",
+      "title": "Youi MG: HS +EV mean A$1447 and range A$900–1764",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/mg",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-mg-warranty",
+      "title": "MG warranty terms and dealer locator",
+      "url": "https://mgmotor.com.au/explore/warranty",
+      "publisher": "MG Motor Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-eclipse-spec",
+      "title": "Eclipse Cross Plug-in Hybrid Australian specifications and charging claims",
+      "url": "https://www.mitsubishi-motors.com.au/vehicles/eclipse-cross.html",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-eclipse-brochure",
+      "title": "MY22 Eclipse Cross Australian manufacturer brochure",
+      "url": "https://cdn.mattaki.com/mitsubishi/static-assets/vehicles/brochures/eclipse-cross_ebrochure.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-eclipse-fit",
+      "title": "2021 Eclipse Cross PHEV restraint, legroom and pram test",
+      "url": "https://babydrive.com.au/reviews/suvs/2021-mitsubishi-eclipse-cross-phev/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-eclipse-expert",
+      "title": "2022 Eclipse Cross PHEV Australian test, 7.4/10",
+      "url": "https://www.carsguide.com.au/ev/mitsubishi-eclipse-cross-phev-84908",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-eclipse-ancap",
+      "title": "Eclipse Cross: ANCAP 2017 rating applies to PHEV through December 2023",
+      "url": "https://s3.amazonaws.com/cdn.ancap.com.au/app/public/assets/02ebaa309aa5d03fb7296943e39cbe79c1305e5e/original.pdf?1703971079=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-eclipse-service",
+      "title": "MY23 Eclipse Cross PHEV capped-price schedule",
+      "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/cps-updates/eclipse-cross/23MY_Eclipse%20Cross_PHEV_CPS_.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-eclipse-owners",
+      "title": "Eclipse Cross YB PHEV: 3.8/5 from 5 contributors",
+      "url": "https://www.productreview.com.au/listings/mitsubishi-eclipse-cross-yb-phev",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-eclipse-price",
+      "title": "Indexed 2022 Aspire PHEV asking prices; Noosa Village Autos 19,482 km",
+      "url": "https://www.autotrader.com.au/for-sale/used/mitsubishi/eclipse-cross/year-2022/urban-cars",
+      "publisher": "Autotrader / selling dealers",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-eclipse-insurance",
+      "title": "Youi Eclipse Cross: A$712–1425 model premium band",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/mitsubishi",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-h6-spec",
+      "title": "Australian Haval H6 manufacturer brochure, September 2025: PHEV specification columns",
+      "url": "https://media.adtorqueedge.com/new-cars/gwmhaval-aus/brochures/h6-brochure.pdf",
+      "publisher": "GWM Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-h6-page",
+      "title": "Haval H6 Australian range, warranty and dealer support",
+      "url": "https://www.gwmanz.com/au/models/suv/haval-h6/",
+      "publisher": "GWM Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-h6-service",
+      "title": "New Haval H6 Australian capped-price service and maintenance schedule",
+      "url": "https://assets.gwmanz.com/f/256395/x/ec6aea3b7b/gwm-haval-h6-cps-au-2025.pdf",
+      "publisher": "GWM Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-h6-ancap",
+      "title": "Haval H6 2022 ANCAP result, PHEV extension March 2026",
+      "url": "https://www.ancap.com.au/safety-ratings/haval/h6/db8b8c/1000",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-h6-report",
+      "title": "H6 ANCAP report: anchor map and individual restraint checks",
+      "url": "https://s3.amazonaws.com/cdn.ancap.com.au/app/public/assets/c46735c687ef684f65dca2fb47ebc8ff1aeb46e1/original.pdf",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-h6-road",
+      "title": "H6 PHEV first-person Australian test: 21.4 kWh/100 km, 5.8 L/100 km depleted",
+      "url": "https://www.goauto.com.au/car-reviews/gwm/haval/h6-phev/2026-haval-h6-phev-review/2025-10-13/97613.html",
+      "publisher": "GoAuto",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-h6-expert",
+      "title": "2026 Haval H6 Ultra PHEV AWD first drive, 7.9/10",
+      "url": "https://www.carsguide.com.au/ev/gwm-haval-h6-ultra-phev-awd-100053",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-h6-owners",
+      "title": "Haval H6: 3.0/5 from 70 mixed-powertrain contributors",
+      "url": "https://www.productreview.com.au/listings/haval-h6",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-h6-insurance",
+      "title": "Youi Haval H6 model premium band A$806–1697",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/haval",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-h6-price-white",
+      "title": "2026 H6 Lux PHEV new: Moorooka stock C48087, VIN LGWEFUA52TH951660",
+      "url": "https://www.westpointautos.com.au/cars/new-white-2026-gwm-haval-h6-c48087",
+      "publisher": "Moorooka GWM / Westpoint Autos",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-h6-price-grey",
+      "title": "2026 H6 Lux PHEV new: Springwood stock C48107, VIN LGWEFUA56TH950768",
+      "url": "https://www.westpointautos.com.au/cars/new-grey-2026-gwm-haval-h6-c48107",
+      "publisher": "Springwood GWM / Westpoint Autos",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-geely-spec",
+      "title": "Starray EM-i Australian manufacturer preliminary specification guide (period copy)",
+      "url": "https://gaycarboys.com/wp-content/uploads/2026/04/Geely_Starray_Specs-06ed1a43-a34a-4c1c-a2e0-76ddabffc66d.pdf",
+      "publisher": "Geely Auto Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-geely-page",
+      "title": "Australian Starray EM-i: equipment, warranty and charging support",
+      "url": "https://www.geelyessendon.com.au/new-vehicles/starray-em-i/",
+      "publisher": "Geely Auto Australia / Geely Essendon",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-geely-service",
+      "title": "Australian Hybrid Assured Service Pricing: MY25/MY26 Starray EM-i",
+      "url": "https://www.geelygeelong.com.au/pages/servicing",
+      "publisher": "Geely Auto Australia / Geely Geelong",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-geely-road",
+      "title": "2026 Starray EM-i Australian test and depleted-fuel observation",
+      "url": "https://www.carexpert.com.au/car-reviews/2026-geely-starray-em-i-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-geely-boot",
+      "title": "2026 Starray EM-i Australian launch specifications and boot capacity",
+      "url": "https://www.racv.com.au/royalauto/transport/electric-vehicles/2026-geely-starray-em-i-phev-price-specs-release-date.html",
+      "publisher": "RACV",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-geely-ancap",
+      "title": "Starray EM-i 2025 five-star ANCAP applicability",
+      "url": "https://www.ancap.com.au/safety-ratings/geely/starray-em-i/84fe06",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-geely-report",
+      "title": "Starray EM-i ANCAP report: centre booster compatibility limitation",
+      "url": "https://s3.amazonaws.com/cdn.ancap.com.au/app/public/assets/4a905bce707dc82481c1e00b1e77e778613fd0b6/original.pdf",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-geely-price",
+      "title": "Queensland Starray Complete new seller stock: Fortitude Valley",
+      "url": "https://www.geelybrisbanecity.com.au/search/geely/starray-em-i",
+      "publisher": "Geely Brisbane City",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-geely-insurance",
+      "title": "Youi Starray EM-i model premium band A$929–1674",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/geely",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-geely-owners",
+      "title": "Starray EM-i: 4.0/5 from one contributor, near 10,000 km report",
+      "url": "https://www.productreview.com.au/listings/geely-starray-em-i",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-geely-update",
+      "title": "Geely Australian MY27 Inspire Extended Range announcement; Complete keeps original battery",
+      "url": "https://www.geelyhobart.com.au/news/geely-australia-announces-starray-em-i-extended-range",
+      "publisher": "Geely Auto Australia / Geely Hobart",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-geely-expert",
+      "title": "Starray Inspire long-term conclusion, 7.3/10; mixed original/Extended test scope",
+      "url": "https://www.carsguide.com.au/family/geely-starray-em-i-inspire-long-term-part-3-102147",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t7-spec",
+      "title": "Australian MY26 Tiggo 7 Super Hybrid specification sheet, July 2025 production onward",
+      "url": "https://cherymotor.com.au/sites/default/files/2026-01/245_25_Tiggo_7_PHEV_AU_Spec_Sheet_v109.pdf",
+      "publisher": "Chery Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t7-page",
+      "title": "Australian Tiggo 7 Super Hybrid equipment and warranty",
+      "url": "https://cherymotor.com.au/models/tiggo-7-super-hybrid",
+      "publisher": "Chery Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t7-road",
+      "title": "Tiggo 7 Super Hybrid Australian test: boot publication gap and low-charge use",
+      "url": "https://www.carexpert.com.au/car-reviews/2025-chery-tiggo-7-super-hybrid-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t7-expert",
+      "title": "Tiggo 7 Super Hybrid Urban Australian first drive, 7.6/10",
+      "url": "https://www.carsguide.com.au/family/chery-tiggo-7-super-hybrid-99163",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t7-ancap",
+      "title": "Updated Tiggo 7 2025 ANCAP applicability, including plug-in hybrid",
+      "url": "https://www.ancap.com.au/safety-ratings/chery/tiggo-7/7f567d",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t7-price",
+      "title": "2026 Tiggo 7 Urban Super Hybrid seller ask: Springwood stock D29417",
+      "url": "https://www.motorama.com.au/cars/new-mercurial-grey-2026-chery-tiggo-7-d29417",
+      "publisher": "Motorama Chery Springwood",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t7-price-crosscheck",
+      "title": "Tiggo 7 Super Hybrid stock at Queensland dealers",
+      "url": "https://www.carsales.com.au/cars/chery/tiggo-7/super-hybrid-urban-badge/queensland-state/",
+      "publisher": "Carsales / selling dealers",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t7-owners",
+      "title": "Tiggo 7 contributor scope check: two petrol/courtesy-car reports; not PHEV evidence",
+      "url": "https://www.productreview.com.au/listings/chery-tiggo-7",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t8-spec",
+      "title": "Australian MY26 Tiggo 8 Super Hybrid specification sheet",
+      "url": "https://cherymotor.com.au/sites/default/files/2025-12/246_25_Tiggo_8_PHEV_AU_Spec_Sheet_v107.pdf",
+      "publisher": "Chery Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t8-page",
+      "title": "Australian Tiggo 8 Super Hybrid equipment and warranty",
+      "url": "https://cherymotor.com.au/models/tiggo-8-super-hybrid",
+      "publisher": "Chery Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t8-fit",
+      "title": "Tiggo 8 Super Hybrid family test: three-across, rear-facing legroom and third-row restrictions",
+      "url": "https://babydrive.com.au/reviews/suvs/2025-chery-tiggo-8-plug-in-hybrid-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t8-ancap",
+      "title": "Tiggo 8 2025 ANCAP report: PHEV coverage and third-row restraint warning",
+      "url": "https://s3.amazonaws.com/cdn.ancap.com.au/app/public/assets/4e45d0a83ccecbd42f51f905b900a6e1e68c4d71/original.pdf",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t8-road",
+      "title": "Tiggo 8 Super Hybrid Ultimate Australian road test: boot and highway electric range",
+      "url": "https://www.whichcar.com.au/reviews/chery-tiggo-8-super-hybrid-ultimate-review-1200km-range-claim",
+      "publisher": "WhichCar",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t8-expert",
+      "title": "Tiggo 8 Ultimate Super Hybrid long-term conclusion, 8.1/10",
+      "url": "https://www.carsguide.com.au/family/chery-tiggo-8-ultimate-super-hybrid-long-term-part-3-101618",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t8-urban-review",
+      "title": "Tiggo 8 Super Hybrid Urban Australian review, 6.5/10",
+      "url": "https://www.chasingcars.com.au/reviews/large-suvs/chery-tiggo-8-super-hybrid-urban-2026-review/",
+      "publisher": "Chasing Cars",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t8-owners",
+      "title": "Tiggo 8 Super Hybrid: one ProductReview contributor; incentivised label",
+      "url": "https://www.productreview.com.au/listings/chery-tiggo-8-super-hybrid",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t8-price-black",
+      "title": "2026 Tiggo 8 Super Hybrid Urban new: Brisbane stock C261034, VIN LNNBBDEE2TD261034",
+      "url": "https://www.brisbanecitychery.com.au/new-cars/for-sale/chery/tiggo-8/2026/super-hybrid-urban/t31-my26/4067735/",
+      "publisher": "Brisbane City Chery",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t8-price-blue",
+      "title": "2026 Tiggo 8 Super Hybrid Urban new: Moorooka stock D38336",
+      "url": "https://www.motorama.com.au/cars/new-azure-blue-2026-chery-tiggo-8-d38336",
+      "publisher": "Motorama Chery Moorooka",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-chery-service",
+      "title": "MY26 Tiggo 7 and Tiggo 8 Super Hybrid official seven-service schedule",
+      "url": "https://cherymotor.com.au/owners/capped-price-service",
+      "publisher": "Chery Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-chery-insurance",
+      "title": "Youi Tiggo 7 and Tiggo 8 premium bands; powertrains pooled",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/chery",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-chery-network",
+      "title": "Chery opens 100th Australian dealer in Indooroopilly,14 October 2026",
+      "url": "https://cherymotor.com.au/news/chery-opens-100th-dealership-indooroopilly-shopping-centre",
+      "publisher": "Chery Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-recalls",
+      "title": "Official Australian vehicle recall register; VIN campaign status must be checked",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/browse-all-recalls",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-t7-charging",
+      "title": "2025 Tiggo 7 Super Hybrid first-person Australian test: 6.6 kW AC, 40 kW DC",
+      "url": "https://www.carsales.com.au/editorial/details/chery-tiggo-7-super-hybrid-2025-review-149953/",
+      "publisher": "Carsales",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-geely-fit",
+      "title": "2026 Starray EM-i Inspire family test: one rear-facing plus two forward-facing",
+      "url": "https://babydrive.com.au/reviews/suvs/2026-geely-starray-em-i-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "phev19-eclipse-identity",
+      "title": "Noosa Village Autos Aspire PHEV identity: stock 10895, VIN JMFXDGL3WNZ004026; older price",
+      "url": "https://www.carsguide.com.au/car/15125559/mitsubishi/eclipse-cross/qld/noosaville/suv",
+      "publisher": "CarsGuide / Noosa Village Autos",
+      "kind": "market",
+      "checked": "2026-10-19"
+    }
+  ],
+  "prices": [
+    {
+      "id": "phev19-price-mg-hs-plus-ev-essence-2021",
+      "vehicleId": "mg-hs-plus-ev-essence-2021",
+      "low": 21990,
+      "high": 21990,
+      "point": 21990,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 1,
+      "geography": "One used Southport QLD dealer car",
+      "kilometres": "39,298 km",
+      "observed": "2026-10-19",
+      "note": "One Essence MY22: VIN LSJA24392MN087956, stock FU34756. Syndicated dealer, Gumtree and Autotrader copies count once. Odometer differs slightly across indices; availability unconfirmed.",
+      "sourceIds": [
+        "phev19-mg-price"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "estimateBasis": "Representative dated seller asking snapshot, not achieved sale price or broad market valuation. Cached/indexed results may lag live stock; obtain written drive-away quotation.",
+      "observations": [
+        {
+          "price": 21990,
+          "basis": "drive-away",
+          "year": 2022,
+          "kilometres": 39298,
+          "location": "Southport QLD",
+          "url": "https://vonbibra.com.au/stock/details/OAG-AD-26238847/2022-mg-hs-plus-ev-used",
+          "sourceId": "phev19-mg-price",
+          "checked": "2026-10-19",
+          "note": "VIN LSJA24392MN087956; May 2021 build, January 2022 compliance. Indexed ask."
+        }
+      ]
+    },
+    {
+      "id": "phev19-price-eclipse-cross-phev-aspire-2021",
+      "vehicleId": "eclipse-cross-phev-aspire-2021",
+      "low": 29990,
+      "high": 29990,
+      "point": 29990,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 1,
+      "geography": "One indexed used Aspire, Noosaville QLD",
+      "kilometres": "19,482 km",
+      "observed": "2026-10-19",
+      "note": "One physical Noosa Village Autos car: stock 10895, VIN JMFXDGL3WNZ004026. Recent indexed ask A$29,990; older snapshots A$30,990–33,990. Availability unverified. Rosslea A$34,850 context is not counted because a distinct stock identity was not established.",
+      "sourceIds": [
+        "phev19-eclipse-price",
+        "phev19-eclipse-identity"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "estimateBasis": "Representative dated seller asking snapshot, not achieved sale price or broad market valuation. Cached/indexed results may lag live stock; obtain written drive-away quotation.",
+      "observations": [
+        {
+          "price": 29990,
+          "basis": "drive-away",
+          "year": 2022,
+          "kilometres": 19482,
+          "location": "Noosaville QLD",
+          "url": "https://www.autotrader.com.au/for-sale/used/mitsubishi/eclipse-cross/year-2022/urban-cars",
+          "sourceId": "phev19-eclipse-price",
+          "checked": "2026-10-19",
+          "note": "Stock 10895, VIN JMFXDGL3WNZ004026; identity corroborated by older CarsGuide listing 15125559. Recent index A$29,990; direct historic page A$33,990. Confirm current price and warranty."
+        }
+      ]
+    },
+    {
+      "id": "phev19-price-haval-h6-lux-phev-2026",
+      "vehicleId": "haval-h6-lux-phev-2026",
+      "low": 40990,
+      "high": 41480,
+      "point": 41235,
+      "condition": "new",
+      "basis": "drive-away",
+      "sampleCount": 2,
+      "geography": "Two new MY26 Lux FWD PHEVs, Queensland",
+      "kilometres": "20 km each",
+      "observed": "2026-10-19",
+      "note": "Moorooka white C48087 and Springwood grey C48107. Two distinct VINs; not AWD, HEV or GT. Paint may explain A$490 difference. Confirm stock and current offers.",
+      "sourceIds": [
+        "phev19-h6-price-white",
+        "phev19-h6-price-grey"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "estimateBasis": "Representative dated seller asking snapshot, not achieved sale price or broad market valuation. Cached/indexed results may lag live stock; obtain written drive-away quotation.",
+      "observations": [
+        {
+          "price": 40990,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 20,
+          "location": "Moorooka QLD",
+          "url": "https://www.westpointautos.com.au/cars/new-white-2026-gwm-haval-h6-c48087",
+          "sourceId": "phev19-h6-price-white",
+          "checked": "2026-10-19",
+          "note": "VIN LGWEFUA52TH951660; stock C48087."
+        },
+        {
+          "price": 41480,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 20,
+          "location": "Springwood QLD",
+          "url": "https://www.westpointautos.com.au/cars/new-grey-2026-gwm-haval-h6-c48107",
+          "sourceId": "phev19-h6-price-grey",
+          "checked": "2026-10-19",
+          "note": "VIN LGWEFUA56TH950768; stock C48107."
+        }
+      ]
+    },
+    {
+      "id": "phev19-price-starray-emi-complete-2025",
+      "vehicleId": "starray-emi-complete-2025",
+      "low": 39488,
+      "high": 39488,
+      "point": 39488,
+      "condition": "new",
+      "basis": "drive-away",
+      "sampleCount": 1,
+      "geography": "New Complete MY27 stock index, Fortitude Valley QLD",
+      "kilometres": "0 km reported",
+      "observed": "2026-10-19",
+      "note": "Single A$39,488 indexed Complete ask. Old individual stock URL returned 404; current availability is unverified. MY27 Complete retains 18.4 kWh. Obtain a written quote.",
+      "sourceIds": [
+        "phev19-geely-price"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "estimateBasis": "Representative dated seller asking snapshot, not achieved sale price or broad market valuation. Cached/indexed results may lag live stock; obtain written drive-away quotation.",
+      "observations": [
+        {
+          "price": 39488,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 0,
+          "location": "Fortitude Valley QLD",
+          "url": "https://www.geelybrisbanecity.com.au/search/geely/starray-em-i",
+          "sourceId": "phev19-geely-price",
+          "checked": "2026-10-19",
+          "note": "Complete MY27 stock index. Individual page unavailable; no live stock claim."
+        }
+      ]
+    },
+    {
+      "id": "phev19-price-tiggo7-super-hybrid-urban-2025",
+      "vehicleId": "tiggo7-super-hybrid-urban-2025",
+      "low": 34990,
+      "high": 34990,
+      "point": 34990,
+      "condition": "new",
+      "basis": "drive-away",
+      "sampleCount": 1,
+      "geography": "One new MY26 Urban Super Hybrid, Springwood QLD",
+      "kilometres": "Odometer unverified",
+      "observed": "2026-10-19",
+      "note": "A$34,990 indexed ask, stock D29417. Direct page unavailable; low confidence. Do not apply expired national offers or petrol Urban prices.",
+      "sourceIds": [
+        "phev19-t7-price",
+        "phev19-t7-price-crosscheck"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "estimateBasis": "Representative dated seller asking snapshot, not achieved sale price or broad market valuation. Cached/indexed results may lag live stock; obtain written drive-away quotation.",
+      "observations": [
+        {
+          "price": 34990,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": null,
+          "location": "Springwood QLD",
+          "url": "https://www.motorama.com.au/cars/new-mercurial-grey-2026-chery-tiggo-7-d29417",
+          "sourceId": "phev19-t7-price",
+          "checked": "2026-10-19",
+          "note": "Stock D29417, Mercurial Grey. Indexed PHEV ask; availability unconfirmed."
+        }
+      ]
+    },
+    {
+      "id": "phev19-price-tiggo8-super-hybrid-urban-2025",
+      "vehicleId": "tiggo8-super-hybrid-urban-2025",
+      "low": 42990,
+      "high": 45990,
+      "point": 44490,
+      "condition": "new",
+      "basis": "drive-away",
+      "sampleCount": 2,
+      "geography": "Two new Urban Super Hybrids, Brisbane/Moorooka QLD",
+      "kilometres": "3–32 km",
+      "observed": "2026-10-19",
+      "note": "Black C261034 and Azure Blue D38336: new MY26 Urban PHEVs. Paint and build discounts vary. Not petrol Pro Max or Ultimate demonstrators.",
+      "sourceIds": [
+        "phev19-t8-price-black",
+        "phev19-t8-price-blue"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "estimateBasis": "Representative dated seller asking snapshot, not achieved sale price or broad market valuation. Cached/indexed results may lag live stock; obtain written drive-away quotation.",
+      "observations": [
+        {
+          "price": 42990,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 3,
+          "location": "Brisbane QLD",
+          "url": "https://www.brisbanecitychery.com.au/new-cars/for-sale/chery/tiggo-8/2026/super-hybrid-urban/t31-my26/4067735/",
+          "sourceId": "phev19-t8-price-black",
+          "checked": "2026-10-19",
+          "note": "VIN LNNBBDEE2TD261034; stock C261034."
+        },
+        {
+          "price": 45990,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 32,
+          "location": "Moorooka QLD",
+          "url": "https://www.motorama.com.au/cars/new-azure-blue-2026-chery-tiggo-8-d38336",
+          "sourceId": "phev19-t8-price-blue",
+          "checked": "2026-10-19",
+          "note": "Stock D38336, Azure Blue; VIN unverified."
+        }
+      ]
+    }
+  ],
+  "ownership": [
+    {
+      "familyId": "mg-hs-phev",
+      "serviceInterval": "12 months/10,000 km. At 15,000 km/year, allow roughly 1.5 scheduled visits annually; the actual bill depends on age and kilometres.",
+      "serviceAnnual": 605,
+      "serviceLow": 450,
+      "serviceHigh": 950,
+      "serviceConfidence": "low",
+      "serviceBasis": "Estimate: period seven-service total A$2,822 per 70,000 km × 15,000 km/year = A$604.71/year. At least one major visit depends on age; this is not a new service cap.",
+      "energyEstimate": {
+        "point": 24,
+        "low": 20,
+        "high": 30,
+        "basis": "Estimate for EV-only driving, kWh/100 km, before the app adds charging losses. Broad planning bounds use battery/range and Australian test context; usable capacity and driving conditions vary. This is not weighted PHEV certification electricity use.",
+        "confidence": "low",
+        "sourceIds": [
+          "phev19-mg-spec",
+          "phev19-mg-road"
+        ]
+      },
+      "depletedEstimate": {
+        "point": 7.4,
+        "low": 6.5,
+        "high": 9,
+        "basis": "Petrol use after the usable plug-in charge is depleted. Low/high values are planning sensitivities, not a statistical interval; weighted 1–2 L/100 km claims are not used here.",
+        "confidence": "low",
+        "sourceIds": [
+          "phev19-mg-road"
+        ]
+      },
+      "warrantyCautions": [
+        "Period cover: 7 years/unlimited km. Confirm the original in-service date and booklet; current MG 10-year offers do not automatically apply to an older car.",
+        "Period Plus EV battery cover: 7 years. Confirm kilometre, degradation and transfer conditions for the VIN; buying used does not restart cover.",
+        "Ask for VIN-specific remaining cover and service history. Wear, accident damage and scheduled work have different terms."
+      ],
+      "risks": [
+        {
+          "title": "Out-of-warranty charging, cooling or hybrid hardware",
+          "detail": "These vehicles have an engine plus traction battery, inverter/charger, cooling loops and electric drive hardware. A major uninsured mechanical failure can be expensive. No Australian installed quote or failure probability was verified for this exact model, so no invented replacement bill is shown.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Quote needed: diagnose first, then obtain installed parts/labour/GST quote. Not an annual bill.",
+          "warranty": "Check eligible vehicle/battery warranty and statutory remedies before paying. Insurance-covered crash, hail, theft and flood repairs are excluded from this mechanical risk discussion.",
+          "sourceIds": [
+            "phev19-mg-spec"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Non-collision wear and small mechanical/electrical repairs",
+          "detail": "Inspect suspension bushes, air-conditioning, 12V battery, door mechanisms and charging-port operation. These are inspection targets, not an assertion that each model has a common failure. Tyres and scheduled servicing are separately budgeted.",
+          "low": null,
+          "high": null,
+          "priceBasis": "No reliable model-specific installed quote or age-adjusted claim-rate dataset verified.",
+          "warranty": "Owner-paid only when warranty/recall coverage does not apply; accidental/insured body repairs excluded.",
+          "sourceIds": [
+            "phev19-mg-spec"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "phev19-mg-expert",
+        "phev19-mg-road",
+        "phev19-mg-spec",
+        "phev19-mg-manual",
+        "phev19-mg-ancap",
+        "phev19-mg-recall",
+        "phev19-mg-warranty"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "familyId": "mitsubishi-eclipse-cross-phev",
+      "serviceInterval": "12 months/15,000 km. MY23 caps include expensive 90,000 and 120,000 km visits; ask for the actual VIN and age schedule.",
+      "serviceAnnual": 600,
+      "serviceLow": 400,
+      "serviceHigh": 1000,
+      "serviceConfidence": "low",
+      "serviceBasis": "Estimate for a used MY21–23 car kept long term. MY23 caps include A$349/549/399/549/399/899/499/899/499. Age, remaining caps and later major visits affect actual cost.",
+      "energyEstimate": {
+        "point": 22,
+        "low": 18,
+        "high": 28,
+        "basis": "Estimate for EV-only driving, kWh/100 km, before the app adds charging losses. Broad planning bounds use battery/range and Australian test context; usable capacity and driving conditions vary. This is not weighted PHEV certification electricity use.",
+        "confidence": "low",
+        "sourceIds": [
+          "phev19-eclipse-spec",
+          "phev19-eclipse-expert"
+        ]
+      },
+      "depletedEstimate": {
+        "point": 5.5,
+        "low": 5,
+        "high": 8,
+        "basis": "Petrol use after the usable plug-in charge is depleted. Low/high values are planning sensitivities, not a statistical interval; weighted 1–2 L/100 km claims are not used here.",
+        "confidence": "low",
+        "sourceIds": [
+          "phev19-eclipse-expert"
+        ]
+      },
+      "warrantyCautions": [
+        "Standard 5 years/100,000 km; up to 10 years/200,000 km subject to eligible dealer servicing. Confirm remaining term, transfer and service-history eligibility by VIN.",
+        "Original 13.8 kWh traction-battery cover: 8 years/160,000 km. Confirm the period booklet, exclusions and remaining term.",
+        "Ask for VIN-specific remaining cover and service history. Wear, accident damage and scheduled work have different terms."
+      ],
+      "risks": [
+        {
+          "title": "Out-of-warranty charging, cooling or hybrid hardware",
+          "detail": "These vehicles have an engine plus traction battery, inverter/charger, cooling loops and electric drive hardware. A major uninsured mechanical failure can be expensive. No Australian installed quote or failure probability was verified for this exact model, so no invented replacement bill is shown.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Quote needed: diagnose first, then obtain installed parts/labour/GST quote. Not an annual bill.",
+          "warranty": "Check eligible vehicle/battery warranty and statutory remedies before paying. Insurance-covered crash, hail, theft and flood repairs are excluded from this mechanical risk discussion.",
+          "sourceIds": [
+            "phev19-eclipse-spec"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Non-collision wear and small mechanical/electrical repairs",
+          "detail": "Inspect suspension bushes, air-conditioning, 12V battery, door mechanisms and charging-port operation. These are inspection targets, not an assertion that each model has a common failure. Tyres and scheduled servicing are separately budgeted.",
+          "low": null,
+          "high": null,
+          "priceBasis": "No reliable model-specific installed quote or age-adjusted claim-rate dataset verified.",
+          "warranty": "Owner-paid only when warranty/recall coverage does not apply; accidental/insured body repairs excluded.",
+          "sourceIds": [
+            "phev19-eclipse-spec"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "phev19-eclipse-service",
+        "phev19-eclipse-spec",
+        "phev19-eclipse-brochure",
+        "phev19-eclipse-ancap",
+        "phev19-eclipse-expert",
+        "phev19-recalls",
+        "own-hy-mitsubishi-warranty"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "familyId": "gwm-haval-h6-phev",
+      "serviceInterval": "First 12 months/10,000 km, then 12 months/15,000 km. Original five-service caps reach 70,000 km; confirm 2026 registration pricing.",
+      "serviceAnnual": 450,
+      "serviceLow": 300,
+      "serviceHigh": 800,
+      "serviceConfidence": "low",
+      "serviceBasis": "Estimate: original FWD caps A$230/370/485/570/480 average A$427 over five annual visits. First interval 10,000 km, then 15,000 km; obtain current 2026 VIN prices.",
+      "energyEstimate": {
+        "point": 21.4,
+        "low": 18.4,
+        "high": 26,
+        "basis": "Related Australian H6 PHEV test observed 21.4 kWh/100 km in EV use; exact FWD Lux transfer is an estimate. Battery-side planning basis, before the app adds charging losses.",
+        "confidence": "low",
+        "sourceIds": [
+          "phev19-h6-road"
+        ]
+      },
+      "depletedEstimate": {
+        "point": 5,
+        "low": 5,
+        "high": 7.5,
+        "basis": "Petrol use after the usable plug-in charge is depleted. Low/high values are planning sensitivities, not a statistical interval; weighted 1–2 L/100 km claims are not used here.",
+        "confidence": "low",
+        "sourceIds": [
+          "phev19-h6-spec"
+        ]
+      },
+      "warrantyCautions": [
+        "7 years/unlimited km for private use. Confirm commencement date on a new or demonstrator vehicle; commercial terms differ.",
+        "8 years/unlimited km battery-pack headline cover in the Australian brochure. Obtain the actual capacity/degradation and exclusion terms for the VIN.",
+        "Ask for VIN-specific remaining cover and service history. Wear, accident damage and scheduled work have different terms."
+      ],
+      "risks": [
+        {
+          "title": "Out-of-warranty charging, cooling or hybrid hardware",
+          "detail": "These vehicles have an engine plus traction battery, inverter/charger, cooling loops and electric drive hardware. A major uninsured mechanical failure can be expensive. No Australian installed quote or failure probability was verified for this exact model, so no invented replacement bill is shown.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Quote needed: diagnose first, then obtain installed parts/labour/GST quote. Not an annual bill.",
+          "warranty": "Check eligible vehicle/battery warranty and statutory remedies before paying. Insurance-covered crash, hail, theft and flood repairs are excluded from this mechanical risk discussion.",
+          "sourceIds": [
+            "phev19-h6-spec"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Non-collision wear and small mechanical/electrical repairs",
+          "detail": "Inspect suspension bushes, air-conditioning, 12V battery, door mechanisms and charging-port operation. These are inspection targets, not an assertion that each model has a common failure. Tyres and scheduled servicing are separately budgeted.",
+          "low": null,
+          "high": null,
+          "priceBasis": "No reliable model-specific installed quote or age-adjusted claim-rate dataset verified.",
+          "warranty": "Owner-paid only when warranty/recall coverage does not apply; accidental/insured body repairs excluded.",
+          "sourceIds": [
+            "phev19-h6-spec"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "phev19-h6-service",
+        "phev19-h6-spec",
+        "phev19-h6-page",
+        "phev19-h6-ancap",
+        "phev19-h6-report",
+        "phev19-h6-road",
+        "phev19-h6-expert",
+        "phev19-recalls"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "familyId": "geely-starray-emi",
+      "serviceInterval": "12 months/15,000 km. Five MY25/MY26 visits total A$1,932; published prices are fixed through 31 December 2026, not ten years.",
+      "serviceAnnual": 386.4,
+      "serviceLow": 300,
+      "serviceHigh": 750,
+      "serviceConfidence": "medium",
+      "serviceBasis": "Published MY25/MY26 visits A$273/335/360/691/273 total A$1,932: A$386.40/year over five years at 15,000 km/year. Fixed through 31 December 2026; later costs uncertain.",
+      "energyEstimate": {
+        "point": 18,
+        "low": 15,
+        "high": 23,
+        "basis": "Estimate for EV-only driving, kWh/100 km, before the app adds charging losses. Broad planning bounds use battery/range and Australian test context; usable capacity and driving conditions vary. This is not weighted PHEV certification electricity use.",
+        "confidence": "low",
+        "sourceIds": [
+          "phev19-geely-spec",
+          "phev19-geely-road"
+        ]
+      },
+      "depletedEstimate": {
+        "point": 5.8,
+        "low": 5.2,
+        "high": 7.5,
+        "basis": "Petrol use after the usable plug-in charge is depleted. Low/high values are planning sensitivities, not a statistical interval; weighted 1–2 L/100 km claims are not used here.",
+        "confidence": "low",
+        "sourceIds": [
+          "phev19-geely-road"
+        ]
+      },
+      "warrantyCautions": [
+        "7 years/unlimited km for private vehicles. Confirm commencement date and service conditions; commercial terms differ.",
+        "8 years/unlimited km for the private-use high-voltage battery. Period Australian review reports a 70% capacity threshold; confirm the VIN booklet.",
+        "Ask for VIN-specific remaining cover and service history. Wear, accident damage and scheduled work have different terms."
+      ],
+      "risks": [
+        {
+          "title": "Out-of-warranty charging, cooling or hybrid hardware",
+          "detail": "These vehicles have an engine plus traction battery, inverter/charger, cooling loops and electric drive hardware. A major uninsured mechanical failure can be expensive. No Australian installed quote or failure probability was verified for this exact model, so no invented replacement bill is shown.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Quote needed: diagnose first, then obtain installed parts/labour/GST quote. Not an annual bill.",
+          "warranty": "Check eligible vehicle/battery warranty and statutory remedies before paying. Insurance-covered crash, hail, theft and flood repairs are excluded from this mechanical risk discussion.",
+          "sourceIds": [
+            "phev19-geely-spec"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Non-collision wear and small mechanical/electrical repairs",
+          "detail": "Inspect suspension bushes, air-conditioning, 12V battery, door mechanisms and charging-port operation. These are inspection targets, not an assertion that each model has a common failure. Tyres and scheduled servicing are separately budgeted.",
+          "low": null,
+          "high": null,
+          "priceBasis": "No reliable model-specific installed quote or age-adjusted claim-rate dataset verified.",
+          "warranty": "Owner-paid only when warranty/recall coverage does not apply; accidental/insured body repairs excluded.",
+          "sourceIds": [
+            "phev19-geely-spec"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "phev19-geely-service",
+        "phev19-geely-spec",
+        "phev19-geely-page",
+        "phev19-geely-road",
+        "phev19-geely-boot",
+        "phev19-geely-ancap",
+        "phev19-geely-report",
+        "phev19-geely-update",
+        "phev19-recalls"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "familyId": "chery-tiggo7-super-hybrid",
+      "serviceInterval": "12 months/15,000 km. Seven caps total A$3,174.15; the 90,000 km/six-year visit is A$1,291.31. The average is not each annual bill.",
+      "serviceAnnual": 453.45,
+      "serviceLow": 300,
+      "serviceHigh": 800,
+      "serviceConfidence": "medium",
+      "serviceBasis": "Published seven-service caps A$299/349/299/349/299/1,291.31/287.84 total A$3,174.15: A$453.45/year at 15,000 km/year. Not a flat annual bill or ten-year cap.",
+      "energyEstimate": {
+        "point": 19,
+        "low": 16.3,
+        "high": 25,
+        "basis": "Estimate for EV-only driving, kWh/100 km, before the app adds charging losses. Broad planning bounds use battery/range and Australian test context; usable capacity and driving conditions vary. This is not weighted PHEV certification electricity use.",
+        "confidence": "low",
+        "sourceIds": [
+          "phev19-t7-spec",
+          "phev19-t7-road"
+        ]
+      },
+      "depletedEstimate": {
+        "point": 6,
+        "low": 5,
+        "high": 8,
+        "basis": "Petrol use after the usable plug-in charge is depleted. Low/high values are planning sensitivities, not a statistical interval; weighted 1–2 L/100 km claims are not used here.",
+        "confidence": "low",
+        "sourceIds": [
+          "phev19-t7-road"
+        ]
+      },
+      "warrantyCautions": [
+        "7 years/unlimited km private vehicle cover. Australian warranty-booklet exclusions apply.",
+        "8 years/unlimited km high-voltage battery cover from first registration. Obtain capacity and degradation conditions in writing.",
+        "Ask for VIN-specific remaining cover and service history. Wear, accident damage and scheduled work have different terms."
+      ],
+      "risks": [
+        {
+          "title": "Out-of-warranty charging, cooling or hybrid hardware",
+          "detail": "These vehicles have an engine plus traction battery, inverter/charger, cooling loops and electric drive hardware. A major uninsured mechanical failure can be expensive. No Australian installed quote or failure probability was verified for this exact model, so no invented replacement bill is shown.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Quote needed: diagnose first, then obtain installed parts/labour/GST quote. Not an annual bill.",
+          "warranty": "Check eligible vehicle/battery warranty and statutory remedies before paying. Insurance-covered crash, hail, theft and flood repairs are excluded from this mechanical risk discussion.",
+          "sourceIds": [
+            "phev19-t7-spec"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Non-collision wear and small mechanical/electrical repairs",
+          "detail": "Inspect suspension bushes, air-conditioning, 12V battery, door mechanisms and charging-port operation. These are inspection targets, not an assertion that each model has a common failure. Tyres and scheduled servicing are separately budgeted.",
+          "low": null,
+          "high": null,
+          "priceBasis": "No reliable model-specific installed quote or age-adjusted claim-rate dataset verified.",
+          "warranty": "Owner-paid only when warranty/recall coverage does not apply; accidental/insured body repairs excluded.",
+          "sourceIds": [
+            "phev19-t7-spec"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "phev19-chery-service",
+        "phev19-t7-spec",
+        "phev19-t7-page",
+        "phev19-t7-road",
+        "phev19-t7-expert",
+        "phev19-t7-ancap",
+        "phev19-chery-network",
+        "phev19-recalls"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "familyId": "chery-tiggo8-super-hybrid",
+      "serviceInterval": "12 months/15,000 km. Seven caps total A$3,174.15, including A$1,291.31 at 90,000 km/six years; wear items are extra.",
+      "serviceAnnual": 453.45,
+      "serviceLow": 300,
+      "serviceHigh": 800,
+      "serviceConfidence": "medium",
+      "serviceBasis": "Published seven-service caps A$299/349/299/349/299/1,291.31/287.84 total A$3,174.15: A$453.45/year at 15,000 km/year. Wear and later uncapped costs are extra.",
+      "energyEstimate": {
+        "point": 20,
+        "low": 15.4,
+        "high": 27,
+        "basis": "Estimate for EV-only driving, kWh/100 km, before the app adds charging losses. Broad planning bounds use battery/range and Australian test context; usable capacity and driving conditions vary. This is not weighted PHEV certification electricity use.",
+        "confidence": "low",
+        "sourceIds": [
+          "phev19-t8-spec",
+          "phev19-t8-road"
+        ]
+      },
+      "depletedEstimate": {
+        "point": 5.6,
+        "low": 5.0,
+        "high": 8.0,
+        "basis": "Exact Urban Australian road test observed 5.6 L/100 km after depletion. One route; Planning sensitivities use 5.0–8.0 L/100 km. This is separate from the 1.3 L/100 km weighted claim.",
+        "confidence": "low",
+        "sourceIds": [
+          "phev19-t8-urban-review"
+        ]
+      },
+      "warrantyCautions": [
+        "7 years/unlimited km private vehicle cover. Confirm exclusions and the in-service date.",
+        "8 years/unlimited km high-voltage battery cover. Confirm capacity and degradation rules in the Australian booklet.",
+        "Ask for VIN-specific remaining cover and service history. Wear, accident damage and scheduled work have different terms."
+      ],
+      "risks": [
+        {
+          "title": "Out-of-warranty charging, cooling or hybrid hardware",
+          "detail": "These vehicles have an engine plus traction battery, inverter/charger, cooling loops and electric drive hardware. A major uninsured mechanical failure can be expensive. No Australian installed quote or failure probability was verified for this exact model, so no invented replacement bill is shown.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Quote needed: diagnose first, then obtain installed parts/labour/GST quote. Not an annual bill.",
+          "warranty": "Check eligible vehicle/battery warranty and statutory remedies before paying. Insurance-covered crash, hail, theft and flood repairs are excluded from this mechanical risk discussion.",
+          "sourceIds": [
+            "phev19-t8-spec"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Non-collision wear and small mechanical/electrical repairs",
+          "detail": "Inspect suspension bushes, air-conditioning, 12V battery, door mechanisms and charging-port operation. These are inspection targets, not an assertion that each model has a common failure. Tyres and scheduled servicing are separately budgeted.",
+          "low": null,
+          "high": null,
+          "priceBasis": "No reliable model-specific installed quote or age-adjusted claim-rate dataset verified.",
+          "warranty": "Owner-paid only when warranty/recall coverage does not apply; accidental/insured body repairs excluded.",
+          "sourceIds": [
+            "phev19-t8-spec"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "phev19-chery-service",
+        "phev19-t8-spec",
+        "phev19-t8-page",
+        "phev19-t8-fit",
+        "phev19-t8-ancap",
+        "phev19-t8-road",
+        "phev19-t8-expert",
+        "phev19-t8-urban-review",
+        "phev19-chery-network",
+        "phev19-recalls"
+      ],
+      "checked": "2026-10-19"
+    }
+  ],
+  "insurance": [
+    {
+      "familyId": "mg-hs-phev",
+      "point": 1450,
+      "low": 900,
+      "high": 2800,
+      "basis": "Youi reports an HS +EV mean of A$1,447 and band A$900–1,764; rounded mean A$1,450. Policies sold 22 November 2025–22 May 2026, Australia-wide. Exact sample undisclosed; model comparisons require at least 10 policies. Youi says 80% fell within or below its band; it is not a central 80% interval. Personal address, driver, excess and value matter. Low/high values are analyst sensitivities, not insurer limits. Comprehensive only; QLD CTP is in registration.",
+      "confidence": "low",
+      "sourceIds": [
+        "phev19-mg-insurance",
+        "insurance-audit-cover-excess"
+      ],
+      "checked": "2026-10-19",
+      "scope": "National HS +EV mean; original PHEV model name"
+    },
+    {
+      "familyId": "mitsubishi-eclipse-cross-phev",
+      "point": 1070,
+      "low": 710,
+      "high": 2500,
+      "basis": "Band A$712–1,425 midpoint A$1,068.50, rounded A$1,070. Petrol/PHEV pooled; not a reported mean. Policies sold 22 November 2025–22 May 2026, Australia-wide. Exact sample undisclosed; model comparisons require at least 10 policies. Youi says 80% fell within or below its band; it is not a central 80% interval. Personal address, driver, excess and value matter. Low/high values are analyst sensitivities, not insurer limits. Comprehensive only; QLD CTP is in registration.",
+      "confidence": "low",
+      "sourceIds": [
+        "phev19-eclipse-insurance",
+        "insurance-audit-cover-excess"
+      ],
+      "checked": "2026-10-19",
+      "scope": "National model-band midpoint; petrol/PHEV pooled"
+    },
+    {
+      "familyId": "gwm-haval-h6-phev",
+      "point": 1250,
+      "low": 800,
+      "high": 2800,
+      "basis": "Band A$806–1,697 midpoint A$1,251.50, rounded A$1,250. Powertrains pooled; new PHEV not isolated. Policies sold 22 November 2025–22 May 2026, Australia-wide. Exact sample undisclosed; model comparisons require at least 10 policies. Youi says 80% fell within or below its band; it is not a central 80% interval. Personal address, driver, excess and value matter. Low/high values are analyst sensitivities, not insurer limits. Comprehensive only; QLD CTP is in registration.",
+      "confidence": "low",
+      "sourceIds": [
+        "phev19-h6-insurance",
+        "insurance-audit-cover-excess"
+      ],
+      "checked": "2026-10-19",
+      "scope": "National model-band midpoint; powertrains pooled"
+    },
+    {
+      "familyId": "geely-starray-emi",
+      "point": 1300,
+      "low": 900,
+      "high": 2800,
+      "basis": "Band A$929–1,674 midpoint A$1,301.50, rounded A$1,300. Grades pooled; not a reported mean. Policies sold 22 November 2025–22 May 2026, Australia-wide. Exact sample undisclosed; model comparisons require at least 10 policies. Youi says 80% fell within or below its band; it is not a central 80% interval. Personal address, driver, excess and value matter. Low/high values are analyst sensitivities, not insurer limits. Comprehensive only; QLD CTP is in registration.",
+      "confidence": "low",
+      "sourceIds": [
+        "phev19-geely-insurance",
+        "insurance-audit-cover-excess"
+      ],
+      "checked": "2026-10-19",
+      "scope": "National Starray EM-i band midpoint; grades pooled"
+    },
+    {
+      "familyId": "chery-tiggo7-super-hybrid",
+      "point": 1410,
+      "low": 900,
+      "high": 2800,
+      "basis": "Tiggo 7 band A$908–1,902 midpoint A$1,405, rounded A$1,410. Not the older Tiggo 7 Pro band. Policies sold 22 November 2025–22 May 2026, Australia-wide. Exact sample undisclosed; model comparisons require at least 10 policies. Youi says 80% fell within or below its band; it is not a central 80% interval. Personal address, driver, excess and value matter. Low/high values are analyst sensitivities, not insurer limits. Comprehensive only; QLD CTP is in registration.",
+      "confidence": "low",
+      "sourceIds": [
+        "phev19-chery-insurance",
+        "insurance-audit-cover-excess"
+      ],
+      "checked": "2026-10-19",
+      "scope": "National Tiggo 7 band midpoint; powertrains pooled"
+    },
+    {
+      "familyId": "chery-tiggo8-super-hybrid",
+      "point": 1670,
+      "low": 1100,
+      "high": 3200,
+      "basis": "Tiggo 8 band A$1,131–2,199 midpoint A$1,665, rounded A$1,670. Not the older Pro Max band. Policies sold 22 November 2025–22 May 2026, Australia-wide. Exact sample undisclosed; model comparisons require at least 10 policies. Youi says 80% fell within or below its band; it is not a central 80% interval. Personal address, driver, excess and value matter. Low/high values are analyst sensitivities, not insurer limits. Comprehensive only; QLD CTP is in registration.",
+      "confidence": "low",
+      "sourceIds": [
+        "phev19-chery-insurance",
+        "insurance-audit-cover-excess"
+      ],
+      "checked": "2026-10-19",
+      "scope": "National Tiggo 8 band midpoint; powertrains pooled"
+    }
+  ],
+  "tyres": [
+    {
+      "vehicleId": "mg-hs-plus-ev-essence-2021",
+      "size": "235/50R18 101W XL",
+      "strategy": "budget-aftermarket",
+      "setCost": 716,
+      "setLow": 580,
+      "setHigh": 1040,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Budget aftermarket planning reference matched by tyre size; actual placard load/speed index must be checked. Budget aftermarket anchor: Wanli SA302 101W XL, A$179 each × 4 = A$716 fitted. Ordinary JAX advertised price includes fitting, balancing, tubeless valves, disposal, selected-store delivery and GST; no temporary multi-buy discount used. Store stock and Brisbane availability are unconfirmed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
+      "confidence": "low",
+      "sourceIds": [
+        "budget-value-2355018",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence",
+        "phev19-mg-spec"
+      ],
+      "checked": "2026-10-19",
+      "retailAnchor": {
+        "size": "235/50R18 101W XL",
+        "product": "Wanli SA302",
+        "unitPrice": 179,
+        "quantity": 4,
+        "sourceId": "budget-value-2355018",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    },
+    {
+      "vehicleId": "eclipse-cross-phev-aspire-2021",
+      "size": "225/55R18 · load/speed placard check required",
+      "strategy": "budget-aftermarket",
+      "setCost": 676,
+      "setLow": 500,
+      "setHigh": 1000,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Estimate: A$676 set budget uses an existing 225/55R18 Transmate Sport D1 98V advertised price of A$169 fitted each. The actual PHEV load/speed minimum is unverified: this is a same-size price proxy, not approval of that product. Obtain a matching placard-compliant quote. A$500–1,000 is a planning range; 40,000 km life (25,000–60,000 sensitivity) is an assumption. No manufacturer-branded tyre premium. Alignment extra; retailer stock and local price need confirmation.",
+      "confidence": "low",
+      "sourceIds": [
+        "budget-value-2255518",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence",
+        "phev19-eclipse-brochure"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "vehicleId": "haval-h6-lux-phev-2026",
+      "size": "235/55R19 105W replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 900,
+      "setLow": 750,
+      "setHigh": 1300,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Budget aftermarket planning reference matched by tyre size; actual placard load/speed index must be checked. Budget aftermarket fitted-set estimate, not a retailer quote. TyrePoint Nexen N-Fera SU1 105W is A$219 each / A$876 four fitted on sale, including GST/balance/disposal (A$240 regular each); A$900 is a rounded planning value. Possible SUV freight and local stock need a final quote. A 105W replacement-price reference, subject to the actual year/VIN placard. The former premium retail example did not establish the vehicle minimum. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
+      "confidence": "low",
+      "sourceIds": [
+        "budget-value-2355519",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence",
+        "phev19-h6-spec"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "vehicleId": "starray-emi-complete-2025",
+      "size": "225/55R18 · load/speed placard check required",
+      "strategy": "budget-aftermarket",
+      "setCost": 676,
+      "setLow": 500,
+      "setHigh": 1000,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Estimate: A$676 set budget uses an existing 225/55R18 Transmate Sport D1 98V advertised price of A$169 fitted each. The actual PHEV load/speed minimum is unverified: this is a same-size price proxy, not approval of that product. Obtain a matching placard-compliant quote. A$500–1,000 is a planning range; 40,000 km life (25,000–60,000 sensitivity) is an assumption. No manufacturer-branded tyre premium. Alignment extra; retailer stock and local price need confirmation.",
+      "confidence": "low",
+      "sourceIds": [
+        "budget-value-2255518",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence",
+        "phev19-geely-spec"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "vehicleId": "tiggo7-super-hybrid-urban-2025",
+      "size": "225/60R18 104W XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 756,
+      "setLow": 600,
+      "setHigh": 1040,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Budget aftermarket planning reference matched by tyre size; actual placard load/speed index must be checked. Budget aftermarket anchor: Radar RPX800+ SUV 104W XL, A$189 each × 4 = A$756 fitted. Ordinary JAX advertised price includes fitting, balancing, tubeless valves, disposal, selected-store delivery and GST; no temporary multi-buy discount used. Store stock and Brisbane availability are unconfirmed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
+      "confidence": "low",
+      "sourceIds": [
+        "budget-value-2256018",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence",
+        "phev19-t7-spec"
+      ],
+      "checked": "2026-10-19",
+      "retailAnchor": {
+        "size": "225/60R18 104W XL replacement reference",
+        "product": "Radar RPX800+ SUV",
+        "unitPrice": 189,
+        "quantity": 4,
+        "sourceId": "budget-value-2256018",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    },
+    {
+      "vehicleId": "tiggo8-super-hybrid-urban-2025",
+      "size": "235/50R19 103W XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 756,
+      "setLow": 680,
+      "setHigh": 1100,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Budget aftermarket planning reference matched by tyre size; actual placard load/speed index must be checked. Budget aftermarket anchor: Dynamo Hiscend-H MSU02 103W XL, A$189 each × 4 = A$756 fitted. Ordinary JAX advertised price includes fitting, balancing, tubeless valves, disposal, selected-store delivery and GST; no temporary multi-buy discount used. Store stock and Brisbane availability are unconfirmed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
+      "confidence": "low",
+      "sourceIds": [
+        "budget-value-2355019",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence",
+        "phev19-t8-spec"
+      ],
+      "checked": "2026-10-19",
+      "retailAnchor": {
+        "size": "235/50R19 103W XL replacement reference",
+        "product": "Dynamo Hiscend-H MSU02",
+        "unitPrice": 189,
+        "quantity": 4,
+        "sourceId": "budget-value-2355019",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserves": [
+    {
+      "vehicleId": "mg-hs-plus-ev-essence-2021",
+      "point": 1100,
+      "low": 350,
+      "high": 2500,
+      "basis": "Optional analyst repair-savings scenario, not predicted annual spending. Low confidence: no comparative Australian failure-frequency or installed-quote dataset was verified. Used MG/Eclipse have less remaining warranty than a new PHEV. Excludes servicing, tyres, insured collision/hail/flood/theft damage and free recalls. Savings may remain unspent; exclude from routine running cost by default.",
+      "confidence": "low",
+      "sourceIds": [
+        "phev19-mg-spec"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "vehicleId": "eclipse-cross-phev-aspire-2021",
+      "point": 900,
+      "low": 300,
+      "high": 2200,
+      "basis": "Optional analyst repair-savings scenario, not predicted annual spending. Low confidence: no comparative Australian failure-frequency or installed-quote dataset was verified. Used MG/Eclipse have less remaining warranty than a new PHEV. Excludes servicing, tyres, insured collision/hail/flood/theft damage and free recalls. Savings may remain unspent; exclude from routine running cost by default.",
+      "confidence": "low",
+      "sourceIds": [
+        "phev19-eclipse-spec"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "vehicleId": "haval-h6-lux-phev-2026",
+      "point": 850,
+      "low": 250,
+      "high": 2200,
+      "basis": "Optional analyst repair-savings scenario, not predicted annual spending. Low confidence: no comparative Australian failure-frequency or installed-quote dataset was verified. Used MG/Eclipse have less remaining warranty than a new PHEV. Excludes servicing, tyres, insured collision/hail/flood/theft damage and free recalls. Savings may remain unspent; exclude from routine running cost by default.",
+      "confidence": "low",
+      "sourceIds": [
+        "phev19-h6-spec"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "vehicleId": "starray-emi-complete-2025",
+      "point": 850,
+      "low": 250,
+      "high": 2200,
+      "basis": "Optional analyst repair-savings scenario, not predicted annual spending. Low confidence: no comparative Australian failure-frequency or installed-quote dataset was verified. Used MG/Eclipse have less remaining warranty than a new PHEV. Excludes servicing, tyres, insured collision/hail/flood/theft damage and free recalls. Savings may remain unspent; exclude from routine running cost by default.",
+      "confidence": "low",
+      "sourceIds": [
+        "phev19-geely-spec"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "vehicleId": "tiggo7-super-hybrid-urban-2025",
+      "point": 850,
+      "low": 250,
+      "high": 2200,
+      "basis": "Optional analyst repair-savings scenario, not predicted annual spending. Low confidence: no comparative Australian failure-frequency or installed-quote dataset was verified. Used MG/Eclipse have less remaining warranty than a new PHEV. Excludes servicing, tyres, insured collision/hail/flood/theft damage and free recalls. Savings may remain unspent; exclude from routine running cost by default.",
+      "confidence": "low",
+      "sourceIds": [
+        "phev19-t7-spec"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "vehicleId": "tiggo8-super-hybrid-urban-2025",
+      "point": 850,
+      "low": 250,
+      "high": 2200,
+      "basis": "Optional analyst repair-savings scenario, not predicted annual spending. Low confidence: no comparative Australian failure-frequency or installed-quote dataset was verified. Used MG/Eclipse have less remaining warranty than a new PHEV. Excludes servicing, tyres, insured collision/hail/flood/theft damage and free recalls. Savings may remain unspent; exclude from routine running cost by default.",
+      "confidence": "low",
+      "sourceIds": [
+        "phev19-t8-spec"
+      ],
+      "checked": "2026-10-19"
+    }
+  ],
+  "reviews": [
+    {
+      "familyId": "mg-hs-phev",
+      "rating": 3.2,
+      "outOf": 5,
+      "count": 5,
+      "scope": "Original HS Plus EV 2021–24; grades pooled. Five contributors include an employed road tester and a rental experience.",
+      "summary": "Small mixed contributor pool; not five independently verified long-term owners.",
+      "positiveThemes": [
+        "Quiet electric driving",
+        "Value"
+      ],
+      "negativeThemes": [
+        "Slow infotainment",
+        "Some air-conditioning or drive complaints"
+      ],
+      "sourceIds": [
+        "phev19-mg-owners"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "familyId": "mitsubishi-eclipse-cross-phev",
+      "rating": 3.8,
+      "outOf": 5,
+      "count": 5,
+      "scope": "YB PHEV 2020–26 category; years and grades pooled.",
+      "summary": "Five self-selected contributors; not a failure rate.",
+      "positiveThemes": [
+        "EV commuting",
+        "Smoothness"
+      ],
+      "negativeThemes": [
+        "Some charging or service complaints"
+      ],
+      "sourceIds": [
+        "phev19-eclipse-owners"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "familyId": "gwm-haval-h6-phev",
+      "rating": 3.0,
+      "outOf": 5,
+      "count": 70,
+      "scope": "H6 2021–26 aggregate: mainly petrol/HEV; not a new-PHEV owner pool.",
+      "summary": "Mixed powertrains and self-selection; weak context for new PHEV reliability.",
+      "positiveThemes": [
+        "Equipment",
+        "Value"
+      ],
+      "negativeThemes": [
+        "ADAS behaviour",
+        "After-sales complaints"
+      ],
+      "sourceIds": [
+        "phev19-h6-owners"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "familyId": "geely-starray-emi",
+      "rating": 4.0,
+      "outOf": 5,
+      "count": 1,
+      "scope": "One Australian 2026 Starray contributor near 10,000 km; exact grade unspecified.",
+      "summary": "One anecdote; very weak reliability evidence.",
+      "positiveThemes": [
+        "Smooth suburban EV use",
+        "Value"
+      ],
+      "negativeThemes": [
+        "Too few reports to infer reliability"
+      ],
+      "sourceIds": [
+        "phev19-geely-owners"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "familyId": "chery-tiggo7-super-hybrid",
+      "rating": null,
+      "outOf": 5,
+      "count": 0,
+      "scope": "No verified PHEV-specific owner aggregate. Two Tiggo 7 petrol/courtesy-car reports are excluded.",
+      "summary": "Professional PHEV tests supplied separately; unrelated owner stars are not transferred.",
+      "positiveThemes": [],
+      "negativeThemes": [],
+      "sourceIds": [
+        "phev19-t7-owners"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "familyId": "chery-tiggo8-super-hybrid",
+      "rating": 1.0,
+      "outOf": 5,
+      "count": 1,
+      "scope": "One 2025–26 Super Hybrid Ultimate contributor; platform marks Fair Incentive.",
+      "summary": "One incentivised-labelled contribution, not a representative sample or model failure rate.",
+      "positiveThemes": [],
+      "negativeThemes": [
+        "One contributor reported door-handle/alarm faults and support problems"
+      ],
+      "sourceIds": [
+        "phev19-t8-owners"
+      ],
+      "checked": "2026-10-19"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "phev19-expert-mg-hs-phev",
+      "familyId": "mg-hs-phev",
+      "vehicleIds": [
+        "mg-hs-plus-ev-essence-2021"
+      ],
+      "tested": "2022 HS +EV Excite",
+      "scope": "Related lower trim; same original PHEV. One professional test.",
+      "publisher": "CarsGuide",
+      "published": "2022-04-09",
+      "checked": "2026-10-19",
+      "rating": 7.5,
+      "outOf": 10,
+      "verdict": "Smooth drive and large rear cabin; ride and screen response need a trial.",
+      "positiveThemes": [
+        "Large rear cabin",
+        "Quiet EV use"
+      ],
+      "negativeThemes": [
+        "Screen lag",
+        "Ride control"
+      ],
+      "sourceIds": [
+        "phev19-mg-expert"
+      ]
+    },
+    {
+      "id": "phev19-expert-mitsubishi-eclipse-cross-phev",
+      "familyId": "mitsubishi-eclipse-cross-phev",
+      "vehicleIds": [
+        "eclipse-cross-phev-aspire-2021"
+      ],
+      "tested": "2022 Eclipse Cross Exceed PHEV",
+      "scope": "Related Exceed grade; boot and interface compromises inform Aspire.",
+      "publisher": "CarsGuide",
+      "published": "2021-11-06",
+      "checked": "2026-10-19",
+      "rating": 7.4,
+      "outOf": 10,
+      "verdict": "Smooth urban power handover; small boot and dated controls.",
+      "positiveThemes": [
+        "Smooth handover",
+        "Useful EV commute range"
+      ],
+      "negativeThemes": [
+        "Small boot",
+        "Dated controls"
+      ],
+      "sourceIds": [
+        "phev19-eclipse-expert"
+      ]
+    },
+    {
+      "id": "phev19-expert-gwm-haval-h6-phev",
+      "familyId": "gwm-haval-h6-phev",
+      "vehicleIds": [
+        "haval-h6-lux-phev-2026"
+      ],
+      "tested": "2026 H6 Ultra PHEV AWD",
+      "scope": "Related AWD/Ultra first drive; dynamics and equipment do not fully transfer to FWD Lux.",
+      "publisher": "CarsGuide",
+      "published": "2025-11-09",
+      "checked": "2026-10-19",
+      "rating": 7.9,
+      "outOf": 10,
+      "verdict": "More space and improved tuning; steering and ADAS remain criticisms.",
+      "positiveThemes": [
+        "Spacious cabin",
+        "Improved tune"
+      ],
+      "negativeThemes": [
+        "Steering feel",
+        "Intrusive assistance"
+      ],
+      "sourceIds": [
+        "phev19-h6-expert"
+      ]
+    },
+    {
+      "id": "phev19-expert-geely-starray-emi",
+      "familyId": "geely-starray-emi",
+      "vehicleIds": [
+        "starray-emi-complete-2025"
+      ],
+      "tested": "Starray Inspire long-term conclusion",
+      "scope": "Higher grade: mixes original 18.4 kWh and later Extended 29.8 kWh. Not an exact Complete test.",
+      "publisher": "CarsGuide",
+      "published": "2026-07-19",
+      "checked": "2026-10-19",
+      "rating": 7.3,
+      "outOf": 10,
+      "verdict": "Refined hybrid and value; ride and technology need a trial.",
+      "positiveThemes": [
+        "Refined drivetrain",
+        "Value"
+      ],
+      "negativeThemes": [
+        "Firm ride",
+        "Technology irritations"
+      ],
+      "sourceIds": [
+        "phev19-geely-expert"
+      ]
+    },
+    {
+      "id": "phev19-expert-chery-tiggo7-super-hybrid",
+      "familyId": "chery-tiggo7-super-hybrid",
+      "vehicleIds": [
+        "tiggo7-super-hybrid-urban-2025"
+      ],
+      "tested": "Tiggo 7 Super Hybrid Urban",
+      "scope": "Exact Urban Australian launch test; not a long-term reliability study.",
+      "publisher": "CarsGuide",
+      "published": "2025-07-28",
+      "checked": "2026-10-19",
+      "rating": 7.6,
+      "outOf": 10,
+      "verdict": "Quiet, efficient budget PHEV; dynamics and software reduce polish.",
+      "positiveThemes": [
+        "Low price",
+        "Quiet drive"
+      ],
+      "negativeThemes": [
+        "Dynamics",
+        "Software"
+      ],
+      "sourceIds": [
+        "phev19-t7-expert"
+      ]
+    },
+    {
+      "id": "phev19-expert-chery-tiggo8-super-hybrid",
+      "familyId": "chery-tiggo8-super-hybrid",
+      "vehicleIds": [
+        "tiggo8-super-hybrid-urban-2025"
+      ],
+      "tested": "Tiggo 8 Ultimate Super Hybrid long-term",
+      "scope": "Related higher grade after three months; not an exact Urban equipment test.",
+      "publisher": "CarsGuide",
+      "published": "2026-05-16",
+      "checked": "2026-10-19",
+      "rating": 8.1,
+      "outOf": 10,
+      "verdict": "Comfort and economy; shifter and touch controls frustrated the tester.",
+      "positiveThemes": [
+        "Comfort",
+        "Value"
+      ],
+      "negativeThemes": [
+        "Shifter",
+        "Touch controls"
+      ],
+      "sourceIds": [
+        "phev19-t8-expert"
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "make": "MG",
+      "support": "established",
+      "summary": "National dealer support; original used HS +EV reliability is not established by sales or warranty headlines.",
+      "network": "Use the authorised locator; confirm a nearby PHEV-trained workshop and parts lead times.",
+      "warrantyNote": "Original HS +EV terms are separate from current service-activated ten-year offers.",
+      "sourceIds": [
+        "phev19-mg-warranty"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "make": "GWM",
+      "support": "established",
+      "summary": "Established Australian dealer operation; long-term evidence for the new H6 PHEV remains limited.",
+      "network": "Observed Queensland dealers include Moorooka and Springwood; confirm hybrid repair capability.",
+      "warrantyNote": "Seven-year private vehicle and eight-year battery headlines; full terms apply.",
+      "sourceIds": [
+        "phev19-h6-page"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "make": "Geely",
+      "support": "developing",
+      "summary": "Australian operations restarted in 2025. Global group scale does not prove local Starray reliability or parts support.",
+      "network": "Verify a nearby PHEV-trained workshop and local parts availability.",
+      "warrantyNote": "Seven-year vehicle and eight-year private battery headlines; conditions apply.",
+      "sourceIds": [
+        "phev19-geely-page"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "make": "Chery",
+      "support": "developing",
+      "summary": "Chery announced its 100th Australian dealer on 14 October 2026 in Indooroopilly. Network size does not measure failure rates or repair lead times.",
+      "network": "One hundred authorised dealers announced; confirm local PHEV capability and parts lead times.",
+      "warrantyNote": "Seven-year vehicle and eight-year battery headlines; conditions apply.",
+      "sourceIds": [
+        "phev19-chery-network"
+      ],
+      "checked": "2026-10-19"
+    }
+  ],
+  "fuelRequirements": [
+    {
+      "vehicleId": "mg-hs-plus-ev-essence-2021",
+      "planningRon": 95,
+      "minimumRon": 95,
+      "basis": "Australian manufacturer reference recommends 95 RON for this configuration. Confirm the actual fuel flap and handbook; generic dealer classifications do not override it.",
+      "confidence": "high",
+      "sourceIds": [
+        "phev19-mg-manual"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "vehicleId": "eclipse-cross-phev-aspire-2021",
+      "planningRon": 91,
+      "minimumRon": 91,
+      "basis": "Australian manufacturer reference recommends 91 RON for this configuration. Confirm the actual fuel flap and handbook; generic dealer classifications do not override it.",
+      "confidence": "high",
+      "sourceIds": [
+        "phev19-eclipse-brochure"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "vehicleId": "haval-h6-lux-phev-2026",
+      "planningRon": 91,
+      "minimumRon": null,
+      "basis": "Australian manufacturer reference recommends 91 RON for this configuration. Confirm the actual fuel flap and handbook; generic dealer classifications do not override it. This records the manufacturer recommendation; a lower permitted minimum is not independently established.",
+      "confidence": "high",
+      "sourceIds": [
+        "phev19-h6-spec"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "vehicleId": "starray-emi-complete-2025",
+      "planningRon": 95,
+      "minimumRon": null,
+      "basis": "Australian manufacturer reference recommends 95 RON for this configuration. Confirm the actual fuel flap and handbook; generic dealer classifications do not override it. This records the manufacturer recommendation; a lower permitted minimum is not independently established.",
+      "confidence": "high",
+      "sourceIds": [
+        "phev19-geely-spec"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "vehicleId": "tiggo7-super-hybrid-urban-2025",
+      "planningRon": 91,
+      "minimumRon": null,
+      "basis": "Australian manufacturer reference recommends 91 RON for this configuration. Confirm the actual fuel flap and handbook; generic dealer classifications do not override it. This records the manufacturer recommendation; a lower permitted minimum is not independently established.",
+      "confidence": "high",
+      "sourceIds": [
+        "phev19-t7-spec"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "vehicleId": "tiggo8-super-hybrid-urban-2025",
+      "planningRon": 95,
+      "minimumRon": null,
+      "basis": "Australian manufacturer reference recommends 95 RON for this configuration. Confirm the actual fuel flap and handbook; generic dealer classifications do not override it. This records the manufacturer recommendation; a lower permitted minimum is not independently established.",
+      "confidence": "high",
+      "sourceIds": [
+        "phev19-t8-spec"
+      ],
+      "checked": "2026-10-19"
+    }
+  ],
+  "images": [],
+  "fitAssessments": [
+    {
+      "vehicleId": "mg-hs-plus-ev-essence-2021",
+      "scope": "related",
+      "summary": "Alternative mixed-direction test: two rear-facing plus a booster. Desired one rear-facing plus two other-seat arrangement remains unconfirmed.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Two rear-facing plus a booster fitted. A different simultaneous one rear-facing plus two other-seat combination is not established.",
+          "sourceIds": [
+            "phev19-mg-fit"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "Published booster combination; your daily buckle reach is unverified.",
+          "sourceIds": [
+            "phev19-mg-fit"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Tester accommodated a 180 cm driver or 184 cm passenger ahead of rear-facing restraints.",
+          "sourceIds": [
+            "phev19-mg-fit"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Tester found loading a child from inside and outside the cabin easy.",
+          "sourceIds": [
+            "phev19-mg-fit"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "eclipse-cross-phev-aspire-2021",
+      "scope": "related",
+      "summary": "Related Exceed PHEV test; Aspire equipment differs.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Three forward-facing and separate rear-facing installations shown; simultaneous one rear-facing plus two others unverified.",
+          "sourceIds": [
+            "phev19-eclipse-fit"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No daily booster buckle-access test verified.",
+          "sourceIds": [
+            "phev19-eclipse-fit"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Good published front-occupant legroom.",
+          "sourceIds": [
+            "phev19-eclipse-fit"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Reviewer found loading through the doorway easy.",
+          "sourceIds": [
+            "phev19-eclipse-fit"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "haval-h6-lux-phev-2026",
+      "scope": "related",
+      "summary": "PHEV test grade unspecified; Lux transfer is provisional.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Three-across and rear-facing clearance reported separately; simultaneous one rear-facing plus two other restraints is not established.",
+          "sourceIds": [
+            "phev19-fit-roundup"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "Exact booster buckle access unverified.",
+          "sourceIds": [
+            "phev19-h6-report"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Promising rear-facing legroom report.",
+          "sourceIds": [
+            "phev19-fit-roundup"
+          ]
+        },
+        "access": {
+          "rating": "unknown",
+          "detail": "Manufacturer anchors do not establish ease of loading a child; independent loading evidence unverified.",
+          "sourceIds": [
+            "phev19-h6-spec"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "starray-emi-complete-2025",
+      "scope": "related",
+      "summary": "Direct mixed-direction Inspire test; related Complete transfer. Shoulder width and centre booster compatibility are limitations.",
+      "criteria": {
+        "arrangement": {
+          "rating": "workable",
+          "detail": "One rear-facing plus two forward-facing fitted; shoulder width was tight.",
+          "sourceIds": [
+            "phev19-geely-fit"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "Daily booster buckle reach unverified. ANCAP separately found one centre-booster installation incompatible.",
+          "sourceIds": [
+            "phev19-geely-report"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Published test accommodated a 186 cm driver ahead of a rear-facing restraint.",
+          "sourceIds": [
+            "phev19-geely-fit"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Flat rear floor aided movement to and from child seats in the test.",
+          "sourceIds": [
+            "phev19-geely-fit"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "tiggo7-super-hybrid-urban-2025",
+      "scope": "related",
+      "summary": "Three-across reported; grade and exact restraints unspecified.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Three-across and rear-facing clearance reported separately; simultaneous one rear-facing plus two other restraints is not established.",
+          "sourceIds": [
+            "phev19-fit-roundup"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "Daily booster buckle access unverified.",
+          "sourceIds": [
+            "phev19-t7-spec"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Promising rear-facing legroom report.",
+          "sourceIds": [
+            "phev19-fit-roundup"
+          ]
+        },
+        "access": {
+          "rating": "unknown",
+          "detail": "Manufacturer anchors do not establish ease of loading a child; independent loading evidence unverified.",
+          "sourceIds": [
+            "phev19-t7-spec"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "tiggo8-super-hybrid-urban-2025",
+      "scope": "related",
+      "summary": "Related Ultimate test: rear-facing legroom and third-row access are significant limits.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Three forward-facing seats fitted; separate rear-facing legroom was checked. Simultaneous one rear-facing plus two other seats is unverified.",
+          "sourceIds": [
+            "phev19-t8-fit"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "Tight fit does not establish daily booster buckle access.",
+          "sourceIds": [
+            "phev19-t8-fit"
+          ]
+        },
+        "space": {
+          "rating": "restricted",
+          "detail": "Very limited front-occupant legroom with the tested rear-facing seat.",
+          "sourceIds": [
+            "phev19-t8-fit"
+          ]
+        },
+        "access": {
+          "rating": "restricted",
+          "detail": "Remove one row-two restraint for row-three access; no row-three anchors.",
+          "sourceIds": [
+            "phev19-t8-fit",
+            "phev19-t8-ancap"
+          ]
+        }
+      }
+    }
+  ],
+  "reviewCohorts": [
+    {
+      "id": "phev19-owner-mg-hs-phev",
+      "familyId": "mg-hs-phev",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 3.2,
+      "outOf": 5,
+      "count": 5,
+      "countKind": "reviews",
+      "scope": "Original HS Plus EV 2021–24; grades pooled. Five contributors include an employed road tester and a rental experience.",
+      "summary": "Small mixed contributor pool; not five independently verified long-term owners.",
+      "positiveThemes": [
+        "Quiet electric driving",
+        "Value"
+      ],
+      "negativeThemes": [
+        "Slow infotainment",
+        "Some air-conditioning or drive complaints"
+      ],
+      "limitations": "Small mixed contributor pool; not five independently verified long-term owners.",
+      "matches": [
+        {
+          "vehicleId": "mg-hs-plus-ev-essence-2021",
+          "factor": 0.5,
+          "note": "Small and/or mixed scope; contributions are not all confirmed owners of this exact grade."
+        }
+      ],
+      "overlapGroup": "phev19-productreview-mg-hs-phev",
+      "checked": "2026-10-19",
+      "sourceIds": [
+        "phev19-mg-owners"
+      ]
+    },
+    {
+      "id": "phev19-owner-mitsubishi-eclipse-cross-phev",
+      "familyId": "mitsubishi-eclipse-cross-phev",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 3.8,
+      "outOf": 5,
+      "count": 5,
+      "countKind": "reviews",
+      "scope": "YB PHEV 2020–26 category; years and grades pooled.",
+      "summary": "Five self-selected contributors; not a failure rate.",
+      "positiveThemes": [
+        "EV commuting",
+        "Smoothness"
+      ],
+      "negativeThemes": [
+        "Some charging or service complaints"
+      ],
+      "limitations": "Five self-selected contributors; not a failure rate.",
+      "matches": [
+        {
+          "vehicleId": "eclipse-cross-phev-aspire-2021",
+          "factor": 0.65,
+          "note": "Small and/or mixed scope; contributions are not all confirmed owners of this exact grade."
+        }
+      ],
+      "overlapGroup": "phev19-productreview-mitsubishi-eclipse-cross-phev",
+      "checked": "2026-10-19",
+      "sourceIds": [
+        "phev19-eclipse-owners"
+      ]
+    },
+    {
+      "id": "phev19-owner-gwm-haval-h6-phev",
+      "familyId": "gwm-haval-h6-phev",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 3.0,
+      "outOf": 5,
+      "count": 70,
+      "countKind": "reviews",
+      "scope": "H6 2021–26 aggregate: mainly petrol/HEV; not a new-PHEV owner pool.",
+      "summary": "Mixed powertrains and self-selection; weak context for new PHEV reliability.",
+      "positiveThemes": [
+        "Equipment",
+        "Value"
+      ],
+      "negativeThemes": [
+        "ADAS behaviour",
+        "After-sales complaints"
+      ],
+      "limitations": "Mixed powertrains and self-selection; weak context for new PHEV reliability.",
+      "matches": [
+        {
+          "vehicleId": "haval-h6-lux-phev-2026",
+          "factor": 0.3,
+          "note": "Small and/or mixed scope; contributions are not all confirmed owners of this exact grade."
+        }
+      ],
+      "overlapGroup": "phev19-productreview-gwm-haval-h6-phev",
+      "checked": "2026-10-19",
+      "sourceIds": [
+        "phev19-h6-owners"
+      ]
+    },
+    {
+      "id": "phev19-owner-geely-starray-emi",
+      "familyId": "geely-starray-emi",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 4.0,
+      "outOf": 5,
+      "count": 1,
+      "countKind": "reviews",
+      "scope": "One Australian 2026 Starray contributor near 10,000 km; exact grade unspecified.",
+      "summary": "One anecdote; very weak reliability evidence.",
+      "positiveThemes": [
+        "Smooth suburban EV use",
+        "Value"
+      ],
+      "negativeThemes": [
+        "Too few reports to infer reliability"
+      ],
+      "limitations": "One anecdote; very weak reliability evidence.",
+      "matches": [
+        {
+          "vehicleId": "starray-emi-complete-2025",
+          "factor": 0.65,
+          "note": "Small and/or mixed scope; contributions are not all confirmed owners of this exact grade."
+        }
+      ],
+      "overlapGroup": "phev19-productreview-geely-starray-emi",
+      "checked": "2026-10-19",
+      "sourceIds": [
+        "phev19-geely-owners"
+      ]
+    },
+    {
+      "id": "phev19-owner-chery-tiggo8-super-hybrid",
+      "familyId": "chery-tiggo8-super-hybrid",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 1.0,
+      "outOf": 5,
+      "count": 1,
+      "countKind": "reviews",
+      "scope": "One 2025–26 Super Hybrid Ultimate contributor; platform marks Fair Incentive.",
+      "summary": "One incentivised-labelled contribution, not a representative sample or model failure rate.",
+      "positiveThemes": [],
+      "negativeThemes": [
+        "One contributor reported door-handle/alarm faults and support problems"
+      ],
+      "limitations": "One incentivised-labelled contribution, not a representative sample or model failure rate.",
+      "matches": [
+        {
+          "vehicleId": "tiggo8-super-hybrid-urban-2025",
+          "factor": 0.65,
+          "note": "Small and/or mixed scope; contributions are not all confirmed owners of this exact grade."
+        }
+      ],
+      "overlapGroup": "phev19-productreview-chery-tiggo8-super-hybrid",
+      "checked": "2026-10-19",
+      "sourceIds": [
+        "phev19-t8-owners"
+      ]
+    },
+    {
+      "id": "phev19-expert-mg-hs-phev",
+      "familyId": "mg-hs-phev",
+      "publisher": "CarsGuide",
+      "region": "Australia",
+      "kind": "professional",
+      "rating": 7.5,
+      "outOf": 10,
+      "count": 1,
+      "countKind": "reviews",
+      "scope": "Related lower trim; same original PHEV. One professional test.",
+      "summary": "Smooth drive and large rear cabin; ride and screen response need a trial.",
+      "positiveThemes": [
+        "Large rear cabin",
+        "Quiet EV use"
+      ],
+      "negativeThemes": [
+        "Screen lag",
+        "Ride control"
+      ],
+      "limitations": "One road test; does not measure failure frequency. Related variants are explicitly marked.",
+      "matches": [
+        {
+          "vehicleId": "mg-hs-plus-ev-essence-2021",
+          "factor": 0.6,
+          "note": "Related lower trim; same original PHEV. One professional test."
+        }
+      ],
+      "overlapGroup": "phev19-expert-mg-hs-phev",
+      "checked": "2026-10-19",
+      "sourceIds": [
+        "phev19-mg-expert"
+      ]
+    },
+    {
+      "id": "phev19-expert-mitsubishi-eclipse-cross-phev",
+      "familyId": "mitsubishi-eclipse-cross-phev",
+      "publisher": "CarsGuide",
+      "region": "Australia",
+      "kind": "professional",
+      "rating": 7.4,
+      "outOf": 10,
+      "count": 1,
+      "countKind": "reviews",
+      "scope": "Related Exceed grade; boot and interface compromises inform Aspire.",
+      "summary": "Smooth urban power handover; small boot and dated controls.",
+      "positiveThemes": [
+        "Smooth handover",
+        "Useful EV commute range"
+      ],
+      "negativeThemes": [
+        "Small boot",
+        "Dated controls"
+      ],
+      "limitations": "One road test; does not measure failure frequency. Related variants are explicitly marked.",
+      "matches": [
+        {
+          "vehicleId": "eclipse-cross-phev-aspire-2021",
+          "factor": 0.6,
+          "note": "Related Exceed grade; boot and interface compromises inform Aspire."
+        }
+      ],
+      "overlapGroup": "phev19-expert-mitsubishi-eclipse-cross-phev",
+      "checked": "2026-10-19",
+      "sourceIds": [
+        "phev19-eclipse-expert"
+      ]
+    },
+    {
+      "id": "phev19-expert-gwm-haval-h6-phev",
+      "familyId": "gwm-haval-h6-phev",
+      "publisher": "CarsGuide",
+      "region": "Australia",
+      "kind": "professional",
+      "rating": 7.9,
+      "outOf": 10,
+      "count": 1,
+      "countKind": "reviews",
+      "scope": "Related AWD/Ultra first drive; dynamics and equipment do not fully transfer to FWD Lux.",
+      "summary": "More space and improved tuning; steering and ADAS remain criticisms.",
+      "positiveThemes": [
+        "Spacious cabin",
+        "Improved tune"
+      ],
+      "negativeThemes": [
+        "Steering feel",
+        "Intrusive assistance"
+      ],
+      "limitations": "One road test; does not measure failure frequency. Related variants are explicitly marked.",
+      "matches": [
+        {
+          "vehicleId": "haval-h6-lux-phev-2026",
+          "factor": 0.6,
+          "note": "Related AWD/Ultra first drive; dynamics and equipment do not fully transfer to FWD Lux."
+        }
+      ],
+      "overlapGroup": "phev19-expert-gwm-haval-h6-phev",
+      "checked": "2026-10-19",
+      "sourceIds": [
+        "phev19-h6-expert"
+      ]
+    },
+    {
+      "id": "phev19-expert-geely-starray-emi",
+      "familyId": "geely-starray-emi",
+      "publisher": "CarsGuide",
+      "region": "Australia",
+      "kind": "professional",
+      "rating": 7.3,
+      "outOf": 10,
+      "count": 1,
+      "countKind": "reviews",
+      "scope": "Higher grade: mixes original 18.4 kWh and later Extended 29.8 kWh. Not an exact Complete test.",
+      "summary": "Refined hybrid and value; ride and technology need a trial.",
+      "positiveThemes": [
+        "Refined drivetrain",
+        "Value"
+      ],
+      "negativeThemes": [
+        "Firm ride",
+        "Technology irritations"
+      ],
+      "limitations": "One road test; does not measure failure frequency. Related variants are explicitly marked.",
+      "matches": [
+        {
+          "vehicleId": "starray-emi-complete-2025",
+          "factor": 0.6,
+          "note": "Higher grade: mixes original 18.4 kWh and later Extended 29.8 kWh. Not an exact Complete test."
+        }
+      ],
+      "overlapGroup": "phev19-expert-geely-starray-emi",
+      "checked": "2026-10-19",
+      "sourceIds": [
+        "phev19-geely-expert"
+      ]
+    },
+    {
+      "id": "phev19-expert-chery-tiggo7-super-hybrid",
+      "familyId": "chery-tiggo7-super-hybrid",
+      "publisher": "CarsGuide",
+      "region": "Australia",
+      "kind": "professional",
+      "rating": 7.6,
+      "outOf": 10,
+      "count": 1,
+      "countKind": "reviews",
+      "scope": "Exact Urban Australian launch test; not a long-term reliability study.",
+      "summary": "Quiet, efficient budget PHEV; dynamics and software reduce polish.",
+      "positiveThemes": [
+        "Low price",
+        "Quiet drive"
+      ],
+      "negativeThemes": [
+        "Dynamics",
+        "Software"
+      ],
+      "limitations": "One road test; does not measure failure frequency. Related variants are explicitly marked.",
+      "matches": [
+        {
+          "vehicleId": "tiggo7-super-hybrid-urban-2025",
+          "factor": 1,
+          "note": "Exact Urban Australian launch test; not a long-term reliability study."
+        }
+      ],
+      "overlapGroup": "phev19-expert-chery-tiggo7-super-hybrid",
+      "checked": "2026-10-19",
+      "sourceIds": [
+        "phev19-t7-expert"
+      ]
+    },
+    {
+      "id": "phev19-expert-chery-tiggo8-super-hybrid",
+      "familyId": "chery-tiggo8-super-hybrid",
+      "publisher": "CarsGuide",
+      "region": "Australia",
+      "kind": "professional",
+      "rating": 8.1,
+      "outOf": 10,
+      "count": 1,
+      "countKind": "reviews",
+      "scope": "Related higher grade after three months; not an exact Urban equipment test.",
+      "summary": "Comfort and economy; shifter and touch controls frustrated the tester.",
+      "positiveThemes": [
+        "Comfort",
+        "Value"
+      ],
+      "negativeThemes": [
+        "Shifter",
+        "Touch controls"
+      ],
+      "limitations": "One road test; does not measure failure frequency. Related variants are explicitly marked.",
+      "matches": [
+        {
+          "vehicleId": "tiggo8-super-hybrid-urban-2025",
+          "factor": 0.6,
+          "note": "Related higher grade after three months; not an exact Urban equipment test."
+        }
+      ],
+      "overlapGroup": "phev19-expert-chery-tiggo8-super-hybrid",
+      "checked": "2026-10-19",
+      "sourceIds": [
+        "phev19-t8-expert"
+      ]
+    },
+    {
+      "id": "phev19-expert-tiggo8-urban-chasingcars",
+      "familyId": "chery-tiggo8-super-hybrid",
+      "publisher": "Chasing Cars",
+      "region": "Australia",
+      "kind": "professional",
+      "rating": 6.5,
+      "outOf": 10,
+      "count": 1,
+      "countKind": "reviews",
+      "scope": "Exact Australian Urban test. Publication date not displayed; accessed 19 October 2026.",
+      "summary": "Value and smooth hybrid drive; strong criticisms of third-row usability, seat support and high-speed body control.",
+      "positiveThemes": [
+        "Value",
+        "Efficient smooth drive"
+      ],
+      "negativeThemes": [
+        "Third-row usability",
+        "High-speed body control",
+        "Seat support"
+      ],
+      "limitations": "One road test. Its historical unrated-safety remark is superseded by current ANCAP PHEV coverage; not used as current safety status. Publication date unverified.",
+      "sourceIds": [
+        "phev19-t8-urban-review"
+      ],
+      "matches": [
+        {
+          "vehicleId": "tiggo8-super-hybrid-urban-2025",
+          "factor": 1,
+          "note": "Exact Urban configuration; one professional opinion, not a reliability study."
+        }
+      ],
+      "overlapGroup": "phev19-expert-tiggo8-urban-chasingcars",
+      "checked": "2026-10-19"
+    }
+  ],
+  "reviewCoverage": [
+    {
+      "familyId": "mg-hs-phev",
+      "summary": "Australian owner contributors and professional tests checked 19 October 2026. Small mixed contributor pool; not five independently verified long-term owners.",
+      "gaps": [
+        "No age-adjusted Australian mechanical-failure rate.",
+        "Fifty exact-variant owner reviews were not verified; counts are not inflated."
+      ],
+      "sourceIds": [
+        "phev19-mg-owners"
+      ]
+    },
+    {
+      "familyId": "mitsubishi-eclipse-cross-phev",
+      "summary": "Australian owner contributors and professional tests checked 19 October 2026. Five self-selected contributors; not a failure rate.",
+      "gaps": [
+        "No age-adjusted Australian mechanical-failure rate.",
+        "Fifty exact-variant owner reviews were not verified; counts are not inflated."
+      ],
+      "sourceIds": [
+        "phev19-eclipse-owners"
+      ]
+    },
+    {
+      "familyId": "gwm-haval-h6-phev",
+      "summary": "Australian owner contributors and professional tests checked 19 October 2026. Mixed powertrains and self-selection; weak context for new PHEV reliability.",
+      "gaps": [
+        "No age-adjusted Australian mechanical-failure rate.",
+        "Fifty exact-variant owner reviews were not verified; counts are not inflated."
+      ],
+      "sourceIds": [
+        "phev19-h6-owners"
+      ]
+    },
+    {
+      "familyId": "geely-starray-emi",
+      "summary": "Australian owner contributors and professional tests checked 19 October 2026. One anecdote; very weak reliability evidence.",
+      "gaps": [
+        "No age-adjusted Australian mechanical-failure rate.",
+        "Fifty exact-variant owner reviews were not verified; counts are not inflated."
+      ],
+      "sourceIds": [
+        "phev19-geely-owners"
+      ]
+    },
+    {
+      "familyId": "chery-tiggo7-super-hybrid",
+      "summary": "Australian owner contributors and professional tests checked 19 October 2026. Professional PHEV tests supplied separately; unrelated owner stars are not transferred.",
+      "gaps": [
+        "No age-adjusted Australian mechanical-failure rate.",
+        "Fifty exact-variant owner reviews were not verified; counts are not inflated."
+      ],
+      "sourceIds": [
+        "phev19-t7-owners"
+      ]
+    },
+    {
+      "familyId": "chery-tiggo8-super-hybrid",
+      "summary": "Australian owner contributors and professional tests checked 19 October 2026. One incentivised-labelled contribution, not a representative sample or model failure rate.",
+      "gaps": [
+        "No age-adjusted Australian mechanical-failure rate.",
+        "Fifty exact-variant owner reviews were not verified; counts are not inflated."
+      ],
+      "sourceIds": [
+        "phev19-t8-owners"
+      ]
+    }
+  ],
+  "cargoRecords": []
+}

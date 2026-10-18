@@ -1,0 +1,104 @@
+{
+  "checked": "2026-10-19",
+  "purpose": "Read-only peer-review recommendations for the six new PHEVs. This file is an audit record, not an automatically applied rating override.",
+  "target": "One rear-facing child restraint plus two forward-facing restraints or boosters. The family's Maxi-Cosi model is unknown; no published test confirms their personal fit.",
+  "method": "Primary article text and the actual linked photographs were inspected. A three-forward-facing picture plus a separate rear-facing legroom claim is not proof of the simultaneous target arrangement. ANCAP individual installation checks do not prove three-across fit or daily booster buckle access.",
+  "observations": [
+    {
+      "vehicleId": "mg-hs-plus-ev-essence-2021",
+      "testedVehicle": "2021 MG HS original plug-in hybrid",
+      "scope": "exact",
+      "sourceUrl": "https://babydrive.com.au/reviews/suvs/2021-mg-hs-plug-in-hybrid/",
+      "photoUrls": [
+        "https://babydrive.com.au/wp-content/uploads/2021/09/MG_HS_PHEV_SUV_2021_84-1024x683.jpg",
+        "https://babydrive.com.au/wp-content/uploads/2021/09/MG_HS_PHEV_SUV_2021_83-1024x683.jpg"
+      ],
+      "visualFinding": "The inspected three-across photographs show two rear-facing convertibles plus one forward-facing booster.",
+      "textFinding": "The review names an Infasecure Optima, Serene and Versatile Folding Booster and says the convertibles fitted in either direction. A 180 cm driver or 184 cm passenger fitted ahead of a rear-facing restraint. Loading from inside and outside was described as easy.",
+      "recommendedArrangement": "unknown",
+      "reason": "Useful mixed-direction and alternate-direction evidence, but the exact one-rear-facing/two-other layout is not documented simultaneously. Do not treat the two-rear-facing picture as proof of the requested layout while excluding equivalent evidence for existing cars.",
+      "recommendedOtherCriteria": {"buckles": "unknown", "space": "good", "access": "good"}
+    },
+    {
+      "vehicleId": "eclipse-cross-phev-aspire-2021",
+      "testedVehicle": "2021 Mitsubishi Eclipse Cross PHEV Exceed",
+      "scope": "related",
+      "sourceUrl": "https://babydrive.com.au/reviews/suvs/2021-mitsubishi-eclipse-cross-phev/",
+      "photoUrls": [
+        "https://babydrive.com.au/wp-content/uploads/2021/12/2021_MITSUBISHI-ECLIPSE_CROSS_PHEV_SUV_40-1024x683.jpg",
+        "https://babydrive.com.au/wp-content/uploads/2021/12/2021_MITSUBISHI-ECLIPSE_CROSS_PHEV_SUV_36-1024x683.jpg",
+        "https://babydrive.com.au/wp-content/uploads/2021/12/2021_MITSUBISHI-ECLIPSE_CROSS_PHEV_SUV_42-1024x683.jpg"
+      ],
+      "visualFinding": "Photos 40 and 42 show three forward-facing harnessed seats. The side-on rear-facing photo 36 shows both outer seats rear-facing; it does not document the requested one-rear-facing mix.",
+      "textFinding": "The review names two Infasecure Achieve More and one Attain More and says they fitted forward or rear-facing. A 184 cm driver fitted ahead of rear-facing; door openings and inside loading were described favourably.",
+      "recommendedArrangement": "unknown",
+      "reason": "The prose supports direction flexibility, but no inspected picture or explicit statement records one rear-facing plus two other seats simultaneously. The tested Exceed is related to the listed Aspire.",
+      "recommendedOtherCriteria": {"buckles": "unknown", "space": "good", "access": "good"}
+    },
+    {
+      "vehicleId": "haval-h6-lux-phev-2026",
+      "testedVehicle": "H6 PHEV in June 2026 roundup; grade not named",
+      "scope": "related",
+      "sourceUrl": "https://www.carexpert.com.au/car-news/top-10-mid-size-phev-family-suvs-in-2026",
+      "photoUrls": [
+        "https://images.carexpert.com.au/resize/960/-/cms/v1/media/2026gwmhavalh6boot2.jpg"
+      ],
+      "visualFinding": "The inspected H6 roundup image shows the boot and pram, not an installed child-seat arrangement.",
+      "textFinding": "The first-person roundup separately reports three-across fit and room for a 182 cm driver ahead of a rear-facing restraint; restraint models and simultaneous direction mix are not specified.",
+      "recommendedArrangement": "unknown",
+      "recommendedOtherCriteria": {"buckles": "unknown", "space": "good", "access": "unknown"},
+      "additionalRelatedTest": {
+        "sourceUrl": "https://babydrive.com.au/reviews/suvs/2025-gwm-haval-h6gt-phev-review/",
+        "photoUrls": [
+          "https://babydrive.com.au/wp-content/uploads/2026/02/2025_GWM_HAVAL_H6_PHEV_SUV_50-1024x768.jpg",
+          "https://babydrive.com.au/wp-content/uploads/2026/02/2025_GWM_HAVAL_H6_PHEV_SUV_49-1024x768.jpg"
+        ],
+        "finding": "Both H6GT PHEV photos clearly show one rear-facing infant capsule plus two forward-facing harnessed seats. This is a different coupe body and AWD configuration, not direct proof for the listed regular-body H6 Lux FWD. Keep the distinction visible if used as related context."
+      },
+      "reason": "Manufacturer anchor locations or a five-seat body do not measure child-loading access. The H6GT evidence cannot silently become an exact regular-H6 fit claim."
+    },
+    {
+      "vehicleId": "starray-emi-complete-2025",
+      "testedVehicle": "2026 Geely Starray EM-i Inspire, tested December 2025",
+      "scope": "related",
+      "sourceUrl": "https://babydrive.com.au/reviews/suvs/2026-geely-starray-em-i-review/",
+      "photoUrls": [
+        "https://babydrive.com.au/wp-content/uploads/2026/03/2025_GEELY_STARRAY_EV_SUV_27-1024x768.jpg"
+      ],
+      "visualFinding": "The actual photograph clearly shows one rear-facing convertible plus two forward-facing harnessed seats. The article also explicitly states this combination was tried.",
+      "textFinding": "Three-across shoulder space was tight; the driver ahead of rear-facing could be 186 cm. A flat rear floor helped movement around the child seats.",
+      "recommendedArrangement": "workable",
+      "recommendedOtherCriteria": {"buckles": "unknown", "space": "good", "access": "good"},
+      "reason": "Related Inspire evidence supports the requested direction mix, with a width limitation. One ANCAP centre-booster installation failure is a useful compatibility warning, not evidence of poor daily buckle access. Retain the warning separately."
+    },
+    {
+      "vehicleId": "tiggo7-super-hybrid-urban-2025",
+      "testedVehicle": "Chery Tiggo 7 PHEV in June 2026 roundup; grade not named",
+      "scope": "related",
+      "sourceUrl": "https://www.carexpert.com.au/car-news/top-10-mid-size-phev-family-suvs-in-2026",
+      "photoUrls": [
+        "https://images.carexpert.com.au/resize/960/-/cms/v1/media/2026cherytiggo7childseats.jpg"
+      ],
+      "visualFinding": "The actual three-across photograph shows three forward-facing restraints, not one rear-facing plus two others.",
+      "textFinding": "The roundup separately reports room for a 180 cm driver ahead of a rear-facing restraint. It does not name a simultaneous mixed-direction arrangement or the tested grade.",
+      "recommendedArrangement": "unknown",
+      "recommendedOtherCriteria": {"buckles": "unknown", "space": "good", "access": "unknown"},
+      "reason": "Keep the genuine three-forward-facing and rear-facing clearance findings visible. Manufacturer anchor hardware and a normal two-row layout do not establish child-loading access."
+    },
+    {
+      "vehicleId": "tiggo8-super-hybrid-urban-2025",
+      "testedVehicle": "2026 Chery Tiggo 8 plug-in hybrid Ultimate",
+      "scope": "related",
+      "sourceUrl": "https://babydrive.com.au/reviews/suvs/2025-chery-tiggo-8-plug-in-hybrid-review/",
+      "photoUrls": [
+        "https://babydrive.com.au/wp-content/uploads/2026/04/2026_CHERY_TIGGO_8_SUV_PHEV_PLUG-IN-HYBRID_SEVEN-SEAT_59-1024x768.jpg",
+        "https://babydrive.com.au/wp-content/uploads/2026/04/2026_CHERY_TIGGO_8_SUV_PHEV_PLUG-IN-HYBRID_SEVEN-SEAT_60-1024x768.jpg"
+      ],
+      "visualFinding": "Both inspected child-seat/legroom photographs show three forward-facing restraints.",
+      "textFinding": "Three-across fit was tight. The separate rear-facing legroom test limited driver height to about 162 cm. Reaching row three required removing one second-row restraint; row three has no ISOFIX or top tethers.",
+      "recommendedArrangement": "unknown",
+      "recommendedOtherCriteria": {"buckles": "unknown", "space": "restricted", "access": "restricted"},
+      "reason": "The article discusses seats in either direction, but the inspected evidence does not document one rear-facing plus two others simultaneously. Keep the strong, relevant legroom and third-row-access drawbacks without turning an unverified target arrangement into a numerical score."
+    }
+  ]
+}

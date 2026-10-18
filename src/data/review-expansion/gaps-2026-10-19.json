@@ -1,0 +1,115 @@
+{
+  "checked": "2026-10-19",
+  "sources": [
+    {
+      "id": "review-gap-rav4-xa60-edmunds",
+      "title": "2026 all-new RAV4 HEV Edmunds consumer aggregate: 4.2/5, 14 reviews",
+      "url": "https://www.edmunds.com/toyota/rav4/2026/suv/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "review-gap-zeekr-autoweek-rwd-13000",
+      "title": "2025 Zeekr 7X Long Range RWD owner #4: 7.0/10, 13,000 km",
+      "url": "https://www.autoweek.nl/reviews/artikel/zeekr-7x-long-range-rwd-2025-4/",
+      "publisher": "AutoWeek",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "review-gap-zeekr-autoweek-rwd-15000",
+      "title": "2025 Zeekr 7X Long Range RWD owner #5: 8.0/10, 15,000 km",
+      "url": "https://www.autoweek.nl/reviews/artikel/zeekr-7x-long-range-rwd-2025-5/",
+      "publisher": "AutoWeek",
+      "kind": "review",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "review-gap-zeekr-autoweek-rwd-1000",
+      "title": "2025 Zeekr 7X Long Range RWD owner: 9.5/10, 1,000 km",
+      "url": "https://www.autoweek.nl/reviews/artikel/zeekr-7x-long-range-rwd-2025/",
+      "publisher": "AutoWeek",
+      "kind": "review",
+      "checked": "2026-10-19"
+    }
+  ],
+  "cohorts": [
+    {
+      "id": "review-gap-rav4-xa60-edmunds",
+      "familyId": "toyota-rav4-hybrid",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.2,
+      "outOf": 5,
+      "count": 14,
+      "countKind": "reviews",
+      "scope": "2026 sixth-generation RAV4 HEV owner pool, US FWD/AWD LE, XLE Premium and Limited; no older-year pooling warning observed.",
+      "summary": "New-generation owners rate the hybrid driving and efficiency positively; some report infotainment setup/connectivity and interior-material compromises.",
+      "positiveThemes": [
+        "Smooth hybrid operation and low fuel use",
+        "Useful space and comfortable ride in positive reports"
+      ],
+      "negativeThemes": [
+        "Phone connection and setup frustrations in some accounts",
+        "Interior plastics and upper-trim value concerns"
+      ],
+      "limitations": "Fourteen self-selected reports; related US trim/equipment, mixed FWD/AWD and short ownership. Not an Australian GXL-only sample or measured failure rate. Does not apply to the preceding XA50 generation.",
+      "sourceIds": [
+        "review-gap-rav4-xa60-edmunds"
+      ],
+      "matches": [
+        {
+          "vehicleId": "rav4-gxl-hev-2026",
+          "factor": 0.4,
+          "note": "Same all-new HEV generation; related US FWD/AWD trims and support, not Australian GXL-specific evidence."
+        }
+      ],
+      "overlapGroup": "edmunds-rav4-xa60-hev",
+      "checked": "2026-10-19"
+    },
+    {
+      "id": "review-gap-zeekr-autoweek-rwd-five",
+      "familyId": "zeekr-7x",
+      "publisher": "AutoWeek",
+      "region": "Netherlands",
+      "kind": "owner",
+      "rating": 8.4,
+      "outOf": 10,
+      "count": 5,
+      "countKind": "reviews",
+      "scope": "Dashboard-calculated mean of five individually read 2025 export Long Range RWD owner reviews; latest reported mileages 1,000, 13,000, 15,000, 23,052 and 24,500 km.",
+      "summary": "Calculated mean (7.0 + 9.5 + 8.0 + 8.0 + 9.5) / 5 = 8.4/10. These are each owner's vehicle scores, not reader helpfulness percentages or comment counts.",
+      "positiveThemes": [
+        "Owners generally praise comfort, space and charging capability"
+      ],
+      "negativeThemes": [
+        "Several accounts report software, voice-control or driver-assistance frustrations; experiences vary"
+      ],
+      "limitations": "Small self-selected European lease-owner sample, not a publisher-wide or representative survey. One account covers only a week; no VIN ownership audit. Software, LHD equipment, service and climate differ from Australia. No AWD air-suspension reports included. Related smaller-battery RWD relevance is lower.",
+      "sourceIds": [
+        "review-gap-zeekr-autoweek-rwd-13000",
+        "crowd-ev-zeekr-autoweek-lr-23052",
+        "review-gap-zeekr-autoweek-rwd-15000",
+        "crowd-ev-zeekr-autoweek-lr-24500",
+        "review-gap-zeekr-autoweek-rwd-1000"
+      ],
+      "matches": [
+        {
+          "vehicleId": "zeekr7x-long-range-2025",
+          "factor": 0.5,
+          "note": "Related European 100-kWh export Long Range RWD; Australian equipment, support and software differ."
+        },
+        {
+          "vehicleId": "zeekr7x-rwd-2025",
+          "factor": 0.25,
+          "note": "Related export rear-drive cabin, but different battery chemistry/capacity and Australian support; limited relevance."
+        }
+      ],
+      "overlapGroup": "autoweek-zeekr7x-export",
+      "checked": "2026-10-19"
+    }
+  ],
+  "coverage": []
+}

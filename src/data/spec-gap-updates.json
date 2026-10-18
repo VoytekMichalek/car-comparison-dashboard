@@ -1,0 +1,202 @@
+[
+  {
+    "id": "model-y-rwd-2022",
+    "towing": {
+      "value": 1600,
+      "unit": "kg",
+      "basis": "Australian original-body Model Y applicant RVD lists maximum braked towing of 1600 kg. Requires an approved fitted towing package; actual VIN, towbar, payload, axle and towball limits govern the loaded family car. ROVER notes applicant-supplied RVD data is not independently verified by the department.",
+      "sourceIds": [
+        "spec-gap-tesla-original-rvd"
+      ]
+    }
+  },
+  {
+    "id": "model-y-long-range-2023",
+    "towing": {
+      "value": 1600,
+      "unit": "kg",
+      "basis": "Australian original-body Model Y applicant RVD lists maximum braked towing of 1600 kg. Requires an approved fitted towing package; actual VIN, towbar, payload, axle and towball limits govern the loaded family car. ROVER notes applicant-supplied RVD data is not independently verified by the department.",
+      "sourceIds": [
+        "spec-gap-tesla-original-rvd"
+      ]
+    }
+  },
+  {
+    "id": "atto3-extended-2022",
+    "consumption": {
+      "value": 14.9,
+      "unit": "kWh/100km",
+      "basis": "Australian ADR81/02 laboratory result for the original 2023 Extended: 149 Wh/km, reported by AAA from the Green Vehicle Guide. This is separate from AAA’s observed 18.0 kWh/100km. Do not relabel it WLTP; the source does not clearly define the energy boundary.",
+      "sourceIds": [
+        "spec-gap-atto-extended-aaa-lab"
+      ],
+      "energyBasis": "unspecified"
+    }
+  },
+  {
+    "id": "atto3-essential-2025",
+    "consumption": {
+      "value": 14.8,
+      "unit": "kWh/100km",
+      "basis": "Australian ADR81/02 laboratory result: 148 Wh/km as reported by AAA for its 2025 Essential; separate from the 17.1 kWh/100km observed road test. Energy boundary is unspecified in the extracted report. This report has conflicting AC-capacity information, so its 11 kW AC statement is not treated as confirmed onboard capability.",
+      "sourceIds": [
+        "spec-gap-atto-essential-aaa-lab",
+        "audit-byd-atto-3-aaa-essential"
+      ],
+      "energyBasis": "unspecified"
+    },
+    "safety": {
+      "stars": null,
+      "year": null,
+      "applicability": "Related original-body 2022 five-star ANCAP result exists. Current ANCAP page broadly says all Australian variants, but the technical applicability table names Standard Range / Extended Range rather than the later Essential name. Exact Essential extension is not separately confirmed here; this is an applicability question, not an absence of safety evidence.",
+      "sourceIds": [
+        "spec-gap-ancap-atto-scope",
+        "audit-byd-atto-3-ancap-au-report"
+      ]
+    }
+  },
+  {
+    "id": "ev5-air-standard-2024",
+    "dcCharging": {
+      "value": 102,
+      "unit": "kW",
+      "basis": "Estimate · Indicative maximum from Kia’s related Thailand 64.2 kWh LFP platform specification, not an independently measured Australian curve. Australian brochure supports the corresponding 36/38 minute 10–80% claims but only labels the external station 350 kW; 350 kW is not this car’s input limit.",
+      "sourceIds": [
+        "spec-gap-ev5-related-thai-dc",
+        "ev-ev5-spec"
+      ]
+    }
+  },
+  {
+    "id": "ev5-air-long-2024",
+    "dcCharging": {
+      "value": 141,
+      "unit": "kW",
+      "basis": "Estimate · Indicative maximum from Kia’s related Thailand 88.1 kWh LFP platform specification, not an independently measured Australian curve. Australian brochure supports the corresponding 36/38 minute 10–80% claims but only labels the external station 350 kW; 350 kW is not this car’s input limit.",
+      "sourceIds": [
+        "spec-gap-ev5-related-thai-dc",
+        "ev-ev5-spec"
+      ]
+    }
+  },
+  {
+    "id": "ev6-air-2022",
+    "dcCharging": {
+      "value": 239,
+      "unit": "kW",
+      "basis": "Estimate · Indicative manufacturer peak for the original 77.4 kWh EV6 platform from Kia Europe. This is not a constant session average or a measured Australian Air curve; battery temperature, charge level and charger capability govern actual delivery.",
+      "sourceIds": [
+        "spec-gap-ev6-original-kia-peak",
+        "ev-ev6-spec"
+      ]
+    }
+  },
+  {
+    "id": "ioniq5-dynamiq-rwd-2023",
+    "dcCharging": {
+      "value": 240,
+      "unit": "kW",
+      "basis": "Estimate · Indicative 77.4 kWh platform peak from a related-market Hyundai manufacturer specification. Not an independently verified Australian input curve. The Australian 350 kW claim describes the external fast charger; it is not the vehicle peak.",
+      "sourceIds": [
+        "spec-gap-ioniq77-related-ch-spec",
+        "ev-ioniq-2023-spec"
+      ]
+    }
+  },
+  {
+    "id": "ioniq5-techniq-awd-2023",
+    "dcCharging": {
+      "value": 240,
+      "unit": "kW",
+      "basis": "Estimate · Indicative 77.4 kWh platform peak from a related-market Hyundai manufacturer specification. Not an independently verified Australian input curve. The Australian 350 kW claim describes the external fast charger; it is not the vehicle peak.",
+      "sourceIds": [
+        "spec-gap-ioniq77-related-ch-spec",
+        "ev-ioniq-2023-spec"
+      ]
+    }
+  },
+  {
+    "id": "ioniq5-rwd-84-2025",
+    "dcCharging": {
+      "value": 260,
+      "unit": "kW",
+      "basis": "Estimate · Indicative peak for Hyundai’s related 84 kWh platform, explicitly published in current UK technical material. That source is MY27, not a VIN-matched Australian MY25 test; treat this as a related-platform estimate. 350 kW denotes charger output rating, not car input.",
+      "sourceIds": [
+        "spec-gap-ioniq84-hyundai-peak"
+      ]
+    }
+  },
+  {
+    "id": "outlander-phev-aspire-20",
+    "acCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "AC charging is supported: manufacturer Mode3 230–240 V / 15 A supply (about 3.6 kW supply power), with a claimed 6.5-hour charge; 9.5 hours at 10 A. A definitive onboard peak kW is not stated. Use the published charging time rather than confusing supply rating with vehicle limit.",
+      "sourceIds": [
+        "spec-gap-outlander-my24-charge"
+      ]
+    },
+    "dcCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "CHAdeMO DC fast charging is supported: manufacturer claims 38 minutes to 80%. Its Australian brochure does not state a vehicle peak kW, so a 50 kW external charger is not substituted as the onboard limit.",
+      "sourceIds": [
+        "spec-gap-outlander-my24-charge"
+      ]
+    }
+  },
+  {
+    "id": "outlander-phev-aspire-227",
+    "acCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "AC charging is supported: manufacturer Mode3 230–240 V / 15 A supply (about 3.6 kW supply power), with a claimed 6.5-hour charge; 10 hours using 10 A. Exact onboard peak kW is not stated; the times are useful confirmed charging evidence.",
+      "sourceIds": [
+        "spec-gap-outlander-my25-charge"
+      ]
+    },
+    "dcCharging": {
+      "value": null,
+      "unit": "kW",
+      "basis": "CHAdeMO DC fast charging is supported: manufacturer claims 32 minutes to 80%. Its Australian brochure does not specify a vehicle peak kW. Do not substitute the external station’s rating.",
+      "sourceIds": [
+        "spec-gap-outlander-my25-charge"
+      ]
+    }
+  },
+  {
+    "id": "atto3-evo-premium-2026",
+    "safety": {
+      "stars": null,
+      "year": null,
+      "applicability": "Original-body 2022 five-star ANCAP evidence is available, but no explicit EVO Premium RWD extension was found in the current ANCAP technical scope on 19 October 2026. A rating does not automatically extend to a changed driven-wheel configuration. Retain the actual equipment and related tests without inventing applicable stars.",
+      "sourceIds": [
+        "spec-gap-ancap-atto-scope",
+        "audit-byd-atto-3-ancap-au-report"
+      ]
+    }
+  },
+  {
+    "id": "xtrail-stl-epower-fwd-2026",
+    "safety": {
+      "stars": null,
+      "year": null,
+      "applicability": "Related T33 2021-datestamped five-star ANCAP evidence exists and the current model page says all variants, expiring December 2027. The detailed applicability table checked previously names e-Power 4WD, without separately confirming this later FWD. Retain this explicit scope uncertainty rather than implying there is no safety information.",
+      "sourceIds": [
+        "spec-gap-ancap-xtrail-scope",
+        "hy-deep-xt-ancap"
+      ]
+    }
+  },
+  {
+    "id": "rav4-gxl-hev-2026",
+    "safety": {
+      "stars": null,
+      "year": null,
+      "applicability": "Unrated by ANCAP at the 19 October 2026 check. The exact March 2026-onward page covers hybrid and PHEV. This is a known published status, not missing research; the outgoing generation’s 2019 stars do not apply.",
+      "sourceIds": [
+        "spec-gap-ancap-rav4-sixth-unrated"
+      ]
+    }
+  }
+]

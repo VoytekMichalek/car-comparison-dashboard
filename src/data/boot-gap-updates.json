@@ -1,0 +1,158 @@
+[
+  {
+    "id": "outlander-phev-aspire-20",
+    "bootAllRows": {
+      "value": 494,
+      "unit": "L",
+      "basis": "All five seats available; same rear seats-up capacity. MY24 manufacturer VDA, five seats upright to seatback. Earlier MY23 road tests quote 485 L; that difference is unresolved for earlier grouped cars.",
+      "sourceIds": [
+        "audit-mitsubishi-outlander-phev-my24"
+      ]
+    }
+  },
+  {
+    "id": "sealion6-dynamic-183",
+    "bootAllRows": {
+      "value": 425,
+      "unit": "L",
+      "basis": "All five seats available; same rear seats-up capacity. Manufacturer minimum load space; five seats upright, measurement standard not specified",
+      "sourceIds": [
+        "hy-sl6-24",
+        "audit-byd-sealion-6-original-spec-archive"
+      ]
+    }
+  },
+  {
+    "id": "sealion6-dynamic-extended",
+    "bootAllRows": {
+      "value": 425,
+      "unit": "L",
+      "basis": "All five seats available; same rear seats-up capacity. Manufacturer minimum load space; five seats upright, measurement standard not specified",
+      "sourceIds": [
+        "hy-sl6-25",
+        "audit-byd-sealion-6-current-spec"
+      ]
+    }
+  },
+  {
+    "id": "xtrail-ti-epower-awd",
+    "bootAllRows": {
+      "value": 575,
+      "unit": "L",
+      "basis": "All five seats available; same rear seats-up capacity. Nissan launch brochure · second row upright, measured to roof; not VDA shelf-height capacity",
+      "sourceIds": [
+        "hy-xt-spec"
+      ]
+    }
+  },
+  {
+    "id": "xtrail-stl-epower-fwd-2026",
+    "bootAllRows": {
+      "value": 575,
+      "unit": "L",
+      "basis": "All five seats available; same rear seats-up capacity. Manufacturer MY 26 table, second row upright, measured to roof; not comparable with VDA shelf-height volumes.",
+      "sourceIds": [
+        "hy-deep-xt-my26"
+      ]
+    }
+  },
+  {
+    "id": "rav4-gxl-hev-2021-25",
+    "bootAllRows": {
+      "value": 542,
+      "unit": "L",
+      "basis": "All five seats available; same rear seats-up capacity. 2025 Australian table · boot floor in upper position; earlier cars/spare-wheel configurations need checking",
+      "sourceIds": [
+        "hy-rav-spec-25"
+      ]
+    }
+  },
+  {
+    "id": "rav4-gxl-hev-2026",
+    "bootAllRows": {
+      "value": 705,
+      "unit": "L",
+      "basis": "All five seats available; same rear seats-up capacity. Manufacturer up-to total cargo volume with second row upright for HEV. The current page does not state shelf/roof measurement boundary or VDA method; do not compare directly with older 542L VDA/upper-floor figure.",
+      "sourceIds": [
+        "hy-deep-rav-current"
+      ]
+    }
+  },
+  {
+    "id": "kluger-gx-hev-awd",
+    "boot": {
+      "value": 552,
+      "unit": "L",
+      "basis": "VDA to beltline, second row upright and third row folded; Toyota capacities corroborated by contemporary Australian launch road test.",
+      "sourceIds": [
+        "audit-toyota-kluger-hybrid-spec21",
+        "audit-toyota-kluger-hybrid-spec26",
+        "boot-audit-kluger-vda"
+      ]
+    },
+    "bootAllRows": {
+      "value": 241,
+      "unit": "L",
+      "basis": "VDA to beltline with all seven seats upright; not the 552 L third-row-folded figure.",
+      "sourceIds": [
+        "audit-toyota-kluger-hybrid-spec21",
+        "audit-toyota-kluger-hybrid-spec26",
+        "boot-audit-kluger-vda"
+      ]
+    }
+  },
+  {
+    "id": "forester-25il-2021",
+    "bootAllRows": {
+      "value": 498,
+      "unit": "L",
+      "basis": "All five seats available; same rear seats-up capacity. Manufacturer luggage volume with the rear bench in use; compare measurement methods and your pram.",
+      "sourceIds": [
+        "ice-sub-forester-old-spec"
+      ]
+    },
+    "boot": {
+      "value": 498,
+      "unit": "L",
+      "basis": "498 L VDA to cargo cover, rear bench upright; manufacturer volume corroborated by Australian MY22 first drive. Check earlier grouped cars and the installed spare/load floor.",
+      "sourceIds": [
+        "ice-sub-forester-old-spec",
+        "boot-audit-forester-s5-vda"
+      ]
+    }
+  },
+  {
+    "id": "forester-awd-petrol-2025",
+    "bootAllRows": {
+      "value": 496,
+      "unit": "L",
+      "basis": "All five seats available; same rear seats-up capacity. Manufacturer luggage volume with the rear bench in use; compare measurement methods and your pram.",
+      "sourceIds": [
+        "ice-sub-forester-new-spec"
+      ]
+    }
+  },
+  {
+    "id": "outback-awd-25-2021",
+    "bootAllRows": {
+      "value": 522,
+      "unit": "L",
+      "basis": "All five seats available; same rear seats-up capacity. Rear seats occupied; VDA volume identified in the exact Australian base AWD family test. Pram shape and loading under the cargo blind still matter.",
+      "sourceIds": [
+        "audit-subaru-outback-family-base21",
+        "audit-subaru-outback-spec25"
+      ]
+    }
+  },
+  {
+    "id": "xtrail-st-petrol-awd-2023",
+    "bootAllRows": {
+      "value": 177,
+      "unit": "L",
+      "basis": "Reported Australian T33 seven-seat range-guide figure with all seven seats upright; measurement standard and exact bench position unspecified. Manufacturer period sheet omits this number; treat as an indicative figure and test your pram.",
+      "sourceIds": [
+        "boot-audit-xtrail-occupied-au"
+      ]
+    }
+  }
+]

@@ -28,10 +28,10 @@ describe('transparent importance-weighted scoring', () => {
     const personal = emptyPersonal();
     const costs = ownershipEstimate(car, personal);
     const category = scoreVehicle(car, personal).categories.find(c => c.key === 'running')!;
-    expect(costs.annual).toBeCloseTo(5525.15);
-    expect(category.score).toBe(6.6);
+    expect(costs.annual).toBeCloseTo(4525.15);
+    expect(category.score).toBe(8.8);
     expect(category.confidence).toBe(.35);
-    expect(category.reason).toContain('5,525');
+    expect(category.reason).toContain('excluding repair savings');
     expect(category.reason).toContain('4,525');
     const cheap = { ...personal, ownership: { ...defaultOwnership, vehicleOverrides: { [car.id]: { insurance: 0, repairReserve: 0 } } } };
     expect(scoreVehicle(car, cheap).categories.find(c => c.key === 'running')!.score).toBe(10);
@@ -44,7 +44,7 @@ describe('transparent importance-weighted scoring', () => {
       expect(result.total).toBeLessThanOrEqual(10);
       expect(result.coverage).toBeGreaterThanOrEqual(0);
       expect(result.coverage).toBeLessThanOrEqual(100);
-      expect(result.categories).toHaveLength(8);
+      expect(result.categories).toHaveLength(9);
     }
   });
   it('increases the influence of a category when its importance rises', () => {
@@ -71,8 +71,8 @@ describe('transparent importance-weighted scoring', () => {
     expect(result.coverage).toBe(0);
     expect(result.provisional).toBe(true);
   });
-  it('does not apply original-generation owner ratings to the Atto 3 EVO or new RAV4', () => {
-    for (const id of ['atto3-evo-premium-2026', 'rav4-gxl-hev-2026', 'ioniq5-rwd-84-2025']) {
+  it('does not apply original-generation owner ratings where the revised car has no matched cohort', () => {
+    for (const id of ['atto3-evo-premium-2026', 'ioniq5-rwd-84-2025']) {
       const car = vehicles.find(v => v.id === id)!;
       const owners = scoreVehicle(car, emptyPersonal()).categories.find(c => c.key === 'owners')!;
       expect(owners.confidence).toBe(0);
@@ -230,7 +230,7 @@ describe('evidence-weighted aggregation', () => {
       expect(renderToStaticMarkup(createElement(ScoreBreakdown, { score }))).toContain('Insufficient data');
     }
     const markup = renderToStaticMarkup(createElement(ScoreBreakdown, { score: summariseScores([category('owners', null, 10, 0), category('range', null, 10, 0, false)]) }));
-    expect(markup).toContain('No data');
+    expect(markup).toContain('Check evidence');
     expect(markup).toContain('Not applicable');
     expect(markup).not.toContain('neutral 5');
   });
@@ -243,7 +243,7 @@ describe('evidence-weighted aggregation', () => {
     const personal = { ...emptyPersonal(), ownership: { ...defaultOwnership, vehicleOverrides: { [v.id]: { purchase: 100000 } } } };
     expect(scoreVehicle(v, personal).categories.find(c => c.key === 'price')!.score).toBe(1);
     for (const [litres, expected] of [[100, 1], [300, 1], [600, 10], [1000, 10]]) {
-      const car = { ...v, boot: { ...v.boot, value: litres, basis: 'VDA, rear seats raised' } };
+      const car = { ...v, id: 'clamp-example', boot: { ...v.boot, value: litres, basis: 'VDA, rear seats raised' } };
       expect(scoreVehicle(car, emptyPersonal()).categories.find(c => c.key === 'boot')!.score).toBe(expected);
     }
   });

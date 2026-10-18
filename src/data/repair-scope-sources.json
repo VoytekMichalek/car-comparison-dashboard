@@ -1,0 +1,18 @@
+[
+  {
+    "id": "repair-scope-nrma-2026-10-19",
+    "title": "NRMA: insurance generally excludes wear, age and mechanical engine failure; insured events are separate",
+    "url": "https://www.nrma.com.au/car-insurance/car-insurance-faqs/what-is-car-insurance",
+    "publisher": "NRMA Insurance",
+    "kind": "manufacturer",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "repair-scope-accc-2026-10-19",
+    "title": "ACCC: consumer guarantees and remedies for new and used cars from dealers",
+    "url": "https://www.accc.gov.au/consumers/specific-products-and-activities/new-and-second-hand-cars",
+    "publisher": "ACCC",
+    "kind": "manufacturer",
+    "checked": "2026-10-19"
+  }
+]

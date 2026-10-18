@@ -1,0 +1,363 @@
+{
+  "checked": "2026-10-19",
+  "fitAssessments": [
+    {
+      "vehicleId": "sealion6-dynamic-183",
+      "scope": "related",
+      "summary": "Mixed-facing three-across photographed in related Essential; your Maxi-Cosi needs a trial.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "Essential photos show a rear-facing InfaSecure capsule beside two forward-facing harnessed seats. Exact model suffixes are unstated.",
+          "sourceIds": [
+            "fit-gap-sealion6-first-person",
+            "fit-gap-sealion6-mixed-photo"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No demonstrated daily booster-buckle access with neighbouring restraints. A physically packed three-seat photo would not establish this.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Author reports a 182-cm driver ahead of a rear-facing seat; confirm your Dynamic/Extended and larger convertible.",
+          "sourceIds": [
+            "fit-gap-sealion6-first-person"
+          ]
+        },
+        "access": {
+          "rating": "unknown",
+          "detail": "Three rear restraint positions and two outboard ISOFIX pairs are documented. The handbook requires cargo-cover removal to access outboard tethers. A daily child-loading trial with all three remains pending.",
+          "sourceIds": [
+            "audit-byd-sealion-6-au-handbook",
+            "audit-byd-sealion-6-ancap-report"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "sealion6-dynamic-extended",
+      "scope": "related",
+      "summary": "Mixed-facing three-across photographed in related Essential; your Maxi-Cosi needs a trial.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "Essential photos show a rear-facing InfaSecure capsule beside two forward-facing harnessed seats. Exact model suffixes are unstated.",
+          "sourceIds": [
+            "fit-gap-sealion6-first-person",
+            "fit-gap-sealion6-mixed-photo"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No demonstrated daily booster-buckle access with neighbouring restraints. A physically packed three-seat photo would not establish this.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Author reports a 182-cm driver ahead of a rear-facing seat; confirm your Dynamic/Extended and larger convertible.",
+          "sourceIds": [
+            "fit-gap-sealion6-first-person"
+          ]
+        },
+        "access": {
+          "rating": "unknown",
+          "detail": "Three rear restraint positions and two outboard ISOFIX pairs are documented. The handbook requires cargo-cover removal to access outboard tethers. A daily child-loading trial with all three remains pending.",
+          "sourceIds": [
+            "audit-byd-sealion-6-au-handbook",
+            "audit-byd-sealion-6-ancap-report"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "zeekr7x-rwd-2025",
+      "scope": "related",
+      "summary": "Three rear tethers and two outer ISOFIX pairs; rear-facing clearance observed in related Performance, but no reliable matching three-across trial.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Target: one rear-facing plus two forward-facing seats/boosters. No verified matching simultaneous installation. Community powered-door test appears to be Performance; the named b-grow seat is forward-facing-only, so its rear-facing claim cannot establish a safe combination.",
+          "sourceIds": [
+            "audit-zeekr-7x-ancap-report",
+            "audit-zeekr-7x-community-fit-caution",
+            "audit-zeekr-7x-britax-bgrow-manual"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No independent daily booster-buckle access test with all three restraints installed.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "workable",
+          "detail": "A New Zealand Performance road test installed a rear-facing toddler seat without moving the front passenger seat. Driver height and restraint model are unstated. This supports clearance only, not a RWD three-across arrangement.",
+          "sourceIds": [
+            "fit-gap-zeekr-nz-rearfacing"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Exact standard RWD long-term test confirms rear doors open 90 degrees, helping child-seat loading. Rear-facing installation still needs a household trial.",
+          "sourceIds": [
+            "audit-zeekr-7x-rwd-practical",
+            "audit-zeekr-7x-brochure-au"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "zeekr7x-long-range-2025",
+      "scope": "related",
+      "summary": "Three rear tethers and two outer ISOFIX pairs; rear-facing clearance observed in related Performance, but no reliable matching three-across trial.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Target: one rear-facing plus two forward-facing seats/boosters. No verified matching simultaneous installation. Community powered-door test appears to be Performance; the named b-grow seat is forward-facing-only, so its rear-facing claim cannot establish a safe combination.",
+          "sourceIds": [
+            "audit-zeekr-7x-ancap-report",
+            "audit-zeekr-7x-community-fit-caution",
+            "audit-zeekr-7x-britax-bgrow-manual"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No independent daily booster-buckle access test with all three restraints installed.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "workable",
+          "detail": "A New Zealand Performance road test installed a rear-facing toddler seat without moving the front passenger seat. Driver height and restraint model are unstated. This supports clearance only, not a RWD three-across arrangement.",
+          "sourceIds": [
+            "fit-gap-zeekr-nz-rearfacing"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Related standard RWD long-term test confirms rear doors open 90 degrees; Australian brochure shows both rear-drive grades without powered automatic doors. Trial loading with your rear-facing seat.",
+          "sourceIds": [
+            "audit-zeekr-7x-rwd-practical",
+            "audit-zeekr-7x-brochure-au"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "atto3-evo-premium-2026",
+      "scope": "related",
+      "summary": "Three rear tether positions documented; related European Evo has useful door access. Mixed three-across remains a fitting question.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Australian brochure specifies three rear tethers and two outboard ISOFIX pairs. Overseas front-seat ISOFIX equipment must not be assumed Australian. No verified Evo mixed three-across trial; earlier Atto 3 testing is a different cabin specification.",
+          "sourceIds": [
+            "audit-byd-atto-3-au-evo-spec",
+            "audit-byd-atto-3-au-evo-manual"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No matched booster-buckle access test.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "unknown",
+          "detail": "Front clearance with an occupied rear-facing restraint untested.",
+          "sourceIds": []
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "European RWD Evo road test reports reasonably wide rear-door openings for child-seat loading. This is related body/access evidence, not an Australian three-restraint or front-seat installation test.",
+          "sourceIds": [
+            "fit-gap-atto-evo-europe-access"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "forester-awd-petrol-2025",
+      "scope": "related",
+      "summary": "S6 Hybrid Sport demonstrates the facing mix; the petrol base is related evidence.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "July 2025 Hybrid Sport fitted two forward-facing seats and one rear-facing behind the driver. Exact restraint models unreported; centre booster compatibility still matters.",
+          "sourceIds": [
+            "audit-subaru-forester-s6-fit",
+            "audit-subaru-forester-s6-ancap"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No occupied three-restraint booster-buckling trial. ANCAP rejects one selected centre booster, tested alone.",
+          "sourceIds": [
+            "audit-subaru-forester-s6-ancap"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "July mixed-seat trial allowed a 186 cm driver. Preview with a different 0–4 rear-facing convertible allowed 180 cm; recline and model affect clearance.",
+          "sourceIds": [
+            "audit-subaru-forester-s6-fit",
+            "audit-subaru-forester-s6-fit-preview"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "Sixth-generation UK review reports big rear doors and straightforward bulky-child-seat fitting. Australian Hybrid Sport has accessible anchors in the mixed-seat trial; exact base-petrol loading remains untested.",
+          "sourceIds": [
+            "fit-gap-forester-s6-doors",
+            "audit-subaru-forester-s6-fit"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "ioniq5-rwd-84-2025",
+      "scope": "related",
+      "summary": "Three rear tether positions; original AWD mixed-seat trial is useful background. Revised-seat clearance, three-across and buckle use require a fitting check.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Current Australian specification verifies two outer ISOFIX pairs and three rear tethers. The original AWD has a photographed mixed three-seat installation, but revised 84-kWh seats have no matched trial.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-my26-spec",
+            "audit-hyundai-ioniq-5-babydrive",
+            "audit-hyundai-ioniq-5-facing-photo"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No simultaneous booster-buckle evaluation found.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "unknown",
+          "detail": "Exact base review finds generous adult rear space and a flat footwell. Earlier AWD demonstrated 180–186 cm front clearance with its rear-facing Attain More, but revised-seat clearance with your Maxi-Cosi is unmeasured.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-84-rwd-review",
+            "audit-hyundai-ioniq-5-babydrive"
+          ]
+        },
+        "access": {
+          "rating": "unknown",
+          "detail": "MY26 specifies three accessible rear tether positions. A related refreshed Epiq review confirms rear grab handles and loading lights; base-model child-loading with three installed restraints still needs a trial.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-my26-spec",
+            "fit-gap-ioniq5-facelift-practicality"
+          ]
+        }
+      }
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "sealion6-dynamic-183",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Mixed-facing three-across photographed in related Essential; your Maxi-Cosi needs a trial.",
+        "row2": "ANCAP identifies two outboard ISOFIX positions and top tethers for all three rear seating positions.",
+        "row3": "No third row.",
+        "testedSeats": "Essential test: rear-facing infant capsule plus two forward-facing harnessed restraints; exact seat suffixes unstated.",
+        "buckleAccess": "No published daily booster-buckle test found. Check both belt tongues can be reached without shifting adjacent restraints.",
+        "access": "Handbook requires cargo-cover removal for outboard tether access. Try daily loading with your installed restraints.",
+        "ventilation": "Rear directional centre vents and rear USB-A/USB-C sockets. No third row.",
+        "sourceIds": [
+          "hy-sl6-anchors",
+          "hy-sl6-24",
+          "audit-byd-sealion-6-au-handbook",
+          "audit-byd-sealion-6-ancap-report",
+          "audit-byd-sealion-6-premium-practicality",
+          "audit-byd-sealion-6-current-spec",
+          "fit-gap-sealion6-first-person",
+          "fit-gap-sealion6-mixed-photo"
+        ]
+      }
+    },
+    {
+      "id": "sealion6-dynamic-extended",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Mixed-facing three-across photographed in related Essential; your Maxi-Cosi needs a trial.",
+        "row2": "ANCAP identifies two outboard ISOFIX positions and top tethers for all three rear seating positions.",
+        "row3": "No third row.",
+        "testedSeats": "Essential test: rear-facing infant capsule plus two forward-facing harnessed restraints; exact seat suffixes unstated.",
+        "buckleAccess": "No published daily booster-buckle test found. Check both belt tongues can be reached without shifting adjacent restraints.",
+        "access": "Handbook requires cargo-cover removal for outboard tether access. Try daily loading with your installed restraints.",
+        "ventilation": "Rear directional centre vents and rear USB-A/USB-C sockets. No third row.",
+        "sourceIds": [
+          "hy-sl6-anchors",
+          "hy-sl6-25",
+          "audit-byd-sealion-6-au-handbook",
+          "audit-byd-sealion-6-ancap-report",
+          "audit-byd-sealion-6-premium-practicality",
+          "audit-byd-sealion-6-current-spec",
+          "fit-gap-sealion6-first-person",
+          "fit-gap-sealion6-mixed-photo"
+        ]
+      }
+    },
+    {
+      "id": "zeekr7x-rwd-2025",
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Three rear tethers and two outer ISOFIX pairs; rear-facing clearance observed in related Performance, but no reliable matching three-across trial.",
+        "row2": "Australian ANCAP: two outer ISOFIX positions, three rear top tethers; each restraint was assessed separately, not as a simultaneous three-across set.",
+        "row3": "Five seats; no third row.",
+        "testedSeats": "ANCAP single-position checks are positive. A community trial mentions a rear-facing fit, but seat identity/facing is inconsistent and the powered-door car appears to be Performance; it is not accepted as RWD / LR fit proof.",
+        "buckleAccess": "No independently verified three-across booster-buckle test. Test daily access with all children seated.",
+        "access": "RWD long-term test confirms rear doors open 90 degrees. These RWD trims do not have the AWD automatic-door package. Rear-facing loading and front-seat clearance still need your own trial. A related NZ Performance test fitted a rear-facing toddler seat without moving the front passenger seat; seat model and adult height were unstated.",
+        "ventilation": "Tri-zone climate, rear B-pillar vents and powered roof shade. Powered rear side-window shades are AWD-only, not standard RWD / LR. LR adds front-seat cooling/massage; base RWD does not.",
+        "sourceIds": [
+          "audit-zeekr-7x-ancap-report",
+          "audit-zeekr-7x-rwd-practical",
+          "audit-zeekr-7x-brochure-au",
+          "audit-zeekr-7x-community-fit-caution",
+          "audit-zeekr-7x-britax-bgrow-manual",
+          "fit-gap-zeekr-nz-rearfacing"
+        ]
+      }
+    },
+    {
+      "id": "zeekr7x-long-range-2025",
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Three rear tethers and two outer ISOFIX pairs; rear-facing clearance observed in related Performance, but no reliable matching three-across trial.",
+        "row2": "Australian ANCAP: two outer ISOFIX positions, three rear top tethers; each restraint was assessed separately, not as a simultaneous three-across set.",
+        "row3": "Five seats; no third row.",
+        "testedSeats": "ANCAP single-position checks are positive. A community trial mentions a rear-facing fit, but seat identity/facing is inconsistent and the powered-door car appears to be Performance; it is not accepted as RWD / LR fit proof.",
+        "buckleAccess": "No independently verified three-across booster-buckle test. Test daily access with all children seated.",
+        "access": "RWD long-term test confirms rear doors open 90 degrees. These RWD trims do not have the AWD automatic-door package. Rear-facing loading and front-seat clearance still need your own trial. A related NZ Performance test fitted a rear-facing toddler seat without moving the front passenger seat; seat model and adult height were unstated.",
+        "ventilation": "Tri-zone climate, rear B-pillar vents and powered roof shade. Powered rear side-window shades are AWD-only, not standard RWD / LR. LR adds front-seat cooling/massage; base RWD does not.",
+        "sourceIds": [
+          "audit-zeekr-7x-ancap-report",
+          "audit-zeekr-7x-rwd-practical",
+          "audit-zeekr-7x-brochure-au",
+          "audit-zeekr-7x-community-fit-caution",
+          "audit-zeekr-7x-britax-bgrow-manual",
+          "fit-gap-zeekr-nz-rearfacing"
+        ]
+      }
+    },
+    {
+      "id": "atto3-evo-premium-2026",
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Three rear tether positions documented; related European Evo has useful door access. Mixed three-across remains a fitting question.",
+        "row2": "Australian brochure lists three top-tether anchors; handbook locates ISOFIX at the outer rear seats. Generic handbook says centre tether depends on configuration: confirm the Australian three-anchor installation in person.",
+        "row3": "No third row on this five-seat configuration.",
+        "testedSeats": "None verified for EVO Premium.",
+        "buckleAccess": "Confirm shoulders and all booster buckles with your seats fitted.",
+        "access": "Related European RWD Evo review reports reasonably wide rear doors for child-seat access; exact Australian Premium loading and restraint fit need checking.",
+        "ventilation": "Australian brochure lists air conditioning; rear outlet location and airflow still need checking in a Premium.",
+        "sourceIds": [
+          "ev-atto-evo",
+          "ev-deep-atto-evo-brochure",
+          "ev-deep-atto-evo-manual",
+          "fit-gap-atto-evo-europe-access"
+        ]
+      }
+    }
+  ]
+}

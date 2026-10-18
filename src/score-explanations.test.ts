@@ -72,25 +72,27 @@ describe('headline-first score explanations', () => {
     const running = categoryFor('running');
     expect(running.headlineEstimated).toBe(true);
     expect(renderToStaticMarkup(createElement(CategoryEvidence, { category: running }))).toContain(`<span class="estimated-value">${money(ownershipEstimate(car, emptyPersonal()).annual)}</span>/year`);
-    expect(scoreVehicle(mixed, personal).categories.filter(c => !['price', 'running'].includes(c.key)).every(c => !c.headlineEstimated)).toBe(true);
+    expect(scoreVehicle(mixed, personal).categories.filter(c => !['price', 'running', 'boot', 'repairs'].includes(c.key)).every(c => !c.headlineEstimated)).toBe(true);
   });
 
-  it('shows complete annual running costs and the repair reserve without changing the score', () => {
+  it('shows everyday running spending separately from speculative savings', () => {
     const estimate = ownershipEstimate(car, emptyPersonal());
     const category = categoryFor('running');
     expect(category.headline).toBe(`${money(estimate.annual)}/year`);
-    expect(category.headlineDetail).toContain(money(estimate.annualBeforeRepairFund!));
-    expect(category.summary).toContain(`${money(estimate.components.reserve)} repair savings`);
-    expect(category.summary).toContain('Purchase and depreciation are separate');
-    expect(category.score).toBe(6.6);
+    expect(category.headlineDetail).toContain('repair savings excluded');
+    expect(category.summary).toContain('Repair savings, purchase and depreciation are separate');
+    expect(category.summary).toContain('finance interest');
+    expect(category.score).toBe(8.8);
   });
 
-  it('keeps a known boot measurement visible while explaining why it is excluded', () => {
+  it('scores a sourced declared boot measurement cautiously without converting it to VDA', () => {
     const nonComparable = { ...car, id: 'different-manufacturer-example', boot: { ...car.boot, value: 854, basis: 'Manufacturer capacity; not VDA comparable.' } };
     const category = scoreVehicle(nonComparable, emptyPersonal()).categories.find(c => c.key === 'boot')!;
-    expect(category.score).toBeNull();
-    expect(category.headline).toBe('854 L · different measurement');
-    expect(category.headlineDetail).toBe('Excluded from the boot score');
+    expect(category.score).toBe(10);
+    expect(category.confidence).toBe(.45);
+    expect(category.headlineEstimated).toBe(true);
+    expect(category.headline).toBe('854 L rear boot');
+    expect(category.headlineDetail).toBe('Declared capacity · approximate score');
   });
 
   it('distinguishes not-applicable electric range from missing plug-in range and unsuitable owner ratings', () => {

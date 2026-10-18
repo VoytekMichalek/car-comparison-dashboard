@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { repairReserves, expertReviews, images, ownershipInfo, insuranceEstimates, tyreEstimates, prices, sources, validateReferences, vehicles, energyAssumptions } from './data';
+import { repairReserves, expertReviews, images, imageGaps, ownershipInfo, insuranceEstimates, tyreEstimates, prices, sources, validateReferences, vehicles, energyAssumptions } from './data';
 import { defaultCosts, rangeStandard } from './lib';
 
 describe('researched catalogue integrity', () => {
@@ -90,7 +90,7 @@ describe('researched catalogue integrity', () => {
   it('distinguishes sourced asking observations from explicit planning estimates', () => {
     for (const p of prices) {
       expect(p.note.length).toBeGreaterThan(15);
-      expect(p.observed).toBe('2026-10-18');
+      expect(['2026-10-18', '2026-10-19']).toContain(p.observed);
       if (p.low !== null) { if (p.kind === 'estimate') { expect(p.sampleCount).toBe(0); expect(p.estimateBasis).toBeTruthy(); } else expect(p.sampleCount).toBeGreaterThan(0); expect(p.sourceIds.length).toBeGreaterThan(0); expect(p.high).toBeGreaterThanOrEqual(p.low); }
     }
   });
@@ -148,11 +148,11 @@ describe('researched catalogue integrity', () => {
       expect(image.sourceUrl).toContain('commons.wikimedia.org');
       expect(image.licenseUrl).toMatch(/^https:/);
     }
-    for (const family of new Set(vehicles.map(v => v.familyId))) expect(images.some(i => i.familyId === family)).toBe(true);
+    for (const family of new Set(vehicles.map(v => v.familyId))) expect(images.some(i => i.familyId === family) || imageGaps.some(g => g.familyId === family && g.reason.length > 20)).toBe(true);
   });
   it('dates evidence and retains sources for further reading', () => {
     expect(sources.length).toBeGreaterThan(90);
-    for (const source of sources) { expect(source.checked).toBe('2026-10-18'); expect(source.url).toMatch(/^https:/); }
+    for (const source of sources) { expect(['2026-10-18', '2026-10-19']).toContain(source.checked); expect(source.url).toMatch(/^https:/); }
     for (const vehicle of vehicles) expect(vehicle.sourceIds.length).toBeGreaterThan(0);
   });
 });

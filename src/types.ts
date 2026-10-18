@@ -37,6 +37,7 @@ export interface Vehicle {
   range: Fact;
   battery: Fact;
   consumption: Fact;
+  weightedFuelConsumption?: Fact;
   observedConsumption?: Fact;
   observedRange?: Fact;
   depletedConsumption: Fact;
@@ -186,6 +187,7 @@ export interface OwnershipSettings {
   tyreMode?: 'vehicle' | 'shared';
   repairReserve: number;
   repairMode?: 'vehicle' | 'shared';
+  includeRepairFund?: boolean;
   regoOverride: number | null;
   ctp: number | null;
   purchasePrice: number | null;
@@ -220,7 +222,7 @@ export interface BrandInfo {
   sourceIds: string[];
   checked: string;
 }
-export type ScoreCategory = 'seating' | 'price' | 'running' | 'boot' | 'range' | 'safety' | 'owners' | 'brand';
+export type ScoreCategory = 'seating' | 'price' | 'running' | 'boot' | 'range' | 'safety' | 'owners' | 'brand' | 'repairs';
 export type ScoreWeights = Record<ScoreCategory, number>;
 
 export interface ExpertReview {
