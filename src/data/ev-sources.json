@@ -718,5 +718,165 @@
     "publisher": "CarExpert",
     "kind": "review",
     "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-atto-evo-brochure",
+    "title": "Australian ATTO 3 EVO brochure v3 — specification table (visually verified)",
+    "url": "https://bydautomotive.com.au/brochures/BYD-ATTO-3-EVO.pdf?v=3",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-tesla-refresh-dimensions",
+    "title": "2025+ Australian Model Y manual — Premium five-seat dimensions and cargo",
+    "url": "https://www.tesla.com/ownersmanual/modely/en_au/GUID-1E76B638-7B12-4D9A-8767-94B7F1E92A0E.html",
+    "publisher": "Tesla Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-ioniq-ancap-current",
+    "title": "Hyundai Ioniq 5 current ANCAP applicability — all variants except N",
+    "url": "https://www.ancap.com.au/safety-ratings/hyundai/ioniq-5/9de91a",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-tesla-refresh-tyres",
+    "title": "Australian Model Y manual — five-seat factory wheel and tyre sizes",
+    "url": "https://www.tesla.com/ownersmanual/modely/en_au/GUID-FDDB10EF-FFA9-46EB-B8CC-03614AE92B6B.html",
+    "publisher": "Tesla Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-atto-evo-manual",
+    "title": "Australian-hosted ATTO 3 EVO Premium handbook — restraint instructions",
+    "url": "https://bydautomotive.com.au/brochures/BYD-ATTO-3-EVO-Premium-Owners-Handbook.pdf?v=1",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-tesla-ac",
+    "title": "Tesla Australia Wall Connector — onboard AC limits",
+    "url": "https://www.tesla.com/en_au/support/charging/wall-connector",
+    "publisher": "Tesla Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-zeekr-rvd-tyres",
+    "title": "ROVER VTA-065421 — Zeekr applicant tyre and rim specifications",
+    "url": "https://www.rover.infrastructure.gov.au/PublishedApprovals/VTADetails/RVDTyreAndRim/?apprversionid=302d66aa-0956-f011-bec2-00224892d1b3&id=931ff8d1-4c82-f011-b4cc-000d3ad10c2e&itemid=4903b779-7b5c-f011-bec2-00224891dd22",
+    "publisher": "Australian Department of Infrastructure / Zeekr applicant declaration",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-adr-energy-boundary",
+    "title": "ADR 81/02 Appendix B Annex 7: mains-meter electricity consumption method",
+    "url": "https://www.legislation.gov.au/F2008L00649/2021-11-30/2021-11-30/text/original/pdf/3",
+    "publisher": "Australian Government Federal Register of Legislation",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-evo-qld-8122528",
+    "title": "BYD dealer inventory: 2026 ATTO 3 EVO Premium, Queensland in-transit stock 8122528",
+    "url": "https://evdealergroup-byd.com.au/configurator/yumq_IJ_NC20jiX_Dh6dE9JxPZalUyvl5f9kcHfZLlrKFCImd5JMVPO1ABNtYwdNBMSxrV6Rdu1pimqFUL8PUA",
+    "publisher": "BYD Dealer Group",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-evo-qld-8122534",
+    "title": "BYD dealer inventory: 2026 ATTO 3 EVO Premium, Queensland in-transit stock 8122534",
+    "url": "https://evdealergroup-byd.com.au/configurator/yumq_IJ_NC20jiX_Dh6dE9JxPZalUyvl5f9kcHfZLlrKFCImd5JMVPO1ABNtYwdNbnlrrCneYTpww6gMMitPMw",
+    "publisher": "BYD Dealer Group",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-evo-qld-8122537",
+    "title": "BYD dealer inventory: 2026 ATTO 3 EVO Premium, Queensland in-transit stock 8122537",
+    "url": "https://evdealergroup-byd.com.au/configurator/yumq_IJ_NC20jiX_Dh6dE9JxPZalUyvl5f9kcHfZLlrKFCImd5JMVPO1ABNtYwdNdpTUr8BduB9g9Wij68-szg",
+    "publisher": "BYD Dealer Group",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-tesla-original-tyres",
+    "title": "2020–2024 Model Y Australian owner manual: wheel and tyre sizes",
+    "url": "https://www.tesla.com/ownersmanual/2020_2024_modely/en_au/GUID-FDDB10EF-FFA9-46EB-B8CC-03614AE92B6B.html",
+    "publisher": "Tesla Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-modely-ancap-fit",
+    "title": "Tesla Model Y 2022 ANCAP technical report: restraint installation",
+    "url": "https://cdn.ancap.com.au/app/public/assets/fb6b4ddefc9c05ea5dd37973c5d1f799dc3ceaac/original.pdf?1749706830=",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-ev6-ancap-fit",
+    "title": "Kia EV6 2022 ANCAP technical report: restraint installation",
+    "url": "https://cdn.ancap.com.au/app/public/assets/f28a0b6aac3ac9eb1e3aabea1c85a2ed2b9c7b91/original.pdf?1663120918=",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-juniper-qld-902005",
+    "title": "Tesla Queensland: 2026 Model Y Premium RWD, stock 902005",
+    "url": "https://www.carsales.com.au/cars/details/2026-tesla-model-y-premium-rear-wheel-drive-auto/OAG-AD-26383676/",
+    "publisher": "Tesla Queensland via Carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-juniper-qld-901069",
+    "title": "Tesla Queensland: 2026 Model Y Premium RWD, stock 901069",
+    "url": "https://www.carsales.com.au/cars/details/2026-tesla-model-y-premium-rear-wheel-drive-auto/OAG-AD-26375489/",
+    "publisher": "Tesla Queensland via Carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-juniper-qld-901733",
+    "title": "Tesla Queensland: 2026 Model Y Premium RWD, stock 901733",
+    "url": "https://www.carsales.com.au/cars/details/2026-tesla-model-y-premium-rear-wheel-drive-auto/OAG-AD-26383725/",
+    "publisher": "Tesla Queensland via Carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-zeekr-rvd-towing",
+    "title": "Australian ROVER VTA-065421: Zeekr 7X variant towing declarations",
+    "url": "https://www.rover.infrastructure.gov.au/PublishedApprovals/VTADetails/RVDVariants/?apprversionid=302d66aa-0956-f011-bec2-00224892d1b3&id=931ff8d1-4c82-f011-b4cc-000d3ad10c2e",
+    "publisher": "Australian Department of Infrastructure / Zeekr applicant declaration",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-ev5-sr-cars4us",
+    "title": "Cars4us: 2024 Kia EV5 Air Standard Range, stock 70029",
+    "url": "https://www.cars4us.com.au/vehicles/70029",
+    "publisher": "Cars4us",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "ev-deep-ev5-sr-wa",
+    "title": "WA Kia dealer: 2024 EV5 Air Standard Range MY25, stock 37859",
+    "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-standard-range-auto-my25/OAG-AD-26128016/",
+    "publisher": "Western Australian Kia dealer via Carsales",
+    "kind": "market",
+    "checked": "2026-10-18"
   }
 ]

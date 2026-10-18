@@ -22,7 +22,7 @@
       "unit": "km",
       "basis": "Electric only · ADR 81/02 / NEDC claim; not WLTP",
       "sourceIds": [
-        "hy-out-23"
+        "hy-out-24"
       ]
     },
     "battery": {
@@ -30,7 +30,7 @@
       "unit": "kWh",
       "basis": "Manufacturer-rated pack capacity; usable capacity not confirmed",
       "sourceIds": [
-        "hy-out-23"
+        "hy-out-24"
       ]
     },
     "consumption": {
@@ -58,14 +58,14 @@
       "basis": "DC capability/limit unverified",
       "sourceIds": []
     },
-    "chargeTime": "Manufacturer quotes 38 minutes to 80% on a suitable DC charger; conditions apply.",
+    "chargeTime": "Australian MY 24 brochure: approximately 6.5 h with a suitable 15 A AC EVSE, 9.5 h on 240V/10 A, or 38min DC to 80%; battery temperature, initial charge and charger conditions affect times. AC/DC peak power is not stated in this brochure.",
     "connector": "Type 2 AC / CHAdeMO DC; confirm charger availability on your routes.",
     "boot": {
       "value": 494,
       "unit": "L",
       "basis": "VDA · five seats upright, to top of second-row seatback",
       "sourceIds": [
-        "hy-out-23"
+        "hy-out-24"
       ]
     },
     "bootAllRows": {
@@ -79,7 +79,7 @@
       "unit": "mm",
       "basis": "Overall body length",
       "sourceIds": [
-        "hy-out-23"
+        "hy-out-24"
       ]
     },
     "width": {
@@ -87,7 +87,7 @@
       "unit": "mm",
       "basis": "Body width; mirrors excluded",
       "sourceIds": [
-        "hy-out-23"
+        "hy-out-24"
       ]
     },
     "towing": {
@@ -95,12 +95,12 @@
       "unit": "kg",
       "basis": "Maximum braked trailer capacity; loading and towbar limits apply",
       "sourceIds": [
-        "hy-out-23"
+        "hy-out-24"
       ]
     },
     "warranty": "Up to 10 years / 200,000 km when eligible scheduled services are completed at Mitsubishi; confirm this used car’s eligibility.",
-    "batteryWarranty": "8 years / 160,000 km. MY22 onward Capacity Care program has a 66% usable-capacity threshold, subject to terms.",
-    "servicing": "MY23 capped-price schedule is linked; confirm the VIN schedule and dealer-service eligibility before purchase.",
+    "batteryWarranty": "8 years / 160,000 km. MY 22 onward Capacity Care program has a 66% usable-capacity threshold, subject to terms.",
+    "servicing": "MY 23 capped-price schedule is linked; confirm the VIN schedule and dealer-service eligibility before purchase.",
     "safety": {
       "stars": 5,
       "year": 2022,
@@ -112,13 +112,13 @@
     },
     "familyFit": {
       "status": "tested-three",
-      "summary": "Three across reported in a 2025 five-seat ZM PHEV. Your exact combination is pending.",
+      "summary": "Three across reported in an April 2025 test of a five-seat 20 kWh ES. Aspire shares the ZM cabin, but the tested grade and your exact restraints differ.",
       "row2": "Two outboard ISOFIX pairs; three top tethers. Centre tether is overhead above the boot.",
       "row3": "This Aspire has no third row. Seven-seat ZM models lack third-row top tethers.",
-      "testedSeats": "Published review shows three restraints including a rear-facing infant capsule; full make/model combination is not identified in the article text.",
+      "testedSeats": "April 2025 BabyDrive five-seat ES 20 kWh test fitted three restraints, including a rear-facing infant capsule. Article text does not identify every restraint make/model; this is not an exact Aspire test.",
       "buckleAccess": "No repeatable booster-buckle clearance measurement published; test your combination.",
       "access": "Check rear-door loading with every restraint fitted and front seats set for both adults.",
-      "ventilation": "Rear centre-console vents; verify the actual Aspire grade.",
+      "ventilation": "MY 24 Aspire brochure explicitly lists rear centre-console air vents; no third row.",
       "sourceIds": [
         "hy-out-fit",
         "hy-out-safe-new"
@@ -132,25 +132,26 @@
     "cons": [
       "CHAdeMO public charging needs route checking.",
       "Five-seat Aspire provides no extra row.",
-      "Combined energy-cost estimate withheld pending period-specific efficiency data."
+      "Verified electric-distance consumption and charge-depleted fuel use remain unavailable; calculator proxies are separately labelled."
     ],
     "inspection": [
       "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
       "Ask for proof that applicable rear-view camera software recall REC-005692 was completed.",
       "Request a battery health report and demonstrate charging from your planned AC equipment.",
-      "Identify the 20 kWh specification from build/VIN, rather than registration year alone."
+      "Identify the 20 kWh specification from build/VIN, rather than registration year alone.",
+      "Australian MY 24 brochure specifies unleaded, minimum 91 RON recommended; select the matching fuel grade when editing petrol-cost assumptions."
     ],
     "changes": [
       {
         "period": "2022–2024 / early 2025 stock",
-        "text": "20 kWh ZM PHEV. MY23 brochure separates five-seat Aspire from seven-seat Exceed.",
+        "text": "20 kWh ZM PHEV. Verified MY 24 brochure separates five-seat Aspire from seven-seat Exceed; exact annual equipment needs the period order sheet.",
         "sourceIds": [
-          "hy-out-23"
+          "hy-out-24"
         ]
       },
       {
         "period": "Updated cars sold in 2026",
-        "text": "Larger-battery version is a separate entry. Mitsubishi’s brochure is labelled MY25, so verify the actual build specification.",
+        "text": "Larger-battery version is a separate entry. Mitsubishi’s brochure is labelled MY 25, so verify the actual build specification.",
         "sourceIds": [
           "hy-out-25",
           "hy-out-current"
@@ -159,7 +160,7 @@
     ],
     "gaps": [
       "2021 ZL predecessor is not profiled; do not apply these ZM dimensions or fit evidence to it.",
-      "AC/DC peak power and charge-depleted petrol/electric consumption are not verified. The 1.5 L/100 km weighted claim cannot support a depleted-battery estimate.",
+      "AC/DC peak power and charge-depleted petrol/electric consumption are not verified in the Australian brochure. The 1.5 L/100 km weighted claim cannot support a depleted-battery estimate.",
       "Seven-seat 20 kWh Exceed and trim-specific equipment need a separate listing-level check."
     ],
     "sourceIds": [
@@ -233,37 +234,47 @@
       "basis": "DC capability/limit unverified",
       "sourceIds": []
     },
-    "chargeTime": "Australian range page lists 6.5 hours on 15 A AC and 32 minutes DC; exact state-of-charge window needs confirmation.",
-    "connector": "Verify the Australian charging inlet",
+    "chargeTime": "Manufacturer MY 25 brochure: DC to 80% in as little as 32min; approximately 6.5 h on 15 A AC EVSE or 10 h on 240V/10 A. Brochure does not state the AC initial/final SOC window or peak AC/DC kW.",
+    "connector": "Type 2 AC / CHAdeMO DC, confirmed on the current Australian authorised-dealer model page; public CHAdeMO availability needs route checking.",
     "boot": {
-      "value": null,
+      "value": 468,
       "unit": "L",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "VDA to top of second-row seatback; second row upright, third row folded; updated seven-seat Aspire",
+      "sourceIds": [
+        "hy-out-25"
+      ]
     },
     "bootAllRows": {
-      "value": null,
+      "value": 191,
       "unit": "L",
-      "basis": "Boot volume with all three rows occupied not verified",
-      "sourceIds": []
+      "basis": "VDA to top of third-row seatback; all seven seats upright",
+      "sourceIds": [
+        "hy-out-25"
+      ]
     },
     "length": {
-      "value": null,
+      "value": 4720,
       "unit": "mm",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Overall body length; updated 22.7 kWh model",
+      "sourceIds": [
+        "hy-out-25"
+      ]
     },
     "width": {
-      "value": null,
+      "value": 1862,
       "unit": "mm",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Body width; mirrors excluded",
+      "sourceIds": [
+        "hy-out-25"
+      ]
     },
     "towing": {
-      "value": null,
+      "value": 1600,
       "unit": "kg",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Maximum braked trailer capacity; 160 kg maximum towball load and loading/towbar limits apply",
+      "sourceIds": [
+        "hy-out-25"
+      ]
     },
     "warranty": "Up to 10 years / 200,000 km with eligible Mitsubishi dealer servicing; conditions apply.",
     "batteryWarranty": "8 years / 160,000 km; Capacity Care terms include a 66% usable-capacity threshold.",
@@ -279,16 +290,17 @@
     "familyFit": {
       "status": "limitations",
       "summary": "Seven seats, but third-row top tethers are absent. Plan a three-across second-row trial.",
-      "row2": "Confirm current anchor locations in the Australian manual; earlier ZM tests found two ISOFIX pairs and three top tethers.",
+      "row2": "Current Australian brochure lists two ISOFIX positions and three top tethers; ANCAP confirms no third-row tethers. Confirm centre-tether routing in the vehicle manual.",
       "row3": "ANCAP: no top tethers in the optional third row; child-restraint installation there is not recommended.",
       "testedSeats": "No exact updated Aspire seven-seat restraint combination verified in this research pass.",
       "buckleAccess": "Check booster buckle reach and centre-tether routing with the third row occupied.",
       "access": "Inspect third-row access with second-row restraints fitted; do not assume the bench can be moved while occupied.",
-      "ventilation": "Grade-specific second/third-row ventilation requires confirmation.",
+      "ventilation": "Updated Aspire brochure lists dual-zone climate control and rear air vents; separate rear-zone controls are Exceed/ExceedTourer equipment. Third-row dedicated vent coverage is not established.",
       "sourceIds": [
         "hy-out-safe-new",
         "hy-out-fit",
-        "hy-out-dealer"
+        "hy-out-dealer",
+        "hy-out-25"
       ]
     },
     "pros": [
@@ -296,13 +308,15 @@
       "Aspire provides an occasional third row for suitable passengers."
     ],
     "cons": [
-      "Third row does not provide top-tethered restraint positions.",
-      "Current pricing and boot configuration still need verification."
+      "Third row has no top-tether anchorages; ANCAP does not recommend child restraints there.",
+      "Only 191L VDA luggage space with all seven seats occupied.",
+      "CHAdeMO charging and third-row access require a practical inspection."
     ],
     "inspection": [
       "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
       "Confirm the 22.7 kWh battery and actual seating on the build plate and order sheet.",
-      "Demonstrate tether routing and row access with the intended occupants."
+      "Demonstrate tether routing and row access with the intended occupants.",
+      "Australian updated-model brochure specifies unleaded, minimum 91 RON recommended; verify the filler flap/manual on the exact car."
     ],
     "changes": [
       {
@@ -316,9 +330,10 @@
       }
     ],
     "gaps": [
-      "Current boot litres, towing, dimensions, charging power and period-specific consumption not verified; earlier-model values are not carried over.",
-      "No current drive-away quote captured.",
-      "Manufacturer brochure/model-year labels and 2026 retail timing overlap; match the actual build."
+      "Peak AC/DC kW and electric-distance / charge-depleted consumption are not stated in the verified Australian brochure.",
+      "Captured exact new asking prices are interstate; Queensland transport, registration and buyer-specific charges need a local quote.",
+      "Australian MY 25 brochure and advertised 2026 retail/model years overlap; check battery, build and seating rather than registration year alone.",
+      "No exact updated seven-seat Aspire three-across test or booster-buckle clearance measurement verified."
     ],
     "sourceIds": [
       "hy-recalls",
@@ -366,7 +381,7 @@
     "consumption": {
       "value": 16.9,
       "unit": "kWh/100km",
-      "basis": "ADR 81/02 claim, converted from 169 Wh/km; not measured local use",
+      "basis": "Published ADR 81/02 electrical claim (169 Wh/km); the brochure does not identify weighted-versus-electric-distance or wall-versus-battery basis. Retained as a specification only; not used as verified all-electric driving consumption.",
       "sourceIds": [
         "hy-sl6-24"
       ],
@@ -391,13 +406,13 @@
     "dcCharging": {
       "value": 18,
       "unit": "kW",
-      "basis": "Maximum published CCS2 DC rating",
+      "basis": "Maximum published CCS 2 DC rating",
       "sourceIds": [
         "hy-sl6-24"
       ]
     },
     "chargeTime": "Charging-time window not verified",
-    "connector": "Type 2 AC / CCS2 DC",
+    "connector": "Type 2 AC / CCS 2 DC",
     "boot": {
       "value": 425,
       "unit": "L",
@@ -429,10 +444,12 @@
       ]
     },
     "towing": {
-      "value": null,
+      "value": 750,
       "unit": "kg",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Maximum braked towing, original Australian 2WD handbook pp 108–109; also 750 kg unbraked. Towbar, loading and VIN limits still apply.",
+      "sourceIds": [
+        "hy-deep-sl6-handbook"
+      ]
     },
     "warranty": "6 years / 150,000 km vehicle warranty, subject to terms and component-specific exclusions.",
     "batteryWarranty": "8 years / 160,000 km traction battery warranty; check applicable terms.",
@@ -460,7 +477,7 @@
       ]
     },
     "pros": [
-      "Published electric and low-state-of-charge petrol consumption can support transparent scenarios.",
+      "Published low-state-of-charge petrol consumption supports a clearly scoped depleted-battery scenario.",
       "Conventional charging connectors for Australian AC and DC sites."
     ],
     "cons": [
@@ -472,7 +489,8 @@
       "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
       "Verify charging, included cables and service records.",
       "Confirm battery size and grade from the VIN/order sheet; Dynamic and Dynamic Extended differ.",
-      "Try the boot with your pram while all child seats remain installed."
+      "Try the boot with your pram while all child seats remain installed.",
+      "The Australian handbook currently linked by BYD specifies 95-grade or higher unleaded, E 10 or below (p 109). Budget premium petrol and confirm the delivered VIN handbook; do not assume a 91 RON price."
     ],
     "changes": [
       {
@@ -492,10 +510,10 @@
     ],
     "gaps": [
       "No exact Australian three-across seat test or booster-buckle measurements verified.",
-      "Braked towing and a sourced charging-time window are not captured.",
-      "Servicing schedule/costs and component warranty exclusions need a VIN-specific check.",
+      "Check the VIN-specific service history and component warranty exclusions against the separately documented ownership terms.",
       "Later Essential shares headline battery/range but is not treated as equipment-identical to the original Dynamic.",
-      "Electrical consumption boundary or electric-distance basis is unverified; automatic energy-cost estimate withheld."
+      "Verified electric-driving consumption remains unavailable; any combined energy-cost budget uses a separate, labelled planning estimate.",
+      "A supported charging-time/SOC window remains unverified; the original brochure URL no longer returns a usable PDF in this recheck."
     ],
     "sourceIds": [
       "hy-recalls",
@@ -504,7 +522,8 @@
       "hy-sl6-safe",
       "hy-sl6-anchors",
       "hy-byd-warranty",
-      "hy-sl6-used"
+      "hy-sl6-used",
+      "hy-deep-sl6-handbook"
     ],
     "checked": "2026-10-18"
   },
@@ -543,7 +562,7 @@
     "consumption": {
       "value": 14.7,
       "unit": "kWh/100km",
-      "basis": "ADR 81/02 claim, converted from 147 Wh/km; not measured local use",
+      "basis": "Published ADR 81/02 electrical claim (147 Wh/km); the brochure does not identify weighted-versus-electric-distance or wall-versus-battery basis. Retained as a specification only; not used as verified all-electric driving consumption.",
       "sourceIds": [
         "hy-sl6-25"
       ],
@@ -568,13 +587,13 @@
     "dcCharging": {
       "value": 18,
       "unit": "kW",
-      "basis": "Maximum published CCS2 DC rating",
+      "basis": "Maximum published CCS 2 DC rating",
       "sourceIds": [
         "hy-sl6-25"
       ]
     },
     "chargeTime": "Charging-time window not verified",
-    "connector": "Type 2 AC / CCS2 DC",
+    "connector": "Type 2 AC / CCS 2 DC",
     "boot": {
       "value": 425,
       "unit": "L",
@@ -637,7 +656,7 @@
       ]
     },
     "pros": [
-      "Published electric and low-state-of-charge petrol consumption can support transparent scenarios.",
+      "Published low-state-of-charge petrol consumption supports a clearly scoped depleted-battery scenario.",
       "Conventional charging connectors for Australian AC and DC sites."
     ],
     "cons": [
@@ -649,7 +668,8 @@
       "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
       "Verify charging, included cables and service records.",
       "Confirm battery size and grade from the VIN/order sheet; Dynamic and Dynamic Extended differ.",
-      "Try the boot with your pram while all child seats remain installed."
+      "Try the boot with your pram while all child seats remain installed.",
+      "The Australian handbook currently linked by BYD specifies 95-grade or higher unleaded, E 10 or below (p 109). Budget premium petrol and confirm the delivered VIN handbook; do not assume a 91 RON price."
     ],
     "changes": [
       {
@@ -669,9 +689,9 @@
     ],
     "gaps": [
       "No exact Australian three-across seat test or booster-buckle measurements verified.",
-      "Braked towing and a sourced charging-time window are not captured.",
-      "Servicing schedule/costs and component warranty exclusions need a VIN-specific check.",
-      "Electrical consumption boundary or electric-distance basis is unverified; automatic energy-cost estimate withheld."
+      "Exact 26.6 kWh variant towing and a supported charging-time window are not captured; the original 2WD handbook rating is not automatically transferred.",
+      "Check the VIN-specific service history and component warranty exclusions against the separately documented ownership terms.",
+      "Verified electric-driving consumption remains unavailable; any combined energy-cost budget uses a separate, labelled planning estimate."
     ],
     "sourceIds": [
       "hy-recalls",
@@ -679,7 +699,8 @@
       "hy-sl6-current",
       "hy-sl6-safe",
       "hy-sl6-anchors",
-      "hy-byd-warranty"
+      "hy-byd-warranty",
+      "hy-deep-sl6-handbook"
     ],
     "checked": "2026-10-18"
   },
@@ -785,21 +806,22 @@
     "safety": {
       "stars": 5,
       "year": 2021,
-      "applicability": "T33 rating announced November 2022; 2021 datestamp. Check actual build/variant applicability.",
+      "applicability": "T 33 rating announced November 2022; 2021 datestamp. Check actual build/variant applicability.",
       "sourceIds": [
         "hy-xt-safe",
-        "hy-xt-fit"
+        "hy-xt-fit",
+        "hy-deep-xt-ancap"
       ]
     },
     "familyFit": {
       "status": "tested-three",
-      "summary": "Three-across reported on 2023 AWD Ti/Ti-L; your own three-seat combination is pending.",
+      "summary": "Three across reported in a 2023 Ti-L AWD test. This Ti entry shares the T 33 layout; your grade/year and exact restraints still need checking.",
       "row2": "Two outboard ISOFIX pairs; three top tethers. Outer tethers on seatbacks; centre tether above boot.",
       "row3": "No third row in this e-POWER configuration.",
       "testedSeats": "2023 test: InfaSecure Adapt More and Achieve More with a Versatile Folding Booster; alternative positions also tried. Test text varies on facing direction, so consult the article/video.",
       "buckleAccess": "Booster buckle reach with your exact three restraints is not established by the article.",
       "access": "Wide-opening rear doors and sliding bench helped the tested AWD model; verify this grade.",
-      "ventilation": "Rear centre-console air vents reported in the tested Ti-L; check ST-L equipment.",
+      "ventilation": "Original and MY 26 Australian specifications list rear air vents and tri-zone climate on Ti e-POWER. Ti-L rear sunshades in the test are not assumed on Ti.",
       "sourceIds": [
         "hy-xt-fit",
         "hy-xt-spec"
@@ -807,7 +829,7 @@
     },
     "pros": [
       "No home charger needed.",
-      "Published second-row three-across evidence for the T33 AWD cabin."
+      "Published second-row three-across evidence for the T 33 AWD cabin."
     ],
     "cons": [
       "Home solar cannot supply its driving energy through a plug.",
@@ -816,9 +838,10 @@
     ],
     "inspection": [
       "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
-      "Check VIN applicability and completion of REC-006653 / R26A5 (July 2026 lithium-ion battery-controller software recall).",
+      "Check VIN applicability and completion of REC-006653 / R 26 A 5 (July 2026 lithium-ion battery-controller software recall).",
       "Demonstrate e-POWER system operation and obtain complete servicing/software-update records.",
-      "Check the centre top-tether route with luggage in place."
+      "Check the centre top-tether route with luggage in place.",
+      "Nissan specifies minimum 91 / recommended 95 RON for e-Power; premium is recommended, not an absolute 95 RON minimum. Budget with the fuel grade you will use."
     ],
     "changes": [
       {
@@ -834,10 +857,19 @@
         "sourceIds": [
           "hy-xt-fwd"
         ]
+      },
+      {
+        "period": "Australian MY 26 update",
+        "text": "MY 26 adds connected services, wireless Android Auto and revised safety/multimedia equipment; scheduled interval changes from 10,000 km/12 months on earlier cars to 15,000 km/12 months. Match service schedule and equipment to MY/VIN, not calendar year. The AWD combined claim remains 6.1 L/100 km.",
+        "sourceIds": [
+          "hy-deep-xt-my26",
+          "hy-priceaudit-xt-fwd-msrp",
+          "hy-deep-xt-my26-service"
+        ]
       }
     ],
     "gaps": [
-      "Hybrid battery kWh and detailed servicing costs not verified for this entry.",
+      "Hybrid battery kWh is not verified for this entry; servicing budgets are documented separately with MY/VIN eligibility.",
       "Exact restraints and adult seating positions still need a physical trial."
     ],
     "sourceIds": [
@@ -848,7 +880,10 @@
       "hy-xt-safe",
       "hy-nissan-warranty",
       "hy-xt-recall",
-      "hy-xt-used"
+      "hy-xt-used",
+      "hy-deep-xt-my26",
+      "hy-deep-xt-ancap",
+      "hy-deep-xt-my26-service"
     ],
     "checked": "2026-10-18"
   },
@@ -880,10 +915,11 @@
       "sourceIds": []
     },
     "consumption": {
-      "value": 5.3,
+      "value": 5.4,
       "unit": "L/100km",
-      "basis": "ADR 81/02 combined petrol claim; no plug-in electricity input",
+      "basis": "ADR 81/02 combined, dated August 2026 MY 26 manufacturer sheet. Undated live Nissan web table says 5.3 L/100 km; conflict remains and 5.4 is used conservatively pending the exact car fuel label.",
       "sourceIds": [
+        "hy-deep-xt-my26",
         "hy-xt-current"
       ]
     },
@@ -908,10 +944,12 @@
     "chargeTime": "Not applicable: fills with petrol",
     "connector": "No charging plug",
     "boot": {
-      "value": null,
+      "value": 575,
       "unit": "L",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Manufacturer MY 26 table, second row upright, measured to roof; not comparable with VDA shelf-height volumes.",
+      "sourceIds": [
+        "hy-deep-xt-my26"
+      ]
     },
     "bootAllRows": {
       "value": null,
@@ -949,29 +987,29 @@
     "safety": {
       "stars": null,
       "year": null,
-      "applicability": "The T33 AWD has an earlier five-star / 2021-datestamp assessment. Applicability to the new Australian 2026 FWD configuration has not been independently verified; no rating is carried over.",
+      "applicability": "ANCAP current model page says all variants (2021 datestamp, December 2027 expiry), but the downloaded technical applicability table names e-POWER 4WD and does not explicitly name the new 2026 FWD. Exact extension remains unverified; seller five-star claims are not substituted.",
       "sourceIds": [
-        "hy-xt-safe",
-        "hy-xt-fwd"
+        "hy-deep-xt-ancap"
       ]
     },
     "familyFit": {
       "status": "unverified",
-      "summary": "Three-across reported on 2023 AWD Ti/Ti-L; new FWD grade still needs a direct fit test.",
-      "row2": "Two outboard ISOFIX pairs; three top tethers. Outer tethers on seatbacks; centre tether above boot.",
+      "summary": "Three across reported in a 2023 AWD Ti-L test; the new FWD grade still needs a direct fit test.",
+      "row2": "Current Australian MY 26 brochure explicitly lists two outboard ISOFIX positions and three top tethers. A 2023 Ti-L AWD fit test is related evidence, not a test of this FWD ST-L.",
       "row3": "No third row in this e-POWER configuration.",
       "testedSeats": "2023 test: InfaSecure Adapt More and Achieve More with a Versatile Folding Booster; alternative positions also tried. Test text varies on facing direction, so consult the article/video.",
       "buckleAccess": "Booster buckle reach with your exact three restraints is not established by the article.",
       "access": "Wide-opening rear doors and sliding bench helped the tested AWD model; verify this grade.",
-      "ventilation": "Rear centre-console air vents reported in the tested Ti-L; check ST-L equipment.",
+      "ventilation": "MY 26 ST-L specification lists second-row air vents and dual-zone climate control; no third row.",
       "sourceIds": [
         "hy-xt-fit",
-        "hy-xt-spec"
+        "hy-xt-spec",
+        "hy-deep-xt-my26"
       ]
     },
     "pros": [
       "No home charger needed.",
-      "Published second-row three-across evidence for the T33 AWD cabin."
+      "Published second-row three-across evidence for the T 33 AWD cabin."
     ],
     "cons": [
       "Home solar cannot supply its driving energy through a plug.",
@@ -980,31 +1018,27 @@
     ],
     "inspection": [
       "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
-      "Check VIN applicability and completion of REC-006653 / R26A5 (July 2026 lithium-ion battery-controller software recall).",
+      "Check VIN applicability and completion of REC-006653 / R 26 A 5 (July 2026 lithium-ion battery-controller software recall).",
       "Demonstrate e-POWER system operation and obtain complete servicing/software-update records.",
-      "Check the centre top-tether route with luggage in place."
+      "Check the centre top-tether route with luggage in place.",
+      "MY 26 Nissan table specifies minimum 91 / recommended 95 RON for e-Power; confirm the fuel label and budget with the grade you will use."
     ],
     "changes": [
       {
-        "period": "2023 launch",
-        "text": "Australian Ti and Ti-L e-POWER introduced as five-seat e-4ORCE AWD configurations.",
+        "period": "September 2026 Australian arrival / MY 26",
+        "text": "FWD e-POWER ST-L joins the Australian range; 150 kW electric drive, 670 kg braked/unbraked towing. The dated MY 26 sheet lists 5.4 L/100 km while the web table lists 5.3; confirm the fuel label. MY 26 scheduled service interval is 15,000 km/12 months.",
         "sourceIds": [
-          "hy-xt-spec"
-        ]
-      },
-      {
-        "period": "September 2026 arrivals",
-        "text": "FWD e-POWER ST-L, Ti and Ti-L added. Nissan’s seven-seat Rock Creek is petrol, not e-POWER.",
-        "sourceIds": [
-          "hy-xt-fwd"
+          "hy-priceaudit-xt-fwd-msrp",
+          "hy-deep-xt-my26",
+          "hy-deep-xt-my26-service"
         ]
       }
     ],
     "gaps": [
-      "Hybrid battery kWh and detailed servicing costs not verified for this entry.",
+      "Hybrid battery kWh is not verified for this entry; servicing budgets are documented separately with MY/VIN eligibility.",
       "Exact restraints and adult seating positions still need a physical trial.",
-      "Current FWD brochure/web page says 5.3 L/100 km while other Nissan marketing rounds to 5.4; the grade-specification figure is shown.",
-      "Boot volume and current FWD ANCAP applicability need confirmation."
+      "Nissan manufacturer sources conflict on FWD combined fuel use:5.4 L/100 km in dated MY 26PDF versus 5.3 on the undated web table.",
+      "Exact ANCAP applicability extension to the new Australian FWD e-POWER grade is not explicitly named in the technical report."
     ],
     "sourceIds": [
       "hy-recalls",
@@ -1013,7 +1047,10 @@
       "hy-xt-fit",
       "hy-xt-safe",
       "hy-nissan-warranty",
-      "hy-xt-recall"
+      "hy-xt-recall",
+      "hy-deep-xt-my26",
+      "hy-deep-xt-ancap",
+      "hy-deep-xt-my26-service"
     ],
     "checked": "2026-10-18"
   },
@@ -1053,7 +1090,8 @@
       "unit": "L/100km",
       "basis": "Australian ADR 81/02 combined petrol claim",
       "sourceIds": [
-        "hy-rav-spec-25"
+        "hy-rav-spec-25",
+        "hy-deep-rav-old-dealer"
       ]
     },
     "depletedConsumption": {
@@ -1091,16 +1129,20 @@
       "sourceIds": []
     },
     "length": {
-      "value": null,
+      "value": 4600,
       "unit": "mm",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Overall body length; Australian GXL 2WD hybrid.",
+      "sourceIds": [
+        "hy-deep-rav-old-dealer"
+      ]
     },
     "width": {
-      "value": null,
+      "value": 1855,
       "unit": "mm",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Body width; mirrors excluded.",
+      "sourceIds": [
+        "hy-deep-rav-old-dealer"
+      ]
     },
     "towing": {
       "value": 480,
@@ -1149,7 +1191,8 @@
       "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
       "Request hybrid battery health-check records and confirm any warranty extension.",
       "Test all restraints together, including any overlapping seatbelt paths.",
-      "Confirm model generation and equipment from build/VIN, not registration year alone."
+      "Confirm model generation and equipment from build/VIN, not registration year alone.",
+      "January 2025 Australian specification recommends 91 RON; do not inherit the sixth-generation 2026 car’s 95 RON requirement."
     ],
     "changes": [
       {
@@ -1170,9 +1213,9 @@
     ],
     "gaps": [
       "AWD variants are not separately profiled.",
-      "Battery kWh and VIN-specific servicing prices are not captured.",
+      "Hybrid battery kWh is not captured; confirm the exact used car’s servicing eligibility and schedule.",
       "Core specification is grouped across years; 2023 multimedia/safety changes require a listing-level equipment check.",
-      "Period-specific earlier dimensions and boot-floor/spare-wheel variations are not assumed from the 2025 table."
+      "Boot-floor/spare-wheel variations and annual equipment still need the specific car’s period specification."
     ],
     "sourceIds": [
       "hy-recalls",
@@ -1183,7 +1226,8 @@
       "hy-toyota-warranty",
       "hy-rav-fit",
       "hy-rav-brochure-24",
-      "hy-rav-used"
+      "hy-rav-used",
+      "hy-deep-rav-old-dealer"
     ],
     "checked": "2026-10-18"
   },
@@ -1201,7 +1245,7 @@
     "seats": 5,
     "drive": "FWD",
     "headline": "A new generation to keep separate",
-    "summary": "The 2026 RAV4 has a new generation of hybrid system, safety technology and multimedia. Earlier RAV4 three-seat results cannot be carried over automatically.",
+    "summary": "The 2026 RAV 4 has a new generation of hybrid system, safety technology and multimedia. Earlier RAV 4 three-seat results cannot be carried over automatically.",
     "range": {
       "value": null,
       "unit": "km",
@@ -1243,10 +1287,12 @@
     "chargeTime": "Not applicable: fills with petrol",
     "connector": "No charging plug",
     "boot": {
-      "value": null,
+      "value": 705,
       "unit": "L",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Manufacturer up-to total cargo volume with second row upright for HEV. The current page does not state shelf/roof measurement boundary or VDA method; do not compare directly with older 542L VDA/upper-floor figure.",
+      "sourceIds": [
+        "hy-deep-rav-current"
+      ]
     },
     "bootAllRows": {
       "value": null,
@@ -1255,16 +1301,20 @@
       "sourceIds": []
     },
     "length": {
-      "value": null,
+      "value": 4600,
       "unit": "mm",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Overall length of GX/GXL/Cruiser; Edge/GRSport differ.",
+      "sourceIds": [
+        "hy-rav-launch-26"
+      ]
     },
     "width": {
-      "value": null,
+      "value": 1855,
       "unit": "mm",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Body width of GX/GXL/Cruiser; mirrors excluded; Edge/GRSport differ.",
+      "sourceIds": [
+        "hy-rav-launch-26"
+      ]
     },
     "towing": {
       "value": 800,
@@ -1280,22 +1330,23 @@
     "safety": {
       "stars": null,
       "year": null,
-      "applicability": "ANCAP lists the March 2026-onward generation as unrated at the checked date; do not inherit the old RAV4 rating.",
+      "applicability": "ANCAP lists the March 2026-onward generation as unrated at the checked date; do not inherit the old RAV 4 rating.",
       "sourceIds": [
         "hy-toyota-safety"
       ]
     },
     "familyFit": {
       "status": "unverified",
-      "summary": "No verified three-across result for the new generation.",
-      "row2": "Current Australian anchor diagram requires verification.",
+      "summary": "New-generation PHEV sibling tested three across; exact GXL HEV fit remains pending.",
+      "row2": "Australian 2026 specification confirms two outboard ISOFIX positions. Three seatback top tethers were observed in the 2026 PHEV sibling; check the GXL HEV manual and actual car.",
       "row3": "No third row.",
-      "testedSeats": "No configuration-specific test captured.",
+      "testedSeats": "Related 2026 PHEV launch test fitted three forward-facing or three rear-facing restraints, without naming every model. This is not a direct GXL HEV test.",
       "buckleAccess": "Check buckle access and adjacent restraint/seatbelt overlap with your actual seats.",
       "access": "Bring all three restraints and test getting each child in and out.",
-      "ventilation": "Verify rear vents in the actual 2026 grade.",
+      "ventilation": "Rear passenger air vents listed for every 2026 grade in the Australian specification table.",
       "sourceIds": [
-        "hy-rav-spec-26"
+        "hy-rav-spec-26",
+        "hy-deep-rav-fit-phev"
       ]
     },
     "pros": [
@@ -1311,7 +1362,8 @@
       "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
       "Request hybrid battery health-check records and confirm any warranty extension.",
       "Test all restraints together, including any overlapping seatbelt paths.",
-      "Confirm model generation and equipment from build/VIN, not registration year alone."
+      "Confirm model generation and equipment from build/VIN, not registration year alone.",
+      "May 2026 specification recommends 95 RON or higher, whereas the previous generation specified 91; use a premium-petrol cost assumption."
     ],
     "changes": [
       {
@@ -1332,9 +1384,10 @@
     ],
     "gaps": [
       "AWD variants are not separately profiled.",
-      "Battery kWh and VIN-specific servicing prices are not captured.",
-      "New-generation child-seat fit, anchor diagram and boot volume await verification.",
-      "New Australian RAV4 PHEV is not profiled; it is a separate powertrain and requires current recall checks."
+      "Hybrid battery kWh is not captured; confirm the exact used car’s servicing eligibility and schedule.",
+      "New Australian RAV 4 PHEV is not profiled; it is a separate powertrain and requires current recall checks.",
+      "Manufacturer 705L boot claim does not state a measurement boundary; no comparable shelf-height figure verified.",
+      "A 2026 PHEV sibling has a three-across test, but the exact GXL HEV and your seat models remain untested."
     ],
     "sourceIds": [
       "hy-recalls",
@@ -1342,7 +1395,9 @@
       "hy-rav-update-23",
       "hy-rav-launch-26",
       "hy-toyota-safety",
-      "hy-toyota-warranty"
+      "hy-toyota-warranty",
+      "hy-deep-rav-current",
+      "hy-deep-rav-fit-phev"
     ],
     "checked": "2026-10-18"
   },
@@ -1384,7 +1439,9 @@
       "basis": "Australian ADR 81/02 combined petrol claim; GX/GXL hybrid",
       "sourceIds": [
         "hy-kluger-spec",
-        "hy-kluger-current"
+        "hy-kluger-current",
+        "hy-deep-kluger-spec-26",
+        "hy-deep-kluger-launch-21"
       ]
     },
     "depletedConsumption": {
@@ -1412,7 +1469,9 @@
       "unit": "L",
       "basis": "Manufacturer cargo space with third row folded; second row upright",
       "sourceIds": [
-        "hy-kluger-spec"
+        "hy-kluger-spec",
+        "hy-deep-kluger-spec-26",
+        "hy-deep-kluger-launch-21"
       ]
     },
     "bootAllRows": {
@@ -1420,7 +1479,9 @@
       "unit": "L",
       "basis": "Manufacturer cargo space with all three rows upright",
       "sourceIds": [
-        "hy-kluger-spec"
+        "hy-kluger-spec",
+        "hy-deep-kluger-spec-26",
+        "hy-deep-kluger-launch-21"
       ]
     },
     "length": {
@@ -1428,7 +1489,9 @@
       "unit": "mm",
       "basis": "Overall body length",
       "sourceIds": [
-        "hy-kluger-spec"
+        "hy-kluger-spec",
+        "hy-deep-kluger-spec-26",
+        "hy-deep-kluger-launch-21"
       ]
     },
     "width": {
@@ -1436,7 +1499,9 @@
       "unit": "mm",
       "basis": "Body width; mirrors excluded",
       "sourceIds": [
-        "hy-kluger-spec"
+        "hy-kluger-spec",
+        "hy-deep-kluger-spec-26",
+        "hy-deep-kluger-launch-21"
       ]
     },
     "towing": {
@@ -1444,7 +1509,9 @@
       "unit": "kg",
       "basis": "Maximum braked trailer capacity; towbar/load limits apply",
       "sourceIds": [
-        "hy-kluger-spec"
+        "hy-kluger-spec",
+        "hy-deep-kluger-spec-26",
+        "hy-deep-kluger-launch-21"
       ]
     },
     "warranty": "5 years / unlimited km standard vehicle coverage; check original delivery and use.",
@@ -1453,7 +1520,7 @@
     "safety": {
       "stars": 5,
       "year": 2021,
-      "applicability": "XU7 variants built from March 2021; Australian launch June 2021. ANCAP identifies curtain-airbag protection across all three rows.",
+      "applicability": "XU 7 variants built from March 2021; Australian launch June 2021. ANCAP identifies curtain-airbag protection across all three rows.",
       "sourceIds": [
         "hy-kluger-safe"
       ]
@@ -1485,12 +1552,13 @@
       "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
       "Confirm battery-health checks and remaining Toyota warranty eligibility.",
       "Trial your pram with the third row in the intended position.",
-      "Check current GX ventilation and safety/multimedia equipment rather than relying on Grande photos."
+      "Check current GX ventilation and safety/multimedia equipment rather than relying on Grande photos.",
+      "Original 2021 Australian hybrid launch and current February 2026 sheet both specify minimum 95 RON premium unleaded; budget the matching fuel grade."
     ],
     "changes": [
       {
         "period": "June 2021 onward",
-        "text": "Australian XU70 hybrid introduced. This group retains the hybrid layout; confirm later equipment and trim changes by VIN.",
+        "text": "Australian XU 70 hybrid introduced. This group retains the hybrid layout; confirm later equipment and trim changes by VIN.",
         "sourceIds": [
           "hy-kluger-launch",
           "hy-kluger-current"
@@ -1499,7 +1567,7 @@
     ],
     "gaps": [
       "Detailed annual equipment changes are not fully mapped; 2021 Grande test is not a test of every GX year.",
-      "Hybrid battery kWh and current servicing costs are not verified."
+      "Hybrid battery kWh remains unverified; published servicing budgets are documented separately with eligibility."
     ],
     "sourceIds": [
       "hy-recalls",
@@ -1509,7 +1577,9 @@
       "hy-kluger-fit",
       "hy-kluger-safe",
       "hy-toyota-warranty",
-      "hy-kluger-used"
+      "hy-kluger-used",
+      "hy-deep-kluger-launch-21",
+      "hy-deep-kluger-spec-26"
     ],
     "checked": "2026-10-18"
   },
@@ -1527,7 +1597,7 @@
     "seats": 7,
     "drive": "AWD",
     "headline": "A useful multirow benchmark",
-    "summary": "A seven-seat hybrid with flexible restraint positions. A 2025 GT-Line family test demonstrated three in row two plus two in row three; confirm that evidence against the MY26 manual and your specific combination.",
+    "summary": "A seven-seat hybrid with flexible restraint positions. A 2025 GT-Line family test demonstrated three in row two plus two in row three; confirm that evidence against the MY 26 manual and your specific combination.",
     "range": {
       "value": null,
       "unit": "km",
@@ -1537,7 +1607,7 @@
     "battery": {
       "value": 1,
       "unit": "kWh",
-      "basis": "Australian MY26 brochure rounded battery-energy figure; not usable energy",
+      "basis": "Australian MY 26 brochure rounded battery-energy figure; not usable energy",
       "sourceIds": [
         "hy-sorento-spec"
       ]
@@ -1545,7 +1615,7 @@
     "consumption": {
       "value": 5.7,
       "unit": "L/100km",
-      "basis": "Australian MY26 ADR 81/02 combined petrol claim · AWD",
+      "basis": "Australian MY 26 ADR 81/02 combined petrol claim · AWD",
       "sourceIds": [
         "hy-sorento-spec"
       ]
@@ -1611,12 +1681,12 @@
       ]
     },
     "warranty": "7 years / unlimited km for ordinary private use; commercial-use limits and terms apply.",
-    "batteryWarranty": "Pre-MY27 HV battery capacity warranty: 7 years / 150,000 km with a 70% threshold, subject to the applicable terms.",
+    "batteryWarranty": "Pre-MY 27 HV battery capacity warranty: 7 years / 150,000 km with a 70% threshold, subject to the applicable terms.",
     "servicing": "Obtain a VIN-specific service schedule and confirm completed logbook services.",
     "safety": {
       "stars": 5,
       "year": 2020,
-      "applicability": "ANCAP extends the 2020 MQ4 rating to HEV/PHEV variants; listed expiry December 2026. Rating year differs from vehicle year.",
+      "applicability": "ANCAP extends the 2020 MQ 4 rating to HEV/PHEV variants; listed expiry December 2026. Rating year differs from vehicle year.",
       "sourceIds": [
         "hy-sorento-safe",
         "hy-sorento-technical"
@@ -1624,7 +1694,7 @@
     },
     "familyFit": {
       "status": "tested-multirow",
-      "summary": "2025 GT-Line test demonstrated restraints across both rear rows; MY26 fit pending.",
+      "summary": "2025 GT-Line test demonstrated restraints across both rear rows; MY 26 fit pending.",
       "row2": "Tested GT-Line: two outboard ISOFIX pairs, three seatback top tethers.",
       "row3": "ISOFIX and top tethers on both third-row seats; current brochure lists five top tethers and four ISOFIX positions overall. Curtain airbags cover the first and second rows only.",
       "testedSeats": "2025 article demonstrates three restraints in row two and two in row three; exact brand/model combination not fully stated in text. 2021 PHEV test is linked separately.",
@@ -1645,18 +1715,19 @@
     "cons": [
       "Small boot with all rows upright.",
       "Three across can block everyday third-row access.",
-      "Australian MY26 brochure lists curtain airbags for the first and second rows, not the third."
+      "Australian MY 26 brochure lists curtain airbags for the first and second rows, not the third."
     ],
     "inspection": [
       "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
       "Check third-row restraint and curtain-airbag coverage in the Australian manual and ANCAP technical report.",
       "Test a two-in-row-two plus one-in-row-three arrangement, including adult loading access.",
-      "Confirm MY26 versus earlier facelift specifications; older AWD fuel figures differ."
+      "Confirm MY 26 versus earlier facelift specifications; older AWD fuel figures differ.",
+      "Kia Australia states Sorento HEV uses regular 91-octane petrol, E 10 compatible; do not apply current PHEV premium-fuel guidance to this HEV."
     ],
     "changes": [
       {
-        "period": "2025 family test / MY26 specification",
-        "text": "Facelift GT-Line family test and current MY26 mechanical figures are separate sources. Current AWD combined claim is 5.7 L/100 km.",
+        "period": "2025 family test / MY 26 specification",
+        "text": "Facelift GT-Line family test and current MY 26 mechanical figures are separate sources. Current AWD combined claim is 5.7 L/100 km.",
         "sourceIds": [
           "hy-sorento-fit-hev",
           "hy-sorento-spec"
@@ -1664,7 +1735,7 @@
       }
     ],
     "gaps": [
-      "Earlier 2022–2025 HEV variants are not fully profiled; do not assign MY26 figures or equipment to them.",
+      "Earlier 2022–2025 HEV variants are not fully profiled; do not assign MY 26 figures or equipment to them.",
       "Live availability, final drive-away price and VIN-specific service eligibility require confirmation."
     ],
     "sourceIds": [
@@ -1674,7 +1745,8 @@
       "hy-sorento-fit-hev",
       "hy-sorento-safe",
       "hy-kia-warranty",
-      "hy-sorento-technical"
+      "hy-sorento-technical",
+      "hy-deep-kia-fuel"
     ],
     "checked": "2026-10-18"
   },
@@ -1694,24 +1766,30 @@
     "seats": 7,
     "drive": "AWD",
     "headline": "The strongest documented seat flexibility here",
-    "summary": "The original Australian PHEV has a specific five-restraint family test and a captured Queensland used asking price. Its powertrain figures remain blank until the correct period Australian manufacturer sheet is verified; the current facelift brochure is not substituted.",
+    "summary": "The original Australian PHEV has a specific five-restraint family test, 68 km WLTP electric range and 3.3 kW single-phase charging. Its 1350 kg braked towing and 175 L boot with seven seats differ from the HEV and later facelift.",
     "range": {
-      "value": null,
+      "value": 68,
       "unit": "km",
-      "basis": "Electric-only range not verified",
-      "sourceIds": []
+      "basis": "Electric only · WLTP, Australian MY 23 manufacturer sheet; not NEDC or total petrol+electric range.",
+      "sourceIds": [
+        "hy-deep-sorento-my23"
+      ]
     },
     "battery": {
-      "value": null,
+      "value": 14,
       "unit": "kWh",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Australian MY 23 sheet rounds battery energy to 14 kWh; nominal advertised 13.8 kWh is not substituted from overseas specifications. Not usable energy.",
+      "sourceIds": [
+        "hy-deep-sorento-my23"
+      ]
     },
     "consumption": {
-      "value": null,
+      "value": 16.1,
       "unit": "kWh/100km",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": [],
+      "basis": "Published WLTP energy consumption 161 Wh/km converted to 16.1 kWh/100 km. Sheet does not state weighting or charging boundary; not verified electric-distance consumption for automatic costs.",
+      "sourceIds": [
+        "hy-deep-sorento-my23"
+      ],
       "energyBasis": "unspecified"
     },
     "depletedConsumption": {
@@ -1721,56 +1799,70 @@
       "sourceIds": []
     },
     "acCharging": {
-      "value": null,
+      "value": 3.3,
       "unit": "kW",
-      "basis": "Onboard AC limit unverified",
-      "sourceIds": []
+      "basis": "Maximum onboard AC charging · single phase, Australian MY 23 sheet.",
+      "sourceIds": [
+        "hy-deep-sorento-my23"
+      ]
     },
     "dcCharging": {
-      "value": null,
+      "value": 0,
       "unit": "kW",
-      "basis": "DC capability/limit unverified",
-      "sourceIds": []
+      "basis": "AC-only Type 2 charging inlet listed in the Australian MY 23 sheet; DC charging is not provided.",
+      "sourceIds": [
+        "hy-deep-sorento-my23"
+      ]
     },
-    "chargeTime": "Charging-time window not verified",
-    "connector": "Verify the Australian charging inlet",
+    "chargeTime": "Australian MY 23 brochure:15–95% in 3 h 25min using a suitable 3.3 kW single-phase AC EVSE; temperature, initial charge and equipment affect time. This is not a 0–100% claim.",
+    "connector": "Type 2 AC only · no DC rapid charging.",
     "boot": {
-      "value": null,
+      "value": 604,
       "unit": "L",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "VDA · second row upright and third row folded; original Australian PHEV, not 608L HEV.",
+      "sourceIds": [
+        "hy-deep-sorento-my23"
+      ]
     },
     "bootAllRows": {
-      "value": null,
+      "value": 175,
       "unit": "L",
-      "basis": "Boot volume with all three rows occupied not verified",
-      "sourceIds": []
+      "basis": "VDA · all seven seats upright; original PHEV, not 179L HEV.",
+      "sourceIds": [
+        "hy-deep-sorento-my23"
+      ]
     },
     "length": {
-      "value": null,
+      "value": 4810,
       "unit": "mm",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Overall body length · original MQ 4; later facelift 4815 mm is separate.",
+      "sourceIds": [
+        "hy-deep-sorento-my23"
+      ]
     },
     "width": {
-      "value": null,
+      "value": 1900,
       "unit": "mm",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Body width; mirrors excluded.",
+      "sourceIds": [
+        "hy-deep-sorento-my23"
+      ]
     },
     "towing": {
-      "value": null,
+      "value": 1350,
       "unit": "kg",
-      "basis": "Not independently verified for this configuration",
-      "sourceIds": []
+      "basis": "Maximum braked towing · original Australian MY 23 PHEV. Later MY 26 PHEV 1010 kg must not be substituted.",
+      "sourceIds": [
+        "hy-deep-sorento-my23"
+      ]
     },
     "warranty": "7 years / unlimited km for ordinary private use; remaining cover depends on original delivery and applicable terms.",
-    "batteryWarranty": "Pre-MY27 HV battery capacity terms list 7 years / 150,000 km and a 70% threshold; confirm the original vehicle booklet.",
+    "batteryWarranty": "Pre-MY 27 HV battery capacity terms list 7 years / 150,000 km and a 70% threshold; confirm the original vehicle booklet.",
     "servicing": "Obtain a VIN-specific service schedule and confirm completed logbook services.",
     "safety": {
       "stars": 5,
       "year": 2020,
-      "applicability": "ANCAP 2020 MQ4 rating applies to Australian PHEV variants; it is not a 2021 or 2023 test.",
+      "applicability": "ANCAP 2020 MQ 4 rating applies to Australian PHEV variants; it is not a 2021 or 2023 test.",
       "sourceIds": [
         "hy-sorento-safe",
         "hy-sorento-technical"
@@ -1784,11 +1876,12 @@
       "testedSeats": "Row two: two InfaSecure Attain More plus an Achieve More, tried forward/rear-facing. Row three: Aspire More and Roamer II boosters, forward-facing.",
       "buckleAccess": "Check independent buckle reach using your particular boosters and neighbouring restraints.",
       "access": "2021 test found ISOFIX installations could allow bench movement. A later HEV test differed with three across; verify the exact arrangement and manual.",
-      "ventilation": "The tested PHEV has row-two console vents and row-three sidewall vents.",
+      "ventilation": "Original AustralianMY 23 brochure and 2021 test both confirm row-two console vents and row-three vents/fan control.",
       "sourceIds": [
         "hy-sorento-fit-phev",
         "hy-sorento-fit-hev",
-        "hy-sorento-technical"
+        "hy-sorento-technical",
+        "hy-deep-sorento-my23"
       ]
     },
     "pros": [
@@ -1797,27 +1890,29 @@
       "Can combine home charging with petrol backup."
     ],
     "cons": [
-      "Boot and access shrink when the third row is used.",
-      "ANCAP lists side-head airbags for the first and second rows, not the third.",
-      "Energy-cost estimate is withheld until comparable efficiency data is sourced."
+      "Only 175L VDA boot space with all seven seats occupied.",
+      "ANCAP/manufacturer list side-head airbags for the first and second rows; third-row coverage is absent.",
+      "Slow 3.3 kW AC-only charging; no DC option.",
+      "Verified charge-depleted petrol consumption remains unavailable; weighted 1.6 L/100 km is not a depleted-battery rate."
     ],
     "inspection": [
       "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
       "Verify the build-year Australian PHEV brochure and charging hardware before comparing powertrain numbers.",
       "Check third-row curtain-airbag coverage and restraint compatibility in the manual.",
-      "Demonstrate charging and request service/battery-health records."
+      "Demonstrate charging and request service/battery-health records.",
+      "Fuel guidance conflicts by period: MY 23 Australian brochure says Regular Unleaded, while current Kia Australia guidance says Sorento PHEV requires 95 RON. Use 95 for a conservative budget until the exact original car’s filler flap/manual is verified."
     ],
     "changes": [
       {
         "period": "2021–2023 original PHEV",
-        "text": "Published Australian 2021 family test and a 2022 used listing identify the original MQ4 PHEV. Later facelift equipment is not assumed.",
+        "text": "Published Australian 2021 family test and a 2022 used listing identify the original MQ 4 PHEV. Later facelift equipment is not assumed.",
         "sourceIds": [
           "hy-sorento-fit-phev",
           "hy-sorento-used"
         ]
       },
       {
-        "period": "Current MY26 range",
+        "period": "Current MY 26 range",
         "text": "Current manufacturer brochure has a broader grade range and different body specification; use a separate configuration for that model.",
         "sourceIds": [
           "hy-sorento-spec"
@@ -1825,9 +1920,11 @@
       }
     ],
     "gaps": [
-      "Period-specific Australian manufacturer battery, range, charging, dimensions, towing and boot specification has not been verified.",
-      "No verified electric consumption or charge-depleted petrol figure; the advertised weighted 1.6 L/100 km is not a depleted-battery rate.",
-      "Later 2024–2026 PHEV configurations are not fully profiled."
+      "Australian period sheet publishes 16.1 kWh/100 km WLTP energy consumption but does not identify weighted-versus-electric-distance or charging boundary. Verified combined-cost calculation still needs that distinction.",
+      "No verified charge-depleted petrol figure; weighted 1.6 L/100 km is excluded from that role.",
+      "MY 23 sheet verifies the original MQ 4 mechanical figures; exact 2021/2022 annual equipment and buyer-specific warranty eligibility still require the period order sheet/manual.",
+      "Later 2024–2026 PHEV variants remain outside this original configuration.",
+      "Original MY 23 Regular Unleaded wording conflicts with current Kia PHEV 95 RON guidance; confirm the period VIN manual/fuel flap. A premium-rate budget is conservative, not a resolved original specification."
     ],
     "sourceIds": [
       "hy-recalls",
@@ -1837,7 +1934,9 @@
       "hy-kia-warranty",
       "hy-sorento-used",
       "hy-sorento-spec",
-      "hy-sorento-technical"
+      "hy-sorento-technical",
+      "hy-deep-sorento-my23",
+      "hy-deep-kia-fuel"
     ],
     "checked": "2026-10-18"
   }

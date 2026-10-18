@@ -302,5 +302,117 @@
     "publisher": "RACQ",
     "kind": "market",
     "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-tesla-terms-2026",
+    "title": "Tesla Australian limited warranty effective 1 January 2026",
+    "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/tesla-new-vehicle-limited-warranty-en-au.pdf",
+    "publisher": "Tesla",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-hyundai-prepaid",
+    "title": "Hyundai prepaid servicing: model-year limits and transfer",
+    "url": "https://www.hyundai.com/au/en/owning/servicing/pre-paid",
+    "publisher": "Hyundai Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-tesla-juniper-window",
+    "title": "REC-006419: 2025 Model Y anti-pinch software",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006419",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-tesla-bonnet-recall",
+    "title": "REC-006042: original Model Y bonnet warning",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006042",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-tesla-taillamp-recall",
+    "title": "REC-005571: 2022 Model Y tail-lamp software",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005571",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-tesla-cold-steering-recall",
+    "title": "REC-005875: 2022–2023 Model Y cold-weather steering",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005875",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-kia-cluster-2025-recall",
+    "title": "REC-006557: 2025 Kia instrument-cluster software",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006557",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-kia-park-recall",
+    "title": "REC-005455: 2021–2022 EV6 parking-pawl software",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005455",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-kia-driveshaft-recall",
+    "title": "REC-005939: selected 2023 EV6 driveshaft",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005939",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-hyundai-park-recall",
+    "title": "REC-005448: 2021–2022 Ioniq 5 parking-pawl software",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005448",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-hyundai-driveshaft-recall",
+    "title": "REC-005940: selected 2023 Ioniq 5 driveshaft",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005940",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-tesla-used-pack-au",
+    "title": "2023 Model Y RWD 60-kWh used pack listing — sold out, parts only",
+    "url": "https://allgoodparts.com.au/products/tesla-model-y-high-voltage-battery-1st-gen-ev-battery-under-floor-rwd-60-kwh-03-22",
+    "publisher": "All Good Parts",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-atto-ac-part-au",
+    "title": "Original FWD Atto 3 compressor BCO1000OE — tax-included part listing",
+    "url": "https://alliedautoonline.com.au/products/bco1000oe",
+    "publisher": "Allied Auto Online",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-hyundai-service-terms",
+    "title": "Hyundai Genuine Service Plan terms, 1 September 2025",
+    "url": "https://www.hyundai.com/content/dam/hyundai/au/en/documents/2025/Genuine-Service-Plan-Terms-and-Conditions.pdf",
+    "publisher": "Hyundai Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
   }
 ]

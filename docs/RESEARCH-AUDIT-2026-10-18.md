@@ -1,6 +1,6 @@
 # Research audit — 18 October 2026
 
-Research sprint: 09:57–10:12 AEST. All figures are AUD.
+Earlier research sprint: 09:57–10:12 AEST. All figures are AUD. This historical snapshot is superseded by the [subsequent deep audit](DEEP-RESEARCH-2026-10-18.md), which corrects sold stock, costs, specifications and review applicability.
 
 After the MY23 Ioniq 5 addition, the catalogue has 27 configurations across 12 families, 45 distinct physical-car price observations, 19 scoped professional reviews and 329 source records. Source records can share a URL; they are not a count of unique publications.
 

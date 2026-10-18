@@ -1,441 +1,703 @@
 [
   {
     "vehicleId": "model-y-rwd-2022",
-    "setCost": 1800,
-    "setLow": 1400,
+    "setCost": 2036,
+    "setLow": 1552,
     "setHigh": 2500,
     "lifeKm": 35000,
     "lifeLowKm": 25000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "19-inch Tesla / performance-EV price class planning proxy for this configuration. Fitted-set budget A$1,800 (A$1,400–2,500); assumed life 35,000 km (25,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Standard 19-inch wheel budget; optional 20-inch wheels need a different quote. Retail anchor: 255/45R19 104W XL, Hankook iON evo AS SUV IH01A, A$509 each fitted including GST; four = A$2,036. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 35,000 km and A$1,552–2,500 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
       "budget-tyre-prices",
-      "budget-tyre-life"
+      "budget-tyre-life",
+      "ev-deep-tesla-original-tyres"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "255/45R19 104W XL",
+      "product": "Hankook iON evo AS SUV IH01A",
+      "unitPrice": 509,
+      "quantity": 4,
+      "sourceId": "budget-tyre-prices",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "model-y-long-range-2023",
-    "setCost": 1800,
-    "setLow": 1400,
+    "setCost": 2036,
+    "setLow": 1552,
     "setHigh": 2500,
     "lifeKm": 35000,
     "lifeLowKm": 25000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "19-inch Tesla / performance-EV price class planning proxy for this configuration. Fitted-set budget A$1,800 (A$1,400–2,500); assumed life 35,000 km (25,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Standard 19-inch wheel budget; optional 20-inch wheels need a different quote. Retail anchor: 255/45R19 104W XL, Hankook iON evo AS SUV IH01A, A$509 each fitted including GST; four = A$2,036. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 35,000 km and A$1,552–2,500 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
       "budget-tyre-prices",
-      "budget-tyre-life"
+      "budget-tyre-life",
+      "ev-deep-tesla-original-tyres"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "255/45R19 104W XL",
+      "product": "Hankook iON evo AS SUV IH01A",
+      "unitPrice": 509,
+      "quantity": 4,
+      "sourceId": "budget-tyre-prices",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "model-y-rwd-juniper-2025",
-    "setCost": 1800,
-    "setLow": 1400,
+    "setCost": 2036,
+    "setLow": 1552,
     "setHigh": 2500,
     "lifeKm": 35000,
     "lifeLowKm": 25000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "19-inch Tesla / performance-EV price class planning proxy for this configuration. Fitted-set budget A$1,800 (A$1,400–2,500); assumed life 35,000 km (25,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Five-seat Juniper 19-inch fitment, not the staggered Model Y L. Retail anchor: 255/45R19 104W XL, Hankook iON evo AS SUV IH01A, A$509 each fitted including GST; four = A$2,036. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 35,000 km and A$1,552–2,500 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
       "budget-tyre-prices",
+      "ev-deep-tesla-refresh-tyres",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "255/45R19 104W XL",
+      "product": "Hankook iON evo AS SUV IH01A",
+      "unitPrice": 509,
+      "quantity": 4,
+      "sourceId": "budget-tyre-prices",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "atto3-standard-2022",
-    "setCost": 1200,
-    "setLow": 900,
-    "setHigh": 1700,
+    "setCost": 1276,
+    "setLow": 952,
+    "setHigh": 1600,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "18-inch compact-SUV price class planning proxy for this configuration. Fitted-set budget A$1,200 (A$900–1,700); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Launch 215/55R18 reference; some later cars use a wider 235/50R18 profile. Confirm the placard before choosing tyres. Retail anchor: 215/55R18 99V XL, Michelin Primacy 5, A$319 each fitted including GST; four = A$1,276. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 40,000 km and A$952–1,600 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
-      "budget-tyre-18compact",
+      "budget-tyre-2155518",
+      "expert-atto-original",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "215/55R18 99V XL",
+      "product": "Michelin Primacy 5",
+      "unitPrice": 319,
+      "quantity": 4,
+      "sourceId": "budget-tyre-2155518",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "atto3-extended-2022",
-    "setCost": 1200,
-    "setLow": 900,
-    "setHigh": 1700,
+    "setCost": 1276,
+    "setLow": 952,
+    "setHigh": 1600,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "18-inch compact-SUV price class planning proxy for this configuration. Fitted-set budget A$1,200 (A$900–1,700); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Launch 215/55R18 reference; some later cars use a wider 235/50R18 profile. Confirm the placard before choosing tyres. Retail anchor: 215/55R18 99V XL, Michelin Primacy 5, A$319 each fitted including GST; four = A$1,276. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 40,000 km and A$952–1,600 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
-      "budget-tyre-18compact",
+      "budget-tyre-2155518",
+      "expert-atto-original",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "215/55R18 99V XL",
+      "product": "Michelin Primacy 5",
+      "unitPrice": 319,
+      "quantity": 4,
+      "sourceId": "budget-tyre-2155518",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "atto3-essential-2025",
-    "setCost": 1000,
-    "setLow": 700,
+    "setCost": 1140,
+    "setLow": 880,
     "setHigh": 1500,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "Essential-specific factory size is 215/60 R17 in BYD’s 2025 Australian sheet, unlike Premium’s 18-inch fitment. A$1,000 fitted-set planning point (A$700–1,500), assumed life 40,000 km (30,000–50,000). Scaled down from the documented 18-inch retail price-class anchor; this is not a 17-inch fitted quote. Set cost and tyre life remain low-confidence assumptions; confirm actual placard, load/speed rating and fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Essential uses 17-inch wheels. Retail anchor: 215/60R17 96H BYD, Hankook iON GT SUV IK41A, A$285 each fitted including GST; four = A$1,140. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 40,000 km and A$880–1,500 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
+      "budget-tyre-2156017",
       "ev-atto-2025-spec",
-      "budget-tyre-18compact",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "215/60R17 96H BYD",
+      "product": "Hankook iON GT SUV IK41A",
+      "unitPrice": 285,
+      "quantity": 4,
+      "sourceId": "budget-tyre-2156017",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "atto3-evo-premium-2026",
-    "setCost": 1600,
-    "setLow": 1200,
-    "setHigh": 2300,
+    "setCost": 1276,
+    "setLow": 1176,
+    "setHigh": 1700,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "19-inch electric-SUV price class planning proxy for this configuration. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "EVO Australian brochure specifies 18-inch wheels; replaces the previous 19-inch proxy. Retail anchor: 235/50R18 101W XL, Continental UltraContact UC7 SUV, A$319 each fitted including GST; four = A$1,276. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 40,000 km and A$1,176–1,700 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
-      "budget-tyre-19suv",
+      "budget-tyre-18compact",
+      "ev-deep-atto-evo-brochure",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "235/50R18 101W XL",
+      "product": "Continental UltraContact UC7 SUV",
+      "unitPrice": 319,
+      "quantity": 4,
+      "sourceId": "budget-tyre-18compact",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "ev6-air-2022",
-    "setCost": 1600,
-    "setLow": 1200,
-    "setHigh": 2300,
+    "setCost": 1700,
+    "setLow": 1300,
+    "setHigh": 2200,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "19-inch electric-SUV price class planning proxy for this configuration. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Air 19-inch fitment. Retail anchor: 235/55R19 105V XL, Hankook iON evo AS SUV IH01A, A$425 each fitted including GST; four = A$1,700. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 40,000 km and A$1,300–2,200 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
       "budget-tyre-19suv",
+      "ev-ev6-spec",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "235/55R19 105V XL",
+      "product": "Hankook iON evo AS SUV IH01A",
+      "unitPrice": 425,
+      "quantity": 4,
+      "sourceId": "budget-tyre-19suv",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "ev5-air-standard-2024",
-    "setCost": 1400,
-    "setLow": 1000,
-    "setHigh": 1900,
+    "setCost": 1236,
+    "setLow": 880,
+    "setHigh": 1600,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "18-inch electric-SUV price class planning proxy for this configuration. Fitted-set budget A$1,400 (A$1,000–1,900); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Air 18-inch fitment; Earth and GT-Line differ. Retail anchor: 225/60R18 104V XL, Michelin Primacy 5, A$309 each fitted including GST; four = A$1,236. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 40,000 km and A$880–1,600 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
-      "budget-tyre-18suv",
+      "budget-tyre-2256018",
+      "ev-ev5-spec",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "225/60R18 104V XL",
+      "product": "Michelin Primacy 5",
+      "unitPrice": 309,
+      "quantity": 4,
+      "sourceId": "budget-tyre-2256018",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "ev5-air-long-2024",
-    "setCost": 1400,
-    "setLow": 1000,
-    "setHigh": 1900,
+    "setCost": 1236,
+    "setLow": 880,
+    "setHigh": 1600,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "18-inch electric-SUV price class planning proxy for this configuration. Fitted-set budget A$1,400 (A$1,000–1,900); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Air 18-inch fitment; Earth and GT-Line differ. Retail anchor: 225/60R18 104V XL, Michelin Primacy 5, A$309 each fitted including GST; four = A$1,236. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 40,000 km and A$880–1,600 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
-      "budget-tyre-18suv",
+      "budget-tyre-2256018",
+      "ev-ev5-spec",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "225/60R18 104V XL",
+      "product": "Michelin Primacy 5",
+      "unitPrice": 309,
+      "quantity": 4,
+      "sourceId": "budget-tyre-2256018",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "ioniq5-awd-2021",
-    "setCost": 1800,
-    "setLow": 1300,
+    "setCost": 2020,
+    "setLow": 1676,
     "setHigh": 2600,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "20-inch large-SUV price class planning proxy for this configuration. Fitted-set budget A$1,800 (A$1,300–2,600); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Australian 72.6-kWh Techniq AWD 20-inch fitment; confirm the individual car’s placard. Retail anchor: 255/45R20 105Y XL, Michelin Pilot Sport 4 SUV, A$505 each fitted including GST; four = A$2,020. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 40,000 km and A$1,676–2,600 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
       "budget-tyre-20suv",
-      "budget-tyre-life"
+      "budget-tyre-life",
+      "ev-ioniq-old-spec"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "255/45R20 105Y XL",
+      "product": "Michelin Pilot Sport 4 SUV",
+      "unitPrice": 505,
+      "quantity": 4,
+      "sourceId": "budget-tyre-20suv",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "ioniq5-rwd-84-2025",
-    "setCost": 1600,
-    "setLow": 1200,
-    "setHigh": 2300,
+    "setCost": 1580,
+    "setLow": 1406,
+    "setHigh": 2200,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "19-inch electric-SUV price class planning proxy for this configuration. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "84-kWh RWD 19-inch configuration. Retail anchor: 235/55R19 105Y XL, Michelin Pilot Sport 4 SUV, A$395 each fitted including GST; four = A$1,580. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 40,000 km and A$1,406–2,200 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
       "budget-tyre-19suv",
+      "ev-ioniq-new-spec",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "235/55R19 105Y XL",
+      "product": "Michelin Pilot Sport 4 SUV",
+      "unitPrice": 395,
+      "quantity": 4,
+      "sourceId": "budget-tyre-19suv",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "zeekr7x-rwd-2025",
-    "setCost": 1600,
-    "setLow": 1200,
+    "setCost": 1516,
+    "setLow": 1213,
     "setHigh": 2300,
     "lifeKm": 35000,
     "lifeLowKm": 25000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "19-inch electric-SUV price class: the Australian August2025 brochure specifies 19-inch wheels for RWD and LongRangeRWD; the AWD Performance's21-inch wheels are a different variant. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life35,000km (25,000–50,000). Annual allowance = set cost × your annual kilometres / life. JAX retail prices anchor the class; set price and service life remain dashboard assumptions, not a Zeekr fitted quote. Exact tyre dimensions/load rating are not established by the retailer reference; check the car's placard and local quote. Excludes alignment and puncture repairs.",
+    "basis": "Standard 19-inch RWD fitment; HL/ZK retail reference is not proof of the car’s minimum rating. Retail anchor: HL255/50R19 110V XL ZK ELT, Pirelli P Zero PZ4 SUV, A$379 each fitted including GST; four = A$1,516. Uses displayed single-tyre price before multi-buy discounts. Life 35,000 km and A$1,213–2,300 bounds are assumptions. Confirm actual wheels, placard, stock and local quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
-      "budget-tyre-zeekr7x-au",
-      "budget-tyre-19suv",
+      "budget-tyre-2555019",
+      "ev-deep-zeekr-rvd-tyres",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "HL255/50R19 110V XL ZK ELT",
+      "product": "Pirelli P Zero PZ4 SUV",
+      "unitPrice": 379,
+      "quantity": 4,
+      "sourceId": "budget-tyre-2555019",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "zeekr7x-long-range-2025",
-    "setCost": 1600,
-    "setLow": 1200,
+    "setCost": 1516,
+    "setLow": 1213,
     "setHigh": 2300,
     "lifeKm": 35000,
     "lifeLowKm": 25000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "19-inch electric-SUV price class: the Australian August2025 brochure specifies 19-inch wheels for RWD and LongRangeRWD; the AWD Performance's21-inch wheels are a different variant. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life35,000km (25,000–50,000). Annual allowance = set cost × your annual kilometres / life. JAX retail prices anchor the class; set price and service life remain dashboard assumptions, not a Zeekr fitted quote. Exact tyre dimensions/load rating are not established by the retailer reference; check the car's placard and local quote. Excludes alignment and puncture repairs.",
+    "basis": "Standard 19-inch LR fitment; optional 20-inch wheels need a different quote. Retail anchor: HL255/50R19 110V XL ZK ELT, Pirelli P Zero PZ4 SUV, A$379 each fitted including GST; four = A$1,516. Uses displayed single-tyre price before multi-buy discounts. Life 35,000 km and A$1,213–2,300 bounds are assumptions. Confirm actual wheels, placard, stock and local quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
-      "budget-tyre-zeekr7x-au",
-      "budget-tyre-19suv",
+      "budget-tyre-2555019",
+      "ev-deep-zeekr-rvd-tyres",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "HL255/50R19 110V XL ZK ELT",
+      "product": "Pirelli P Zero PZ4 SUV",
+      "unitPrice": 379,
+      "quantity": 4,
+      "sourceId": "budget-tyre-2555019",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "outlander-phev-aspire-20",
-    "setCost": 1800,
-    "setLow": 1300,
+    "setCost": 2020,
+    "setLow": 1676,
     "setHigh": 2600,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "20-inch large-SUV price class planning proxy for this configuration. Fitted-set budget A$1,800 (A$1,300–2,600); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Original Aspire 20-inch fitment. Retail anchor: 255/45R20 105Y XL, Michelin Pilot Sport 4 SUV, A$505 each fitted including GST; four = A$2,020. Uses displayed single-tyre price before multi-buy discounts. Life 40,000 km and A$1,676–2,600 bounds are assumptions. Confirm actual wheels, placard, stock and local quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
       "budget-tyre-20suv",
+      "hy-out-24",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "255/45R20 105Y XL",
+      "product": "Michelin Pilot Sport 4 SUV",
+      "unitPrice": 505,
+      "quantity": 4,
+      "sourceId": "budget-tyre-20suv",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "outlander-phev-aspire-227",
-    "setCost": 1800,
-    "setLow": 1300,
+    "setCost": 2020,
+    "setLow": 1676,
     "setHigh": 2600,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "20-inch large-SUV price class planning proxy for this configuration. Fitted-set budget A$1,800 (A$1,300–2,600); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Updated Aspire 20-inch fitment. Retail anchor: 255/45R20 105Y XL, Michelin Pilot Sport 4 SUV, A$505 each fitted including GST; four = A$2,020. Uses displayed single-tyre price before multi-buy discounts. Life 40,000 km and A$1,676–2,600 bounds are assumptions. Confirm actual wheels, placard, stock and local quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
       "budget-tyre-20suv",
+      "hy-out-25",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "255/45R20 105Y XL",
+      "product": "Michelin Pilot Sport 4 SUV",
+      "unitPrice": 505,
+      "quantity": 4,
+      "sourceId": "budget-tyre-20suv",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "sealion6-dynamic-183",
-    "setCost": 1600,
-    "setLow": 1200,
-    "setHigh": 2300,
+    "setCost": 1196,
+    "setLow": 922,
+    "setHigh": 1940,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "19-inch family-SUV price class. The 2024 Australian handbook specifies 235/50R19; wheel size is evidenced for this original Dynamic. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. JAX retail prices anchor the price class; this set budget and service life remain dashboard assumptions, not a model-specific fitted quote. The reference retailer's different tyre size does not establish fitment. Confirm load/speed rating, actual wheels and local quote. Excludes alignment and puncture repairs.",
+    "basis": "Dynamic 19-inch dimensions; replacement load rating must meet its placard. Retail anchor: 235/50R19 103V XL, Dunlop Grandtrek PT5, A$299 each fitted including GST; four = A$1,196. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 40,000 km and A$922–1,940 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
-      "budget-tyre-sealion6-manual",
-      "budget-tyre-19suv",
+      "budget-tyre-2355019",
+      "hy-sl6-25",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "235/50R19 103V XL",
+      "product": "Dunlop Grandtrek PT5",
+      "unitPrice": 299,
+      "quantity": 4,
+      "sourceId": "budget-tyre-2355019",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "sealion6-dynamic-extended",
-    "setCost": 1600,
-    "setLow": 1200,
-    "setHigh": 2300,
+    "setCost": 1196,
+    "setLow": 922,
+    "setHigh": 1940,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "19-inch family-SUV price class. The current Australian Dynamic Extended page specifies 19-inch wheels; confirm exact tyre dimensions on its placard. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. JAX retail prices anchor the price class; this set budget and service life remain dashboard assumptions, not a model-specific fitted quote. The reference retailer's different tyre size does not establish fitment. Confirm load/speed rating, actual wheels and local quote. Excludes alignment and puncture repairs.",
+    "basis": "Extended 19-inch dimensions; replacement load rating must meet its placard. Retail anchor: 235/50R19 103V XL, Dunlop Grandtrek PT5, A$299 each fitted including GST; four = A$1,196. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 40,000 km and A$922–1,940 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
-      "budget-tyre-sealion6-current",
-      "budget-tyre-19suv",
+      "budget-tyre-2355019",
+      "hy-sl6-25",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "235/50R19 103V XL",
+      "product": "Dunlop Grandtrek PT5",
+      "unitPrice": 299,
+      "quantity": 4,
+      "sourceId": "budget-tyre-2355019",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "xtrail-ti-epower-awd",
-    "setCost": 1600,
-    "setLow": 1100,
+    "setCost": 1580,
+    "setLow": 1406,
     "setHigh": 2200,
     "lifeKm": 45000,
     "lifeLowKm": 30000,
     "lifeHighKm": 55000,
     "confidence": "low",
-    "basis": "19-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,600 (A$1,100–2,200); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Ti 19-inch fitment. Retail anchor: 235/55R19 105Y XL, Michelin Pilot Sport 4 SUV, A$395 each fitted including GST; four = A$1,580. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 45,000 km and A$1,406–2,200 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
       "budget-tyre-19suv",
+      "hy-xt-spec",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "235/55R19 105Y XL",
+      "product": "Michelin Pilot Sport 4 SUV",
+      "unitPrice": 395,
+      "quantity": 4,
+      "sourceId": "budget-tyre-19suv",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "xtrail-stl-epower-fwd-2026",
-    "setCost": 1400,
-    "setLow": 1000,
-    "setHigh": 1900,
+    "setCost": 1036,
+    "setLow": 862,
+    "setHigh": 1600,
     "lifeKm": 45000,
     "lifeLowKm": 30000,
     "lifeHighKm": 55000,
     "confidence": "low",
-    "basis": "18-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,400 (A$1,000–1,900); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "MY26 ST-L 18-inch fitment; replaces the generic 235/55R18 price anchor. Retail anchor: 235/60R18 107V XL, Goodyear Optilife 3 SUV, A$259 each fitted including GST; four = A$1,036. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 45,000 km and A$862–1,600 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
-      "budget-tyre-18suv",
+      "budget-tyre-2356018",
+      "hy-deep-xt-my26",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "235/60R18 107V XL",
+      "product": "Goodyear Optilife 3 SUV",
+      "unitPrice": 259,
+      "quantity": 4,
+      "sourceId": "budget-tyre-2356018",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "rav4-gxl-hev-2021-25",
-    "setCost": 1400,
-    "setLow": 1000,
-    "setHigh": 1900,
+    "setCost": 1236,
+    "setLow": 880,
+    "setHigh": 1600,
     "lifeKm": 45000,
     "lifeLowKm": 30000,
     "lifeHighKm": 55000,
     "confidence": "low",
-    "basis": "18-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,400 (A$1,000–1,900); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Fifth-generation GXL 18-inch fitment. Retail anchor: 225/60R18 104V XL, Michelin Primacy 5, A$309 each fitted including GST; four = A$1,236. Uses displayed single-tyre price before multi-buy discounts. Life 45,000 km and A$880–1,600 bounds are assumptions. Confirm actual wheels, placard, stock and local quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
-      "budget-tyre-18suv",
+      "budget-tyre-2256018",
+      "hy-deep-rav-old-dealer",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "225/60R18 104V XL",
+      "product": "Michelin Primacy 5",
+      "unitPrice": 309,
+      "quantity": 4,
+      "sourceId": "budget-tyre-2256018",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "rav4-gxl-hev-2026",
-    "setCost": 1400,
-    "setLow": 1000,
-    "setHigh": 1900,
+    "setCost": 1236,
+    "setLow": 880,
+    "setHigh": 1600,
     "lifeKm": 45000,
     "lifeLowKm": 30000,
     "lifeHighKm": 55000,
     "confidence": "low",
-    "basis": "18-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,400 (A$1,000–1,900); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Sixth-generation GXL has 18-inch wheels; 225/60R18 is a related-size price proxy pending primary exact-size confirmation. Retail anchor: 225/60R18 104V XL, Michelin Primacy 5, A$309 each fitted including GST; four = A$1,236. Uses displayed single-tyre price before multi-buy discounts. Life 45,000 km and A$880–1,600 bounds are assumptions. Confirm actual wheels, placard, stock and local quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
-      "budget-tyre-18suv",
+      "budget-tyre-2256018",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "225/60R18 104V XL",
+      "product": "Michelin Primacy 5",
+      "unitPrice": 309,
+      "quantity": 4,
+      "sourceId": "budget-tyre-2256018",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "kluger-gx-hev-awd",
-    "setCost": 1400,
-    "setLow": 1000,
+    "setCost": 1276,
+    "setLow": 1176,
     "setHigh": 1900,
     "lifeKm": 45000,
     "lifeLowKm": 30000,
     "lifeHighKm": 55000,
     "confidence": "low",
-    "basis": "18-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,400 (A$1,000–1,900); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "GX 18-inch fitment. Retail anchor: 235/65R18 106V, Continental UltraContact UX7 SUV, A$319 each fitted including GST; four = A$1,276. Uses displayed single-tyre price before multi-buy discounts. Life 45,000 km and A$1,176–1,900 bounds are assumptions. Confirm actual wheels, placard, stock and local quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
-      "budget-tyre-18suv",
+      "budget-tyre-2356518",
+      "hy-deep-kluger-dealer",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "235/65R18 106V",
+      "product": "Continental UltraContact UX7 SUV",
+      "unitPrice": 319,
+      "quantity": 4,
+      "sourceId": "budget-tyre-2356518",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "sorento-gtline-hev-awd-2026",
-    "setCost": 1600,
-    "setLow": 1100,
+    "setCost": 1580,
+    "setLow": 1406,
     "setHigh": 2200,
     "lifeKm": 45000,
     "lifeLowKm": 30000,
     "lifeHighKm": 55000,
     "confidence": "low",
-    "basis": "19-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,600 (A$1,100–2,200); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "GT-Line HEV 19-inch fitment. Retail anchor: 235/55R19 105Y XL, Michelin Pilot Sport 4 SUV, A$395 each fitted including GST; four = A$1,580. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 45,000 km and A$1,406–2,200 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
       "budget-tyre-19suv",
+      "hy-sorento-spec",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "235/55R19 105Y XL",
+      "product": "Michelin Pilot Sport 4 SUV",
+      "unitPrice": 395,
+      "quantity": 4,
+      "sourceId": "budget-tyre-19suv",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "sorento-phev-gtline-2021-23",
-    "setCost": 1600,
-    "setLow": 1100,
+    "setCost": 1580,
+    "setLow": 1406,
     "setHigh": 2200,
     "lifeKm": 45000,
     "lifeLowKm": 30000,
     "lifeHighKm": 55000,
     "confidence": "low",
-    "basis": "19-inch family-SUV price class planning proxy for this configuration. Fitted-set budget A$1,600 (A$1,100–2,200); assumed life 45,000 km (30,000–55,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "Original GT-Line PHEV 19-inch fitment. Retail anchor: 235/55R19 105Y XL, Michelin Pilot Sport 4 SUV, A$395 each fitted including GST; four = A$1,580. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 45,000 km and A$1,406–2,200 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
       "budget-tyre-19suv",
+      "hy-deep-sorento-my23",
       "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "235/55R19 105Y XL",
+      "product": "Michelin Pilot Sport 4 SUV",
+      "unitPrice": 395,
+      "quantity": 4,
+      "sourceId": "budget-tyre-19suv",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "ioniq5-dynamiq-rwd-2023",
-    "setCost": 1600,
-    "setLow": 1200,
-    "setHigh": 2300,
+    "setCost": 1580,
+    "setLow": 1406,
+    "setHigh": 2200,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "MY23 manufacturer tyre size 235/55R19 Dynamiq. 19-inch electric-SUV price class planning proxy for this configuration. Fitted-set budget A$1,600 (A$1,200–2,300); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "MY23 Dynamiq 19-inch fitment. Retail anchor: 235/55R19 105Y XL, Michelin Pilot Sport 4 SUV, A$395 each fitted including GST; four = A$1,580. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 40,000 km and A$1,406–2,200 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
       "budget-tyre-19suv",
-      "budget-tyre-life",
-      "ev-ioniq-2023-spec"
+      "ev-ioniq-2023-spec",
+      "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "235/55R19 105Y XL",
+      "product": "Michelin Pilot Sport 4 SUV",
+      "unitPrice": 395,
+      "quantity": 4,
+      "sourceId": "budget-tyre-19suv",
+      "fitted": true,
+      "gstIncluded": true
+    }
   },
   {
     "vehicleId": "ioniq5-techniq-awd-2023",
-    "setCost": 1800,
-    "setLow": 1300,
+    "setCost": 2020,
+    "setLow": 1676,
     "setHigh": 2600,
     "lifeKm": 40000,
     "lifeLowKm": 30000,
     "lifeHighKm": 50000,
     "confidence": "low",
-    "basis": "MY23 manufacturer tyre size 255/45R20 Techniq. 20-inch large-SUV price class planning proxy for this configuration. Fitted-set budget A$1,800 (A$1,300–2,600); assumed life 40,000 km (30,000–50,000). Annual allowance = set cost × your annual kilometres / life. Australian JAX retail prices anchor the price class; set budgets, class assignment and service life are dashboard assumptions, not a vehicle-specific quote or guaranteed mileage. Reference catalogue sizes do not establish OEM fitment. Confirm the actual tyre placard, load/speed rating, optional wheels and local fitted quote. Excludes alignment and puncture repairs.",
+    "basis": "MY23 Techniq 20-inch fitment. Retail anchor: 255/45R20 105Y XL, Michelin Pilot Sport 4 SUV, A$505 each fitted including GST; four = A$2,020. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 40,000 km and A$1,676–2,600 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
     "sourceIds": [
       "budget-tyre-20suv",
-      "budget-tyre-life",
-      "ev-ioniq-2023-spec"
+      "ev-ioniq-2023-spec",
+      "budget-tyre-life"
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-18",
+    "retailAnchor": {
+      "size": "255/45R20 105Y XL",
+      "product": "Michelin Pilot Sport 4 SUV",
+      "unitPrice": 505,
+      "quantity": 4,
+      "sourceId": "budget-tyre-20suv",
+      "fitted": true,
+      "gstIncluded": true
+    }
   }
 ]

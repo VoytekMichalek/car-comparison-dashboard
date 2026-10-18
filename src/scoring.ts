@@ -1,5 +1,5 @@
 import { brandFor, getPrice, reviewFor } from './data';
-import { defaultWeights, rangeStandard, representativePrice } from './lib';
+import { defaultWeights, rangeStandard } from './lib';
 import { ownershipEstimate } from './ownership';
 import { reviewScope } from './reviewScope';
 import type { PersonalData, ScoreCategory, ScoreWeights, Vehicle } from './types';
@@ -28,9 +28,11 @@ export function scoreVehicle(v: Vehicle, personal: PersonalData, weights: ScoreW
   const confirmed = Boolean(personal.fitChecks[v.id]);
   const tested = v.familyFit.status.startsWith('tested');
   add('seating', confirmed ? 10 : tested ? 8 : v.familyFit.status === 'limitations' ? 3 : 5, confirmed ? 1 : tested ? .8 : v.familyFit.status === 'limitations' ? 1 : 0, confirmed ? 'Your fit confirmation for this configuration.' : v.familyFit.summary, v.familyFit.sourceIds);
-  const asking = representativePrice(price);
+  const savedPrice = personal.ownership?.vehicleOverrides?.[v.id]?.purchase ?? personal.ownership?.purchasePrice;
+  const hasSavedPrice = savedPrice != null;
+  const asking = costs.purchasePrice;
   const priceScore = asking == null ? 5 : asking / budget <= .75 ? 10 : asking <= budget ? 10 - (asking / budget - .75) * 12 : 7 - (asking / budget - 1) * 12;
-  add('price', priceScore, asking == null ? 0 : price?.kind === 'estimate' || price?.confidence === 'low' || price?.basis === 'unverified' || price?.basis === 'mixed' ? .35 : .8, asking == null ? 'No price evidence.' : `${price?.kind === 'estimate' ? 'Planning estimate' : 'Representative dated asking price'}; ${price?.basis}. ${price?.note}`, price?.sourceIds ?? []);
+  add('price', priceScore, asking == null ? 0 : hasSavedPrice ? 1 : price?.kind === 'estimate' || price?.confidence === 'low' || price?.basis === 'unverified' || price?.basis === 'mixed' ? .35 : .8, asking == null ? 'No price evidence.' : hasSavedPrice ? `Your saved purchase price / budget: A$${asking.toLocaleString('en-AU')}. ${costs.feesIncluded ? 'Duty and transfer treated as included.' : 'Duty and transfer may be additional.'}` : `${price?.kind === 'estimate' ? 'Planning estimate' : 'Representative dated asking price'}; ${price?.basis}. ${price?.note}`, hasSavedPrice ? [] : price?.sourceIds ?? []);
   add('running', costs.complete ? 10 - (costs.annual - 2000) / 500 : 5, costs.complete ? costs.runningConfidence : 0, costs.complete ? `Annual budget including reserves and interest; excludes depreciation. ${Math.round(costs.runningConfidence * 100)}% evidence factor; automatic estimates reduce confidence.` : `Missing: ${costs.missing.join(', ')}. Neutral score until priced.`, v.consumption.sourceIds);
   const comparableBoot = v.boot.value !== null && /\bVDA\b/i.test(v.boot.basis) && !/non.?VDA|not.*VDA|not verified|unverified/i.test(v.boot.basis);
   add('boot', comparableBoot ? 1 + (v.boot.value! - 300) * .03 : 5, comparableBoot ? 1 : 0, comparableBoot ? `${v.boot.value} L. ${v.boot.basis}` : `Measurement not comparable for scoring. ${v.boot.basis}`, v.boot.sourceIds);

@@ -102,3 +102,15 @@ Public-source preparation: the original Model Y insurance amount is an anonymous
 - Category weights are collapsible on phones; keyboard arrows changed and restored the purchase-price weight. Selecting a ranking scrolls to its score details. Inputs use 16px text to avoid automatic input zoom on mobile Safari; physical iOS/Android hardware was not available for testing.
 - Checked MY23 Dynamiq and Techniq in the 2023 year filter, variant selector, vehicle page and comparison. New data tests verify the battery/range/consumption split, unconfirmed restraint evidence, scoped professional review and zero-observation valuation proxy.
 - Existing browser-local notes and overrides retain their storage format; no personal data or preview screenshots are included in the published source.
+
+
+## Comprehensive research refresh — 18 October 2026
+
+- Final integration: **75 automated tests passed** across all four suites; strict TypeScript and production build passed. Data checks cover all 27 configurations, source references, stock IDs/year applicability, retail tyre arithmetic, professional original rating scales and fuel requirements.
+- Added regression coverage for personal purchase prices affecting the price score, removal restoring researched values, premium-grade petrol selection, zero/invalid premium inputs, older single-rate backup preservation and conservative mixed-generation review relevance.
+- Browser checked updated price cards, MY23 Ioniq filtering, comparison dropdowns, restored selected IDs, all eight scores, sticky comparison headers, revised cost components and fuel-reference disclosures. The 390px comparison fits its page (375px client/scroll widths). The fuel guidance and vehicle specifications also fit at 320px (305px client/scroll widths).
+- Existing single-rate settings remained A$1.90/L for both grades after reload; the optional premium field explained that compatibility instead of silently replacing saved values.
+- Independent read-only reviews found no material issues in the final ownership/insurance/tyre integrations or the fuel-grade implementation.
+- Research audit and detailed exclusions are in `DEEP-RESEARCH-2026-10-18.md` and its three companion reports.
+
+- Fresh production-preview session at 320×740: Browse, Ownership, Scores and Notebook each measured 305px client/scroll width. The energy inputs showed regular $2.21 and premium $2.38. Raising premium to $3 changed the Kluger’s annual energy budget from $1,999 to $2,520; restored $2.38 afterwards. Production preview console contained no errors.

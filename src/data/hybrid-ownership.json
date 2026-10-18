@@ -3,10 +3,11 @@
     "familyId": "mitsubishi-outlander-phev",
     "serviceInterval": "ZM schedule: 12 months or 15,000 km, whichever first; severe-use work can be earlier. Confirm the older ZL or MY26 schedule by VIN.",
     "serviceAnnual": 550.0,
-    "serviceBasis": "ESTIMATE — A$550/year planning midpoint at 15,000 km/year, normal use. The MY23 maker table has minor visits A$349–399 and later A$449–749; the band allows a mix of ages and model years rather than promising one visit price. Confirm remaining capped eligibility; wear, tyres and unexpected repairs are separate.",
+    "serviceBasis": "ESTIMATE — A$550/year planning midpoint at 15,000 km/year, normal use (A$350–750 multi-year sensitivity). Rechecked maker MY24 schedule for cars bought 1 December 2025–31 March 2026 totals A$5,683 for ten visits/150,000 km (A$568.30/year), with individual visits A$356–899. This narrowly dated cohort anchors the allowance; it does not reprice an older MY23 purchase or establish MY26 22.7-kWh caps. Obtain the actual VIN’s original schedule. A single major visit can exceed the annual allowance; wear, tyres and repairs are separate.",
     "warrantyCautions": [
-      "Standard cover is 5 years/100,000 km; up to 10 years/200,000 km requires eligible vehicles and Mitsubishi-network scheduled servicing. Check original registration and the complete history.",
-      "Drive-battery defects: 8 years/160,000 km for purchases after 1 October 2020. Capacity Care is separate: eligible MY22 onward batteries below 66% usable capacity; pre-MY22 Outlander is excluded. Confirm remaining cover and ownership details."
+      "Base cover is 5 years / 100,000 km. Eligible 10-year / 200,000-km extension requires every scheduled service from the first at an authorised Mitsubishi dealer, within the published 2-month / 2,000-km timing allowance. Missing one can end the extension while an unexpired base warranty remains; inspect the full history and original customer/use eligibility.",
+      "Drive-battery defects: 8 years/160,000 km for purchases after 1 October 2020. Capacity Care is separate: eligible MY22 onward batteries below 66% usable capacity; pre-MY22 Outlander is excluded. Confirm remaining cover and ownership details.",
+      "Capped servicing follows an eligible used vehicle until expiry; it does not restart at purchase. Prices depend on model year AND original purchase-date cohort. Government/rental and some business customers are excluded. Use a Mitsubishi PHEV specialist and confirm the exact MY26 schedule/caps."
     ],
     "risks": [
       {
@@ -57,7 +58,10 @@
       "own-hy-mitsubishi-capacity",
       "own-hy-mitsubishi-maintenance",
       "own-hy-mitsubishi-camera-recall",
-      "own-hy-out-service-caps"
+      "own-hy-out-service-caps",
+      "own-hy-mitsubishi-terms",
+      "own-hy-mitsubishi-cps-current",
+      "own-hy-mitsubishi-my24-dec2025-caps"
     ],
     "checked": "2026-10-18",
     "serviceLow": 350,
@@ -90,10 +94,11 @@
     "familyId": "byd-sealion-6",
     "serviceInterval": "Published MY24 plan: 12 months/20,000 km plus initial 6 months/3,500 km inspection. The handbook also uses HEV-distance triggers; confirm your exact schedule.",
     "serviceAnnual": 450.0,
-    "serviceBasis": "ESTIMATE — A$450/year planning midpoint at 15,000 km/year. MY24 Dynamic first-five annual caps total A$1,593 incl GST (A$318.60/year); later large visits and Premium/Extended/HEV-distance triggers justify the A$300–600 multi-year allowance. The year-eight A$1,119 visit can exceed a single-year budget; wear/repairs are separate. Confirm actual VIN caps.",
+    "serviceBasis": "ESTIMATE — A$450/year planning midpoint at 15,000 km/year. MY24 Dynamic first-five annual caps total A$1,593 incl GST (A$318.60/year); later large visits and Premium/Extended/HEV-distance triggers justify the A$300–600 multi-year allowance. The year-eight A$1,119 visit can exceed a single-year budget; wear/repairs are separate. Confirm actual VIN caps. The 26.6-kWh Extended-specific cap table was not verified: use this as a low-confidence planning analogue until a VIN quote is obtained.",
     "warrantyCautions": [
       "Headline vehicle cover is 6 years/150,000 km and traction battery 8 years/160,000 km. Obtain the original applicable booklet and written remaining-cover confirmation for a used vehicle.",
-      "Current 2026 booklet lists drive unit 8 years/160,000 km and battery retention 70%; do not assume these current-new terms apply retrospectively to a MY24 car. Maintenance, misuse and wear exclusions apply; replacements may be reconditioned."
+      "Current 2026 booklet lists drive unit 8 years/160,000 km and battery retention 70%; do not assume these current-new terms apply retrospectively to a MY24 car. Maintenance, misuse and wear exclusions apply; replacements may be reconditioned.",
+      "Current booklet makes the warranty transferable with the car and requires maintenance records. Auxiliary lead-acid battery cover is only 12 months / 20,000 km. Queensland warranty timing generally starts at first registration, including a demonstrator’s prior registration."
     ],
     "risks": [
       {
@@ -156,16 +161,26 @@
         "own-hy-byd-new-energy-proxy"
       ],
       "confidence": "low"
+    },
+    "serviceByVehicle": {
+      "sealion6-dynamic-extended": {
+        "serviceAnnual": 450,
+        "serviceLow": 300,
+        "serviceHigh": 750,
+        "serviceConfidence": "low",
+        "serviceBasis": "ESTIMATE — A$450/year (A$300–750) at 15,000 km/year, using the original 18.3-kWh Dynamic MY24 cap table only as an analogue. A separate 26.6-kWh Extended schedule/capped-price table was not verified. Confirm both elapsed time and HEV-distance triggers, major EHS/coolant items and actual VIN pricing; this is not a manufacturer quote for Extended."
+      }
     }
   },
   {
     "familyId": "nissan-x-trail-epower",
     "serviceInterval": "Earlier e-POWER: 12 months/10,000 km; MY26 increases to 12 months/15,000 km, whichever first.",
     "serviceAnnual": 750,
-    "serviceBasis": "ESTIMATE — A$750/year at15,000km/year, with A$400–1,000 sensitivity. RACQ's2024 ST-L AWD e-Power study budgets A$63/month scheduled servicing (A$756/year), averaged across its firstfive years at this distance. Earlier10,000km schedules can require about1.5visits/year. MY26's15,000km schedule has A$399 incl.GST flat caps for five eligible new-retail visits; that offer does not automatically reprice an older car. The family midpoint favours the used-car schedule; confirm VIN caps and next major visit. Tyres/wear/repairs are separate.",
+    "serviceBasis": "ESTIMATE — A$750/year at15,000km/year, with A$400–1,000 sensitivity. RACQ's2024 ST-L AWD e-Power study budgets A$63/month scheduled servicing (A$756/year), averaged across its firstfive years at this distance. Earlier10,000km schedules can require about1.5visits/year. Nissan’s current A$399 incl.GST flat price covers the first five scheduled visits for eligible new X-Trail retail deliveries from 1 January 2025, not only MY26. Older 10,000-km schedules still reach visits faster; pre-2025 retail purchases do not automatically receive this new-retail offer. The family midpoint favours the used-car schedule; confirm VIN caps and next major visit. Tyres/wear/repairs are separate.",
     "warrantyCautions": [
       "Base warranty is 5 years/unlimited km. Current Service Activated Warranty can extend eligible vehicles retailed from 1 January 2021 to 10 years/300,000 km, subject to Nissan-network service history and terms; confirm used-car eligibility.",
-      "Nissan explicitly excludes gradual HEV-battery capacity loss. Do not apply LEAF/BEV nine-bar capacity terms to e-POWER. The remaining manufacturer warranty follows eligible subsequent owners."
+      "Nissan explicitly excludes gradual HEV-battery capacity loss. Do not apply LEAF/BEV nine-bar capacity terms to e-POWER. The remaining manufacturer warranty follows eligible subsequent owners.",
+      "Service Activated Warranty requires eligible retail sale from 1 January 2021, under 300,000 km and all prescribed Nissan-network logbook visits within 60 days / 3,000 km of the due point. Non-compliant history needs Nissan’s written discretionary re-entry/health-check approval; a dealer’s informal promise is insufficient. Extensions activate annually after year five and end by year ten / 300,000 km."
     ],
     "risks": [
       {
@@ -236,10 +251,11 @@
     "familyId": "toyota-rav4-hybrid",
     "serviceInterval": "12 months or 15,000 km, whichever first, under normal conditions; confirm VIN and severe-use additions.",
     "serviceAnnual": 450.0,
-    "serviceBasis": "ESTIMATE — A$450/year planning midpoint at 15,000 km/year. A Queensland Toyota dealer publishes A$270 incl GST for five eligible 2025 annual capped visits; the A$250–650 allowance includes older caps and a self-set post-cap buffer. It is not a promised post-cap tariff; wear, tyres and repairs are separate.",
+    "serviceBasis": "ESTIMATE — A$450/year planning midpoint at 15,000 km/year. A Queensland Toyota dealer publishes A$270 incl GST for five eligible 2025 annual capped visits; the A$250–650 allowance includes older caps and a self-set post-cap buffer. It is not a promised post-cap tariff; wear, tyres and repairs are separate. Used purchase retains only the unexpired original capped-service entitlement; the clock does not restart.",
     "warrantyCautions": [
       "Private-use base cover is 5 years/unlimited km from original delivery; the remaining balance transfers with the car. Check the original service book and dates.",
-      "HEV battery defect cover can extend annually to 10 years with successful Toyota-specification health checks and conditions. Normal capacity degradation is excluded; the 70%/8-year capacity promise is BEV-only."
+      "HEV battery defect cover can extend annually to 10 years with successful Toyota-specification health checks and conditions. Normal capacity degradation is excluded; the 70%/8-year capacity promise is BEV-only.",
+      "Toyota’s detailed terms extend eligible engine, electric-motor and driveline defect cover to 7 years/unlimited km when properly maintained per the vehicle book. This differs from the annual Toyota traction-battery health-check extension. Prior commercial use changes limits; auxiliary-battery cover is 2 years/unlimited km."
     ],
     "risks": [
       {
@@ -280,6 +296,18 @@
           "own-hy-toyota-vsc-recall"
         ],
         "confidence": "high"
+      },
+      {
+        "title": "2022–2025 combination-meter recall",
+        "detail": "REC-006390 (campaign 5GG31) includes selected RAV4 Hybrid and Kluger Hybrid VINs. A memory/software issue can blank the meter, hiding speed and warning indicators. The published notice anticipated a late-2025 software remedy; confirm its current availability and completion with Toyota. Do not apply automatically to the new-generation 2026 RAV4.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+        "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+        "sourceIds": [
+          "own-hy-toyota-meter-recall"
+        ],
+        "confidence": "high"
       }
     ],
     "sourceIds": [
@@ -287,21 +315,34 @@
       "own-hy-toyota-service-terms",
       "own-hy-rav4-battery-price",
       "own-hy-toyota-vsc-recall",
-      "own-hy-rav-service-dealer"
+      "own-hy-rav-service-dealer",
+      "own-hy-toyota-warranty-terms",
+      "own-hy-toyota-service-faq",
+      "own-hy-rav4-2026-service-launch"
     ],
     "checked": "2026-10-18",
     "serviceLow": 250,
     "serviceHigh": 650,
-    "serviceConfidence": "medium"
+    "serviceConfidence": "medium",
+    "serviceByVehicle": {
+      "rav4-gxl-hev-2026": {
+        "serviceAnnual": 450,
+        "serviceLow": 325,
+        "serviceHigh": 750,
+        "serviceConfidence": "medium",
+        "serviceBasis": "ESTIMATE — A$450/year (A$325–750) at 15,000 km/year. Toyota’s 16 April 2026 Australian launch confirms a published consumer cap of A$325 per 12-month/15,000-km standard visit for the first five years/75,000 km, maximum five visits, excluding government/rental. The A$450 midpoint adds a self-set buffer for service costs after the cap expires and visit variation over ownership; it is not a ten-year fixed tariff. Obtain actual VIN eligibility, severe-use additions and post-cap pricing."
+      }
+    }
   },
   {
     "familyId": "toyota-kluger-hybrid",
     "serviceInterval": "12 months or 15,000 km, whichever first, under normal conditions; confirm VIN and severe-use additions.",
     "serviceAnnual": 500.0,
-    "serviceBasis": "ESTIMATE — A$500/year planning midpoint at 15,000 km/year. The 2021 manufacturer launch capped five annual visits at A$250; A$300–700 is an analyst allowance for later years, expiry of caps and larger services, not a current Toyota quote. Wear, tyres and repairs are separate.",
+    "serviceBasis": "ESTIMATE — A$500/year planning midpoint at 15,000 km/year. The 2021 manufacturer launch capped five annual visits at A$250; A$300–700 is an analyst allowance for later years, expiry of caps and larger services, not a current Toyota quote. Wear, tyres and repairs are separate. Used purchase retains only the unexpired original capped-service entitlement; the clock does not restart.",
     "warrantyCautions": [
       "Private-use base cover is 5 years/unlimited km from original delivery; the remaining balance transfers with the car. Check the original service book and dates.",
-      "HEV battery defect cover can extend annually to 10 years with successful Toyota-specification health checks and conditions. Normal capacity degradation is excluded; the 70%/8-year capacity promise is BEV-only."
+      "HEV battery defect cover can extend annually to 10 years with successful Toyota-specification health checks and conditions. Normal capacity degradation is excluded; the 70%/8-year capacity promise is BEV-only.",
+      "Toyota’s detailed terms extend eligible engine, electric-motor and driveline defect cover to 7 years/unlimited km when properly maintained per the vehicle book. This differs from the annual Toyota traction-battery health-check extension. Prior commercial use changes limits; auxiliary-battery cover is 2 years/unlimited km."
     ],
     "risks": [
       {
@@ -340,6 +381,44 @@
           "own-hy-kluger-airbag-recall"
         ],
         "confidence": "high"
+      },
+      {
+        "title": "2022–2025 combination-meter recall",
+        "detail": "REC-006390 (campaign 5GG31) includes selected RAV4 Hybrid and Kluger Hybrid VINs. A memory/software issue can blank the meter, hiding speed and warning indicators. The published notice anticipated a late-2025 software remedy; confirm its current availability and completion with Toyota. Do not apply automatically to the new-generation 2026 RAV4.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+        "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+        "sourceIds": [
+          "own-hy-toyota-meter-recall"
+        ],
+        "confidence": "high"
+      },
+      {
+        "title": "Second-row recliner recall — separate from frame protector",
+        "detail": "REC-006562 / campaign 6GG11, published 12 March 2026, covers selected 2021–2025 GX/GXL/Grande petrol and hybrid VINs. The recliner can fail to engage fully after adjustment, allowing the seatback to move in hard braking or a crash. Confirm this campaign independently of the older seat-frame protector action.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+        "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+        "sourceIds": [
+          "own-hy-kluger-recliner-recall"
+        ],
+        "confidence": "high"
+      },
+      {
+        "title": "Additional early Kluger safety campaigns",
+        "detail": "Selected 2021 cars have front-seat frame/ADR rectification (REC-005459); selected 2021–2023 cars need improved lower-bumper fasteners (REC-005813). Selected March 2021–April 2022 hybrid builds also have VSC reset software rectification. Check completion by VIN rather than inferring from model year.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+        "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+        "sourceIds": [
+          "own-hy-kluger-front-seat-recall",
+          "own-hy-kluger-bumper-recall",
+          "own-hy-toyota-vsc-recall"
+        ],
+        "confidence": "high"
       }
     ],
     "sourceIds": [
@@ -347,7 +426,9 @@
       "own-hy-toyota-service-terms",
       "own-hy-kluger-seat-recall",
       "own-hy-kluger-airbag-recall",
-      "own-hy-kluger-service-launch"
+      "own-hy-kluger-service-launch",
+      "own-hy-toyota-warranty-terms",
+      "own-hy-toyota-service-faq"
     ],
     "checked": "2026-10-18",
     "serviceLow": 300,
@@ -361,7 +442,8 @@
     "serviceBasis": "ESTIMATE — A$1,000/year planning midpoint at 15,000 km/year. MY26 HEV AWD seven-visit caps total A$4,679 incl GST per 70,000 km: A$668.43 per visit-year at ≤10,000 km/year, approximately A$1,003/year at 15,000 km. A$800–1,200 allows HEV/PHEV and service-cycle differences; this is proportional budgeting, not an actual year-by-year invoice. Wear/repairs are separate.",
     "warrantyCautions": [
       "Private-use vehicle warranty is 7 years/unlimited km; remaining cover transfers with the vehicle. Wear, scheduled maintenance and damage from missing/improper maintenance are excluded.",
-      "For pre-MY27 vehicles, Kia lists HV-battery capacity coverage below 70% for 7 years/150,000 km. The current MY27 8-year/160,000 km promise must not be applied to older Sorentos; a warranty repair need not restore 100% capacity."
+      "For pre-MY27 vehicles, Kia lists HV-battery capacity coverage below 70% for 7 years/150,000 km. The current MY27 8-year/160,000 km promise must not be applied to older Sorentos; a warranty repair need not restore 100% capacity.",
+      "HV electrical components (including traction motor, onboard charger and power-control units) have a separate 7-year / 150,000-km limit in current Australian terms. AV/AVN head-unit defects have 3-year/unlimited-km cover and auxiliary batteries 2 years; do not treat every component as covered for the full headline term."
     ],
     "risks": [
       {
@@ -419,13 +501,38 @@
           "own-hy-hybrid-inverter-proxy"
         ],
         "confidence": "low"
+      },
+      {
+        "title": "2022 (P)HEV turn-indicator recall",
+        "detail": "REC-005767 / campaign 231070 explicitly includes selected 2022 MQ4 (P)HEV Sorento VINs. Turn indicators may not illuminate; the official remedy is a free multi-function-switch software update.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+        "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+        "sourceIds": [
+          "own-hy-kia-indicator-recall"
+        ],
+        "confidence": "high"
+      },
+      {
+        "title": "2025 instrument-cluster campaign — check build/VIN",
+        "detail": "REC-006557 includes selected 2025 MQ4 Sorento and other Kia VINs. A blank/slow instrument cluster can hide speed and warnings. This does not establish applicability to the older 2021–2023 PHEV or every MY26 HEV; ask Kia about the exact build/VIN.",
+        "low": 0,
+        "high": 0,
+        "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+        "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+        "sourceIds": [
+          "own-ev-kia-cluster-2025-recall"
+        ],
+        "confidence": "high"
       }
     ],
     "sourceIds": [
       "own-hy-kia-warranty",
       "own-hy-kia-battery-warranty",
       "own-hy-kia-service-prices",
-      "own-hy-kia-powertrain"
+      "own-hy-kia-powertrain",
+      "own-hy-kia-terms"
     ],
     "checked": "2026-10-18",
     "serviceLow": 800,
@@ -451,6 +558,15 @@
         "own-hy-sorento-depleted-proxy"
       ],
       "confidence": "low"
+    },
+    "serviceByVehicle": {
+      "sorento-phev-gtline-2021-23": {
+        "serviceAnnual": 1100,
+        "serviceLow": 850,
+        "serviceHigh": 1500,
+        "serviceConfidence": "low",
+        "serviceBasis": "ESTIMATE — A$1,100/year at 15,000 km/year, with A$850–1,500 sensitivity for ageing and service cycles. Kia’s actual MY22/MY23 PHEV seven-visit caps total A$4,894/A$4,937 incl.GST per 70,000 km; proportional equivalents are about A$1,049/A$1,058 per 15,000 km. The A$1,100 midpoint rounds up with a self-set post-cap buffer. MY21 applicability and current eligibility require the VIN; do not apply the different MY26 HEV table. Major individual MY22/23 visits reach A$1,159/A$1,165; wear and repairs are separate."
+      }
     }
   }
 ]

@@ -38,8 +38,11 @@ export function energyBudget(v: Vehicle, settings: CostSettings) {
   const result = proxy ? calculateEnergy(substitute('point'), settings) : strict;
   const low = proxy ? calculateEnergy(substitute('low'), settings).total : result.total;
   const high = proxy ? calculateEnergy(substitute('high'), settings).total : result.total;
-  const reason = proxy ? `Planning proxy. ${[electricProxy?.basis, petrolProxy?.basis].filter(Boolean).join(' ')}` : result.reason;
-  return { ...result, low, high, proxy, reason, confidence: proxy ? .35 : .75, sourceIds: [...(electricProxy?.sourceIds ?? v.consumption.sourceIds), ...(petrolProxy?.sourceIds ?? (v.powertrain === 'PHEV' ? v.depletedConsumption.sourceIds : []))] };
+  const consumptionReason = proxy ? `Planning proxy. ${[electricProxy?.basis, petrolProxy?.basis].filter(Boolean).join(' ')}` : result.reason;
+  const fuelRate = v.fuel?.planningRon === 95 ? settings.premiumPetrolRate ?? settings.petrolRate : settings.petrolRate;
+  const fuelReason = v.fuel && (v.powertrain === 'HEV' || neededPetrol) ? ` ${v.fuel.planningRon} RON planning rate: A$${fuelRate.toFixed(2)}/L. ${v.fuel.basis}` : '';
+  const reason = consumptionReason + fuelReason;
+  return { ...result, low, high, proxy, reason, confidence: proxy || v.fuel?.confidence === 'low' ? .35 : .75, sourceIds: [...(electricProxy?.sourceIds ?? v.consumption.sourceIds), ...(petrolProxy?.sourceIds ?? (v.powertrain === 'PHEV' ? v.depletedConsumption.sourceIds : [])), ...(v.fuel?.sourceIds ?? [])] };
 }
 export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
   const s = settingsFor(personal);

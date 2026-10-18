@@ -48,9 +48,9 @@
     "acCharging": {
       "value": 11,
       "unit": "kW",
-      "basis": "Three-phase AC maximum reported in Australian road test",
+      "basis": "Tesla Australia onboard limit at 400 V three-phase 16 A; single-phase 32 A supply is 7.4 kW. Check vehicle touchscreen limit.",
       "sourceIds": [
-        "ev-tesla-used-review"
+        "ev-deep-tesla-ac"
       ]
     },
     "dcCharging": {
@@ -118,11 +118,12 @@
       "row2": "Two outer ISOFIX positions; top tether on all three rear backrests.",
       "row3": "No third row on this five-seat configuration.",
       "testedSeats": "2023 test: rear-facing InfaSecure Attain More plus forward-facing Achieve More and Attain More; an alternative two Achieve More plus one Attain More also fitted.",
-      "buckleAccess": "Independent test did not establish fit or daily buckle access for your three boosters.",
+      "buckleAccess": "Independent test did not establish fit or daily buckle access for your three boosters. ANCAP could not correctly install its Type A capsule and one selected booster in the centre position; its tests assess each restraint separately, not three together.",
       "access": "Flat rear floor helps moving between positions.",
       "ventilation": "Rear console vents; verify airflow with your restraints fitted.",
       "sourceIds": [
-        "ev-tesla-family-2023"
+        "ev-tesla-family-2023",
+        "ev-deep-modely-ancap-fit"
       ]
     },
     "pros": [
@@ -172,7 +173,9 @@
       "ev-tesla-warranty",
       "ev-tesla-old-ancap",
       "ev-tesla-rwd-market",
-      "ev-tesla-original-dimensions"
+      "ev-tesla-original-dimensions",
+      "ev-deep-tesla-ac",
+      "ev-deep-modely-ancap-fit"
     ],
     "checked": "2026-10-18"
   },
@@ -220,10 +223,12 @@
       "sourceIds": []
     },
     "acCharging": {
-      "value": null,
+      "value": 11,
       "unit": "kW",
-      "basis": "Not verified for this Australian configuration",
-      "sourceIds": []
+      "basis": "Tesla Australia onboard limit at 400 V three-phase 16 A; single-phase 32 A supply is 7.4 kW. Check vehicle touchscreen limit.",
+      "sourceIds": [
+        "ev-deep-tesla-ac"
+      ]
     },
     "dcCharging": {
       "value": null,
@@ -288,11 +293,12 @@
       "row2": "2023 body test reports outer ISOFIX and three rear top tethers; confirm this VIN.",
       "row3": "No third row on this five-seat configuration.",
       "testedSeats": "Reference only: InfaSecure Attain More / Achieve More combinations in BabyDrive’s 2023 Model Y, not a verified AWD-specific test.",
-      "buckleAccess": "Your exact boosters and buckle reach are untested.",
+      "buckleAccess": "Your exact boosters and buckle reach are untested. ANCAP could not correctly install its Type A capsule and one selected booster in the centre position; its tests assess each restraint separately, not three together.",
       "access": "Check access with all three seats installed.",
       "ventilation": "Confirm rear-console airflow in the inspected vehicle.",
       "sourceIds": [
-        "ev-tesla-family-2023"
+        "ev-tesla-family-2023",
+        "ev-deep-modely-ancap-fit"
       ]
     },
     "pros": [
@@ -317,8 +323,8 @@
       }
     ],
     "gaps": [
-      "Verified AWD-specific child-seat trial, consumption and pack usable capacity are missing.",
-      "AWD charging caps remain unverified; Tesla’s cargo measurement is not directly comparable with VDA boot figures."
+      "Verified AWD-specific child-seat trial, consumption and pack usable capacity remain missing.",
+      "AWD DC charging cap remains unverified; Tesla cargo litres are not directly comparable with VDA boot figures."
     ],
     "sourceIds": [
       "ev-tesla-range",
@@ -328,7 +334,9 @@
       "ev-tesla-family-2023",
       "ev-tesla-old-ancap",
       "ev-tesla-lr-market",
-      "ev-tesla-original-dimensions"
+      "ev-tesla-original-dimensions",
+      "ev-deep-tesla-ac",
+      "ev-deep-modely-ancap-fit"
     ],
     "checked": "2026-10-18"
   },
@@ -376,10 +384,12 @@
       "sourceIds": []
     },
     "acCharging": {
-      "value": null,
+      "value": 11,
       "unit": "kW",
-      "basis": "Not verified for this Australian configuration",
-      "sourceIds": []
+      "basis": "Tesla Australia onboard limit at 400 V three-phase 16 A; single-phase 32 A supply is 7.4 kW. Check vehicle touchscreen limit.",
+      "sourceIds": [
+        "ev-deep-tesla-ac"
+      ]
     },
     "dcCharging": {
       "value": null,
@@ -390,28 +400,36 @@
     "chargeTime": "Configuration-specific charging-time evidence not verified.",
     "connector": "Type 2 AC / CCS2 DC",
     "boot": {
-      "value": null,
+      "value": 822,
       "unit": "L",
-      "basis": "Not verified for this Australian configuration",
-      "sourceIds": []
+      "basis": "Tesla own rear cargo measure with second-row seats up; not labelled VDA; excludes 116 L front trunk",
+      "sourceIds": [
+        "ev-deep-tesla-refresh-dimensions"
+      ]
     },
     "bootAllRows": {
-      "value": null,
+      "value": 822,
       "unit": "L",
-      "basis": "Not verified for this Australian configuration",
-      "sourceIds": []
+      "basis": "Tesla own rear cargo measure with all five seats available; not labelled VDA; excludes 116 L front trunk",
+      "sourceIds": [
+        "ev-deep-tesla-refresh-dimensions"
+      ]
     },
     "length": {
-      "value": null,
+      "value": 4790,
       "unit": "mm",
-      "basis": "Not verified for this Australian configuration",
-      "sourceIds": []
+      "basis": "Australian 2025+ manual, Premium five-seat body; excludes number-plate bracket",
+      "sourceIds": [
+        "ev-deep-tesla-refresh-dimensions"
+      ]
     },
     "width": {
-      "value": null,
+      "value": 1920,
       "unit": "mm",
-      "basis": "Not verified for this Australian configuration",
-      "sourceIds": []
+      "basis": "Australian 2025+ manual, body excluding mirrors; folded mirrors 1982 mm",
+      "sourceIds": [
+        "ev-deep-tesla-refresh-dimensions"
+      ]
     },
     "towing": {
       "value": null,
@@ -474,16 +492,19 @@
       }
     ],
     "gaps": [
-      "Battery capacity, matched rated consumption, charging maxima and comparable boot volume not verified.",
-      "Current 466 km figure is not a universal claim for every 2025 wheel/build combination.",
-      "Six-seat Model Y L and any newly added Standard trim require separate research."
+      "Gross/usable battery capacity and matched rated consumption are not published in the checked Australian material.",
+      "Current 466 km range is specific to Premium RWD 19-inch specification, not every 2025 wheel/build combination.",
+      "Vehicle DC peak and Australian plated towing remain unverified; the current en_au tow page contains North American 3500 lb/Canada text, so its 1588 kg is not substituted for a local approval.",
+      "Model Y L and any Standard trim require separate entries."
     ],
     "sourceIds": [
       "ev-tesla-order",
       "ev-tesla-current",
       "ev-tesla-warranty",
       "ev-tesla-family-2025",
-      "ev-tesla-new-ancap"
+      "ev-tesla-new-ancap",
+      "ev-deep-tesla-refresh-dimensions",
+      "ev-deep-tesla-ac"
     ],
     "checked": "2026-10-18"
   },
@@ -1017,7 +1038,8 @@
       "unit": "km",
       "basis": "Manufacturer WLTP combined claim; 600 km NEDC is separate",
       "sourceIds": [
-        "ev-atto-evo"
+        "ev-atto-evo",
+        "ev-deep-atto-evo-brochure"
       ]
     },
     "battery": {
@@ -1025,15 +1047,19 @@
       "unit": "kWh",
       "basis": "Published LFP battery capacity; usable/gross split not stated",
       "sourceIds": [
-        "ev-atto-evo"
+        "ev-atto-evo",
+        "ev-deep-atto-evo-brochure"
       ]
     },
     "consumption": {
-      "value": null,
+      "value": 16.4,
       "unit": "kWh/100km",
-      "basis": "Not verified for this Australian configuration",
-      "sourceIds": [],
-      "energyBasis": "unspecified"
+      "basis": "Australian EVO brochure v3, Premium WLTP combined; laboratory figure includes the WLTP recharge-energy boundary",
+      "energyBasis": "wall",
+      "sourceIds": [
+        "ev-deep-atto-evo-brochure",
+        "ev-energy-method-wltp"
+      ]
     },
     "depletedConsumption": {
       "value": null,
@@ -1042,20 +1068,23 @@
       "sourceIds": []
     },
     "acCharging": {
-      "value": null,
+      "value": 11,
       "unit": "kW",
-      "basis": "Not verified for this Australian configuration",
-      "sourceIds": []
+      "basis": "Australian Premium onboard AC maximum; compatible three-phase supply required",
+      "sourceIds": [
+        "ev-deep-atto-evo-brochure"
+      ]
     },
     "dcCharging": {
       "value": 220,
       "unit": "kW",
       "basis": "Manufacturer peak on compatible DC infrastructure; not sustained",
       "sourceIds": [
-        "ev-atto-evo"
+        "ev-atto-evo",
+        "ev-deep-atto-evo-brochure"
       ]
     },
-    "chargeTime": "Configuration-specific charging-time evidence not verified.",
+    "chargeTime": "Australian manufacturer brochure v3: 0–80% in 30 minutes at a compatible DC charger under suitable conditions. This claim uses a 0–80% state-of-charge window.",
     "connector": "Type 2 AC / CCS2 DC",
     "boot": {
       "value": 490,
@@ -1074,22 +1103,28 @@
       ]
     },
     "length": {
-      "value": null,
+      "value": 4455,
       "unit": "mm",
-      "basis": "Not verified for this Australian configuration",
-      "sourceIds": []
+      "basis": "Australian EVO brochure v3 overall length",
+      "sourceIds": [
+        "ev-deep-atto-evo-brochure"
+      ]
     },
     "width": {
-      "value": null,
+      "value": 1875,
       "unit": "mm",
-      "basis": "Not verified for this Australian configuration",
-      "sourceIds": []
+      "basis": "Australian EVO brochure v3 body width",
+      "sourceIds": [
+        "ev-deep-atto-evo-brochure"
+      ]
     },
     "towing": {
-      "value": null,
+      "value": 1500,
       "unit": "kg",
-      "basis": "Not verified for this Australian configuration",
-      "sourceIds": []
+      "basis": "Premium braked limit; unbraked 750 kg. Approved towbar, towball and loaded-vehicle limits also apply",
+      "sourceIds": [
+        "ev-deep-atto-evo-brochure"
+      ]
     },
     "warranty": "Current Australian terms: 6 years / 150,000 km vehicle cover. Confirm applicable updated policy, original start date and remaining VIN-specific cover.",
     "batteryWarranty": "Current handbook: power battery and drive unit 8 years / 160,000 km; 70% battery-retention threshold, conditions apply. Confirm applicability to this VIN.",
@@ -1103,14 +1138,16 @@
     "familyFit": {
       "status": "unverified",
       "summary": "No matching Australian EVO Premium three-restraint test verified.",
-      "row2": "ISOFIX advertised; exact Australian anchor positions and permitted combinations need handbook confirmation.",
+      "row2": "Australian brochure lists three top-tether anchors; handbook locates ISOFIX at the outer rear seats. Generic handbook says centre tether depends on configuration: confirm the Australian three-anchor installation in person.",
       "row3": "No third row on this five-seat configuration.",
       "testedSeats": "None verified for EVO Premium.",
       "buckleAccess": "Confirm shoulders and all booster buckles with your seats fitted.",
       "access": "Do not extrapolate the 2024 Atto 3 test to this rear-drive version.",
-      "ventilation": "Rear ventilation for Australian Premium not independently checked.",
+      "ventilation": "Australian brochure lists air conditioning; rear outlet location and airflow still need checking in a Premium.",
       "sourceIds": [
-        "ev-atto-evo"
+        "ev-atto-evo",
+        "ev-deep-atto-evo-brochure",
+        "ev-deep-atto-evo-manual"
       ]
     },
     "pros": [
@@ -1136,13 +1173,17 @@
     ],
     "gaps": [
       "EVO Dynamic is not yet separately populated.",
-      "Matching ANCAP applicability, anchor map, consumption, dimensions, towing and AC charging maximum still need verification."
+      "No matched Australian EVO ANCAP applicability or independent three-restraint test verified.",
+      "Manufacturer brochure claims 0–80% DC in 30 minutes. Secondary 10–80% claims use a different SOC window and are not directly comparable.",
+      "Gross/usable battery split, boot measurement standard and your exact seat combination are unverified."
     ],
     "sourceIds": [
       "ev-atto-evo",
       "ev-byd-warranty",
       "ev-atto-evo-price",
-      "own-ev-byd-warranty"
+      "own-ev-byd-warranty",
+      "ev-deep-atto-evo-brochure",
+      "ev-energy-method-wltp"
     ],
     "checked": "2026-10-18"
   },
@@ -1268,11 +1309,12 @@
       "row2": "GT-Line test: two outer ISOFIX and three rear top tethers; confirm Air handbook.",
       "row3": "No third row on this five-seat configuration.",
       "testedSeats": "Reference GT-Line RWD: InfaSecure Attain More and Achieve More rear-facing, Aspire More in the centre.",
-      "buckleAccess": "Test found the centre buckle awkward with three across; particularly relevant to boosters.",
+      "buckleAccess": "Test found the centre buckle awkward with three across; particularly relevant to boosters. ANCAP could not correctly install one selected booster in the centre rear seat. Its installation matrix tests seats individually, not simultaneous three-across fit.",
       "access": "Flat rear floor and generous reported legroom; still trial the exact Air seats.",
       "ventilation": "Rear pillar vents in GT-Line test; verify Air equipment.",
       "sourceIds": [
-        "ev-ev6-family"
+        "ev-ev6-family",
+        "ev-deep-ev6-ancap-fit"
       ]
     },
     "pros": [
@@ -1309,7 +1351,8 @@
       "ev-kia-warranty",
       "ev-kia-battery",
       "ev-ev6-recall",
-      "ev-ev6-market"
+      "ev-ev6-market",
+      "ev-deep-ev6-ancap-fit"
     ],
     "checked": "2026-10-18"
   },
@@ -1855,6 +1898,7 @@
     "model": "Ioniq 5",
     "variant": "Dynamiq RWD · 77.4 kWh · MY23",
     "years": [
+      2022,
       2023
     ],
     "generation": "Original Ioniq 5 · MY23 NE.V3 · 77.4 kWh",
@@ -2017,7 +2061,8 @@
       "Your exact three-seat or booster combination is unconfirmed.",
       "Epiq, MY24 changes and 2022-built MY23 stock are outside this 2023-only configuration.",
       "Vehicle peak DC input remains unverified; charging-station power is not treated as the vehicle maximum.",
-      "No current Australian exact-build asking-price sample verified. Private-sale guide figures are estimates, not current dealer offers."
+      "No current Australian exact-build asking-price sample verified. Private-sale guide figures are estimates, not current dealer offers.",
+      "MY23 77.4 kWh configuration includes late-2022 builds; build year alone does not establish the battery or drivetrain. Excludes MY22 72.6 kWh and MY24 specification."
     ],
     "sourceIds": [
       "ev-ioniq-2023-spec",
@@ -2038,6 +2083,7 @@
     "model": "Ioniq 5",
     "variant": "Techniq AWD · 77.4 kWh · MY23",
     "years": [
+      2022,
       2023
     ],
     "generation": "Original Ioniq 5 · MY23 NE.V3 · 77.4 kWh",
@@ -2199,7 +2245,8 @@
     "gaps": [
       "Your exact three-seat or booster combination is unconfirmed.",
       "Epiq, MY24 changes and 2022-built MY23 stock are outside this 2023-only configuration.",
-      "Vehicle peak DC input remains unverified; charging-station power is not treated as the vehicle maximum."
+      "Vehicle peak DC input remains unverified; charging-station power is not treated as the vehicle maximum.",
+      "MY23 77.4 kWh configuration includes late-2022 builds; build year alone does not establish the battery or drivetrain. Excludes MY22 72.6 kWh and MY24 specification."
     ],
     "sourceIds": [
       "ev-ioniq-2023-spec",
@@ -2248,10 +2295,11 @@
     "consumption": {
       "value": 16.04,
       "unit": "kWh/100km",
-      "basis": "MY26 WLTP combined 19-inch RWD; 20-inch Elite differs",
+      "basis": "Manufacturer 160.4 Wh/km (16.04 kWh/100km), 19-inch RWD. Table notes WLTP but footnote [4] cites ADR 81/02: test-standard wording conflicts. Both methods measure mains recharging energy, so no additional charging-loss multiplier is applied.",
       "sourceIds": [
         "ev-ioniq-new-spec",
-        "ev-energy-method-wltp"
+        "ev-energy-method-wltp",
+        "ev-deep-adr-energy-boundary"
       ],
       "energyBasis": "wall"
     },
@@ -2321,20 +2369,22 @@
     "batteryWarranty": "Confirm original high-voltage battery terms and remaining cover for the exact registration date.",
     "servicing": "Obtain the exact model-year schedule and quote; dealer-service conditions matter for the conditional longer vehicle warranty.",
     "safety": {
-      "stars": null,
-      "year": null,
-      "applicability": "Rating applicability not verified for this configuration.",
-      "sourceIds": []
+      "stars": 5,
+      "year": 2021,
+      "applicability": "Current ANCAP listing covers all Ioniq 5 variants except Ioniq 5 N, with rating expiry December 2027. Rating is based on 2021 protocol/testing, not a new 2026 test.",
+      "sourceIds": [
+        "ev-deep-ioniq-ancap-current"
+      ]
     },
     "familyFit": {
       "status": "unverified",
       "summary": "Original AWD family test is context only; no matching refreshed 84 kWh RWD restraint combination verified.",
-      "row2": "Verify anchor map in the refreshed Australian owner manual.",
+      "row2": "Australian MY26 specification: two outer rear ISOFIX positions and three rear top-tether anchors. This establishes anchors, not simultaneous restraint fit.",
       "row3": "No third row on this five-seat configuration.",
       "testedSeats": "No matching refresh-specific three-restraint test verified.",
       "buckleAccess": "Test your three boosters/harnessed seats and every buckle.",
       "access": "Confirm the final sliding-bench position still holds your pram.",
-      "ventilation": "Check rear pillar vents and airflow in the listed grade.",
+      "ventilation": "Australian MY26 specification lists rear B-pillar and floor cooling/heating outlets; check airflow with all restraints.",
       "sourceIds": [
         "ev-ioniq-family",
         "ev-ioniq-new-spec"
@@ -2362,16 +2412,19 @@
       }
     ],
     "gaps": [
-      "Refresh-specific restraint and ANCAP applicability have not been independently matched; rating left blank.",
-      "MY25 versus MY26 grade names need checking: this entry uses the MY26 19-inch RWD specification.",
-      "Peak vehicle DC input remains unverified; the 350 kW charging-station rating is not used as a vehicle peak."
+      "No matching refreshed 84 kWh RWD three-restraint trial was verified.",
+      "Consumption test-standard wording conflicts within the manufacturer PDF (WLTP note versus ADR 81/02 footnote); mains-energy boundary is resolved, but the exact test cycle needs Hyundai clarification.",
+      "MY25 versus MY26 grade names differ; headline specification is MY26 RWD 19-inch.",
+      "Vehicle DC input peak is not the 350 kW station rating and remains unverified."
     ],
     "sourceIds": [
       "ev-ioniq-new-spec",
       "ev-hyundai-warranty",
       "ev-ioniq-family",
       "ev-ioniq-new-market",
-      "own-ev-hyundai-recall"
+      "own-ev-hyundai-recall",
+      "ev-deep-ioniq-ancap-current",
+      "ev-deep-adr-energy-boundary"
     ],
     "checked": "2026-10-18"
   },
@@ -2441,17 +2494,17 @@
     "boot": {
       "value": 539,
       "unit": "L",
-      "basis": "Australian review reports rear cargo seats up; measurement standard unspecified; do not compare directly with VDA values",
+      "basis": "Current Australian manufacturer model page rear luggage claim; measurement standard and sliding-seat/loading details are not specified. Excludes front compartment.",
       "sourceIds": [
-        "ev-zeekr-boot"
+        "ev-zeekr-model"
       ]
     },
     "bootAllRows": {
       "value": 539,
       "unit": "L",
-      "basis": "Australian review reports rear cargo seats up; measurement standard unspecified; do not compare directly with VDA values",
+      "basis": "Current Australian manufacturer model page rear luggage claim; measurement standard and sliding-seat/loading details are not specified. Excludes front compartment.",
       "sourceIds": [
-        "ev-zeekr-boot"
+        "ev-zeekr-model"
       ]
     },
     "length": {
@@ -2471,10 +2524,12 @@
       ]
     },
     "towing": {
-      "value": null,
+      "value": 2000,
       "unit": "kg",
-      "basis": "Not verified for this Australian configuration",
-      "sourceIds": []
+      "basis": "Australian ROVER VTA-065421 rear-drive variant declaration: 2,000 kg braked, 750 kg unbraked. Confirm VIN approval, approved towbar/towball load and loaded vehicle limits. This is an approval limit, not a loaded towing road test.",
+      "sourceIds": [
+        "ev-deep-zeekr-rvd-towing"
+      ]
     },
     "warranty": "5 years / unlimited km basic vehicle cover; exclusions apply.",
     "batteryWarranty": "8 years / 160,000 km; confirm capacity threshold and original terms.",
@@ -2525,7 +2580,6 @@
     ],
     "gaps": [
       "No independent three-forward-facing/booster trial or rated consumption verified.",
-      "Rear-boot measurement method, towing and VIN-specific servicing cost remain unverified.",
       "Manufacturer brochure calls range a WLTP target; confirm final approval for the listed car."
     ],
     "sourceIds": [
@@ -2535,7 +2589,8 @@
       "ev-zeekr-review",
       "ev-zeekr-price",
       "ev-zeekr-boot",
-      "ev-zeekr-anchor-report"
+      "ev-zeekr-anchor-report",
+      "ev-deep-zeekr-rvd-towing"
     ],
     "checked": "2026-10-18"
   },
@@ -2605,17 +2660,17 @@
     "boot": {
       "value": 539,
       "unit": "L",
-      "basis": "Australian review reports rear cargo seats up; measurement standard unspecified; do not compare directly with VDA values",
+      "basis": "Current Australian manufacturer model page rear luggage claim; measurement standard and sliding-seat/loading details are not specified. Excludes front compartment.",
       "sourceIds": [
-        "ev-zeekr-boot"
+        "ev-zeekr-model"
       ]
     },
     "bootAllRows": {
       "value": 539,
       "unit": "L",
-      "basis": "Australian review reports rear cargo seats up; measurement standard unspecified; do not compare directly with VDA values",
+      "basis": "Current Australian manufacturer model page rear luggage claim; measurement standard and sliding-seat/loading details are not specified. Excludes front compartment.",
       "sourceIds": [
-        "ev-zeekr-boot"
+        "ev-zeekr-model"
       ]
     },
     "length": {
@@ -2635,10 +2690,12 @@
       ]
     },
     "towing": {
-      "value": null,
+      "value": 2000,
       "unit": "kg",
-      "basis": "Not verified for this Australian configuration",
-      "sourceIds": []
+      "basis": "Australian ROVER VTA-065421 rear-drive variant declaration: 2,000 kg braked, 750 kg unbraked. Confirm VIN approval, approved towbar/towball load and loaded vehicle limits. This is an approval limit, not a loaded towing road test.",
+      "sourceIds": [
+        "ev-deep-zeekr-rvd-towing"
+      ]
     },
     "warranty": "5 years / unlimited km basic vehicle cover; exclusions apply.",
     "batteryWarranty": "8 years / 160,000 km; confirm capacity threshold and original terms.",
@@ -2689,7 +2746,6 @@
     ],
     "gaps": [
       "No independent three-forward-facing/booster trial or rated consumption verified.",
-      "Rear-boot measurement method, towing and VIN-specific servicing cost remain unverified.",
       "Manufacturer brochure calls range a WLTP target; confirm final approval for the listed car."
     ],
     "sourceIds": [
@@ -2699,7 +2755,8 @@
       "ev-zeekr-review",
       "ev-zeekr-price",
       "ev-zeekr-boot",
-      "ev-zeekr-anchor-report"
+      "ev-zeekr-anchor-report",
+      "ev-deep-zeekr-rvd-towing"
     ],
     "checked": "2026-10-18"
   }

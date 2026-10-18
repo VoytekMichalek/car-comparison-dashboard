@@ -10,38 +10,51 @@ const phev: Vehicle = { ...vehicles[0], powertrain: 'PHEV', consumption: fact(18
 const known = vehicles[0].id;
 
 describe('energy costs under actual shopping scenarios', () => {
+  const scenarioCosts = { ...defaultCosts, petrolRate: 1.9, premiumPetrolRate: 1.9 };
+  it('uses premium petrol for the required grade and preserves older single-rate settings', () => {
+    const premium = { ...hev, fuel: { planningRon: 95 as const, minimumRon: 95 as const, basis: 'Test fixture', confidence: 'high' as const, sourceIds: [], checked: '2026-10-18' } };
+    const rates = { ...defaultCosts, petrolRate: 2, premiumPetrolRate: 2.4 };
+    expect(calculateEnergy(hev, rates).petrol).toBe(1500);
+    expect(calculateEnergy(premium, rates).petrol).toBe(1800);
+    const { premiumPetrolRate: _unused, ...legacy } = rates;
+    expect(calculateEnergy(premium, legacy).petrol).toBe(1500);
+    expect(calculateEnergy(premium, { ...rates, premiumPetrolRate: 0 }).petrol).toBe(0);
+    expect(calculateEnergy(premium, { ...rates, premiumPetrolRate: -1 }).total).toBeNull();
+    const backup = { ...emptyPersonal(), costs: legacy };
+    expect(parseBackup(JSON.stringify(backup)).costs).toEqual(legacy);
+  });
   it('accounts for electricity bought at the wall and a home/public mix', () => {
     // 2,700 kWh at battery /90% charging efficiency × $0.335 blended rate.
-    expect(calculateEnergy(ev, defaultCosts).total).toBeCloseTo(1005);
+    expect(calculateEnergy(ev, scenarioCosts).total).toBeCloseTo(1005);
   });
   it('does not treat a non-plug-in hybrid as publicly chargeable', () => {
-    expect(calculateEnergy(hev, { ...defaultCosts, publicRate: 9, homeShare: 0 }).total).toBe(1425);
+    expect(calculateEnergy(hev, { ...scenarioCosts, publicRate: 9, homeShare: 0 }).total).toBe(1425);
   });
   it('applies no extra loss to rated mains consumption and withholds an unknown boundary', () => {
     const wall = { ...ev, consumption: { ...ev.consumption, energyBasis: 'wall' as const } };
-    expect(calculateEnergy(wall, defaultCosts).total).toBeCloseTo(904.5);
-    expect(calculateEnergy(wall, { ...defaultCosts, chargingLoss: 40 }).total).toBeCloseTo(904.5);
-    expect(calculateEnergy({ ...ev, consumption: { ...ev.consumption, energyBasis: 'unspecified' } }, defaultCosts).total).toBeNull();
+    expect(calculateEnergy(wall, scenarioCosts).total).toBeCloseTo(904.5);
+    expect(calculateEnergy(wall, { ...scenarioCosts, chargingLoss: 40 }).total).toBeCloseTo(904.5);
+    expect(calculateEnergy({ ...ev, consumption: { ...ev.consumption, energyBasis: 'unspecified' } }, scenarioCosts).total).toBeNull();
   });
   it('splits PHEV distance before applying electric and depleted petrol use', () => {
-    const result = calculateEnergy(phev, defaultCosts);
+    const result = calculateEnergy(phev, scenarioCosts);
     expect(result.electric).toBeCloseTo(804);
     expect(result.petrol).toBeCloseTo(342);
     expect(result.total).toBeCloseTo(1146);
   });
   it('withholds a PHEV estimate rather than use weighted fuel use', () => {
-    expect(calculateEnergy({ ...phev, depletedConsumption: fact(null, 'L/100km') }, defaultCosts).total).toBeNull();
-    expect(calculateEnergy({ ...phev, consumption: fact(1.1, 'L/100km') }, defaultCosts).total).toBeNull();
+    expect(calculateEnergy({ ...phev, depletedConsumption: fact(null, 'L/100km') }, scenarioCosts).total).toBeNull();
+    expect(calculateEnergy({ ...phev, consumption: fact(1.1, 'L/100km') }, scenarioCosts).total).toBeNull();
   });
   it('supports electric-only or petrol-only PHEV scenarios with just the needed evidence', () => {
-    expect(calculateEnergy({ ...phev, depletedConsumption: fact(null, 'L/100km') }, { ...defaultCosts, electricShare: 100 }).total).toBeCloseTo(1005);
-    expect(calculateEnergy({ ...phev, consumption: fact(null, 'kWh/100km') }, { ...defaultCosts, electricShare: 0 }).total).toBeCloseTo(1710);
+    expect(calculateEnergy({ ...phev, depletedConsumption: fact(null, 'L/100km') }, { ...scenarioCosts, electricShare: 100 }).total).toBeCloseTo(1005);
+    expect(calculateEnergy({ ...phev, consumption: fact(null, 'kWh/100km') }, { ...scenarioCosts, electricShare: 0 }).total).toBeCloseTo(1710);
   });
   it('handles zero distance, missing efficiency and invalid settings', () => {
-    expect(calculateEnergy(ev, { ...defaultCosts, annualKm: 0 }).total).toBe(0);
-    expect(calculateEnergy({ ...ev, consumption: fact(null, 'kWh/100km') }, defaultCosts).total).toBeNull();
-    expect(calculateEnergy(ev, { ...defaultCosts, homeShare: 101 }).total).toBeNull();
-    expect(calculateEnergy(ev, { ...defaultCosts, annualKm: NaN }).total).toBeNull();
+    expect(calculateEnergy(ev, { ...scenarioCosts, annualKm: 0 }).total).toBe(0);
+    expect(calculateEnergy({ ...ev, consumption: fact(null, 'kWh/100km') }, scenarioCosts).total).toBeNull();
+    expect(calculateEnergy(ev, { ...scenarioCosts, homeShare: 101 }).total).toBeNull();
+    expect(calculateEnergy(ev, { ...scenarioCosts, annualKm: NaN }).total).toBeNull();
   });
 });
 

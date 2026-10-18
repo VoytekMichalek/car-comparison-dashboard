@@ -1,10 +1,19 @@
 import { describe, expect, it } from 'vitest';
 import { existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { repairReserves, expertReviews, images, ownershipInfo, insuranceEstimates, tyreEstimates, prices, sources, validateReferences, vehicles } from './data';
-import { rangeStandard } from './lib';
+import { repairReserves, expertReviews, images, ownershipInfo, insuranceEstimates, tyreEstimates, prices, sources, validateReferences, vehicles, energyAssumptions } from './data';
+import { defaultCosts, rangeStandard } from './lib';
 
 describe('researched catalogue integrity', () => {
+  it('matches dated fuel benchmarks and keeps conflicting grade guidance explicit', () => {
+    expect(defaultCosts.petrolRate).toBe(energyAssumptions.regularRate);
+    expect(defaultCosts.premiumPetrolRate).toBe(energyAssumptions.premiumRate);
+    expect(vehicles.find(v => v.id === 'sealion6-dynamic-183')?.fuel?.minimumRon).toBe(95);
+    expect(vehicles.find(v => v.id === 'xtrail-ti-epower-awd')?.fuel?.minimumRon).toBe(91);
+    expect(vehicles.find(v => v.id === 'rav4-gxl-hev-2021-25')?.fuel?.planningRon).toBe(91);
+    expect(vehicles.find(v => v.id === 'rav4-gxl-hev-2026')?.fuel?.planningRon).toBe(95);
+    expect(vehicles.find(v => v.id === 'sorento-phev-gtline-2021-23')?.fuel).toMatchObject({ planningRon: 95, minimumRon: null, confidence: 'low' });
+  });
   it('covers all twelve agreed model families with distinct configurations', () => {
     expect(new Set(vehicles.map(v => v.familyId))).toEqual(new Set(['tesla-model-y', 'byd-atto-3', 'kia-ev6', 'kia-ev5', 'hyundai-ioniq-5', 'zeekr-7x', 'mitsubishi-outlander-phev', 'byd-sealion-6', 'nissan-x-trail-epower', 'toyota-rav4-hybrid', 'toyota-kluger-hybrid', 'kia-sorento']));
     expect(vehicles.length).toBeGreaterThanOrEqual(24);
@@ -16,9 +25,11 @@ describe('researched catalogue integrity', () => {
     for (const r of expertReviews) {
       expect(r.scope.length).toBeGreaterThan(30);
       expect(r.rating !== null || r.verdict.length > 0).toBe(true);
+      if (r.rating !== null) expect(r.rating).toBeLessThanOrEqual(r.outOf);
       for (const id of r.vehicleIds) expect(vehicles.find(v => v.id === id)?.familyId).toBe(r.familyId);
     }
     expect(expertReviews.find(r => r.id === 'sorento-hev')?.vehicleIds).toEqual([]);
+    expect(expertReviews.find(r => r.id === 'ioniq84-rwd-local')?.outOf).toBe(5);
   });
   it('uses defined units and source evidence for verified numeric facts', () => {
     for (const v of vehicles) {
@@ -39,8 +50,10 @@ describe('researched catalogue integrity', () => {
   it('keeps MY23 Ioniq 5 powertrains separate from the earlier battery and price samples', () => {
     const rwd = vehicles.find(v => v.id === 'ioniq5-dynamiq-rwd-2023')!;
     const awd = vehicles.find(v => v.id === 'ioniq5-techniq-awd-2023')!;
-    expect(rwd.years).toEqual([2023]);
-    expect(awd.years).toEqual([2023]);
+    expect(rwd.years).toContain(2023);
+    expect(awd.years).toContain(2023);
+    expect(Math.min(...rwd.years)).toBeGreaterThanOrEqual(2022);
+    expect(Math.min(...awd.years)).toBeGreaterThanOrEqual(2022);
     expect(rwd.battery.value).toBe(77.4);
     expect(awd.battery.value).toBe(77.4);
     expect(rwd.range.value).toBe(507);
@@ -51,9 +64,14 @@ describe('researched catalogue integrity', () => {
     expect(awd.familyFit.status).toBe('unverified');
     expect(rwd.safety.sourceIds).toContain('ev-ioniq-ancap');
     const guide = prices.find(p => p.vehicleId === rwd.id)!;
-    expect(guide.kind).toBe('estimate');
-    expect(guide.sampleCount).toBe(0);
-    expect(guide.confidence).toBe('low');
+    expect(guide.point).toBeGreaterThan(0);
+    if (guide.kind === 'estimate') {
+      expect(guide.sampleCount).toBe(0);
+      expect(guide.confidence).toBe('low');
+    } else {
+      expect(guide.sampleCount).toBe(guide.observations?.length);
+      expect(guide.observations!.every(o => o.year !== null && rwd.years.includes(o.year))).toBe(true);
+    }
     expect(prices.find(p => p.vehicleId === awd.id)?.observations?.[0].year).toBe(2023);
     expect(expertReviews.find(r => r.id === 'ioniq5-techniq-2023')?.vehicleIds).toEqual([awd.id]);
   });
@@ -85,6 +103,10 @@ describe('researched catalogue integrity', () => {
       expect(t.lifeLowKm).toBeLessThanOrEqual(t.lifeKm);
       expect(t.lifeHighKm).toBeGreaterThanOrEqual(t.lifeKm);
       expect(t.sourceIds.length).toBeGreaterThan(0);
+      if (t.retailAnchor) {
+        expect(t.setCost).toBeCloseTo(t.retailAnchor.unitPrice * t.retailAnchor.quantity, 2);
+        expect(t.sourceIds).toContain(t.retailAnchor.sourceId);
+      }
     }
   });
   it('bundles genuine local image assets and license attribution', () => {

@@ -1,0 +1,16 @@
+{
+  "checked": "2026-10-18",
+  "regularRate": 2.21,
+  "premiumRate": 2.38,
+  "regularBasis": "A$2.21/L: RACQ Brisbane September 2026 monthly ULP91 average, published 7 October. A dated benchmark, not today’s pump price.",
+  "premiumBasis": "A$2.38/L: estimated premium-95 planning rate. September ULP91 A$2.210 plus the September-quarter 95–91 price gap (A$2.161 − A$1.992) = A$2.379, rounded. No observed September monthly PULP95 figure was available.",
+  "homeBasis": "A$0.30/kWh is illustrative. AER’s 2026–27 Energex flat residential standing-offer usage cap is 27.9744c/kWh including GST. Existing household daily supply charges are excluded from additional vehicle charging.",
+  "publicBasis": "A$0.65/kWh is illustrative, not a Queensland average or maximum. Operators publish location/session prices in their apps. Idle fees and subscriptions are excluded.",
+  "sourceIds": [
+    "energy-racq-sep-2026",
+    "energy-aer-dmo-2026",
+    "energy-evie-tariffs",
+    "energy-ampcharge-tariffs",
+    "energy-chargefox-tariffs"
+  ]
+}

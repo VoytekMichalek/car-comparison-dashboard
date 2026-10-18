@@ -99,7 +99,7 @@
     "vehicleIds": [
       "ev6-air-2022"
     ],
-    "tested": "2023 Kia EV6 Air RWD 77.4 kWh",
+    "tested": "2023 Kia EV6 Air RWD",
     "scope": "Original Air RWD, not a GT-Line or 84-kWh facelift. Historical supply and new-price comments are not current used-market evidence.",
     "publisher": "CarExpert",
     "published": "2022-12-05",
@@ -445,6 +445,126 @@
     ],
     "sourceIds": [
       "ev-ioniq-2023-roadtest"
+    ]
+  },
+  {
+    "id": "atto-evo-local",
+    "familyId": "byd-atto-3",
+    "vehicleIds": [
+      "atto3-evo-premium-2026"
+    ],
+    "tested": "2026 BYD Atto 3 EVO Premium RWD",
+    "scope": "Australian Sydney launch drive of Premium RWD, replacing overseas-only context. Test tyres were over-inflated; ride observations have that limitation. An informal eight-point driving remark is not treated as a formal overall score.",
+    "publisher": "WhichCar / Wheels",
+    "published": "2026-10-02",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "No formal score",
+    "positiveThemes": [
+      "More engaging rear-drive handling and a more open cabin."
+    ],
+    "negativeThemes": [
+      "Intrusive assistance warnings and limited regeneration adjustment."
+    ],
+    "sourceIds": [
+      "expert-atto-evo-local"
+    ]
+  },
+  {
+    "id": "ioniq-dynamiq-2023",
+    "familyId": "hyundai-ioniq-5",
+    "vehicleIds": [
+      "ioniq5-dynamiq-rwd-2023"
+    ],
+    "tested": "2023 Hyundai Ioniq 5 Dynamiq RWD",
+    "scope": "One week with a family of three in the 77.4-kWh MY23 Dynamiq. Direct RWD match; this is not a three-child-seat trial or evidence of the Techniq AWD driving behaviour. Historical new prices are not current shopping figures.",
+    "publisher": "CarsGuide",
+    "published": "2023-06-09",
+    "checked": "2026-10-18",
+    "rating": 7.5,
+    "outOf": 10,
+    "verdict": "",
+    "positiveThemes": [
+      "Spacious cabin, useful family storage and clear parking cameras."
+    ],
+    "negativeThemes": [
+      "The reviewer disliked high-speed ride behaviour and open-road composure."
+    ],
+    "sourceIds": [
+      "expert-ioniq-dynamiq-2023"
+    ]
+  },
+  {
+    "id": "ioniq84-rwd-local",
+    "familyId": "hyundai-ioniq-5",
+    "vehicleIds": [
+      "ioniq5-rwd-84-2025"
+    ],
+    "tested": "2025/26 Hyundai Ioniq 5 Base 84-kWh RWD",
+    "scope": "Australian base 84-kWh RWD on 19-inch wheels; tested car lacks the later Digital Key update. Preserve the original 4/5 score. Its March 2026 offer has expired. Use manufacturer specifications rather than the article’s conflicting dynamic comparison widgets or charger-power table.",
+    "publisher": "EV Central",
+    "published": "2026-02-08",
+    "checked": "2026-10-18",
+    "rating": 4,
+    "outOf": 5,
+    "verdict": "",
+    "positiveThemes": [
+      "Comfortable everyday driving, practical rear space and useful driving range."
+    ],
+    "negativeThemes": [
+      "High purchase price; missing heated seats and powered tailgate at this grade."
+    ],
+    "sourceIds": [
+      "expert-ioniq84-rwd-local"
+    ]
+  },
+  {
+    "id": "ev5-air-sr-local",
+    "familyId": "kia-ev5",
+    "vehicleIds": [
+      "ev5-air-standard-2024"
+    ],
+    "tested": "2025 Kia EV5 Air Standard Range",
+    "scope": "One week in an Australian 64.2-kWh Air Standard Range. Direct drivetrain and grade match; no numerical overall score verified. Historical new-car price comparisons do not establish today’s used prices.",
+    "publisher": "Carscoops",
+    "published": "2025-04-06",
+    "checked": "2026-10-18",
+    "rating": null,
+    "outOf": 10,
+    "verdict": "Week-long road test",
+    "positiveThemes": [
+      "Spacious, practical SUV cabin and supportive seats."
+    ],
+    "negativeThemes": [
+      "The test identifies compromises in driving dynamics."
+    ],
+    "sourceIds": [
+      "expert-ev5-air-sr-local"
+    ]
+  },
+  {
+    "id": "sealion-dynamic-local",
+    "familyId": "byd-sealion-6",
+    "vehicleIds": [
+      "sealion6-dynamic-183"
+    ],
+    "tested": "2024 BYD Sealion 6 Dynamic FWD",
+    "scope": "Original 18.3-kWh Dynamic FWD, before later suspension revisions; directly relevant to the 2024 car, not Extended Range. Observed 5.1L/100km involved charging every other day and is not a depleted-battery consumption result. The original overall rating is 4/5: the publisher displays four with an 80%-filled five-star scale.",
+    "publisher": "Driving Enthusiast",
+    "published": "2025-01-18",
+    "checked": "2026-10-18",
+    "rating": 4,
+    "outOf": 5,
+    "verdict": "",
+    "positiveThemes": [
+      "Generous passenger space, substantial equipment and comfortable touring."
+    ],
+    "negativeThemes": [
+      "Abrupt AEB interventions reported, modest steering feedback and no spare tyre."
+    ],
+    "sourceIds": [
+      "expert-sealion-dynamic-local"
     ]
   }
 ]

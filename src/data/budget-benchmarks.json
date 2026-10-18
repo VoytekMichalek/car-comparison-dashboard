@@ -4,10 +4,15 @@
   "insuranceMethodology": {
     "sourceIds": [
       "budget-insurance-study",
-      "budget-insurance-factors"
+      "budget-insurance-factors",
+      "budget-insurance-youi-kia",
+      "budget-insurance-youi-hyundai",
+      "budget-insurance-youi-zeekr",
+      "budget-insurance-youi-byd",
+      "budget-insurance-kluger-nrma-2026"
     ],
     "profile": "Published March 2026 reference: 34-year-old male, Alderley Brisbane, clean record, garaged, 15,000km/year, market value, about A$900 excess; entry variants.",
-    "interpretation": "Research anchors and explicit model/class proxies support planning estimates. They are not quotes for this household, every model year or every variant. Low/high bounds and proxy multipliers are dashboard assumptions, not observed insurer minima/maxima or actuarial adjustments. Replace with actual quotes when available.",
+    "interpretation": "Prefer a recent exact-model benchmark over a generic class proxy. Brisbane entry-variant quote studies, national single-insurer sold-policy aggregates and a NSW annualised study have different populations; do not pool their means. A published range midpoint is a planning choice, not an observed mean. Youi describes its indicative range as covering 80% of applicable premiums within or below it, not a confidence interval. None is a household quote; bounds and proxy adjustments remain assumptions.",
     "rangeMeaning": "Illustrative household-budget sensitivity range. Actual premiums can fall outside it, especially with young drivers, claims, different parking/address, excess or cover."
   },
   "tyresAnnual": {

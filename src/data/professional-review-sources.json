@@ -33,7 +33,7 @@
   },
   {
     "id": "expert-ev6-air",
-    "title": "2023 Kia EV6 Air RWD 77.4 kWh — road test",
+    "title": "2023 Kia EV6 Air — Australian road test (published December 2022)",
     "url": "https://www.carexpert.com.au/car-reviews/2022-kia-ev6-air-review",
     "publisher": "CarExpert",
     "kind": "review",
@@ -140,6 +140,46 @@
     "title": "2026 Kia Sorento GT-Line HEV FWD — road test",
     "url": "https://www.carexpert.com.au/car-reviews/2026-kia-sorento-review",
     "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-atto-evo-local",
+    "title": "2026 BYD Atto 3 EVO Premium RWD — Australian road test",
+    "url": "https://www.whichcar.com.au/reviews/byd-atto-3-evo-review-australia-premium-dynamic-2026-specs-price",
+    "publisher": "WhichCar / Wheels",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-ioniq-dynamiq-2023",
+    "title": "2023 Hyundai Ioniq 5 Dynamiq RWD — Australian road test",
+    "url": "https://www.carsguide.com.au/family/hyundai-ioniq-5-dynamiq-2wd-89991",
+    "publisher": "CarsGuide",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-ioniq84-rwd-local",
+    "title": "2025/26 Hyundai Ioniq 5 Base 84-kWh RWD — Australian road test",
+    "url": "https://evcentral.com.au/2025-hyundai-ioniq-5-base-review-can-this-entry-level-ev-variant-keep-the-cheaper-byd-sealion-7-and-tesla-model-y-at-bay/",
+    "publisher": "EV Central",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-ev5-air-sr-local",
+    "title": "2025 Kia EV5 Air Standard Range — Australian road test",
+    "url": "https://www.carscoops.com/2025/04/2025-kia-ev5-air-review-an-affordable-electric-suv-that-aims-to-please-not-thrill/",
+    "publisher": "Carscoops",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "expert-sealion-dynamic-local",
+    "title": "2024 BYD Sealion 6 Dynamic FWD — Australian road test",
+    "url": "https://drivingenthusiast.com.au/2025/01/2024-byd-sealion-6-dynamic-review-video/",
+    "publisher": "Driving Enthusiast",
     "kind": "review",
     "checked": "2026-10-18"
   }

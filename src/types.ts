@@ -62,6 +62,7 @@ export interface Vehicle {
   gaps: string[];
   sourceIds: string[];
   checked: string;
+  fuel?: { planningRon: 91 | 95; minimumRon: 91 | 95 | null; basis: string; confidence: Confidence; sourceIds: string[]; checked: string };
 }
 export interface PriceSnapshot {
   id: string;
@@ -109,6 +110,7 @@ export interface CostSettings {
   homeRate: number;
   publicRate: number;
   petrolRate: number;
+  premiumPetrolRate?: number;
   homeShare: number;
   electricShare: number;
   chargingLoss: number;

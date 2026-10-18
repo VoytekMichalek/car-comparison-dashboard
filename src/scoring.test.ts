@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { vehicles } from './data';
-import { defaultFilters, defaultWeights, emptyPersonal, parseBackup, parseHash, publicHash } from './lib';
+import { defaultFilters, defaultOwnership, defaultWeights, emptyPersonal, parseBackup, parseHash, publicHash } from './lib';
 import { scoreVehicle } from './scoring';
+import { reviewScope } from './reviewScope';
 import type { ScoreWeights } from './types';
 
 const v = vehicles[0];
@@ -46,11 +47,34 @@ describe('transparent importance-weighted scoring', () => {
       expect(owners.adjusted).toBe(5);
     }
   });
+  it('limits contaminated review aggregates and further reduces unmatched updates', () => {
+    const older = vehicles.find(v => v.id === 'outlander-phev-aspire-20')!;
+    const updated = vehicles.find(v => v.id === 'outlander-phev-aspire-227')!;
+    expect(reviewScope(older).factor).toBeLessThan(1);
+    expect(reviewScope(updated).factor).toBeLessThan(reviewScope(older).factor);
+    expect(reviewScope(older).note).toContain('2021 GSR');
+    const air = vehicles.find(v => v.id === 'ev6-air-2022')!;
+    expect(scoreVehicle(air, emptyPersonal()).categories.find(c => c.key === 'owners')!.confidence).toBeLessThan(.05);
+  });
   it('respects electric-range preference without pretending HEVs are plug-ins', () => {
     const hybrid = vehicles.find(v => v.powertrain === 'HEV')!;
     const range = scoreVehicle(hybrid, emptyPersonal()).categories.find(c => c.key === 'range')!;
     expect(range.score).toBe(1);
     expect(range.confidence).toBe(1);
+  });
+  it('uses the saved deal price in scoring and clears it back to research', () => {
+    const other = vehicles.find(car => car.id !== v.id)!;
+    const original = scoreVehicle(v, emptyPersonal()).categories.find(c => c.key === 'price')!;
+    const personal = { ...emptyPersonal(), ownership: { ...defaultOwnership, vehicleOverrides: { [v.id]: { purchase: 30000 } } } };
+    const saved = scoreVehicle(v, personal).categories.find(c => c.key === 'price')!;
+    expect(saved.score).toBe(10);
+    expect(saved.confidence).toBe(1);
+    expect(saved.reason).toContain('30,000');
+    expect(scoreVehicle(other, personal).categories.find(c => c.key === 'price')).toEqual(scoreVehicle(other, emptyPersonal()).categories.find(c => c.key === 'price'));
+    const cleared = { ...personal, ownership: { ...personal.ownership, vehicleOverrides: { [v.id]: { purchase: null } } } };
+    expect(scoreVehicle(v, cleared).categories.find(c => c.key === 'price')).toEqual(original);
+    const shared = { ...cleared, ownership: { ...cleared.ownership, purchasePrice: 60000 } };
+    expect(scoreVehicle(v, shared).categories.find(c => c.key === 'price')?.score).toBe(3);
   });
   it('round-trips public weights and rejects out-of-range weights', () => {
     const ids = new Set(vehicles.map(v => v.id));

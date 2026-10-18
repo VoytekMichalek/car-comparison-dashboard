@@ -614,5 +614,245 @@
     "publisher": "Launceston Mitsubishi",
     "kind": "market",
     "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-sorento-my23",
+    "title": "Australian MY23 Sorento HEV/PHEV manufacturer mechanical and feature sheet (dealer-hosted original)",
+    "url": "https://web-assets.cdn.dealersolutions.com.au/modular.multisite.dealer.solutions/wp-content/uploads/2022/10/20115827/kia-sorento-hybrid-brochure-1.pdf",
+    "publisher": "Kia Australia / authorised dealer",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-xt-my26",
+    "title": "Nissan MY26 X-Trail specification sheet, updated August 2026: FWD/AWD, dimensions, boot, anchors and tyres",
+    "url": "https://www.nissan.com.au/vehicles/browse-range/x-trail/download-specsheet.html",
+    "publisher": "Nissan Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-xt-ancap",
+    "title": "ANCAP X-Trail current applicability page: all variants,2021 datestamp, December 2027 expiry",
+    "url": "https://www.ancap.com.au/safety-ratings/nissan/x-trail/7b8e49",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-rav-current",
+    "title": "Toyota 2026 RAV4 current Australian page: up to705L rear-seats-upright cargo volume; measurement boundary unstated",
+    "url": "https://www.toyota.com.au/rav4",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-rav-old-dealer",
+    "title": "Australian Toyota-dealer 2025 GXL2WD hybrid specifications: dimensions, fuel use, tyres and towing",
+    "url": "https://www.airporttoyota.com.au/vehicle-inventory/details/OAG-AD-25681890/2025-toyota-rav4-used",
+    "publisher": "Airport Toyota",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-kluger-dealer",
+    "title": "Australian Toyota-dealer 2025 GXeFour hybrid specifications:235/65R18, dimensions and fuel use",
+    "url": "https://www.canningvaletoyota.com.au/vehicle-inventory/details/686109-U111206/2025-toyota-kluger-used",
+    "publisher": "Canning Vale Toyota",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-rav-fit-phev",
+    "title": "BabyDrive 2026 RAV4 PHEV sibling test: three across, twoISOFIX/three seatback tethers; not a GXL HEV test",
+    "url": "https://babydrive.com.au/reviews/suvs/2026-toyota-rav4-phev-review/",
+    "publisher": "BabyDrive",
+    "kind": "family-test",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-out-ross",
+    "title": "Ross Gray 2022 MY23 PHEV Aspire stock 00040414: conflicting DAP/EGC header labels",
+    "url": "https://www.rossgray.com.au/all-stock/view/2022-Mitsubishi-Outlander/34692924",
+    "publisher": "Ross Gray Motor City, Bundaberg",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-out-hendra",
+    "title": "2025 MY24 five-seat 20 kWh Aspire stock H31146, current InStock advertisement",
+    "url": "https://www.carsguide.com.au/car/15341035/mitsubishi/outlander/qld/hendra/suv",
+    "publisher": "easyauto123 Hendra via CarsGuide",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-sl6-extended-stock",
+    "title": "Current QLD new Sealion 6 Dynamic Extended stock 8125424/8125425/8125426",
+    "url": "https://evdealergroup-byd.com.au/inventory?model=sealion-6&state=QLD&type=n",
+    "publisher": "EV Dealer Group BYD",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-xt-motorama",
+    "title": "2023 X-Trail Ti e-Power AWD stock U229441, current InStock dealer page",
+    "url": "https://www.motorama.com.au/cars/used-white-2023-nissan-x-trail-u229441",
+    "publisher": "Motorama Mitsubishi Springwood",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-xtfwd-townsville",
+    "title": "2026 MY26 X-Trail ST-L e-Power FWD new stock 3018561",
+    "url": "https://www.townsvillenissan.com.au/cars/new-everest-white-2026-nissan-x-trail-3018561",
+    "publisher": "Townsville Nissan",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-xtfwd-alto",
+    "title": "2026 MY26 X-Trail ST-L e-Power FWD new stock 3019432",
+    "url": "https://www.alto.com.au/stock/details/OAG-AD-26319594/2026-nissan-x-trail-new",
+    "publisher": "Alto Nissan",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-xtfwd-bega",
+    "title": "2026 MY26 X-Trail ST-L e-Power FWD new stock B5382",
+    "url": "https://www.begavalleynissan.com.au/new-cars/for-sale/nissan/x-trail/2026/st-l-e-power/t33-my26/4111520/",
+    "publisher": "Bega Valley Nissan",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-rav-geebung",
+    "title": "2021 RAV4 GXL 2WD Hybrid stock S13107, InStock current price",
+    "url": "https://www.carsguide.com.au/car/15320487/toyota/rav4/qld/geebung/suv",
+    "publisher": "TWG Cars Geebung via CarsGuide",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-rav-kedron",
+    "title": "2021 RAV4 GXL 2WD Hybrid stock U011098, distinct VIN",
+    "url": "https://www.carsguide.com.au/car/15341115/toyota/rav4/qld/kedron/suv",
+    "publisher": "Kedron dealer via CarsGuide",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-rav-salisbury",
+    "title": "2021 RAV4 GXL 2WD Hybrid stock U230376, high-kilometre budget example",
+    "url": "https://www.carsguide.com.au/car/15360174/toyota/rav4/qld/salisbury/suv",
+    "publisher": "Bigbox Cars Salisbury via CarsGuide",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-rav-southside",
+    "title": "New 2026 RAV4 GXL Hybrid 2WD Atomic Rush VIN JTM5DABV60D339542",
+    "url": "https://southsidetoyota.dealer.toyota.com.au/inventory/rav4/gxl/2wd/2026/JTM5DABV60D339542",
+    "publisher": "Southside Toyota",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-rav-sydney",
+    "title": "New 2026 RAV4 GXL Hybrid 2WD stock 13085169, current VIN",
+    "url": "https://sydneycitytoyota.dealer.toyota.com.au/inventory/rav4/gxl/2wd/2026/JTM5DABV40D339121",
+    "publisher": "Sydney City Toyota",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-kluger-booval",
+    "title": "2022 Kluger GX Hybrid AWD stock U675461, current direct dealer price",
+    "url": "https://www.llewellynmotors.com.au/used-cars/for-sale/toyota/kluger-hybrid/2022/gx-awd/3974517/",
+    "publisher": "Llewellyn Motors / Toyota Ipswich",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-kluger-gympie",
+    "title": "2022 Kluger GX Hybrid AWD stock U13155, current price and odometer",
+    "url": "https://www.pacificmitsubishi.com.au/used-cars/for-sale/toyota/kluger/2022/gx/axuh78r-4x4-on-demand/4042218/",
+    "publisher": "Pacific Mitsubishi Gympie",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-sorento-wynnum",
+    "title": "2022 Sorento PHEV GT-Line AWD stock W35894, current InStock seller advertisement",
+    "url": "https://www.carsguide.com.au/car/15350791/kia/sorento/qld/wynnum/suv",
+    "publisher": "Bartons Wynnum via CarsGuide",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-xt-my26-service",
+    "title": "Official MY26 X-Trail launch: 15,000 km / 12 month interval replaces 10,000 km / 12 months",
+    "url": "https://australia.nissannews.com/en-AU/releases/my26-nissan-x-trail-now-on-sale-in-australia?origin=channel-75f606e125080a9f50f6de56880080bc",
+    "publisher": "Nissan Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-sl6-handbook",
+    "title": "Australian Sealion 6 owner handbook currently linked by BYD: towing p108–109 and 95-grade fuel p109",
+    "url": "https://bydautomotive.com.au/brochures/BYD-SEALION-6-Owners-Handbook-2024.pdf",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-kluger-spec-26",
+    "title": "Toyota Kluger current specification table, 23 February 2026: hybrid fuel, boot, dimensions and towing",
+    "url": "https://www.toyota.com.au/-/media/toyota/main-site/vehicle-hubs/kluger/files/20260223_kluger_spec_table-_gto009639.pdf?rev=221d4e90078d4986993973ca39042df0",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-kluger-launch-21",
+    "title": "Toyota original Australian Kluger launch, 13 April 2021: hybrid minimum 95 RON and 5.6 L/100 km",
+    "url": "https://pressroom.toyota.com.au/PressRelease?pr-code=8cbe4d03-5f20-4ff0-bf2f-f0e55e8350f9",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-kia-fuel",
+    "title": "Kia Australia fuel guidance: HEV regular 91, current Sorento PHEV 95 RON",
+    "url": "https://www.kia.com/au/cars/hybrid-cars.html",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-sl6-ext-8125424",
+    "title": "QLD new Dynamic Extended stock 8125424, exact current inventory card",
+    "url": "https://evdealergroup-byd.com.au/inventory?model=sealion-6&state=QLD&type=n#carousel941461",
+    "publisher": "EV Dealer Group BYD",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-sl6-ext-8125425",
+    "title": "QLD new Dynamic Extended stock 8125425, exact current inventory card",
+    "url": "https://evdealergroup-byd.com.au/inventory?model=sealion-6&state=QLD&type=n#carousel941462",
+    "publisher": "EV Dealer Group BYD",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-deep-price-sl6-ext-8125426",
+    "title": "QLD new Dynamic Extended stock 8125426, exact current inventory card",
+    "url": "https://evdealergroup-byd.com.au/inventory?model=sealion-6&state=QLD&type=n#carousel941463",
+    "publisher": "EV Dealer Group BYD",
+    "kind": "market",
+    "checked": "2026-10-18"
   }
 ]

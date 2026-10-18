@@ -26,6 +26,8 @@ import rawTyres from './data/tyre-estimates.json';
 import rawInsurance from './data/insurance-estimates.json';
 import rawBenchmarks from './data/budget-benchmarks.json';
 import budgetSources from './data/budget-estimate-sources.json';
+import rawFuelRequirements from './data/fuel-requirements.json';
+import rawEnergyAssumptions from './data/energy-assumptions.json';
 import type { ExpertReview, BrandInfo, ImageAsset, InsuranceEstimate, OwnerReview, OwnershipInfo, PriceSnapshot, Source, Vehicle } from './types';
 
 const refs = z.array(z.string());
@@ -45,7 +47,10 @@ const sourceSchema = z.object({ id: z.string(), title: z.string(), url: z.url(),
 const priceSchema = z.object({ id: z.string(), vehicleId: z.string(), low: z.number().nonnegative().nullable(), high: z.number().nonnegative().nullable(), condition: z.enum(['used', 'new']), basis: z.enum(['drive-away', 'excludes-charges', 'mixed', 'unverified']), sampleCount: z.number().int().nonnegative(), geography: z.string(), kilometres: z.string(), observed: date, note: z.string(), sourceIds: refs, kind: z.enum(['observation', 'estimate']).optional(), confidence: confidence.optional(), estimateBasis: z.string().optional(), point: z.number().finite().nonnegative().optional(), observations: z.array(z.object({ price: z.number().finite().nonnegative(), basis: z.enum(['drive-away', 'excludes-charges', 'mixed', 'unverified']), year: z.number().int().min(2021).max(2026).nullable(), kilometres: z.number().nonnegative().nullable(), location: z.string(), url: z.url(), sourceId: z.string(), checked: date, note: z.string() })).optional() }).superRefine((p, ctx) => { if (p.point !== undefined && (p.low === null || p.high === null || p.point < p.low || p.point > p.high)) ctx.addIssue({ code: 'custom', message: 'Representative price must be inside its range.' }); if (p.low !== null && (p.high === null || p.high < p.low || p.kind !== 'estimate' && p.sampleCount < 1 || !p.sourceIds.length)) ctx.addIssue({ code: 'custom', message: 'A price needs an ordered range, sources and either an observed sample or an explicit estimate label.' }); });
 const imageSchema = z.object({ familyId: z.string(), path: z.string().startsWith('/images/'), alt: z.string(), credit: z.string(), license: z.string(), licenseUrl: z.url(), sourceUrl: z.url(), generation: z.string(), note: z.string() });
 
-export const vehicles: Vehicle[] = z.array(vehicleSchema).parse([...evVehicles, ...hybridVehicles]);
+const fuelSchema = z.object({ vehicleId: z.string(), planningRon: z.union([z.literal(91), z.literal(95)]), minimumRon: z.union([z.literal(91), z.literal(95)]).nullable(), basis: z.string(), confidence, sourceIds: refs.min(1), checked: date });
+export const fuelRequirements = z.array(fuelSchema).parse(rawFuelRequirements);
+export const energyAssumptions = z.object({ checked: date, regularRate: z.number().nonnegative(), premiumRate: z.number().nonnegative(), regularBasis: z.string(), premiumBasis: z.string(), homeBasis: z.string(), publicBasis: z.string(), sourceIds: refs.min(1) }).parse(rawEnergyAssumptions);
+export const vehicles: Vehicle[] = z.array(vehicleSchema).parse([...evVehicles, ...hybridVehicles]).map(v => ({ ...v, fuel: fuelRequirements.find(f => f.vehicleId === v.id) }));
 export const sources: Source[] = z.array(sourceSchema).parse([...evSources, ...hybridSources, ...evOwnershipSources, ...hybridOwnershipSources, ...qldSources, ...brandSources, ...evReviewSources, ...hybridReviewSources, ...budgetSources, ...expertSources, ...repairReserveSources]);
 export const prices: PriceSnapshot[] = z.array(priceSchema).parse([...evPrices, ...hybridPrices]);
 export const images: ImageAsset[] = z.array(imageSchema).parse(rawImages);
@@ -57,7 +62,7 @@ export const ownershipInfo: OwnershipInfo[] = z.array(ownershipInfoSchema).parse
 export const insuranceEstimates: InsuranceEstimate[] = z.array(estimateSchema.safeExtend({ familyId: z.string(), checked: date })).parse(rawInsurance);
 const depreciationSchema = z.object({ annualRate: z.number().min(0).max(1), lowRate: z.number().min(0).max(1), highRate: z.number().min(0).max(1), basis: z.string(), sourceIds: refs.min(1) }).refine(e => e.lowRate <= e.annualRate && e.annualRate <= e.highRate, 'Depreciation rates must be ordered.');
 export const budgetBenchmarks = z.object({ tyresAnnual: estimateSchema, charger: estimateSchema, inspection: estimateSchema, depreciation: z.object({ BEV: depreciationSchema, PHEV: depreciationSchema, HEV: depreciationSchema }) }).parse(rawBenchmarks);
-const tyreSchema = z.object({ vehicleId: z.string(), setCost: z.number().positive(), setLow: z.number().nonnegative(), setHigh: z.number().positive(), lifeKm: z.number().positive(), lifeLowKm: z.number().positive(), lifeHighKm: z.number().positive(), basis: z.string(), confidence, sourceIds: refs.min(1), checked: date }).refine(e => e.setLow <= e.setCost && e.setCost <= e.setHigh && e.lifeLowKm <= e.lifeKm && e.lifeKm <= e.lifeHighKm, 'Tyre bounds must be ordered.');
+const tyreSchema = z.object({ vehicleId: z.string(), setCost: z.number().positive(), setLow: z.number().nonnegative(), setHigh: z.number().positive(), lifeKm: z.number().positive(), lifeLowKm: z.number().positive(), lifeHighKm: z.number().positive(), basis: z.string(), confidence, sourceIds: refs.min(1), checked: date, retailAnchor: z.object({ size: z.string(), product: z.string(), unitPrice: z.number().positive(), quantity: z.literal(4), sourceId: z.string(), fitted: z.literal(true), gstIncluded: z.literal(true) }).optional() }).refine(e => e.setLow <= e.setCost && e.setCost <= e.setHigh && e.lifeLowKm <= e.lifeKm && e.lifeKm <= e.lifeHighKm, 'Tyre bounds must be ordered.');
 export const tyreEstimates = z.array(tyreSchema).parse(rawTyres);
 export const repairReserves = z.array(estimateSchema.safeExtend({ vehicleId: z.string(), checked: date })).parse(rawRepairReserves);
 export function repairReserveFor(vehicleId: string) { return repairReserves.find(r => r.vehicleId === vehicleId); }
@@ -65,7 +70,7 @@ export function tyreFor(vehicleId: string) { return tyreEstimates.find(e => e.ve
 export function insuranceFor(familyId: string) { return insuranceEstimates.find(e => e.familyId === familyId); }
 export const brands: BrandInfo[] = z.array(z.object({ make: z.string(), support: z.enum(['established', 'developing', 'limited', 'unverified']), summary: z.string(), network: z.string(), warrantyNote: z.string(), sourceIds: refs, checked: date })).parse(rawBrands);
 export const reviews: OwnerReview[] = z.array(z.object({ familyId: z.string(), rating: z.number().min(0).max(5).nullable(), outOf: z.number().positive(), count: z.number().int().nonnegative().nullable(), scope: z.string(), summary: z.string(), positiveThemes: z.array(z.string()), negativeThemes: z.array(z.string()), sourceIds: refs, checked: date })).parse([...evReviews, ...hybridReviews]);
-export const expertReviews: ExpertReview[] = z.array(z.object({ id: z.string(), familyId: z.string(), vehicleIds: refs, tested: z.string(), scope: z.string(), publisher: z.string(), published: date, checked: date, rating: z.number().min(0).max(10).nullable(), outOf: z.literal(10), verdict: z.string(), positiveThemes: refs, negativeThemes: refs, sourceIds: refs.min(1) })).parse(rawExpertReviews);
+export const expertReviews: ExpertReview[] = z.array(z.object({ id: z.string(), familyId: z.string(), vehicleIds: refs, tested: z.string(), scope: z.string(), publisher: z.string(), published: date, checked: date, rating: z.number().min(0).max(10).nullable(), outOf: z.union([z.literal(5), z.literal(10)]), verdict: z.string(), positiveThemes: refs, negativeThemes: refs, sourceIds: refs.min(1) })).parse(rawExpertReviews);
 const regoGroupSchema = z.object({ registration: z.number().positive(), trafficFee: z.number().nonnegative(), ctpLow: z.number().nonnegative(), ctpHigh: z.number().nonnegative(), sourceIds: refs });
 const qldSchema = z.object({ checked: date, effective: date, bev: regoGroupSchema, fourCylinder: regoGroupSchema, transfer: z.object({ amount: z.number().nonnegative(), sourceIds: refs }), duty: z.object({ threshold: z.number().positive(), lowerRatePer100: z.number().positive(), higherRatePer100: z.number().positive(), sourceIds: refs }), ppsr: z.object({ amount: z.number().nonnegative(), sourceIds: refs }), insuranceNote: z.string(), sourceIds: refs });
 export const qldCosts = qldSchema.parse(rawQldCosts);
@@ -85,6 +90,13 @@ export function imageFor(v: Vehicle) {
 }
 export function validateReferences(): string[] {
   const errors: string[] = [];
+  if (new Set(fuelRequirements.map(f => f.vehicleId)).size !== fuelRequirements.length) errors.push('Duplicate fuel requirements');
+  for (const f of fuelRequirements) {
+    if (!vehicleIds.has(f.vehicleId) || vehicleMap.get(f.vehicleId)?.powertrain === 'BEV') errors.push(`Invalid fuel configuration ${f.vehicleId}`);
+    for (const id of f.sourceIds) if (!sourceMap.has(id)) errors.push(`${f.vehicleId}: missing fuel source ${id}`);
+  }
+  for (const v of vehicles) if (v.powertrain !== 'BEV' && !v.fuel) errors.push(`${v.id}: missing fuel-grade research`);
+  for (const id of energyAssumptions.sourceIds) if (!sourceMap.has(id)) errors.push(`Energy assumption missing source ${id}`);
   for (const [name, items] of [['vehicle', vehicles], ['source', sources], ['price', prices]] as const) if (new Set(items.map(i => i.id)).size !== items.length) errors.push(`Duplicate ${name} IDs`);
   for (const v of vehicles) {
     const allRefs = [...v.sourceIds, ...v.familyFit.sourceIds, ...v.safety.sourceIds, ...v.changes.flatMap(c => c.sourceIds), ...[v.range, v.battery, v.consumption, v.depletedConsumption, v.acCharging, v.dcCharging, v.boot, v.bootAllRows, v.length, v.width, v.towing].flatMap(f => f.sourceIds)];
@@ -120,7 +132,11 @@ export function validateReferences(): string[] {
   for (const r of repairReserves) if (!vehicleIds.has(r.vehicleId)) errors.push(`Repair reserve has unknown configuration ${r.vehicleId}`);
   if (new Set(repairReserves.map(r => r.vehicleId)).size !== repairReserves.length) errors.push('Duplicate repair reserve configurations');
   if (new Set(tyreEstimates.map(t => t.vehicleId)).size !== tyreEstimates.length) errors.push('Duplicate tyre estimate configurations');
-  for (const t of tyreEstimates) if (!vehicleIds.has(t.vehicleId)) errors.push(`Tyre estimate has unknown configuration ${t.vehicleId}`);
+  for (const t of tyreEstimates) {
+    if (!vehicleIds.has(t.vehicleId)) errors.push(`Tyre estimate has unknown configuration ${t.vehicleId}`);
+    if (t.retailAnchor && (!t.sourceIds.includes(t.retailAnchor.sourceId) || !sourceMap.has(t.retailAnchor.sourceId))) errors.push(`${t.vehicleId}: tyre retail anchor missing source`);
+    if (t.retailAnchor && Math.abs(t.retailAnchor.unitPrice * t.retailAnchor.quantity - t.setCost) > .01) errors.push(`${t.vehicleId}: tyre set does not match fitted unit prices`);
+  }
   for (const id of qldCosts.sourceIds) if (!sourceMap.has(id)) errors.push(`QLD cost missing source ${id}`);
   return errors;
 }

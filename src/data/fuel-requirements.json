@@ -1,0 +1,126 @@
+[
+  {
+    "vehicleId": "outlander-phev-aspire-20",
+    "planningRon": 91,
+    "minimumRon": 91,
+    "basis": "Australian specification lists minimum/recommended 91 RON.",
+    "confidence": "high",
+    "sourceIds": [
+      "hy-out-24"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "outlander-phev-aspire-227",
+    "planningRon": 91,
+    "minimumRon": 91,
+    "basis": "Updated Australian specification lists minimum/recommended 91 RON.",
+    "confidence": "high",
+    "sourceIds": [
+      "hy-out-25"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "sealion6-dynamic-183",
+    "planningRon": 95,
+    "minimumRon": 95,
+    "basis": "Australian owner handbook specifies 95 RON or above, with ethanol content no higher than E10.",
+    "confidence": "high",
+    "sourceIds": [
+      "hy-deep-sl6-handbook"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "sealion6-dynamic-extended",
+    "planningRon": 95,
+    "minimumRon": null,
+    "basis": "Current Australian model page links the handbook requiring 95 RON or above. Confirm the Extended variant’s VIN-specific handbook.",
+    "confidence": "low",
+    "sourceIds": [
+      "hy-deep-sl6-handbook",
+      "hy-sl6-25"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "xtrail-ti-epower-awd",
+    "planningRon": 91,
+    "minimumRon": 91,
+    "basis": "Minimum 91 RON; Nissan recommends 95 RON. Default uses the minimum grade; raise the regular input or override the car’s petrol budget if choosing premium.",
+    "confidence": "high",
+    "sourceIds": [
+      "hy-xt-spec"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "xtrail-stl-epower-fwd-2026",
+    "planningRon": 91,
+    "minimumRon": 91,
+    "basis": "Minimum 91 RON; Nissan recommends 95 RON. Default uses the minimum grade; raise the regular input or override the car’s petrol budget if choosing premium.",
+    "confidence": "high",
+    "sourceIds": [
+      "hy-deep-xt-my26"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "rav4-gxl-hev-2021-25",
+    "planningRon": 91,
+    "minimumRon": 91,
+    "basis": "Previous-generation Australian specification permits 91 RON.",
+    "confidence": "high",
+    "sourceIds": [
+      "hy-rav-spec-25"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "rav4-gxl-hev-2026",
+    "planningRon": 95,
+    "minimumRon": 95,
+    "basis": "New-generation Australian specification requires 95 RON or above.",
+    "confidence": "high",
+    "sourceIds": [
+      "hy-rav-spec-26"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "kluger-gx-hev-awd",
+    "planningRon": 95,
+    "minimumRon": 95,
+    "basis": "Australian hybrid requires 95 RON from the original 2021 launch through the current specification.",
+    "confidence": "high",
+    "sourceIds": [
+      "hy-deep-kluger-launch-21",
+      "hy-deep-kluger-spec-26"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "sorento-gtline-hev-awd-2026",
+    "planningRon": 91,
+    "minimumRon": 91,
+    "basis": "Kia Australia specifies regular 91 RON for Sorento Hybrid.",
+    "confidence": "high",
+    "sourceIds": [
+      "hy-deep-kia-fuel"
+    ],
+    "checked": "2026-10-18"
+  },
+  {
+    "vehicleId": "sorento-phev-gtline-2021-23",
+    "planningRon": 95,
+    "minimumRon": null,
+    "basis": "95 RON used as a precautionary planning assumption. Period MY23 brochure says regular unleaded, while current Kia Australia guidance says Sorento PHEV requires 95 RON. Exact used-car requirement remains unresolved: check its owner manual/fuel flap.",
+    "confidence": "low",
+    "sourceIds": [
+      "hy-deep-sorento-my23",
+      "hy-deep-kia-fuel"
+    ],
+    "checked": "2026-10-18"
+  }
+]

@@ -54,7 +54,7 @@ describe('Queensland ownership budgeting', () => {
     expect(e.high!).toBeGreaterThan(e.total!);
     const petrolOnly = energyBudget(v, { ...p.costs, electricShare: 0 });
     expect(petrolOnly.proxy).toBe(false);
-    expect(petrolOnly.total).toBeCloseTo(15000 / 100 * 4.8 * 1.9);
+    expect(petrolOnly.total).toBeCloseTo(15000 / 100 * 4.8 * p.costs.premiumPetrolRate!);
   });
   it('takes actual quotes ahead of auto estimates, including zero values', () => {
     const p = { ...emptyPersonal(), ownership: { ...defaultOwnership, insurance: 1500, vehicleOverrides: { [ev.id]: { insurance: 0, servicing: 0, energy: 0 } } } };

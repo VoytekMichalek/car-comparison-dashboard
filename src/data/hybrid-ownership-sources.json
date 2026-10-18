@@ -294,5 +294,101 @@
     "publisher": "RACQ",
     "kind": "market",
     "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-mitsubishi-terms",
+    "title": "Mitsubishi Diamond Advantage full terms, October 2023",
+    "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/diamond-advantage/Mitsubishi-Diamond-Advantage-Full-Terms-and-Conditions-October-2023.pdf",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-mitsubishi-cps-current",
+    "title": "Mitsubishi capped servicing: model-year and original-purchase-date cohorts",
+    "url": "https://www.mitsubishi-motors.com.au/owners/service/capped-price-servicing.html",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-mitsubishi-my24-dec2025-caps",
+    "title": "MY24 Outlander PHEV caps: purchased 1 December 2025 to 31 March 2026",
+    "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/cps-updates/outlander/2025-12-01-2026-03-31/24MY_Outlander%20PHEV_4x4_2_4L_Purchased%20between%201%20December%202025%20and%2031%20March%202026_CPS_A4.pdf",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-toyota-warranty-terms",
+    "title": "Toyota Warranty Advantage terms, April 2026",
+    "url": "https://www.toyota.com.au/-/media/project/toyota/toyota/owners/warranty/20260401_toyota-warranty-advantage_tandcs_t2026-022197.pdf?rev=a9c6245447e84c2fa4c0cff88b0c50c5",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-toyota-service-faq",
+    "title": "Toyota service FAQ: remaining used-car caps and eligibility",
+    "url": "https://www.toyota.com.au/owners/service/faqs",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-kia-terms",
+    "title": "Kia Australian warranty terms updated 20 August 2026",
+    "url": "https://www.kia.com/content/dam/kwcms/au/en/files/service/Kia-Warranty-terms-and-conditions.pdf",
+    "publisher": "Kia Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-kluger-recliner-recall",
+    "title": "REC-006562: 2021–2025 Kluger second-row recliner",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006562",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-toyota-meter-recall",
+    "title": "REC-006390: selected 2022–2025 RAV4/Kluger combination meter",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006390",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-kluger-front-seat-recall",
+    "title": "REC-005459: selected 2021 Kluger front-seat frames",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005459",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-kluger-bumper-recall",
+    "title": "REC-005813: selected 2021–2023 Kluger lower bumper fasteners",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005813",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-kia-indicator-recall",
+    "title": "REC-005767: selected 2022 Sorento (P)HEV indicators",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005767",
+    "publisher": "Australian Government Vehicle Recalls",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-rav4-2026-service-launch",
+    "title": "Toyota 16 April 2026 RAV4 launch: A$325 capped servicing",
+    "url": "https://www.toyota.com.au/discover/news/all-new-rav4-suv-arrives-australia-with-bold-new-styling-new-generation-technology-hybrid",
+    "publisher": "Toyota Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
   }
 ]

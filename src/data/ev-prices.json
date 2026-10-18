@@ -6,16 +6,14 @@
     "high": 42991,
     "condition": "used",
     "basis": "drive-away",
-    "sampleCount": 3,
+    "sampleCount": 2,
     "geography": "TWG Cars Bundamba, QLD; Norris Motor Group Nundah, QLD; Salisbury, QLD; dealer via CarsGuide",
-    "kilometres": "26,101–87,987 km; exact configuration examples detailed below",
+    "kilometres": "26,101–87,987 km",
     "observed": "2026-10-18",
-    "note": "Three distinct 2023 Queensland RWD examples. Build month is not established, so these prices do not prove a late-2023 revised build. Salisbury is a retrieved category example; confirm stock before travelling. Asking prices and stock status can change; this is a small convenience sample, not a valuation.",
+    "note": "Two individual Queensland dealer-used RWD asks, both drive-away; midpoint median rounded to A$39,491. The cheaper car has 87,987 km and the dearer car 26,101 km, so this is not a mileage-adjusted valuation. The previous Salisbury A$41,989 category-page example was excluded: its individual Bigbox stock U229557 could be identified in indexed advertising, but current availability and asking price were not independently reverified on an accessible individual page.",
     "sourceIds": [
       "ev-audit-my-rwd-twg",
-      "ev-audit-my-rwd-nmg",
-      "ev-audit-my-rwd-salisbury",
-      "ev-tesla-rwd-market"
+      "ev-audit-my-rwd-nmg"
     ],
     "confidence": "medium",
     "estimateBasis": "Median of the included advertised amounts. The displayed low/high are only the included observations, not an estimated market range.",
@@ -41,20 +39,9 @@
         "sourceId": "ev-audit-my-rwd-nmg",
         "checked": "2026-10-18",
         "note": "Stock U3143; VIN ending 833689. Current page A$35,990 supersedes indexed A$36,488. PPSR/repair history and build month still require inspection."
-      },
-      {
-        "price": 41989,
-        "basis": "drive-away",
-        "year": 2023,
-        "kilometres": 70185,
-        "location": "Salisbury, QLD; dealer via CarsGuide",
-        "url": "https://www.carsguide.com.au/buy-a-car/tesla/model-y/qld/brisbane-location/rear-wheel-drive",
-        "sourceId": "ev-audit-my-rwd-salisbury",
-        "checked": "2026-10-18",
-        "note": "Original observation reconfirmed in retrieved result. Category-page observation; exact stock and availability not independently established."
       }
     ],
-    "point": 41989,
+    "point": 39491,
     "kind": "observation"
   },
   {
@@ -106,24 +93,58 @@
   {
     "id": "ev-price-my-new",
     "vehicleId": "model-y-rwd-juniper-2025",
-    "low": 58900,
-    "high": 58900,
+    "low": 62918,
+    "high": 64448,
     "condition": "new",
-    "basis": "excludes-charges",
-    "sampleCount": 0,
-    "geography": "Australia; Tesla new-order base price",
-    "kilometres": "New-order/list-price quote; no odometer observation",
+    "basis": "drive-away",
+    "sampleCount": 3,
+    "geography": "Tesla Queensland dealer new in-stock ads",
+    "kilometres": "12 km in each of three advertised stocks",
     "observed": "2026-10-18",
-    "note": "One manufacturer base-price quote, not a sampled stock car. Dynamic Tesla checkout was not fully retrievable; indexed base price needs checkout confirmation. Delivery/order fees and Queensland on-road costs are extra. Asking prices and stock status can change; this is a small convenience sample, not a valuation.",
+    "note": "Three distinct Tesla Queensland stock IDs, not repeated category pages. Prices include advertised Queensland on-road charges and differ by stock/paint. All title years are 2026 and dealer descriptions say MY27; VIN/build date and exact equipment need confirmation. The advertised A$2,000 trade-in bonus requires delivery by 31 December 2026 and conditions, and has not been subtracted. Replaces the A$58,900 excluding-charges list-price proxy.",
     "sourceIds": [
-      "ev-audit-my-refresh-order",
-      "ev-tesla-order"
+      "ev-deep-juniper-qld-902005",
+      "ev-deep-juniper-qld-901069",
+      "ev-deep-juniper-qld-901733"
     ],
-    "confidence": "low",
-    "estimateBasis": "ESTIMATE / list-price planning anchor: A$58,900 Premium RWD base amount indexed from Tesla Australia configurator; full dynamic checkout was not retrievable. No physical stock car is counted. Delivery/order fees where applicable, registration and duty are additional; obtain a current Queensland all-in quote.",
-    "observations": [],
-    "point": 58900,
-    "kind": "estimate"
+    "confidence": "medium",
+    "observations": [
+      {
+        "price": 64448,
+        "basis": "drive-away",
+        "year": 2026,
+        "kilometres": 12,
+        "location": "Tesla Queensland, QLD",
+        "url": "https://www.carsales.com.au/cars/details/2026-tesla-model-y-premium-rear-wheel-drive-auto/OAG-AD-26383676/",
+        "sourceId": "ev-deep-juniper-qld-902005",
+        "checked": "2026-10-18",
+        "note": "Dealer new car in stock; Diamond Black, black interior, 19-inch wheels, stock 902005. Seller labels MY27; build date and VIN are not displayed. Advertised drive-away amount, no conditional trade-in bonus deducted. Confirm exact equipment and availability."
+      },
+      {
+        "price": 64448,
+        "basis": "drive-away",
+        "year": 2026,
+        "kilometres": 12,
+        "location": "Tesla Queensland, QLD",
+        "url": "https://www.carsales.com.au/cars/details/2026-tesla-model-y-premium-rear-wheel-drive-auto/OAG-AD-26375489/",
+        "sourceId": "ev-deep-juniper-qld-901069",
+        "checked": "2026-10-18",
+        "note": "Dealer new car in stock; Glacier Blue, black interior, 19-inch wheels, stock 901069. Seller labels MY27; build date and VIN are not displayed. Advertised drive-away amount, no conditional trade-in bonus deducted. Confirm exact equipment and availability."
+      },
+      {
+        "price": 62918,
+        "basis": "drive-away",
+        "year": 2026,
+        "kilometres": 12,
+        "location": "Tesla Queensland, QLD",
+        "url": "https://www.carsales.com.au/cars/details/2026-tesla-model-y-premium-rear-wheel-drive-auto/OAG-AD-26383725/",
+        "sourceId": "ev-deep-juniper-qld-901733",
+        "checked": "2026-10-18",
+        "note": "Dealer new car in stock; Pearl White, black interior, 19-inch wheels, stock 901733. Seller labels MY27; build date and VIN are not displayed. Advertised drive-away amount, no conditional trade-in bonus deducted. Confirm exact equipment and availability."
+      }
+    ],
+    "point": 64448,
+    "kind": "observation"
   },
   {
     "id": "ev-price-atto-std",
@@ -182,7 +203,7 @@
     "geography": "von Bibra Ferry Road, Southport QLD; Cars4us, Brisbane QLD",
     "kilometres": "46,532–73,385 km; exact configuration examples detailed below",
     "observed": "2026-10-18",
-    "note": "Two distinct used Extended Range cars. Norris stock U4095 at A$32,488 / 20,924 km was marked sold and is excluded. The included Cars4us page does not print a clear fee basis; confirm its total before comparing it with the Southport drive-away price. Asking prices and stock status can change; this is a small convenience sample, not a valuation.",
+    "note": "Two distinct used Extended Range cars. Norris stock U4095 at A$32,488 / 20,924 km was marked sold and is excluded. The included Cars4us page does not print a clear fee basis; confirm its total before comparing it with the Southport drive-away price. Asking prices and stock status can change; this is a small convenience sample, not a valuation. Fresh seller HTML confirms Cars4us stock 72546 excludes government charges; the other sample is drive-away, so identical headline asks are not identical final costs.",
     "sourceIds": [
       "ev-audit-atto-ext-vonbibra",
       "ev-audit-atto-ext-cars4us",
@@ -204,14 +225,14 @@
       },
       {
         "price": 30990,
-        "basis": "unverified",
+        "basis": "excludes-charges",
         "year": 2022,
         "kilometres": 46532,
         "location": "Cars4us, Brisbane QLD",
         "url": "https://www.cars4us.com.au/vehicles/72546",
         "sourceId": "ev-audit-atto-ext-cars4us",
         "checked": "2026-10-18",
-        "note": "Stock 72546. Primary current amount A$30,990 supersedes indexed A$31,490; page does not establish drive-away versus charges-extra basis. Counted as an observed asking amount only."
+        "note": "Stock 72546. Primary current amount A$30,990 supersedes indexed A$31,490; page does not establish drive-away versus charges-extra basis. Counted as an observed asking amount only. Fresh seller HTML confirms excluding government charges; additional dealer fees may apply."
       }
     ],
     "point": 30990,
@@ -254,24 +275,58 @@
   {
     "id": "ev-price-atto-evo",
     "vehicleId": "atto3-evo-premium-2026",
-    "low": 46990,
-    "high": 46990,
+    "low": 50461,
+    "high": 50461,
     "condition": "new",
-    "basis": "excludes-charges",
-    "sampleCount": 0,
-    "geography": "Australia; published new Premium RWD list price",
-    "kilometres": "New-order/list-price quote; no odometer observation",
+    "basis": "drive-away",
+    "sampleCount": 3,
+    "geography": "Queensland pickup/registration; new in-transit dealer allocations",
+    "kilometres": "Not stated; new in-transit stock",
     "observed": "2026-10-18",
-    "note": "One published Australian Premium RWD list-price quote; not a live stock sample. Cheaper Dynamic FWD pricing applies to a different configuration. Queensland on-road costs are extra. Manufacturer specifications were retrievable but a full Queensland order total was not. Asking prices and stock status can change; this is a small convenience sample, not a valuation.",
+    "note": "Three distinct primary dealer allocation stock numbers advertise the same Queensland drive-away price. All are in transit / Arriving Soon, Atlantis Grey Premium on 18-inch wheels; delivery date, availability and final registration quote require confirmation. VINs are not public, so deduplicated by dealer stock ID. Replaces the A$46,990 excluding-charges RRP proxy; this is asking stock, not three completed sales.",
     "sourceIds": [
-      "ev-audit-atto-evo-rrp",
-      "ev-atto-evo-price"
+      "ev-deep-evo-qld-8122528",
+      "ev-deep-evo-qld-8122534",
+      "ev-deep-evo-qld-8122537"
     ],
-    "confidence": "low",
-    "estimateBasis": "ESTIMATE / list-price planning anchor: A$46,990 Premium RWD Australian list price published 12 August 2026 by CarExpert; not a current dealer quotation. No physical stock car is counted. Delivery/order fees where applicable, registration and duty are additional; obtain a current Queensland all-in quote.",
-    "observations": [],
-    "point": 46990,
-    "kind": "estimate"
+    "confidence": "medium",
+    "observations": [
+      {
+        "price": 50461,
+        "basis": "drive-away",
+        "year": 2026,
+        "kilometres": null,
+        "location": "Queensland pickup and registration; in transit",
+        "url": "https://evdealergroup-byd.com.au/configurator/yumq_IJ_NC20jiX_Dh6dE9JxPZalUyvl5f9kcHfZLlrKFCImd5JMVPO1ABNtYwdNBMSxrV6Rdu1pimqFUL8PUA",
+        "sourceId": "ev-deep-evo-qld-8122528",
+        "checked": "2026-10-18",
+        "note": "New Atlantis Grey Premium, 18-inch wheels. Distinct dealer allocation stock 8122528. Marked Arriving Soon / in transit, not immediate delivery. VIN and odometer not displayed. Price read on primary dealer inventory card; individual configurator link identifies allocation."
+      },
+      {
+        "price": 50461,
+        "basis": "drive-away",
+        "year": 2026,
+        "kilometres": null,
+        "location": "Queensland pickup and registration; in transit",
+        "url": "https://evdealergroup-byd.com.au/configurator/yumq_IJ_NC20jiX_Dh6dE9JxPZalUyvl5f9kcHfZLlrKFCImd5JMVPO1ABNtYwdNbnlrrCneYTpww6gMMitPMw",
+        "sourceId": "ev-deep-evo-qld-8122534",
+        "checked": "2026-10-18",
+        "note": "New Atlantis Grey Premium, 18-inch wheels. Distinct dealer allocation stock 8122534. Marked Arriving Soon / in transit, not immediate delivery. VIN and odometer not displayed. Price read on primary dealer inventory card; individual configurator link identifies allocation."
+      },
+      {
+        "price": 50461,
+        "basis": "drive-away",
+        "year": 2026,
+        "kilometres": null,
+        "location": "Queensland pickup and registration; in transit",
+        "url": "https://evdealergroup-byd.com.au/configurator/yumq_IJ_NC20jiX_Dh6dE9JxPZalUyvl5f9kcHfZLlrKFCImd5JMVPO1ABNtYwdNdpTUr8BduB9g9Wij68-szg",
+        "sourceId": "ev-deep-evo-qld-8122537",
+        "checked": "2026-10-18",
+        "note": "New Atlantis Grey Premium, 18-inch wheels. Distinct dealer allocation stock 8122537. Marked Arriving Soon / in transit, not immediate delivery. VIN and odometer not displayed. Price read on primary dealer inventory card; individual configurator link identifies allocation."
+      }
+    ],
+    "point": 50461,
+    "kind": "observation"
   },
   {
     "id": "ev-price-ev6",
@@ -335,19 +390,19 @@
   {
     "id": "ev-price-ev5-sr",
     "vehicleId": "ev5-air-standard-2024",
-    "low": 42990,
+    "low": 39990,
     "high": 42999,
     "condition": "used",
     "basis": "excludes-charges",
-    "sampleCount": 2,
-    "geography": "Dealer used, Brisbane region QLD; Dealer used, southern Adelaide SA",
-    "kilometres": "503–8,739 km; exact configuration examples detailed below",
+    "sampleCount": 3,
+    "geography": "One QLD, one SA and one south-west WA dealer-used example",
+    "kilometres": "503–25,972 km across three individual dealer ads",
     "observed": "2026-10-18",
-    "note": "Two distinct used 2024 MY25 Air Standard Range cars: Queensland at 8,739 km and South Australia at 503 km. Both individual ads currently exclude charges. Older category prices differed and are superseded. Interstate transport is extra. Asking prices and stock status can change; this is a small convenience sample, not a valuation.",
+    "note": "Three distinct dealer-used Air Standard Range examples, all excluding government charges. Median headline asking price A$42,990; interstate freight/registration and dealer fees are extra. Primary Cars4us HTML confirmed A$42,990 despite a cached A$43,990 result. Small, geographically mixed sample; no completed-sale evidence.",
     "sourceIds": [
-      "ev-audit-ev5-sr-qld",
+      "ev-deep-ev5-sr-cars4us",
       "ev-audit-ev5-sr-sa",
-      "ev-ev5-sr-market"
+      "ev-deep-ev5-sr-wa"
     ],
     "confidence": "medium",
     "estimateBasis": "Queensland example selected as the planning point. The displayed low/high are only the included observations, not an estimated market range.",
@@ -358,10 +413,10 @@
         "year": 2024,
         "kilometres": 8739,
         "location": "Dealer used, Brisbane region QLD",
-        "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-standard-range-auto-my25/OAG-AD-25914509/",
-        "sourceId": "ev-audit-ev5-sr-qld",
+        "url": "https://www.cars4us.com.au/vehicles/70029",
+        "sourceId": "ev-deep-ev5-sr-cars4us",
         "checked": "2026-10-18",
-        "note": "Exact MY25 Air Standard Range. Individual ad A$42,990 excludes government charges; supersedes category A$43,490/A$44,990. No sold/unavailable flag found."
+        "note": "Fresh direct seller HTML: stock 70029, VIN LJD2BA1FUS0006566, 8,739 km, asking A$42,990 excluding government charges; additional dealer fees may apply. Web cache showed A$43,990, so the direct seller value takes precedence."
       },
       {
         "price": 42999,
@@ -373,6 +428,17 @@
         "sourceId": "ev-audit-ev5-sr-sa",
         "checked": "2026-10-18",
         "note": "Exact MY25 Air Standard Range, seller says ex-Kia Australia ownership. Individual ad A$42,999 excludes charges supersedes category A$43,888. Freight/QLD costs extra; not combined with demos/new orders."
+      },
+      {
+        "price": 39990,
+        "basis": "excludes-charges",
+        "year": 2024,
+        "kilometres": 25972,
+        "location": "South-west WA, dealer says two hours south of Perth",
+        "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-standard-range-auto-my25/OAG-AD-26128016/",
+        "sourceId": "ev-deep-ev5-sr-wa",
+        "checked": "2026-10-18",
+        "note": "Distinct stock 37859, Shale Grey MY25 Air Standard Range; 64.2 kWh / 400 km configuration, dealer used. Individual seller advert states A$39,990 fixed including GST, excluding government charges. VIN/build date not public; freight and Queensland registration costs are additional. No sold flag on the opened listing."
       }
     ],
     "point": 42990,
@@ -451,35 +517,21 @@
   {
     "id": "ev-price-ioniq-old",
     "vehicleId": "ioniq5-awd-2021",
-    "low": 36990,
+    "low": 44990,
     "high": 44990,
     "condition": "used",
     "basis": "drive-away",
-    "sampleCount": 2,
-    "geography": "Dealer used, Kedron QLD; Dealer used, NSW",
-    "kilometres": "33,657–72,000 km; exact configuration examples detailed below",
+    "sampleCount": 1,
+    "geography": "One NSW dealer-used MY22 Techniq AWD 72.6 kWh example",
+    "kilometres": "33,657 km",
     "observed": "2026-10-18",
-    "note": "Two used 2022 original-generation AWD 225 kW / 72.6 kWh examples, Queensland and NSW. The NSW Techniq MY22 is the same battery/powertrain grouping; equipment differs. No later 255 kW / 77.4 kWh MY23 car is included. Interstate registration and transport require confirmation. Asking prices and stock status can change; this is a small convenience sample, not a valuation.",
+    "note": "One exact 72.6 kWh / 225 kW MY22 AWD dealer-used example; A$44,990 advertised drive-away in NSW. Queensland freight and re-registration may differ. The old Kedron A$36,990 advert was excluded because the current asking amount could not be verified in the individual page body; a retained SEO title is insufficient evidence of a current offer. Small sample, not a general market valuation.",
     "sourceIds": [
-      "ev-audit-ioniq-awd-kedron",
-      "ev-audit-ioniq-awd-nsw",
-      "ev-ioniq-old-market",
-      "ev-ioniq-old-market-basis"
+      "ev-audit-ioniq-awd-nsw"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "estimateBasis": "Median of the included advertised amounts. The displayed low/high are only the included observations, not an estimated market range.",
     "observations": [
-      {
-        "price": 36990,
-        "basis": "drive-away",
-        "year": 2022,
-        "kilometres": 72000,
-        "location": "Dealer used, Kedron QLD",
-        "url": "https://www.autotrader.com.au/car/15281349/hyundai/ioniq-5/qld/kedron/suv",
-        "sourceId": "ev-audit-ioniq-awd-kedron",
-        "checked": "2026-10-18",
-        "note": "Original 225 kW AWD / MY22, not the MY23 77.4 kWh model. Original individual ad and regional drive-away basis reconfirmed."
-      },
       {
         "price": 44990,
         "basis": "drive-away",
@@ -492,7 +544,7 @@
         "note": "TECHNIQ MY22 NE.V2, 225 kW matches original 72.6 kWh configuration. Interstate DA includes NSW basis; QLD transfer/freight can differ. No sold flag found."
       }
     ],
-    "point": 40990,
+    "point": 44990,
     "kind": "observation"
   },
   {
@@ -635,7 +687,7 @@
     "geography": "Australia-wide private-sale guide; Queensland asking-price sample unavailable",
     "kilometres": "Guide assumes age-appropriate kilometres; no individual odometer sample",
     "observed": "2026-10-18",
-    "note": "RedBook private-sale guide retrieved at A$26,300–35,800, excluding government charges. Midpoint is used only as a provisional budget. This is a condition-based valuation guide, not a current asking or sold-price sample; dealer asking prices may be higher. Removed / sold advertisements were excluded.",
+    "note": "RedBook private-sale guide retrieved at A$26,300–35,800, excluding government charges. Midpoint is used only as a provisional budget. This is a condition-based valuation guide, not a current asking or sold-price sample; dealer asking prices may be higher. Removed / sold advertisements were excluded. Deep audit excluded sold OAG-AD-26282541, OAG-AD-26356288 and Highland Prestige 574910; removed/redirected dealer ads and MY22/MY24 mismatches were also rejected. No active exact-MY23 asking sample was verified; the yellow guide is a valuation estimate, not observed stock.",
     "estimateBasis": "Private-sale guide proxy: midpoint of A$26,300 and A$35,800. Zero live asking-price observations; confirm a current exact-variant listing and all Queensland charges.",
     "sourceIds": [
       "ev-ioniq-2023-rwd-guide"

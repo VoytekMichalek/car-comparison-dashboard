@@ -3,7 +3,7 @@ import type { CostSettings, OwnershipSettings, PersonalData, PriceSnapshot, Scor
 
 export const CHECKED_DATE = '2026-10-18';
 export const STORAGE_KEY = 'fieldnotes-family-cars:v1';
-export const defaultCosts: CostSettings = { annualKm: 15000, homeRate: 0.30, publicRate: 0.65, petrolRate: 1.90, homeShare: 90, electricShare: 80, chargingLoss: 10 };
+export const defaultCosts: CostSettings = { annualKm: 15000, homeRate: 0.30, publicRate: 0.65, petrolRate: 2.21, premiumPetrolRate: 2.38, homeShare: 90, electricShare: 80, chargingLoss: 10 };
 export const defaultOwnership: OwnershipSettings = { years: 10, insurance: null, servicing: null, tyres: 600, tyreMode: 'vehicle', repairReserve: 500, repairMode: 'vehicle', regoOverride: null, ctp: null, purchasePrice: null, dutiableValue: null, feesIncluded: 'auto', resaleValue: null, charger: 2050, inspection: 385, otherUpfront: 0, financeInterestAnnual: 0, repairScenario: 0, vehicleOverrides: {} };
 export const defaultWeights: ScoreWeights = { seating: 10, price: 9, running: 8, boot: 7, range: 6, safety: 8, owners: 6, brand: 6 };
 export const emptyPersonal = (): PersonalData => ({ version: 1, favourites: [], listings: [], notes: {}, fitChecks: {}, seatModels: '', costs: { ...defaultCosts } });
@@ -23,7 +23,7 @@ export const weightsSchema = z.object({ seating: weight, price: weight, running:
 const amount = z.number().finite().min(0).max(10_000_000);
 const optionalAmount = amount.nullable();
 export const ownershipSchema = z.object({ years: z.number().int().min(1).max(15), insurance: optionalAmount, servicing: optionalAmount, tyres: amount, tyreMode: z.enum(['vehicle', 'shared']).optional(), repairReserve: amount, repairMode: z.enum(['vehicle', 'shared']).optional(), regoOverride: optionalAmount, ctp: optionalAmount, purchasePrice: optionalAmount, dutiableValue: optionalAmount, feesIncluded: z.enum(['auto', 'yes', 'no']), resaleValue: optionalAmount, charger: amount, inspection: amount, otherUpfront: amount, financeInterestAnnual: amount, repairScenario: amount, vehicleOverrides: z.record(z.string(), z.object({ insurance: optionalAmount.optional(), servicing: optionalAmount.optional(), rego: optionalAmount.optional(), resale: optionalAmount.optional(), energy: optionalAmount.optional(), electricity: optionalAmount.optional(), petrol: optionalAmount.optional(), tyres: optionalAmount.optional(), repairReserve: optionalAmount.optional(), financeInterestAnnual: optionalAmount.optional(), purchase: optionalAmount.optional(), dutiableValue: optionalAmount.optional(), feesIncluded: z.enum(['auto', 'yes', 'no']).optional() })) });
-const costsSchema = z.object({ annualKm: z.number().min(0).max(200000), homeRate: z.number().min(0).max(10), publicRate: z.number().min(0).max(10), petrolRate: z.number().min(0).max(10), homeShare: z.number().min(0).max(100), electricShare: z.number().min(0).max(100), chargingLoss: z.number().min(0).max(50) });
+const costsSchema = z.object({ annualKm: z.number().min(0).max(200000), homeRate: z.number().min(0).max(10), publicRate: z.number().min(0).max(10), petrolRate: z.number().min(0).max(10), premiumPetrolRate: z.number().min(0).max(10).optional(), homeShare: z.number().min(0).max(100), electricShare: z.number().min(0).max(100), chargingLoss: z.number().min(0).max(50) });
 export const personalSchema = z.object({
   version: z.literal(1),
   favourites: z.array(z.string()).max(500),
@@ -139,7 +139,9 @@ export function calculateEnergy(vehicle: Vehicle, settings: CostSettings): { tot
   const checked = costsSchema.safeParse(settings);
   const unavailable = (reason: string) => ({ total: null, electric: 0, petrol: 0, reason, estimated: true });
   if (!checked.success) return unavailable('Check the calculator inputs.');
-  const { annualKm: km, homeRate, publicRate, petrolRate, homeShare, electricShare, chargingLoss } = settings;
+  const { annualKm: km, homeRate, publicRate, homeShare, electricShare, chargingLoss } = settings;
+  // Older backups retain their single saved petrol rate until premium is explicitly set.
+  const petrolRate = vehicle.fuel?.planningRon === 95 ? settings.premiumPetrolRate ?? settings.petrolRate : settings.petrolRate;
   const rate = homeRate * homeShare / 100 + publicRate * (1 - homeShare / 100);
   const electricCost = (distance: number, consumption: number) => distance / 100 * consumption / (vehicle.consumption.energyBasis === 'wall' ? 1 : 1 - chargingLoss / 100) * rate;
   if (vehicle.powertrain === 'BEV') {
