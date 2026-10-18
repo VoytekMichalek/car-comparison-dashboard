@@ -228,3 +228,4 @@ Public-source preparation: the original Model Y insurance amount is an anonymous
 - 195 tests across 19 suites passed; TypeScript and production build passed.
 - Browser preview: 25 depreciation lines and 25 scatter dots by default; excluding Tesla gave 24 lines while preserving all 25 dots. Filtering to the excluded family correctly showed zero lines, without auto-selection. Clear/Show all restored the intended state.
 - 320px phone and 1280px desktop checked: filter and cost layouts fit the viewport; cash cost table has eight columns and no finance input. Existing Vite research-chunk size warning remains.
+- Follow-up spacing fix: annual chart's Amounts & sources disclosure now has an inset header, padded content and larger row/column gaps. Checked expanded Tiggo 8 breakdown at 1280px (two columns, 22px/18px padding) and 390px (one column, 18px/14px padding), with no horizontal overflow. Production build passed after the CSS change.

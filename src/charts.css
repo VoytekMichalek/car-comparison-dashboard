@@ -201,9 +201,10 @@
 .charts-page .annual-cost-track { display: flex; width: 100%; min-height: 28px; border-radius: 4px; overflow: hidden; background: #edf1e8; position: relative; }
 .charts-page .annual-cost-segment { display: block; flex: 0 0 auto; height: 28px; }
 .charts-page .annual-cost-zero { padding: 4px 9px; font-size: 12px; }
-.charts-page .annual-cost-breakdown { margin-top: 8px; }
-.charts-page .annual-cost-breakdown > summary { font-size: 12px; color: #4f6556; min-height: 36px; padding: 9px 30px 7px 0; }
-.charts-page .annual-cost-breakdown dl { margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 24px; }
+.charts-page .annual-cost-breakdown { margin-top: 12px; border: 1px solid #d6dfd0; border-radius: 7px; }
+.charts-page .annual-cost-breakdown > summary { font-size: 13px; color: #4f6556; min-height: 44px; padding: 13px 48px 13px 18px; border: 0; }
+.charts-page .annual-cost-breakdown[open] > summary { border-bottom: 1px solid #d6dfd0; border-radius: 6px 6px 0 0; }
+.charts-page .annual-cost-breakdown dl { margin: 0; padding: 22px 18px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px 32px; }
 .charts-page .annual-cost-breakdown dl > div { min-width: 0; }
 .charts-page .annual-cost-breakdown dt { font-size: 13px; display: flex; gap: 7px; align-items: center; }
 .charts-page .annual-cost-breakdown dd { margin: 7px 0 0 19px; font-variant-numeric: tabular-nums; }
@@ -220,7 +221,8 @@
   .charts-page .insight-hover-tooltip > strong { font-size: 14px; }
   .charts-page .insight-hover-tooltip dl { gap: 8px; }
   .charts-page .insight-hover-tooltip dd { font-size: 18px; }
-  .charts-page .annual-cost-breakdown dl { grid-template-columns: 1fr; gap: 15px; }
+  .charts-page .annual-cost-breakdown > summary { padding: 13px 44px 13px 14px; }
+  .charts-page .annual-cost-breakdown dl { grid-template-columns: 1fr; gap: 24px; padding: 18px 14px; }
   .charts-page .annual-cost-row-heading .text-button { font-size: 14px; }
   .charts-page .annual-cost-row-heading > strong { font-size: 16px; }
   .charts-page .annual-cost-row-heading > strong small { display: block; margin: 0; text-align: right; }
