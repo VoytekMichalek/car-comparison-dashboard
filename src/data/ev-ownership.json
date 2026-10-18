@@ -120,7 +120,7 @@
     "familyId": "byd-atto-3",
     "serviceInterval": "Current Australian EV guidance: 12 months / 20,000 km, whichever comes first; confirm the original vehicle or EVO schedule.",
     "serviceAnnual": 350,
-    "serviceBasis": "ESTIMATE: A$350/year midpoint (A$250–450). Same-model historical reference: RACQ's2024 new-to-five-year study at15,000km/year budgets A$26.32/month servicing for both Standard and Extended Range (A$315.84/year). Current minor-service bookings are A$165–214 incl.GST; obtain the actual VIN's alternating major-service schedule and current price. This replaces the less-specific Dolphin service-price proxy. EVO is a different powertrain/schedule and remains unquoted. Excludes tyres and fault repairs.",
+    "serviceBasis": "ESTIMATE: A$350/year midpoint (A$250–450). Same-model historical reference: RACQ's2024 new-to-five-year study at15,000km/year budgets A$26.32/month servicing for both Standard and Extended Range (A$315.84/year). Current minor-service bookings are A$165–214 incl.GST; obtain the actual VIN's alternating major-service schedule and current price. This replaces the less-specific Dolphin service-price proxy. EVO is a different powertrain/schedule and remains unquoted. Excludes tyres and fault repairs. Current generic BYD EV guide lists brake/drive fluids at 24 months / 40,000 km and coolant at 48 months / 80,000 km, with drivetrain-specific additions. The original VIN handbook and an itemised major-service quote govern; a minor-service starting price is not the cost of every annual visit.",
     "warrantyCautions": [
       "Current handbook: vehicle 6 years / 150,000 km; power battery and drive unit 8 years / 160,000 km. Confirm the updated terms against the VIN and first-registration date.",
       "Australian reporting says the April 2025 simplified warranty was backdated to deliveries from August 2022. The current booklet alone does not establish each older VIN’s amendment: obtain written BYD confirmation before relying on removal of the original component carve-outs.",
@@ -215,7 +215,8 @@
       "Pre-MY2027 HV capacity cover is 7 years / 150,000 km to 70% retention. The MY2027 change to 8 years / 160,000 km does not automatically extend older cars.",
       "A capacity remedy restores at least the threshold, not necessarily 100%. The 12V auxiliary battery has 2-year cover; normal wear and accident damage are separate.",
       "Kia’s August 2026 terms list AV/AVN head-unit defect cover at 3 years/unlimited km and auxiliary-battery cover at 2 years/unlimited km; these shorter items do not inherit the headline 7-year term. Prior commercial use can impose kilometre limits.",
-      "Australian manufacturer statements reported by Drive in May 2026 describe 15-year/300,000-km ICCU cover from first registration for EV6 MY22–24. This is reported component cover, not a verified VIN-specific contract; obtain written eligibility and exclusions from the Australian dealer."
+      "Australian manufacturer statements reported by Drive in May 2026 describe 15-year/300,000-km ICCU cover from first registration for EV6 MY22–24. This is reported component cover, not a verified VIN-specific contract; obtain written eligibility and exclusions from the Australian dealer.",
+      "The current Australian warranty PDF was re-opened on 18 October 2026 and does not set out an ICCU-specific 15-year extension. The separate reported extension is still subject to written Australian VIN-specific confirmation; overseas warranty announcements do not establish local entitlement."
     ],
     "risks": [
       {
@@ -394,9 +395,9 @@
   },
   {
     "familyId": "hyundai-ioniq-5",
-    "serviceInterval": "MY22-and-earlier: confirm original passport’s 12 months / 15,000 km schedule. MY23 Dynamiq/Techniq maker release and current Genuine Service Plan terms distinguish MY23-and-later EVs at 24 months / 30,000 km. Whichever comes first; severe-use and coolant work can differ.",
+    "serviceInterval": "MY22-and-earlier: confirm original passport’s 12 months / 15,000 km schedule. MY23 Dynamiq/Techniq maker release and current Genuine Service Plan terms distinguish MY23-and-later EVs at 24 months / 30,000 km. Whichever comes first; severe-use and coolant work can differ. Australian MY23 owner manual p9-8 separately lists low-conductivity coolant replacement at 36 months / 60,000 km and 12V battery inspection at 12 months / 15,000 km, whichever comes first; these do not inherit the two-year general-service interval.",
     "serviceAnnual": 400,
-    "serviceBasis": "ESTIMATE: A$400/year midpoint (A$250–550), across differing early/later schedules. A current Australian road test reports A$667/689 two-year dealer visits (about A$339/year over eight years); independent 48-month booking examples are lower and may cover a different scope. Allow age/coolant uncertainty. Obtain the VIN schedule; dealer servicing is required for the newer 7-year extension. Excludes tyres and fault repairs. Hyundai prepaid terms limit new-car plans to the first five services for MY22-and-earlier EVs or first two for MY23-and-later EVs; a remaining plan transfers with the car. A plan is not a guaranteed lifelong tariff.",
+    "serviceBasis": "ESTIMATE: A$400/year midpoint (A$250–550), across differing early/later schedules. A current Australian road test reports A$667/689 two-year dealer visits (about A$339/year over eight years); independent 48-month booking examples are lower and may cover a different scope. Allow age/coolant uncertainty. Obtain the VIN schedule; dealer servicing is required for the newer 7-year extension. Excludes tyres and fault repairs. Hyundai prepaid terms limit new-car plans to the first five services for MY22-and-earlier EVs or first two for MY23-and-later EVs; a remaining plan transfers with the car. A plan is not a guaranteed lifelong tariff. MY23 coolant can fall between ordinary service visits: have the dealer identify prepaid/capped-price inclusions and off-cycle work. No fresh Australian model-specific coolant tariff was verified, so historical visit prices are not represented as a guaranteed all-inclusive maintenance total.",
     "warrantyCautions": [
       "Older cars originally have 5-year unlimited-kilometre private-use cover. The 7-year offer is for eligible first registrations from 1 June 2025 and requires on-time authorised-dealer servicing for the extension.",
       "Remaining vehicle cover transfers, but prior commercial use and service history can change eligibility. Confirm the original passport.",
@@ -481,7 +482,8 @@
       "ev-ioniq-2023-release",
       "own-ev-hyundai-prepaid",
       "own-ev-hyundai-service-terms",
-      "repair-iccu-au-extension"
+      "repair-iccu-au-extension",
+      "own-ev-refresh-ioniq-my23-manual"
     ],
     "checked": "2026-10-18",
     "serviceLow": 250,
@@ -493,14 +495,14 @@
         "serviceLow": 285,
         "serviceHigh": 650,
         "serviceConfidence": "low",
-        "serviceBasis": "MY23 24-month / 30,000 km schedule. Historical first three services A$570 + A$1,090 + A$570 total A$2,230 over six years, rounded to A$375/year. A$285–650 sensitivity range allows visit and coolant variation; these 2023 capped prices are not a current service quote. Confirm the VIN schedule and current dealer pricing."
+        "serviceBasis": "MY23 24-month / 30,000 km schedule. Historical first three services A$570 + A$1,090 + A$570 total A$2,230 over six years, rounded to A$375/year. A$285–650 sensitivity range allows visit and coolant variation; these 2023 capped prices are not a current service quote. Confirm the VIN schedule and current dealer pricing. Manual p9-8 separately requires low-conductivity coolant every 36 months / 60,000 km and annual 12V inspection; confirm whether the quoted service prices include early/off-cycle fluid work. This estimate is not a current all-inclusive VIN quote."
       },
       "ioniq5-techniq-awd-2023": {
         "serviceAnnual": 375,
         "serviceLow": 285,
         "serviceHigh": 650,
         "serviceConfidence": "low",
-        "serviceBasis": "MY23 24-month / 30,000 km schedule. Historical first three services A$570 + A$1,090 + A$570 total A$2,230 over six years, rounded to A$375/year. A$285–650 sensitivity range allows visit and coolant variation; these 2023 capped prices are not a current service quote. Confirm the VIN schedule and current dealer pricing."
+        "serviceBasis": "MY23 24-month / 30,000 km schedule. Historical first three services A$570 + A$1,090 + A$570 total A$2,230 over six years, rounded to A$375/year. A$285–650 sensitivity range allows visit and coolant variation; these 2023 capped prices are not a current service quote. Confirm the VIN schedule and current dealer pricing. Manual p9-8 separately requires low-conductivity coolant every 36 months / 60,000 km and annual 12V inspection; confirm whether the quoted service prices include early/off-cycle fluid work. This estimate is not a current all-inclusive VIN quote."
       }
     }
   },
@@ -508,7 +510,7 @@
     "familyId": "zeekr-7x",
     "serviceInterval": "Australian user manual: maintenance inspection at 24 months / 40,000 km, whichever comes first; confirm any interim checks and original offer. The manual also contains generic annual-maintenance wording; its specific normal-use table says 24 months/40,000 km. Obtain written confirmation of interim/harsh-use checks; mountain/humid operation can shorten the brake-fluid interval.",
     "serviceAnnual": 500,
-    "serviceBasis": "ESTIMATE: A$500/year midpoint (A$350–650). The September 2025 manufacturer schedule reproduced by The Driven totals A$1,755 for the two recommended services, or A$2,385 with optional checks over five years (A$351/477 per year). Allow 2026 dealer/eligibility variation; do not assume a free first check on every used car. Excludes tyres and fault repairs.",
+    "serviceBasis": "ESTIMATE: A$500/year midpoint (A$350–650). The September 2025 manufacturer schedule reproduced by The Driven totals A$1,755 for the two recommended services, or A$2,385 with optional checks over five years (A$351/477 per year). Allow 2026 dealer/eligibility variation; do not assume a free first check on every used car. Excludes tyres and fault repairs. The current Australian manufacturer service page was re-opened on 18 October 2026: it provides the authorised-network contact route but no model-specific retail service tariff. The A$500 estimate therefore remains a planning allowance, not a new manufacturer quote.",
     "warrantyCautions": [
       "Private-use vehicle cover is 5 years unlimited kilometres with required service records. Obtain written confirmation of balance / transfer for a used purchase.",
       "Private-use HV battery cover is 8 years / 160,000 km with 70% retention; commercial-use limits differ.",
@@ -560,7 +562,8 @@
     "sourceIds": [
       "own-ev-zeekr-warranty",
       "own-ev-zeekr-manual",
-      "own-ev-est-service-zeekr"
+      "own-ev-est-service-zeekr",
+      "own-ev-refresh-zeekr-service"
     ],
     "checked": "2026-10-18",
     "serviceLow": 350,

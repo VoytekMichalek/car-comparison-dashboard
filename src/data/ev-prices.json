@@ -676,23 +676,34 @@
   {
     "id": "ev-price-ioniq-2023-rwd",
     "vehicleId": "ioniq5-dynamiq-rwd-2023",
-    "low": 26300,
-    "high": 35800,
-    "point": 31050,
-    "kind": "estimate",
+    "low": 41900,
+    "high": 41900,
+    "point": 41900,
+    "kind": "observation",
     "confidence": "low",
     "condition": "used",
     "basis": "excludes-charges",
-    "sampleCount": 0,
-    "geography": "Australia-wide private-sale guide; Queensland asking-price sample unavailable",
-    "kilometres": "Guide assumes age-appropriate kilometres; no individual odometer sample",
+    "sampleCount": 1,
+    "geography": "One NSW private seller; no current Queensland exact-MY23 sample verified",
+    "kilometres": "42,904 km",
     "observed": "2026-10-18",
-    "note": "RedBook private-sale guide retrieved at A$26,300–35,800, excluding government charges. Midpoint is used only as a provisional budget. This is a condition-based valuation guide, not a current asking or sold-price sample; dealer asking prices may be higher. Removed / sold advertisements were excluded. Deep audit excluded sold OAG-AD-26282541, OAG-AD-26356288 and Highland Prestige 574910; removed/redirected dealer ads and MY22/MY24 mismatches were also rejected. No active exact-MY23 asking sample was verified; the yellow guide is a valuation estimate, not observed stock.",
-    "estimateBasis": "Private-sale guide proxy: midpoint of A$26,300 and A$35,800. Zero live asking-price observations; confirm a current exact-variant listing and all Queensland charges.",
+    "note": "One exact MY23 77.4 kWh / 168 kW RWD private asking example replaces the zero-sample valuation proxy. November 2022 build and MY23 designation are explicit. Opened 18 October 2026 with A$41,900 excluding government charges and no sold/deposit/deadline wording; crawl metadata is about a month old and current seller availability has not been independently confirmed. Not a Queensland landed price, completed sale or model-wide valuation.",
     "sourceIds": [
-      "ev-ioniq-2023-rwd-guide"
+      "ev-refresh-dynamiq-private-20746442"
     ],
-    "observations": []
+    "observations": [
+      {
+        "price": 41900,
+        "basis": "excludes-charges",
+        "year": 2022,
+        "kilometres": 42904,
+        "location": "NSW, private seller",
+        "url": "https://www.carsales.com.au/cars/details/2022-hyundai-ioniq-5-dynamiq-auto-2wd-my23/SSE-AD-20746442/",
+        "sourceId": "ev-refresh-dynamiq-private-20746442",
+        "checked": "2026-10-18",
+        "note": "November 2022 build; NE.V3 MY23 Dynamiq 168 kW RWD, 77.4 kWh / 507 km. Advertised A$41,900 excluding government charges. VIN not displayed; no sold/deposit/deadline text in opened advert. Cached listing metadata is about a month old, so confirm availability before travel. New tyres/roof racks are seller claims, not priced separately."
+      }
+    ]
   },
   {
     "id": "ev-price-ioniq-2023-awd",

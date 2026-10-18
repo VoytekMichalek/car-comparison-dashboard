@@ -414,5 +414,21 @@
     "publisher": "Hyundai Australia",
     "kind": "manufacturer",
     "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-refresh-ioniq-my23-manual",
+    "title": "Australian MY23 Ioniq 5 owner manual: separate normal-service, low-conductivity coolant and 12V inspection intervals",
+    "url": "https://www.hyundai.com/content/dam/hyundai/au/en/owning/manuals/vehicle-manuals/ioniq-5/2023/IONIQ%205%202023%20Owner%20Manual.pdf",
+    "publisher": "Hyundai Motor Company Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-ev-refresh-zeekr-service",
+    "title": "Current Australian Zeekr service and warranty landing page",
+    "url": "https://www.zeekrlife.com/en-au/service/",
+    "publisher": "Zeekr Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
   }
 ]

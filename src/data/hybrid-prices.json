@@ -2,36 +2,24 @@
   {
     "id": "hy-price-out-used",
     "vehicleId": "outlander-phev-aspire-20",
-    "low": 40840,
+    "low": 44990,
     "high": 48500,
     "condition": "used",
     "basis": "drive-away",
-    "sampleCount": 3,
-    "geography": "Queensland · three dealer-used 2022–2025 cars, original five-seat/20 kWh Aspire",
-    "kilometres": "7,815–55,970 km",
+    "sampleCount": 2,
+    "geography": "Queensland · two dealer-used MY24 / original five-seat 20 kWh Aspire cars",
+    "kilometres": "7,815–43,477 km",
     "observed": "2026-10-18",
-    "note": "Exact original-generation Aspire sample; the A$42,888 Motorama stock U226401 is explicitly sold and excluded. Lowest advertised DAP has a dealer header fee-basis conflict, flagged in its observation. Prices span substantially different kilometre readings; no updated 22.7 kWh/seven-seat car is mixed in.",
+    "note": "Current release recheck excludes Ross Gray 00040414 / A$40,840: exact detail Offer is SoldOut even though visible inventory/prose still advertises the car and conflicting fees. Sold Motorama U226401 is also excluded. The remaining two examples are original five-seat / 20 kWh MY24 cars; their very different kilometres affect price. Asking sample, not valuation.",
     "sourceIds": [
-      "hy-deep-price-out-ross",
       "hy-priceaudit-out-2024",
       "hy-deep-price-out-hendra"
     ],
-    "confidence": "low",
+    "confidence": "medium",
     "estimateBasis": "Median of the distinct, specifically matched advertised cars below; an asking-price sample, not a valuation or achieved sale price. Current public HTML/stock and seller-posted advertisements checked; availability and buyer-specific on-road charges still require confirmation.",
-    "point": 44990,
+    "point": 46745.0,
     "kind": "observation",
     "observations": [
-      {
-        "price": 40840,
-        "basis": "drive-away",
-        "year": 2022,
-        "kilometres": 55970,
-        "location": "Bundaberg, QLD",
-        "url": "https://www.rossgray.com.au/all-stock/view/2022-Mitsubishi-Outlander/34692924",
-        "sourceId": "hy-deep-price-out-ross",
-        "checked": "2026-10-18",
-        "note": "Stock 00040414, VIN JMFXDGN0WNZ500244, MY23 five seats/20 kWh. Current inventory and seller prose advertise A$40,840 drive-away; detail header also shows A$40,040 excluding government charges and strikes through the DAP amount. Published DAP retained with low confidence; written on-road quote needed, no fee conversion assumed."
-      },
       {
         "price": 44990,
         "basis": "drive-away",
@@ -207,7 +195,8 @@
     "sourceIds": [
       "hy-priceaudit-xt-sunshine",
       "hy-priceaudit-xt-gatton",
-      "hy-deep-price-xt-motorama"
+      "hy-deep-price-xt-motorama",
+      "hy-refresh-xtrail-lbc-vins"
     ],
     "confidence": "medium",
     "estimateBasis": "Median of the distinct, specifically matched advertised cars below; an asking-price sample, not a valuation or achieved sale price. Current public HTML/stock and seller-posted advertisements checked; availability and buyer-specific on-road charges still require confirmation.",
@@ -223,7 +212,7 @@
         "url": "https://sunshinecoastnissan.com.au/u61979-1894471-nissan-xtrail-2023/",
         "sourceId": "hy-priceaudit-xt-sunshine",
         "checked": "2026-10-18",
-        "note": "Stock U61979, VIN JN1T33TB1A0003867; current seller page A$33,999 DAP, was A$39,999. Exact Ti e-Power AWD, five seats."
+        "note": "Stock U61979, VIN JN1T33TB1A0003867; current seller page A$33,999 DAP, was A$39,999. Exact Ti e-Power AWD, five seats. This exact VIN is present in the official REC-006653 LBC recall list; completion status is unknown. Request Nissan remedy paperwork before purchase."
       },
       {
         "price": 36990,
@@ -234,7 +223,7 @@
         "url": "https://www.gattonauto.com.au/used-cars/for-sale/nissan/x-trail/2023/ti-e-power/4037637/",
         "sourceId": "hy-priceaudit-xt-gatton",
         "checked": "2026-10-18",
-        "note": "Stock 76188, VIN JN1T33TB6A0002410, rego 120IU7. InStock; seller phrase Sold by us describes its original sale/service history, not current sold status. Exact Ti e-Power e-4ORCE."
+        "note": "Stock 76188, VIN JN1T33TB6A0002410, rego 120IU7. InStock; seller phrase Sold by us describes its original sale/service history, not current sold status. Exact Ti e-Power e-4ORCE. This exact VIN is present in the official REC-006653 LBC recall list; completion status is unknown. Request Nissan remedy paperwork before purchase."
       },
       {
         "price": 42488,
@@ -245,7 +234,7 @@
         "url": "https://www.motorama.com.au/cars/used-white-2023-nissan-x-trail-u229441",
         "sourceId": "hy-deep-price-xt-motorama",
         "checked": "2026-10-18",
-        "note": "Stock U229441, VIN JN1T33TB2A0000606, rego 018GG8; current used-condition/InStock JSON and page price verified. Ti e-Power AWD, not petrol Ti or Ti-L."
+        "note": "Stock U229441, VIN JN1T33TB2A0000606, rego 018GG8; current used-condition/InStock JSON and page price verified. Ti e-Power AWD, not petrol Ti or Ti-L. This exact VIN is present in the official REC-006653 LBC recall list; completion status is unknown. Request Nissan remedy paperwork before purchase."
       }
     ]
   },
@@ -447,7 +436,8 @@
     "sourceIds": [
       "hy-priceaudit-kluger-kedron",
       "hy-deep-price-kluger-booval",
-      "hy-deep-price-kluger-gympie"
+      "hy-deep-price-kluger-gympie",
+      "hy-refresh-kluger-recliner-vins"
     ],
     "confidence": "medium",
     "estimateBasis": "Median of the distinct, specifically matched advertised cars below; an asking-price sample, not a valuation or achieved sale price. Current public HTML/stock and seller-posted advertisements checked; availability and buyer-specific on-road charges still require confirmation.",
@@ -463,7 +453,7 @@
         "url": "https://autorequest.com.au/current-stock/?make=Toyota",
         "sourceId": "hy-priceaudit-kluger-kedron",
         "checked": "2026-10-18",
-        "note": "Current dealer stock 15437; VIN 5TDLB3CH00S058648 confirms GX Hybrid AWD. Dealer list labels fuel generically Petrol but its 2.5L hybrid VIN/specification is cross-checked; 3.5L petrol stock 15355 is excluded."
+        "note": "Current dealer stock 15437; VIN 5TDLB3CH00S058648 confirms GX Hybrid AWD. Dealer list labels fuel generically Petrol but its 2.5L hybrid VIN/specification is cross-checked; 3.5L petrol stock 15355 is excluded. This exact VIN is present in official REC-006562 second-row recliner recall data; completion is unknown. Request Toyota remedy paperwork."
       },
       {
         "price": 48490,
@@ -474,7 +464,7 @@
         "url": "https://www.llewellynmotors.com.au/used-cars/for-sale/toyota/kluger-hybrid/2022/gx-awd/3974517/",
         "sourceId": "hy-deep-price-kluger-booval",
         "checked": "2026-10-18",
-        "note": "Stock U675461, VIN 5TDLB3CH80S101780, rego 004QM2. Current direct dealer HTML A$48,490 DAP supersedes indexed A$49,490; exact GX AWD hybrid."
+        "note": "Stock U675461, VIN 5TDLB3CH80S101780, rego 004QM2. Current direct dealer HTML A$48,490 DAP supersedes indexed A$49,490; exact GX AWD hybrid. This exact VIN is present in official REC-006562 second-row recliner recall data; completion is unknown. Request Toyota remedy paperwork."
       },
       {
         "price": 49990,
@@ -485,7 +475,7 @@
         "url": "https://www.pacificmitsubishi.com.au/used-cars/for-sale/toyota/kluger/2022/gx/axuh78r-4x4-on-demand/4042218/",
         "sourceId": "hy-deep-price-kluger-gympie",
         "checked": "2026-10-18",
-        "note": "Stock U13155, GX Hybrid AXUH78R 4x4-on-demand, Graphite. Current A$49,990 DAP and 12,181 km supersede A$51,990/9,852 km older snapshot; counted once across dealer-group sites."
+        "note": "Stock U13155, GX Hybrid AXUH78R 4x4-on-demand, Graphite. Current A$49,990 DAP and 12,181 km supersede A$51,990/9,852 km older snapshot; counted once across dealer-group sites. This exact VIN is present in official REC-006562 second-row recliner recall data; completion is unknown. Request Toyota remedy paperwork."
       }
     ]
   },
@@ -529,18 +519,19 @@
     "high": 54990,
     "condition": "used",
     "basis": "drive-away",
-    "sampleCount": 2,
-    "geography": "Queensland · two original MQ4 PHEV GT-Line AWD dealer-used cars",
-    "kilometres": "35,432–42,342 km",
+    "sampleCount": 3,
+    "geography": "Queensland two used cars + Victoria one used car; original MQ4 PHEV GT-Line AWD",
+    "kilometres": "35,432–49,985 km",
     "observed": "2026-10-18",
-    "note": "Two exact original-generation QLD cars. White 2023 price is corroborated by the seller-posted search result rather than exposed on its detail page. Rocklea B10495, Pakenham C5187, blue Kedron 50,412 km and ACT old PDF are removed/sold and excluded. Mornington UFH2185 has conflicting HEV/PHEV identification and is excluded.",
+    "note": "Three distinct exact original PHEV cars. Current Berwick U20257 A$52,499 DAP is a separate blue VIN from the sold Pakenham example. White 2023 QLD price is exposed in seller-posted results rather than its active detail page. State-local DAP fees differ; transport/QLD transfer is not included. Sold/removed or mixed HEV/PHEV-identification advertisements remain excluded.",
     "sourceIds": [
       "hy-deep-price-sorento-wynnum",
-      "hy-priceaudit-sorento-2023"
+      "hy-priceaudit-sorento-2023",
+      "hy-refresh-sorento-berwick"
     ],
     "confidence": "medium",
     "estimateBasis": "Median of the distinct, specifically matched advertised cars below; an asking-price sample, not a valuation or achieved sale price. Current public HTML/stock and seller-posted advertisements checked; availability and buyer-specific on-road charges still require confirmation.",
-    "point": 53490.0,
+    "point": 52499,
     "kind": "observation",
     "observations": [
       {
@@ -564,6 +555,17 @@
         "sourceId": "hy-priceaudit-sorento-2023",
         "checked": "2026-10-18",
         "note": "Current exact MY23 PHEV page remains active, white, 42,342 km; A$51,990 DAP rechecked in current QLD carsales results. Seller identifies itself as a city BMW dealer but exact branch not independently confirmed. A page without displayed price is not treated as a fresh direct-dealer quote."
+      },
+      {
+        "price": 52499,
+        "basis": "drive-away",
+        "year": 2023,
+        "kilometres": 49985,
+        "location": "Berwick, VIC",
+        "url": "https://www.carsguide.com.au/car/15325366/kia/sorento/vic/berwick/suv",
+        "sourceId": "hy-refresh-sorento-berwick",
+        "checked": "2026-10-18",
+        "note": "Blue original MY23 PHEV GT-Line AWD stock U20257, VIN KNARM81HSP5201644. Current dealer-posted HTML and InStock Offer show A$52,499 DAP, superseding indexed A$52,999. Distinct VIN/stock from sold black Pakenham C5187. VIC-local on-road fees; QLD transport/registration adjustment not quoted."
       }
     ]
   }

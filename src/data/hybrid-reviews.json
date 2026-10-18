@@ -4,7 +4,7 @@
     "rating": 4.7,
     "outOf": 5,
     "count": 4,
-    "scope": "ProductReview page labelled fourth-generation ZM PHEV (2022–2026), four self-selected posts. The visible aggregate includes an explicit 2021 GSR / August 2021 purchase review describing 49-km EV range, so the page is NOT a clean ZM-only sample. No isolated MY26 22.7-kWh subset.",
+    "scope": "ProductReview page labelled fourth-generation ZM PHEV (2022–2026), four self-selected posts. The visible aggregate includes an explicit 2021 GSR / August 2021 purchase review describing 49-km EV range, so the page is NOT a clean ZM-only sample. No isolated MY 26 22.7-kWh subset.",
     "summary": "Contributors praise electric driving and family space, but generation contamination limits applicability: the displayed 4.7/5 from four posts cannot be treated as four confirmed current-generation owners. No defensible clean-subset rating was calculated.",
     "positiveThemes": [
       "Smooth electric acceleration and quiet running",
@@ -48,8 +48,8 @@
     "rating": 4.2,
     "outOf": 5,
     "count": 4,
-    "scope": "ProductReview T33 Ti e-POWER page labelled 2023–2026; this is a four-post Ti subset, not all e-POWER trims or the mixed-petrol X-Trail aggregate.",
-    "summary": "Visible owners value the smooth electric-motor drive. One detailed MY25 owner reports technology and after-sales frustrations; check the actual build and equipment.",
+    "scope": "ProductReview T 33 Ti e-POWER page:4 posts in the 2023–2026 Ti AWD subset. Not the petrol X-Trail aggregate and no isolated new MY 26 FWD owner sample. Reopened aggregate remains 4.2/5.",
+    "summary": "Visible owners value the smooth electric-motor drive. One detailed MY 25 owner reports technology and after-sales frustrations; check the actual build and equipment.",
     "positiveThemes": [
       "Smooth, quiet EV-like response",
       "Comfort and family space",
@@ -70,7 +70,7 @@
     "rating": 3.9,
     "outOf": 5,
     "count": 18,
-    "scope": "ProductReview XA50 FWD 2.5L Hybrid page: 18 contributions across GX, GXL and Cruiser, including a hire-car report and pre-2021 cars. Not the sixth-generation 2026 RAV4.",
+    "scope": "ProductReview XA 50 FWD 2.5 L Hybrid page:18 contributions across GX/GXL/Cruiser, including a hire-car report and pre-2021 cars. Platform labels 2019–2026 and 2027 aliases do not establish sixth-generation applicability; this is the previous-generation aggregate, excluded from the new 2026 RAV 4 score.",
     "summary": "The FWD hybrid subset is a closer match than the AWD aggregate. Contributors praise economy and practicality, with mixed views on cabin quality, noise and technology. Self-selected posts cannot establish reliability.",
     "positiveThemes": [
       "Hybrid economy in urban and mixed use",
@@ -114,8 +114,8 @@
     "rating": 3.4,
     "outOf": 5,
     "count": 31,
-    "scope": "ProductReview MQ4 page labelled 2020–2026: MIXED petrol, diesel, HEV and PHEV; includes independent expert posts. The aggregate is not a Sorento hybrid reliability rating.",
-    "summary": "Broader MQ4 feedback praises comfort and equipment, with some after-sales complaints. Hybrid-only evidence is sparse: FWD HEV has two posts including an expert; PHEV has one expert post, not an owner sample.",
+    "scope": "ProductReview MQ 4 page labelled 2020–2026: MIXED petrol, diesel, HEV and PHEV; includes independent expert posts. The aggregate is not a Sorento hybrid reliability rating.",
+    "summary": "MQ 4 feedback mixes petrol/diesel/hybrid owners and borrowed-car experts. Hybrid-only subpages remain inadequate owner samples: FWD HEV 2 posts including an expert; PHEV 1 expert post. No clean original-PHEV or MY 26 AWD-HEV owner rating was substituted.",
     "positiveThemes": [
       "Comfortable ride and family accommodation across mixed variants",
       "Equipment and perceived interior quality praised",

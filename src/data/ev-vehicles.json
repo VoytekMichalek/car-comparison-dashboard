@@ -649,7 +649,8 @@
       "Trial all three restraints together and check every buckle with the children seated.",
       "Confirm VIN, build date, service history, recall completion and remaining warranty.",
       "On a 2022 car, obtain evidence that the Australian child-restraint anchorage updates were completed.",
-      "Verify range standard: 480 km NEDC is not 480 km WLTP."
+      "Verify range standard: 480 km NEDC is not 480 km WLTP.",
+      "Obtain the VIN-specific major-service quote, not just a minor-service price: the current generic Australian EV guide includes periodic brake/drive fluids and coolant, with RWD/AWD-specific additions."
     ],
     "changes": [
       {
@@ -680,7 +681,8 @@
       "ev-atto-ancap",
       "ev-byd-warranty",
       "ev-atto-standard-market",
-      "own-ev-byd-warranty"
+      "own-ev-byd-warranty",
+      "own-ev-byd-service"
     ],
     "checked": "2026-10-18"
   },
@@ -825,7 +827,8 @@
       "Trial all three restraints together and check every buckle with the children seated.",
       "Confirm VIN, build date, service history, recall completion and remaining warranty.",
       "On a 2022 car, obtain evidence that the Australian child-restraint anchorage updates were completed.",
-      "Verify range standard: 480 km NEDC is not 480 km WLTP."
+      "Verify range standard: 480 km NEDC is not 480 km WLTP.",
+      "Obtain the VIN-specific major-service quote, not just a minor-service price: the current generic Australian EV guide includes periodic brake/drive fluids and coolant, with RWD/AWD-specific additions."
     ],
     "changes": [
       {
@@ -856,7 +859,8 @@
       "ev-atto-ancap",
       "ev-byd-warranty",
       "ev-atto-market",
-      "own-ev-byd-warranty"
+      "own-ev-byd-warranty",
+      "own-ev-byd-service"
     ],
     "checked": "2026-10-18"
   },
@@ -994,7 +998,8 @@
     ],
     "inspection": [
       "Trial all three restraints together and check every buckle with the children seated.",
-      "Confirm VIN, build date, service history, recall completion and remaining warranty."
+      "Confirm VIN, build date, service history, recall completion and remaining warranty.",
+      "Obtain the VIN-specific major-service quote, not just a minor-service price: the current generic Australian EV guide includes periodic brake/drive fluids and coolant, with RWD/AWD-specific additions."
     ],
     "changes": [
       {
@@ -1014,7 +1019,8 @@
       "ev-atto-family",
       "ev-byd-warranty",
       "ev-atto-essential-order",
-      "own-ev-byd-warranty"
+      "own-ev-byd-warranty",
+      "own-ev-byd-service"
     ],
     "checked": "2026-10-18"
   },
@@ -1160,7 +1166,8 @@
     ],
     "inspection": [
       "Trial all three restraints together and check every buckle with the children seated.",
-      "Confirm VIN, build date, service history, recall completion and remaining warranty."
+      "Confirm VIN, build date, service history, recall completion and remaining warranty.",
+      "Obtain the VIN-specific major-service quote, not just a minor-service price: the current generic Australian EV guide includes periodic brake/drive fluids and coolant, with RWD/AWD-specific additions."
     ],
     "changes": [
       {
@@ -1183,7 +1190,8 @@
       "ev-atto-evo-price",
       "own-ev-byd-warranty",
       "ev-deep-atto-evo-brochure",
-      "ev-energy-method-wltp"
+      "ev-energy-method-wltp",
+      "own-ev-byd-service"
     ],
     "checked": "2026-10-18"
   },
@@ -1906,7 +1914,7 @@
     "seats": 5,
     "drive": "RWD",
     "headline": "The larger-battery 2023 Ioniq 5",
-    "summary": "Rear-drive Dynamiq offers the longest MY23 range and smaller wheels; its purchase price is a labelled guide-based estimate.",
+    "summary": "Rear-drive Dynamiq offers the longest MY23 range and smaller wheels. One exact NSW private asking example is recorded; Queensland market coverage and seller availability remain limited.",
     "range": {
       "value": 507,
       "unit": "km",
@@ -1999,7 +2007,7 @@
     },
     "warranty": "Original 5 years / unlimited km for private use from first registration. A 2023 registration does not qualify for the later 7-year offer; confirm original terms and remaining cover.",
     "batteryWarranty": "Original high-voltage battery cover: 8 years / 160,000 km from first registration; confirm original conditions and remaining kilometres.",
-    "servicing": "MY23 interval: 24 months / 30,000 km, whichever comes first. Historical first three capped services were A$570, A$1,090 and A$570; obtain a current VIN-specific quote, including coolant.",
+    "servicing": "MY23 normal schedule: 24 months / 30,000 km. The Australian owner manual separately requires low-conductivity coolant replacement every 36 months / 60,000 km and 12V battery inspection every 12 months / 15,000 km, whichever comes first. Historical A$570 / A$1,090 / A$570 service prices are not a current all-inclusive quote; ask which fluid work is included.",
     "safety": {
       "stars": 5,
       "year": 2021,
@@ -2032,7 +2040,7 @@
     ],
     "cons": [
       "No rear wiper on this original body.",
-      "No current exact-variant asking-price sample verified; the yellow price is a private-sale guide proxy.",
+      "One exact NSW private ask; no current Queensland exact-MY23 cohort, and seller availability needs confirmation.",
       "This grade does not receive the Epiq-only MY23 heat pump and battery conditioning."
     ],
     "inspection": [
@@ -2041,7 +2049,8 @@
       "Check VIN eligibility and completion of current Australian ICCU recall REC-006224, which supersedes REC-005942, and any later campaigns.",
       "Test AC/DC charging and inspect auxiliary-battery and scheduled-coolant records.",
       "Confirm MY23 NE.V3 and 77.4 kWh on the build / specification record; registration year alone is insufficient.",
-      "Check the tyre placard: 235/55R19 on standard Dynamiq wheels."
+      "Check the tyre placard: 235/55R19 on standard Dynamiq wheels.",
+      "Check dated low-conductivity coolant invoices against the separate 36-month / 60,000-km interval; a two-year general-service stamp alone does not establish this work was completed."
     ],
     "changes": [
       {
@@ -2064,7 +2073,7 @@
       "Your exact three-seat or booster combination is unconfirmed.",
       "Epiq and MY24 changes are outside this MY23 configuration.",
       "Vehicle peak DC input remains unverified; charging-station power is not treated as the vehicle maximum.",
-      "No current Australian exact-build asking-price sample verified. Private-sale guide figures are estimates, not current dealer offers.",
+      "Only one exact MY23 private asking example is recorded, from NSW. Its crawl metadata is about a month old; seller availability, Queensland landed cost and broader market pricing are unconfirmed.",
       "MY23 77.4 kWh configuration includes late-2022 builds; build year alone does not establish the battery or drivetrain. Excludes MY22 72.6 kWh and MY24 specification.",
       "Three-across evidence is from the related 2022 AWD cabin, not a separately verified MY23 installation. Your seat models, facing directions and buckle access remain pending."
     ],
@@ -2076,7 +2085,8 @@
       "own-ev-hyundai-recall",
       "own-ev-hyundai-terms",
       "ev-ioniq-2023-roadtest",
-      "ev-ioniq-2023-rwd-guide"
+      "own-ev-refresh-ioniq-my23-manual",
+      "ev-refresh-dynamiq-private-20746442"
     ],
     "checked": "2026-10-18"
   },
@@ -2188,7 +2198,7 @@
     },
     "warranty": "Original 5 years / unlimited km for private use from first registration. A 2023 registration does not qualify for the later 7-year offer; confirm original terms and remaining cover.",
     "batteryWarranty": "Original high-voltage battery cover: 8 years / 160,000 km from first registration; confirm original conditions and remaining kilometres.",
-    "servicing": "MY23 interval: 24 months / 30,000 km, whichever comes first. Historical first three capped services were A$570, A$1,090 and A$570; obtain a current VIN-specific quote, including coolant.",
+    "servicing": "MY23 normal schedule: 24 months / 30,000 km. The Australian owner manual separately requires low-conductivity coolant replacement every 36 months / 60,000 km and 12V battery inspection every 12 months / 15,000 km, whichever comes first. Historical A$570 / A$1,090 / A$570 service prices are not a current all-inclusive quote; ask which fluid work is included.",
     "safety": {
       "stars": 5,
       "year": 2021,
@@ -2230,7 +2240,8 @@
       "Check VIN eligibility and completion of current Australian ICCU recall REC-006224, which supersedes REC-005942, and any later campaigns.",
       "Test AC/DC charging and inspect auxiliary-battery and scheduled-coolant records.",
       "Confirm MY23 NE.V3 and 77.4 kWh on the build / specification record; registration year alone is insufficient.",
-      "Check the tyre placard: 255/45R20 on standard Techniq wheels."
+      "Check the tyre placard: 255/45R20 on standard Techniq wheels.",
+      "Check dated low-conductivity coolant invoices against the separate 36-month / 60,000-km interval; a two-year general-service stamp alone does not establish this work was completed."
     ],
     "changes": [
       {
@@ -2264,7 +2275,8 @@
       "own-ev-hyundai-recall",
       "own-ev-hyundai-terms",
       "ev-ioniq-2023-roadtest",
-      "ev-ioniq-2023-awd-listing"
+      "ev-ioniq-2023-awd-listing",
+      "own-ev-refresh-ioniq-my23-manual"
     ],
     "checked": "2026-10-18"
   },

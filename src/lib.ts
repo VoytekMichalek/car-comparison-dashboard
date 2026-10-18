@@ -68,7 +68,7 @@ export function writePersonal(storage: StorageLike | null, data: PersonalData): 
 
 export interface Filters {
   search: string;
-  powertrain: 'all' | Powertrain;
+  powertrains: Powertrain[];
   make: string;
   condition: 'all' | 'new' | 'used';
   withinBudgetOnly: boolean;
@@ -78,7 +78,10 @@ export interface Filters {
   budget: number;
   favourites: boolean;
 }
-export const defaultFilters: Filters = { search: '', powertrain: 'all', make: 'all', condition: 'all', withinBudgetOnly: false, year: 'all', seats: 'all', fit: 'all', budget: 45000, favourites: false };
+export const powertrainTypes: Powertrain[] = ['BEV', 'PHEV', 'HEV', 'PETROL', 'DIESEL'];
+export const normalisePowertrains = (values: string[]): Powertrain[] => powertrainTypes.filter(type => values.includes(type));
+export const defaultFilters: Filters = { search: '', powertrains: [], make: 'all', condition: 'all', withinBudgetOnly: false, year: 'all', seats: 'all', fit: 'all', budget: 45000, favourites: false };
+export const activeFilterCount = (filters: Filters): number => Object.entries(defaultFilters).filter(([key, value]) => key === 'powertrains' ? filters.powertrains.length > 0 : filters[key as keyof Filters] !== value).length;
 export type View = 'browse' | 'compare' | 'vehicle' | 'costs' | 'notebook' | 'scores';
 export const vehicleSections = ['overview', 'costs', 'scores', 'specs', 'family', 'ownership', 'sources', 'notes'] as const;
 export type VehicleSection = typeof vehicleSections[number];
@@ -90,14 +93,14 @@ export function parseHash(hash: string, validIds: Set<string>): PublicState {
   const requestedView = allowedViews.includes(p.get('view') ?? '') ? p.get('view') as View : 'browse';
   const view = requestedView === 'vehicle' && !validIds.has(vehicleId) ? 'browse' : requestedView;
   const section = vehicleSections.find(section => section === p.get('section'));
-  const powertrain = ['BEV', 'PHEV', 'HEV', 'PETROL', 'DIESEL'].includes(p.get('power') ?? '') ? p.get('power') as Filters['powertrain'] : 'all';
+  const powertrains = normalisePowertrains(p.getAll('power').flatMap(value => value.split(',')));
   const fit = ['published', 'confirmed', 'unverified'].includes(p.get('fit') ?? '') ? p.get('fit') as Filters['fit'] : 'all';
   const year = /^202[1-6]$/.test(p.get('year') ?? '') ? p.get('year')! : 'all';
   const rawBudget = Number(p.get('budget') ?? 45000);
   const budget = Number.isFinite(rawBudget) && rawBudget >= 10000 && rawBudget <= 150000 ? rawBudget : 45000;
   const rawWeights = p.get('weights')?.split(',').map(Number);
   const parsedWeights = rawWeights?.length === 8 ? weightsSchema.safeParse(Object.fromEntries(Object.keys(defaultWeights).map((key, i) => [key, rawWeights[i]]))) : null;
-  return { view, compare: [...new Set((p.get('cars') ?? '').split(',').filter(id => validIds.has(id)))].slice(0, 4), filters: { ...defaultFilters, search: (p.get('q') ?? '').slice(0, 150), powertrain, make: (p.get('make') ?? 'all').slice(0, 50), condition: p.get('condition') === 'new' ? 'new' : p.get('condition') === 'used' ? 'used' : 'all', withinBudgetOnly: p.get('budgetOnly') === '1', year, seats: p.get('seats') === '7' ? '7' : 'all', fit, budget }, ...(parsedWeights?.success ? { weights: parsedWeights.data } : {}), ...(view === 'vehicle' ? { vehicleId, ...(section ? { section } : {}) } : {}) };
+  return { view, compare: [...new Set((p.get('cars') ?? '').split(',').filter(id => validIds.has(id)))].slice(0, 4), filters: { ...defaultFilters, search: (p.get('q') ?? '').slice(0, 150), powertrains, make: (p.get('make') ?? 'all').slice(0, 50), condition: p.get('condition') === 'new' ? 'new' : p.get('condition') === 'used' ? 'used' : 'all', withinBudgetOnly: p.get('budgetOnly') === '1', year, seats: p.get('seats') === '7' ? '7' : 'all', fit, budget }, ...(parsedWeights?.success ? { weights: parsedWeights.data } : {}), ...(view === 'vehicle' ? { vehicleId, ...(section ? { section } : {}) } : {}) };
 }
 export function publicHash(state: PublicState): string {
   const p = new URLSearchParams();
@@ -112,7 +115,7 @@ export function publicHash(state: PublicState): string {
   if (f.make !== 'all') p.set('make', f.make);
   if (f.condition !== 'all') p.set('condition', f.condition);
   if (f.withinBudgetOnly) p.set('budgetOnly', '1');
-  if (f.powertrain !== 'all') p.set('power', f.powertrain);
+  if (f.powertrains.length) p.set('power', normalisePowertrains(f.powertrains).join(','));
   if (f.year !== 'all') p.set('year', f.year);
   if (f.seats !== 'all') p.set('seats', f.seats);
   if (f.fit !== 'all' && f.fit !== 'confirmed') p.set('fit', f.fit);
@@ -129,7 +132,7 @@ export function filterVehicles(vehicles: Vehicle[], filters: Filters, favourites
   const query = filters.search.toLowerCase().trim();
   return vehicles.filter(v =>
     (!query || `${v.make} ${v.model} ${v.variant} ${v.years.join(' ')}`.toLowerCase().includes(query)) &&
-    (filters.powertrain === 'all' || v.powertrain === filters.powertrain) &&
+    (!filters.powertrains.length || filters.powertrains.includes(v.powertrain)) &&
     (filters.make === 'all' || v.make === filters.make) &&
     (filters.condition === 'all' || snapshots.find(p => p.vehicleId === v.id)?.condition === filters.condition) &&
     (!filters.withinBudgetOnly || priceGroup(snapshots.find(p => p.vehicleId === v.id), filters.budget) === 'budget') &&
@@ -170,7 +173,7 @@ export function calculateEnergy(vehicle: Vehicle, settings: CostSettings): { tot
   if (share < 1 && (vehicle.depletedConsumption.value === null || vehicle.depletedConsumption.unit !== 'L/100km')) return unavailable('Charge-depleted fuel use is unverified. The low weighted PHEV figure is not used as petrol-only consumption.');
   const electric = electricCost(km * share, vehicle.consumption.value ?? 0);
   const petrol = km * (1 - share) / 100 * (vehicle.depletedConsumption.value ?? 0) * petrolRate;
-  return { total: electric + petrol, electric, petrol, reason: `${electricShare}% electric-distance assumption, then verified charge-depleted fuel use.`, estimated: true };
+  return { total: electric + petrol, electric, petrol, reason: `${electricShare}% electric-distance assumption, then sourced charge-depleted fuel use; see the test basis.`, estimated: true };
 }
 
 export const money = (value: number, compact = false) => new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD', maximumFractionDigits: 0, ...(compact ? { notation: 'compact' as const, maximumFractionDigits: 1 } : {}) }).format(value);

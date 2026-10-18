@@ -1,13 +1,13 @@
 [
   {
     "familyId": "mitsubishi-outlander-phev",
-    "serviceInterval": "ZM schedule: 12 months or 15,000 km, whichever first; severe-use work can be earlier. Confirm the older ZL or MY26 schedule by VIN.",
+    "serviceInterval": "ZM schedules: 12 months or 15,000 km, whichever first; severe-use work can be earlier. Confirm the exact model year and original purchase-date price cohort by VIN.",
     "serviceAnnual": 550.0,
-    "serviceBasis": "ESTIMATE — A$550/year planning midpoint at 15,000 km/year, normal use (A$350–750 multi-year sensitivity). Rechecked maker MY24 schedule for cars bought 1 December 2025–31 March 2026 totals A$5,683 for ten visits/150,000 km (A$568.30/year), with individual visits A$356–899. This narrowly dated cohort anchors the allowance; it does not reprice an older MY23 purchase or establish MY26 22.7-kWh caps. Obtain the actual VIN’s original schedule. A single major visit can exceed the annual allowance; wear, tyres and repairs are separate.",
+    "serviceBasis": "ESTIMATE — A$550/year planning midpoint at 15,000 km/year, normal use (A$350–750 multi-year sensitivity). Rechecked maker MY24 schedule for cars bought 1 December 2025–31 March 2026 totals A$5,683 for ten visits/150,000 km (A$568.30/year), with individual visits A$356–899. This narrowly dated cohort anchors the allowance; it does not reprice an older MY23 purchase or establish updated 22.7-kWh caps; the eligible current-purchase updated car has its own separately sourced service override. Obtain the actual VIN’s original schedule. A single major visit can exceed the annual allowance; wear, tyres and repairs are separate.",
     "warrantyCautions": [
       "Base cover is 5 years / 100,000 km. Eligible 10-year / 200,000-km extension requires every scheduled service from the first at an authorised Mitsubishi dealer, within the published 2-month / 2,000-km timing allowance. Missing one can end the extension while an unexpired base warranty remains; inspect the full history and original customer/use eligibility.",
       "Drive-battery defects: 8 years/160,000 km for purchases after 1 October 2020. Capacity Care is separate: eligible MY22 onward batteries below 66% usable capacity; pre-MY22 Outlander is excluded. Confirm remaining cover and ownership details.",
-      "Capped servicing follows an eligible used vehicle until expiry; it does not restart at purchase. Prices depend on model year AND original purchase-date cohort. Government/rental and some business customers are excluded. Use a Mitsubishi PHEV specialist and confirm the exact MY26 schedule/caps."
+      "Capped servicing follows an eligible used vehicle until expiry; it does not restart at purchase. Prices depend on model year AND original purchase-date cohort. Government/rental and some business customers are excluded. The updated MY25 PHEV schedule for eligible purchases from 1 April 2026 is separately sourced; do not transfer it to earlier used purchases."
     ],
     "risks": [
       {
@@ -61,7 +61,8 @@
       "own-hy-out-service-caps",
       "own-hy-mitsubishi-terms",
       "own-hy-mitsubishi-cps-current",
-      "own-hy-mitsubishi-my24-dec2025-caps"
+      "own-hy-mitsubishi-my24-dec2025-caps",
+      "own-hy-refresh-out25-cps"
     ],
     "checked": "2026-10-18",
     "serviceLow": 350,
@@ -81,24 +82,33 @@
     "depletedEstimate": {
       "low": 5.5,
       "high": 8.5,
-      "point": 7,
-      "basis": "ESTIMATE — L/100 km in depleted hybrid driving, not weighted PHEV fuel. Larger-SUV anchor: Kluger Hybrid maker combined 5.6; choose 7.0 with 5.5–8.5 sensitivity for Outlander mass, road mix and load. A different powertrain is only an analogue, not a verified Outlander result.",
+      "point": 7.2,
+      "basis": "ESTIMATE — 7.2 L/100 km planning point, with 5.5–8.5 sensitivity. Anchor is an indicated roughly 50 km depleted city/suburban/highway test of the original 20 kWh Australian Aspire. The exact old-car observation is separately recorded in its vehicle fact. Applying this to the later 22.7 kWh car is an unverified same-family analogue, not its manufacturer figure or a measured later-car result. Weighted 1.5/1.2 are not substituted.",
       "sourceIds": [
-        "own-hy-hev-consumption-proxy",
-        "own-hy-out-energy-proxy"
+        "own-hy-refresh-out-depleted"
       ],
       "confidence": "low"
+    },
+    "serviceByVehicle": {
+      "outlander-phev-aspire-227": {
+        "serviceAnnual": 571.8,
+        "serviceLow": 377,
+        "serviceHigh": 899,
+        "serviceConfidence": "high",
+        "serviceBasis": "MANUFACTURER PLAN — exact Australian MY25 Outlander 4x4 2.4L PHEV schedule for eligible purchases from 1 April 2026, matching the updated 22.7 kWh brochure designation. Ten normal-use visits at 12 months / 15,000 km cost A$377,449,399,499,399,899,399,899,499,899: A$5,718 over ten years / 150,000 km, or A$571.80/year averaged. The A$377–899 sensitivity is the lowest/highest individual visit, not uncertainty in the published caps. This is not a promise every used VIN has all ten visits remaining. Covered scheduled parts, labour, oils and fluids only; wear, missed-service catch-up, severe-use extras and repairs are additional. Confirm purchase-date eligibility and GST treatment on the dealer invoice."
+      }
     }
   },
   {
     "familyId": "byd-sealion-6",
-    "serviceInterval": "Published MY24 plan: 12 months/20,000 km plus initial 6 months/3,500 km inspection. The handbook also uses HEV-distance triggers; confirm your exact schedule.",
+    "serviceInterval": "Current official PHEV guidance: 12 months, 20,000 total km or 10,000 HEV km, whichever first; the original MY24 plan also has an initial 6-month/3,500-km visit. Check the exact VIN handbook and initial-service trigger.",
     "serviceAnnual": 450.0,
-    "serviceBasis": "ESTIMATE — A$450/year planning midpoint at 15,000 km/year. MY24 Dynamic first-five annual caps total A$1,593 incl GST (A$318.60/year); later large visits and Premium/Extended/HEV-distance triggers justify the A$300–600 multi-year allowance. The year-eight A$1,119 visit can exceed a single-year budget; wear/repairs are separate. Confirm actual VIN caps. The 26.6-kWh Extended-specific cap table was not verified: use this as a low-confidence planning analogue until a VIN quote is obtained.",
+    "serviceBasis": "ESTIMATE — A$450/year planning midpoint at 15,000 km/year. MY24 Dynamic first-five annual caps total A$1,593 incl GST (A$318.60/year); later large visits and Premium/Extended/HEV-distance triggers justify the A$300–600 multi-year allowance. The year-eight A$1,119 visit can exceed a single-year budget; wear/repairs are separate. Confirm actual VIN caps. The 26.6-kWh Extended-specific cap table was not verified: use this as a low-confidence planning analogue until a VIN quote is obtained. Reopened current maker PHEV schedule also gives a 10,000 HEV-km trigger: frequent petrol-mode use can bring visits forward before 20,000 total km. This is not an EV-only service schedule.",
     "warrantyCautions": [
       "Headline vehicle cover is 6 years/150,000 km and traction battery 8 years/160,000 km. Obtain the original applicable booklet and written remaining-cover confirmation for a used vehicle.",
-      "Current 2026 booklet lists drive unit 8 years/160,000 km and battery retention 70%; do not assume these current-new terms apply retrospectively to a MY24 car. Maintenance, misuse and wear exclusions apply; replacements may be reconditioned.",
-      "Current booklet makes the warranty transferable with the car and requires maintenance records. Auxiliary lead-acid battery cover is only 12 months / 20,000 km. Queensland warranty timing generally starts at first registration, including a demonstrator’s prior registration."
+      "Current 2026 booklet lists drive unit 8 years/160,000 km and battery retention 70%; do not assume these current-new terms apply retrospectively to a MY 24 car. Maintenance, misuse and wear exclusions apply; replacements may be reconditioned.",
+      "Current booklet makes the warranty transferable with the car and requires maintenance records. Auxiliary lead-acid battery cover is only 12 months / 20,000 km. Queensland warranty timing generally starts at first registration, including a demonstrator’s prior registration.",
+      "Rechecked current 2026 booklet pp 7–8: in QLD an ex-demonstrator consumes warranty time from dealer registration/in-service date; the booklet has a different WA commencement rule. The portable AC charging/discharging connection device has only 12 months cover (p 10), separate from the vehicle and drive-unit periods. Confirm the original used-car booklet before assuming current terms."
     ],
     "risks": [
       {
@@ -145,7 +155,8 @@
     "sourceIds": [
       "own-hy-byd-warranty",
       "own-hy-byd-servicing",
-      "own-hy-byd-handbook"
+      "own-hy-byd-handbook",
+      "own-hy-refresh-byd-service"
     ],
     "checked": "2026-10-18",
     "serviceLow": 300,
@@ -566,10 +577,10 @@
     "depletedEstimate": {
       "low": 5,
       "high": 8,
-      "point": 6.5,
-      "basis": "ESTIMATE — PHEV only, L/100 km after usable electric range is depleted. A 2025 Australian test indicated 6.5 over 100 mixed km; use 5–8 sensitivity as an analogue for the older 2021–2023 PHEV. It is not an ADR claim or a direct test of the exact older car. Weighted 1.6 L/100 km is not substituted.",
+      "point": 6.7,
+      "basis": "ESTIMATE — original PHEV only:6.7 L/100 km planning point with 5–8 sensitivity, now anchored to an exact original-generation Australian WhichCar test rather than a 2025 facelift analogue. Test covered 101.1 km starting at minimum battery charge, with a Sunbury detour; indicated, exact startSOC percentage and pump check unpublished. Weighted 1.6 is not used. Not an annual guarantee or applicable to the HEV.",
       "sourceIds": [
-        "own-hy-sorento-depleted-proxy"
+        "own-hy-refresh-sorento-depleted"
       ],
       "confidence": "low"
     },

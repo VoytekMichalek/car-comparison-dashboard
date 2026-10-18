@@ -158,6 +158,8 @@ export interface OwnershipInfo {
   serviceHigh?: number;
   serviceConfidence?: Confidence;
   energyEstimate?: BudgetEstimate;
+  fuelEstimate?: BudgetEstimate;
+  fuelByVehicle?: Record<string, BudgetEstimate>;
   depletedEstimate?: BudgetEstimate;
   warrantyCautions: string[];
   risks: RepairRisk[];

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { calculateEnergy, chooseComparison, defaultCosts, defaultFilters, emptyPersonal, filterVehicles, parseBackup, parseHash, priceGroup, publicHash, rangeStandard, readPersonal, STORAGE_KEY, toggleComparison, writePersonal } from './lib';
+import { activeFilterCount, calculateEnergy, chooseComparison, defaultCosts, defaultFilters, emptyPersonal, filterVehicles, parseBackup, parseHash, priceGroup, publicHash, rangeStandard, readPersonal, STORAGE_KEY, toggleComparison, writePersonal } from './lib';
 import { vehicles, vehicleIds, getPrice, prices as priceSnapshots } from './data';
 import type { Fact, Vehicle } from './types';
 
@@ -69,8 +69,18 @@ describe('energy costs under actual shopping scenarios', () => {
 });
 
 describe('public comparison links', () => {
+  it('restores multiple powertrains and keeps old single-powertrain links working', () => {
+    const state = { view: 'compare' as const, compare: [known], filters: { ...defaultFilters, powertrains: ['BEV' as const, 'PHEV' as const, 'HEV' as const] } };
+    expect(parseHash(publicHash(state), vehicleIds)).toEqual(state);
+    expect(parseHash('#power=BEV', vehicleIds).filters.powertrains).toEqual(['BEV']);
+    expect(parseHash('#power=HEV,BEV,BEV,invalid&power=DIESEL', vehicleIds).filters.powertrains).toEqual(['BEV', 'HEV', 'DIESEL']);
+    expect(parseHash('#power=invalid', vehicleIds).filters.powertrains).toEqual([]);
+    expect(activeFilterCount(parseHash('#power=invalid', vehicleIds).filters)).toBe(0);
+    expect(activeFilterCount(state.filters)).toBe(1);
+    expect(publicHash({ ...state, filters: defaultFilters })).not.toContain('power=');
+  });
   it('shares the new public filters for petrol/diesel shopping', () => {
-    const state = { view: 'costs' as const, compare: [known], filters: { ...defaultFilters, powertrain: 'PETROL' as const, make: 'Subaru', condition: 'new' as const, withinBudgetOnly: true } };
+    const state = { view: 'costs' as const, compare: [known], filters: { ...defaultFilters, powertrains: ['PETROL' as const], make: 'Subaru', condition: 'new' as const, withinBudgetOnly: true } };
     expect(parseHash(publicHash(state), vehicleIds)).toEqual(state);
   });
   it('restores an exact vehicle page and section with public browse context', () => {
@@ -96,7 +106,7 @@ describe('public comparison links', () => {
     expect(hash).not.toContain('section=');
   });
   it('round-trips selected configuration IDs, filters and static-host routes', () => {
-    const state = { view: 'compare' as const, compare: vehicles.slice(0, 4).map(v => v.id), filters: { ...defaultFilters, powertrain: 'BEV' as const, year: '2023', budget: 40000, search: 'Model Y', seats: '7' as const } };
+    const state = { view: 'compare' as const, compare: vehicles.slice(0, 4).map(v => v.id), filters: { ...defaultFilters, powertrains: ['BEV' as const], year: '2023', budget: 40000, search: 'Model Y', seats: '7' as const } };
     expect(parseHash(publicHash(state), vehicleIds)).toEqual(state);
   });
   it('ignores unknown IDs, duplicates, extra cars and malformed filters', () => {
@@ -122,10 +132,18 @@ describe('public comparison links', () => {
 });
 
 describe('catalogue filtering and evidence', () => {
+  it('includes any selected powertrain while intersecting other filters', () => {
+    const filtered = filterVehicles(vehicles, { ...defaultFilters, powertrains: ['BEV', 'HEV'], year: '2023', make: 'Toyota' }, [], {});
+    expect(filtered.length).toBeGreaterThan(0);
+    expect(filtered.every(v => v.powertrain === 'HEV' && v.make === 'Toyota' && v.years.includes(2023))).toBe(true);
+    const electricAndHybrid = filterVehicles(vehicles, { ...defaultFilters, powertrains: ['BEV', 'PHEV'] }, [], {});
+    expect(new Set(electricAndHybrid.map(v => v.powertrain))).toEqual(new Set(['BEV', 'PHEV']));
+    expect(filterVehicles(vehicles, defaultFilters, [], {})).toHaveLength(vehicles.length);
+  });
   it('finds the near-budget new petrol Forester using the same shared filters', () => {
-    const filtered = filterVehicles(vehicles, { ...defaultFilters, make: 'Subaru', powertrain: 'PETROL', condition: 'new', withinBudgetOnly: true }, [], {}, priceSnapshots);
+    const filtered = filterVehicles(vehicles, { ...defaultFilters, make: 'Subaru', powertrains: ['PETROL'], condition: 'new', withinBudgetOnly: true }, [], {}, priceSnapshots);
     expect(filtered.map(v => v.id)).toEqual(['forester-awd-petrol-2025']);
-    expect(filterVehicles(vehicles, { ...defaultFilters, make: 'Subaru', powertrain: 'DIESEL' }, [], {}, priceSnapshots)).toEqual([]);
+    expect(filterVehicles(vehicles, { ...defaultFilters, make: 'Subaru', powertrains: ['DIESEL'] }, [], {}, priceSnapshots)).toEqual([]);
   });
   it('includes related published fit tests without treating them as personal confirmation', () => {
     const id = 'ioniq5-dynamiq-rwd-2023';
@@ -134,7 +152,7 @@ describe('catalogue filtering and evidence', () => {
     expect(filterVehicles(vehicles, { ...defaultFilters, fit: 'confirmed' }, [], {})).toEqual([]);
   });
   it('combines year, powertrain, search and seven-seat requirements', () => {
-    const filtered = filterVehicles(vehicles, { ...defaultFilters, search: 'Kluger', year: '2023', powertrain: 'HEV', seats: '7' }, [], {});
+    const filtered = filterVehicles(vehicles, { ...defaultFilters, search: 'Kluger', year: '2023', powertrains: ['HEV'], seats: '7' }, [], {});
     expect(filtered).toHaveLength(1);
     expect(filtered[0].familyId).toBe('toyota-kluger-hybrid');
   });

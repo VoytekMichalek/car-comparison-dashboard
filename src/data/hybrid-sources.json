@@ -854,5 +854,53 @@
     "publisher": "EV Dealer Group BYD",
     "kind": "market",
     "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-refresh-out-aspire-depleted",
+    "title": "2023 Australian Outlander Aspire road test: indicated 7.2 L/100 km over roughly 50 km starting depleted",
+    "url": "https://www.carexpert.com.au/car-reviews/2023-mitsubishi-outlander-phev-aspire-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-refresh-sorento-depleted",
+    "title": "Original Australian Sorento PHEV test: indicated 6.7 L/100 km over 101.1 km starting at minimum charge",
+    "url": "https://www.whichcar.com.au/reviews/2022-kia-sorento-phev-australian-first-drive-review",
+    "publisher": "WhichCar / Wheels",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-refresh-sorento-berwick",
+    "title": "Current original MY23 Sorento PHEV GT-Line stock U20257: A$52,499 DAP, 49,985 km, InStock",
+    "url": "https://www.carsguide.com.au/car/15325366/kia/sorento/vic/berwick/suv",
+    "publisher": "Berwick dealer via CarsGuide",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-refresh-rav6-ancap",
+    "title": "Exact ANCAP page: March 2026-onward Toyota RAV4 hybrid/PHEV remains unrated",
+    "url": "https://www.ancap.com.au/safety-ratings/toyota/rav4/b5089e",
+    "publisher": "ANCAP",
+    "kind": "safety",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-refresh-xtrail-lbc-vins",
+    "title": "Official REC-006653 e-Power LBC recall VIN list, checked against all three used Ti examples",
+    "url": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006653-VIN-List-1.csv",
+    "publisher": "Australian Government / Nissan Australia",
+    "kind": "recall",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "hy-refresh-kluger-recliner-vins",
+    "title": "Official REC-006562 second-row recliner recall VIN list, checked against all three used GX Hybrid examples",
+    "url": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006562-VIN-List-1.csv",
+    "publisher": "Australian Government / Toyota Australia",
+    "kind": "recall",
+    "checked": "2026-10-18"
   }
 ]

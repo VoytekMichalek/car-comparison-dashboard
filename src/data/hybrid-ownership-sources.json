@@ -390,5 +390,37 @@
     "publisher": "Toyota Australia",
     "kind": "manufacturer",
     "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-refresh-out-depleted",
+    "title": "Original20kWh Aspire indicated depleted test; later22.7kWh budgeting is an analogue",
+    "url": "https://www.carexpert.com.au/car-reviews/2023-mitsubishi-outlander-phev-aspire-review",
+    "publisher": "CarExpert",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-refresh-sorento-depleted",
+    "title": "Original Sorento PHEV minimum-charge101.1km indicated road test",
+    "url": "https://www.whichcar.com.au/reviews/2022-kia-sorento-phev-australian-first-drive-review",
+    "publisher": "WhichCar / Wheels",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-refresh-byd-service",
+    "title": "Current BYD official PHEV service schedule: 20,000 total / 10,000 HEV km / 12 months, whichever first",
+    "url": "https://bydautomotive.com.au/service-and-warranty",
+    "publisher": "BYD Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "own-hy-refresh-out25-cps",
+    "title": "MY25 Outlander 4x4 2.4L PHEV capped-service schedule, purchases from 1 April 2026",
+    "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/cps-updates/outlander/2026-04-01/25MY_Outlander_PHEV_4x4_24L_Purchased%20from%201%20April%202026_CPS_A4.pdf",
+    "publisher": "Mitsubishi Motors Australia",
+    "kind": "manufacturer",
+    "checked": "2026-10-18"
   }
 ]

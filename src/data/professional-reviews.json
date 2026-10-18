@@ -566,5 +566,31 @@
     "sourceIds": [
       "expert-sealion-dynamic-local"
     ]
+  },
+  {
+    "id": "sorento-phev-whichcar-2022",
+    "familyId": "kia-sorento",
+    "vehicleIds": [
+      "sorento-phev-gtline-2021-23"
+    ],
+    "tested": "2022 Kia Sorento GT-Line PHEV AWD",
+    "scope": "Original Australian MQ4 PHEV first drive published October2021, including separate full-start and minimum-charge loops. Not a facelift HEV test or current-price appraisal.",
+    "publisher": "WhichCar",
+    "published": "2021-10-08",
+    "checked": "2026-10-18",
+    "rating": 8.5,
+    "outOf": 10,
+    "verdict": "",
+    "positiveThemes": [
+      "Comfortable family cabin and smooth plug-in driving.",
+      "Practical equipment and strong active-safety provision."
+    ],
+    "negativeThemes": [
+      "Large original price premium, slow AC charging and reduced towing capacity.",
+      "Tight third row and no third-row head-airbag coverage."
+    ],
+    "sourceIds": [
+      "hy-refresh-sorento-depleted"
+    ]
   }
 ]

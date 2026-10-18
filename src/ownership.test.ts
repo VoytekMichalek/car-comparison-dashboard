@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { getPrice, budgetBenchmarks, insuranceFor, vehicles } from './data';
+import { getPrice, budgetBenchmarks, insuranceFor, ownershipFor, vehicles } from './data';
 import { representativePrice, defaultOwnership, emptyPersonal, parseBackup } from './lib';
 import { energyBudget, ownershipEstimate, qldDuty, registrationCost } from './ownership';
 
@@ -69,6 +69,41 @@ describe('Queensland ownership budgeting', () => {
     const petrolOnly = energyBudget(v, { ...p.costs, electricShare: 0 });
     expect(petrolOnly.proxy).toBe(false);
     expect(petrolOnly.total).toBeCloseTo(15000 / 100 * 4.8 * p.costs.premiumPetrolRate!);
+  });
+  it('uses sourced family-driving fuel scenarios without replacing the published specification', () => {
+    for (const id of ['sportage-s-petrol-2022', 'tucson-base-petrol-2021', 'carnival-s-diesel-2021']) {
+      const car = vehicles.find(v => v.id === id)!;
+      const personal = emptyPersonal();
+      const scenario = ownershipFor(car.familyId)!.fuelEstimate!;
+      const rate = car.powertrain === 'DIESEL' ? personal.costs.dieselRate! : personal.costs.petrolRate;
+      const estimate = energyBudget(car, personal.costs);
+      expect(estimate.proxy).toBe(true);
+      expect(estimate.total).toBeCloseTo(15000 / 100 * scenario.point * rate);
+      expect(estimate.low).toBeCloseTo(15000 / 100 * scenario.low * rate);
+      expect(estimate.high).toBeCloseTo(15000 / 100 * scenario.high * rate);
+      expect(estimate.electric).toBe(0);
+      expect(estimate.reason).toMatch(/L\/100\s?km/);
+      expect(estimate.sourceIds).toEqual(expect.arrayContaining(scenario.sourceIds));
+      expect(car.consumption.value).toBeLessThan(scenario.point);
+      expect(energyBudget(car, { ...personal.costs, annualKm: 0 }).total).toBe(0);
+      personal.ownership = { ...defaultOwnership, vehicleOverrides: { [id]: { petrol: 1234 } } };
+      expect(ownershipEstimate(car, personal).energyCosts.petrol).toBe(1234);
+    }
+  });
+  it('does not use the Sorento family PHEV electrical proxy as HEV fuel consumption', () => {
+    const car = vehicles.find(v => v.id === 'sorento-gtline-hev-awd-2026')!;
+    const settings = emptyPersonal().costs;
+    expect(energyBudget(car, settings).total).toBeCloseTo(15000 / 100 * car.consumption.value! * settings.petrolRate);
+    expect(energyBudget(car, settings).electric).toBe(0);
+  });
+  it('uses a generation-specific Forester fuel scenario ahead of the family fallback', () => {
+    const older = vehicles.find(v => v.id === 'forester-25il-2021')!;
+    const newer = vehicles.find(v => v.id === 'forester-awd-petrol-2025')!;
+    const settings = emptyPersonal().costs;
+    const info = ownershipFor(newer.familyId)!;
+    expect(info.fuelEstimate!.point).not.toBe(info.fuelByVehicle![newer.id].point);
+    expect(energyBudget(older, settings).total).toBeCloseTo(15000 / 100 * info.fuelEstimate!.point * settings.petrolRate);
+    expect(energyBudget(newer, settings).total).toBeCloseTo(15000 / 100 * info.fuelByVehicle![newer.id].point * settings.petrolRate);
   });
   it('takes actual quotes ahead of auto estimates, including zero values', () => {
     const p = { ...emptyPersonal(), ownership: { ...defaultOwnership, insurance: 1500, vehicleOverrides: { [ev.id]: { insurance: 0, servicing: 0, energy: 0 } } } };

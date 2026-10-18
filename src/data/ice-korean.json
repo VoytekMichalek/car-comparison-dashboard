@@ -133,7 +133,7 @@
         "Conventional naturally aspirated petrol / torque-converter automatic."
       ],
       "cons": [
-        "8.1 L/100km laboratory consumption; urban use can be higher.",
+        "8.1 L/100 km laboratory consumption; urban use can be higher.",
         "Base S lacks higher-trim convenience features.",
         "No third-row option."
       ],
@@ -267,7 +267,7 @@
           "ice-kr-tucson-spec"
         ]
       },
-      "warranty": "Original 5 years / unlimited km private use. Later 7-year offers do not retrospectively restart this warranty.",
+      "warranty": "Five years/unlimited km from original first registration. A later service-conditional extension can apply to eligible cars first registered from 1 June 2025; check the VIN/date, not build year alone.",
       "servicing": "12 months / 15,000 km for 2.0 MPi; VIN-specific service quote required.",
       "safety": {
         "stars": 5,
@@ -282,7 +282,7 @@
         "summary": "Related 2021 Elite test: two full-size restraints plus a slim folding booster; three full-size seats did not fit.",
         "row2": "Three rear top-tether anchors; outboard ISOFIX.",
         "row3": "No third row.",
-        "testedSeats": "Related Elite: Infasecure Optima, Serene and Versatile Folding Booster. Exact forward/rear orientation and your seat dimensions matter.",
+        "testedSeats": "Related Elite test: Infasecure Optima forward-facing + Serene rear-facing + Versatile Folding Booster. The article also reports the Optima/Serene fitted in either direction with this slim booster; three full-size restraints did not fit.",
         "buckleAccess": "Slim booster necessary in this test; check that each buckle remains independently accessible in the base trim.",
         "access": "Tapered upper cabin made the third restraint width critical in the test.",
         "ventilation": "Base has rear console vents and manual air conditioning; Elite dual-zone climate equipment differs.",
@@ -298,7 +298,7 @@
       ],
       "cons": [
         "Three full-size seats did not fit in the published test.",
-        "8.1 L/100km laboratory fuel use.",
+        "8.1 L/100 km laboratory fuel use.",
         "Earlier cars are near or beyond the original five-year warranty."
       ],
       "inspection": [
@@ -387,7 +387,9 @@
       "connector": "Not applicable",
       "batteryWarranty": "Not applicable: no high-voltage traction battery.",
       "sourceIds": [
-        "ice-kr-carnival-spec"
+        "ice-kr-carnival-spec",
+        "ice-refresh-carnival-my22-spec",
+        "ice-refresh-carnival-ancap-report"
       ],
       "checked": "2026-10-18",
       "headline": "Eight seats, five restraint positions and useful occupied-row boot space",
@@ -448,13 +450,15 @@
         "row2": "Three individual sliding seats, each with ISOFIX and top tether.",
         "row3": "ISOFIX and top tether at both outboard positions; centre has neither and is not a child-restraint position.",
         "testedSeats": "Five restraints in BabyDrive SLi test; exact product models were not identified in the article. Three across row two plus two outboard in row three.",
-        "buckleAccess": "Independent S-trim three-booster buckle test not verified. ANCAP reports selected restraint-installation limits; use the restraint/vehicle instructions.",
-        "access": "Removing the centre row-two seat creates a walkway. S has manual sliding side doors; do not assume SLi powered-door features.",
+        "buckleAccess": "No exact S three-booster trial. ANCAP could not fit one rear-facing convertible using outer ISOFIX in rows two/three; one forward-facing model needed care at row-three ISOFIX. Check each seat and buckle.",
+        "access": "Removing row-two centre creates a walkway. In the related test an outer row-two seat could slide with an ISOFIX-installed restraint; verify instructions before moving it occupied. S has manual sliding doors.",
         "ventilation": "Roof vents reach rows two and three. S has manual air conditioning; higher grades add climate controls.",
         "sourceIds": [
           "ice-kr-carnival-fit",
           "ice-kr-carnival-spec",
-          "ice-kr-carnival-ancap"
+          "ice-kr-carnival-ancap",
+          "ice-refresh-carnival-ancap-report",
+          "ice-refresh-carnival-my22-spec"
         ]
       },
       "pros": [
@@ -544,20 +548,21 @@
     {
       "id": "ice-kr-tucson-used",
       "vehicleId": "tucson-base-petrol-2021",
-      "low": 24990,
+      "low": 19991,
       "high": 24990,
-      "point": 24990,
+      "point": 22490.5,
       "condition": "used",
       "basis": "drive-away",
-      "sampleCount": 1,
-      "geography": "One exact QLD dealer advertisement",
-      "kilometres": "90,684 km",
+      "sampleCount": 2,
+      "geography": "Two Queensland dealer-used base cars: Arundel and Bundamba",
+      "kilometres": "90,684–113,244 km",
       "observed": "2026-10-18",
       "kind": "observation",
       "confidence": "low",
-      "note": "One verified active base-trim asking price; not a market range or sale value. Lower-kilometre and later-year cars can cost more. Higher grades, N Line and facelift advertisements excluded.",
+      "note": "Two exact base 2.0 petrol QLD cars; fresh seller headers and InStock schemas checked. A$19,991–24,990 /90,684–113,244 km; both high-kilometre2023 examples, not every cohort year or a broad valuation. Sold B13980 and higher grades/NLine excluded.",
       "sourceIds": [
-        "ice-kr-stock-139653"
+        "ice-kr-stock-139653",
+        "ice-refresh-tucson-b13946"
       ],
       "observations": [
         {
@@ -570,6 +575,17 @@
           "sourceId": "ice-kr-stock-139653",
           "checked": "2026-10-18",
           "note": "Fresh seller HTML and InStock schema agree; NX4.V2 base 2.0 petrol automatic. Stock 139653 / VIN KMHJB81DMPU237403."
+        },
+        {
+          "price": 19991,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 113244,
+          "location": "Bundamba QLD",
+          "url": "https://www.twgcars.com.au/cars/used-white-2023-hyundai-tucson-b13946",
+          "sourceId": "ice-refresh-tucson-b13946",
+          "checked": "2026-10-18",
+          "note": "VIN KMHJB81DMRU271859; stock B13946. Fresh seller header/schema InStock at A$19,991; cached A$20,491 is superseded. Higher kilometres are material."
         }
       ]
     },
@@ -625,9 +641,9 @@
     },
     {
       "id": "ice-kr-carnival-spec",
-      "title": "Kia Australia MY22 Carnival brochure, August 2021 (archived manufacturer document)",
-      "url": "https://manuals.plus/m/3559f32cd8f25dbac67e8afabd3b287beb5701fda6117200b4bed1fd86ac0d07.pdf",
-      "publisher": "Kia Australia, archived by Manuals+",
+      "title": "Kia Australian original Carnival MY22 specification sheet",
+      "url": "https://resource.digitaldealer.com.au/pdf/709650923630853f237bb5118967305.pdf",
+      "publisher": "Kia Australia (dealer-hosted period specification)",
       "kind": "manufacturer",
       "checked": "2026-10-18"
     },
@@ -753,9 +769,9 @@
     },
     {
       "id": "ice-kr-carnival-dpf",
-      "title": "Kia Carnival owner handbook: repeated short trips and diesel particulate filter operation (manufacturer manual)",
+      "title": "Kia India/global Carnival manual — DPF mechanism only; Australian handbook governs procedures",
       "url": "https://www.kia.com/content/dam/kia2/in/en/content/carnival-manual/topics/chapter8_21.html",
-      "publisher": "Kia",
+      "publisher": "Kia (India-hosted global technical explanation)",
       "kind": "manufacturer",
       "checked": "2026-10-18"
     },
@@ -846,6 +862,46 @@
       "publisher": "Ashmore QLD seller",
       "kind": "market",
       "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-refresh-tucson-base-test",
+      "title": "CarsGuide exact 2021 Tucson base 2.0 family test — 8.8 L/100 km suburban week; dated 7.6/10",
+      "url": "https://www.carsguide.com.au/family/hyundai-tucson-20-83952",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-refresh-carnival-my22-spec",
+      "title": "Manufacturer Australian Carnival MY22 mechanical/features sheet — five ISOFIX/tether positions and original S equipment",
+      "url": "https://resource.digitaldealer.com.au/pdf/709650923630853f237bb5118967305.pdf",
+      "publisher": "Kia Australia (dealer-hosted period specification)",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-refresh-carnival-ancap-report",
+      "title": "ANCAP Carnival technical report — five restraint positions and installation restrictions",
+      "url": "https://cdn.ancap.com.au/app/public/assets/26cbd343ccb4f0bc8188199e45712d085f5b24cc/original.pdf?1755471457=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-refresh-kia-dpf-workshop",
+      "title": "Australian DPF workshop Kia guidance — replacement A$3,000–7,000 fitted; cleaning from aboutA$500, not a KA4 VIN quote",
+      "url": "https://www.dpfcleaningservices.com.au/dpf-cleaning/kia/",
+      "publisher": "DPF Cleaning Services, Mascot NSW",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-refresh-tucson-b13946",
+      "title": "Dealer: 2023 Tucson base 2.0 petrol, TWG Bundamba B13946 — fresh A$19,991 drive-away",
+      "url": "https://www.twgcars.com.au/cars/used-white-2023-hyundai-tucson-b13946",
+      "publisher": "TWG Cars Bundamba",
+      "kind": "market",
+      "checked": "2026-10-18"
     }
   ],
   "ownership": [
@@ -857,16 +913,6 @@
       "serviceHigh": 800,
       "serviceBasis": "Planning annual service budget, not a fixed fee: Kia currently lists 2022 2.0 petrol auto seven visits totalling A$3,479 (A$497/year); 2023 A$3,331, 2024 A$3,344. Used-car start kilometre and later uncapped services differ; quote the VIN.",
       "serviceConfidence": "low",
-      "energyEstimate": {
-        "low": 8.1,
-        "point": 9.5,
-        "high": 12,
-        "basis": "Analyst family-driving estimate in L/100km: 9.5 midpoint, 8.1–12 scenario range. Published ADR combined 8.1 and urban 11.0 anchor it; not a measured fleet average.",
-        "confidence": "low",
-        "sourceIds": [
-          "ice-kr-sportage-spec"
-        ]
-      },
       "warrantyCautions": [
         "Check original delivery date, maintenance records and the vehicle’s own warranty contract.",
         "Prior rental, taxi or other commercial use can change warranty limits.",
@@ -903,7 +949,17 @@
         "ice-kr-kia-warranty",
         "ice-kr-kia-service"
       ],
-      "checked": "2026-10-18"
+      "checked": "2026-10-18",
+      "fuelEstimate": {
+        "low": 8.1,
+        "point": 9.5,
+        "high": 12,
+        "basis": "Analyst family-driving estimate in L/100 km: 9.5 midpoint, 8.1–12 scenario range. Published ADR combined 8.1 and urban 11.0 anchor it; not a measured fleet average.",
+        "confidence": "low",
+        "sourceIds": [
+          "ice-kr-sportage-spec"
+        ]
+      }
     },
     {
       "familyId": "hyundai-tucson",
@@ -911,21 +967,11 @@
       "serviceAnnual": 450,
       "serviceLow": 300,
       "serviceHigh": 750,
-      "serviceBasis": "A$450/year planning allowance, A$300–750 scenario range. The 2.0 MPi interval is 12 months/15,000 km; a current VIN-specific manufacturer service quote was unavailable. Later major services and vehicle age can change cost.",
+      "serviceBasis": "A$450/year long-ownership planning allowance, A$300–750 sensitivity bounds. The exact 2021 base 2.0 test records the original first-five-service price of A$319 each at 12 months/15,000 km. That historical A$1,595 total does not quote a used car’s remaining major services or current VIN prices; A$450 includes a later-life buffer.",
       "serviceConfidence": "low",
-      "energyEstimate": {
-        "low": 8.1,
-        "point": 9.5,
-        "high": 12,
-        "basis": "Analyst family-driving estimate, L/100km: 9.5 midpoint, 8.1–12 scenarios. Original Australian ADR combined 8.1 / urban 11.0; not a measured average.",
-        "confidence": "low",
-        "sourceIds": [
-          "ice-kr-tucson-spec"
-        ]
-      },
       "warrantyCautions": [
         "Check original delivery date, maintenance records and the vehicle’s own warranty contract.",
-        "The later service-conditional seven-year offer is not assumed for these original 2021–24 cars.",
+        "The standard warranty is five years/unlimited km. The later two-year dealer-service-conditional extension requires first registration from 1 June 2025; eligibility depends on that date and service history, not simply model year.",
         "Wear, accident damage and optional upgrades are separate from manufacturing defects."
       ],
       "risks": [
@@ -958,9 +1004,21 @@
       ],
       "sourceIds": [
         "ice-kr-hyundai-warranty",
-        "ice-kr-tucson-spec"
+        "ice-kr-tucson-spec",
+        "ice-refresh-tucson-base-test"
       ],
-      "checked": "2026-10-18"
+      "checked": "2026-10-18",
+      "fuelEstimate": {
+        "point": 9.5,
+        "low": 8.1,
+        "high": 12,
+        "confidence": "low",
+        "basis": "L/100 km family-driving planning scenario: 9.5 point, 8.1–12 sensitivity bounds. ADR combined 8.1 / urban 11.0 anchor the range; an exact base 2.0 CarsGuide test averaged 8.8 over a suburban week. The 9.5 point and bounds are analyst assumptions, not a measured fleet average.",
+        "sourceIds": [
+          "ice-kr-tucson-spec",
+          "ice-refresh-tucson-base-test"
+        ]
+      }
     },
     {
       "familyId": "kia-carnival",
@@ -970,16 +1028,6 @@
       "serviceHigh": 950,
       "serviceBasis": "A$600/year long-ownership planning budget. Current Kia table: 2021/22 diesel seven visits A$3,767 (~A$538/year); 2023 A$3,816 (~A$545/year). Used cars may already have passed expensive visits or the 105,000-km capped schedule; reconfirm VIN pricing.",
       "serviceConfidence": "low",
-      "energyEstimate": {
-        "low": 6.5,
-        "point": 8,
-        "high": 10,
-        "basis": "Analyst family-use diesel consumption estimate, L/100km: 8 midpoint, 6.5–10 scenarios. Original ADR combined 6.5 / urban 7.8 anchor it; loads, short trips and DPF regeneration can increase use.",
-        "confidence": "low",
-        "sourceIds": [
-          "ice-kr-carnival-spec"
-        ]
-      },
       "warrantyCautions": [
         "Check original delivery date, maintenance records and the vehicle’s own warranty contract.",
         "Prior rental, taxi or other commercial use can change warranty limits.",
@@ -987,16 +1035,17 @@
       ],
       "risks": [
         {
-          "title": "DPF / turbo / fuel-system stress case",
-          "detail": "Diesel particulate filters need sufficiently hot exhaust to clear soot. Repeated short/slow journeys may prevent this. Inspect DPF faults and previous usage; this is a use-pattern risk, not a measured Carnival failure rate.",
-          "low": null,
-          "high": null,
-          "priceBasis": "No exact Australian installed DPF/turbo/injector quote verified. Do not substitute a different diesel model or assume replacement before diagnosis.",
-          "warranty": "Follow the Australian handbook and servicing requirements; diagnosis determines whether a defect or use/maintenance issue is covered.",
+          "title": "DPF replacement — Australian Kia workshop proxy",
+          "detail": "A Sydney DPF workshop that services Carnival CRDi lists Kia replacement at A$3,000–7,000 fitted and cleaning from aboutA$500. These are different interventions: diagnosis decides whether cleaning or replacement is appropriate. This is broad Kia guidance, not an exact KA4 quote or a failure rate. Repeated short/slow trips can impede soot regeneration.",
+          "low": 3000,
+          "high": 7000,
+          "priceBasis": "AUD fitted replacement guidance from an Australian Kia DPF workshop; exact KA4 part, labour, GST inclusions and local diagnosis require a written quote. Cleaning-from pricing is not a replacement quote.",
+          "warranty": "A diagnosed manufacturing defect may be covered; soot loading, use pattern and maintenance exclusions need assessment. Follow the specific Australian handbook.",
           "sourceIds": [
             "ice-kr-carnival-spec",
             "ice-kr-carnival-dpf",
-            "ice-kr-kia-warranty"
+            "ice-kr-kia-warranty",
+            "ice-refresh-kia-dpf-workshop"
           ],
           "confidence": "low"
         },
@@ -1019,7 +1068,18 @@
         "ice-kr-kia-warranty",
         "ice-kr-kia-service"
       ],
-      "checked": "2026-10-18"
+      "checked": "2026-10-18",
+      "fuelEstimate": {
+        "point": 8,
+        "low": 6.5,
+        "high": 10,
+        "confidence": "low",
+        "basis": "L/100 km family-use diesel scenario: 8 point, 6.5–10 sensitivity bounds. ADR combined 6.5/urban 7.8; CarExpert’s exact S diesel test indicated 7.2 over 643 km of mixed driving. The 8 point and bounds are analyst planning assumptions; loads, short trips and regeneration affect results.",
+        "sourceIds": [
+          "ice-kr-carnival-spec",
+          "ice-kr-carnival-review"
+        ]
+      }
     }
   ],
   "insurance": [
@@ -1294,6 +1354,33 @@
       ],
       "sourceIds": [
         "ice-kr-carnival-review"
+      ]
+    },
+    {
+      "id": "ice-refresh-tucson-exact-base-expert",
+      "familyId": "hyundai-tucson",
+      "vehicleIds": [
+        "tucson-base-petrol-2021"
+      ],
+      "tested": "2021 Hyundai Tucson base 2.0 MPi petrol six-speed automatic",
+      "scope": "Exact base-family test of original NX4, dated July 2021; one suburban week, not a long-term reliability survey. Do not import the page’s separate generic model-card metadata as specifications.",
+      "publisher": "CarsGuide",
+      "published": "2021-07-03",
+      "checked": "2026-10-18",
+      "rating": 7.6,
+      "outOf": 10,
+      "verdict": "The base family test found useful space and value, with modest performance and plain cabin materials.",
+      "positiveThemes": [
+        "Rear passenger room",
+        "Boot and daily family usability",
+        "Base-grade value"
+      ],
+      "negativeThemes": [
+        "Modest engine response",
+        "Basic interior materials"
+      ],
+      "sourceIds": [
+        "ice-refresh-tucson-base-test"
       ]
     }
   ],

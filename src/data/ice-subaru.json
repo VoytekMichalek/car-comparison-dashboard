@@ -320,7 +320,7 @@
         }
       ],
       "gaps": [
-        "New-price sample is interstate; no clean exact Queensland new-stock cohort verified.",
+        "One exact QLD new-stock seller advertisement found atA$44,990; fresh QLD fetch blocked. A confirmed current Queensland delivered quote is still needed.",
         "No direct petrol-base three-restraint test or long-term S6 repair-cost average verified."
       ],
       "sourceIds": [
@@ -330,7 +330,8 @@
         "ice-sub-forester-new-fit",
         "ice-sub-forester-new-service",
         "ice-sub-forester-new-ancap",
-        "ice-sub-forester-new-roadtest"
+        "ice-sub-forester-new-roadtest",
+        "ice-refresh-forester-new-qld514760"
       ],
       "checked": "2026-10-18"
     },
@@ -470,7 +471,8 @@
         "Confirm standard 2.5 base AWD: exclude XT/turbo, Sport/Touring and 2026 seventh-generation advertisements.",
         "Check both MY21 EyeSight braking recalls by VIN and ask for completion evidence.",
         "Verify service invoices, coolant/TCV history, CVT operation and 12 V battery health.",
-        "Try the roof-mounted centre belt with all restraints installed and inspect windscreen/EyeSight operation."
+        "Try the roof-mounted centre belt with all restraints installed and inspect windscreen/EyeSight operation.",
+        "Check REC-005830/SRT351 inhibitor-switch rectification by VIN, including camera and reverse lamps; applicable remedy is free."
       ],
       "changes": [
         {
@@ -504,7 +506,8 @@
         "ice-sub-outback-ancap",
         "ice-sub-outback-roadtest",
         "ice-sub-outback-recall-1227",
-        "ice-sub-outback-recall-5005"
+        "ice-sub-outback-recall-5005",
+        "ice-refresh-outback-inhibitor-recall"
       ],
       "checked": "2026-10-18"
     }
@@ -540,7 +543,7 @@
           "url": "https://www.wippellsvolkswagen.com.au/all-stock/view/2021-Subaru-Forester/34742926",
           "sourceId": "ice-sub-s5-wippells",
           "checked": "2026-10-18",
-          "note": "Stock00942672; VIN JF2SK9KL5NG074532; seller MY22 facelift. Advertised all on-road charges included."
+          "note": "Stock 00942672; VIN JF2SK9KL5NG074532; seller MY22 facelift. Advertised all on-road charges included."
         },
         {
           "price": 23888,
@@ -562,7 +565,7 @@
           "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1345136255",
           "sourceId": "ice-sub-s5-carplace",
           "checked": "2026-10-18",
-          "note": "Stock1209286; VIN JF2SK9KL5PG101447. Seller advertisement; government charges additional. Availability must be reconfirmed."
+          "note": "Stock 1209286; VIN JF2SK9KL5PG101447. Seller advertisement; government charges additional. Availability must be reconfirmed."
         }
       ]
     },
@@ -571,21 +574,33 @@
       "vehicleId": "forester-awd-petrol-2025",
       "low": 44990,
       "high": 44990,
-      "point": 44990.0,
+      "point": 44990,
       "condition": "new",
       "basis": "drive-away",
-      "sampleCount": 2,
-      "geography": "Interstate dealer stock: VIC and NSW; Queensland quote pending",
-      "kilometres": "0, not stated km",
+      "sampleCount": 3,
+      "geography": "QLD Pialba seller advertisement; plus VIC and NSW new dealer stocks",
+      "kilometres": "0–6 km",
       "observed": "2026-10-18",
-      "note": "Two distinct exact base petrol new stocks at A$44,990 drive-away. Not a Queensland delivered quote. Excludes higher grades, hybrids, old S5, hail-damaged and demo stock. Gympie listing says Demo although prose says brand new; excluded from the new cohort.",
+      "note": "Three exact new base-petrol VINs: one Queensland seller-ad snapshot and two interstate stocks with fresh InStock schemas. All advertise A$44,990 drive-away. QLD direct refresh was blocked, so obtain a current written QLD total; interstate registration/delivery may differ. Expired August campaign and Gympie demo excluded.",
       "sourceIds": [
+        "ice-refresh-forester-new-qld514760",
         "ice-sub-new-vic-1704108",
         "ice-sub-new-nsw-su029590"
       ],
       "kind": "observation",
       "confidence": "low",
       "observations": [
+        {
+          "price": 44990,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 6,
+          "location": "Pialba, QLD",
+          "url": "https://herveybaysubaru.com.au/514760-1881976-subaru-forester-2026.html?csEnquiryModal=active",
+          "sourceId": "ice-refresh-forester-new-qld514760",
+          "checked": "2026-10-18",
+          "note": "New petrol base S6MY26; VIN JF2SL9KL5TG028187; stock 514760; build/complianceApr2026. Public indexed seller advertisement says A$44,990 drive-away. Fresh direct fetch blocked403; not a confirmed delivered quote or live stock guarantee."
+        },
         {
           "price": 44990,
           "basis": "drive-away",
@@ -614,19 +629,18 @@
       "id": "ice-sub-price-outback-awd-25-2021",
       "vehicleId": "outback-awd-25-2021",
       "low": 25888,
-      "high": 29992,
-      "point": 28990,
+      "high": 28990,
+      "point": 27439.0,
       "condition": "used",
       "basis": "drive-away",
-      "sampleCount": 3,
-      "geography": "Queensland: Gold Coast and Strathpine",
-      "kilometres": "123976, 54534, 16000 km",
+      "sampleCount": 2,
+      "geography": "Queensland: Helensvale and Southport",
+      "kilometres": "54,534–123,976 km",
       "observed": "2026-10-18",
-      "note": "Three exact base non-XT MY21 examples, 16,000–123,976 km. Median A$28,990 drive-away; later 2022–2025 years are not sampled. Small cohort and different kilometres keep confidence low. Direct Auto Request A$29,992 replaces older A$30,990 syndication.",
+      "note": "Two base non-XT MY21 asking examples remain. Direct vonBibra stock HW3681 is InStock; Southport seller-ad refresh is blocked and remains lower-confidence. Auto Request stock 15411 was removed after fresh OutOfStock/SoldCondition markup. Later2022–25 years are not sampled; different kilometres matter.",
       "sourceIds": [
         "ice-sub-outback-hw3681",
-        "ice-sub-outback-fu34790",
-        "ice-sub-outback-15411"
+        "ice-sub-outback-fu34790"
       ],
       "kind": "observation",
       "confidence": "low",
@@ -652,17 +666,6 @@
           "sourceId": "ice-sub-outback-fu34790",
           "checked": "2026-10-18",
           "note": "VIN JF2BT9KL3MG010239; stockFU34790; seller listing."
-        },
-        {
-          "price": 29992,
-          "basis": "drive-away",
-          "year": 2021,
-          "kilometres": 16000,
-          "location": "Strathpine, QLD",
-          "url": "https://autorequest.com.au/15411-1906980-subaru-outback-2021/",
-          "sourceId": "ice-sub-outback-15411",
-          "checked": "2026-10-18",
-          "note": "VIN JF2BT9KL3MG003784; stock15411. Seller MY21/compliance Feb2021, buildDec2020. Direct page now A$29,992 (was30,990); older syndicated prices are superseded."
         }
       ]
     }
@@ -918,7 +921,7 @@
     },
     {
       "id": "ice-sub-new-vic-1704108",
-      "title": "2026 base Forester AWD, Traralgon stock1704108",
+      "title": "2026 base Forester AWD, Traralgon stock 1704108",
       "url": "https://www.traralgonsubaru.com.au/cars/new-magnetite-grey-2026-subaru-forester-1704108",
       "publisher": "Traralgon Subaru",
       "kind": "market",
@@ -953,6 +956,22 @@
       "title": "2021 base Outback AWD, Auto Request15411",
       "url": "https://autorequest.com.au/15411-1906980-subaru-outback-2021/",
       "publisher": "Auto Request",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-refresh-outback-inhibitor-recall",
+      "title": "REC-005830 /SRT351 — MY21 Outback CVT inhibitor switch moisture affects reversing lamps/camera; free remedy",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005830",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-refresh-forester-new-qld514760",
+      "title": "Queensland dealer-ad snapshot: new2026 Forester AWD base, HerveyBay stock 514760",
+      "url": "https://herveybaysubaru.com.au/514760-1881976-subaru-forester-2026.html?csEnquiryModal=active",
+      "publisher": "Hervey Bay Subaru",
       "kind": "market",
       "checked": "2026-10-18"
     }
@@ -1017,7 +1036,31 @@
           "serviceLow": 347.95,
           "serviceHigh": 700,
           "serviceConfidence": "medium",
-          "serviceBasis": "Australian MY26 S6 petrol capped visits: A$347.95, 520.45, 393.10, 679.30 and 358.20 = A$2,299 for first five services / five years / 75,000 km; A$459.80/year at 15,000 km/year. Includes GST. Post-cap years and additional work are not quoted; the upper bound is a planning allowance. The generic Subaru website still mentions 12,500 km for Forester; the model-specific MY26 PDF explicitly supersedes it with 15,000 km."
+          "serviceBasis": "Australian MY26 S6 petrol capped visits: A$347.95,520.45,393.10,679.30 and 358.20 = A$2,299 for first five services / five years / 75,000 km; A$459.80/year at 15,000 km/year. Includes GST. Post-cap years and additional work are not quoted; the upper bound is a planning allowance. The generic Subaru website still mentions 12,500 km for Forester; the model-specific MY26 PDF explicitly supersedes it with 15,000 km."
+        }
+      },
+      "fuelEstimate": {
+        "point": 8.5,
+        "low": 7.4,
+        "high": 11,
+        "confidence": "low",
+        "basis": "L/100 km family-driving scenario for S5 petrol: 8.5 point, 7.4–11 sensitivity bounds. CarExpert’s related 2021 2.5i-S observed consumption in the middle eights in mixed urban/highway use; ADR combined 7.4. This is one higher-trim test plus analyst bounds, not a fleet mean.",
+        "sourceIds": [
+          "ice-sub-forester-old-spec",
+          "ice-sub-forester-old-roadtest"
+        ]
+      },
+      "fuelByVehicle": {
+        "forester-awd-petrol-2025": {
+          "point": 9.3,
+          "low": 7.9,
+          "high": 11.5,
+          "confidence": "low",
+          "basis": "L/100 km planning point 9.3 uses CarExpert’s related S6 Touring petrol mixed-route indicated test; base petrol AWD may differ. ADR combined 7.9; 7.9–11.5 are analyst sensitivity bounds, not confidence limits or a measured fleet average.",
+          "sourceIds": [
+            "ice-sub-forester-new-spec",
+            "ice-sub-forester-new-roadtest"
+          ]
         }
       }
     },
@@ -1075,6 +1118,18 @@
             "ice-sub-outback-recall-5005"
           ],
           "confidence": "high"
+        },
+        {
+          "title": "MY21 CVT inhibitor-switch recall — free remedy",
+          "detail": "REC-005830 covers 2,610 selected MY21 Outback VINs (notice 2021–22). Moisture can enter an inadequately sealed inhibitor switch, interrupting reverse lamps/camera. This is not a claim that the CVT gearbox itself needs replacement.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 official VIN-applicable recall rectification; not predicted paid repairs.",
+          "warranty": "Official recall rectification is separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "ice-refresh-outback-inhibitor-recall"
+          ],
+          "confidence": "high"
         }
       ],
       "sourceIds": [
@@ -1082,9 +1137,21 @@
         "ice-sub-warranty-handbook",
         "ice-sub-outback-service",
         "ice-sub-outback-spec",
-        "ice-sub-service-intervals"
+        "ice-sub-service-intervals",
+        "ice-refresh-outback-inhibitor-recall"
       ],
-      "checked": "2026-10-18"
+      "checked": "2026-10-18",
+      "fuelEstimate": {
+        "point": 9,
+        "low": 7.3,
+        "high": 11,
+        "confidence": "low",
+        "basis": "L/100 km family-driving scenario: 9 point, 7.3–11 sensitivity bounds. Exact base AWD Wheels review cites ADR 7.3 and warns to expect nearer 10 when loaded; that warning is reviewer guidance, not a logged test mean. The 9 point and bounds are analyst assumptions.",
+        "sourceIds": [
+          "ice-sub-outback-spec",
+          "ice-sub-outback-roadtest"
+        ]
+      }
     }
   ],
   "insurance": [

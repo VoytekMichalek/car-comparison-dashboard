@@ -1,0 +1,66 @@
+# ICE research refresh — 18 October 2026
+
+Scope: Subaru Forester/Outback, Kia Sportage/Carnival diesel, Hyundai Tucson, Mitsubishi Outlander petrol and Nissan X-Trail petrol. Changes are confined to the three `ice-*.json` packs. Shared cost inputs and user overrides are preserved.
+
+## Findings that changed the dataset
+
+| Family | Concrete recheck / improvement |
+| --- | --- |
+| Forester | Added an exact Queensland **new base petrol S6** seller advertisement at A$44,990 drive-away, 6 km. Retained low confidence because the fresh Queensland request is blocked. Both interstate examples remain genuinely InStock. Rechecked the manufacturer MY26 service PDF: 15,000 km/12 months and A$2,299 over five visits; retained A$459.80 first-five-year annual reference. Separate S5/S6 fuel scenarios now reflect their different road-test results. |
+| Outback | Removed sold Auto Request stock 15411; its fresh schema says OutOfStock/SoldCondition. Added overlooked official MY21 inhibitor-switch recall REC-005830, with free rectification. Existing EyeSight campaigns remain separate. Rechecked the base road test and related Sport restraint test. |
+| Sportage | Fresh Hendra S 2.0 petrol seller header/schema still agree at A$25,990 /62,566 km. Rechecked original manufacturer 8.1 combined/11.0 urban fuel figures and exact 2022 automatic capped-service table. Retained the related GT-Line restraint evidence without upgrading it to an exact S test. |
+| Tucson | Added genuinely InStock base 2.0 stock B13946 at **A$19,991 drive-away /113,244 km**. Together with existing A$24,990 /90,684 km stock, the representative price becomes A$22,490.50; both are high-kilometre 2023 cars. Added the exact base CarsGuide family test and historical service reference. Clarified Hyundai’s extension eligibility depends on first registration from 1 June 2025. |
+| Carnival diesel | Original S 2.2 stock 135709 remains InStock at A$39,750 /112,238 km. Cheap alternatives were sold or unavailable and were not added. Replaced the third-party brochure mirror with a manufacturer Australian MY22 specification sheet. Added direct ANCAP installation limits and Australian workshop DPF severity pricing, explicitly a broad Kia proxy. |
+| Outlander petrol | Found manufacturer **MY23** capped-service schedule: A$4,340 over ten visits, improving a basis previously limited to cheaper MY22/22.5 pricing. Retained A$450 long-ownership planning budget, with the mixed-year/used-purchase limitations explicit. Exact Wheels LS 2WD test supports a separate 8.5 L/100 km fuel scenario. |
+| X-Trail petrol | Removed the previous three-ad cohort: Pacific Toyota U042409 is sold, Hendra H30423 returns no vehicle, Byrne A13996 has conflicting/unrefreshable pricing. Replaced it with a direct InStock **Ipswich Nissan U5827 at A$27,886 drive-away /62,942 km**. One actual current ask is more useful than a stale range; confidence remains low. Clarified the manufacturer curtain-airbag wording does not explicitly establish third-row coverage. |
+
+## Current stock evidence
+
+- **New Forester:** [Hervey Bay Subaru 514760](https://herveybaysubaru.com.au/514760-1881976-subaru-forester-2026.html?csEnquiryModal=active), VIN `JF2SL9KL5TG028187`, April 2026 build/compliance, base petrol S6 MY26, 6 km, A$44,990 drive-away. This is an indexed seller-ad snapshot; a direct fresh request returns 403. It is not a confirmed current Queensland delivered quote. [Traralgon 1704108](https://www.traralgonsubaru.com.au/cars/new-magnetite-grey-2026-subaru-forester-1704108) and [Sydney SU029590](https://autosportsgroup.com.au/su029590-1893153-subaru-forester-2026/) fresh pages still show A$44,990 and InStock/NewCondition. Interstate on-road treatment needs confirmation. The expired August offer and Gympie’s labelled demo are excluded.
+- **Tucson:** [TWG Bundamba B13946](https://www.twgcars.com.au/cars/used-white-2023-hyundai-tucson-b13946), VIN `KMHJB81DMRU271859`, A$19,991 /113,244 km; header and InStock schema agree, superseding cached A$20,491. Existing [Frizelle 139653](https://www.frizellesunshine.com.au/cars/used-white-2023-hyundai-tucson-139653), VIN `KMHJB81DMPU237403`, remains A$24,990 /90,684 km and InStock. TWG B13980 is sold and excluded.
+- **X-Trail:** [Ipswich Nissan U5827](https://www.ipswichnissan.com.au/used-car/nissan/x-trail/st-x-tronic-4wd/u5827/), VIN `JN1T33JE5A0013802`, original ST 2.5 petrol AWD seven-seat, 62,942 km, A$27,886 drive-away. Fresh header/schema agree. Seller describes MY23 despite a 2024 listing year; both remain within the original grouped cohort. U5828 returns 404 and is excluded.
+- **Outback:** [von Bibra HW3681](https://vonbibrawholesale.com.au/wholesale-stock/details/OAG-AD-26205354/2021-subaru-outback-used) is still InStock at A$25,888 /123,976 km. The Southport seller-ad example remains A$28,990 /54,534 km with fresh access blocked. Removed Auto Request 15411 (formerly A$29,992 /16,000 km) because its schema is now OutOfStock/SoldCondition. Remaining two-ad midpoint A$27,439 is a small, mixed-kilometre snapshot, not a valuation.
+- **Sportage:** [easyauto123 H30465](https://easyauto123.com.au/buy/used-cars/details/2024/KIA/SPORTAGE/S/QLD/Brisbane/Hendra/Automatic/White/Wagon-SUV/KNAPU81DMR7324812) remains A$25,990 /62,566 km and InStock. The separate Hervey Bay S listing remains a lower-confidence seller-ad observation because a fresh direct request is blocked.
+- **Carnival:** [Frizelle 135709](https://www.frizellesunshine.com.au/cars/used-white-2022-kia-carnival-135709), VIN `KNANB81BMN6233508`, remains A$39,750 /112,238 km and InStock. U042173, U61254 and 1116279 are sold; Mike Carney 00086594 and Mackay U61976 return 404. Indexed search cards still show their old prices, so they are excluded.
+- **Outlander:** Three distinct original LS FWD seller observations remain explicitly low confidence. Direct syndicated access was blocked; no fresh primary evidence justified replacing the recorded figures or claiming live availability. All VINs, kilometres, price basis and seller-page conflicts remain visible.
+
+Asking prices do not establish sale values or stock availability. No generic model valuation, different powertrain, expired campaign, demo or physically interstate used car was inserted to increase the sample count.
+
+## Fuel budgets are scenarios, separate from ADR specifications
+
+Strict manufacturer consumption fields are retained. New `fuelEstimate` records supply editable low-confidence L/100 km planning scenarios; `fuelByVehicle` separates the newer Forester. They are not fleet means or statistical confidence intervals.
+
+| Configuration | Point | Sensitivity bounds | Evidence for context |
+| --- | --- | --- | --- |
+| S5 Forester petrol | 8.5 | 7.4–11 | [Related 2021 2.5i-S test](https://www.carexpert.com.au/car-reviews/2021-subaru-forester-review) reports mixed consumption in the middle eights; ADR 7.4. |
+| S6 Forester petrol | 9.3 | 7.9–11.5 | [Related Touring petrol test](https://www.carexpert.com.au/car-reviews/2026-subaru-forester-awd-touring-review) indicated 9.3 across urban/highway/freeway errands; ADR 7.9. |
+| Base Outback 2.5 | 9.0 | 7.3–11 | [Exact base Wheels review](https://www.whichcar.com.au/reviews/2021-subaru-outback-awd-review) warns of nearer 10 loaded; that is guidance, not a logged mean. |
+| Sportage S 2.0 | 9.5 | 8.1–12 | Manufacturer original combined 8.1 /urban 11.0; analyst family-driving scenario. |
+| Tucson base 2.0 | 9.5 | 8.1–12 | [Exact base CarsGuide test](https://www.carsguide.com.au/family/hyundai-tucson-20-83952) averaged 8.8 over a suburban week; 9.5/bounds are planning assumptions. |
+| Carnival S diesel | 8.0 | 6.5–10 | [Exact S diesel test](https://www.carexpert.com.au/car-reviews/2021-kia-carnival-s-diesel-review) indicated 7.2 over 643 mixed kilometres; loads/short trips can differ. |
+| Outlander LS FWD | 8.5 | 7.7–11 | [Exact LS 2WD Wheels test](https://www.whichcar.com.au/reviews/2022-mitsubishi-outlander-review-ls-2wd) observed 8.5; ADR 7.7. |
+| X-Trail ST AWD | 8.9 | 7.8–11 | [Related ST-L petrol AWD test](https://www.carexpert.com.au/car-reviews/2023-nissan-x-trail-st-l-4wd-review) indicated 8.9; ADR 7.8. |
+
+## Service, warranty and repair findings
+
+[Outlander MY23 manufacturer schedule](https://midlandmitsubishi.b-cdn.net/wp-content/uploads/23my-outlander-4x2-4x4-2.5l-cps.pdf): 12 months/15,000 km, ten prices A$299/349/299/349/299/649/299/649/299/849, total A$4,340. Existing MY22/22.5 total A$3,190 remains dated to those years. A used-car purchase does not restart the ten services or ten years; remaining eligibility and later major visits matter.
+
+[Subaru MY26 Forester PDF](https://docs.subaru.com.au/MY26-Subaru-Forester-Capped-Price-Servicing.pdf) explicitly supersedes the older 12,500-km assumption with 15,000 km. The five capped prices total A$2,299. Older Forester and non-XT Outback retain their shorter manufacturer intervals. [Kia’s primary service table](https://dashboard.kia.com.au/kia/cps/kia/20170105v1_flat.html) recheck confirms the original Sportage 2.0 auto and Carnival diesel schedules already recorded; no unsupported new annual discount is introduced. Tucson’s exact 2021 test records historical first-five prices A$319 each; the A$450 later-life budget remains an estimate rather than a current VIN quote.
+
+[Hyundai’s warranty page](https://www.hyundai.com/au/en/owning/myhyundaicare/warranty) makes first registration from **1 June 2025** and dealer-service conditions central to its extension. Build/model year alone cannot decide it. [Kia’s Australian contract](https://www.kia.com/content/dam/kwcms/au/en/files/service/Kia-Warranty-terms-and-conditions.pdf) confirms seven-year private-use unlimited-kilometre cover versus 150,000-km commercial-use limits; prior usage history matters.
+
+[Outback REC-005830](https://www.vehiclerecalls.gov.au/recalls/rec-005830) concerns an inadequately sealed CVT inhibitor switch and reversing-camera/lamp operation on selected MY21 VINs. It specifies free rectification. It is not evidence that the transmission assembly itself will fail or incur a paid replacement bill.
+
+[DPF Cleaning Services, Mascot](https://www.dpfcleaningservices.com.au/dpf-cleaning/kia/) directly publishes Kia replacement guidance **A$3,000–7,000 fitted**, and cleaning **from about A$500**, and names Carnival CRDi among serviced models. The app now shows replacement as a low-confidence **Kia workshop proxy**, not an exact KA4 quote. Cleaning and replacement are different interventions. Diagnosis, part, labour/tax inclusions and warranty classification need confirmation. No failure rate is inferred; annual repair savings points remain unchanged.
+
+A [PMA Auto Works TCV part listing](https://shop.pmaautoworks.com.au/products/thermostat-valve-controller-hvac-heater-control-21319aa010-for-subaru) showed A$510 tax included but unavailable/backordered, broad compatibility claims and no installed labour. It was **not** adopted as a Subaru installed repair quote. Existing US technical-bulletin inspection leads do not become an Australian 15-year warranty promise. No representative Australian exact-configuration CVT/TCV paid-repair frequency or fitted replacement quote was found.
+
+## Family evidence safeguards
+
+Fresh rechecks retained the specific related-trim limits: [Forester Hybrid Sport](https://babydrive.com.au/reviews/suvs/2025-subaru-forester-hybrid-review/), [Outback Sport](https://babydrive.com.au/reviews/suvs/all-new-2021-subaru-outback-sport/), [Sportage GT-Line](https://babydrive.com.au/reviews/suvs/2022-kia-sportage-gt-line/), [Tucson Elite](https://babydrive.com.au/reviews/suvs/2021-hyundai-tucson-elite/), and [Carnival SLi](https://babydrive.com.au/reviews/suvs/2021-kia-carnival-sli/). They do not establish every base-grade booster/buckle arrangement. Tucson’s slim-booster limitation remains prominent.
+
+[Manufacturer Australian Carnival MY22 sheet](https://resource.digitaldealer.com.au/pdf/709650923630853f237bb5118967305.pdf) confirms five anchorage positions and original S equipment. [ANCAP’s technical report](https://cdn.ancap.com.au/app/public/assets/26cbd343ccb4f0bc8188199e45712d085f5b24cc/original.pdf?1755471457=) specifies selected outer-ISOFIX restraint limits and no third-row-centre restraint position. These replace a vague installation caution. Tether extensions or moving a restrained seat require the specific vehicle/restraint instructions.
+
+The [period Nissan sheet](https://www.nissan.com.au/content/dam/Nissan/AU/Files/Brochures/Models/Specsheet/NIS4635_Nissan_MY23_X-TRAIL_POS_Update_eSpec_v3_web.pdf) states side curtain airbags without specifying row-three coverage. It should not be described as affirmative manufacturer evidence contradicting ANCAP’s unavailable row-three side-head entry. Seller claims remain inconsistent. Both Outlander/X-Trail retain their no-third-row-tether limitation; seven seats alone do not prove a suitable third child-restraint position.
+
+Validation: `npm run validate:data` passed all 14 dataset checks after the changes. Root integration owns full calculator, build and browser checks. `/tmp/ice-refresh-proposals.json` records that no shared insurance/tyre/repair-default changes are justified by this evidence, and preserves the user’s Tesla insurance and independent repair-fund settings.

@@ -153,3 +153,78 @@
   .estimate-method,
   .estimate-benchmarks { padding: 15px; }
 }
+
+/* Filters and comparison choices need room for full labels, not just containment. */
+:root .catalogue-filters > summary { padding: 20px 54px 20px 24px; }
+.catalogue-filter-fields {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px 20px;
+  padding: 24px;
+}
+.catalogue-filter-fields .field > span { font-size: 13px; margin-bottom: 9px; line-height: 1.5; }
+:root .catalogue-filter-fields select:not([multiple]),
+.catalogue-filter-fields input { min-height: 48px; font-size: 14px; }
+.catalogue-filter-fields .input-unit { min-height: 48px; }
+.powertrain-filter { min-width: 0; margin: 24px 24px 0; padding: 0; border: 0; }
+.powertrain-filter legend { padding: 0; margin-bottom: 12px; font-size: 13px; font-weight: 600; }
+.powertrain-filter legend span { color: var(--muted); font-weight: 400; margin-left: 8px; }
+.powertrain-filter > div { display: flex; flex-wrap: wrap; gap: 10px; }
+.powertrain-filter label,
+.powertrain-all { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 46px; padding: 10px 15px; border: 1px solid var(--control-border); border-radius: 8px; background: var(--control-surface); font-size: 14px; line-height: 1.5; cursor: pointer; }
+.powertrain-filter label.selected,
+.powertrain-all[aria-pressed="true"] { background: #e5efdf; border-color: #789569; color: #31583a; }
+.powertrain-filter input { width: 18px; height: 18px; margin: 0; accent-color: var(--green); }
+.powertrain-filter label:focus-within { outline: 2px solid var(--control-accent); outline-offset: 3px; }
+.catalogue-filter-actions { padding: 0 24px 24px; gap: 16px 24px; }
+.catalogue-filter-actions label { min-height: 44px; }
+.catalogue-filters .filter-context { padding: 0 24px 24px; font-size: 13px; }
+.compare-pickers { padding: 24px; }
+:root .compare-pickers > summary { padding: 18px 48px 18px 18px; }
+.compare-picker-help { margin: 24px 0 20px; }
+.compare-picker-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.compare-picker-grid .field > span { font-size: 13px; margin-bottom: 10px; }
+:root .compare-picker-grid select:not([multiple]) { min-height: 58px; padding: 14px; font-size: 15px; line-height: 1.65; }
+.comparison-table thead > tr > th:not(.row-label) { padding: 22px; }
+.comparison-table .compare-photo { height: 115px; margin-bottom: 16px; }
+.comparison-table thead .eyebrow { margin-bottom: 8px; }
+.comparison-table thead h2 { margin-bottom: 10px; }
+.comparison-table thead .compare-variant { font-size: 13px; line-height: 1.7; margin: 0 0 10px; }
+.comparison-table thead .compare-edit-costs { min-height: 38px; font-size: 13px; }
+.comparison-table .compare-photo .icon-button { width: 40px; height: 40px; }
+
+@media (max-width: 1000px) {
+  .catalogue-filter-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .comparison-table thead > tr > th:not(.row-label) { padding: 18px; }
+  .comparison-table .compare-photo { height: 90px; margin-bottom: 14px; }
+  .comparison-table thead h2,
+  .comparison-table thead h2 button { font-size: 19px; line-height: 1.45; }
+  .comparison-table thead h2 button { min-height: 34px; }
+  .comparison-table thead .compare-variant { font-size: 13px; line-height: 1.6; margin: 10px 0; }
+  .comparison-table thead .compare-edit-costs { min-height: 40px; font-size: 13px; }
+  .comparison-table .compare-photo .icon-button { width: 40px; min-width: 40px; height: 40px; min-height: 40px; }
+}
+
+@media (max-width: 650px) {
+  :root .catalogue-filters > summary { padding: 20px 48px 20px 20px; }
+  .catalogue-filter-fields { grid-template-columns: minmax(0, 1fr); padding: 22px 20px; gap: 22px; }
+  .catalogue-filter-fields .filter-search { grid-column: auto; }
+  :root .catalogue-filter-fields select:not([multiple]),
+  .catalogue-filter-fields input { font-size: 16px; }
+  .powertrain-filter { margin: 22px 20px 0; }
+  .powertrain-filter > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .powertrain-filter label,
+  .powertrain-all { padding: 10px; justify-content: flex-start; font-size: 13px; }
+  .catalogue-filter-actions { padding: 0 20px 22px; gap: 12px 20px; }
+  .catalogue-filters .filter-context { padding: 0 20px 22px; }
+  .compare-pickers { padding: 20px; }
+  .compare-picker-grid { grid-template-columns: minmax(0, 1fr); }
+  :root .compare-picker-grid select:not([multiple]) { font-size: 16px; }
+  .mobile-compare-pair > div { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  :root .comparison-table thead > tr > th:not(.row-label) { padding: 16px 12px; }
+  .comparison-table .compare-photo { height: 76px; }
+  :root .breakdown-rows details > summary,
+  :root .vehicle-score-panel .breakdown-rows details > summary { grid-template-columns: minmax(0, 1fr) 62px; padding: 16px 44px 16px 14px; gap: 6px 10px; }
+  .breakdown-rows summary > span:first-child { grid-column: 1; grid-row: 1; font-size: 13px; line-height: 1.5; }
+  :root .breakdown-rows summary .category-weight { grid-column: 1; grid-row: 2; font-size: 11px; }
+  .breakdown-rows summary > strong { grid-column: 2; grid-row: 1 / span 2; align-self: center; }
+}
