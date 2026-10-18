@@ -279,7 +279,7 @@
       "servicing": "12 months/15,000 km. MY25 manual: low-conductivity coolant every 36 months/60,000 km; brake fluid every 24 months/30,000 km. Request due-service and plan-transfer records.",
       "pros": [
         "Rear pillar vents, flat floor and practical storage.",
-        "Air uses 18-inch tyres; fitted retail replacement anchor is A$1,236/set before alignment."
+        "Air uses 18-inch tyres; budget aftermarket replacement prices are shown in ownership costs."
       ],
       "cons": [
         "Related Earth three-across trial was at the seat-base limit; booster buckles remain untested.",
@@ -443,7 +443,7 @@
       "servicing": "12 months/15,000 km. MY25 manual: low-conductivity coolant every 36 months/60,000 km; brake fluid every 24 months/30,000 km. Request due-service and plan-transfer records.",
       "pros": [
         "Rear pillar vents, flat floor and practical storage.",
-        "Air uses 18-inch tyres; fitted retail replacement anchor is A$1,236/set before alignment."
+        "Air uses 18-inch tyres; budget aftermarket replacement prices are shown in ownership costs."
       ],
       "cons": [
         "Related Earth three-across trial was at the seat-base limit; booster buckles remain untested.",
@@ -856,54 +856,62 @@
   "tyreUpdates": [
     {
       "vehicleId": "ev5-air-standard-2024",
-      "setCost": 1236,
-      "setLow": 880,
-      "setHigh": 1600,
+      "size": "225/60R18 104W XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 756,
+      "setLow": 600,
+      "setHigh": 1040,
       "lifeKm": 40000,
-      "lifeLowKm": 30000,
-      "lifeHighKm": 50000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Budget aftermarket anchor: Radar RPX800+ SUV 104W XL, A$189 each × 4 = A$756 fitted. Ordinary JAX advertised price includes fitting, balancing, tubeless valves, disposal, selected-store delivery and GST; no temporary multi-buy discount used. Store stock and Brisbane availability are unconfirmed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
-      "basis": "Air MY25/MY26 225/60R18; MY25 manual lists 100H minimum in its table (confirm actual placard). Michelin Primacy 5 104V XL meets/exceeds that published index: JAX A$309 each including fitting, balancing, valve, disposal and GST, four A$1,236. No temporary discount assumed; alignment extra. A$880–1,600 set bounds and 40,000 km life (30,000–50,000 km) remain explicit assumptions, not EV5 wear measurements. At 15,000 km/year this annualises to A$463.50.",
       "sourceIds": [
-        "audit-kia-ev5-jax-tyres",
+        "budget-value-2256018",
         "audit-kia-ev5-my25-spec",
         "audit-kia-ev5-my25-manual",
-        "budget-tyre-life"
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
       "checked": "2026-10-18",
       "retailAnchor": {
-        "size": "225/60R18 104V XL",
-        "product": "Michelin Primacy 5",
-        "unitPrice": 309,
+        "size": "225/60R18 104W XL replacement reference",
+        "product": "Radar RPX800+ SUV",
+        "unitPrice": 189,
         "quantity": 4,
-        "sourceId": "audit-kia-ev5-jax-tyres",
+        "sourceId": "budget-value-2256018",
         "fitted": true,
         "gstIncluded": true
       }
     },
     {
       "vehicleId": "ev5-air-long-2024",
-      "setCost": 1236,
-      "setLow": 880,
-      "setHigh": 1600,
+      "size": "225/60R18 104W XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 756,
+      "setLow": 600,
+      "setHigh": 1040,
       "lifeKm": 40000,
-      "lifeLowKm": 30000,
-      "lifeHighKm": 50000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Budget aftermarket anchor: Radar RPX800+ SUV 104W XL, A$189 each × 4 = A$756 fitted. Ordinary JAX advertised price includes fitting, balancing, tubeless valves, disposal, selected-store delivery and GST; no temporary multi-buy discount used. Store stock and Brisbane availability are unconfirmed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
-      "basis": "Air MY25/MY26 225/60R18; MY25 manual lists 100H minimum in its table (confirm actual placard). Michelin Primacy 5 104V XL meets/exceeds that published index: JAX A$309 each including fitting, balancing, valve, disposal and GST, four A$1,236. No temporary discount assumed; alignment extra. A$880–1,600 set bounds and 40,000 km life (30,000–50,000 km) remain explicit assumptions, not EV5 wear measurements. At 15,000 km/year this annualises to A$463.50.",
       "sourceIds": [
-        "audit-kia-ev5-jax-tyres",
+        "budget-value-2256018",
         "audit-kia-ev5-my25-spec",
         "audit-kia-ev5-my25-manual",
-        "budget-tyre-life"
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
       "checked": "2026-10-18",
       "retailAnchor": {
-        "size": "225/60R18 104V XL",
-        "product": "Michelin Primacy 5",
-        "unitPrice": 309,
+        "size": "225/60R18 104W XL replacement reference",
+        "product": "Radar RPX800+ SUV",
+        "unitPrice": 189,
         "quantity": 4,
-        "sourceId": "audit-kia-ev5-jax-tyres",
+        "sourceId": "budget-value-2256018",
         "fitted": true,
         "gstIncluded": true
       }
@@ -1083,11 +1091,14 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "18-inch Air fitment checked against MY25 maker sheet/manual. JAX Michelin 225/60R18 104V XL A$309 fitted incl GST gives A$1,236/set. 40,000-km planning life yields A$463.50/year at 15,000 km; lifespan and set-price bounds remain assumptions.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 225/60R18 104W XL replacement reference: A$756 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
+          "budget-value-2256018",
           "audit-kia-ev5-my25-spec",
           "audit-kia-ev5-my25-manual",
-          "audit-kia-ev5-jax-tyres"
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence"
         ],
         "vehicleIds": [
           "ev5-air-standard-2024",

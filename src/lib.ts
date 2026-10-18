@@ -6,7 +6,7 @@ export const STORAGE_KEY = 'fieldnotes-family-cars:v1';
 export const CURRENT_FIT_TARGET = 'one-rear-facing-two-other-restraints-v1' as const;
 export const FIT_REVIEW_NOTICE = 'Older fit confirmations were cleared. Recheck one rear-facing seat plus two forward-facing seats / boosters.';
 export const defaultCosts: CostSettings = { annualKm: 15000, homeRate: 0.30, publicRate: 0.65, petrolRate: 2.21, premiumPetrolRate: 2.38, dieselRate: 2.72, homeShare: 90, electricShare: 80, chargingLoss: 10 };
-export const defaultOwnership: OwnershipSettings = { years: 10, insurance: null, servicing: null, tyres: 600, tyreMode: 'vehicle', repairReserve: 500, repairMode: 'vehicle', regoOverride: null, ctp: null, purchasePrice: null, dutiableValue: null, feesIncluded: 'auto', resaleValue: null, charger: 2050, inspection: 385, otherUpfront: 0, financeInterestAnnual: 0, repairScenario: 0, vehicleOverrides: {} };
+export const defaultOwnership: OwnershipSettings = { years: 10, insurance: null, servicing: null, tyres: 300, tyreMode: 'vehicle', repairReserve: 500, repairMode: 'vehicle', regoOverride: null, ctp: null, purchasePrice: null, dutiableValue: null, feesIncluded: 'auto', resaleValue: null, charger: 2050, inspection: 385, otherUpfront: 0, financeInterestAnnual: 0, repairScenario: 0, vehicleOverrides: {} };
 export const defaultWeights: ScoreWeights = { seating: 10, price: 9, running: 8, boot: 7, range: 6, safety: 8, owners: 6, brand: 6 };
 export const emptyPersonal = (): PersonalData => ({ version: 1, fitTarget: CURRENT_FIT_TARGET, favourites: [], listings: [], notes: {}, fitChecks: {}, seatModels: '', costs: { ...defaultCosts } });
 

@@ -1123,78 +1123,70 @@
   "tyres": [
     {
       "vehicleId": "sportage-s-petrol-2022",
-      "setCost": 1316,
-      "setLow": 980,
-      "setHigh": 1600,
-      "lifeKm": 45000,
-      "lifeLowKm": 30000,
+      "size": "235/65R17 108V XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 800,
+      "setLow": 540,
+      "setHigh": 1100,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
       "lifeHighKm": 60000,
-      "basis": "Four Michelin Primacy 5 235/65R17 108V XL at A$329 each = A$1,316. JAX includes fitting, balancing, valves, waste handling and GST; alignment extra. Original base/S brochures specify 235/65R17. Confirm placard, wheel size, load/speed index and local stock. Set bounds and tyre life are assumptions, not measured model averages.",
+      "basis": "Budget aftermarket fitted-set estimate, not a retailer quote. Underwood Brisbane lists Landspider Sportraxx 108V XL A$135 each / A$540 four on sale with fitting/balancing/disposal; Tyre City Tingalpa lists Dunlop 108W A$230 each / A$920 fitted. A$800 allows sale expiry and product/local variation. Confirm full GST-inclusive quote and four-tyre stock. No premium/OE branding assumed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
       "sourceIds": [
-        "ice-kr-tyres-2356517",
-        "ice-kr-sportage-spec"
+        "budget-value-underwood",
+        "budget-value-2356517-local",
+        "audit-kia-sportage-my22-spec",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
-      "checked": "2026-10-18",
-      "retailAnchor": {
-        "size": "235/65R17 108V XL",
-        "product": "Michelin Primacy 5",
-        "unitPrice": 329,
-        "quantity": 4,
-        "sourceId": "ice-kr-tyres-2356517",
-        "fitted": true,
-        "gstIncluded": true
-      }
+      "checked": "2026-10-18"
     },
     {
       "vehicleId": "tucson-base-petrol-2021",
-      "setCost": 1316,
-      "setLow": 980,
-      "setHigh": 1600,
-      "lifeKm": 45000,
-      "lifeLowKm": 30000,
+      "size": "235/65R17 108V XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 800,
+      "setLow": 540,
+      "setHigh": 1100,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
       "lifeHighKm": 60000,
-      "basis": "Four Michelin Primacy 5 235/65R17 108V XL at A$329 each = A$1,316. JAX includes fitting, balancing, valves, waste handling and GST; alignment extra. Original base/S brochures specify 235/65R17. Confirm placard, wheel size, load/speed index and local stock. Set bounds and tyre life are assumptions, not measured model averages.",
+      "basis": "Budget aftermarket fitted-set estimate, not a retailer quote. Underwood Brisbane lists Landspider Sportraxx 108V XL A$135 each / A$540 four on sale with fitting/balancing/disposal; Tyre City Tingalpa lists Dunlop 108W A$230 each / A$920 fitted. A$800 allows sale expiry and product/local variation. Confirm full GST-inclusive quote and four-tyre stock. No premium/OE branding assumed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
       "sourceIds": [
-        "ice-kr-tyres-2356517",
-        "ice-kr-tucson-spec"
+        "budget-value-underwood",
+        "budget-value-2356517-local",
+        "audit-hyundai-tucson-spec21",
+        "audit-hyundai-tucson-spec23",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
-      "checked": "2026-10-18",
-      "retailAnchor": {
-        "size": "235/65R17 108V XL",
-        "product": "Michelin Primacy 5",
-        "unitPrice": 329,
-        "quantity": 4,
-        "sourceId": "ice-kr-tyres-2356517",
-        "fitted": true,
-        "gstIncluded": true
-      }
+      "checked": "2026-10-18"
     },
     {
       "vehicleId": "carnival-s-diesel-2021",
-      "setCost": 1316,
-      "setLow": 980,
-      "setHigh": 1600,
+      "size": "235/65R17 108V XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 800,
+      "setLow": 540,
+      "setHigh": 1100,
       "lifeKm": 40000,
-      "lifeLowKm": 30000,
+      "lifeLowKm": 25000,
       "lifeHighKm": 60000,
-      "basis": "Four Michelin Primacy 5 235/65R17 108V XL at A$329 each = A$1,316. JAX includes fitting, balancing, valves, waste handling and GST; alignment extra. Original base/S brochures specify 235/65R17. Confirm placard, wheel size, load/speed index and local stock. Set bounds and tyre life are assumptions, not measured model averages.",
+      "basis": "Budget aftermarket fitted-set estimate, not a retailer quote. Underwood Brisbane lists Landspider Sportraxx 108V XL A$135 each / A$540 four on sale with fitting/balancing/disposal; Tyre City Tingalpa lists Dunlop 108W A$230 each / A$920 fitted. A$800 allows sale expiry and product/local variation. Confirm full GST-inclusive quote and four-tyre stock. No premium/OE branding assumed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
       "sourceIds": [
-        "ice-kr-tyres-2356517",
-        "ice-kr-carnival-spec"
+        "budget-value-underwood",
+        "budget-value-2356517-local",
+        "audit-kia-carnival-spec-my22",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
-      "checked": "2026-10-18",
-      "retailAnchor": {
-        "size": "235/65R17 108V XL",
-        "product": "Michelin Primacy 5",
-        "unitPrice": 329,
-        "quantity": 4,
-        "sourceId": "ice-kr-tyres-2356517",
-        "fitted": true,
-        "gstIncluded": true
-      }
+      "checked": "2026-10-18"
     }
   ],
   "repairReserves": [

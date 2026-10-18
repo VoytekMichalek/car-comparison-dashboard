@@ -550,30 +550,25 @@
   "tyreUpdates": [
     {
       "vehicleId": "ev6-air-2022",
-      "setCost": 1700,
-      "setLow": 1300,
-      "setHigh": 2200,
+      "size": "235/55R19 105W replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 900,
+      "setLow": 750,
+      "setHigh": 1300,
       "lifeKm": 40000,
-      "lifeLowKm": 30000,
-      "lifeHighKm": 50000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Budget aftermarket fitted-set estimate, not a retailer quote. TyrePoint Nexen N-Fera SU1 105W is A$219 each / A$876 four fitted on sale, including GST/balance/disposal (A$240 regular each); A$900 is a rounded planning value. Possible SUV freight and local stock need a final quote. A 105W replacement-price reference, subject to the actual year/VIN placard. The former premium retail example did not establish the vehicle minimum. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
-      "basis": "Air: 235/55R19, MY22 manual load index 105 and speed rating V. JAX Hankook iON evo AS SUV IH01A 105V XL NCS: A$425 each fitted/GST included, A$1,700 for four before temporary promotions. Current buy-four offer is A$325 each; the long-term anchor stays A$1,700. Set bounds A$1,300–2,200 and life 40,000 km (30,000–50,000) are assumptions. At 15,000 km/year the allowance is A$637.50; alignment extra.",
       "sourceIds": [
-        "audit-kia-ev6-jax-19",
+        "budget-value-2355519",
         "audit-kia-ev6-my24-spec",
         "audit-kia-ev6-my22-manual",
-        "budget-tyre-life"
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
-      "checked": "2026-10-18",
-      "retailAnchor": {
-        "size": "235/55 R 19 105 V XL",
-        "product": "Hankook iON evo AS SUV IH 01 A",
-        "unitPrice": 425,
-        "quantity": 4,
-        "sourceId": "audit-kia-ev6-jax-19",
-        "fitted": true,
-        "gstIncluded": true
-      }
+      "checked": "2026-10-18"
     }
   ],
   "repairReserveUpdates": [
@@ -725,11 +720,15 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "Air 235/55R19 105V verified. JAX fitted/GST-inclusive Hankook A$425 each / A$1,700 set retained, rather than assuming a temporary buy-four discount lasts. Assumed 40,000 km life gives A$637.50/year at 15,000 km; model-specific wear distribution unavailable.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 235/55R19 105W replacement reference: A$900 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
-          "audit-kia-ev6-my22-manual",
+          "budget-value-2355519",
+          "budget-value-ioniq23-spec",
           "audit-kia-ev6-my24-spec",
-          "audit-kia-ev6-jax-19"
+          "audit-kia-ev6-my22-manual",
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence"
         ],
         "vehicleIds": [
           "ev6-air-2022"

@@ -23,16 +23,16 @@ describe('transparent importance-weighted scoring', () => {
     expect(runningBudgetScore(20000)).toBe(1);
     for (const invalid of [null, NaN, Infinity, -1]) expect(runningBudgetScore(invalid)).toBeNull();
   });
-  it('gives the original Tesla RWD a mid-range budget score without changing its costs', () => {
+  it('scores the original Tesla RWD using the updated budget tyre allowance', () => {
     const car = vehicles.find(v => v.id === 'model-y-rwd-2022')!;
     const personal = emptyPersonal();
     const costs = ownershipEstimate(car, personal);
     const category = scoreVehicle(car, personal).categories.find(c => c.key === 'running')!;
-    expect(costs.annual).toBeCloseTo(6015.15);
-    expect(category.score).toBe(5.5);
+    expect(costs.annual).toBeCloseTo(5525.15);
+    expect(category.score).toBe(6.6);
     expect(category.confidence).toBe(.35);
-    expect(category.reason).toContain('6,015');
-    expect(category.reason).toContain('5,015');
+    expect(category.reason).toContain('5,525');
+    expect(category.reason).toContain('4,525');
     const cheap = { ...personal, ownership: { ...defaultOwnership, vehicleOverrides: { [car.id]: { insurance: 0, repairReserve: 0 } } } };
     expect(scoreVehicle(car, cheap).categories.find(c => c.key === 'running')!.score).toBe(10);
     expect(scoreVehicle(car, personal).categories.find(c => c.key === 'running')).toEqual(category);

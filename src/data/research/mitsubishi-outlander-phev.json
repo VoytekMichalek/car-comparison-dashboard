@@ -707,54 +707,62 @@
   "tyreUpdates": [
     {
       "vehicleId": "outlander-phev-aspire-20",
-      "setCost": 2020,
-      "setLow": 1676,
-      "setHigh": 2600,
+      "size": "255/45R20 105Y XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 1156,
+      "setLow": 800,
+      "setHigh": 1450,
       "lifeKm": 40000,
-      "lifeLowKm": 30000,
-      "lifeHighKm": 50000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Budget aftermarket anchor: Radar Dimax R8+ 105Y XL, A$289 each × 4 = A$1,156 fitted. Preserves or exceeds previous replacement-reference ratings; Ordinary JAX advertised price includes fitting, balancing, tubeless valves, disposal, selected-store delivery and GST; no temporary multi-buy discount used. Store stock and Brisbane availability are unconfirmed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
-      "basis": "ESTIMATE — Aspire maker fitment 255/45R20 101W; chosen retail replacement is 105Y XL, with higher load/speed ratings. JAX Michelin Pilot Sport 4 SUV A$505 each; four fitted A$2,020 including balancing, valve, waste fee and GST. Confirm exact placard and local quote. Assumed 40,000 km life gives A$757.50/year at 15,000 km; life and sensitivity bounds are assumptions. Alignment extra.",
       "sourceIds": [
+        "budget-value-2554520",
+        "budget-value-ioniq23-spec",
         "audit-mitsubishi-outlander-phev-my24",
-        "audit-mitsubishi-outlander-phev-tyre-retail",
-        "audit-mitsubishi-outlander-phev-tyre-inclusions",
-        "budget-tyre-life"
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
       "checked": "2026-10-18",
       "retailAnchor": {
-        "size": "255/45R20 105Y XL",
-        "product": "Michelin Pilot Sport 4 SUV",
-        "unitPrice": 505,
+        "size": "255/45R20 105Y XL replacement reference",
+        "product": "Radar Dimax R8+",
+        "unitPrice": 289,
         "quantity": 4,
-        "sourceId": "audit-mitsubishi-outlander-phev-tyre-retail",
+        "sourceId": "budget-value-2554520",
         "fitted": true,
         "gstIncluded": true
       }
     },
     {
       "vehicleId": "outlander-phev-aspire-227",
-      "setCost": 2020,
-      "setLow": 1676,
-      "setHigh": 2600,
+      "size": "255/45R20 105Y XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 1156,
+      "setLow": 800,
+      "setHigh": 1450,
       "lifeKm": 40000,
-      "lifeLowKm": 30000,
-      "lifeHighKm": 50000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Budget aftermarket anchor: Radar Dimax R8+ 105Y XL, A$289 each × 4 = A$1,156 fitted. Preserves or exceeds previous replacement-reference ratings; Ordinary JAX advertised price includes fitting, balancing, tubeless valves, disposal, selected-store delivery and GST; no temporary multi-buy discount used. Store stock and Brisbane availability are unconfirmed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
-      "basis": "ESTIMATE — Aspire maker fitment 255/45R20 101W; chosen retail replacement is 105Y XL, with higher load/speed ratings. JAX Michelin Pilot Sport 4 SUV A$505 each; four fitted A$2,020 including balancing, valve, waste fee and GST. Confirm exact placard and local quote. Assumed 40,000 km life gives A$757.50/year at 15,000 km; life and sensitivity bounds are assumptions. Alignment extra.",
       "sourceIds": [
+        "budget-value-2554520",
+        "budget-value-ioniq23-spec",
         "audit-mitsubishi-outlander-phev-my25",
-        "audit-mitsubishi-outlander-phev-tyre-retail",
-        "audit-mitsubishi-outlander-phev-tyre-inclusions",
-        "budget-tyre-life"
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
       "checked": "2026-10-18",
       "retailAnchor": {
-        "size": "255/45R20 105Y XL",
-        "product": "Michelin Pilot Sport 4 SUV",
-        "unitPrice": 505,
+        "size": "255/45R20 105Y XL replacement reference",
+        "product": "Radar Dimax R8+",
+        "unitPrice": 289,
         "quantity": 4,
-        "sourceId": "audit-mitsubishi-outlander-phev-tyre-retail",
+        "sourceId": "budget-value-2554520",
         "fitted": true,
         "gstIncluded": true
       }
@@ -962,12 +970,15 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "Both Aspires use 255/45R20 101W maker specification. Current selected 105Y XL Michelin retail anchor A$505 each / A$2,020 fitted set verified. 40,000 km life and bounds remain assumptions; annual A$757.50 at default distance.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 255/45R20 105Y XL replacement reference: A$1,156 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
+          "budget-value-2554520",
+          "budget-value-ioniq23-spec",
           "audit-mitsubishi-outlander-phev-my24",
-          "audit-mitsubishi-outlander-phev-my25",
-          "audit-mitsubishi-outlander-phev-tyre-retail",
-          "audit-mitsubishi-outlander-phev-tyre-inclusions"
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence",
+          "audit-mitsubishi-outlander-phev-my25"
         ],
         "vehicleIds": [
           "outlander-phev-aspire-20",

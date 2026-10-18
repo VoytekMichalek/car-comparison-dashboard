@@ -457,29 +457,25 @@
   "tyreUpdates": [
     {
       "vehicleId": "xtrail-st-petrol-awd-2023",
-      "setCost": 1316,
-      "setLow": 1000,
-      "setHigh": 1700,
-      "lifeKm": 45000,
-      "lifeLowKm": 35000,
+      "size": "235/65R17 108V XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 800,
+      "setLow": 540,
+      "setHigh": 1100,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
       "lifeHighKm": 60000,
-      "basis": "Original ST 17-inch fitment. JAX 235/65R17 108V XL Michelin Primacy 5: A$329 each fitted including GST, four A$1316; no temporary multi-buy discount assumed. Confirm placard load/speed rating, local stock and quote; alignment extra. Life 45,000 km (35,000–60,000) and set-price bounds are analyst assumptions, not measured model-specific tyre life.",
+      "basis": "Budget aftermarket fitted-set estimate, not a retailer quote. Underwood Brisbane lists Landspider Sportraxx 108V XL A$135 each / A$540 four on sale with fitting/balancing/disposal; Tyre City Tingalpa lists Dunlop 108W A$230 each / A$920 fitted. A$800 allows sale expiry and product/local variation. Confirm full GST-inclusive quote and four-tyre stock. No premium/OE branding assumed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
       "sourceIds": [
+        "budget-value-underwood",
+        "budget-value-2356517-local",
         "audit-nissan-x-trail-petrol-spec",
-        "audit-nissan-x-trail-petrol-tyres",
-        "budget-tyre-life"
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
-      "checked": "2026-10-18",
-      "retailAnchor": {
-        "size": "235/65R17 108V XL",
-        "product": "Michelin Primacy 5",
-        "unitPrice": 329,
-        "quantity": 4,
-        "sourceId": "audit-nissan-x-trail-petrol-tyres",
-        "fitted": true,
-        "gstIncluded": true
-      }
+      "checked": "2026-10-18"
     }
   ],
   "repairReserveUpdates": [
@@ -621,10 +617,14 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "ST 235/65R17 verified. Michelin Primacy 5 108V XL A$329 each fitted/GST, A$1,316 set; retain assumed 45,000-km life, not measured ST wear. Alignment extra.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 235/65R17 108V XL replacement reference: A$800 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
+          "budget-value-underwood",
+          "budget-value-2356517-local",
           "audit-nissan-x-trail-petrol-spec",
-          "audit-nissan-x-trail-petrol-tyres"
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence"
         ],
         "vehicleIds": [
           "xtrail-st-petrol-awd-2023"

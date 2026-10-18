@@ -665,32 +665,25 @@
   "tyreUpdates": [
     {
       "vehicleId": "kluger-gx-hev-awd",
-      "setCost": 1276,
-      "setLow": 1176,
-      "setHigh": 1900,
-      "lifeKm": 45000,
-      "lifeLowKm": 30000,
-      "lifeHighKm": 55000,
+      "size": "235/65R18 106V replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 900,
+      "setLow": 740,
+      "setHigh": 1250,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Budget aftermarket fitted-set estimate, not a retailer quote. Tempe NSW lists Nexen Roadian GTX 106V A$185 each / A$740 four fitted on sale and Yokohama G058 106V A$195 each / A$780 four fitted. A$900 allows Queensland fitting/freight variation. These interstate prices are not a Brisbane quote; confirm GST, inclusions and local stock. A cheaper local Rapid listing was sold out and was not treated as an available four-tyre offer. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
-      "basis": "Toyota hybrid manuals specify 235/65R18 106V on 18×8 J wheels. JAX lists Continental UltraContact UX7 SUV A$319 each fitted/GST included, so four cost A$1,276 before temporary cashback; current displayed four-tyre discount is not assumed permanent. 45,000 km life and A$1,176–1,900 set bounds are assumptions. At 15,000 km/year the point allowance is A$425.33. Confirm placard, current fitted Queensland quote and alignment cost.",
       "sourceIds": [
-        "budget-tyre-2356518",
-        "hy-deep-kluger-dealer",
-        "budget-tyre-life",
+        "budget-value-2356518",
         "audit-toyota-kluger-hybrid-manual21",
         "audit-toyota-kluger-hybrid-manual23",
-        "audit-toyota-kluger-hybrid-tyres"
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
-      "checked": "2026-10-18",
-      "retailAnchor": {
-        "size": "235/65R18 106V",
-        "product": "Continental UltraContact UX7 SUV",
-        "unitPrice": 319,
-        "quantity": 4,
-        "sourceId": "budget-tyre-2356518",
-        "fitted": true,
-        "gstIncluded": true
-      }
+      "checked": "2026-10-18"
     }
   ],
   "repairReserveUpdates": [
@@ -841,11 +834,14 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "Correct GX 235/65R18 106V: verified fitted/GST-inclusive JAX Continental anchor A$319 each, A$1,276/set. At assumed 45,000 km life and 15,000 km/year that is A$425.33/year. Tyre life, Queensland availability, alignment and future prices are unverified.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 235/65R18 106V replacement reference: A$900 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
+          "budget-value-2356518",
           "audit-toyota-kluger-hybrid-manual21",
           "audit-toyota-kluger-hybrid-manual23",
-          "audit-toyota-kluger-hybrid-tyres"
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence"
         ],
         "vehicleIds": [
           "kluger-gx-hev-awd"

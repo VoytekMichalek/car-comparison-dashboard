@@ -82,7 +82,7 @@ describe('headline-first score explanations', () => {
     expect(category.headlineDetail).toContain(money(estimate.annualBeforeRepairFund!));
     expect(category.summary).toContain(`${money(estimate.components.reserve)} repair savings`);
     expect(category.summary).toContain('Purchase and depreciation are separate');
-    expect(category.score).toBe(5.5);
+    expect(category.score).toBe(6.6);
   });
 
   it('keeps a known boot measurement visible while explaining why it is excluded', () => {

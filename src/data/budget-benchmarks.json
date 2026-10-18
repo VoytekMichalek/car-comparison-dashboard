@@ -16,19 +16,20 @@
     "rangeMeaning": "Illustrative household-budget sensitivity range. Actual premiums can fall outside it, especially with young drivers, claims, different parking/address, excess or cover."
   },
   "tyresAnnual": {
-    "low": 360,
-    "high": 1200,
-    "point": 600,
-    "basis": "At 15,000km/year: point = A$1,600 fitted set × 15,000/40,000km. Low = A$1,200 × 15,000/50,000; high = A$2,400 × 15,000/30,000. Set prices and service lives are planning assumptions anchored to current fitted SUV-tyre retail prices, not model-specific quotes or guaranteed tyre life. Larger/staggered wheels can cost more; use the correct size and load rating.",
+    "low": 175,
+    "high": 720,
+    "point": 300,
+    "basis": "Fallback only: A$800 budget aftermarket fitted set × 15,000/40,000 km = A$300/year. Low A$700 × 15,000/60,000; high A$1,200 × 15,000/25,000. All are planning assumptions, not a quote or measured tyre life; every current configuration has its own size-specific record.",
     "confidence": "low",
     "sourceIds": [
-      "budget-tyre-prices",
-      "budget-tyre-life"
+      "budget-value-underwood",
+      "budget-value-life",
+      "budget-value-ev-wear-evidence"
     ],
     "annualKmBasis": 15000,
-    "setCostPoint": 1600,
+    "setCostPoint": 800,
     "lifeKmPoint": 40000,
-    "formula": "annualTyreAllowance = 1600 * annualKm / 40000",
+    "formula": "annualTyreAllowance = 800 * annualKm / 40000",
     "note": "An accrual for eventual replacement, not an assertion that four tyres are purchased every year. Fitting/balancing are included in the reference retail prices; additional alignment/repair costs are separate."
   },
   "charger": {

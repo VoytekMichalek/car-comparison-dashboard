@@ -615,26 +615,30 @@
   "tyreUpdates": [
     {
       "vehicleId": "outlander-ls-petrol-fwd-2022",
-      "setCost": 1036,
-      "setLow": 862,
-      "setHigh": 1600,
-      "lifeKm": 45000,
-      "lifeLowKm": 35000,
+      "size": "235/60R18 107W XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 740,
+      "setLow": 650,
+      "setHigh": 1100,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
       "lifeHighKm": 60000,
-      "basis": "Maker LS fitment 235/60R18 103H. Retail replacement Goodyear Optilife 3 SUV 107V XL has higher load/speed ratings: JAX A$259 each / A$1,036 for four fitted, balancing/valves/waste fee/GST included; no promotion deducted. Local stock and alignment extra need a quote. Assumed 45,000 km life (35,000–60,000), not measured LS tyre life; A$345.33/year at 15,000 km. Set-price bounds remain planning assumptions.",
+      "basis": "Budget aftermarket anchor: Dynamo Hiscend-H MSU01 107W XL, A$185 each × 4 = A$740 fitted. Ordinary JAX advertised price includes fitting, balancing, tubeless valves, disposal, selected-store delivery and GST; no temporary multi-buy discount used. Store stock and Brisbane availability are unconfirmed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
       "sourceIds": [
+        "budget-value-2356018",
         "audit-mitsubishi-outlander-petrol-period-spec",
-        "audit-mitsubishi-outlander-petrol-tyre-retail",
-        "audit-mitsubishi-outlander-petrol-tyre-life"
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
       "checked": "2026-10-18",
       "retailAnchor": {
-        "size": "235/60R18 107V XL",
-        "product": "Goodyear Optilife 3 SUV",
-        "unitPrice": 259,
+        "size": "235/60R18 107W XL replacement reference",
+        "product": "Dynamo Hiscend-H MSU01",
+        "unitPrice": 185,
         "quantity": 4,
-        "sourceId": "audit-mitsubishi-outlander-petrol-tyre-retail",
+        "sourceId": "budget-value-2356018",
         "fitted": true,
         "gstIncluded": true
       }
@@ -782,11 +786,13 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "Correct maker LS size 235/60R18 103H. Selected 107V XL Goodyear retail A$259 fitted each / A$1,036 set verified. Assumed 45,000 km life yields A$345.33/year at 15,000 km; life, local stock and sensitivity bounds remain uncertain.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 235/60R18 107W XL replacement reference: A$740 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
+          "budget-value-2356018",
           "audit-mitsubishi-outlander-petrol-period-spec",
-          "audit-mitsubishi-outlander-petrol-tyre-retail",
-          "audit-mitsubishi-outlander-petrol-tyre-life"
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence"
         ],
         "vehicleIds": [
           "outlander-ls-petrol-fwd-2022"

@@ -841,55 +841,55 @@
   "tyres": [
     {
       "vehicleId": "outlander-ls-petrol-fwd-2022",
-      "setCost": 1036,
-      "setLow": 862,
-      "setHigh": 1600,
-      "lifeKm": 45000,
-      "lifeLowKm": 35000,
+      "size": "235/60R18 107W XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 740,
+      "setLow": 650,
+      "setHigh": 1100,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
       "lifeHighKm": 60000,
-      "basis": "Original LS 18-inch fitment. JAX 235/60R18 107V XL Goodyear Optilife 3 SUV: A$259 each fitted including GST, four A$1036; no temporary multi-buy discount assumed. Confirm placard load/speed rating, local stock and quote; alignment extra. Life 45,000 km (35,000–60,000) and set-price bounds are analyst assumptions, not measured model-specific tyre life.",
+      "basis": "Budget aftermarket anchor: Dynamo Hiscend-H MSU01 107W XL, A$185 each × 4 = A$740 fitted. Ordinary JAX advertised price includes fitting, balancing, tubeless valves, disposal, selected-store delivery and GST; no temporary multi-buy discount used. Store stock and Brisbane availability are unconfirmed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
       "sourceIds": [
-        "budget-tyre-2356018",
-        "ice-jp-out-spec",
-        "budget-tyre-life"
+        "budget-value-2356018",
+        "audit-mitsubishi-outlander-petrol-period-spec",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
       "checked": "2026-10-18",
       "retailAnchor": {
-        "size": "235/60R18 107V XL",
-        "product": "Goodyear Optilife 3 SUV",
-        "unitPrice": 259,
+        "size": "235/60R18 107W XL replacement reference",
+        "product": "Dynamo Hiscend-H MSU01",
+        "unitPrice": 185,
         "quantity": 4,
-        "sourceId": "budget-tyre-2356018",
+        "sourceId": "budget-value-2356018",
         "fitted": true,
         "gstIncluded": true
       }
     },
     {
       "vehicleId": "xtrail-st-petrol-awd-2023",
-      "setCost": 1316,
-      "setLow": 1000,
-      "setHigh": 1700,
-      "lifeKm": 45000,
-      "lifeLowKm": 35000,
+      "size": "235/65R17 108V XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 800,
+      "setLow": 540,
+      "setHigh": 1100,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
       "lifeHighKm": 60000,
-      "basis": "Original ST 17-inch fitment. JAX 235/65R17 108V XL Michelin Primacy 5: A$329 each fitted including GST, four A$1316; no temporary multi-buy discount assumed. Confirm placard load/speed rating, local stock and quote; alignment extra. Life 45,000 km (35,000–60,000) and set-price bounds are analyst assumptions, not measured model-specific tyre life.",
+      "basis": "Budget aftermarket fitted-set estimate, not a retailer quote. Underwood Brisbane lists Landspider Sportraxx 108V XL A$135 each / A$540 four on sale with fitting/balancing/disposal; Tyre City Tingalpa lists Dunlop 108W A$230 each / A$920 fitted. A$800 allows sale expiry and product/local variation. Confirm full GST-inclusive quote and four-tyre stock. No premium/OE branding assumed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
       "sourceIds": [
-        "ice-jp-tyres-2356517",
-        "ice-jp-xt-spec",
-        "budget-tyre-life"
+        "budget-value-underwood",
+        "budget-value-2356517-local",
+        "audit-nissan-x-trail-petrol-spec",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
-      "checked": "2026-10-18",
-      "retailAnchor": {
-        "size": "235/65R17 108V XL",
-        "product": "Michelin Primacy 5",
-        "unitPrice": 329,
-        "quantity": 4,
-        "sourceId": "ice-jp-tyres-2356517",
-        "fitted": true,
-        "gstIncluded": true
-      }
+      "checked": "2026-10-18"
     }
   ],
   "repairReserves": [

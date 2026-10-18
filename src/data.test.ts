@@ -124,6 +124,9 @@ describe('researched catalogue integrity', () => {
   it('has sourced tyre budgets and ordered assumptions for every configuration', () => {
     expect(new Set(tyreEstimates.map(t => t.vehicleId))).toEqual(new Set(vehicles.map(v => v.id)));
     for (const t of tyreEstimates) {
+      expect(t.size.length).toBeGreaterThan(0);
+      expect(['budget-aftermarket', 'budget-unverified']).toContain(t.strategy);
+      expect(t.sourceIds).toContain('budget-value-ev-wear-evidence');
       expect(t.setLow).toBeLessThanOrEqual(t.setCost);
       expect(t.setHigh).toBeGreaterThanOrEqual(t.setCost);
       expect(t.lifeLowKm).toBeLessThanOrEqual(t.lifeKm);
@@ -133,6 +136,7 @@ describe('researched catalogue integrity', () => {
         expect(t.setCost).toBeCloseTo(t.retailAnchor.unitPrice * t.retailAnchor.quantity, 2);
         expect(t.sourceIds).toContain(t.retailAnchor.sourceId);
       }
+      if (t.strategy === 'budget-unverified') expect(t.basis).toMatch(/gap|fallback/i);
     }
   });
   it('bundles genuine local image assets and license attribution', () => {

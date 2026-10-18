@@ -831,10 +831,15 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "Verified 19-inch five-seat 255/45R19 104XL fitment and JAX Hankook iON 104W XL A$509 fitted/GST each: A$2,036 set before temporary multibuy offers. At 15,000 km and assumed 35,000 km life this is A$873/year. Life 25,000–50,000 km is sensitivity, not measured fleet life. Optional 20-inch wheels need another quote; Y L staggered tyres are excluded.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 255/45R19 104Y XL replacement reference: A$1,000 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
-          "audit-tesla-model-y-tyre-retail",
+          "budget-value-tesla-fitted",
+          "budget-value-tesla-crosscheck",
+          "budget-value-tesla-manual",
           "ev-deep-tesla-original-tyres",
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence",
           "ev-deep-tesla-refresh-tyres"
         ],
         "vehicleIds": [
@@ -898,5 +903,6 @@
         ]
       }
     ]
-  }
+  },
+  "tyreUpdates": []
 }

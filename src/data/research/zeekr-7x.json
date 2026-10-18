@@ -770,12 +770,14 @@
       },
       {
         "key": "tyres",
-        "status": "estimate",
-        "finding": "Standard RWD and Long Range use 255/50 R19; LR may have optional 20-inch wheels. JAX Zeekr-marked Pirelli retail anchor A$379 each fitted = A$1,516/set. Current four-buy promotion A$1,212.80/set is temporary. Retain assumed 35,000 km life, about A$650/year at 15,000 km. Confirm placard and local quote.",
+        "status": "gap",
+        "finding": "Budget aftermarket audit, 18 October 2026. HL255/50R19 110V XL ZK ELT: A$1,516 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote. Suitable budget HL110 four-tyre availability remains unresolved; premium fallback retained.",
         "sourceIds": [
-          "audit-zeekr-7x-rvd-tyres",
-          "audit-zeekr-7x-tyres-jax",
-          "audit-zeekr-7x-brochure-au"
+          "budget-tyre-2555019",
+          "ev-deep-zeekr-rvd-tyres",
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence"
         ],
         "vehicleIds": [
           "zeekr7x-rwd-2025",
@@ -827,5 +829,6 @@
         ]
       }
     ]
-  }
+  },
+  "tyreUpdates": []
 }

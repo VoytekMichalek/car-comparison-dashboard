@@ -843,58 +843,64 @@
   "tyreUpdates": [
     {
       "vehicleId": "sealion6-dynamic-183",
-      "setCost": 1196,
-      "setLow": 922,
-      "setHigh": 1940,
+      "size": "235/50R19 103W XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 756,
+      "setLow": 680,
+      "setHigh": 1100,
       "lifeKm": 40000,
-      "lifeLowKm": 30000,
-      "lifeHighKm": 50000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Budget aftermarket anchor: Dynamo Hiscend-H MSU02 103W XL, A$189 each × 4 = A$756 fitted. Ordinary JAX advertised price includes fitting, balancing, tubeless valves, disposal, selected-store delivery and GST; no temporary multi-buy discount used. Store stock and Brisbane availability are unconfirmed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
-      "basis": "ESTIMATE — 235/50 R19 wheels; verify the actual load/speed placard. Re-read fitted retail anchor: Dunlop Grandtrek PT5 103V XL, A$299 each including GST, fitting, balancing, valve and disposal; four cost A$1,196 before temporary multi-buy offers. Alignment is excluded. A 40,000 km life is assumed, with 30,000–50,000 km sensitivity, not measured Sealion 6 tyre-life evidence. At 15,000 km per year this is A$448.50 per year. Existing A$922–1,940 set-price bounds remain illustrative.",
       "sourceIds": [
-        "budget-tyre-2355019",
+        "budget-value-2355019",
         "hy-sl6-25",
-        "budget-tyre-life",
-        "audit-byd-sealion-6-fitted-tyres",
         "audit-byd-sealion-6-current-spec",
-        "audit-byd-sealion-6-au-handbook"
+        "audit-byd-sealion-6-au-handbook",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
       "checked": "2026-10-18",
       "retailAnchor": {
-        "size": "235/50R19 103V XL",
-        "product": "Dunlop Grandtrek PT5",
-        "unitPrice": 299,
+        "size": "235/50R19 103W XL replacement reference",
+        "product": "Dynamo Hiscend-H MSU02",
+        "unitPrice": 189,
         "quantity": 4,
-        "sourceId": "budget-tyre-2355019",
+        "sourceId": "budget-value-2355019",
         "fitted": true,
         "gstIncluded": true
       }
     },
     {
       "vehicleId": "sealion6-dynamic-extended",
-      "setCost": 1196,
-      "setLow": 922,
-      "setHigh": 1940,
+      "size": "235/50R19 103W XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 756,
+      "setLow": 680,
+      "setHigh": 1100,
       "lifeKm": 40000,
-      "lifeLowKm": 30000,
-      "lifeHighKm": 50000,
+      "lifeLowKm": 25000,
+      "lifeHighKm": 60000,
+      "basis": "Budget aftermarket anchor: Dynamo Hiscend-H MSU02 103W XL, A$189 each × 4 = A$756 fitted. Ordinary JAX advertised price includes fitting, balancing, tubeless valves, disposal, selected-store delivery and GST; no temporary multi-buy discount used. Store stock and Brisbane availability are unconfirmed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
-      "basis": "ESTIMATE — 235/50 R19 wheels; verify the actual load/speed placard. Re-read fitted retail anchor: Dunlop Grandtrek PT5 103V XL, A$299 each including GST, fitting, balancing, valve and disposal; four cost A$1,196 before temporary multi-buy offers. Alignment is excluded. A 40,000 km life is assumed, with 30,000–50,000 km sensitivity, not measured Sealion 6 tyre-life evidence. At 15,000 km per year this is A$448.50 per year. Existing A$922–1,940 set-price bounds remain illustrative.",
       "sourceIds": [
-        "budget-tyre-2355019",
+        "budget-value-2355019",
         "hy-sl6-25",
-        "budget-tyre-life",
-        "audit-byd-sealion-6-fitted-tyres",
         "audit-byd-sealion-6-current-spec",
-        "audit-byd-sealion-6-au-handbook"
+        "audit-byd-sealion-6-au-handbook",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
       "checked": "2026-10-18",
       "retailAnchor": {
-        "size": "235/50R19 103V XL",
-        "product": "Dunlop Grandtrek PT5",
-        "unitPrice": 299,
+        "size": "235/50R19 103W XL replacement reference",
+        "product": "Dynamo Hiscend-H MSU02",
+        "unitPrice": 189,
         "quantity": 4,
-        "sourceId": "budget-tyre-2355019",
+        "sourceId": "budget-value-2355019",
         "fitted": true,
         "gstIncluded": true
       }
@@ -1096,11 +1102,15 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "235/50 R19 verified; A$299 fitted Dunlop 103V XL retail anchor still supports A$1,196 per set. At assumed 40,000 km life and 15,000 km per year, A$448.50 annual allowance. No measured model-specific tyre life.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 235/50R19 103W XL replacement reference: A$756 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
+          "budget-value-2355019",
+          "hy-sl6-25",
           "audit-byd-sealion-6-current-spec",
           "audit-byd-sealion-6-au-handbook",
-          "audit-byd-sealion-6-fitted-tyres"
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence"
         ],
         "vehicleIds": [
           "sealion6-dynamic-183",

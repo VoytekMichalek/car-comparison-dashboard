@@ -116,4 +116,8 @@ Annual and period totals are labelled running **budgets including repair savings
 
 ## Running-budget score correction — 18 October 2026
 
-The former A$2,000–6,500 scoring scale was too low for the full running budgets now shown. It gave the original Model Y RWD about 2/10 despite a middle-of-catalogue budget. The corrected A$4,000–8,000 scale gives its default A$6,015.15/year budget **5.5/10**. That includes A$1,000 repair savings; costs before that fund are A$5,015.15/year. No cost estimates were changed for this correction.
+The former A$2,000–6,500 scoring scale was too low for the full running budgets now shown. It gave the original Model Y RWD about 2/10 despite a middle-of-catalogue budget. At that release, the corrected A$4,000–8,000 scale gave its A$6,015.15/year budget **5.5/10**. That includes A$1,000 repair savings; costs before that fund are A$5,015.15/year. No cost estimates were changed for this correction.
+
+## Budget aftermarket tyres — 18 October 2026
+
+Replaced premium-only tyre price assumptions with sourced budget aftermarket allowances across all 35 configurations. The original Model Y now uses a yellow **A$1,000 fitted-set planning budget**, approximately **A$380/year** at 15,000 km and an assumed 40,000 km replacement life. Its default annual running budget is **A$5,525.15** including repair savings, and its running-budget score is **6.6/10**. Existing personal annual tyre inputs remain unchanged. The ownership editor and car details show set price, wheel reference, assumed life and annual calculation. Zeekr retains an explicit HL110 budget-fitment gap and premium fallback. [Research and limitations](docs/research/BUDGET-TYRES-UPDATE-2026-10-18.md).

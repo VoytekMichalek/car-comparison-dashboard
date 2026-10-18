@@ -605,26 +605,30 @@
   "tyreUpdates": [
     {
       "vehicleId": "outback-awd-25-2021",
-      "setCost": 1236,
-      "setLow": 1000,
-      "setHigh": 1700,
-      "lifeKm": 45000,
-      "lifeLowKm": 30000,
+      "size": "225/60R18 104W XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 756,
+      "setLow": 600,
+      "setHigh": 1040,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
       "lifeHighKm": 60000,
-      "basis": "ESTIMATE: four Michelin Primacy 5 tyres in 225/60R18 104V XL at JAX’s displayed A$309 regular fitted single-tyre price each; no short-term multi-buy discount assumed. Includes GST, fitting, balancing, valves and tyre disposal. Manufacturer standard-wheel size checked; confirm the placard, load/speed rating and local stock. Alignment is extra. Life 45,000 km (30,000–60,000) is an editable assumption, not a Subaru wear study.",
+      "basis": "Budget aftermarket anchor: Radar RPX800+ SUV 104W XL, A$189 each × 4 = A$756 fitted. Ordinary JAX advertised price includes fitting, balancing, tubeless valves, disposal, selected-store delivery and GST; no temporary multi-buy discount used. Store stock and Brisbane availability are unconfirmed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
       "sourceIds": [
-        "audit-subaru-outback-tyres",
+        "budget-value-2256018",
         "audit-subaru-outback-spec25",
-        "budget-tyre-life"
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
       "checked": "2026-10-18",
       "retailAnchor": {
-        "size": "225/60R18 104V XL",
-        "product": "Michelin Primacy 5",
-        "unitPrice": 309,
+        "size": "225/60R18 104W XL replacement reference",
+        "product": "Radar RPX800+ SUV",
+        "unitPrice": 189,
         "quantity": 4,
-        "sourceId": "audit-subaru-outback-tyres",
+        "sourceId": "budget-value-2256018",
         "fitted": true,
         "gstIncluded": true
       }
@@ -765,10 +769,13 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "Factory 225/60R18 100V; JAX Michelin Primacy 5 104V XL A$309 fitted each incl GST. Retain four-tyre A$1,236 and assumed 45,000 km life, about A$412/year at 15,000 km. Alignment and actual wear require a quote.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 225/60R18 104W XL replacement reference: A$756 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
-          "audit-subaru-outback-tyres",
-          "audit-subaru-outback-spec25"
+          "budget-value-2256018",
+          "audit-subaru-outback-spec25",
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence"
         ],
         "vehicleIds": [
           "outback-awd-25-2021"

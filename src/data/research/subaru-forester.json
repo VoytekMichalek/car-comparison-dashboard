@@ -699,12 +699,16 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "Standard S5 2.5i-L 225/60R17 99V; S6 AWD 225/55R18 98V. JAX Michelin replacement XL alternatives each A$299 fitted: four A$1,196. Assumed 45,000 km life means about A$399/year at 15,000 km; life and alignment remain assumptions.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 225/60R17 103V XL replacement reference: A$700 for four fitted; 225/55R18 98V (base AWD manufacturer specification): A$676 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
-          "audit-subaru-forester-s5-spec",
-          "audit-subaru-forester-s6-spec",
-          "audit-subaru-forester-tyre-17",
-          "audit-subaru-forester-tyre-18"
+          "budget-value-underwood",
+          "ice-sub-forester-old-spec",
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence",
+          "budget-value-2255518",
+          "budget-value-forester-spec",
+          "ice-sub-forester-new-spec"
         ],
         "vehicleIds": [
           "forester-25il-2021",
@@ -789,5 +793,6 @@
       ],
       "checked": "2026-10-18"
     }
-  ]
+  ],
+  "tyreUpdates": []
 }

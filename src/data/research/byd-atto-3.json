@@ -966,14 +966,16 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "JAX fitted/GST retail anchors re-read: original launch215/55R18 Primacy5 A$319each; Essential215/60R17 BYD-rated Hankook285; EVO235/50R18 UC7SUV319. Existing four-tyre totals1,276/1,140/1,276 retained. Later original2024 cars may have235/50R18: check placard.40,000km life and bounds are assumptions, not observed durability.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 215/55R18 99W XL replacement reference: A$660 for four fitted; 215/60R17 96H: A$580 for four fitted; 235/50R18 101W XL: A$716 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
-          "audit-byd-atto-3-tyres-original-18",
-          "audit-byd-atto-3-tyres-17",
-          "audit-byd-atto-3-tyres-evo-18",
-          "audit-byd-atto-3-original-review",
-          "audit-byd-atto-3-au-2025-spec",
-          "audit-byd-atto-3-au-evo-spec"
+          "budget-value-2155518",
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence",
+          "budget-value-2156017",
+          "ev-atto-2025-spec",
+          "budget-value-2355018",
+          "ev-deep-atto-evo-brochure"
         ],
         "vehicleIds": [
           "atto3-standard-2022",
@@ -1034,5 +1036,6 @@
         ]
       }
     ]
-  }
+  },
+  "tyreUpdates": []
 }

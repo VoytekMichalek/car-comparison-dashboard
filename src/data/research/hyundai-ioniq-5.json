@@ -1042,13 +1042,17 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "Australian MY23/new brochures specify 235/55R19 105W for RWD or 255/45R20 105W for Techniq. JAX fitted/GST-inclusive Michelin Pilot Sport 4 SUV anchors remain A$395 / A$505 each: A$1,580 / A$2,020 per set. Assumed 40,000 km life gives A$592.50 / A$757.50 per year at 15,000 km, excluding alignment. Check the placard; no spare.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 255/45R20 105Y XL replacement reference: A$1,156 for four fitted; 235/55R19 105W replacement reference: A$900 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
-          "audit-hyundai-ioniq-5-my22-spec",
-          "audit-hyundai-ioniq-5-my23-spec",
-          "audit-hyundai-ioniq-5-my26-spec",
-          "audit-hyundai-ioniq-5-tyres-19",
-          "audit-hyundai-ioniq-5-tyres-20"
+          "budget-value-2554520",
+          "budget-value-ioniq23-spec",
+          "ev-ioniq-old-spec",
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence",
+          "budget-value-2355519",
+          "ev-ioniq-2023-spec",
+          "ev-ioniq-new-spec"
         ],
         "vehicleIds": [
           "ioniq5-awd-2021",
@@ -1114,5 +1118,6 @@
         ]
       }
     ]
-  }
+  },
+  "tyreUpdates": []
 }

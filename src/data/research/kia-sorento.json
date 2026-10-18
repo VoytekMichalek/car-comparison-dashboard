@@ -780,11 +780,15 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "Both specified 235/55R19. JAX Michelin 395 fitted each rechecked; four A$1,580. Keep 45,000 km assumed life (A$526.67/year at 15,000 km), not measured Sorento wear.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 235/55R19 105W replacement reference: A$900 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
-          "audit-kia-sorento-brochure-my23",
-          "audit-kia-sorento-brochure-my26",
-          "audit-kia-sorento-tyre-jax"
+          "budget-value-2355519",
+          "budget-value-ioniq23-spec",
+          "hy-deep-sorento-my23",
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence",
+          "hy-sorento-spec"
         ],
         "vehicleIds": [
           "sorento-phev-gtline-2021-23",
@@ -840,5 +844,6 @@
         ]
       }
     ]
-  }
+  },
+  "tyreUpdates": []
 }

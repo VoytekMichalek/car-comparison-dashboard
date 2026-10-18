@@ -460,29 +460,26 @@
   "tyreUpdates": [
     {
       "vehicleId": "tucson-base-petrol-2021",
-      "setCost": 1316,
-      "setLow": 980,
-      "setHigh": 1600,
-      "lifeKm": 45000,
-      "lifeLowKm": 30000,
+      "size": "235/65R17 108V XL replacement reference",
+      "strategy": "budget-aftermarket",
+      "setCost": 800,
+      "setLow": 540,
+      "setHigh": 1100,
+      "lifeKm": 40000,
+      "lifeLowKm": 25000,
       "lifeHighKm": 60000,
-      "basis": "Four Michelin Primacy 5 235/65R17 108V XL at A$329 = A$1,316, fitted including balancing, valves, waste handling and GST; alignment extra. Original base specification is 235/65R17 104H; confirm placard/load/speed suitability. October promotions on other brands are temporary, not long-term prices. A$980–1,600 set bounds and 45,000 km life (30,000–60,000 sensitivity) are assumptions.",
+      "basis": "Budget aftermarket fitted-set estimate, not a retailer quote. Underwood Brisbane lists Landspider Sportraxx 108V XL A$135 each / A$540 four on sale with fitting/balancing/disposal; Tyre City Tingalpa lists Dunlop 108W A$230 each / A$920 fitted. A$800 allows sale expiry and product/local variation. Confirm full GST-inclusive quote and four-tyre stock. No premium/OE branding assumed. Life is a common 40,000 km planning assumption (25,000–60,000 km sensitivity), not a measured model or tyre average. Wear varies with tyre choice, driving, maintenance and vehicle; model-specific replacement averages were not verified. Annual allowance = set budget × annual km ÷ 40,000, rounded to A$10. Age/damage can require earlier replacement. Alignment is additional; actual placard, wheel package and local fitted quote must be checked. Matching size/load/speed does not establish equal braking, efficiency or durability.",
       "confidence": "low",
       "sourceIds": [
-        "audit-hyundai-tucson-tyres",
+        "budget-value-underwood",
+        "budget-value-2356517-local",
         "audit-hyundai-tucson-spec21",
-        "audit-hyundai-tucson-spec23"
+        "audit-hyundai-tucson-spec23",
+        "budget-value-life",
+        "budget-value-ev-suitability",
+        "budget-value-ev-wear-evidence"
       ],
-      "checked": "2026-10-18",
-      "retailAnchor": {
-        "size": "235/65R17 108V XL",
-        "product": "Michelin Primacy 5",
-        "unitPrice": 329,
-        "quantity": 4,
-        "sourceId": "audit-hyundai-tucson-tyres",
-        "fitted": true,
-        "gstIncluded": true
-      }
+      "checked": "2026-10-18"
     }
   ],
   "repairReserveUpdates": [
@@ -622,11 +619,15 @@
       {
         "key": "tyres",
         "status": "estimate",
-        "finding": "Base 235/65R17 104H; current Michelin 108V XL anchor A$329 fitted each / A$1,316 set. Life 45,000 km is assumed, not a model wear test.",
+        "finding": "Budget aftermarket audit, 18 October 2026. 235/65R17 108V XL replacement reference: A$800 for four fitted. Common 40,000 km life is an illustrative assumption, not model-specific wear evidence. Prices and annual savings are estimates; check the real placard and local fitted quote.",
         "sourceIds": [
+          "budget-value-underwood",
+          "budget-value-2356517-local",
           "audit-hyundai-tucson-spec21",
           "audit-hyundai-tucson-spec23",
-          "audit-hyundai-tucson-tyres"
+          "budget-value-life",
+          "budget-value-ev-suitability",
+          "budget-value-ev-wear-evidence"
         ],
         "vehicleIds": [
           "tucson-base-petrol-2021"
