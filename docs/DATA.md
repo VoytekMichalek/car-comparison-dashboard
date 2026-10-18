@@ -149,7 +149,7 @@ Fuel-only `OwnershipInfo.fuelEstimate` is a labelled L/100km family-driving scen
 
 ## Sticky table headers
 
-`src/sticky-tables.css` is imported after the other layout styles. Wide ownership tables use a native sticky header at the viewport top. Container-query card layouts retain labels beside values and use a sticky vehicle heading within each card, offset below the mobile app bar. The sorting dropdown remains available at all card widths. Cost containers stay overflow-visible, so no sideways cost scrolling is introduced. Comparison retains sticky photos/names within its desktop scroll surface and viewport-sticky headers below the mobile app bar. Printing resets sticky positioning.
+`src/sticky-tables.css` is imported after the other layout styles. Wide ownership tables use a native sticky header at the viewport top. Container-query card layouts retain labels beside values and use a sticky vehicle heading within each card, offset below the mobile app bar. The sorting dropdown remains available at all card widths. Cost containers stay overflow-visible, so no sideways cost scrolling is introduced. The vehicle-row comparison uses its own compare-score-table styles: category headings stick on desktop; each phone card keeps its vehicle identification below the app bar. Printing resets sticky positioning.
 
 
 ## Multi-site reviews and charts — 18 October 2026
@@ -185,3 +185,10 @@ Chart highlighting starts empty and changes only through explicit click/tap, Ent
 `src/data/cargo-capacity.json` stores checked, configuration-scoped rear-seats-up, front and rear-folded capacities with their original measurement caveat and source IDs. `src/cargo.ts` validates the strict schema and derives combined capacities by adding front storage once. The dataset validator checks source references, seating and consistency with each configuration's existing rear boot fact. Do not add an underfloor figure to a published rear total unless the source explicitly establishes that it is excluded.
 
 The original five-seat Model Y table reports 854 L rear seats up, 117 L front and 2,041 L rear folded; Juniper's Premium five-seat table reports 822 L, 116 L and 2,022 L respectively. These are Tesla-published litres, without a verified VDA method or stated loading-height boundary. Show these facts in the overview, score explanation and Compare without inventing a VDA conversion or rewarding them as comparable litre scores. `CategoryScore.unscoredLabel` distinguishes **Not comparable** from absent capacity data; its null score still adds no weight. [Research report](research/TESLA-BOOT-2026-10-18.md).
+
+
+### Vehicle-row score comparison
+
+`src/pages/Compare.tsx` renders vehicles as rows and overall plus eight categories as columns. `ComparisonScoreBar` exposes a labelled 0–10 meter with a numeric value and a proportional decorative track. Green means 7–10, amber 4–6.9 and red below 4; these are display bands, not new scoring rules. Bars use raw category scores, never score multiplied by confidence. Null/non-finite values produce a neutral label without a meter or zero fill. Non-comparable and non-applicable facts remain distinct from missing data. Compare keeps purchase price in the ordinary overall score; the scatter's exclusion is specific to its price axis.
+
+Sorting is by raw category/overall score or vehicle name; missing scores stay last regardless of direction. Sort order is local presentation state and does not reorder the selected IDs in shared URLs/dropdowns. Below an 880 px content width, all selected vehicles become cards with labelled categories and a sort menu; no old left/right pair hiding is used. Category evidence opens in a native modal with a saved-trigger focus return. Detailed facts, cost components, fit notes and source references remain in per-car disclosures below the score table. No browser storage or data schema changes are required.

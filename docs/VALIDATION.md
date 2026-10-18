@@ -1,6 +1,15 @@
 # Validation record — 18 October 2026
 
-## Latest: intentional chart highlighting — 18 October 2026
+## Latest: vehicle rows and category bars — 18 October 2026
+
+- **167 tests across twelve suites pass**, including 13 focused bar cases: colour boundaries, 0–10 bounds, non-finite/missing values without fabricated zeros, accessible meters and markup usable inside a button. Strict TypeScript and production build pass; existing research-chunk/Zod notices remain.
+- Vehicles are rows with overall plus eight category columns. Scores and evidence weights are unchanged. Bars use fixed red (<4), amber (4–6.9) and green (7+) bands. Tesla's known rear capacity stays neutral Not comparable; HEV electric range stays Not applicable; unestablished fit/review scores stay No data.
+- Browser audited all **35 configurations**, grouped up to four at once, with retained research details expanded at **320 and 1280 px**: no internal/document horizontal overflow. All **32 category evidence dialogs** in a representative four-car selection were opened fully at **320, 1024 and 1280 px** (96 checks), without overflow. Mobile sorting also fits at 390 px.
+- Verified ascending/descending sorts with missing values last, 1/2/4 selected cars, removal to empty, dropdown replacement, reload restoration and selected cars surviving restrictive filters. Desktop column headings remain at viewport top; phone vehicle identification sticks at 60 px below the app bar.
+- Escape and Close return focus to the originating category button. Underlying Tesla cargo/source details remain accessible; warranty/service links were retained in the expanded section. The modal uses a 44 px close target.
+- A temporary Tesla insurance input changed the running headline from A$6,015/5.5 to A$6,415/4.6 and was restored through the normal UI. Changing importance updated coverage/header weights while leaving the raw category bar unchanged; original inputs were restored. No storage format or public research data changed.
+
+## Previous: intentional chart highlighting — 18 October 2026
 
 - Both charts start without a highlighted car. Legend buttons, annual points and scatter dots toggle only on click/tap or Enter/Space; hover/focus handlers and native SVG hover tooltips are removed. Adding a visible line does not highlight it.
 - Production-preview browser verified equal line widths/opacity, no default labels/cursor/overlays, repeated legend activation, annual-point selection and deselection, scatter keyboard toggles, dropdown selection/clearing and both Show all equally actions. Tabbing between points preserves the selected car/year without selecting another. The clear actions remain mounted and focusable.
