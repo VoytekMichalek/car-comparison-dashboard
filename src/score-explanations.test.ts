@@ -106,6 +106,23 @@ describe('headline-first score explanations', () => {
     expect(reviews.score).toBeNull();
   });
 
+  it('shows a PHEV electric-range fact without a low score or missing-data label', () => {
+    const phev = vehicles.find(v => v.id === 'outlander-phev-aspire-20')!;
+    const score = scoreVehicle(phev, emptyPersonal());
+    const range = score.categories.find(c => c.key === 'range')!;
+    expect(range.headline).toBe('84 km NEDC');
+    expect(range.headlineDetail).toBe('Electric-only range · not scored');
+    expect(range.summary).toContain('does not lower the overall score or evidence coverage');
+    const markup = renderToStaticMarkup(createElement(ScoreBreakdown, { score: { ...score, categories: [range] } }));
+    expect(markup).toContain('84 km NEDC');
+    expect(markup).toContain('Not scored');
+    expect(markup).toContain('Not weighted');
+    expect(markup).not.toContain('No plug-in electric range');
+    expect(markup).not.toContain('No data');
+    expect(markup).not.toContain('Not applicable');
+    expect(markup).not.toContain('This scoring gap reduces evidence coverage');
+  });
+
   it('puts the actual fact before provenance and keeps sources and rules in an optional disclosure', () => {
     const category = categoryFor('price');
     const markup = renderToStaticMarkup(createElement(CategoryEvidence, { category }));

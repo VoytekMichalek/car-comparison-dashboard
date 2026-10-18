@@ -9,6 +9,23 @@ const ev = vehicles.find(v => v.id === 'model-y-rwd-2022')!;
 const hybrid = vehicles.find(v => v.id === 'rav4-gxl-hev-2021-25')!;
 
 describe('Chart scenarios and score data', () => {
+  it('excludes PHEV range importance from scatter scores and their evidence coverage', () => {
+    const cars = vehicles.filter(v => v.powertrain === 'PHEV');
+    const personal = emptyPersonal();
+    const low = priceScorePoints(cars, personal, { ...defaultWeights, range: 1 }, 45000);
+    const high = priceScorePoints(cars, personal, { ...defaultWeights, range: 10 }, 45000);
+    expect(low).toHaveLength(cars.length);
+    for (const point of low) {
+      const changed = high.find(p => p.vehicle.id === point.vehicle.id)!;
+      expect(changed.score.total).toBe(point.score.total);
+      expect(changed.score.coverage).toBe(point.score.coverage);
+      expect(changed.score.categories.find(c => c.key === 'range')?.effectiveWeight).toBe(0);
+      expect(changed.score.categories.some(c => c.key === 'price')).toBe(false);
+    }
+    const lowBev = priceScorePoints([ev], personal, { ...defaultWeights, range: 1 }, 45000)[0];
+    const highBev = priceScorePoints([ev], personal, { ...defaultWeights, range: 10 }, 45000)[0];
+    expect(highBev.score.categories.find(c => c.key === 'range')!.effectiveWeight).toBeGreaterThan(lowBev.score.categories.find(c => c.key === 'range')!.effectiveWeight);
+  });
   it('plots annual reducing-balance values and aligns its ownership-period value exactly', () => {
     for (const car of vehicles) {
       const personal = emptyPersonal();

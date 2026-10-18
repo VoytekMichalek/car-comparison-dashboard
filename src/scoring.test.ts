@@ -115,9 +115,8 @@ describe('transparent importance-weighted scoring', () => {
       expect(high.coverage).toEqual(low.coverage);
     }
   });
-  it('scores published plug-in ranges and excludes unknown or zero figures', () => {
-    for (const powertrain of ['BEV', 'PHEV'] as const) {
-      const car = vehicles.find(v => v.powertrain === powertrain)!;
+  it('scores published battery-only EV ranges and excludes unknown or zero figures', () => {
+    for (const car of vehicles.filter(v => v.powertrain === 'BEV')) {
       const scored = scoreVehicle(car, emptyPersonal()).categories.find(c => c.key === 'range')!;
       expect(scored.applicable).toBe(true);
       expect(scored.score).toBeGreaterThanOrEqual(1);
@@ -127,6 +126,29 @@ describe('transparent importance-weighted scoring', () => {
       expect(unknown.effectiveWeight).toBe(0);
       const zero = scoreVehicle({ ...car, range: { ...car.range, value: 0 } }, emptyPersonal()).categories.find(c => c.key === 'range')!;
       expect(zero.score).toBeNull();
+    }
+  });
+  it('keeps every PHEV electric range informational without changing totals or coverage', () => {
+    const personal = emptyPersonal();
+    for (const car of vehicles.filter(v => v.powertrain === 'PHEV')) {
+      const original = scoreVehicle(car, personal);
+      const range = original.categories.find(c => c.key === 'range')!;
+      expect(range.applicable).toBe(false);
+      expect(range.score).toBeNull();
+      expect(range.confidence).toBe(0);
+      expect(range.effectiveWeight).toBe(0);
+      expect(range.unscoredLabel).toBe('Not scored');
+      expect(original.total).toBe(summariseScores(original.categories.filter(c => c.key !== 'range')).total);
+      expect(original.coverage).toBe(summariseScores(original.categories.filter(c => c.key !== 'range')).coverage);
+      const low = scoreVehicle(car, personal, { ...defaultWeights, range: 1 });
+      const high = scoreVehicle(car, personal, { ...defaultWeights, range: 10 });
+      expect(high.total).toBe(low.total);
+      expect(high.coverage).toBe(low.coverage);
+      for (const value of [null, 0, 25, 100, 600]) {
+        const changed = scoreVehicle({ ...car, range: { ...car.range, value } }, personal);
+        expect(changed.total).toBe(original.total);
+        expect(changed.coverage).toBe(original.coverage);
+      }
     }
   });
   it('uses the audited configuration scope rather than upgrading a related test by changing its badge', () => {
