@@ -1,0 +1,55 @@
+/* Keep column headings visible without creating another cost-table scroll area. */
+:root { --table-sticky-offset: 0px; }
+
+.ownership-table-scroll { overflow: visible; }
+.vehicle-cost-table thead {
+  position: sticky;
+  top: var(--table-sticky-offset);
+  z-index: 12;
+  background: #edf3e6;
+  box-shadow: 0 2px 0 #d4dfcc;
+}
+.vehicle-cost-table thead th {
+  background: #edf3e6;
+}
+.vehicle-cost-table thead th[aria-sort] { background: #e6eedc; }
+
+/* The comparison owns its desktop scroll surface. Its photo/name headings stay
+   at that surface's top; phone headings follow the page below the app bar. */
+.comparison-table thead th { position: sticky; top: 0; }
+
+/* Narrow cost tables become cards, with column labels printed beside values.
+   Keep the current car heading visible for the duration of its own card. */
+@container ownership-costs (max-width: 1050px) {
+  .vehicle-cost-table thead { display: none; }
+  .mobile-cost-sort {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    margin: 18px 0;
+  }
+  .mobile-cost-sort .field { flex: 1; min-width: 0; }
+  .mobile-cost-sort .button { flex: none; font-size: 12px; padding-inline: 10px; }
+  .vehicle-cost-table tbody tr { overflow: visible; }
+  .vehicle-cost-table tbody th[scope="row"] {
+    position: sticky;
+    top: var(--table-sticky-offset);
+    z-index: 8;
+    align-self: start;
+    border-radius: 7px 7px 0 0;
+    box-shadow: 0 2px 0 #d4dfcc;
+  }
+}
+
+@media (max-width: 1000px) {
+  :root { --table-sticky-offset: var(--phone-header, 60px); }
+  .comparison-table thead { top: var(--table-sticky-offset); }
+  .comparison-table thead > tr > th:not(.row-label) { position: static; }
+}
+
+@media print {
+  .vehicle-cost-table thead,
+  .vehicle-cost-table tbody th[scope="row"],
+  .comparison-table thead,
+  .comparison-table thead th { position: static !important; box-shadow: none; }
+}

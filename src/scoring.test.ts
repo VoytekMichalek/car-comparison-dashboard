@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { vehicles } from './data';
 import { defaultFilters, defaultOwnership, defaultWeights, emptyPersonal, parseBackup, parseHash, publicHash } from './lib';
-import { formatScore, scoreVehicle, summariseScores } from './scoring';
+import { formatScore, runningBudgetScore, scoreVehicle, summariseScores } from './scoring';
+import { ownershipEstimate } from './ownership';
 import type { CategoryScore } from './scoring';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
@@ -11,6 +12,28 @@ import type { ScoreWeights } from './types';
 
 const v = vehicles[0];
 describe('transparent importance-weighted scoring', () => {
+  it('calibrates the full annual budget across a useful fixed range', () => {
+    expect(runningBudgetScore(4000)).toBe(10);
+    expect(runningBudgetScore(6000)).toBe(5.5);
+    expect(runningBudgetScore(8000)).toBe(1);
+    expect(runningBudgetScore(0)).toBe(10);
+    expect(runningBudgetScore(20000)).toBe(1);
+    for (const invalid of [null, NaN, Infinity, -1]) expect(runningBudgetScore(invalid)).toBeNull();
+  });
+  it('gives the original Tesla RWD a mid-range budget score without changing its costs', () => {
+    const car = vehicles.find(v => v.id === 'model-y-rwd-2022')!;
+    const personal = emptyPersonal();
+    const costs = ownershipEstimate(car, personal);
+    const category = scoreVehicle(car, personal).categories.find(c => c.key === 'running')!;
+    expect(costs.annual).toBeCloseTo(6015.15);
+    expect(category.score).toBe(5.5);
+    expect(category.confidence).toBe(.35);
+    expect(category.reason).toContain('6,015');
+    expect(category.reason).toContain('5,015');
+    const cheap = { ...personal, ownership: { ...defaultOwnership, vehicleOverrides: { [car.id]: { insurance: 0, repairReserve: 0 } } } };
+    expect(scoreVehicle(car, cheap).categories.find(c => c.key === 'running')!.score).toBe(10);
+    expect(scoreVehicle(car, personal).categories.find(c => c.key === 'running')).toEqual(category);
+  });
   it('keeps every populated car’s score and coverage finite and bounded', () => {
     for (const car of vehicles) {
       const result = scoreVehicle(car, emptyPersonal());
