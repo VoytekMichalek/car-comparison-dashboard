@@ -1,4 +1,4 @@
-export type Powertrain = 'BEV' | 'PHEV' | 'HEV';
+export type Powertrain = 'BEV' | 'PHEV' | 'HEV' | 'PETROL' | 'DIESEL';
 export interface Source {
   id: string;
   title: string;
@@ -45,7 +45,7 @@ export interface Vehicle {
   servicing: string;
   safety: { stars: number | null; year: number | null; applicability: string; sourceIds: string[] };
   familyFit: {
-    status: 'tested-three' | 'tested-multirow' | 'unverified' | 'limitations';
+    status: 'tested-three' | 'tested-multirow' | 'tested-related' | 'unverified' | 'limitations';
     summary: string;
     row2: string;
     row3: string;
@@ -111,6 +111,7 @@ export interface CostSettings {
   publicRate: number;
   petrolRate: number;
   premiumPetrolRate?: number;
+  dieselRate?: number;
   homeShare: number;
   electricShare: number;
   chargingLoss: number;

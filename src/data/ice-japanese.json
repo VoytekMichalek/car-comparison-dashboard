@@ -1,0 +1,1039 @@
+{
+  "vehicles": [
+    {
+      "id": "outlander-ls-petrol-fwd-2022",
+      "familyId": "mitsubishi-outlander-petrol",
+      "make": "Mitsubishi",
+      "model": "Outlander",
+      "variant": "LS · 2.5 petrol CVT · FWD · 7 seats",
+      "years": [
+        2022,
+        2023,
+        2024
+      ],
+      "generation": "ZM · original MY22–MY24",
+      "powertrain": "PETROL",
+      "seats": 7,
+      "drive": "FWD",
+      "headline": "Lower purchase price; published three-across test in related Exceed trim.",
+      "summary": "The original ZM LS is a petrol alternative to the PHEV. BabyDrive fitted three forward-facing restraints in an Exceed; confirm them in the LS. Row three has no top tethers. No home charger is needed.",
+      "range": {
+        "value": null,
+        "unit": "km",
+        "basis": "Electric range does not apply to this petrol configuration.",
+        "sourceIds": []
+      },
+      "battery": {
+        "value": null,
+        "unit": "kWh",
+        "basis": "No traction battery; conventional petrol drivetrain.",
+        "sourceIds": []
+      },
+      "depletedConsumption": {
+        "value": null,
+        "unit": "L/100km",
+        "basis": "Charge-depleted PHEV consumption does not apply.",
+        "sourceIds": []
+      },
+      "acCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not a plug-in vehicle.",
+        "sourceIds": []
+      },
+      "dcCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not a plug-in vehicle.",
+        "sourceIds": []
+      },
+      "chargeTime": "Not applicable — petrol vehicle.",
+      "connector": "Not applicable — petrol vehicle.",
+      "batteryWarranty": "No high-voltage traction battery. Standard 12-V battery terms differ from the vehicle warranty.",
+      "consumption": {
+        "value": 7.7,
+        "unit": "L/100km",
+        "basis": "Manufacturer combined ADR 81/02 claim for LS FWD seven-seat; not the ES five-seat 7.5 figure. Local family use can be higher; Wheels observed 8.5 in one LS test.",
+        "sourceIds": [
+          "ice-jp-out-spec",
+          "ice-jp-out-wheels"
+        ]
+      },
+      "boot": {
+        "value": 478,
+        "unit": "L",
+        "basis": "VDA; second row occupied, third row folded; measured to second-row seatback, not to roof.",
+        "sourceIds": [
+          "ice-jp-out-spec"
+        ]
+      },
+      "bootAllRows": {
+        "value": 163,
+        "unit": "L",
+        "basis": "VDA to third-row seatback with all seven seats available.",
+        "sourceIds": [
+          "ice-jp-out-spec"
+        ]
+      },
+      "length": {
+        "value": 4710,
+        "unit": "mm",
+        "basis": "Original ZM body; excludes later facelift.",
+        "sourceIds": [
+          "ice-jp-out-spec"
+        ]
+      },
+      "width": {
+        "value": 1862,
+        "unit": "mm",
+        "basis": "Manufacturer body width; excludes mirrors.",
+        "sourceIds": [
+          "ice-jp-out-spec"
+        ]
+      },
+      "towing": {
+        "value": 1600,
+        "unit": "kg",
+        "basis": "Maximum braked trailer; 160-kg towball limit. Verify actual payload, trailer and towbar ratings.",
+        "sourceIds": [
+          "ice-jp-out-spec"
+        ]
+      },
+      "warranty": "Standard 5 years/100,000 km; conditional dealer-serviced extension up to 10 years/200,000 km. Confirm remaining cover by VIN and service history.",
+      "servicing": "12 months/15,000 km, whichever first. Historical MY22/22.5 caps are not a new ten-year entitlement from your used-car purchase.",
+      "safety": {
+        "stars": 5,
+        "year": 2022,
+        "applicability": "Original ZM petrol LS is included. ANCAP lists July 2021–March 2025 builds; later facelift has separate applicability. Child-restraint fit is not established by the star rating.",
+        "sourceIds": [
+          "ice-jp-out-ancap",
+          "ice-jp-out-ancap-report"
+        ]
+      },
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "BabyDrive fitted three forward-facing seats in the 2022 Exceed seven-seat. This LS transfer is provisional; your seats and buckle access remain unconfirmed.",
+        "row2": "Two outboard ISOFIX positions; top tethers for all three positions. Outer tethers are on seatbacks; centre tether is in the roof above row three.",
+        "row3": "No top tethers or ISOFIX. ANCAP does not recommend installing child restraints here. Do not treat seven seats as seven restraint positions.",
+        "testedSeats": "2022 Exceed: Infasecure Achieve More, Aspire More and Attain More, all forward-facing. Different trim from this LS.",
+        "buckleAccess": "Buckles sit flush in the related test. ANCAP found one convertible and one booster incompatible in the centre; check your exact models.",
+        "access": "BabyDrive had to remove a row-two restraint before folding the seat for third-row access. Centre tether crosses the third-row passenger area.",
+        "ventilation": "Rear console vents for row two; no dedicated third-row vents. LS has dual-zone front climate control.",
+        "sourceIds": [
+          "ice-jp-out-baby",
+          "ice-jp-out-ancap-report",
+          "ice-jp-out-spec"
+        ]
+      },
+      "pros": [
+        "Three forward-facing restraints reported in the related Exceed test.",
+        "478-L VDA boot with the third row folded.",
+        "91-RON petrol, 18-inch tyres and a 15,000-km service interval."
+      ],
+      "cons": [
+        "Third-row child restraints are not recommended by ANCAP.",
+        "163-L VDA boot with all seven seats up; access requires moving a child seat.",
+        "Claimed 7.7 L/100km is above the hybrid alternatives in urban use."
+      ],
+      "inspection": [
+        "Bring all three seats/boosters; check centre compatibility, independent buckle access and the roof-tether route.",
+        "Get written VIN confirmation of warranty eligibility and completed scheduled services, especially any fleet/rental history.",
+        "Check camera software campaigns REC-005692 and REC-005938 by VIN; applicable updates are free.",
+        "Test the CVT cold and hot for hesitation, shudder or noise; obtain diagnostic and service-history checks. No ZM failure rate is asserted.",
+        "Check actual screen, power tailgate and tyre placard: shortage-era equipment changed. Inspect spare, tyre wear and towing history."
+      ],
+      "changes": [
+        {
+          "period": "MY22–MY24 original ZM",
+          "text": "Groups the 2.5-litre FWD LS seven-seat drivetrain and original body. Does not include older ZL cars. Verify model year rather than relying on registration year.",
+          "sourceIds": [
+            "ice-jp-out-spec",
+            "ice-jp-out-wheels"
+          ]
+        },
+        {
+          "period": "MY22.5 equipment",
+          "text": "The period LS road test records deletion of the powered tailgate during semiconductor shortages. Check the individual car rather than assuming higher-trim equipment.",
+          "sourceIds": [
+            "ice-jp-out-wheels"
+          ]
+        },
+        {
+          "period": "2025 facelift onward",
+          "text": "Later facelift and new pricing are excluded from this original-body used cohort; late registrations need a build/model-year check.",
+          "sourceIds": [
+            "hy-out-25",
+            "ice-jp-out-ancap"
+          ]
+        }
+      ],
+      "gaps": [
+        "No direct BabyDrive LS test or confirmation with your own three restraints.",
+        "MY25 facelift petrol LS needs a separate researched entry.",
+        "No credible Australian ZM LS repair-failure frequency or installed CVT replacement quote was verified.",
+        "Insurance and future servicing are estimates, not personal quotes.",
+        "Photo is a labelled Japan-market PHEV generation reference; it does not show the LS petrol trim."
+      ],
+      "sourceIds": [
+        "ice-jp-out-spec",
+        "ice-jp-out-maint",
+        "ice-jp-out-cps",
+        "ice-jp-out-ancap",
+        "ice-jp-out-ancap-report",
+        "ice-jp-out-baby",
+        "ice-jp-out-wheels",
+        "ice-jp-out-recall-5692",
+        "ice-jp-out-recall-5938",
+        "own-hy-mitsubishi-warranty"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "xtrail-st-petrol-awd-2023",
+      "familyId": "nissan-x-trail-petrol",
+      "make": "Nissan",
+      "model": "X-Trail",
+      "variant": "ST · 2.5 petrol CVT · AWD · 7 seats",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "generation": "T33 · original MY23–MY25",
+      "powertrain": "PETROL",
+      "seats": 7,
+      "drive": "AWD",
+      "headline": "Three-across evidence in a seven-seat T33; third-row restraints remain unsuitable.",
+      "summary": "Australian original ST AWD is the seven-seat petrol configuration; ST 2WD and e-POWER have different seating. BabyDrive fitted three mixed-direction seats in a seven-seat T33, with exact ST trim unconfirmed. Your fit check remains pending.",
+      "range": {
+        "value": null,
+        "unit": "km",
+        "basis": "Electric range does not apply to this petrol configuration.",
+        "sourceIds": []
+      },
+      "battery": {
+        "value": null,
+        "unit": "kWh",
+        "basis": "No traction battery; conventional petrol drivetrain.",
+        "sourceIds": []
+      },
+      "depletedConsumption": {
+        "value": null,
+        "unit": "L/100km",
+        "basis": "Charge-depleted PHEV consumption does not apply.",
+        "sourceIds": []
+      },
+      "acCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not a plug-in vehicle.",
+        "sourceIds": []
+      },
+      "dcCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not a plug-in vehicle.",
+        "sourceIds": []
+      },
+      "chargeTime": "Not applicable — petrol vehicle.",
+      "connector": "Not applicable — petrol vehicle.",
+      "batteryWarranty": "No high-voltage traction battery. Standard 12-V battery terms differ from the vehicle warranty.",
+      "consumption": {
+        "value": 7.8,
+        "unit": "L/100km",
+        "basis": "Manufacturer combined ADR 81/02 claim for 2.5 petrol AWD; not the 2WD 7.4 figure. Related ST-L AWD road test observed 8.9 in mixed driving.",
+        "sourceIds": [
+          "ice-jp-xt-spec",
+          "ice-jp-xt-expert"
+        ]
+      },
+      "boot": {
+        "value": 465,
+        "unit": "L",
+        "basis": "Manufacturer seven-seat cargo figure with third row folded, measured to roof; not comparable directly with VDA-to-seatback figures.",
+        "sourceIds": [
+          "ice-jp-xt-spec"
+        ]
+      },
+      "bootAllRows": {
+        "value": null,
+        "unit": "L",
+        "basis": "No all-seven-up litre figure verified in Nissan Australian period specifications. Bring your actual pram.",
+        "sourceIds": [
+          "ice-jp-xt-spec",
+          "ice-jp-xt-expert"
+        ]
+      },
+      "length": {
+        "value": 4680,
+        "unit": "mm",
+        "basis": "Manufacturer original T33 length.",
+        "sourceIds": [
+          "ice-jp-xt-spec"
+        ]
+      },
+      "width": {
+        "value": 2065,
+        "unit": "mm",
+        "basis": "Manufacturer width INCLUDING mirrors; body-only width is not this figure. Keep measurement basis in comparisons.",
+        "sourceIds": [
+          "ice-jp-xt-spec"
+        ]
+      },
+      "towing": {
+        "value": 2000,
+        "unit": "kg",
+        "basis": "Maximum braked trailer; petrol AWD rating. Verify towball, payload and fitted towbar limits.",
+        "sourceIds": [
+          "ice-jp-xt-spec"
+        ]
+      },
+      "warranty": "Standard 5 years/unlimited km. Eligible vehicles can gain dealer-service-activated cover up to 10 years/300,000 km; obtain written VIN-specific eligibility.",
+      "servicing": "MY23–MY25: 12 months/10,000 km, whichever first. At 15,000 km/year allow roughly 1.5 scheduled visits. MY26’s 15,000-km interval is excluded.",
+      "safety": {
+        "stars": 5,
+        "year": 2021,
+        "applicability": "T33 ST petrol AWD is covered; Australian launch November 2022. Based on Qashqai testing with additional X-Trail evidence, 2021 datestamp; listed expiry December 2027.",
+        "sourceIds": [
+          "ice-jp-xt-ancap",
+          "ice-jp-xt-ancap-report"
+        ]
+      },
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "BabyDrive fitted three restraints across row two in a 2023 seven-seat T33. Tested grade is not confirmed as ST, and the combination included a rear-facing capsule.",
+        "row2": "Two outboard ISOFIX positions and three top tethers. Outer tethers are on seatbacks; centre tether is in the roof above row three.",
+        "row3": "No ISOFIX or top tethers. ANCAP does not recommend installing child restraints here; do not assume a third-row forward-facing seat or booster is suitable.",
+        "testedSeats": "Infasecure Achieve More + Momentum More forward-facing, with Adapt More capsule rear-facing. This does not confirm your three-forward-facing/booster arrangement.",
+        "buckleAccess": "No verified three-booster buckle-access test. ANCAP could not correctly install either tested booster in the centre, despite other tested seats fitting.",
+        "access": "BabyDrive needed to remove one of three row-two child seats for third-row access. Centre tether crosses the third-row passenger area.",
+        "ventilation": "Rear console vents for row two; no dedicated third-row vents. Base ST has manual air-conditioning, not the higher grades’ climate-control specification.",
+        "sourceIds": [
+          "ice-jp-xt-baby",
+          "ice-jp-xt-ancap-report",
+          "ice-jp-xt-spec"
+        ]
+      },
+      "pros": [
+        "Published three-across test in a seven-seat T33.",
+        "91-RON petrol, 17-inch tyres and a temporary spare.",
+        "Wide rear-door openings aid loading children in the related road test."
+      ],
+      "cons": [
+        "Third-row child restraints are not recommended; some centre-row booster combinations fail ANCAP installation checks.",
+        "Original 10,000-km interval can mean more than one service each year.",
+        "Base ST lacks the ST-L’s surround-view camera and higher-grade comfort features."
+      ],
+      "inspection": [
+        "Bring the exact restraints: test the centre seat, booster buckles, roof-tether route and entry with three installed.",
+        "Confirm the car is 2.5 petrol AWD seven-seat; ST 2WD and e-POWER are different configurations.",
+        "Request the VIN service-price schedule and written service-activated warranty status; check all original 10,000-km services.",
+        "Test CVT and AWD operation cold/hot, review fluid/maintenance records and inspect underbody/towing wear. Do not transfer old T32 failure rates to this T33.",
+        "Ask Nissan to check all campaigns by VIN. REC-006653 covers e-POWER, so it is not applied to this petrol car.",
+        "Confirm third-row protection and restraint guidance in the specific Australian manual; public curtain-airbag descriptions conflict."
+      ],
+      "changes": [
+        {
+          "period": "MY23–MY25 original T33",
+          "text": "Groups original ST 2.5 petrol CVT AWD seven-seat. Excludes previous-generation T32, five-seat 2WD, e-POWER and higher grades.",
+          "sourceIds": [
+            "ice-jp-xt-spec"
+          ]
+        },
+        {
+          "period": "MY26 facelift",
+          "text": "Nissan announced a 12.3-inch ST screen with wireless phone mirroring and 15,000-km/12-month servicing. Excluded here because equipment and costs differ.",
+          "sourceIds": [
+            "ice-jp-xt-my26"
+          ]
+        }
+      ],
+      "gaps": [
+        "The exact BabyDrive test grade is unconfirmed; no verified three-forward-facing or three-booster combination for this ST.",
+        "No primary all-seven-seats-up cargo litre figure verified.",
+        "MY26 facelift ST AWD needs its own configuration and current price research.",
+        "No Australian T33 2.5-petrol failure frequency or installed CVT replacement quote verified.",
+        "ANCAP technical table and manufacturer/advert descriptions differ on third-row curtain coverage; confirm the VIN/manual.",
+        "Photo is an overseas e-POWER generation reference, not the ST petrol trim."
+      ],
+      "sourceIds": [
+        "ice-jp-xt-spec",
+        "ice-jp-xt-ancap",
+        "ice-jp-xt-ancap-report",
+        "ice-jp-xt-baby",
+        "ice-jp-xt-expert",
+        "ice-jp-xt-service",
+        "ice-jp-xt-my26",
+        "ice-jp-xt-epower-recall-scope",
+        "own-hy-nissan-warranty"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "prices": [
+    {
+      "id": "ice-jp-price-outlander-ls-petrol-fwd-2022",
+      "vehicleId": "outlander-ls-petrol-fwd-2022",
+      "low": 28990,
+      "high": 30980,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 3,
+      "geography": "Queensland dealer-used seller listings; physical QLD locations",
+      "kilometres": "45,395–76,345 km",
+      "observed": "2026-10-18",
+      "note": "Three distinct VINs; asking prices, not sale prices. Checked via public seller pages/indexed seller ads on 18 October 2026; availability is unconfirmed. Some syndicated prices conflict, so treat this small snapshot as low confidence and obtain a written drive-away quote.",
+      "sourceIds": [
+        "ice-jp-out-price-caloundra",
+        "ice-jp-out-price-banyo",
+        "ice-jp-out-price-robina"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "estimateBasis": "Representative price is the median of these three exact configuration seller-ad observations; not a Queensland market valuation or achieved sale price.",
+      "point": 29990,
+      "observations": [
+        {
+          "price": 28990,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 45395,
+          "location": "Caloundra, QLD",
+          "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1341269891",
+          "sourceId": "ice-jp-out-price-caloundra",
+          "checked": "2026-10-18",
+          "note": "Stock 716593; VIN JMFXTGM4WPZ015679. Seller feed says 45,395 km/A$28,990; other syndicated pages show older 44,969 km and different prices. Use this seller-ad snapshot; obtain written quote."
+        },
+        {
+          "price": 29990,
+          "basis": "drive-away",
+          "year": 2022,
+          "kilometres": 76345,
+          "location": "Banyo, QLD",
+          "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1344751030",
+          "sourceId": "ice-jp-out-price-banyo",
+          "checked": "2026-10-18",
+          "note": "Stock U20070; VIN JMFXTGM4WNZ016762. Used LS 2WD seven-seat; advertised drive-away."
+        },
+        {
+          "price": 30980,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 56966,
+          "location": "Robina, QLD",
+          "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1344638728",
+          "sourceId": "ice-jp-out-price-robina",
+          "checked": "2026-10-18",
+          "note": "VIN JMFXTGM4WRZ024990. Advertised unregistered but price labelled drive-away; confirm registration/duty inclusions in writing."
+        }
+      ]
+    },
+    {
+      "id": "ice-jp-price-xtrail-st-petrol-awd-2023",
+      "vehicleId": "xtrail-st-petrol-awd-2023",
+      "low": 26990,
+      "high": 28298,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 3,
+      "geography": "Queensland dealer-used seller listings; physical QLD locations",
+      "kilometres": "43,060–60,875 km",
+      "observed": "2026-10-18",
+      "note": "Three distinct VINs; asking prices, not sale prices. Checked via public seller pages/indexed seller ads on 18 October 2026; availability is unconfirmed. Some syndicated prices conflict, so treat this small snapshot as low confidence and obtain a written drive-away quote.",
+      "sourceIds": [
+        "ice-jp-xt-price-hendra",
+        "ice-jp-xt-price-bungalow",
+        "ice-jp-xt-price-kedron"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "estimateBasis": "Representative price is the median of these three exact configuration seller-ad observations; not a Queensland market valuation or achieved sale price.",
+      "point": 27490,
+      "observations": [
+        {
+          "price": 26990,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 60875,
+          "location": "Hendra, QLD",
+          "url": "https://easyauto123.com.au/buy/used-cars/details/2024/NISSAN/X-TRAIL/ST/QLD/Brisbane/Hendra/Automatic/Blue/Wagon-7%2B-Seater/JN1T33JEXA0006070",
+          "sourceId": "ice-jp-xt-price-hendra",
+          "checked": "2026-10-18",
+          "note": "Stock H30423; VIN JN1T33JEXA0006070. Dealer structured header and Carsales identify seven-seat AWD; generic description incorrectly says five seats. Confirm actual seating and registration inclusions."
+        },
+        {
+          "price": 27490,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 43060,
+          "location": "Bungalow, QLD",
+          "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1344301315",
+          "sourceId": "ice-jp-xt-price-bungalow",
+          "checked": "2026-10-18",
+          "note": "Stock U042409; VIN JN1T33JE4A0012737. Dealer seller-ad snapshot; 2.5 petrol AWD seven-seat."
+        },
+        {
+          "price": 28298,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 52185,
+          "location": "Kedron, QLD",
+          "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1344209159",
+          "sourceId": "ice-jp-xt-price-kedron",
+          "checked": "2026-10-18",
+          "note": "Stock A13996; VIN JN1T33JE6A0013243. Seller-detail page A$28,298 drive-away; syndicated result cards show A$27,698–27,998, so price confidence is low. MY25 original body, not MY26 facelift."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "ice-jp-out-spec",
+      "title": "Mitsubishi Australian 22.5MY Outlander brochure — LS petrol FWD specifications",
+      "url": "https://resource.digitaldealer.com.au/pdf/53717918630e8a6b59b77948323546.pdf",
+      "publisher": "Mitsubishi Motors Australia (dealer-hosted period brochure)",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-out-maint",
+      "title": "MY23 ZM Outlander manufacturer inspection and maintenance schedule",
+      "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/maintenance-schedules/23MY%20ZM%20OUTLANDER%20INSPECTION%20AND%20MAINTENANCE%20SCHEDULE.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-out-cps",
+      "title": "Manufacturer historical 22MY/22.5MY Outlander 2.5-litre capped-price schedule",
+      "url": "https://www.cricksmitsubishi.com.au/wp-content/uploads/service/22my-22-5my-outlander-4x2-4x4-2-5l-cps.pdf",
+      "publisher": "Mitsubishi Motors Australia / Cricks Mitsubishi",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-out-ancap",
+      "title": "ANCAP original ZM Outlander — 2022 rating, July 2021–March 2025 builds",
+      "url": "https://www.ancap.com.au/safety-ratings/mitsubishi/outlander/cc365d",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-out-ancap-report",
+      "title": "ANCAP original ZM Outlander technical report — anchors and centre-seat limitations",
+      "url": "https://cdn.ancap.com.au/app/public/assets/e9e2fecc6529d6359a9ffaeb24ea46dd625b1414/original.pdf?1758674620=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-out-baby",
+      "title": "BabyDrive 2022 Outlander Exceed seven-seat test — three forward-facing seats; related trim to LS",
+      "url": "https://babydrive.com.au/reviews/suvs/2022-mitsubishi-outlander-exceed-seven-seater/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-out-wheels",
+      "title": "WhichCar/Wheels: 2022 Outlander LS 2WD road test, 7.8/10",
+      "url": "https://www.whichcar.com.au/reviews/2022-mitsubishi-outlander-review-ls-2wd",
+      "publisher": "WhichCar / Wheels",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-out-recall-5692",
+      "title": "REC-005692 — MY22/MY23 Outlander rear-view-camera software; free update",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005692",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-out-recall-5938",
+      "title": "REC-005938 — selected MY22 Outlander infotainment/reversing-camera software; free update",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005938",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-xt-spec",
+      "title": "Nissan Australian MY23 X-Trail specifications — ST petrol AWD seven-seat",
+      "url": "https://www.nissan.com.au/content/dam/Nissan/AU/Files/Brochures/Models/Specsheet/NIS4635_Nissan_MY23_X-TRAIL_POS_Update_eSpec_v3_web.pdf",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-xt-ancap",
+      "title": "ANCAP T33 X-Trail — 2021 datestamp applies to Australian petrol variants",
+      "url": "https://www.ancap.com.au/safety-ratings/nissan/x-trail/7b8e49",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-xt-ancap-report",
+      "title": "ANCAP T33 X-Trail technical report — no third-row tethers; centre-restraint limitations",
+      "url": "https://cdn.ancap.com.au/app/public/assets/341bb460aff177d7bb1b54c12cc468e72797fc23/original.pdf?1720509150=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-xt-baby",
+      "title": "BabyDrive 2023 seven-seat X-Trail test — three mixed-direction restraints across row two",
+      "url": "https://babydrive.com.au/reviews/suvs/2023-nissan-x-trail-seven-seater-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-xt-expert",
+      "title": "CarExpert: 2023 X-Trail ST-L petrol 4WD seven-seat test — related higher trim",
+      "url": "https://www.carexpert.com.au/car-reviews/2023-nissan-x-trail-st-l-4wd-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-xt-service",
+      "title": "Nissan service pricing — VIN-specific quotes and retail-date-limited flat-price offer",
+      "url": "https://www.nissan.com.au/owners-hub/maintenance-and-repair/servicing-price-guides.html",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-xt-my26",
+      "title": "Nissan MY26 Australian facelift announcement — longer service interval and new ST screen",
+      "url": "https://australia.nissannews.com/en-AU/releases/my26-nissan-x-trail-now-on-sale-in-australia",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-xt-epower-recall-scope",
+      "title": "REC-006653 — e-POWER variants only; not evidence of a 2.5-petrol recall",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006653",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-tyres-2356517",
+      "title": "JAX 235/65R17 fitted tyres — Michelin Primacy 5 A$329 including fitting and GST",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/17-inch/235-65r17",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-out-price-caloundra",
+      "title": "Seller listing: 2023 LS FWD seven-seat, PMG stock 716593",
+      "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1341269891",
+      "publisher": "Pacific Motor Group Caloundra via Gumtree",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-out-price-banyo",
+      "title": "Seller listing: 2022 MY22.5 LS FWD seven-seat, BAG stock U20070",
+      "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1344751030",
+      "publisher": "Brisbane Auto Group via Gumtree",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-out-price-robina",
+      "title": "Seller listing: 2024 LS FWD seven-seat, East Coast Commercials",
+      "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1344638728",
+      "publisher": "East Coast Commercials Gold Coast via Gumtree",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-xt-price-hendra",
+      "title": "Dealer: 2024 ST petrol AWD seven-seat, easyauto123 stock H30423",
+      "url": "https://easyauto123.com.au/buy/used-cars/details/2024/NISSAN/X-TRAIL/ST/QLD/Brisbane/Hendra/Automatic/Blue/Wagon-7%2B-Seater/JN1T33JEXA0006070",
+      "publisher": "easyauto123 Hendra",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-xt-price-bungalow",
+      "title": "Seller listing: 2024 ST AWD seven-seat, Pacific Toyota stock U042409",
+      "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1344301315",
+      "publisher": "Pacific Toyota Used via Gumtree",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-jp-xt-price-kedron",
+      "title": "Seller listing: 2024-build MY25 ST AWD seven-seat, Byrne Ford stock A13996",
+      "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1344209159",
+      "publisher": "Byrne Ford Used via Gumtree",
+      "kind": "market",
+      "checked": "2026-10-18"
+    }
+  ],
+  "ownership": [
+    {
+      "familyId": "mitsubishi-outlander-petrol",
+      "serviceInterval": "12 months / 15,000 km, whichever comes first",
+      "serviceAnnual": 450,
+      "serviceLow": 300,
+      "serviceHigh": 750,
+      "serviceConfidence": "low",
+      "serviceBasis": "A$450/year planning allowance at 15,000 km. Historical manufacturer MY22/22.5 ten-service schedule totals A$3,190 (A$319/year from new). A used purchase starts partway through that schedule; A$450 adds a buffer for later major services and time after the cap. MY23/24 pricing and remaining eligibility require a VIN quote. Excludes tyres and unscheduled repairs.",
+      "warrantyCautions": [
+        "Standard 5-year/100,000-km cover is distinct from the conditional 10-year/200,000-km extension; the latter requires qualifying dealer servicing.",
+        "Ask Mitsubishi for written remaining coverage, original retail date and service eligibility. Do not rely solely on a used dealer’s ten-year advertising.",
+        "Normal wear, accident damage and skipped maintenance are not blanket warranty claims; Australian Consumer Law rights are separate."
+      ],
+      "risks": [
+        {
+          "title": "Camera/infotainment software recalls — free remedy",
+          "detail": "REC-005692 affects selected MY22/MY23 cars; REC-005938 affects selected MY22 cars. Both concern the reversing-camera display and specify free software updates. Check the VIN and completion record.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "Official recall remedy A$0; not an expected paid repair.",
+          "warranty": "Official campaign remedy is free for an affected VIN.",
+          "sourceIds": [
+            "ice-jp-out-recall-5692",
+            "ice-jp-out-recall-5938"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "CVT, engine and cooling-system exposure",
+          "detail": "These are potentially expensive systems once cover ends, but no credible ZM-specific Australian installed replacement quote or failure rate was verified. Cold/hot CVT operation, leaks, maintenance records and diagnostic codes are inspection checks, not a claim of a known epidemic.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Not priced: obtain diagnosis and a model-specific installed quote. No PHEV traction-battery allowance is applied to this petrol car.",
+          "warranty": "Manufacturing faults may qualify under the remaining standard/conditional warranty; wear and maintenance exclusions apply.",
+          "sourceIds": [
+            "ice-jp-out-spec",
+            "ice-jp-out-maint",
+            "own-hy-mitsubishi-warranty"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Age-related suspension — Australian workshop proxy",
+          "detail": "A repairer’s conventional front damper-pair guide quotes A$650–1,300 including labour. This is a generic Australian budgeting example, not a ZM quote or proof this repair will occur.",
+          "low": 650,
+          "high": 1300,
+          "priceBasis": "AUD installed generic front damper pair; diagnosis, alignment or extra components may add cost.",
+          "warranty": "Wear is normally outside manufacturing-defect cover; obtain a vehicle-specific decision.",
+          "sourceIds": [
+            "own-ev-est-suspension"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "ice-jp-out-maint",
+        "ice-jp-out-cps",
+        "ice-jp-out-wheels",
+        "own-hy-mitsubishi-warranty",
+        "ice-jp-out-recall-5692",
+        "ice-jp-out-recall-5938"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "familyId": "nissan-x-trail-petrol",
+      "serviceInterval": "Original MY23–MY25: 12 months / 10,000 km, whichever comes first",
+      "serviceAnnual": 650,
+      "serviceLow": 450,
+      "serviceHigh": 950,
+      "serviceConfidence": "low",
+      "serviceBasis": "A$650/year planning allowance at 15,000 km. A 2023 petrol AWD road test quoted a five-service prepay total of A$2,124: A$424.80/visit × roughly 1.5 visits/year = A$637.20, rounded with a small buffer. This is a historical related-ST-L AWD reference, not a current ST quote. Nissan’s A$399 first-five-services offer is restricted to vehicles retailed new from January 2025; older retail dates need a VIN schedule. Excludes wear and unscheduled repairs.",
+      "warrantyCautions": [
+        "Standard 5-year/unlimited-kilometre cover is distinct from service-activated cover up to 10 years/300,000 km. Eligible used vehicles need documented history and written Nissan confirmation.",
+        "The activation program includes qualifying vehicles first sold new from January 2021, subject to its servicing conditions; do not assume every private or ex-fleet purchase retains maximum cover.",
+        "MY26’s longer 15,000-km service interval does not apply to this MY23–MY25 cohort."
+      ],
+      "risks": [
+        {
+          "title": "CVT and AWD repair exposure — price unverified",
+          "detail": "Both systems can create a substantial bill outside cover. No credible Australian installed T33 2.5-petrol replacement quote or failure frequency was verified. Inspect cold/hot operation, leaks and servicing. Older T32 or overseas 1.5-turbo Rogue evidence is not transferred to this engine/generation.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Unpriced scenario; request a VIN-specific diagnosis and installed quote. The savings allowance is not an expected annual claim cost.",
+          "warranty": "A manufacturing defect may be covered if standard or service-activated warranty remains valid; wear and neglect are excluded.",
+          "sourceIds": [
+            "ice-jp-xt-spec",
+            "own-hy-nissan-warranty"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Age-related suspension — Australian workshop proxy",
+          "detail": "Generic conventional front damper-pair replacement is quoted at A$650–1,300 with labour by an Australian repairer. This is not a T33 quote or an incidence estimate.",
+          "low": 650,
+          "high": 1300,
+          "priceBasis": "AUD installed generic front damper pair; alignment and additional components may cost extra.",
+          "warranty": "Normal wear can be excluded; ask Nissan to assess a manufacturing defect.",
+          "sourceIds": [
+            "own-ev-est-suspension"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "ice-jp-xt-spec",
+        "ice-jp-xt-service",
+        "ice-jp-xt-expert",
+        "ice-jp-xt-my26",
+        "own-hy-nissan-warranty"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "insurance": [
+    {
+      "familyId": "mitsubishi-outlander-petrol",
+      "point": 1160,
+      "low": 780,
+      "high": 2500,
+      "confidence": "low",
+      "basis": "A$1,160 is the rounded midpoint of Youi’s published A$785–1,531 Outlander premium range, not a reported mean. Policies sold 22 November 2025–22 May 2026; 80% fell within or below that range. Includes mixed years/powertrains and Australia-wide risks, not this LS or your Queensland address. A$780–2,500 is an analyst planning range, not an insurer interval. Replace with your comprehensive quote; CTP is in rego separately.",
+      "sourceIds": [
+        "budget-insurance-youi-mitsubishi"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "familyId": "nissan-x-trail-petrol",
+      "point": 1180,
+      "low": 740,
+      "high": 2500,
+      "confidence": "low",
+      "basis": "Rounded from Youi’s published A$1,181 X-Trail comprehensive mean; A$744–1,521 indicative range. Policies sold 22 November 2025–22 May 2026; model averages require at least ten policies, and 80% fell within or below the range. Mixed generations/powertrains, not an ST AWD Queensland quote. A$740–2,500 planning bounds are analyst assumptions. Replace with your quote; CTP is separate.",
+      "sourceIds": [
+        "budget-insurance-youi-nissan"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyres": [
+    {
+      "vehicleId": "outlander-ls-petrol-fwd-2022",
+      "setCost": 1036,
+      "setLow": 862,
+      "setHigh": 1600,
+      "lifeKm": 45000,
+      "lifeLowKm": 35000,
+      "lifeHighKm": 60000,
+      "basis": "Original LS 18-inch fitment. JAX 235/60R18 107V XL Goodyear Optilife 3 SUV: A$259 each fitted including GST, four A$1036; no temporary multi-buy discount assumed. Confirm placard load/speed rating, local stock and quote; alignment extra. Life 45,000 km (35,000–60,000) and set-price bounds are analyst assumptions, not measured model-specific tyre life.",
+      "confidence": "low",
+      "sourceIds": [
+        "budget-tyre-2356018",
+        "ice-jp-out-spec",
+        "budget-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/60R18 107V XL",
+        "product": "Goodyear Optilife 3 SUV",
+        "unitPrice": 259,
+        "quantity": 4,
+        "sourceId": "budget-tyre-2356018",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    },
+    {
+      "vehicleId": "xtrail-st-petrol-awd-2023",
+      "setCost": 1316,
+      "setLow": 1000,
+      "setHigh": 1700,
+      "lifeKm": 45000,
+      "lifeLowKm": 35000,
+      "lifeHighKm": 60000,
+      "basis": "Original ST 17-inch fitment. JAX 235/65R17 108V XL Michelin Primacy 5: A$329 each fitted including GST, four A$1316; no temporary multi-buy discount assumed. Confirm placard load/speed rating, local stock and quote; alignment extra. Life 45,000 km (35,000–60,000) and set-price bounds are analyst assumptions, not measured model-specific tyre life.",
+      "confidence": "low",
+      "sourceIds": [
+        "ice-jp-tyres-2356517",
+        "ice-jp-xt-spec",
+        "budget-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/65R17 108V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 329,
+        "quantity": 4,
+        "sourceId": "ice-jp-tyres-2356517",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserves": [
+    {
+      "vehicleId": "outlander-ls-petrol-fwd-2022",
+      "point": 750,
+      "low": 350,
+      "high": 1600,
+      "confidence": "low",
+      "basis": "Analyst repair-savings allowance: A$750/year, with A$350–1,600 sensitivity bounds. For an original 2022–24 petrol LS bought used and retained long term; cover may expire during ownership. Anchored to conditional warranty terms and generic Australian installed suspension work, not model-specific claims frequency. This is money set aside, not predicted annual spending. No traction-battery reserve; tyres and scheduled servicing are separate. Prior condition, service history and confirmed coverage matter more than this point estimate.",
+      "sourceIds": [
+        "own-hy-mitsubishi-warranty",
+        "own-ev-est-suspension",
+        "ice-jp-out-maint"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "xtrail-st-petrol-awd-2023",
+      "point": 800,
+      "low": 350,
+      "high": 1800,
+      "confidence": "low",
+      "basis": "Analyst repair-savings allowance: A$800/year, A$350–1,800 sensitivity bounds, for original T33 petrol AWD retained long term. Allows for uncertain post-warranty mechanical/electronic work and AWD complexity; no credible failure-rate dataset supports a precise ranking against Outlander or Tesla. Warranty conditions and generic Australian installed suspension costs are context, not actuarial inputs. No e-POWER battery reserve. Tyres, scheduled services and insured crash costs are separate; replace with your own buffer. This is not an observed average repair bill.",
+      "sourceIds": [
+        "own-hy-nissan-warranty",
+        "own-ev-est-suspension",
+        "ice-jp-xt-spec"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "reviews": [
+    {
+      "familyId": "mitsubishi-outlander-petrol",
+      "rating": null,
+      "outOf": 5,
+      "count": 0,
+      "scope": "2022–24 original ZM LS petrol FWD seven-seat",
+      "summary": "No sufficiently separated Australian owner-rating aggregate was verified for this exact generation and powertrain. No invented star rating or review count; professional tests are shown separately.",
+      "positiveThemes": [],
+      "negativeThemes": [],
+      "sourceIds": [],
+      "checked": "2026-10-18"
+    },
+    {
+      "familyId": "nissan-x-trail-petrol",
+      "rating": null,
+      "outOf": 5,
+      "count": 0,
+      "scope": "2023–25 original T33 ST petrol AWD seven-seat",
+      "summary": "No sufficiently separated Australian owner-rating aggregate was verified for this exact generation and powertrain. No invented star rating or review count; professional tests are shown separately.",
+      "positiveThemes": [],
+      "negativeThemes": [],
+      "sourceIds": [],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "ice-jp-expert-outlander-ls",
+      "familyId": "mitsubishi-outlander-petrol",
+      "vehicleIds": [
+        "outlander-ls-petrol-fwd-2022"
+      ],
+      "tested": "2022 Mitsubishi Outlander LS 2WD seven-seat petrol",
+      "scope": "Exact grade/powertrain road test; one review, not a reliability survey. Rating was awarded in 2022.",
+      "publisher": "WhichCar / Wheels",
+      "published": "2022-08-16",
+      "checked": "2026-10-18",
+      "rating": 7.8,
+      "outOf": 10,
+      "verdict": "The LS test found a comfortable, good-value urban family car, with a small and awkward third row.",
+      "positiveThemes": [
+        "Easy urban handling",
+        "Comfortable front seats",
+        "Smooth engine/CVT calibration"
+      ],
+      "negativeThemes": [
+        "Cramped third row and difficult access",
+        "Sharp impacts over some potholes",
+        "Dated infotainment interface"
+      ],
+      "sourceIds": [
+        "ice-jp-out-wheels"
+      ]
+    },
+    {
+      "id": "ice-jp-expert-xtrail-stl",
+      "familyId": "nissan-x-trail-petrol",
+      "vehicleIds": [],
+      "tested": "2023 Nissan X-Trail ST-L 2.5 petrol 4WD seven-seat",
+      "scope": "Related higher ST-L trim, not this ST; cabin options differ. Publisher now shows a categorical Good verdict, so no numeric score is invented.",
+      "publisher": "CarExpert",
+      "published": "2023-08-24",
+      "checked": "2026-10-18",
+      "rating": null,
+      "outOf": 10,
+      "verdict": "The related seven-seat petrol AWD test praised refinement and packaging; row three was best for occasional use and the short service interval added cost.",
+      "positiveThemes": [
+        "Comfortable ride",
+        "Spacious second row and wide rear doors",
+        "Refined controls and cabin packaging"
+      ],
+      "negativeThemes": [
+        "Tight third-row legroom and access",
+        "10,000-km servicing",
+        "Some equipment omissions for the price"
+      ],
+      "sourceIds": [
+        "ice-jp-xt-expert"
+      ]
+    }
+  ],
+  "brands": [],
+  "fuelRequirements": [
+    {
+      "vehicleId": "outlander-ls-petrol-fwd-2022",
+      "planningRon": 91,
+      "minimumRon": 91,
+      "basis": "Australian period manufacturer specification lists 91 RON for this naturally aspirated 2.5-litre petrol configuration. Dealer boilerplate describing premium fuel does not override the specification; confirm the fuel flap/manual on the car.",
+      "confidence": "high",
+      "sourceIds": [
+        "ice-jp-out-spec"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "xtrail-st-petrol-awd-2023",
+      "planningRon": 91,
+      "minimumRon": 91,
+      "basis": "Australian period manufacturer specification lists 91 RON for this naturally aspirated 2.5-litre petrol configuration. Dealer boilerplate describing premium fuel does not override the specification; confirm the fuel flap/manual on the car.",
+      "confidence": "high",
+      "sourceIds": [
+        "ice-jp-xt-spec"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "images": [
+    {
+      "familyId": "mitsubishi-outlander-petrol",
+      "path": "/images/mitsubishi-outlander-phev.jpg",
+      "alt": "Japan-market PHEV; generation reference, not LS petrol trim",
+      "credit": "オーバードライブ83 / Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Mitsubishi_Outlander_PHEV_P_4WD_2.4_5LA-GN0W_(20220904).jpg",
+      "generation": "Japan-market PHEV; generation reference, not LS petrol trim",
+      "note": "Reference image only: Japan-market PHEV; generation reference, not LS petrol trim. Reuses the existing local licensed Wikimedia photograph. Powertrain, wheels, equipment and market differ; do not use it to identify a listing. Attribution and licence are retained."
+    },
+    {
+      "familyId": "nissan-x-trail-petrol",
+      "path": "/images/nissan-x-trail-epower.jpg",
+      "alt": "Overseas e-POWER; generation reference, not ST petrol trim",
+      "credit": "Alexander Migl / Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_e-Power_DSC_7092.jpg",
+      "generation": "Overseas e-POWER; generation reference, not ST petrol trim",
+      "note": "Reference image only: Overseas e-POWER; generation reference, not ST petrol trim. Reuses the existing local licensed Wikimedia photograph. Powertrain, wheels, equipment and market differ; do not use it to identify a listing. Attribution and licence are retained."
+    }
+  ]
+}

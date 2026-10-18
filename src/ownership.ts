@@ -1,6 +1,6 @@
-import { calculateEnergy, defaultOwnership, representativePrice } from './lib';
+import { calculateEnergy, defaultOwnership, representativePrice, isFuelOnly, isPlugIn } from './lib';
 import { budgetBenchmarks, getPrice, insuranceFor, ownershipFor, qldCosts, tyreFor, repairReserveFor } from './data';
-import type { CostSettings, OwnershipSettings, PersonalData, Vehicle } from './types';
+import type { CostSettings, OwnershipSettings, PersonalData, Powertrain, Vehicle } from './types';
 import insuranceDefaults from './data/insurance-defaults.json';
 
 export function settingsFor(personal: PersonalData): OwnershipSettings {
@@ -9,7 +9,7 @@ export function settingsFor(personal: PersonalData): OwnershipSettings {
 }
 export function registrationGroup(v: Vehicle) {
   if (v.powertrain === 'BEV' || v.familyId === 'nissan-x-trail-epower') return qldCosts.bev;
-  if (['mitsubishi-outlander-phev', 'byd-sealion-6', 'toyota-rav4-hybrid', 'toyota-kluger-hybrid', 'kia-sorento'].includes(v.familyId)) return qldCosts.fourCylinder;
+  if (['mitsubishi-outlander-phev', 'byd-sealion-6', 'toyota-rav4-hybrid', 'toyota-kluger-hybrid', 'kia-sorento', 'subaru-forester', 'subaru-outback', 'kia-sportage', 'hyundai-tucson', 'kia-carnival', 'mitsubishi-outlander-petrol', 'nissan-x-trail-petrol'].includes(v.familyId)) return qldCosts.fourCylinder;
   return null;
 }
 export function registrationCost(v: Vehicle, settings: OwnershipSettings) {
@@ -18,9 +18,10 @@ export function registrationCost(v: Vehicle, settings: OwnershipSettings) {
   const ctp = settings.ctp ?? (group ? (group.ctpLow + group.ctpHigh) / 2 : 0);
   return { total: override ?? (group ? group.registration + group.trafficFee + ctp : null), group, ctp, overridden: override !== null && override !== undefined, assumedCtp: settings.ctp === null };
 }
-export function qldDuty(value: number): number {
+export function qldDuty(value: number, powertrain: Powertrain = 'BEV'): number {
   if (!Number.isFinite(value) || value < 0) return 0;
-  return Math.ceil(value / 100) * (value > qldCosts.duty.threshold ? qldCosts.duty.higherRatePer100 : qldCosts.duty.lowerRatePer100);
+  const rates = powertrain === 'PETROL' || powertrain === 'DIESEL' ? qldCosts.duty.conventionalFourCylinder : qldCosts.duty;
+  return Math.ceil(value / 100) * (value > qldCosts.duty.threshold ? rates.higherRatePer100 : rates.lowerRatePer100);
 }
 export function energyBudget(v: Vehicle, settings: CostSettings) {
   const familyInfo = ownershipFor(v.familyId);
@@ -40,8 +41,8 @@ export function energyBudget(v: Vehicle, settings: CostSettings) {
   const high = proxy ? calculateEnergy(substitute('high'), settings).total : result.total;
   const consumptionReason = proxy ? `Planning proxy. ${[electricProxy?.basis, petrolProxy?.basis].filter(Boolean).join(' ')}` : result.reason;
   const fuelRate = v.fuel?.planningRon === 95 ? settings.premiumPetrolRate ?? settings.petrolRate : settings.petrolRate;
-  const fuelReason = v.fuel && (v.powertrain === 'HEV' || neededPetrol) ? ` ${v.fuel.planningRon} RON planning rate: A$${fuelRate.toFixed(2)}/L. ${v.fuel.basis}` : '';
-  const reason = consumptionReason + fuelReason;
+  const fuelReason = v.fuel && (isFuelOnly(v.powertrain) || neededPetrol) ? ` ${v.fuel.planningRon} RON planning rate: A$${fuelRate.toFixed(2)}/L. ${v.fuel.basis}` : '';
+  const reason = consumptionReason + fuelReason + (v.powertrain === 'DIESEL' ? ` Diesel planning rate: A$${(settings.dieselRate ?? settings.petrolRate).toFixed(2)}/L.` : '');
   return { ...result, low, high, proxy, reason, confidence: proxy || v.fuel?.confidence === 'low' ? .35 : .75, sourceIds: [...(electricProxy?.sourceIds ?? v.consumption.sourceIds), ...(petrolProxy?.sourceIds ?? (v.powertrain === 'PHEV' ? v.depletedConsumption.sourceIds : [])), ...(v.fuel?.sourceIds ?? [])] };
 }
 export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
@@ -53,8 +54,8 @@ export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
   const tyreReference = tyreFor(v.id);
   const energyResult = energyBudget(v, personal.costs);
   const legacyEnergy = override.energy != null && override.electricity == null && override.petrol == null;
-  const electricFraction = energyResult.total ? energyResult.electric / energyResult.total : v.powertrain === 'BEV' ? 1 : v.powertrain === 'HEV' ? 0 : personal.costs.electricShare / 100;
-  const electricity = v.powertrain === 'HEV' ? 0 : override.electricity ?? (legacyEnergy ? override.energy! * electricFraction : energyResult.total === null ? null : energyResult.electric);
+  const electricFraction = energyResult.total ? energyResult.electric / energyResult.total : v.powertrain === 'BEV' ? 1 : isFuelOnly(v.powertrain) ? 0 : personal.costs.electricShare / 100;
+  const electricity = isFuelOnly(v.powertrain) ? 0 : override.electricity ?? (legacyEnergy ? override.energy! * electricFraction : energyResult.total === null ? null : energyResult.electric);
   const petrol = v.powertrain === 'BEV' ? 0 : override.petrol ?? (legacyEnergy ? override.energy! * (1 - electricFraction) : energyResult.total === null ? null : energyResult.petrol);
   const energy = electricity === null || petrol === null ? null : electricity + petrol;
   const sharedTyres = s.tyreMode === 'shared' ? s.tyres : null;
@@ -75,9 +76,9 @@ export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
   const confidenceValue = (c?: string) => c === 'high' ? .85 : c === 'medium' ? .6 : .35;
   const evidence = {
     reserve: { estimated: reserveInput == null, low: reserveInput ?? reserveReference?.low ?? reserve, high: reserveInput ?? reserveReference?.high ?? reserve, basis: reserveInput != null ? 'Your repair savings allowance; not predicted expenditure.' : reserveReference?.basis ?? 'Unverified fallback repair savings allowance.', confidence: reserveInput != null ? 1 : .35, sourceIds: reserveReference?.sourceIds ?? [] },
-    energy: { estimated: !legacyEnergy && (v.powertrain !== 'HEV' && override.electricity == null || v.powertrain !== 'BEV' && override.petrol == null), low: legacyEnergy || override.electricity != null || override.petrol != null ? energy : energyResult.low, high: legacyEnergy || override.electricity != null || override.petrol != null ? energy : energyResult.high, basis: legacyEnergy ? 'Your saved total energy budget; electricity/petrol split uses the calculated energy mix.' : override.electricity != null || override.petrol != null ? 'Your electricity/petrol overrides, with the model estimate for any blank field.' : energyResult.reason, confidence: legacyEnergy || (v.powertrain === 'HEV' || override.electricity != null) && (v.powertrain === 'BEV' || override.petrol != null) ? 1 : energyResult.confidence, sourceIds: energyResult.sourceIds },
-    electricity: { estimated: v.powertrain !== 'HEV' && override.electricity == null && !legacyEnergy, basis: legacyEnergy ? 'Your total energy budget, allocated using the calculated electric/fuel mix.' : override.electricity != null ? 'Your annual electricity budget' : energyResult.reason, sourceIds: energyResult.sourceIds },
-    petrol: { estimated: v.powertrain !== 'BEV' && override.petrol == null && !legacyEnergy, basis: legacyEnergy ? 'Your total energy budget, allocated using the calculated electric/fuel mix.' : override.petrol != null ? 'Your annual petrol budget' : energyResult.reason, sourceIds: energyResult.sourceIds },
+    energy: { estimated: !legacyEnergy && (isPlugIn(v.powertrain) && override.electricity == null || v.powertrain !== 'BEV' && override.petrol == null), low: legacyEnergy || override.electricity != null || override.petrol != null ? energy : energyResult.low, high: legacyEnergy || override.electricity != null || override.petrol != null ? energy : energyResult.high, basis: legacyEnergy ? 'Your saved total energy budget; electricity/fuel split uses the calculated energy mix.' : override.electricity != null || override.petrol != null ? 'Your electricity/fuel overrides, with the model estimate for any blank field.' : energyResult.reason, confidence: legacyEnergy || (isFuelOnly(v.powertrain) || override.electricity != null) && (v.powertrain === 'BEV' || override.petrol != null) ? 1 : energyResult.confidence, sourceIds: energyResult.sourceIds },
+    electricity: { estimated: isPlugIn(v.powertrain) && override.electricity == null && !legacyEnergy, basis: legacyEnergy ? 'Your total energy budget, allocated using the calculated electric/fuel mix.' : override.electricity != null ? 'Your annual electricity budget' : energyResult.reason, sourceIds: energyResult.sourceIds },
+    petrol: { estimated: v.powertrain !== 'BEV' && override.petrol == null && !legacyEnergy, basis: legacyEnergy ? 'Your total energy budget, allocated using the calculated electric/fuel mix.' : override.petrol != null ? 'Your annual fuel budget' : energyResult.reason, sourceIds: energyResult.sourceIds },
     insurance: { estimated: insuranceInput == null, low: insuranceInput ?? insuranceDefault?.low ?? insuranceReference?.low ?? null, high: insuranceInput ?? insuranceDefault?.high ?? insuranceReference?.high ?? null, basis: insuranceBudget != null ? 'Your insurance quote / budget' : insuranceDefault?.basis ?? insuranceReference?.basis ?? 'No insurance estimate', confidence: insuranceInput != null ? 1 : confidenceValue(insuranceDefault?.confidence ?? insuranceReference?.confidence), sourceIds: insuranceInput != null ? [] : insuranceReference?.sourceIds ?? [] },
     servicing: { estimated: serviceInput == null, low: serviceInput ?? info?.serviceLow ?? servicing, high: serviceInput ?? info?.serviceHigh ?? servicing, basis: serviceInput != null ? 'Your service quote / budget' : info?.serviceBasis ?? 'No service estimate', confidence: serviceInput != null ? 1 : confidenceValue(info?.serviceConfidence), sourceIds: info?.sourceIds ?? [] },
     rego: { estimated: !rego.overridden && rego.assumedCtp, low: rego.overridden || !rego.assumedCtp ? rego.total : rego.group ? rego.group.registration + rego.group.trafficFee + rego.group.ctpLow : null, high: rego.overridden || !rego.assumedCtp ? rego.total : rego.group ? rego.group.registration + rego.group.trafficFee + rego.group.ctpHigh : null, basis: 'Official QLD rates; CTP midpoint unless quoted.', confidence: .95, sourceIds: rego.group?.sourceIds ?? [] },
@@ -97,10 +98,10 @@ export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
   const feeSetting = override.feesIncluded ?? s.feesIncluded;
   const feesIncluded = feeSetting === 'yes' || feeSetting === 'auto' && price?.basis === 'drive-away';
   const dutyValue = override.dutiableValue ?? s.dutiableValue ?? purchasePrice;
-  const duty = feesIncluded ? 0 : dutyValue === null ? null : qldDuty(dutyValue);
+  const duty = feesIncluded ? 0 : dutyValue === null ? null : qldDuty(dutyValue, v.powertrain);
   const transfer = feesIncluded ? 0 : qldCosts.transfer.amount;
   const ppsr = price?.condition === 'new' ? 0 : qldCosts.ppsr.amount;
-  const upfront = (duty ?? 0) + transfer + ppsr + (v.powertrain === 'HEV' ? 0 : s.charger) + s.inspection + s.otherUpfront;
+  const upfront = (duty ?? 0) + transfer + ppsr + (isFuelOnly(v.powertrain) ? 0 : s.charger) + s.inspection + s.otherUpfront;
   const dep = budgetBenchmarks.depreciation[v.powertrain];
   const resaleInput = override.resale ?? s.resaleValue;
   const resaleEstimated = resaleInput == null;

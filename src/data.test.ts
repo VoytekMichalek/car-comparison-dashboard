@@ -14,9 +14,10 @@ describe('researched catalogue integrity', () => {
     expect(vehicles.find(v => v.id === 'rav4-gxl-hev-2026')?.fuel?.planningRon).toBe(95);
     expect(vehicles.find(v => v.id === 'sorento-phev-gtline-2021-23')?.fuel).toMatchObject({ planningRon: 95, minimumRon: null, confidence: 'low' });
   });
-  it('covers all twelve agreed model families with distinct configurations', () => {
-    expect(new Set(vehicles.map(v => v.familyId))).toEqual(new Set(['tesla-model-y', 'byd-atto-3', 'kia-ev6', 'kia-ev5', 'hyundai-ioniq-5', 'zeekr-7x', 'mitsubishi-outlander-phev', 'byd-sealion-6', 'nissan-x-trail-epower', 'toyota-rav4-hybrid', 'toyota-kluger-hybrid', 'kia-sorento']));
-    expect(vehicles.length).toBeGreaterThanOrEqual(24);
+  it('preserves the original catalogue and includes researched petrol and diesel alternatives', () => {
+    const families = new Set(vehicles.map(v => v.familyId));
+    for (const family of ['tesla-model-y', 'byd-atto-3', 'kia-ev6', 'kia-ev5', 'hyundai-ioniq-5', 'zeekr-7x', 'mitsubishi-outlander-phev', 'byd-sealion-6', 'nissan-x-trail-epower', 'toyota-rav4-hybrid', 'toyota-kluger-hybrid', 'kia-sorento', 'subaru-forester', 'subaru-outback', 'kia-sportage', 'hyundai-tucson', 'kia-carnival', 'mitsubishi-outlander-petrol', 'nissan-x-trail-petrol']) expect(families.has(family), family).toBe(true);
+    expect(vehicles.length).toBeGreaterThanOrEqual(35);
     expect(validateReferences()).toEqual([]);
   });
   it('covers every family with scoped professional tests and preserves original verdicts', () => {
@@ -36,7 +37,7 @@ describe('researched catalogue integrity', () => {
       for (const [key, unit] of [['range', 'km'], ['battery', 'kWh'], ['boot', 'L'], ['bootAllRows', 'L'], ['length', 'mm'], ['width', 'mm'], ['towing', 'kg'], ['acCharging', 'kW'], ['dcCharging', 'kW']] as const) {
         if (v[key].value !== null) { expect(v[key].unit, `${v.id}:${key}`).toBe(unit); expect(v[key].sourceIds.length).toBeGreaterThan(0); }
       }
-      if (v.consumption.value !== null) expect(v.consumption.unit).toBe(v.powertrain === 'HEV' ? 'L/100km' : 'kWh/100km');
+      if (v.consumption.value !== null) expect(v.consumption.unit).toBe(['HEV','PETROL','DIESEL'].includes(v.powertrain) ? 'L/100km' : 'kWh/100km');
     }
   });
   it('preserves the practical distinctions central to this purchase', () => {
@@ -60,8 +61,8 @@ describe('researched catalogue integrity', () => {
     expect(awd.range.value).toBe(454);
     expect(rwd.consumption.value).toBe(17);
     expect(awd.consumption.value).toBe(19.1);
-    expect(rwd.familyFit.status).toBe('unverified');
-    expect(awd.familyFit.status).toBe('unverified');
+    expect(rwd.familyFit.status).toBe('tested-related');
+    expect(awd.familyFit.status).toBe('tested-related');
     expect(rwd.safety.sourceIds).toContain('ev-ioniq-ancap');
     const guide = prices.find(p => p.vehicleId === rwd.id)!;
     expect(guide.point).toBeGreaterThan(0);
@@ -82,17 +83,31 @@ describe('researched catalogue integrity', () => {
       if (p.low !== null) { if (p.kind === 'estimate') { expect(p.sampleCount).toBe(0); expect(p.estimateBasis).toBeTruthy(); } else expect(p.sampleCount).toBeGreaterThan(0); expect(p.sourceIds.length).toBeGreaterThan(0); expect(p.high).toBeGreaterThanOrEqual(p.low); }
     }
   });
-  it('has priced insurance, service and repair ranges for all twelve families', () => {
-    expect(insuranceEstimates).toHaveLength(12);
+  it('has insurance and service budgets, distinguishing repair prices from quote-only gaps', () => {
+    expect(new Set(insuranceEstimates.map(i => i.familyId))).toEqual(new Set(vehicles.map(v => v.familyId)));
     for (const info of ownershipInfo) {
       expect(info.serviceLow!).toBeLessThanOrEqual(info.serviceAnnual!);
       expect(info.serviceHigh!).toBeGreaterThanOrEqual(info.serviceAnnual!);
       expect(info.serviceConfidence).toBeTruthy();
       for (const risk of info.risks) {
-        expect(risk.low).not.toBeNull();
-        expect(risk.high!).toBeGreaterThanOrEqual(risk.low!);
+        if (risk.low === null) {
+          expect(risk.high).toBeNull();
+          expect(risk.priceBasis).toMatch(/quote|unavailable|not.*verif|not.*price/i);
+        } else expect(risk.high!).toBeGreaterThanOrEqual(risk.low);
+        expect(risk.sourceIds.length).toBeGreaterThan(0);
         expect(risk.confidence).toBeTruthy();
       }
+    }
+  });
+  it('keeps fuel-only specifications separate from electric battery and range fields', () => {
+    const fuelCars = vehicles.filter(v => ['PETROL', 'DIESEL'].includes(v.powertrain));
+    expect(fuelCars.length).toBeGreaterThanOrEqual(8);
+    for (const v of fuelCars) {
+      expect(v.range.value).toBeNull();
+      expect(v.battery.value).toBeNull();
+      expect(v.consumption.value).toBeGreaterThan(0);
+      expect(v.acCharging.value).toBeNull();
+      if (v.powertrain === 'DIESEL') expect(v.fuel).toBeUndefined();
     }
   });
   it('has sourced tyre budgets and ordered assumptions for every configuration', () => {
@@ -148,6 +163,6 @@ it('has one transparent repair reserve for every researched configuration', () =
     expect(r.low).toBeLessThanOrEqual(r.point);
     expect(r.high).toBeGreaterThanOrEqual(r.point);
     expect(r.confidence).toBe('low');
-    expect(r.basis).toContain('not an observed average');
+    expect(r.basis).toMatch(/not an observed average|not a measured average|not predicted annual spending/);
   }
 });

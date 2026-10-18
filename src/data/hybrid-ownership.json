@@ -223,6 +223,19 @@
           "own-hy-engine-repair-proxy"
         ],
         "confidence": "low"
+      },
+      {
+        "title": "Used AWD e-POWER battery — parts-only example",
+        "detail": "Australian dismantler stock tag 32270 lists a T33 AWD traction battery from a 27,149-km donor at A$2,266 including tax. Exact battery health, compatibility and available stock require confirmation. This is not a new battery or an installed repair.",
+        "low": 2266,
+        "high": 2266,
+        "confidence": "medium",
+        "priceBasis": "Displayed parts-only used price checked 18 October 2026. Freight, diagnosis, fitting and commissioning are extra and unpriced. Applies only to a compatible original AWD system, not the MY26 FWD.",
+        "warranty": "Check manufacturer remedies before choosing used parts. Obtain the dismantler’s written condition and parts-warranty terms; no donor health guarantee is inferred.",
+        "sourceIds": [
+          "repair-xtrail-used-pack",
+          "own-hy-nissan-warranty"
+        ]
       }
     ],
     "sourceIds": [
@@ -347,14 +360,15 @@
     "risks": [
       {
         "title": "Hybrid battery outside cover",
-        "detail": "A traction-battery fault may require specialist repair or replacement. No reliable published fitted price was verified for the Australian 2021-onward AXUH78R pack; inspect health-check records.",
+        "detail": "A traction-battery fault may require specialist repair or replacement. No reliable published fitted price was verified for the Australian 2021-onward AXUH78R pack; inspect health-check records. Infinitev lists a compatible AXUH78 2021-on alternative, but supplies no public price; obtain a fitted quote. Its advertised private-use parts cover is 3 years/200,000 km, subject to terms.",
         "low": 4500,
         "high": 9000,
         "priceBasis": "ESTIMATE — A$4,500–9,000 fitted new-genuine pack planning scenario, assuming labour and GST. Analogue: Australian 2019-on RAV4 guide A$4,500–7,000 fitted, with up to A$2,000 extra uncertainty for Kluger pack/sourcing; guide GST unspecified. No verified AXUH78R quote or compatible part is claimed.",
         "warranty": "Confirm annual extended-cover eligibility before funding a repair; normal capacity degradation is excluded.",
         "sourceIds": [
           "own-hy-toyota-warranty",
-          "own-hy-rav4-battery-price"
+          "own-hy-rav4-battery-price",
+          "repair-kluger-infinitev"
         ],
         "confidence": "low"
       },

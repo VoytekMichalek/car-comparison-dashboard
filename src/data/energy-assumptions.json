@@ -12,5 +12,7 @@
     "energy-evie-tariffs",
     "energy-ampcharge-tariffs",
     "energy-chargefox-tariffs"
-  ]
+  ],
+  "dieselRate": 2.72,
+  "dieselBasis": "A$2.72/L diesel: RACQ Brisbane September 2026 monthly average 272.3c/L, rounded to cents (report p10). This is a dated monthly benchmark, not a live pump price. Older backups without a diesel input retain their saved petrol rate until diesel is set."
 }

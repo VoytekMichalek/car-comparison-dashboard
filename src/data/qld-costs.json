@@ -13,7 +13,7 @@
       "qld-cost-registration",
       "qld-cost-registration-basis"
     ],
-    "label": "1\u20133 cylinders, electric or steam",
+    "label": "1–3 cylinders, electric or steam",
     "publishedTotalLow": 782.15,
     "publishedTotalHigh": 798.15,
     "excludesCtpInRegistrationComponent": true
@@ -33,11 +33,11 @@
     "excludesCtpInRegistrationComponent": true
   },
   "registrationRules": {
-    "basis": "BEVs use the 1\u20133 cylinder/electric group. HEV and PHEV registration uses the petrol engine cylinder count; the separate hybrid duty discount does not make every hybrid an electric-registration vehicle.",
+    "basis": "BEVs use the 1–3 cylinder/electric group. HEV and PHEV registration uses the petrol engine cylinder count; the separate hybrid duty discount does not make every hybrid an electric-registration vehicle.",
     "familyOverrides": {
       "nissan-x-trail-epower": "bev"
     },
-    "overrideExplanation": "X-TRAIL e-POWER has a 1.5-litre three-cylinder petrol engine; use the 1\u20133 cylinder/electric group even though it is an HEV. Other covered HEV/PHEV configurations require verified four-cylinder applicability; do not infer cylinder count from powertrain alone for future additions.",
+    "overrideExplanation": "X-TRAIL e-POWER has a 1.5-litre three-cylinder petrol engine; use the 1–3 cylinder/electric group even though it is an HEV. Other covered HEV/PHEV configurations require verified four-cylinder applicability; do not infer cylinder count from powertrain alone for future additions.",
     "unknownCylinderPolicy": "Require the actual engine cylinder count or an owner-entered registration figure; do not silently classify an unknown hybrid as four-cylinder.",
     "annualFormula": "registration + trafficFee + selectedAnnualClass1Ctp",
     "sourceIds": [
@@ -53,7 +53,7 @@
     "effective": "2026-10-01",
     "budgetMidpoint": 419.8,
     "midpointNote": "Arithmetic midpoint of the official published range, for a clearly labelled budget only; not an insurer quote.",
-    "note": "CTP is collected with registration. The component amounts above exclude CTP until the annual formula adds it once. Premiums vary by insurer and quarter, not by a private Class 1 driver\u2019s age, driving record or vehicle location. Comprehensive cover is a separate cost.",
+    "note": "CTP is collected with registration. The component amounts above exclude CTP until the annual formula adds it once. Premiums vary by insurer and quarter, not by a private Class 1 driver’s age, driving record or vehicle location. Comprehensive cover is a separate cost.",
     "sourceIds": [
       "qld-cost-registration",
       "qld-cost-ctp-classes",
@@ -111,7 +111,11 @@
         "duty": 5424
       }
     ],
-    "note": "Assumes an ordinary purchase without an exemption. Current light-vehicle regime applies to contracts from 1 July 2018. Confirm the dutiable value for the actual transaction."
+    "note": "Assumes an ordinary purchase without an exemption. Current light-vehicle regime applies to contracts from 1 July 2018. Confirm the dutiable value for the actual transaction. Conventional 1–4 cylinder petrol/diesel light vehicles use A$3/A$5 per A$100; EVs and hybrids retain A$2/A$4. The higher tier applies to the entire value above A$100,000.",
+    "conventionalFourCylinder": {
+      "lowerRatePer100": 3,
+      "higherRatePer100": 5
+    }
   },
   "ppsr": {
     "amount": 2,

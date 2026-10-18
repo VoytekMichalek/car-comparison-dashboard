@@ -1835,8 +1835,8 @@
       "summary": "BabyDrive’s 2022 AWD test fitted named three-restraint combinations; your exact three-forward-facing/booster arrangement is still pending.",
       "row2": "Two outer ISOFIX and three rear-backrest top tethers.",
       "row3": "No third row on this five-seat configuration.",
-      "testedSeats": "Two InfaSecure Attain More with an Achieve More centre seat; article also discusses forward- and rear-facing Achieve More / Attain More combinations.",
-      "buckleAccess": "Specific booster buckle access is not established by the harnessed-seat trial.",
+      "testedSeats": "BabyDrive 2022 AWD: two InfaSecure Attain More seats plus an InfaSecure Achieve More in the centre. Forward/rear-facing combinations are reported; the article does not document every three-seat orientation or a three-booster trial.",
+      "buckleAccess": "Try the exact boosters and buckles. ANCAP’s selected Type E (4–8 years) booster failed centre installation while the selected Type F (4–10 years) passed; this is specific to those tested restraints.",
       "access": "Flat floor and sliding rear bench help allocate legroom; trial boot space in the final bench position.",
       "ventilation": "Rear pillar air vents in the independently tested AWD.",
       "sourceIds": [
@@ -2009,17 +2009,20 @@
       ]
     },
     "familyFit": {
-      "status": "unverified",
-      "summary": "MY23 has the documented anchor layout, but the named BabyDrive three-seat trial was a 2022 AWD. Treat it as related evidence until your seats are checked in this MY23 car.",
+      "status": "tested-related",
+      "summary": "BabyDrive fitted three InfaSecure seats across the 2022 Ioniq 5 AWD. Hyundai says the MY23 battery update preserves cabin space and practicality, with the same published rear hip room and anchor layout. This is strong related-model evidence; the MY23 configuration and your exact seats still need an installation check.",
       "row2": "Two outboard ISOFIX positions and three rear top-tether anchors, per MY23 specification guide.",
       "row3": "No third row on this five-seat configuration.",
-      "testedSeats": "Related 2022 AWD test: two InfaSecure Attain More seats and an Achieve More centre seat. No matching MY23 three-forward-facing / booster trial verified.",
-      "buckleAccess": "Specific booster buckle access is not established by the harnessed-seat trial.",
+      "testedSeats": "Related 2022 AWD test: two InfaSecure Attain More seats plus an InfaSecure Achieve More in the centre. BabyDrive reports forward/rear-facing combinations; it does not map every possible position or establish a three-booster arrangement.",
+      "buckleAccess": "No verified three-booster buckle-access trial. ANCAP’s selected Type E (4–8 years) booster failed centre installation; its selected Type F (4–10 years) booster passed. Check the exact boosters, belt paths and buckles together.",
       "access": "Flat floor and sliding rear bench help allocate legroom; trial boot space in the final bench position.",
       "ventilation": "Manufacturer lists rear B-pillar vents and rear floor ducts.",
       "sourceIds": [
         "ev-ioniq-2023-spec",
-        "ev-ioniq-family"
+        "ev-ioniq-family",
+        "ev-ioniq-2023-release",
+        "ev-ioniq-old-spec",
+        "ev-ioniq-ancap"
       ]
     },
     "pros": [
@@ -2059,10 +2062,11 @@
     ],
     "gaps": [
       "Your exact three-seat or booster combination is unconfirmed.",
-      "Epiq, MY24 changes and 2022-built MY23 stock are outside this 2023-only configuration.",
+      "Epiq and MY24 changes are outside this MY23 configuration.",
       "Vehicle peak DC input remains unverified; charging-station power is not treated as the vehicle maximum.",
       "No current Australian exact-build asking-price sample verified. Private-sale guide figures are estimates, not current dealer offers.",
-      "MY23 77.4 kWh configuration includes late-2022 builds; build year alone does not establish the battery or drivetrain. Excludes MY22 72.6 kWh and MY24 specification."
+      "MY23 77.4 kWh configuration includes late-2022 builds; build year alone does not establish the battery or drivetrain. Excludes MY22 72.6 kWh and MY24 specification.",
+      "Three-across evidence is from the related 2022 AWD cabin, not a separately verified MY23 installation. Your seat models, facing directions and buckle access remain pending."
     ],
     "sourceIds": [
       "ev-ioniq-2023-spec",
@@ -2194,17 +2198,20 @@
       ]
     },
     "familyFit": {
-      "status": "unverified",
-      "summary": "MY23 has the documented anchor layout, but the named BabyDrive three-seat trial was a 2022 AWD. Treat it as related evidence until your seats are checked in this MY23 car.",
+      "status": "tested-related",
+      "summary": "BabyDrive fitted three InfaSecure seats across the 2022 Ioniq 5 AWD. Hyundai says the MY23 battery update preserves cabin space and practicality, with the same published rear hip room and anchor layout. This is strong related-model evidence; the MY23 configuration and your exact seats still need an installation check.",
       "row2": "Two outboard ISOFIX positions and three rear top-tether anchors, per MY23 specification guide.",
       "row3": "No third row on this five-seat configuration.",
-      "testedSeats": "Related 2022 AWD test: two InfaSecure Attain More seats and an Achieve More centre seat. No matching MY23 three-forward-facing / booster trial verified.",
-      "buckleAccess": "Specific booster buckle access is not established by the harnessed-seat trial.",
+      "testedSeats": "Related 2022 AWD test: two InfaSecure Attain More seats plus an InfaSecure Achieve More in the centre. BabyDrive reports forward/rear-facing combinations; it does not map every possible position or establish a three-booster arrangement.",
+      "buckleAccess": "No verified three-booster buckle-access trial. ANCAP’s selected Type E (4–8 years) booster failed centre installation; its selected Type F (4–10 years) booster passed. Check the exact boosters, belt paths and buckles together.",
       "access": "Flat floor and sliding rear bench help allocate legroom; trial boot space in the final bench position.",
       "ventilation": "Manufacturer lists rear B-pillar vents and rear floor ducts.",
       "sourceIds": [
         "ev-ioniq-2023-spec",
-        "ev-ioniq-family"
+        "ev-ioniq-family",
+        "ev-ioniq-2023-release",
+        "ev-ioniq-old-spec",
+        "ev-ioniq-ancap"
       ]
     },
     "pros": [
@@ -2244,9 +2251,10 @@
     ],
     "gaps": [
       "Your exact three-seat or booster combination is unconfirmed.",
-      "Epiq, MY24 changes and 2022-built MY23 stock are outside this 2023-only configuration.",
+      "Epiq and MY24 changes are outside this MY23 configuration.",
       "Vehicle peak DC input remains unverified; charging-station power is not treated as the vehicle maximum.",
-      "MY23 77.4 kWh configuration includes late-2022 builds; build year alone does not establish the battery or drivetrain. Excludes MY22 72.6 kWh and MY24 specification."
+      "MY23 77.4 kWh configuration includes late-2022 builds; build year alone does not establish the battery or drivetrain. Excludes MY22 72.6 kWh and MY24 specification.",
+      "Three-across evidence is from the related 2022 AWD cabin, not a separately verified MY23 installation. Your seat models, facing directions and buckle access remain pending."
     ],
     "sourceIds": [
       "ev-ioniq-2023-spec",
@@ -2378,10 +2386,10 @@
     },
     "familyFit": {
       "status": "unverified",
-      "summary": "Original AWD family test is context only; no matching refreshed 84 kWh RWD restraint combination verified.",
+      "summary": "The earlier 2022 Ioniq 5 AWD fitted three named InfaSecure seats in BabyDrive’s test. The refreshed 84-kWh car retains published rear dimensions and three top tethers, but that source did not test the revised seats. Exact refreshed-model fit remains unverified.",
       "row2": "Australian MY26 specification: two outer rear ISOFIX positions and three rear top-tether anchors. This establishes anchors, not simultaneous restraint fit.",
       "row3": "No third row on this five-seat configuration.",
-      "testedSeats": "No matching refresh-specific three-restraint test verified.",
+      "testedSeats": "Earlier-generation context only: two InfaSecure Attain More plus an Achieve More in the centre. No direct BabyDrive three-across test of this refreshed 84-kWh configuration verified.",
       "buckleAccess": "Test your three boosters/harnessed seats and every buckle.",
       "access": "Confirm the final sliding-bench position still holds your pram.",
       "ventilation": "Australian MY26 specification lists rear B-pillar and floor cooling/heating outlets; check airflow with all restraints.",

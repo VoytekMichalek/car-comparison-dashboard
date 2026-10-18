@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { calculateEnergy, chooseComparison, defaultCosts, defaultFilters, emptyPersonal, filterVehicles, parseBackup, parseHash, priceGroup, publicHash, rangeStandard, readPersonal, STORAGE_KEY, toggleComparison, writePersonal } from './lib';
-import { vehicles, vehicleIds, getPrice } from './data';
+import { vehicles, vehicleIds, getPrice, prices as priceSnapshots } from './data';
 import type { Fact, Vehicle } from './types';
 
 const fact = (value: number | null, unit: string): Fact => ({ value, unit, basis: 'Test fixture', sourceIds: [], energyBasis: 'battery' });
@@ -11,6 +11,16 @@ const known = vehicles[0].id;
 
 describe('energy costs under actual shopping scenarios', () => {
   const scenarioCosts = { ...defaultCosts, petrolRate: 1.9, premiumPetrolRate: 1.9 };
+  it('prices petrol and diesel directly with their own rates and no charging losses', () => {
+    const petrol = { ...hev, powertrain: 'PETROL' as const, consumption: fact(8, 'L/100km') };
+    const diesel = { ...petrol, powertrain: 'DIESEL' as const };
+    const costs = { ...scenarioCosts, petrolRate: 2, dieselRate: 2.7, homeRate: 10, chargingLoss: 50 };
+    expect(calculateEnergy(petrol, costs)).toMatchObject({ total: 2400, petrol: 2400, electric: 0 });
+    expect(calculateEnergy(diesel, costs).total).toBeCloseTo(3240);
+    const { dieselRate: _unused, ...legacy } = costs;
+    expect(calculateEnergy(diesel, legacy).total).toBe(2400);
+    expect(parseBackup(JSON.stringify({ ...emptyPersonal(), costs: legacy })).costs.dieselRate).toBeUndefined();
+  });
   it('uses premium petrol for the required grade and preserves older single-rate settings', () => {
     const premium = { ...hev, fuel: { planningRon: 95 as const, minimumRon: 95 as const, basis: 'Test fixture', confidence: 'high' as const, sourceIds: [], checked: '2026-10-18' } };
     const rates = { ...defaultCosts, petrolRate: 2, premiumPetrolRate: 2.4 };
@@ -59,6 +69,10 @@ describe('energy costs under actual shopping scenarios', () => {
 });
 
 describe('public comparison links', () => {
+  it('shares the new public filters for petrol/diesel shopping', () => {
+    const state = { view: 'costs' as const, compare: [known], filters: { ...defaultFilters, powertrain: 'PETROL' as const, make: 'Subaru', condition: 'new' as const, withinBudgetOnly: true } };
+    expect(parseHash(publicHash(state), vehicleIds)).toEqual(state);
+  });
   it('restores an exact vehicle page and section with public browse context', () => {
     const state = { view: 'vehicle' as const, vehicleId: known, section: 'scores' as const, compare: vehicles.slice(0, 2).map(v => v.id), filters: { ...defaultFilters, search: 'Tesla', year: '2023' } };
     expect(parseHash(publicHash(state), vehicleIds)).toEqual(state);
@@ -108,6 +122,17 @@ describe('public comparison links', () => {
 });
 
 describe('catalogue filtering and evidence', () => {
+  it('finds the near-budget new petrol Forester using the same shared filters', () => {
+    const filtered = filterVehicles(vehicles, { ...defaultFilters, make: 'Subaru', powertrain: 'PETROL', condition: 'new', withinBudgetOnly: true }, [], {}, priceSnapshots);
+    expect(filtered.map(v => v.id)).toEqual(['forester-awd-petrol-2025']);
+    expect(filterVehicles(vehicles, { ...defaultFilters, make: 'Subaru', powertrain: 'DIESEL' }, [], {}, priceSnapshots)).toEqual([]);
+  });
+  it('includes related published fit tests without treating them as personal confirmation', () => {
+    const id = 'ioniq5-dynamiq-rwd-2023';
+    expect(filterVehicles(vehicles, { ...defaultFilters, fit: 'published' }, [], {}).some(v => v.id === id)).toBe(true);
+    expect(filterVehicles(vehicles, { ...defaultFilters, fit: 'unverified' }, [], {}).some(v => v.id === id)).toBe(false);
+    expect(filterVehicles(vehicles, { ...defaultFilters, fit: 'confirmed' }, [], {})).toEqual([]);
+  });
   it('combines year, powertrain, search and seven-seat requirements', () => {
     const filtered = filterVehicles(vehicles, { ...defaultFilters, search: 'Kluger', year: '2023', powertrain: 'HEV', seats: '7' }, [], {});
     expect(filtered).toHaveLength(1);

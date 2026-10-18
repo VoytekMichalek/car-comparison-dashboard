@@ -102,6 +102,26 @@
         "budget-depreciation-annual"
       ],
       "confidence": "low"
+    },
+    "PETROL": {
+      "annualRate": 0.12,
+      "lowRate": 0.05,
+      "highRate": 0.2,
+      "basis": "Planning assumption: 12% annual reducing-balance loss, with 5–20% sensitivity. This is an editable scenario, not a measured forecast for this fuel or model. Apply to today’s purchase price. Age, supply, condition, mileage and new-car prices can outweigh the powertrain assumption.",
+      "sourceIds": [
+        "budget-depreciation-annual"
+      ],
+      "confidence": "low"
+    },
+    "DIESEL": {
+      "annualRate": 0.12,
+      "lowRate": 0.05,
+      "highRate": 0.2,
+      "basis": "Planning assumption: 12% annual reducing-balance loss, with 5–20% sensitivity. This is an editable scenario, not a measured forecast for this fuel or model. Apply to today’s purchase price. Age, supply, condition, mileage and new-car prices can outweigh the powertrain assumption.",
+      "sourceIds": [
+        "budget-depreciation-annual"
+      ],
+      "confidence": "low"
     }
   },
   "depreciationMethodology": {

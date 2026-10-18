@@ -1,0 +1,1361 @@
+{
+  "vehicles": [
+    {
+      "id": "sportage-s-petrol-2022",
+      "familyId": "kia-sportage",
+      "make": "Kia",
+      "model": "Sportage",
+      "variant": "S · 2.0 petrol · 6-speed auto",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "generation": "NQ5, original body; excludes MY26 facelift",
+      "powertrain": "PETROL",
+      "seats": 5,
+      "drive": "FWD",
+      "range": {
+        "value": null,
+        "unit": "km",
+        "basis": "Not applicable: no electric-driving range for this combustion-only configuration.",
+        "sourceIds": []
+      },
+      "battery": {
+        "value": null,
+        "unit": "kWh",
+        "basis": "Not applicable: no traction battery.",
+        "sourceIds": []
+      },
+      "consumption": {
+        "value": 8.1,
+        "unit": "L/100km",
+        "basis": "Australian ADR 81/02 combined laboratory fuel consumption; urban family use can be higher.",
+        "sourceIds": [
+          "ice-kr-sportage-spec"
+        ]
+      },
+      "depletedConsumption": {
+        "value": null,
+        "unit": "L/100km",
+        "basis": "Not applicable: this is not a plug-in hybrid.",
+        "sourceIds": []
+      },
+      "acCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not applicable: no plug-in charging.",
+        "sourceIds": []
+      },
+      "dcCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not applicable: no plug-in charging.",
+        "sourceIds": []
+      },
+      "chargeTime": "Not applicable",
+      "connector": "Not applicable",
+      "batteryWarranty": "Not applicable: no high-voltage traction battery.",
+      "sourceIds": [
+        "ice-kr-sportage-spec"
+      ],
+      "checked": "2026-10-18",
+      "headline": "Three-across evidence and a lower purchase price",
+      "summary": "A roomy petrol SUV with rear vents, a full-size spare and conventional six-speed automatic. The tested three-seat arrangement was in GT-Line trim; check the S with your restraints.",
+      "boot": {
+        "value": 543,
+        "unit": "L",
+        "basis": "VDA, second row upright.",
+        "sourceIds": [
+          "ice-kr-sportage-spec"
+        ]
+      },
+      "bootAllRows": {
+        "value": 543,
+        "unit": "L",
+        "basis": "VDA, all five seating positions available.",
+        "sourceIds": [
+          "ice-kr-sportage-spec"
+        ]
+      },
+      "length": {
+        "value": 4660,
+        "unit": "mm",
+        "basis": "Original NQ5 Australian body, excluding later facelift.",
+        "sourceIds": [
+          "ice-kr-sportage-spec"
+        ]
+      },
+      "width": {
+        "value": 1865,
+        "unit": "mm",
+        "basis": "Body width; mirrors excluded.",
+        "sourceIds": [
+          "ice-kr-sportage-spec"
+        ]
+      },
+      "towing": {
+        "value": 1650,
+        "unit": "kg",
+        "basis": "Braked, 2.0 petrol AUTOMATIC; the manual has a different rating. Towball/GVM limits still apply.",
+        "sourceIds": [
+          "ice-kr-sportage-spec"
+        ]
+      },
+      "warranty": "7 years / unlimited km private use from first delivery; commercial-use limits differ.",
+      "servicing": "12 months / 15,000 km; model-year-specific capped-price schedules.",
+      "safety": {
+        "stars": 5,
+        "year": 2022,
+        "applicability": "NQ5 petrol automatic covered; rating expires December 2028. European testing supplemented for Australian specification.",
+        "sourceIds": [
+          "ice-kr-sportage-ancap"
+        ]
+      },
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "BabyDrive fitted three restraints in the related 2022 GT-Line. S trim still needs your own fit check.",
+        "row2": "Three top tethers; ISOFIX in the two outboard positions.",
+        "row3": "No third row.",
+        "testedSeats": "Related GT-Line: three Infasecure Attain More, forward-facing or rear-facing; also two rear-facing Attain More plus an Aspire More booster.",
+        "buckleAccess": "No independent S-trim three-booster buckle-access test verified.",
+        "access": "Two rear doors; load and buckle all three seats during your inspection.",
+        "ventilation": "S has second-row console vents and single-zone air conditioning; higher-trim climate equipment differs.",
+        "sourceIds": [
+          "ice-kr-sportage-fit",
+          "ice-kr-sportage-spec"
+        ]
+      },
+      "pros": [
+        "Published three-across evidence in the same generation.",
+        "Full-size spare and rear vents.",
+        "Conventional naturally aspirated petrol / torque-converter automatic."
+      ],
+      "cons": [
+        "8.1 L/100km laboratory consumption; urban use can be higher.",
+        "Base S lacks higher-trim convenience features.",
+        "No third-row option."
+      ],
+      "inspection": [
+        "Bring all three restraints and check booster buckles on the S bench.",
+        "Verify first-delivery date, servicing and any former commercial/rental use.",
+        "Check REC-005699 by VIN and inspect cold start, oil level, shifts and suspension."
+      ],
+      "changes": [
+        {
+          "period": "2022–25 original NQ5",
+          "text": "This entry covers the original S 2.0 petrol six-speed automatic. Excludes QL, manual, diesel, turbo-petrol and hybrid versions.",
+          "sourceIds": [
+            "ice-kr-sportage-spec"
+          ]
+        },
+        {
+          "period": "2025 build / MY26",
+          "text": "Facelift equipment and body changes need a separate entry; a 2025 registration alone does not identify the specification.",
+          "sourceIds": [
+            "ice-kr-sportage-spec"
+          ]
+        }
+      ],
+      "gaps": [
+        "BabyDrive tested GT-Line, not S; rear trim and your restraints need confirmation.",
+        "No representative Australian annual owner-paid repair-cost dataset.",
+        "Pre-facelift 2025 build/model-year applicability must be checked."
+      ]
+    },
+    {
+      "id": "tucson-base-petrol-2021",
+      "familyId": "hyundai-tucson",
+      "make": "Hyundai",
+      "model": "Tucson",
+      "variant": "Base · 2.0 MPi petrol · 6-speed auto",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "generation": "NX4 original body; excludes MY25 facelift and N Line",
+      "powertrain": "PETROL",
+      "seats": 5,
+      "drive": "FWD",
+      "range": {
+        "value": null,
+        "unit": "km",
+        "basis": "Not applicable: no electric-driving range for this combustion-only configuration.",
+        "sourceIds": []
+      },
+      "battery": {
+        "value": null,
+        "unit": "kWh",
+        "basis": "Not applicable: no traction battery.",
+        "sourceIds": []
+      },
+      "consumption": {
+        "value": 8.1,
+        "unit": "L/100km",
+        "basis": "Australian ADR 81/02 combined laboratory fuel consumption; urban family use can be higher.",
+        "sourceIds": [
+          "ice-kr-tucson-spec"
+        ]
+      },
+      "depletedConsumption": {
+        "value": null,
+        "unit": "L/100km",
+        "basis": "Not applicable: this is not a plug-in hybrid.",
+        "sourceIds": []
+      },
+      "acCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not applicable: no plug-in charging.",
+        "sourceIds": []
+      },
+      "dcCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not applicable: no plug-in charging.",
+        "sourceIds": []
+      },
+      "chargeTime": "Not applicable",
+      "connector": "Not applicable",
+      "batteryWarranty": "Not applicable: no high-voltage traction battery.",
+      "sourceIds": [
+        "ice-kr-tucson-spec"
+      ],
+      "checked": "2026-10-18",
+      "headline": "Two full-size seats plus a slim booster were tested",
+      "summary": "A lower-priced petrol SUV with rear vents and a full-size spare. BabyDrive needed a slim folding booster for the third position; three full-size seats did not fit in its Elite test.",
+      "boot": {
+        "value": 539,
+        "unit": "L",
+        "basis": "VDA, second row upright.",
+        "sourceIds": [
+          "ice-kr-tucson-spec"
+        ]
+      },
+      "bootAllRows": {
+        "value": 539,
+        "unit": "L",
+        "basis": "VDA with all five seats available.",
+        "sourceIds": [
+          "ice-kr-tucson-spec"
+        ]
+      },
+      "length": {
+        "value": 4630,
+        "unit": "mm",
+        "basis": "Original Australian NX4 body, no N Line; excludes MY25 facelift.",
+        "sourceIds": [
+          "ice-kr-tucson-spec"
+        ]
+      },
+      "width": {
+        "value": 1865,
+        "unit": "mm",
+        "basis": "Body width, mirrors excluded.",
+        "sourceIds": [
+          "ice-kr-tucson-spec"
+        ]
+      },
+      "towing": {
+        "value": 1650,
+        "unit": "kg",
+        "basis": "Braked, 2.0 MPi six-speed automatic; published towball limit 100 kg.",
+        "sourceIds": [
+          "ice-kr-tucson-spec"
+        ]
+      },
+      "warranty": "Original 5 years / unlimited km private use. Later 7-year offers do not retrospectively restart this warranty.",
+      "servicing": "12 months / 15,000 km for 2.0 MPi; VIN-specific service quote required.",
+      "safety": {
+        "stars": 5,
+        "year": 2021,
+        "applicability": "Australian NX4 2.0 MPi FWD covered; excludes older TL. Rating expires December 2027.",
+        "sourceIds": [
+          "ice-kr-tucson-ancap"
+        ]
+      },
+      "familyFit": {
+        "status": "limitations",
+        "summary": "Related 2021 Elite test: two full-size restraints plus a slim folding booster; three full-size seats did not fit.",
+        "row2": "Three rear top-tether anchors; outboard ISOFIX.",
+        "row3": "No third row.",
+        "testedSeats": "Related Elite: Infasecure Optima, Serene and Versatile Folding Booster. Exact forward/rear orientation and your seat dimensions matter.",
+        "buckleAccess": "Slim booster necessary in this test; check that each buckle remains independently accessible in the base trim.",
+        "access": "Tapered upper cabin made the third restraint width critical in the test.",
+        "ventilation": "Base has rear console vents and manual air conditioning; Elite dual-zone climate equipment differs.",
+        "sourceIds": [
+          "ice-kr-tucson-fit",
+          "ice-kr-tucson-spec"
+        ]
+      },
+      "pros": [
+        "Tested two-restraint-plus-booster arrangement.",
+        "Full-size spare and rear air vents.",
+        "91 RON and conventional six-speed automatic."
+      ],
+      "cons": [
+        "Three full-size seats did not fit in the published test.",
+        "8.1 L/100km laboratory fuel use.",
+        "Earlier cars are near or beyond the original five-year warranty."
+      ],
+      "inspection": [
+        "Fit your exact three seats; do not generalise the slim-booster result to three bulky harnessed seats.",
+        "Check original warranty start and complete 15,000-km/annual service records.",
+        "Ask Hyundai to confirm VIN applicability/completion of 2026 FCA and instrument-display recalls.",
+        "Inspect cold start, oil level, air conditioning, suspension and automatic shifts."
+      ],
+      "changes": [
+        {
+          "period": "2021–24 original NX4",
+          "text": "2.0 MPi FWD automatic only; 2021 also includes old-generation TL cars, which this entry excludes.",
+          "sourceIds": [
+            "ice-kr-tucson-spec"
+          ]
+        },
+        {
+          "period": "2024 / MY25",
+          "text": "Facelift and hybrid versions are excluded; confirm the build/model year and dashboard before matching a listing.",
+          "sourceIds": [
+            "ice-kr-tucson-spec"
+          ]
+        }
+      ],
+      "gaps": [
+        "BabyDrive tested Elite, not this base trim.",
+        "No three-full-size-seat evidence; the slim-booster limitation is material.",
+        "No exact base-trim annual owner-paid repair or current VIN-specific service quote."
+      ]
+    },
+    {
+      "id": "carnival-s-diesel-2021",
+      "familyId": "kia-carnival",
+      "make": "Kia",
+      "model": "Carnival",
+      "variant": "S · 2.2 diesel · 8 seats",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "generation": "KA4 original body; excludes MY25 facelift",
+      "powertrain": "DIESEL",
+      "seats": 8,
+      "drive": "FWD",
+      "range": {
+        "value": null,
+        "unit": "km",
+        "basis": "Not applicable: no electric-driving range for this combustion-only configuration.",
+        "sourceIds": []
+      },
+      "battery": {
+        "value": null,
+        "unit": "kWh",
+        "basis": "Not applicable: no traction battery.",
+        "sourceIds": []
+      },
+      "consumption": {
+        "value": 6.5,
+        "unit": "L/100km",
+        "basis": "Australian ADR 81/02 combined laboratory fuel consumption; urban family use can be higher.",
+        "sourceIds": [
+          "ice-kr-carnival-spec"
+        ]
+      },
+      "depletedConsumption": {
+        "value": null,
+        "unit": "L/100km",
+        "basis": "Not applicable: this is not a plug-in hybrid.",
+        "sourceIds": []
+      },
+      "acCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not applicable: no plug-in charging.",
+        "sourceIds": []
+      },
+      "dcCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not applicable: no plug-in charging.",
+        "sourceIds": []
+      },
+      "chargeTime": "Not applicable",
+      "connector": "Not applicable",
+      "batteryWarranty": "Not applicable: no high-voltage traction battery.",
+      "sourceIds": [
+        "ice-kr-carnival-spec"
+      ],
+      "checked": "2026-10-18",
+      "headline": "Eight seats, five restraint positions and useful occupied-row boot space",
+      "summary": "The most flexible seating layout of these three combustion options. Its diesel suits regular longer drives; repeated short school runs can complicate DPF operation. S uses manual sliding doors.",
+      "boot": {
+        "value": 2785,
+        "unit": "L",
+        "basis": "Manufacturer MY22 brochure labels this VDA with third row folded. It also lists 2,461 L SAE; standards and loading limits differ, so compare with care.",
+        "sourceIds": [
+          "ice-kr-carnival-spec"
+        ]
+      },
+      "bootAllRows": {
+        "value": 627,
+        "unit": "L",
+        "basis": "VDA with all three rows upright. The brochure separately quotes 1,139 L SAE; do not mix standards.",
+        "sourceIds": [
+          "ice-kr-carnival-spec"
+        ]
+      },
+      "length": {
+        "value": 5115,
+        "unit": "mm",
+        "basis": "Original KA4 Australian body; excludes facelift.",
+        "sourceIds": [
+          "ice-kr-carnival-spec"
+        ]
+      },
+      "width": {
+        "value": 1995,
+        "unit": "mm",
+        "basis": "Body width, mirrors excluded.",
+        "sourceIds": [
+          "ice-kr-carnival-spec"
+        ]
+      },
+      "towing": {
+        "value": 2000,
+        "unit": "kg",
+        "basis": "Braked; maximum published towball 200 kg. Check payload and towbar rating.",
+        "sourceIds": [
+          "ice-kr-carnival-spec"
+        ]
+      },
+      "warranty": "7 years / unlimited km private use; any rental/commercial use can impose 150,000-km limit.",
+      "servicing": "12 months / 15,000 km; published seven-visit diesel schedule varies by model year.",
+      "safety": {
+        "stars": 5,
+        "year": 2021,
+        "applicability": "KA4 diesel covered, rating expires December 2027. Cars built before February 2024 lack the later front-centre airbag; all-row curtain airbags are standard.",
+        "sourceIds": [
+          "ice-kr-carnival-ancap"
+        ]
+      },
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "BabyDrive fitted five restraints in related SLi trim, including three across row two. S retains the published five anchor positions; your fit check remains pending.",
+        "row2": "Three individual sliding seats, each with ISOFIX and top tether.",
+        "row3": "ISOFIX and top tether at both outboard positions; centre has neither and is not a child-restraint position.",
+        "testedSeats": "Five restraints in BabyDrive SLi test; exact product models were not identified in the article. Three across row two plus two outboard in row three.",
+        "buckleAccess": "Independent S-trim three-booster buckle test not verified. ANCAP reports selected restraint-installation limits; use the restraint/vehicle instructions.",
+        "access": "Removing the centre row-two seat creates a walkway. S has manual sliding side doors; do not assume SLi powered-door features.",
+        "ventilation": "Roof vents reach rows two and three. S has manual air conditioning; higher grades add climate controls.",
+        "sourceIds": [
+          "ice-kr-carnival-fit",
+          "ice-kr-carnival-spec",
+          "ice-kr-carnival-ancap"
+        ]
+      },
+      "pros": [
+        "Five ISOFIX/top-tether positions over two rear rows.",
+        "627 L VDA luggage capacity with all rows occupied.",
+        "Sliding doors and removable row-two centre seat."
+      ],
+      "cons": [
+        "Large 5.115-metre body and 1.995-metre width.",
+        "Diesel DPF needs suitable driving; short-trip-only use deserves care.",
+        "Base S lacks powered doors and higher-trim climate features."
+      ],
+      "inspection": [
+        "Fit three restraints and practise access to row three with luggage loaded.",
+        "Check DPF warnings, diagnostic fault history and the previous owner’s driving pattern; seek a diesel inspection.",
+        "Verify any rental/commercial history and remaining warranty kilometre limits.",
+        "Check sliding-door latches, recall status, air conditioning for every row and service invoices."
+      ],
+      "changes": [
+        {
+          "period": "2021–24 original KA4",
+          "text": "Original S 2.2 diesel eight-seat only. Excludes older YP, V6 petrol and facelift/hybrid versions.",
+          "sourceIds": [
+            "ice-kr-carnival-spec"
+          ]
+        },
+        {
+          "period": "2024 build boundary",
+          "text": "ANCAP records a front-centre airbag from February 2024. Confirm VIN/build equipment; do not assume earlier cars have it or match MY25 facelift specifications.",
+          "sourceIds": [
+            "ice-kr-carnival-ancap"
+          ]
+        }
+      ],
+      "gaps": [
+        "Exact BabyDrive restraint product names are not stated; test was SLi rather than S.",
+        "Third-row folded volume has different SAE/VDA figures; compare only like loading standards.",
+        "No model-specific Australian installed DPF/turbo/injector repair quotes or population failure rates."
+      ]
+    }
+  ],
+  "prices": [
+    {
+      "id": "ice-kr-sportage-used",
+      "vehicleId": "sportage-s-petrol-2022",
+      "low": 25990,
+      "high": 28999,
+      "point": 27494.5,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 2,
+      "geography": "Two exact QLD dealer advertisements",
+      "kilometres": "33,673–62,566 km",
+      "observed": "2026-10-18",
+      "kind": "observation",
+      "confidence": "low",
+      "note": "Small asking-price sample, not sale values or a valuation. Original S 2.0 petrol automatic only. Midpoint of two asking prices; one seller refresh blocked, so confidence remains low.",
+      "sourceIds": [
+        "ice-kr-stock-h30465",
+        "ice-kr-stock-u61384"
+      ],
+      "observations": [
+        {
+          "price": 25990,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 62566,
+          "location": "Hendra QLD",
+          "url": "https://easyauto123.com.au/buy/used-cars/details/2024/KIA/SPORTAGE/S/QLD/Brisbane/Hendra/Automatic/White/Wagon-SUV/KNAPU81DMR7324812",
+          "sourceId": "ice-kr-stock-h30465",
+          "checked": "2026-10-18",
+          "note": "Fresh seller HTML and InStock schema agree; older portal price $26,990 excluded."
+        },
+        {
+          "price": 28999,
+          "basis": "drive-away",
+          "year": 2022,
+          "kilometres": 33673,
+          "location": "Hervey Bay QLD",
+          "url": "https://baycitykia.com.au/u61384-1852831-kia-sportage-2022/",
+          "sourceId": "ice-kr-stock-u61384",
+          "checked": "2026-10-18",
+          "note": "Seller page identifies 2022 build/MY23 2.0 petrol S automatic. Web page available; direct refresh blocked, reconfirm availability."
+        }
+      ]
+    },
+    {
+      "id": "ice-kr-tucson-used",
+      "vehicleId": "tucson-base-petrol-2021",
+      "low": 24990,
+      "high": 24990,
+      "point": 24990,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 1,
+      "geography": "One exact QLD dealer advertisement",
+      "kilometres": "90,684 km",
+      "observed": "2026-10-18",
+      "kind": "observation",
+      "confidence": "low",
+      "note": "One verified active base-trim asking price; not a market range or sale value. Lower-kilometre and later-year cars can cost more. Higher grades, N Line and facelift advertisements excluded.",
+      "sourceIds": [
+        "ice-kr-stock-139653"
+      ],
+      "observations": [
+        {
+          "price": 24990,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 90684,
+          "location": "Arundel QLD",
+          "url": "https://www.frizellesunshine.com.au/cars/used-white-2023-hyundai-tucson-139653",
+          "sourceId": "ice-kr-stock-139653",
+          "checked": "2026-10-18",
+          "note": "Fresh seller HTML and InStock schema agree; NX4.V2 base 2.0 petrol automatic. Stock 139653 / VIN KMHJB81DMPU237403."
+        }
+      ]
+    },
+    {
+      "id": "ice-kr-carnival-used",
+      "vehicleId": "carnival-s-diesel-2021",
+      "low": 39750,
+      "high": 39750,
+      "point": 39750,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 1,
+      "geography": "One exact QLD dealer advertisement",
+      "kilometres": "112,238 km",
+      "observed": "2026-10-18",
+      "kind": "observation",
+      "confidence": "low",
+      "note": "One verified active dealer asking price; not a market range. This is a relatively high-kilometre example. Sold stock 1116279 and unavailable 00086595/U61976 excluded.",
+      "sourceIds": [
+        "ice-kr-stock-135709"
+      ],
+      "observations": [
+        {
+          "price": 39750,
+          "basis": "drive-away",
+          "year": 2022,
+          "kilometres": 112238,
+          "location": "Ashmore QLD",
+          "url": "https://www.frizellesunshine.com.au/cars/used-white-2022-kia-carnival-135709",
+          "sourceId": "ice-kr-stock-135709",
+          "checked": "2026-10-18",
+          "note": "Fresh seller HTML and InStock schema agree; original KA4 S 2.2 diesel eight-seat. VIN KNANB81BMN6233508."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "ice-kr-sportage-spec",
+      "title": "Kia Australia MY22 Sportage mechanical and feature list (manufacturer PDF)",
+      "url": "https://s3.ap-southeast-2.amazonaws.com/assets.i-motor.com.au/kia/brochure/kia-sportage-brochure.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-tucson-spec",
+      "title": "Hyundai Australia 2021 Tucson NX4 specification sheet",
+      "url": "https://www.hyundai.com/content/dam/hyundai/au/en/models/tucson/docs/Hyundai_Tucson_Specifications_Sheet_2021.pdf",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-carnival-spec",
+      "title": "Kia Australia MY22 Carnival brochure, August 2021 (archived manufacturer document)",
+      "url": "https://manuals.plus/m/3559f32cd8f25dbac67e8afabd3b287beb5701fda6117200b4bed1fd86ac0d07.pdf",
+      "publisher": "Kia Australia, archived by Manuals+",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-sportage-fit",
+      "title": "BabyDrive: 2022 Sportage GT-Line child-seat test",
+      "url": "https://babydrive.com.au/reviews/suvs/2022-kia-sportage-gt-line/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-tucson-fit",
+      "title": "BabyDrive: 2021 Tucson Elite, two full-size restraints and a folding booster",
+      "url": "https://babydrive.com.au/reviews/suvs/2021-hyundai-tucson-elite/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-carnival-fit",
+      "title": "BabyDrive: 2021 Carnival SLi, five restraints across two rows",
+      "url": "https://babydrive.com.au/reviews/suvs/2021-kia-carnival-sli/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-sportage-ancap",
+      "title": "ANCAP: Sportage NQ5, 2022 rating",
+      "url": "https://www.ancap.com.au/safety-ratings/kia/sportage/92c727",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-tucson-ancap",
+      "title": "ANCAP: Tucson NX4, 2021 rating",
+      "url": "https://www.ancap.com.au/safety-ratings/hyundai/tucson/0b314b",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-carnival-ancap",
+      "title": "ANCAP: Carnival KA4, 2021 rating and restraint-installation cautions",
+      "url": "https://www.ancap.com.au/safety-ratings/kia/carnival/65409e",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-sportage-review",
+      "title": "Wheels: 2022 Sportage S 2.0 petrol automatic road test, 29 January 2022",
+      "url": "https://www.whichcar.com.au/reviews/2022-kia-sportage-s-review",
+      "publisher": "Wheels / WhichCar",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-tucson-review",
+      "title": "CarsGuide: 2021 Tucson launch test, 2.0 MPi FWD, 7 May 2021",
+      "url": "https://www.carsguide.com.au/car-reviews/hyundai-tucson-83451",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-carnival-review",
+      "title": "CarExpert: 2021 Carnival S diesel road test, 8 March 2021",
+      "url": "https://www.carexpert.com.au/car-reviews/2021-kia-carnival-s-diesel-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-kia-service",
+      "title": "Kia Australia capped-price servicing, model/year/engine-specific published tables",
+      "url": "https://dashboard.kia.com.au/kia/cps/kia/20170105v1_flat.html",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-kia-warranty",
+      "title": "Kia Australia warranty terms: private versus commercial use",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/service/Kia-Warranty-terms-and-conditions.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-hyundai-warranty",
+      "title": "Hyundai Australia warranty: delivery-date conditions",
+      "url": "https://www.hyundai.com/au/en/owning/myhyundaicare/warranty",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-kia-insurance",
+      "title": "Youi: Kia comprehensive premiums, policies sold 22 Nov 2025–22 May 2026",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/kia",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-hyundai-insurance",
+      "title": "Youi: Hyundai comprehensive premiums, policies sold 22 Nov 2025–22 May 2026",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/hyundai",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-tyres-2356517",
+      "title": "JAX: 235/65R17 fitted retail prices including GST",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/17-inch/235-65r17",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-carnival-dpf",
+      "title": "Kia Carnival owner handbook: repeated short trips and diesel particulate filter operation (manufacturer manual)",
+      "url": "https://www.kia.com/content/dam/kia2/in/en/content/carnival-manual/topics/chapter8_21.html",
+      "publisher": "Kia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-sportage-recall",
+      "title": "REC-005699: selected 2022–23 NQ5 seat-belt warning software",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005699",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-tucson-fca-recall",
+      "title": "REC-006615: selected 2023–26 Tucson FCA software",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006615",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-tucson-cluster-recall",
+      "title": "REC-006717: selected 2023–26 Tucson cluster/HUD software",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006717",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-carnival-latch-recall",
+      "title": "REC-005019: selected 2021 KA4 sliding-door latch",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005019",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-carnival-fuel-recall",
+      "title": "REC-001615: selected 2021 Carnival/Sorento fuel supply pipe",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-001615",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-carnival-power-door-recall",
+      "title": "REC-005685: power sliding-door warning software, check actual equipment/VIN",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005685",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-sportage-fuel",
+      "title": "CarExpert: original NQ5 Australian launch engines accept 91 RON",
+      "url": "https://www.carexpert.com.au/car-reviews/2022-kia-sportage-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-stock-h30465",
+      "title": "h30465 exact used 2024 listing",
+      "url": "https://easyauto123.com.au/buy/used-cars/details/2024/KIA/SPORTAGE/S/QLD/Brisbane/Hendra/Automatic/White/Wagon-SUV/KNAPU81DMR7324812",
+      "publisher": "Hendra QLD seller",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-stock-u61384",
+      "title": "u61384 exact used 2022 listing",
+      "url": "https://baycitykia.com.au/u61384-1852831-kia-sportage-2022/",
+      "publisher": "Hervey Bay QLD seller",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-stock-139653",
+      "title": "139653 exact used 2023 listing",
+      "url": "https://www.frizellesunshine.com.au/cars/used-white-2023-hyundai-tucson-139653",
+      "publisher": "Arundel QLD seller",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-kr-stock-135709",
+      "title": "135709 exact used 2022 listing",
+      "url": "https://www.frizellesunshine.com.au/cars/used-white-2022-kia-carnival-135709",
+      "publisher": "Ashmore QLD seller",
+      "kind": "market",
+      "checked": "2026-10-18"
+    }
+  ],
+  "ownership": [
+    {
+      "familyId": "kia-sportage",
+      "serviceInterval": "12 months / 15,000 km; model-year-specific capped-price schedules.",
+      "serviceAnnual": 500,
+      "serviceLow": 350,
+      "serviceHigh": 800,
+      "serviceBasis": "Planning annual service budget, not a fixed fee: Kia currently lists 2022 2.0 petrol auto seven visits totalling A$3,479 (A$497/year); 2023 A$3,331, 2024 A$3,344. Used-car start kilometre and later uncapped services differ; quote the VIN.",
+      "serviceConfidence": "low",
+      "energyEstimate": {
+        "low": 8.1,
+        "point": 9.5,
+        "high": 12,
+        "basis": "Analyst family-driving estimate in L/100km: 9.5 midpoint, 8.1–12 scenario range. Published ADR combined 8.1 and urban 11.0 anchor it; not a measured fleet average.",
+        "confidence": "low",
+        "sourceIds": [
+          "ice-kr-sportage-spec"
+        ]
+      },
+      "warrantyCautions": [
+        "Check original delivery date, maintenance records and the vehicle’s own warranty contract.",
+        "Prior rental, taxi or other commercial use can change warranty limits.",
+        "Wear, accident damage and optional upgrades are separate from manufacturing defects."
+      ],
+      "risks": [
+        {
+          "title": "Seat-belt warning recall",
+          "detail": "REC-005699: selected 2022–23 NQ5 VINs require instrument-cluster software correction.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "Official applicable recall remedy is free; not an annual paid-repair cost.",
+          "warranty": "Separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "ice-kr-sportage-recall"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "Unscheduled engine, cooling or transmission work",
+          "detail": "Check cold operation, oil level/history, leaks and all automatic shifts. The 2.0 MPi six-speed auto is distinct from the 1.6 turbo DCT; do not transfer the wrong powertrain’s faults.",
+          "low": null,
+          "high": null,
+          "priceBasis": "No current Australian exact-VIN installed quote verified; diagnosis and written quote required.",
+          "warranty": "Confirm first delivery, maintenance and commercial-use exclusions before paying.",
+          "sourceIds": [
+            "ice-kr-sportage-spec",
+            "ice-kr-kia-warranty"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "ice-kr-kia-warranty",
+        "ice-kr-kia-service"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "familyId": "hyundai-tucson",
+      "serviceInterval": "12 months / 15,000 km for 2.0 MPi; VIN-specific service quote required.",
+      "serviceAnnual": 450,
+      "serviceLow": 300,
+      "serviceHigh": 750,
+      "serviceBasis": "A$450/year planning allowance, A$300–750 scenario range. The 2.0 MPi interval is 12 months/15,000 km; a current VIN-specific manufacturer service quote was unavailable. Later major services and vehicle age can change cost.",
+      "serviceConfidence": "low",
+      "energyEstimate": {
+        "low": 8.1,
+        "point": 9.5,
+        "high": 12,
+        "basis": "Analyst family-driving estimate, L/100km: 9.5 midpoint, 8.1–12 scenarios. Original Australian ADR combined 8.1 / urban 11.0; not a measured average.",
+        "confidence": "low",
+        "sourceIds": [
+          "ice-kr-tucson-spec"
+        ]
+      },
+      "warrantyCautions": [
+        "Check original delivery date, maintenance records and the vehicle’s own warranty contract.",
+        "The later service-conditional seven-year offer is not assumed for these original 2021–24 cars.",
+        "Wear, accident damage and optional upgrades are separate from manufacturing defects."
+      ],
+      "risks": [
+        {
+          "title": "FCA and instrument-display software recalls",
+          "detail": "Check VINs for REC-006615 and REC-006717 (notices describe 2023–26 Tucson): free software remedies for unexpected braking and missing display information. Confirm actual applicability; equipment and dates vary.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "Free official VIN-applicable software remedies; do not annualise these as repair bills.",
+          "warranty": "Recall rectification is separate from remaining basic warranty.",
+          "sourceIds": [
+            "ice-kr-tucson-fca-recall",
+            "ice-kr-tucson-cluster-recall"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "Older petrol-car repairs outside basic cover",
+          "detail": "Inspect oil use/leaks, cooling, air conditioning, suspension and the six-speed automatic. No verified Australian annual failure-cost dataset or exact installed major-component quote was found.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Unpriced evidence gap; get diagnosis and a written local quote.",
+          "warranty": "2021–24 original five-year warranty terms govern; later offers do not restart it.",
+          "sourceIds": [
+            "ice-kr-tucson-spec",
+            "ice-kr-hyundai-warranty"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "ice-kr-hyundai-warranty",
+        "ice-kr-tucson-spec"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "familyId": "kia-carnival",
+      "serviceInterval": "12 months / 15,000 km; published seven-visit diesel schedule varies by model year.",
+      "serviceAnnual": 600,
+      "serviceLow": 450,
+      "serviceHigh": 950,
+      "serviceBasis": "A$600/year long-ownership planning budget. Current Kia table: 2021/22 diesel seven visits A$3,767 (~A$538/year); 2023 A$3,816 (~A$545/year). Used cars may already have passed expensive visits or the 105,000-km capped schedule; reconfirm VIN pricing.",
+      "serviceConfidence": "low",
+      "energyEstimate": {
+        "low": 6.5,
+        "point": 8,
+        "high": 10,
+        "basis": "Analyst family-use diesel consumption estimate, L/100km: 8 midpoint, 6.5–10 scenarios. Original ADR combined 6.5 / urban 7.8 anchor it; loads, short trips and DPF regeneration can increase use.",
+        "confidence": "low",
+        "sourceIds": [
+          "ice-kr-carnival-spec"
+        ]
+      },
+      "warrantyCautions": [
+        "Check original delivery date, maintenance records and the vehicle’s own warranty contract.",
+        "Prior rental, taxi or other commercial use can change warranty limits.",
+        "Wear, accident damage and optional upgrades are separate from manufacturing defects."
+      ],
+      "risks": [
+        {
+          "title": "DPF / turbo / fuel-system stress case",
+          "detail": "Diesel particulate filters need sufficiently hot exhaust to clear soot. Repeated short/slow journeys may prevent this. Inspect DPF faults and previous usage; this is a use-pattern risk, not a measured Carnival failure rate.",
+          "low": null,
+          "high": null,
+          "priceBasis": "No exact Australian installed DPF/turbo/injector quote verified. Do not substitute a different diesel model or assume replacement before diagnosis.",
+          "warranty": "Follow the Australian handbook and servicing requirements; diagnosis determines whether a defect or use/maintenance issue is covered.",
+          "sourceIds": [
+            "ice-kr-carnival-spec",
+            "ice-kr-carnival-dpf",
+            "ice-kr-kia-warranty"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "VIN-specific early KA4 recalls",
+          "detail": "REC-005019 concerns selected 2021 right sliding-door latches; REC-001615 selected 2021 fuel pipes. REC-005685 concerns POWER sliding doors; base S manual doors must not be assumed affected by that equipment-specific campaign.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "Applicable official recall inspection/repair is free. No default paid replacement allowance.",
+          "warranty": "Check exact VIN and equipment with Kia; independent of ordinary warranty expiry.",
+          "sourceIds": [
+            "ice-kr-carnival-latch-recall",
+            "ice-kr-carnival-fuel-recall",
+            "ice-kr-carnival-power-door-recall"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sourceIds": [
+        "ice-kr-kia-warranty",
+        "ice-kr-kia-service"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "insurance": [
+    {
+      "familyId": "kia-sportage",
+      "point": 1180,
+      "low": 760,
+      "high": 2500,
+      "confidence": "low",
+      "basis": "Rounded planning proxy from Youi national mixed-year/model comprehensive mean A$1,175, policies sold 22 November 2025–22 May 2026. Not an exact trim/year or Queensland household quote. The published 80%-within-or-below band is not a confidence interval; displayed wider scenarios are analyst budgets. Replace with a personal quote.",
+      "sourceIds": [
+        "ice-kr-kia-insurance"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "familyId": "hyundai-tucson",
+      "point": 1190,
+      "low": 770,
+      "high": 2500,
+      "confidence": "low",
+      "basis": "Rounded planning proxy from Youi national mixed-year/model comprehensive mean A$1,191, policies sold 22 November 2025–22 May 2026. Not an exact trim/year or Queensland household quote. The published 80%-within-or-below band is not a confidence interval; displayed wider scenarios are analyst budgets. Replace with a personal quote.",
+      "sourceIds": [
+        "ice-kr-hyundai-insurance"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "familyId": "kia-carnival",
+      "point": 1580,
+      "low": 1070,
+      "high": 3200,
+      "confidence": "low",
+      "basis": "Rounded planning proxy from Youi national mixed-year/model comprehensive mean A$1,584, policies sold 22 November 2025–22 May 2026. Not an exact trim/year or Queensland household quote. The published 80%-within-or-below band is not a confidence interval; displayed wider scenarios are analyst budgets. Replace with a personal quote.",
+      "sourceIds": [
+        "ice-kr-kia-insurance"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyres": [
+    {
+      "vehicleId": "sportage-s-petrol-2022",
+      "setCost": 1316,
+      "setLow": 980,
+      "setHigh": 1600,
+      "lifeKm": 45000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 60000,
+      "basis": "Four Michelin Primacy 5 235/65R17 108V XL at A$329 each = A$1,316. JAX includes fitting, balancing, valves, waste handling and GST; alignment extra. Original base/S brochures specify 235/65R17. Confirm placard, wheel size, load/speed index and local stock. Set bounds and tyre life are assumptions, not measured model averages.",
+      "confidence": "low",
+      "sourceIds": [
+        "ice-kr-tyres-2356517",
+        "ice-kr-sportage-spec"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/65R17 108V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 329,
+        "quantity": 4,
+        "sourceId": "ice-kr-tyres-2356517",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    },
+    {
+      "vehicleId": "tucson-base-petrol-2021",
+      "setCost": 1316,
+      "setLow": 980,
+      "setHigh": 1600,
+      "lifeKm": 45000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 60000,
+      "basis": "Four Michelin Primacy 5 235/65R17 108V XL at A$329 each = A$1,316. JAX includes fitting, balancing, valves, waste handling and GST; alignment extra. Original base/S brochures specify 235/65R17. Confirm placard, wheel size, load/speed index and local stock. Set bounds and tyre life are assumptions, not measured model averages.",
+      "confidence": "low",
+      "sourceIds": [
+        "ice-kr-tyres-2356517",
+        "ice-kr-tucson-spec"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/65R17 108V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 329,
+        "quantity": 4,
+        "sourceId": "ice-kr-tyres-2356517",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    },
+    {
+      "vehicleId": "carnival-s-diesel-2021",
+      "setCost": 1316,
+      "setLow": 980,
+      "setHigh": 1600,
+      "lifeKm": 40000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 60000,
+      "basis": "Four Michelin Primacy 5 235/65R17 108V XL at A$329 each = A$1,316. JAX includes fitting, balancing, valves, waste handling and GST; alignment extra. Original base/S brochures specify 235/65R17. Confirm placard, wheel size, load/speed index and local stock. Set bounds and tyre life are assumptions, not measured model averages.",
+      "confidence": "low",
+      "sourceIds": [
+        "ice-kr-tyres-2356517",
+        "ice-kr-carnival-spec"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/65R17 108V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 329,
+        "quantity": 4,
+        "sourceId": "ice-kr-tyres-2356517",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserves": [
+    {
+      "vehicleId": "sportage-s-petrol-2022",
+      "point": 850,
+      "low": 350,
+      "high": 2400,
+      "confidence": "low",
+      "basis": "Analyst repair savings budget, not an observed average repair bill or failure rate. Naturally aspirated petrol / conventional automatic still needs an age-related buffer for chassis, cooling, accessories and diagnosis outside warranty. Claim applicable warranty/recall remedies first. Excludes scheduled servicing, tyres and insured collisions; a major failure can exceed the fund. No representative Australian annual paid-repair dataset was available.",
+      "sourceIds": [
+        "ice-kr-kia-warranty",
+        "ice-kr-sportage-spec"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "tucson-base-petrol-2021",
+      "point": 950,
+      "low": 400,
+      "high": 2700,
+      "confidence": "low",
+      "basis": "Analyst repair savings budget, not an observed average repair bill or failure rate. Naturally aspirated petrol / conventional automatic still needs an age-related buffer for chassis, cooling, accessories and diagnosis outside warranty. Claim applicable warranty/recall remedies first. Excludes scheduled servicing, tyres and insured collisions; a major failure can exceed the fund. No representative Australian annual paid-repair dataset was available.",
+      "sourceIds": [
+        "ice-kr-hyundai-warranty",
+        "ice-kr-tucson-spec"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "carnival-s-diesel-2021",
+      "point": 1300,
+      "low": 500,
+      "high": 3500,
+      "confidence": "low",
+      "basis": "Analyst repair savings budget, not an observed average repair bill or failure rate. Older turbo-diesel, DPF and fuel-system uncertainty plus large-vehicle chassis/accessory work warrant a broader cash buffer. Claim applicable warranty/recall remedies first. Excludes scheduled servicing, tyres and insured collisions; a major failure can exceed the fund. No representative Australian annual paid-repair dataset was available.",
+      "sourceIds": [
+        "ice-kr-kia-warranty",
+        "ice-kr-carnival-spec",
+        "ice-kr-carnival-dpf"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "reviews": [
+    {
+      "familyId": "kia-sportage",
+      "rating": null,
+      "outOf": 5,
+      "count": 0,
+      "scope": "No verified owner aggregate for this generation and powertrain.",
+      "summary": "No credible generation/powertrain-matched owner-review aggregate was verified. Professional road tests are shown separately; no fabricated owner rating.",
+      "positiveThemes": [],
+      "negativeThemes": [],
+      "sourceIds": [],
+      "checked": "2026-10-18"
+    },
+    {
+      "familyId": "hyundai-tucson",
+      "rating": null,
+      "outOf": 5,
+      "count": 0,
+      "scope": "No verified owner aggregate for this generation and powertrain.",
+      "summary": "No credible generation/powertrain-matched owner-review aggregate was verified. Professional road tests are shown separately; no fabricated owner rating.",
+      "positiveThemes": [],
+      "negativeThemes": [],
+      "sourceIds": [],
+      "checked": "2026-10-18"
+    },
+    {
+      "familyId": "kia-carnival",
+      "rating": null,
+      "outOf": 5,
+      "count": 0,
+      "scope": "No verified owner aggregate for this generation and powertrain.",
+      "summary": "No credible generation/powertrain-matched owner-review aggregate was verified. Professional road tests are shown separately; no fabricated owner rating.",
+      "positiveThemes": [],
+      "negativeThemes": [],
+      "sourceIds": [],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "ice-kr-sportage-expert",
+      "familyId": "kia-sportage",
+      "vehicleIds": [
+        "sportage-s-petrol-2022"
+      ],
+      "tested": "2022 Sportage S 2.0 petrol FWD six-speed automatic",
+      "scope": "Exact launch configuration; one road test, not a reliability survey. Later equipment may differ.",
+      "publisher": "Wheels / WhichCar",
+      "published": "2022-01-29",
+      "checked": "2026-10-18",
+      "rating": 7.3,
+      "outOf": 10,
+      "verdict": "Roomy and comfortable base model; modest engine performance and servicing cost are compromises.",
+      "positiveThemes": [
+        "Rear-seat room and comfortable ride.",
+        "Seven-year warranty."
+      ],
+      "negativeThemes": [
+        "Modest acceleration.",
+        "Basic materials and servicing expense."
+      ],
+      "sourceIds": [
+        "ice-kr-sportage-review"
+      ]
+    },
+    {
+      "id": "ice-kr-tucson-expert",
+      "familyId": "hyundai-tucson",
+      "vehicleIds": [
+        "tucson-base-petrol-2021"
+      ],
+      "tested": "2021 Tucson Australian launch, 2.0 MPi FWD automatic across grades",
+      "scope": "Same original engine/body; multiple launch grades, not a base-only or long-term reliability score.",
+      "publisher": "CarsGuide",
+      "published": "2021-05-07",
+      "checked": "2026-10-18",
+      "rating": 7.8,
+      "outOf": 10,
+      "verdict": "More passenger space and a good cabin; the base petrol engine is less convincing than the packaging.",
+      "positiveThemes": [
+        "Passenger accommodation.",
+        "Cabin design and active safety."
+      ],
+      "negativeThemes": [
+        "Modest 2.0-litre performance.",
+        "Higher-trim costs."
+      ],
+      "sourceIds": [
+        "ice-kr-tucson-review"
+      ]
+    },
+    {
+      "id": "ice-kr-carnival-expert",
+      "familyId": "kia-carnival",
+      "vehicleIds": [
+        "carnival-s-diesel-2021"
+      ],
+      "tested": "2021 Carnival S 2.2 diesel eight-speed automatic",
+      "scope": "Exact original S diesel test; current publisher verdict retained rather than inventing a numeric conversion.",
+      "publisher": "CarExpert",
+      "published": "2021-03-08",
+      "checked": "2026-10-18",
+      "rating": null,
+      "outOf": 10,
+      "verdict": "Very Good",
+      "positiveThemes": [
+        "Ride refinement and passenger space.",
+        "Useful base equipment."
+      ],
+      "negativeThemes": [
+        "Wireless phone-mirroring dropouts in the test.",
+        "Simple controls/materials; reviewer preferred Si."
+      ],
+      "sourceIds": [
+        "ice-kr-carnival-review"
+      ]
+    }
+  ],
+  "brands": [],
+  "fuelRequirements": [
+    {
+      "vehicleId": "sportage-s-petrol-2022",
+      "planningRon": 91,
+      "minimumRon": 91,
+      "basis": "Original Australian 2.0 MPi accepts 91 RON; Kia brochure specifies regular unleaded, Australian launch test confirms the octane. Confirm fuel flap/handbook.",
+      "confidence": "medium",
+      "sourceIds": [
+        "ice-kr-sportage-spec",
+        "ice-kr-sportage-fuel"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "tucson-base-petrol-2021",
+      "planningRon": 91,
+      "minimumRon": 91,
+      "basis": "Australian 2021 manufacturer NX4 specification sheet explicitly lists 91 RON / E10 compatible for SmartStream G2.0.",
+      "confidence": "high",
+      "sourceIds": [
+        "ice-kr-tucson-spec"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "images": [
+    {
+      "familyId": "kia-sportage",
+      "path": "/images/ice-korean-sportage.jpg",
+      "alt": "Original-generation Kia Sportage photographed outdoors; overseas trim",
+      "credit": "Elise240SX / Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Kia_Sportage_LX_in_Gravity_Grey,_Front_Left,_05-22-2022.jpg",
+      "generation": "NQ5 original body",
+      "note": "Canadian LX pictured, not Australian S. Correct original long-wheelbase generation; trim, engine, reflectors and equipment differ. Wikimedia 1280px rendition, no editorial alteration."
+    },
+    {
+      "familyId": "hyundai-tucson",
+      "path": "/images/ice-korean-tucson.jpg",
+      "alt": "Original-generation Hyundai Tucson photographed outdoors; overseas trim",
+      "credit": "Kevauto / Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Hyundai_Tucson_SEL,_front_5.2.22.jpg",
+      "generation": "NX4 original long-wheelbase body",
+      "note": "US SEL pictured, not Australian base. Correct original long-wheelbase generation; engine, trim and side markers differ. Wikimedia 1280px rendition, no editorial alteration."
+    },
+    {
+      "familyId": "kia-carnival",
+      "path": "/images/ice-korean-carnival.jpg",
+      "alt": "Original-generation Kia Carnival photographed outdoors; overseas trim",
+      "credit": "SsmIntrigue (uploaded by Elise240SX) / Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Kia_Carnival_LX,_Front_Left,_05-02-2021.jpg",
+      "generation": "KA4 original body",
+      "note": "Canadian LX pictured, not Australian S diesel. Correct pre-facelift generation; trim and equipment differ. Wikimedia 1280px rendition, no editorial alteration."
+    }
+  ]
+}

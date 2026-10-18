@@ -3,41 +3,50 @@
     "vehicleId": "model-y-rwd-2022",
     "point": 1800,
     "low": 700,
-    "high": 2000,
+    "high": 3500,
     "confidence": "low",
-    "basis": "Published planning default: A$1,800/year for the original Model Y RWD repair fund. Older original Model Y: four-year/80,000-km basic cover can expire well before battery cover. Allow for paid suspension, thermal-system and electrical diagnosis as the car ages. Savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "basis": "Published planning default: A$1,800/year for original Model Y RWD. This is a level savings contribution across ownership, not an observed average repair bill. Basic cover can expire before battery cover; Australian upper-arm and thermal-system price examples support keeping a buffer. German inspection and roadside studies measure different outcomes and do not establish Australian paid-repair frequency. A$700–3,500 are editable sensitivity budgets, not statistical bounds. Excludes scheduled servicing, tyres and insured collision repairs. Claim warranty/recall remedies first. Unspent savings remain yours; full battery replacement can exceed the fund.",
     "sourceIds": [
       "own-ev-tesla-warranty",
       "own-ev-tesla-historic",
-      "repair-tesla-upper-arms-au"
+      "repair-tesla-upper-arms-au",
+      "repair-jpi-tesla-au",
+      "repair-tuv-2026",
+      "repair-adac-2026"
     ],
     "checked": "2026-10-18"
   },
   {
     "vehicleId": "model-y-long-range-2023",
-    "point": 1400,
+    "point": 1800,
     "low": 800,
-    "high": 2300,
+    "high": 3500,
     "confidence": "low",
-    "basis": "Older dual-motor Model Y: short basic cover, a second drive unit and potentially large thermal/electrical bills justify a larger cash buffer; this does not claim more frequent failures. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "basis": "A$1,800/year, aligned with the same-age original RWD: no credible Australian paid-repair evidence supports a lower Long Range fund. Shared chassis/thermal exposure, short basic cover and a second motor warrant a buffer without inventing failure probabilities. Analyst level savings contribution, not an observed average repair bill. A$800–3,500 are sensitivity budgets, not statistical bounds. Excludes scheduled servicing, tyres and insured crashes; claim warranty/recall remedies first. Unspent savings remain yours. Full battery replacement is a separate stress case.",
     "sourceIds": [
       "own-ev-tesla-warranty",
       "own-ev-tesla-historic",
-      "repair-tesla-upper-arms-au"
+      "repair-tesla-upper-arms-au",
+      "repair-jpi-tesla-au",
+      "repair-tuv-2026",
+      "repair-adac-2026"
     ],
     "checked": "2026-10-18"
   },
   {
     "vehicleId": "model-y-rwd-juniper-2025",
-    "point": 800,
-    "low": 450,
-    "high": 1600,
+    "point": 1000,
+    "low": 350,
+    "high": 2500,
     "confidence": "low",
-    "basis": "Newer Juniper has more remaining cover than the original used car. Delivery-date terms differ: 2025 four-year/80,000-km versus eligible 2026 five-year/unlimited basic cover. Post-warranty costs are uncertain. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "basis": "A$1,000/year level savings contribution across ownership, including later years beyond warranty. Newer Juniper has more remaining cover; original-body defect studies do not establish Juniper reliability. Delivery-date terms differ: 2025 four-year/80,000-km versus eligible 2026 five-year/unlimited basic cover. Analyst allowance, not an observed average repair bill. A$350–2,500 are sensitivity budgets; long-term evidence is limited. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first; unspent savings remain yours. Full battery replacement can exceed the fund.",
     "sourceIds": [
       "own-ev-tesla-warranty",
       "own-ev-tesla-historic",
-      "own-ev-tesla-maintenance"
+      "own-ev-tesla-maintenance",
+      "repair-jpi-tesla-au",
+      "repair-tuv-2026",
+      "repair-adac-2026"
     ],
     "checked": "2026-10-18"
   },
@@ -95,11 +104,12 @@
     "low": 550,
     "high": 1900,
     "confidence": "low",
-    "basis": "Original used EV6: seven-year cover has time/km limits for HV components. ICCU recall remedies may be free; paid electronic and thermal repairs are relevant only if no cover or other remedy applies. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "basis": "Original used EV6: seven-year cover has time/km limits for HV components. ICCU recall remedies may be free; paid electronic and thermal repairs are relevant only if no cover or other remedy applies. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund. Australian manufacturer statements reported by Drive describe 15-year/300,000-km ICCU cover for eligible builds/model years; confirm the VIN and terms in writing before treating an ICCU bill as payable.",
     "sourceIds": [
       "own-ev-kia-warranty",
       "own-ev-kia-terms",
-      "own-ev-kia-plan"
+      "own-ev-kia-plan",
+      "repair-iccu-au-extension"
     ],
     "checked": "2026-10-18"
   },
@@ -137,10 +147,11 @@
     "low": 650,
     "high": 2300,
     "confidence": "low",
-    "basis": "Early AWD Ioniq 5 is near the original five-year basic-warranty limit. Reserve for uncovered thermal/electrical or chassis work; confirm ICCU recall and any component extension before treating it as payable. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+    "basis": "Early AWD Ioniq 5 is near the original five-year basic-warranty limit. Reserve for uncovered thermal/electrical or chassis work; confirm ICCU recall and any component extension before treating it as payable. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund. Australian manufacturer statements reported by Drive describe 15-year/300,000-km ICCU cover for eligible builds/model years; confirm the VIN and terms in writing before treating an ICCU bill as payable.",
     "sourceIds": [
       "own-ev-hyundai-warranty",
-      "own-ev-hyundai-terms"
+      "own-ev-hyundai-terms",
+      "repair-iccu-au-extension"
     ],
     "checked": "2026-10-18"
   },
@@ -332,11 +343,12 @@
     "low": 500,
     "high": 2000,
     "confidence": "low",
-    "basis": "MY23 single-motor Dynamiq savings allowance. Original five-year vehicle cover may last into 2028, but a ten-year ownership period extends beyond it. Confirm ICCU recall completion and applicable cover before paying for a fault. Analyst allowance, not an observed average repair bill or failure probability. Excludes servicing, tyres and insured crashes; complete battery replacement is a separate stress case.",
+    "basis": "MY23 single-motor Dynamiq savings allowance. Original five-year vehicle cover may last into 2028, but a ten-year ownership period extends beyond it. Confirm ICCU recall completion and applicable cover before paying for a fault. Analyst allowance, not an observed average repair bill or failure probability. Excludes servicing, tyres and insured crashes; complete battery replacement is a separate stress case. Australian manufacturer statements reported by Drive describe 15-year/300,000-km ICCU cover for eligible builds/model years; confirm the VIN and terms in writing before treating an ICCU bill as payable.",
     "sourceIds": [
       "own-ev-hyundai-warranty",
       "own-ev-hyundai-terms",
-      "own-ev-hyundai-recall"
+      "own-ev-hyundai-recall",
+      "repair-iccu-au-extension"
     ],
     "checked": "2026-10-18"
   },
@@ -346,11 +358,12 @@
     "low": 600,
     "high": 2200,
     "confidence": "low",
-    "basis": "MY23 dual-motor Techniq savings allowance. Original five-year vehicle cover may last into 2028, but a ten-year ownership period extends beyond it. Confirm ICCU recall completion and applicable cover before paying for a fault. Analyst allowance, not an observed average repair bill or failure probability. Excludes servicing, tyres and insured crashes; complete battery replacement is a separate stress case.",
+    "basis": "MY23 dual-motor Techniq savings allowance. Original five-year vehicle cover may last into 2028, but a ten-year ownership period extends beyond it. Confirm ICCU recall completion and applicable cover before paying for a fault. Analyst allowance, not an observed average repair bill or failure probability. Excludes servicing, tyres and insured crashes; complete battery replacement is a separate stress case. Australian manufacturer statements reported by Drive describe 15-year/300,000-km ICCU cover for eligible builds/model years; confirm the VIN and terms in writing before treating an ICCU bill as payable.",
     "sourceIds": [
       "own-ev-hyundai-warranty",
       "own-ev-hyundai-terms",
-      "own-ev-hyundai-recall"
+      "own-ev-hyundai-recall",
+      "repair-iccu-au-extension"
     ],
     "checked": "2026-10-18"
   }

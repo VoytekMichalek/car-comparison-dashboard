@@ -41,16 +41,15 @@
         "confidence": "high"
       },
       {
-        "title": "Air-conditioning / thermal-system diagnosis",
-        "detail": "The compressor also helps cool the battery. Test cooling and request diagnosis for warnings or poor operation; this is an inspection priority, not a claimed failure rate.",
-        "low": 1500,
+        "title": "Air-conditioning compressor — conditional paid repair",
+        "detail": "JPI’s Australian Model 3 / Model Y inspection guide gives compressor replacement at A$2,000–4,000+. Diagnose the fault first: minor thermal work can be much cheaper. No failure frequency is established.",
+        "low": 2000,
         "high": 4000,
-        "priceBasis": "ESTIMATE: model-specific quote unavailable; based on a Queensland repairer’s general A$1,000–2,500 installed compressor guidance, widened for an EV heat-pump/thermal system. Assumes parts, labour, refrigerant and GST; diagnosis, contamination or additional valves can exceed it.",
+        "priceBasis": "LOW CONFIDENCE: Australian model-family guide estimate, not a workshop quote; labour, GST and exact VIN/part scope are unstated. A$4,000 is not a ceiling: the guide explicitly says “+”. Obtain an installed quote before using this scenario.",
         "warranty": "Improper third-party repair damage is excluded; non-warranty servicing may use an independent provider.",
         "sourceIds": [
-          "own-ev-tesla-maintenance",
-          "own-ev-tesla-warranty",
-          "own-ev-est-ac"
+          "repair-jpi-tesla-au",
+          "own-ev-tesla-warranty"
         ],
         "confidence": "low"
       },
@@ -215,7 +214,8 @@
       "Eligible private-use cars have transferable 7-year unlimited-kilometre vehicle cover; check start date, use and service records. HV electrical components have separate 7-year / 150,000-km cover.",
       "Pre-MY2027 HV capacity cover is 7 years / 150,000 km to 70% retention. The MY2027 change to 8 years / 160,000 km does not automatically extend older cars.",
       "A capacity remedy restores at least the threshold, not necessarily 100%. The 12V auxiliary battery has 2-year cover; normal wear and accident damage are separate.",
-      "Kia’s August 2026 terms list AV/AVN head-unit defect cover at 3 years/unlimited km and auxiliary-battery cover at 2 years/unlimited km; these shorter items do not inherit the headline 7-year term. Prior commercial use can impose kilometre limits."
+      "Kia’s August 2026 terms list AV/AVN head-unit defect cover at 3 years/unlimited km and auxiliary-battery cover at 2 years/unlimited km; these shorter items do not inherit the headline 7-year term. Prior commercial use can impose kilometre limits.",
+      "Australian manufacturer statements reported by Drive in May 2026 describe 15-year/300,000-km ICCU cover from first registration for EV6 MY22–24. This is reported component cover, not a verified VIN-specific contract; obtain written eligibility and exclusions from the Australian dealer."
     ],
     "risks": [
       {
@@ -224,9 +224,10 @@
         "low": 0,
         "high": 0,
         "priceBasis": "Official VIN-applicable recall work is free. The separate paid ICCU scenario below applies only if recall, warranty, extended cover and other remedies do not cover the fault.",
-        "warranty": "Check campaign completion by VIN even after an earlier update. Ask Kia for written VIN-specific ICCU extended-cover confirmation; an Australian primary extension policy was not verified. Ask the Australian dealer for VIN-specific recall and any component warranty extension in writing; overseas extensions are not assumed.",
+        "warranty": "Australian manufacturer statements reported by Drive in May 2026 describe 15-year/300,000-km ICCU cover from first registration for EV6 MY22–24. This is reported component cover, not a verified VIN-specific contract; obtain written eligibility and exclusions from the Australian dealer. Recall rectification remains free for affected VINs; use a paid stress case only when every applicable remedy is unavailable.",
         "sourceIds": [
-          "own-ev-kia-recall"
+          "own-ev-kia-recall",
+          "repair-iccu-au-extension"
         ],
         "confidence": "high"
       },
@@ -267,10 +268,11 @@
         "high": 8000,
         "confidence": "low",
         "priceBasis": "ESTIMATE: Australian model-specific quote unavailable; first-party US OEM ICCU listing is about US$1,658–2,445 for EV6. Illustrative US$1=A$1.50, plus 10% GST/import/parts variation and roughly A$800–2,000 diagnosis, labour, coolant/fuse allowance. Foreign part is a pricing proxy, not confirmed Australian-VIN fitment; not a live FX or installation quote.",
-        "warranty": "Payable only when no applicable recall, warranty or other remedy covers the diagnosed fault; obtain written VIN-specific confirmation. Ask the Australian dealer for VIN-specific recall and any component warranty extension in writing; overseas extensions are not assumed.",
+        "warranty": "Australian manufacturer statements reported by Drive in May 2026 describe 15-year/300,000-km ICCU cover from first registration for EV6 MY22–24. This is reported component cover, not a verified VIN-specific contract; obtain written eligibility and exclusions from the Australian dealer. Recall rectification remains free for affected VINs; use a paid stress case only when every applicable remedy is unavailable.",
         "sourceIds": [
           "own-ev-est-iccu-kia-us",
-          "own-ev-kia-terms"
+          "own-ev-kia-terms",
+          "repair-iccu-au-extension"
         ]
       },
       {
@@ -304,7 +306,8 @@
       "own-ev-kia-plan",
       "own-ev-kia-warranty",
       "own-ev-kia-battery",
-      "own-ev-kia-terms"
+      "own-ev-kia-terms",
+      "repair-iccu-au-extension"
     ],
     "checked": "2026-10-18",
     "serviceLow": 250,
@@ -397,7 +400,8 @@
     "warrantyCautions": [
       "Older cars originally have 5-year unlimited-kilometre private-use cover. The 7-year offer is for eligible first registrations from 1 June 2025 and requires on-time authorised-dealer servicing for the extension.",
       "Remaining vehicle cover transfers, but prior commercial use and service history can change eligibility. Confirm the original passport.",
-      "HV battery cover is 8 years / 160,000 km. Current terms specify a 70% state-of-health threshold and usage / maintenance conditions; confirm applicable original terms. The 12V battery has 2 years / 40,000 km."
+      "HV battery cover is 8 years / 160,000 km. Current terms specify a 70% state-of-health threshold and usage / maintenance conditions; confirm applicable original terms. The 12V battery has 2 years / 40,000 km.",
+      "Australian manufacturer statements reported by Drive in May 2026 describe 15-year/300,000-km ICCU cover from first registration for Ioniq 5 built 2 April 2021–14 February 2024. This is reported component cover, not a verified VIN-specific contract; obtain written eligibility and exclusions from the Australian dealer."
     ],
     "risks": [
       {
@@ -406,9 +410,10 @@
         "low": 0,
         "high": 0,
         "priceBasis": "Applicable official recall update is free. The separate paid ICCU scenario below applies only if recall, warranty, extended cover and other remedies do not cover the fault.",
-        "warranty": "VIN-specific recall remedy is separate from normal warranty expiry. Ask Hyundai for written ICCU extended-cover confirmation; an Australian primary extension policy was not verified. Ask the Australian dealer for VIN-specific recall and any component warranty extension in writing; overseas extensions are not assumed.",
+        "warranty": "Australian manufacturer statements reported by Drive in May 2026 describe 15-year/300,000-km ICCU cover from first registration for Ioniq 5 built 2 April 2021–14 February 2024. This is reported component cover, not a verified VIN-specific contract; obtain written eligibility and exclusions from the Australian dealer. Recall rectification remains free for affected VINs; use a paid stress case only when every applicable remedy is unavailable.",
         "sourceIds": [
-          "own-ev-hyundai-recall"
+          "own-ev-hyundai-recall",
+          "repair-iccu-au-extension"
         ],
         "confidence": "high"
       },
@@ -446,10 +451,11 @@
         "high": 7000,
         "confidence": "low",
         "priceBasis": "ESTIMATE: Australian model-specific quote unavailable; first-party US OEM ICCU listing is about US$1,297–1,855 for Ioniq 5. Illustrative US$1=A$1.50, plus 10% GST/import/parts variation and roughly A$800–2,000 diagnosis, labour, coolant/fuse allowance. Foreign part is a pricing proxy, not confirmed Australian-VIN fitment; not a live FX or installation quote.",
-        "warranty": "Payable only when no applicable recall, warranty or other remedy covers the diagnosed fault; obtain written VIN-specific confirmation. Ask the Australian dealer for VIN-specific recall and any component warranty extension in writing; overseas extensions are not assumed.",
+        "warranty": "Australian manufacturer statements reported by Drive in May 2026 describe 15-year/300,000-km ICCU cover from first registration for Ioniq 5 built 2 April 2021–14 February 2024. This is reported component cover, not a verified VIN-specific contract; obtain written eligibility and exclusions from the Australian dealer. Recall rectification remains free for affected VINs; use a paid stress case only when every applicable remedy is unavailable.",
         "sourceIds": [
           "own-ev-est-iccu-hyundai-us",
-          "own-ev-hyundai-terms"
+          "own-ev-hyundai-terms",
+          "repair-iccu-au-extension"
         ]
       },
       {
@@ -474,7 +480,8 @@
       "ev-ioniq-2023-roadtest",
       "ev-ioniq-2023-release",
       "own-ev-hyundai-prepaid",
-      "own-ev-hyundai-service-terms"
+      "own-ev-hyundai-service-terms",
+      "repair-iccu-au-extension"
     ],
     "checked": "2026-10-18",
     "serviceLow": 250,

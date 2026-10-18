@@ -1,5 +1,5 @@
 import { brandFor, getPrice, reviewFor } from './data';
-import { defaultWeights, rangeStandard } from './lib';
+import { defaultWeights, rangeStandard, isFuelOnly } from './lib';
 import { ownershipEstimate } from './ownership';
 import { reviewScope } from './reviewScope';
 import type { PersonalData, ScoreCategory, ScoreWeights, Vehicle } from './types';
@@ -27,7 +27,7 @@ export function scoreVehicle(v: Vehicle, personal: PersonalData, weights: ScoreW
   const add = (key: ScoreCategory, score: number, confidence: number, reason: string, sourceIds: string[], applicable = true) => { const raw = Math.round(clamp(score) * 10) / 10; categories.push({ key, score: raw, adjusted: Math.round((5 + (raw - 5) * confidence) * 10) / 10, confidence, weight: weights[key], reason, sourceIds, applicable }); };
   const confirmed = Boolean(personal.fitChecks[v.id]);
   const tested = v.familyFit.status.startsWith('tested');
-  add('seating', confirmed ? 10 : tested ? 8 : v.familyFit.status === 'limitations' ? 3 : 5, confirmed ? 1 : tested ? .8 : v.familyFit.status === 'limitations' ? 1 : 0, confirmed ? 'Your fit confirmation for this configuration.' : v.familyFit.summary, v.familyFit.sourceIds);
+  add('seating', confirmed ? 10 : tested ? 8 : v.familyFit.status === 'limitations' ? 3 : 5, confirmed ? 1 : v.familyFit.status === 'tested-related' ? .5 : tested ? .8 : v.familyFit.status === 'limitations' ? 1 : 0, confirmed ? 'Your fit confirmation for this configuration.' : v.familyFit.summary, v.familyFit.sourceIds);
   const savedPrice = personal.ownership?.vehicleOverrides?.[v.id]?.purchase ?? personal.ownership?.purchasePrice;
   const hasSavedPrice = savedPrice != null;
   const asking = costs.purchasePrice;
@@ -37,7 +37,7 @@ export function scoreVehicle(v: Vehicle, personal: PersonalData, weights: ScoreW
   const comparableBoot = v.boot.value !== null && /\bVDA\b/i.test(v.boot.basis) && !/non.?VDA|not.*VDA|not verified|unverified/i.test(v.boot.basis);
   add('boot', comparableBoot ? 1 + (v.boot.value! - 300) * .03 : 5, comparableBoot ? 1 : 0, comparableBoot ? `${v.boot.value} L. ${v.boot.basis}` : `Measurement not comparable for scoring. ${v.boot.basis}`, v.boot.sourceIds);
   const rangeKnown = v.range.value !== null && ['WLTP', 'NEDC'].includes(rangeStandard(v.range));
-  add('range', v.powertrain === 'HEV' ? 1 : rangeKnown ? 1 + (v.range.value! - 50) * 9 / 550 : 5, v.powertrain === 'HEV' ? 1 : rangeKnown ? rangeStandard(v.range) === 'WLTP' ? .9 : .5 : 0, v.powertrain === 'HEV' ? 'No plug-in electric range. Reduce this category’s weight if petrol backup matters more.' : `${v.range.value ?? 'Unverified'} km. ${v.range.basis}`, v.range.sourceIds);
+  add('range', isFuelOnly(v.powertrain) ? 1 : rangeKnown ? 1 + (v.range.value! - 50) * 9 / 550 : 5, isFuelOnly(v.powertrain) ? 1 : rangeKnown ? rangeStandard(v.range) === 'WLTP' ? .9 : .5 : 0, isFuelOnly(v.powertrain) ? 'No plug-in electric range. Reduce this category’s weight if electric-only driving is less important.' : `${v.range.value ?? 'Unverified'} km. ${v.range.basis}`, v.range.sourceIds);
   add('safety', v.safety.stars === null ? 5 : v.safety.stars * 2, v.safety.stars === null ? 0 : 1, `${v.safety.year ?? 'Unverified assessment year'}. ${v.safety.applicability}`, v.safety.sourceIds);
   const scope = reviewScope(v);
   add('owners', owners?.rating == null ? 5 : owners.rating / owners.outOf * 10, owners?.rating == null ? 0 : Math.min(.8, (owners.count ?? 0) / ((owners.count ?? 0) + 20)) * scope.factor, owners?.rating == null ? 'No suitable model-level aggregate verified.' : `${owners.rating}/${owners.outOf} · ${owners.count ?? 'unverified'} contributions. Scope factor ${Math.round(scope.factor * 100)}%. ${scope.note} ${owners.scope}`, owners?.sourceIds ?? []);

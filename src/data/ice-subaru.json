@@ -1,0 +1,1425 @@
+{
+  "vehicles": [
+    {
+      "id": "forester-25il-2021",
+      "familyId": "subaru-forester",
+      "make": "Subaru",
+      "model": "Forester",
+      "variant": "2.5i-L · 2.5 petrol",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "generation": "S5 / SK · MY21–MY24 · MY22 facelift",
+      "powertrain": "PETROL",
+      "seats": 5,
+      "drive": "AWD · Lineartronic CVT",
+      "headline": "Used petrol AWD with a practical second row",
+      "summary": "A lower-cost petrol alternative with all-wheel drive and a full-size spare. Related BabyDrive evidence supports a three-seat trial; check the actual seats, service history and remaining warranty.",
+      "range": {
+        "value": null,
+        "unit": "km",
+        "basis": "Not applicable: petrol-only; no electric driving range.",
+        "sourceIds": []
+      },
+      "battery": {
+        "value": null,
+        "unit": "kWh",
+        "basis": "Not applicable: no traction battery.",
+        "sourceIds": []
+      },
+      "consumption": {
+        "value": 7.4,
+        "unit": "L/100km",
+        "basis": "Australian ADR 81/02 combined laboratory fuel consumption; not a real-world guarantee.",
+        "sourceIds": [
+          "ice-sub-forester-old-spec"
+        ]
+      },
+      "depletedConsumption": {
+        "value": null,
+        "unit": "L/100km",
+        "basis": "Not applicable: petrol-only vehicle, not a plug-in hybrid.",
+        "sourceIds": []
+      },
+      "acCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not applicable: petrol-only vehicle.",
+        "sourceIds": []
+      },
+      "dcCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not applicable: petrol-only vehicle.",
+        "sourceIds": []
+      },
+      "boot": {
+        "value": 498,
+        "unit": "L",
+        "basis": "Manufacturer luggage volume with the rear bench in use; compare measurement methods and your pram.",
+        "sourceIds": [
+          "ice-sub-forester-old-spec"
+        ]
+      },
+      "bootAllRows": {
+        "value": null,
+        "unit": "L",
+        "basis": "No third row; see five-seat boot volume.",
+        "sourceIds": []
+      },
+      "length": {
+        "value": 4640,
+        "unit": "mm",
+        "basis": "MY22–MY24 facelift: 4,640 mm. MY21 pre-facelift is 4,625 mm; confirm build/model year.",
+        "sourceIds": [
+          "ice-sub-forester-old-spec",
+          "ice-sub-forester-old-roadtest"
+        ]
+      },
+      "width": {
+        "value": 1815,
+        "unit": "mm",
+        "basis": "Australian manufacturer specification, excluding mirrors.",
+        "sourceIds": [
+          "ice-sub-forester-old-spec"
+        ]
+      },
+      "towing": {
+        "value": 1800,
+        "unit": "kg",
+        "basis": "Maximum braked trailer mass with suitable tow equipment; vehicle/axle/ball limits still apply.",
+        "sourceIds": [
+          "ice-sub-forester-old-spec"
+        ]
+      },
+      "chargeTime": "Not applicable",
+      "connector": "Not applicable",
+      "warranty": "5 years / unlimited km for private use from original delivery; confirm remaining cover.",
+      "batteryWarranty": "Not applicable: petrol-only powertrain.",
+      "servicing": "Every 12 months / 12,500 km, whichever first. Used-car budget includes post-cap uncertainty.",
+      "safety": {
+        "stars": 5,
+        "year": 2019,
+        "applicability": "Australian S5 Forester, September 2018–May 2025, all variants including hybrids. Historical 2019 test protocol; not the new S6 rating.",
+        "sourceIds": [
+          "ice-sub-forester-old-ancap"
+        ]
+      },
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Three restraints fitted in BabyDrive’s earlier S5 Premium, using all three vehicle seatbelts. This 2.5i-L is a related grade/year; your own seats remain pending.",
+        "row2": "Two outer ISOFIX positions; three rear top-tether anchors. Centre installation uses the vehicle belt.",
+        "row3": "No third row.",
+        "testedSeats": "Related 2019 S5 Premium: rear-facing Britax Unity capsule + rear-facing Britax Graphene outside, forward-facing Britax Maxi Guard Pro centre. All three used vehicle belts to gain width.",
+        "buckleAccess": "Three-booster buckle access was not established. Test every buckle and the roof-mounted centre belt in this car.",
+        "access": "Large rear door openings in the related test; load your children and restraints during inspection.",
+        "ventilation": "Rear console air vents; confirm airflow with all three restraints installed.",
+        "sourceIds": [
+          "ice-sub-forester-old-fit",
+          "ice-sub-forester-old-spec"
+        ]
+      },
+      "pros": [
+        "Used asking prices below the A$45,000 target.",
+        "AWD, full-size spare and a 1,800 kg braked towing limit.",
+        "Documented related-generation three-restraint trial."
+      ],
+      "cons": [
+        "12,500 km servicing means more than one visit a year at 15,000 km.",
+        "Petrol fuel use is higher than the hybrids in the shortlist.",
+        "Earlier test used a mixed-facing combination; your three forward-facing seats or boosters need checking."
+      ],
+      "inspection": [
+        "Read the build plate: late-2021 MY22 facelift cars differ from MY21.",
+        "Ask for dated 12,500 km service invoices, coolant history and any thermo-control-valve diagnosis/replacement.",
+        "Road test the CVT cold and warm; ask a Subaru specialist to diagnose warnings, shudder or leaks.",
+        "Load-test the 12 V battery and test air-conditioning, EyeSight, cameras and every restraint buckle."
+      ],
+      "changes": [
+        {
+          "period": "MY21 versus MY22–MY24",
+          "text": "MY22 facelift arrived in late 2021; body length increases from 4,625 to 4,640 mm, with revised styling and driver assistance. This group keeps the 2.5i-L petrol powertrain; inspect year-specific equipment.",
+          "sourceIds": [
+            "ice-sub-forester-old-spec",
+            "ice-sub-forester-my23-change",
+            "ice-sub-forester-old-roadtest"
+          ]
+        },
+        {
+          "period": "MY23",
+          "text": "Subaru’s MY23 notice lists only higher-grade mirror/colour changes; do not assume those are additions to 2.5i-L.",
+          "sourceIds": [
+            "ice-sub-forester-my23-change"
+          ]
+        }
+      ],
+      "gaps": [
+        "No exact MY21–MY24 2.5i-L three-booster trial verified.",
+        "Price sample is small and spans different kilometres and fee bases.",
+        "Australian model-specific repair incidence and installed major-repair quotes are unavailable."
+      ],
+      "sourceIds": [
+        "ice-sub-forester-old-spec",
+        "ice-sub-warranty",
+        "ice-sub-warranty-handbook",
+        "ice-sub-forester-old-fit",
+        "ice-sub-forester-old-service",
+        "ice-sub-forester-old-ancap",
+        "ice-sub-forester-old-roadtest",
+        "ice-sub-forester-my23-change"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "forester-awd-petrol-2025",
+      "familyId": "subaru-forester",
+      "make": "Subaru",
+      "model": "Forester",
+      "variant": "AWD base · 2.5 petrol",
+      "years": [
+        2025,
+        2026
+      ],
+      "generation": "S6 / SL · Australian MY26 new generation",
+      "powertrain": "PETROL",
+      "seats": 5,
+      "drive": "AWD · Lineartronic CVT",
+      "headline": "The new Forester, with the petrol drivetrain",
+      "summary": "New-generation MY26 petrol AWD, sold locally from June 2025. Its related Hybrid Sport family test fitted three forward-facing seats. Petrol retains a full-size spare and has a higher towing limit than the hybrid.",
+      "range": {
+        "value": null,
+        "unit": "km",
+        "basis": "Not applicable: petrol-only; no electric driving range.",
+        "sourceIds": []
+      },
+      "battery": {
+        "value": null,
+        "unit": "kWh",
+        "basis": "Not applicable: no traction battery.",
+        "sourceIds": []
+      },
+      "consumption": {
+        "value": 7.9,
+        "unit": "L/100km",
+        "basis": "Australian ADR 81/02 combined laboratory fuel consumption; not a real-world guarantee.",
+        "sourceIds": [
+          "ice-sub-forester-new-spec"
+        ]
+      },
+      "depletedConsumption": {
+        "value": null,
+        "unit": "L/100km",
+        "basis": "Not applicable: petrol-only vehicle, not a plug-in hybrid.",
+        "sourceIds": []
+      },
+      "acCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not applicable: petrol-only vehicle.",
+        "sourceIds": []
+      },
+      "dcCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not applicable: petrol-only vehicle.",
+        "sourceIds": []
+      },
+      "boot": {
+        "value": 496,
+        "unit": "L",
+        "basis": "Manufacturer luggage volume with the rear bench in use; compare measurement methods and your pram.",
+        "sourceIds": [
+          "ice-sub-forester-new-spec"
+        ]
+      },
+      "bootAllRows": {
+        "value": null,
+        "unit": "L",
+        "basis": "No third row; see five-seat boot volume.",
+        "sourceIds": []
+      },
+      "length": {
+        "value": 4655,
+        "unit": "mm",
+        "basis": "Australian manufacturer specification; excludes aftermarket equipment.",
+        "sourceIds": [
+          "ice-sub-forester-new-spec"
+        ]
+      },
+      "width": {
+        "value": 1830,
+        "unit": "mm",
+        "basis": "Australian manufacturer specification, excluding mirrors.",
+        "sourceIds": [
+          "ice-sub-forester-new-spec"
+        ]
+      },
+      "towing": {
+        "value": 1800,
+        "unit": "kg",
+        "basis": "Maximum braked trailer mass with suitable tow equipment; vehicle/axle/ball limits still apply.",
+        "sourceIds": [
+          "ice-sub-forester-new-spec"
+        ]
+      },
+      "chargeTime": "Not applicable",
+      "connector": "Not applicable",
+      "warranty": "5 years / unlimited km for private use from original delivery; confirm remaining cover.",
+      "batteryWarranty": "Not applicable: petrol-only powertrain.",
+      "servicing": "Every 12 months / 15,000 km. First five capped visits total A$2,299 including GST.",
+      "safety": {
+        "stars": 5,
+        "year": 2024,
+        "applicability": "S6 Australian Forester introduced June 2025; ANCAP covers all petrol/hybrid variants built from May 2025. 2024 datestamp, 2023–2025 criteria; expiry December 2031.",
+        "sourceIds": [
+          "ice-sub-forester-new-ancap"
+        ]
+      },
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "BabyDrive fitted three forward-facing seats in the new-generation Hybrid Sport. Useful same-generation evidence for this petrol AWD, with the tested grade/powertrain difference kept visible.",
+        "row2": "Two outer ISOFIX positions and three rear top tethers. No centre ISOFIX pair.",
+        "row3": "No third row.",
+        "testedSeats": "Related July 2025 S6 Hybrid Sport: three forward-facing seats, or two forward-facing plus one rear-facing behind the driver. Article does not identify every restraint model.",
+        "buckleAccess": "No matching petrol-base three-booster buckle test verified. Check belt receivers and independent installation of each restraint.",
+        "access": "Related test found room for a 186 cm driver ahead of a rear-facing seat; verify your driving position.",
+        "ventilation": "Rear console air vents, documented in the new-generation family test and Australian specification.",
+        "sourceIds": [
+          "ice-sub-forester-new-fit",
+          "ice-sub-forester-new-spec",
+          "ice-sub-new-nsw-su029590"
+        ]
+      },
+      "pros": [
+        "New-generation safety package and 360-degree camera.",
+        "15,000 km service interval and published capped prices.",
+        "Petrol version retains a spare wheel and 1,800 kg braked towing."
+      ],
+      "cons": [
+        "7.9 L/100 km laboratory combined figure; city use can be substantially higher.",
+        "New examples sit near the A$45,000 limit; obtain a Queensland drive-away quote.",
+        "Long-term S6 fault data is limited; the published three-seat trial was a Hybrid Sport."
+      ],
+      "inspection": [
+        "Confirm S6/MY26; 2025 sale/build year can also describe the outgoing S5.",
+        "Trial three restraints and the pram in this petrol base, including booster buckle access.",
+        "Test driver-monitor alerts and wireless phone connection during an ordinary family drive.",
+        "Confirm first-delivery warranty date and any dealer extension conditions in writing."
+      ],
+      "changes": [
+        {
+          "period": "June 2025 / MY26",
+          "text": "New S6 generation: 2.5 petrol is 136 kW / 247 Nm, 7.9 L/100 km ADR combined, 496 L rear-seat-up boot, 15,000 km service interval. Separate from the 6.2 L/100 km strong hybrid.",
+          "sourceIds": [
+            "ice-sub-forester-new-spec",
+            "ice-sub-forester-new-service"
+          ]
+        }
+      ],
+      "gaps": [
+        "New-price sample is interstate; no clean exact Queensland new-stock cohort verified.",
+        "No direct petrol-base three-restraint test or long-term S6 repair-cost average verified."
+      ],
+      "sourceIds": [
+        "ice-sub-forester-new-spec",
+        "ice-sub-warranty",
+        "ice-sub-warranty-handbook",
+        "ice-sub-forester-new-fit",
+        "ice-sub-forester-new-service",
+        "ice-sub-forester-new-ancap",
+        "ice-sub-forester-new-roadtest"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "outback-awd-25-2021",
+      "familyId": "subaru-outback",
+      "make": "Subaru",
+      "model": "Outback",
+      "variant": "AWD base · 2.5 petrol · non-XT",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "generation": "BT / sixth generation · Australian 2.5 naturally aspirated",
+      "powertrain": "PETROL",
+      "seats": 5,
+      "drive": "AWD · Lineartronic CVT",
+      "headline": "A roomy used wagon with AWD",
+      "summary": "The standard non-turbo 2.5-litre Outback gives a long boot and 2,000 kg braked towing. BabyDrive’s same-generation Sport fitted a mixed-facing three-restraint combination; this base grade keeps a separate fit check.",
+      "range": {
+        "value": null,
+        "unit": "km",
+        "basis": "Not applicable: petrol-only; no electric driving range.",
+        "sourceIds": []
+      },
+      "battery": {
+        "value": null,
+        "unit": "kWh",
+        "basis": "Not applicable: no traction battery.",
+        "sourceIds": []
+      },
+      "consumption": {
+        "value": 7.3,
+        "unit": "L/100km",
+        "basis": "Australian ADR 81/02 combined laboratory fuel consumption; not a real-world guarantee.",
+        "sourceIds": [
+          "ice-sub-outback-spec"
+        ]
+      },
+      "depletedConsumption": {
+        "value": null,
+        "unit": "L/100km",
+        "basis": "Not applicable: petrol-only vehicle, not a plug-in hybrid.",
+        "sourceIds": []
+      },
+      "acCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not applicable: petrol-only vehicle.",
+        "sourceIds": []
+      },
+      "dcCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Not applicable: petrol-only vehicle.",
+        "sourceIds": []
+      },
+      "boot": {
+        "value": 522,
+        "unit": "L",
+        "basis": "Manufacturer luggage volume with the rear bench in use; compare measurement methods and your pram.",
+        "sourceIds": [
+          "ice-sub-outback-spec"
+        ]
+      },
+      "bootAllRows": {
+        "value": null,
+        "unit": "L",
+        "basis": "No third row; see five-seat boot volume.",
+        "sourceIds": []
+      },
+      "length": {
+        "value": 4870,
+        "unit": "mm",
+        "basis": "Australian manufacturer specification; excludes aftermarket equipment.",
+        "sourceIds": [
+          "ice-sub-outback-spec"
+        ]
+      },
+      "width": {
+        "value": 1875,
+        "unit": "mm",
+        "basis": "Australian manufacturer specification, excluding mirrors.",
+        "sourceIds": [
+          "ice-sub-outback-spec"
+        ]
+      },
+      "towing": {
+        "value": 2000,
+        "unit": "kg",
+        "basis": "Maximum braked trailer mass with suitable tow equipment; vehicle/axle/ball limits still apply.",
+        "sourceIds": [
+          "ice-sub-outback-spec"
+        ]
+      },
+      "chargeTime": "Not applicable",
+      "connector": "Not applicable",
+      "warranty": "5 years / unlimited km for private use from original delivery; confirm remaining cover.",
+      "batteryWarranty": "Not applicable: petrol-only powertrain.",
+      "servicing": "Every 12 months / 12,500 km for the non-XT 2.5. MY25 first five capped visits total A$2,715.67; older used cars need a fresh quote.",
+      "safety": {
+        "stars": 5,
+        "year": 2021,
+        "applicability": "BT Outback all variants built from December 2020, Australian sale from March 2021; expiry December 2027. Does not describe the new seventh-generation 2026 Outback.",
+        "sourceIds": [
+          "ice-sub-outback-ancap"
+        ]
+      },
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "BabyDrive’s 2021 Outback Sport fitted two forward-facing and one rear-facing restraint. Related same-generation evidence for the base AWD; your exact combination remains pending.",
+        "row2": "Two outer ISOFIX pairs and three top tethers on rear seatbacks; the centre vehicle belt comes from the roof.",
+        "row3": "No third row.",
+        "testedSeats": "2021 Sport test reports two forward-facing and one rear-facing child seat. Restraint model names are not supplied in the reviewed article.",
+        "buckleAccess": "The roof-mounted centre belt was awkward in the test. Three-booster buckle access is not established.",
+        "access": "Rear doors and rear legroom suited the tested combination; trial your own seats and final front-seat positions.",
+        "ventilation": "Rear console vents and two rear USB ports in the tested generation; check the actual car.",
+        "sourceIds": [
+          "ice-sub-outback-fit",
+          "ice-sub-outback-spec"
+        ]
+      },
+      "pros": [
+        "Long 522 L luggage area with all five seats occupied.",
+        "Full-size spare, AWD and 2,000 kg braked towing.",
+        "Used base examples can cost substantially less than A$45,000."
+      ],
+      "cons": [
+        "4.87 m length requires a parking-space check.",
+        "Non-turbo engine is less forceful when loaded.",
+        "12,500 km service interval and touchscreen climate controls need consideration."
+      ],
+      "inspection": [
+        "Confirm standard 2.5 base AWD: exclude XT/turbo, Sport/Touring and 2026 seventh-generation advertisements.",
+        "Check both MY21 EyeSight braking recalls by VIN and ask for completion evidence.",
+        "Verify service invoices, coolant/TCV history, CVT operation and 12 V battery health.",
+        "Try the roof-mounted centre belt with all restraints installed and inspect windscreen/EyeSight operation."
+      ],
+      "changes": [
+        {
+          "period": "2021 Australian launch",
+          "text": "New BT generation with 138 kW / 245 Nm naturally aspirated 2.5, 7.3 L/100 km ADR combined and 522 L rear-seat-up boot.",
+          "sourceIds": [
+            "ice-sub-outback-spec",
+            "ice-sub-outback-roadtest"
+          ]
+        },
+        {
+          "period": "MY23 onward",
+          "text": "Infotainment and safety equipment changed during the generation; verify the exact build. XT turbo variants are excluded from this base 2.5 configuration.",
+          "sourceIds": [
+            "ice-sub-outback-spec",
+            "ice-sub-outback-roadtest"
+          ]
+        }
+      ],
+      "gaps": [
+        "Current price cohort consists of 2021 MY21 examples, not every 2021–2025 year.",
+        "No exact base-grade three-forward-facing or three-booster test verified.",
+        "Australian installed CVT/TCV repair quotes and representative failure rates remain unavailable."
+      ],
+      "sourceIds": [
+        "ice-sub-outback-spec",
+        "ice-sub-warranty",
+        "ice-sub-warranty-handbook",
+        "ice-sub-outback-fit",
+        "ice-sub-outback-service",
+        "ice-sub-outback-ancap",
+        "ice-sub-outback-roadtest",
+        "ice-sub-outback-recall-1227",
+        "ice-sub-outback-recall-5005"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "prices": [
+    {
+      "id": "ice-sub-price-forester-25il-2021",
+      "vehicleId": "forester-25il-2021",
+      "low": 23888,
+      "high": 32989,
+      "point": 24995,
+      "condition": "used",
+      "basis": "mixed",
+      "sampleCount": 3,
+      "geography": "Queensland: Toowoomba, Gold Coast and Eagle Farm",
+      "kilometres": "112933, 102452, 38056 km",
+      "observed": "2026-10-18",
+      "note": "Three exact 2.5i-L stock examples; mixed fee bases and 2021/2023 years, so use a written all-in quote. Median displayed asking price A$24,995; small sample is not a valuation. Sold Salters2107947 and inaccessible/inconsistent Key29277 excluded.",
+      "sourceIds": [
+        "ice-sub-s5-wippells",
+        "ice-sub-s5-vonbibra",
+        "ice-sub-s5-carplace"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "observations": [
+        {
+          "price": 24995,
+          "basis": "drive-away",
+          "year": 2021,
+          "kilometres": 112933,
+          "location": "Toowoomba, QLD",
+          "url": "https://www.wippellsvolkswagen.com.au/all-stock/view/2021-Subaru-Forester/34742926",
+          "sourceId": "ice-sub-s5-wippells",
+          "checked": "2026-10-18",
+          "note": "Stock00942672; VIN JF2SK9KL5NG074532; seller MY22 facelift. Advertised all on-road charges included."
+        },
+        {
+          "price": 23888,
+          "basis": "drive-away",
+          "year": 2021,
+          "kilometres": 102452,
+          "location": "Gold Coast, QLD",
+          "url": "https://vonbibragmsv.com.au/stock/details/OAG-AD-26311897/2021-subaru-forester-used",
+          "sourceId": "ice-sub-s5-vonbibra",
+          "checked": "2026-10-18",
+          "note": "StockFW1270; VIN JF2SK9KL5MG062217. Direct page supersedes earlier A$24,888 /102,332 km syndication."
+        },
+        {
+          "price": 32989,
+          "basis": "excludes-charges",
+          "year": 2023,
+          "kilometres": 38056,
+          "location": "Eagle Farm, QLD",
+          "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1345136255",
+          "sourceId": "ice-sub-s5-carplace",
+          "checked": "2026-10-18",
+          "note": "Stock1209286; VIN JF2SK9KL5PG101447. Seller advertisement; government charges additional. Availability must be reconfirmed."
+        }
+      ]
+    },
+    {
+      "id": "ice-sub-price-forester-awd-petrol-2025",
+      "vehicleId": "forester-awd-petrol-2025",
+      "low": 44990,
+      "high": 44990,
+      "point": 44990.0,
+      "condition": "new",
+      "basis": "drive-away",
+      "sampleCount": 2,
+      "geography": "Interstate dealer stock: VIC and NSW; Queensland quote pending",
+      "kilometres": "0, not stated km",
+      "observed": "2026-10-18",
+      "note": "Two distinct exact base petrol new stocks at A$44,990 drive-away. Not a Queensland delivered quote. Excludes higher grades, hybrids, old S5, hail-damaged and demo stock. Gympie listing says Demo although prose says brand new; excluded from the new cohort.",
+      "sourceIds": [
+        "ice-sub-new-vic-1704108",
+        "ice-sub-new-nsw-su029590"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "observations": [
+        {
+          "price": 44990,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 0,
+          "location": "Traralgon, VIC",
+          "url": "https://www.traralgonsubaru.com.au/cars/new-magnetite-grey-2026-subaru-forester-1704108",
+          "sourceId": "ice-sub-new-vic-1704108",
+          "checked": "2026-10-18",
+          "note": "New petrol base S6MY26; VIN JF2SL9KL5TG026674. Interstate drive-away campaign; Queensland registration/delivery treatment needs confirmation."
+        },
+        {
+          "price": 44990,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": null,
+          "location": "Sydney, NSW",
+          "url": "https://autosportsgroup.com.au/su029590-1893153-subaru-forester-2026/",
+          "sourceId": "ice-sub-new-nsw-su029590",
+          "checked": "2026-10-18",
+          "note": "New petrol base S6MY26; VIN JF2SL9KL5TG029590. Interstate drive-away campaign; Queensland registration/delivery treatment needs confirmation."
+        }
+      ]
+    },
+    {
+      "id": "ice-sub-price-outback-awd-25-2021",
+      "vehicleId": "outback-awd-25-2021",
+      "low": 25888,
+      "high": 29992,
+      "point": 28990,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 3,
+      "geography": "Queensland: Gold Coast and Strathpine",
+      "kilometres": "123976, 54534, 16000 km",
+      "observed": "2026-10-18",
+      "note": "Three exact base non-XT MY21 examples, 16,000–123,976 km. Median A$28,990 drive-away; later 2022–2025 years are not sampled. Small cohort and different kilometres keep confidence low. Direct Auto Request A$29,992 replaces older A$30,990 syndication.",
+      "sourceIds": [
+        "ice-sub-outback-hw3681",
+        "ice-sub-outback-fu34790",
+        "ice-sub-outback-15411"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "observations": [
+        {
+          "price": 25888,
+          "basis": "drive-away",
+          "year": 2021,
+          "kilometres": 123976,
+          "location": "Helensvale, QLD",
+          "url": "https://vonbibrawholesale.com.au/wholesale-stock/details/OAG-AD-26205354/2021-subaru-outback-used",
+          "sourceId": "ice-sub-outback-hw3681",
+          "checked": "2026-10-18",
+          "note": "VIN JF2BT9KL3MG005962; stockHW3681."
+        },
+        {
+          "price": 28990,
+          "basis": "drive-away",
+          "year": 2021,
+          "kilometres": 54534,
+          "location": "Southport, QLD",
+          "url": "https://www.autotrader.com.au/car/15322143/subaru/outback/qld/southport/suv",
+          "sourceId": "ice-sub-outback-fu34790",
+          "checked": "2026-10-18",
+          "note": "VIN JF2BT9KL3MG010239; stockFU34790; seller listing."
+        },
+        {
+          "price": 29992,
+          "basis": "drive-away",
+          "year": 2021,
+          "kilometres": 16000,
+          "location": "Strathpine, QLD",
+          "url": "https://autorequest.com.au/15411-1906980-subaru-outback-2021/",
+          "sourceId": "ice-sub-outback-15411",
+          "checked": "2026-10-18",
+          "note": "VIN JF2BT9KL3MG003784; stock15411. Seller MY21/compliance Feb2021, buildDec2020. Direct page now A$29,992 (was30,990); older syndicated prices are superseded."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "ice-sub-forester-old-spec",
+      "title": "Australian MY24 Forester brochure: petrol 2.5i-L specifications",
+      "url": "https://www.citysubaru.com.au/wp-content/uploads/2025/02/13137-MY24-Forester-Launch-Brochure-opt-singleA4.pdf",
+      "publisher": "Subaru Australia (official brochure hosted by authorised City Subaru)",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-forester-new-spec",
+      "title": "Australian MY26 S6 Forester brochure: petrol / hybrid columns",
+      "url": "https://cdn.oem-production.subaru.com.au/documents/Subaru-Forester-brochure.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-outback-spec",
+      "title": "Australian MY25 BT Outback brochure: non-XT 2.5 specifications",
+      "url": "https://docs.subaru.com.au/Subaru-Outback-Brochure.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-warranty",
+      "title": "Subaru Australian new-vehicle warranty and parts terms",
+      "url": "https://www.subaru.com.au/owners/warranty",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-warranty-handbook",
+      "title": "Subaru five-year warranty / service handbook and exclusions",
+      "url": "https://docs.subaru.com.au/3194-warranty_service_handbook_5_year_cps_sa1180_v6.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-support",
+      "title": "Official Australian Subaru retailer locator",
+      "url": "https://www.subaru.com.au/dealers",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-forester-old-fit",
+      "title": "2019 S5 Forester Premium: named three-restraint trial with all three seatbelts",
+      "url": "https://babydrive.com.au/reviews/suvs/2019-subaru-forester/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-forester-new-fit",
+      "title": "2025 S6 Forester Hybrid Sport: three forward-facing restraints fitted",
+      "url": "https://babydrive.com.au/reviews/suvs/2025-subaru-forester-hybrid-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-outback-fit",
+      "title": "2021 BT Outback Sport: two forward-facing plus one rear-facing trial",
+      "url": "https://babydrive.com.au/reviews/suvs/all-new-2021-subaru-outback-sport/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-forester-old-service",
+      "title": "MY24 S5 Forester: five-year / 62,500 km capped service prices",
+      "url": "https://docs.subaru.com.au/MY24_Forester_Capped_Price_Servicing.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-forester-new-service",
+      "title": "MY26 S6 Forester: five-year / 75,000 km capped service prices",
+      "url": "https://docs.subaru.com.au/MY26-Subaru-Forester-Capped-Price-Servicing.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-outback-service",
+      "title": "MY25 non-XT Outback: five-year / 62,500 km capped service prices",
+      "url": "https://docs.subaru.com.au/MY25-Subaru-Outback-%28excluding-XT%29-Capped-Price-Servicing.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-service-intervals",
+      "title": "Subaru scheduled interval table; model-specific MY26 PDF takes precedence for S6 Forester",
+      "url": "https://www.subaru.com.au/service/capped-price-servicing",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-insurance-youi",
+      "title": "Youi Subaru insurance: sold-policy model averages, 22 Nov 2025–22 May 2026",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/subaru",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-forester-old-ancap",
+      "title": "S5 Forester: five-star 2019 ANCAP rating, September 2018–May 2025",
+      "url": "https://www.ancap.com.au/safety-ratings/subaru/forester/1f3f86",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-forester-new-ancap",
+      "title": "S6 Forester: five-star 2024 ANCAP rating, builds from May 2025",
+      "url": "https://s3.amazonaws.com/cdn.ancap.com.au/app/public/assets/1505a0e2c855214de7c9e2a3f0aef902297797ac/original.pdf?1767074059=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-outback-ancap",
+      "title": "BT Outback: five-star 2021 ANCAP rating, all variants from December 2020",
+      "url": "https://www.ancap.com.au/safety-ratings/subaru/outback/c5ee38",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-forester-my23-change",
+      "title": "Australian MY23 Forester: facelift context and variant-specific changes",
+      "url": "https://www.subaru.com.au/news/my23-subaru-forester-now-on-sale",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-forester-old-roadtest",
+      "title": "2021 Australian Forester 2.5i-S review; related grade",
+      "url": "https://www.carexpert.com.au/car-reviews/2021-subaru-forester-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-forester-new-roadtest",
+      "title": "2026 Australian petrol Forester Touring review; related grade",
+      "url": "https://www.carexpert.com.au/car-reviews/2026-subaru-forester-awd-touring-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-outback-roadtest",
+      "title": "2021 Outback base AWD Australian road test: 8.5/10",
+      "url": "https://www.whichcar.com.au/reviews/2021-subaru-outback-awd-review",
+      "publisher": "Wheels / WhichCar",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-tcv-us-bulletin",
+      "title": "US Subaru TCV technical bulletin: affected US model years and revised component; AU coverage not established",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2024/MC-10253930-0001.pdf",
+      "publisher": "Subaru of America / NHTSA",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-outback-recall-1227",
+      "title": "REC-001227: selected 2021 Outback EyeSight unexpected braking, free rectification",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-001227",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-outback-recall-5005",
+      "title": "REC-005005: selected MY21 Outback pre-collision braking software, free rectification",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005005",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-forester-hybrid-recall-excluded",
+      "title": "REC-006737: 2026 Forester Hybrid transaxle campaign; not the petrol configuration",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006737",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-tyre-2256017",
+      "title": "JAX 225/60R17 fitted retail prices, including Michelin Primacy 5 103V XL",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/17-inch/225-60r17",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-tyre-2255518",
+      "title": "JAX 225/55R18 fitted retail prices, including Michelin Primacy 5 102V XL",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/225-55r18",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-tyre-2256018",
+      "title": "JAX 225/60R18 fitted retail prices, including Michelin Primacy 5 104V XL",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/225-60r18",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-s5-wippells",
+      "title": "2021 MY22 Forester 2.5i-L, Wippells 00942672",
+      "url": "https://www.wippellsvolkswagen.com.au/all-stock/view/2021-Subaru-Forester/34742926",
+      "publisher": "Wippells Volkswagen",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-s5-vonbibra",
+      "title": "2021 Forester 2.5i-L, von Bibra FW1270",
+      "url": "https://vonbibragmsv.com.au/stock/details/OAG-AD-26311897/2021-subaru-forester-used",
+      "publisher": "von Bibra GMSV",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-s5-carplace",
+      "title": "2023 Forester 2.5i-L, Carplace Queensland 1209286",
+      "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1345136255",
+      "publisher": "Carplace Queensland via Gumtree",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-new-vic-1704108",
+      "title": "2026 base Forester AWD, Traralgon stock1704108",
+      "url": "https://www.traralgonsubaru.com.au/cars/new-magnetite-grey-2026-subaru-forester-1704108",
+      "publisher": "Traralgon Subaru",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-new-nsw-su029590",
+      "title": "2026 base Forester AWD, Sydney stockSU029590",
+      "url": "https://autosportsgroup.com.au/su029590-1893153-subaru-forester-2026/",
+      "publisher": "Autosports Group / Subaru Sydney City",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-outback-hw3681",
+      "title": "2021 base Outback AWD, von Bibra HW3681",
+      "url": "https://vonbibrawholesale.com.au/wholesale-stock/details/OAG-AD-26205354/2021-subaru-outback-used",
+      "publisher": "von Bibra Wholesale",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-outback-fu34790",
+      "title": "2021 base Outback AWD, von Bibra FU34790",
+      "url": "https://www.autotrader.com.au/car/15322143/subaru/outback/qld/southport/suv",
+      "publisher": "von Bibra Ferry Road via Autotrader",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "ice-sub-outback-15411",
+      "title": "2021 base Outback AWD, Auto Request15411",
+      "url": "https://autorequest.com.au/15411-1906980-subaru-outback-2021/",
+      "publisher": "Auto Request",
+      "kind": "market",
+      "checked": "2026-10-18"
+    }
+  ],
+  "ownership": [
+    {
+      "familyId": "subaru-forester",
+      "serviceInterval": "S5/MY21–MY24: 12 months or 12,500 km. S6/MY26: 12 months or 15,000 km. Whichever first.",
+      "serviceAnnual": 750,
+      "serviceLow": 600,
+      "serviceHigh": 1100,
+      "serviceConfidence": "low",
+      "serviceBasis": "ESTIMATE: MY24 petrol Forester first five capped visits total A$2,674.64 over 62,500 km. At 15,000 km/year a distance-scaled reference is about A$642/year, then allow post-cap / older-used uncertainty: A$750/year planning budget (A$600–1,100). At this mileage a sixth service can be due within five years; confirm all remaining due visits. Scheduled maintenance is separate from repairs and tyres.",
+      "warrantyCautions": [
+        "Private-use manufacturer cover is five years / unlimited kilometres from original supply, not from your used-car purchase. Commercial/hire/ride-share uses have a 150,000 km limit; check the contract.",
+        "Dealer-backed extended warranties can have conditions and are separate from Subaru’s manufacturer warranty. Do not assume a photographed or advertised ten-year dealer scheme applies.",
+        "Australian Consumer Law rights are separate from the written warranty; ask for the VIN-specific warranty and recall status.",
+        "The October 2026 REC-006737 parking-pawl campaign is for 42 selected Forester Hybrid VINs. It is not assigned to this petrol S6 configuration."
+      ],
+      "risks": [
+        {
+          "title": "CVT / AWD drivetrain inspection",
+          "detail": "A major gearbox or engine repair can exceed a small annual reserve. Inspect cold and hot operation, leaks, warnings and service invoices. No representative Australian failure rate for these exact configurations was found.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Unpriced: no exact Australian installed quote verified. Obtain a VIN-specific diagnosis and written parts/labour/GST quote; do not transfer prices or failure rates from older Subarus.",
+          "warranty": "Manufacturing-defect cover depends on the original warranty, diagnosis, service history and exclusions; wear and external damage differ.",
+          "sourceIds": [
+            "ice-sub-warranty",
+            "ice-sub-forester-old-spec",
+            "ice-sub-forester-new-spec",
+            "ice-sub-outback-spec"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Thermo-control valve — inspect early used cars",
+          "detail": "Subaru’s US bulletin identifies coolant-vapour intrusion into an electronic valve sensor on selected 2019–2021 Forester and 2020–2022 Outback vehicles and describes a revised part. This is an inspection lead for an early used example, not proof that every Australian car is affected or that later years use the same part.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Unpriced: an Australian installed repair quote and incidence were not verified. Ask for diagnostic codes and any replacement invoice.",
+          "warranty": "The US 15-year / 150,000-mile extension is not an Australian warranty entitlement. Ask Subaru Australia to confirm VIN-specific support before paying.",
+          "sourceIds": [
+            "ice-sub-tcv-us-bulletin",
+            "ice-sub-warranty"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "ice-sub-warranty",
+        "ice-sub-warranty-handbook",
+        "ice-sub-forester-old-service",
+        "ice-sub-forester-new-service",
+        "ice-sub-service-intervals",
+        "ice-sub-forester-hybrid-recall-excluded"
+      ],
+      "checked": "2026-10-18",
+      "serviceByVehicle": {
+        "forester-awd-petrol-2025": {
+          "serviceAnnual": 459.8,
+          "serviceLow": 347.95,
+          "serviceHigh": 700,
+          "serviceConfidence": "medium",
+          "serviceBasis": "Australian MY26 S6 petrol capped visits: A$347.95, 520.45, 393.10, 679.30 and 358.20 = A$2,299 for first five services / five years / 75,000 km; A$459.80/year at 15,000 km/year. Includes GST. Post-cap years and additional work are not quoted; the upper bound is a planning allowance. The generic Subaru website still mentions 12,500 km for Forester; the model-specific MY26 PDF explicitly supersedes it with 15,000 km."
+        }
+      }
+    },
+    {
+      "familyId": "subaru-outback",
+      "serviceInterval": "BT non-XT 2.5 petrol: 12 months or 12,500 km, whichever first. Do not use the XT interval.",
+      "serviceAnnual": 750,
+      "serviceLow": 600,
+      "serviceHigh": 1100,
+      "serviceConfidence": "low",
+      "serviceBasis": "ESTIMATE: MY25 non-XT Outback first five capped visits total A$2,715.67 over 62,500 km. At 15,000 km/year the distance-scaled reference is about A$652/year, then allow post-cap / older-used uncertainty: A$750/year (A$600–1,100). These MY25 caps do not retrospectively price an older used car. At this mileage a sixth service can be due within five years; confirm all remaining due visits. Scheduled maintenance is separate from repairs and tyres.",
+      "warrantyCautions": [
+        "Private-use manufacturer cover is five years / unlimited kilometres from original supply, not from your used-car purchase. Commercial/hire/ride-share uses have a 150,000 km limit; check the contract.",
+        "Dealer-backed extended warranties can have conditions and are separate from Subaru’s manufacturer warranty. Do not assume a photographed or advertised ten-year dealer scheme applies.",
+        "Australian Consumer Law rights are separate from the written warranty; ask for the VIN-specific warranty and recall status."
+      ],
+      "risks": [
+        {
+          "title": "CVT / AWD drivetrain inspection",
+          "detail": "A major gearbox or engine repair can exceed a small annual reserve. Inspect cold and hot operation, leaks, warnings and service invoices. No representative Australian failure rate for these exact configurations was found.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Unpriced: no exact Australian installed quote verified. Obtain a VIN-specific diagnosis and written parts/labour/GST quote; do not transfer prices or failure rates from older Subarus.",
+          "warranty": "Manufacturing-defect cover depends on the original warranty, diagnosis, service history and exclusions; wear and external damage differ.",
+          "sourceIds": [
+            "ice-sub-warranty",
+            "ice-sub-forester-old-spec",
+            "ice-sub-forester-new-spec",
+            "ice-sub-outback-spec"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Thermo-control valve — inspect early used cars",
+          "detail": "Subaru’s US bulletin identifies coolant-vapour intrusion into an electronic valve sensor on selected 2019–2021 Forester and 2020–2022 Outback vehicles and describes a revised part. This is an inspection lead for an early used example, not proof that every Australian car is affected or that later years use the same part.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Unpriced: an Australian installed repair quote and incidence were not verified. Ask for diagnostic codes and any replacement invoice.",
+          "warranty": "The US 15-year / 150,000-mile extension is not an Australian warranty entitlement. Ask Subaru Australia to confirm VIN-specific support before paying.",
+          "sourceIds": [
+            "ice-sub-tcv-us-bulletin",
+            "ice-sub-warranty"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "MY21 EyeSight braking software campaigns",
+          "detail": "REC-001227 / SRT306 and REC-005005 / SRT315 cover selected MY21 VINs with possible unexpected pre-collision braking. Check both campaign records for the actual car.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for applicable official recall rectification, not a future paid-repair forecast.",
+          "warranty": "Official campaign rectification is separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "ice-sub-outback-recall-1227",
+            "ice-sub-outback-recall-5005"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sourceIds": [
+        "ice-sub-warranty",
+        "ice-sub-warranty-handbook",
+        "ice-sub-outback-service",
+        "ice-sub-outback-spec",
+        "ice-sub-service-intervals"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "insurance": [
+    {
+      "familyId": "subaru-forester",
+      "point": 1070,
+      "low": 690,
+      "high": 2500,
+      "confidence": "low",
+      "basis": "ESTIMATE: Youi national sold-policy Forester mean A$1,069, published indicative range A$691–1,352 for 22 Nov 2025–22 May 2026, rounded to A$1070. Mixed years/grades and individual policyholder profiles; no exact Queensland quote, agreed value or new-generation subgroup. Published indicative bands are not confidence intervals; 80% of applicable premiums fell within or below Youi’s bands. Budget bounds are widened editorial sensitivity limits; replace with your quote.",
+      "sourceIds": [
+        "ice-sub-insurance-youi"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "familyId": "subaru-outback",
+      "point": 1140,
+      "low": 750,
+      "high": 2500,
+      "confidence": "low",
+      "basis": "ESTIMATE: Youi national sold-policy Outback mean A$1,138 for 22 Nov 2025–22 May 2026, rounded to A$1140. Mixed years/grades and individual policyholder profiles; no exact Queensland quote, agreed value or new-generation subgroup. Published indicative bands are not confidence intervals; 80% of applicable premiums fell within or below Youi’s bands. Budget bounds are widened editorial sensitivity limits; replace with your quote.",
+      "sourceIds": [
+        "ice-sub-insurance-youi"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyres": [
+    {
+      "vehicleId": "forester-25il-2021",
+      "setCost": 1196,
+      "setLow": 900,
+      "setHigh": 1600,
+      "lifeKm": 45000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 60000,
+      "basis": "ESTIMATE: four Michelin Primacy 5 tyres in 225/60R17 103V XL at JAX’s displayed A$299 regular fitted single-tyre price each; no short-term multi-buy discount assumed. Includes GST, fitting, balancing, valves and tyre disposal. Manufacturer standard-wheel size checked; confirm the placard, load/speed rating and local stock. Alignment is extra. Life 45,000 km (30,000–60,000) is an editable assumption, not a Subaru wear study.",
+      "confidence": "low",
+      "sourceIds": [
+        "ice-sub-tyre-2256017",
+        "ice-sub-forester-old-spec",
+        "budget-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "225/60R17 103V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 299,
+        "quantity": 4,
+        "sourceId": "ice-sub-tyre-2256017",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    },
+    {
+      "vehicleId": "forester-awd-petrol-2025",
+      "setCost": 1196,
+      "setLow": 950,
+      "setHigh": 1650,
+      "lifeKm": 45000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 60000,
+      "basis": "ESTIMATE: four Michelin Primacy 5 tyres in 225/55R18 102V XL at JAX’s displayed A$299 regular fitted single-tyre price each; no short-term multi-buy discount assumed. Includes GST, fitting, balancing, valves and tyre disposal. Manufacturer standard-wheel size checked; confirm the placard, load/speed rating and local stock. Alignment is extra. Life 45,000 km (30,000–60,000) is an editable assumption, not a Subaru wear study.",
+      "confidence": "low",
+      "sourceIds": [
+        "ice-sub-tyre-2255518",
+        "ice-sub-forester-new-spec",
+        "budget-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "225/55R18 102V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 299,
+        "quantity": 4,
+        "sourceId": "ice-sub-tyre-2255518",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    },
+    {
+      "vehicleId": "outback-awd-25-2021",
+      "setCost": 1236,
+      "setLow": 1000,
+      "setHigh": 1700,
+      "lifeKm": 45000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 60000,
+      "basis": "ESTIMATE: four Michelin Primacy 5 tyres in 225/60R18 104V XL at JAX’s displayed A$309 regular fitted single-tyre price each; no short-term multi-buy discount assumed. Includes GST, fitting, balancing, valves and tyre disposal. Manufacturer standard-wheel size checked; confirm the placard, load/speed rating and local stock. Alignment is extra. Life 45,000 km (30,000–60,000) is an editable assumption, not a Subaru wear study.",
+      "confidence": "low",
+      "sourceIds": [
+        "ice-sub-tyre-2256018",
+        "ice-sub-outback-spec",
+        "budget-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "225/60R18 104V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 309,
+        "quantity": 4,
+        "sourceId": "ice-sub-tyre-2256018",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserves": [
+    {
+      "vehicleId": "forester-25il-2021",
+      "point": 1100,
+      "low": 500,
+      "high": 2200,
+      "confidence": "low",
+      "basis": "ESTIMATE: A$1100/year editorial repair savings budget, not an observed average repair cost. Used petrol AWD: allow for ageing cooling, 12 V/electrical, suspension and CVT diagnosis outside the remaining five-year cover. Excludes scheduled servicing, tyres and insured accident repairs. Use applicable warranty/recall remedies first. A major transmission or engine repair can exceed the saved fund; no unsupported annual failure probability is inferred.",
+      "sourceIds": [
+        "ice-sub-warranty",
+        "ice-sub-warranty-handbook",
+        "ice-sub-tcv-us-bulletin"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "forester-awd-petrol-2025",
+      "point": 600,
+      "low": 250,
+      "high": 1500,
+      "confidence": "low",
+      "basis": "ESTIMATE: A$600/year editorial repair savings budget, not an observed average repair cost. New S6 petrol: current factory cover reduces near-term owner-paid defect exposure; long-term S6 incidence is not established. Increase the budget as the car ages or cover expires. Excludes scheduled servicing, tyres and insured accident repairs. Use applicable warranty/recall remedies first. A major transmission or engine repair can exceed the saved fund; no unsupported annual failure probability is inferred.",
+      "sourceIds": [
+        "ice-sub-warranty",
+        "ice-sub-warranty-handbook",
+        "ice-sub-forester-new-spec"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "outback-awd-25-2021",
+      "point": 1100,
+      "low": 500,
+      "high": 2400,
+      "confidence": "low",
+      "basis": "ESTIMATE: A$1100/year editorial repair savings budget, not an observed average repair cost. Used petrol AWD: allow for ageing cooling, 12 V/electrical, suspension and CVT diagnosis outside the remaining five-year cover. Excludes scheduled servicing, tyres and insured accident repairs. Use applicable warranty/recall remedies first. A major transmission or engine repair can exceed the saved fund; no unsupported annual failure probability is inferred.",
+      "sourceIds": [
+        "ice-sub-warranty",
+        "ice-sub-warranty-handbook",
+        "ice-sub-tcv-us-bulletin"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "reviews": [
+    {
+      "familyId": "subaru-forester",
+      "rating": null,
+      "outOf": 5,
+      "count": 0,
+      "scope": "Evidence gap: no generation/variant-matched Australian owner-rating aggregate verified in this release.",
+      "summary": "No owner-score aggregate is used. Professional road tests and published child-seat tests are available separately; neither measures long-term fault incidence.",
+      "positiveThemes": [],
+      "negativeThemes": [],
+      "sourceIds": [],
+      "checked": "2026-10-18"
+    },
+    {
+      "familyId": "subaru-outback",
+      "rating": null,
+      "outOf": 5,
+      "count": 0,
+      "scope": "Evidence gap: no generation/variant-matched Australian owner-rating aggregate verified in this release.",
+      "summary": "No owner-score aggregate is used. Professional road tests and published child-seat tests are available separately; neither measures long-term fault incidence.",
+      "positiveThemes": [],
+      "negativeThemes": [],
+      "sourceIds": [],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "ice-sub-forester-s5-expert",
+      "familyId": "subaru-forester",
+      "vehicleIds": [
+        "forester-25il-2021"
+      ],
+      "tested": "2021 Forester 2.5i-S AWD",
+      "scope": "Related upper grade; same S5 2.5 petrol drivetrain, pre-facelift. Not a 2.5i-L direct test.",
+      "publisher": "CarExpert",
+      "published": "2021-06-18",
+      "checked": "2026-10-18",
+      "rating": null,
+      "outOf": 10,
+      "verdict": "Good (publisher’s current qualitative label).",
+      "positiveThemes": [
+        "Safety equipment and AWD capability."
+      ],
+      "negativeThemes": [
+        "Ordinary powertrain refinement; firm ride and cabin quirks."
+      ],
+      "sourceIds": [
+        "ice-sub-forester-old-roadtest"
+      ]
+    },
+    {
+      "id": "ice-sub-forester-s6-expert",
+      "familyId": "subaru-forester",
+      "vehicleIds": [
+        "forester-awd-petrol-2025"
+      ],
+      "tested": "2026 Forester AWD Touring petrol",
+      "scope": "Australian new-generation petrol test, higher Touring trim. Not a base AWD direct test.",
+      "publisher": "CarExpert",
+      "published": "2026-02-05",
+      "checked": "2026-10-18",
+      "rating": null,
+      "outOf": 10,
+      "verdict": "Very Good (publisher’s current qualitative label).",
+      "positiveThemes": [
+        "More refined drive and a spacious, practical interior."
+      ],
+      "negativeThemes": [
+        "Modest performance and some intrusive safety/tech controls."
+      ],
+      "sourceIds": [
+        "ice-sub-forester-new-roadtest"
+      ]
+    },
+    {
+      "id": "ice-sub-outback-base-expert",
+      "familyId": "subaru-outback",
+      "vehicleIds": [
+        "outback-awd-25-2021"
+      ],
+      "tested": "2021 Outback AWD base 2.5",
+      "scope": "Direct Australian base-grade test. The score is the original 2021 assessment, not a new 2026 reliability rating.",
+      "publisher": "Wheels / WhichCar",
+      "published": "2021-04-13",
+      "checked": "2026-10-18",
+      "rating": 8.5,
+      "outOf": 10,
+      "verdict": "8.5/10 for the tested base AWD.",
+      "positiveThemes": [
+        "Space, ride comfort and practical standard equipment."
+      ],
+      "negativeThemes": [
+        "Timid powertrain and relatively costly scheduled servicing."
+      ],
+      "sourceIds": [
+        "ice-sub-outback-roadtest"
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "make": "Subaru",
+      "support": "established",
+      "summary": "Long-established Australian retailer/service network with manufacturer diagnostic and genuine-parts support. This describes service access, not a measured reliability score.",
+      "network": "Use the official retailer locator for your Queensland postcode and ask whether a nearby service centre can handle the proposed repair. No national dealer-count claim is assumed.",
+      "warrantyNote": "Five-year unlimited-kilometre manufacturer cover for private use; commercial-use limits and exclusions apply. Older used examples retain only any unexpired original cover.",
+      "sourceIds": [
+        "ice-sub-support",
+        "ice-sub-warranty",
+        "ice-sub-warranty-handbook"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fuelRequirements": [
+    {
+      "vehicleId": "forester-25il-2021",
+      "planningRon": 91,
+      "minimumRon": 91,
+      "basis": "Australian manufacturer petrol specification: minimum 91 RON. ADR laboratory test fuel can differ from the minimum customer requirement; this is not the turbo or hybrid variant.",
+      "confidence": "high",
+      "sourceIds": [
+        "ice-sub-forester-old-spec"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "forester-awd-petrol-2025",
+      "planningRon": 91,
+      "minimumRon": 91,
+      "basis": "Australian manufacturer petrol specification: minimum 91 RON. ADR laboratory test fuel can differ from the minimum customer requirement; this is not the turbo or hybrid variant.",
+      "confidence": "high",
+      "sourceIds": [
+        "ice-sub-forester-new-spec"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "outback-awd-25-2021",
+      "planningRon": 91,
+      "minimumRon": 91,
+      "basis": "Australian manufacturer petrol specification: minimum 91 RON. ADR laboratory test fuel can differ from the minimum customer requirement; this is not the turbo or hybrid variant.",
+      "confidence": "high",
+      "sourceIds": [
+        "ice-sub-outback-spec"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "images": [
+    {
+      "familyId": "subaru-forester",
+      "path": "/images/ice-subaru-forester-s5.webp",
+      "alt": "Australian pre-facelift S5 Subaru Forester",
+      "credit": "EurovisionNim / Wikimedia Commons; resized and converted to WebP",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018_Subaru_Forester_(SK_MY19)_2.5i_AWD_wagon_(2018-10-08)_01.jpg",
+      "generation": "S5 / SK pre-facelift",
+      "note": "Australian MY19 base 2.5i pictured, not exact 2.5i-L; MY22–MY24 front styling differs."
+    },
+    {
+      "familyId": "subaru-forester-2025",
+      "path": "/images/ice-subaru-forester-s6.webp",
+      "alt": "New-generation S6 Subaru Forester; US Touring display vehicle",
+      "credit": "Autosdeprimera / Wikimedia Commons; resized and converted to WebP",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025_Subaru_Forester_Touring_(United_States)_front_view.png",
+      "generation": "S6 / SL new generation",
+      "note": "US Touring display vehicle pictured; generation matches Australian MY26 but wheels, trim and specification differ from local base AWD."
+    },
+    {
+      "familyId": "subaru-outback",
+      "path": "/images/ice-subaru-outback.webp",
+      "alt": "Australian sixth-generation BT Subaru Outback",
+      "credit": "CybaTruc / Wikimedia Commons; resized and converted to WebP",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2021_Subaru_Outback_(sixth_generation,_BT).jpg",
+      "generation": "BT / sixth generation",
+      "note": "Australian BT photographed in Perth; exact grade not established. Verify trim against the actual base AWD listing."
+    }
+  ]
+}

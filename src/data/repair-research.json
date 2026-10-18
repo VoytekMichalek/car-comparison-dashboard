@@ -1,0 +1,50 @@
+{
+  "checked": "2026-10-18",
+  "method": "Repair funds are editable savings contributions, not predicted annual bills. No comparable Australian model-by-model paid-repair dataset was verified. Defaults reflect age, warranty exposure and priced component examples; low/high figures are sensitivity budgets. Unspent funds remain cash. Ten years of contributions is not ten years of repair spending. Service and tyres are separate; insured crash repairs belong primarily in insurance. A major battery or engine event can exceed the fund.",
+  "findings": [
+    {
+      "familyIds": [
+        "tesla-model-y"
+      ],
+      "title": "Model Y: mixed reliability signals",
+      "text": "TÜV 2026 found significant defects in 17.3% of 2–3-year-old German Model Ys, especially suspension, brakes and lights. ADAC 2026 places Model Y among its strongest midsize roadside-breakdown performers. These measure different problems; neither provides Australian repair bills or a Juniper forecast.",
+      "sourceIds": [
+        "repair-tuv-2026",
+        "repair-adac-2026"
+      ]
+    },
+    {
+      "familyIds": [
+        "tesla-model-y"
+      ],
+      "title": "Australian repair prices support a buffer",
+      "text": "Whiteline lists an original-body upper-arm pair fitted with alignment at A$1,823 incl. GST; it is one aftermarket offer, not a minimum. JPI estimates compressor work at A$2,000–4,000+. Original RWD and Long Range both use A$1,800/year; newer Juniper A$1,000. All remain low-confidence savings budgets.",
+      "sourceIds": [
+        "repair-tesla-upper-arms-au",
+        "repair-jpi-tesla-au"
+      ]
+    },
+    {
+      "familyIds": [
+        "hyundai-ioniq-5",
+        "kia-ev6"
+      ],
+      "title": "ICCU: check Australian cover before budgeting a bill",
+      "text": "Drive reports Australian manufacturer confirmation of 15-year/300,000-km ICCU cover: Ioniq 5 built 2 Apr 2021–14 Feb 2024 and EV6 MY22–24, from first registration. Confirm VIN-specific terms in writing; an overseas policy alone is insufficient. Eligible recalls and covered defects should not be charged as routine owner repairs.",
+      "sourceIds": [
+        "repair-iccu-au-extension"
+      ]
+    },
+    {
+      "familyIds": [
+        "hyundai-ioniq-5",
+        "toyota-rav4-hybrid"
+      ],
+      "title": "Breakdowns do not equal full repair costs",
+      "text": "ADAC 2026 flags German Ioniq 5 first registered 2022–23 and RAV4 2017–22 for roadside events. ICCU and 12V issues respectively are material context, but German incidents do not establish Australian out-of-pocket bills, every model year or the new RAV4 generation.",
+      "sourceIds": [
+        "repair-adac-2026"
+      ]
+    }
+  ]
+}

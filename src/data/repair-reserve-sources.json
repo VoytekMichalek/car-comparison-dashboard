@@ -6,5 +6,53 @@
     "publisher": "Whiteline Australia",
     "kind": "market",
     "checked": "2026-10-18"
+  },
+  {
+    "id": "repair-jpi-tesla-au",
+    "title": "JPI Australia Model 3 / Model Y inspection guide — thermal repair estimates",
+    "url": "https://jpi.report/car-problems/tesla-model-3-model-y",
+    "publisher": "JPI Report",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "repair-tuv-2026",
+    "title": "TÜV Report 2026 — German roadworthiness inspections, not repair bills",
+    "url": "https://www.tuev-verband.de/pressemitteilungen/tuev-report-2026",
+    "publisher": "TÜV-Verband",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "repair-adac-2026",
+    "title": "ADAC breakdown statistics 2026 — 2025 German roadside events",
+    "url": "https://www.adac.de/rund-ums-fahrzeug/unfall-schaden-panne/adac-pannenstatistik-2026/",
+    "publisher": "ADAC",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "repair-iccu-au-extension",
+    "title": "Australian Hyundai / Kia ICCU component extension reported May 2026",
+    "url": "https://www.drive.com.au/news/hyundai-kia-and-genesis-extend-charging-unit-warranty-in-australia-for-some-evs/",
+    "publisher": "Drive — Australian manufacturer statements",
+    "kind": "review",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "repair-xtrail-used-pack",
+    "title": "Australian X-Trail T33 e-POWER used AWD traction battery — tag 32270",
+    "url": "https://shop.thwreckers.com.au/products/part-3778a8c9-e914-474b-97dc-29c7ae786e2d",
+    "publisher": "Toowoomba Holden Wreckers",
+    "kind": "market",
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "repair-kluger-infinitev",
+    "title": "Infinitev AXUH78 Kluger 2021-on battery — quote only",
+    "url": "https://infinitev.au/collections/toyota-hybrid/products/toyota-kluger-hybrid-2021-on-new-replacement-hybrid-battery",
+    "publisher": "Infinitev",
+    "kind": "market",
+    "checked": "2026-10-18"
   }
 ]

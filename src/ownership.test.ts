@@ -25,6 +25,20 @@ describe('Queensland ownership budgeting', () => {
     expect(qldDuty(100000)).toBe(2000);
     expect(qldDuty(100000.01)).toBe(4004);
     expect(qldDuty(135600)).toBe(5424);
+    expect(qldDuty(45000, 'PETROL')).toBe(1350);
+    expect(qldDuty(45001, 'DIESEL')).toBe(1353);
+    expect(qldDuty(100000.01, 'PETROL')).toBe(5005);
+  });
+  it('uses four-cylinder fuel-car rego, adds conventional duty and omits a home charger', () => {
+    for (const car of vehicles.filter(v => v.powertrain === 'PETROL' || v.powertrain === 'DIESEL')) {
+      const personal = emptyPersonal();
+      personal.ownership = { ...defaultOwnership, purchasePrice: 45000, feesIncluded: 'no', charger: 5000, vehicleOverrides: {} };
+      const estimate = ownershipEstimate(car, personal);
+      expect(estimate.rego.total, car.id).toBeCloseTo(872.50);
+      expect(estimate.duty, car.id).toBe(1350);
+      expect(estimate.energyCosts.electricity).toBe(0);
+      expect(estimate.upfront).toBeCloseTo(1350 + 33.65 + estimate.ppsr + defaultOwnership.inspection);
+    }
   });
   it('fills every researched car with explicit estimates, ranges and evidence', () => {
     for (const car of vehicles) {
@@ -219,6 +233,14 @@ it('uses configuration service budgets when available and preserves quote preced
 
 
 describe('car-specific repair savings', () => {
+  it('aligns same-age original Model Ys and retains low-confidence savings bounds', () => {
+    const rwd = ownershipEstimate(ev, emptyPersonal());
+    const lr = ownershipEstimate(vehicles.find(v => v.id === 'model-y-long-range-2023')!, emptyPersonal());
+    expect(rwd.components.reserve).toBe(1800);
+    expect(lr.components.reserve).toBe(1800);
+    expect(rwd.evidence.reserve.high).toBe(3500);
+    expect(ownershipEstimate(vehicles.find(v => v.id === 'model-y-rwd-juniper-2025')!, emptyPersonal()).components.reserve).toBe(1000);
+  });
   it('varies the default by configuration while exposing estimate ranges', () => {
     const original = ownershipEstimate(ev, emptyPersonal());
     const newer = ownershipEstimate(vehicles.find(v => v.id === 'model-y-rwd-juniper-2025')!, emptyPersonal());

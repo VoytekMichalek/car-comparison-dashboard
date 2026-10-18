@@ -1,6 +1,6 @@
 import { ExternalLink, ImageOff, ArrowUpRight, Check, Plus, Heart, Star } from 'lucide-react';
 import { imageFor, sourceMap } from '../data';
-import { fitLabel, money, number, powerLabel, rangeStandard, yearLabel } from '../lib';
+import { isFuelOnly, isPlugIn, fitLabel, money, number, powerLabel, rangeStandard, yearLabel } from '../lib';
 import type { Fact, ImageAsset, PriceSnapshot, Vehicle } from '../types';
 import type { ScoreResult } from '../scoring';
 
@@ -8,7 +8,7 @@ export function SourceRefs({ ids }: { ids: string[] }) {
   return <span className="source-refs">{[...new Set(ids)].map((id, i) => { const s = sourceMap.get(id); return s ? <a key={id} href={s.url} target="_blank" rel="noreferrer" aria-label={`Source: ${s.title}`} title={s.title}>[{i + 1}]</a> : null; })}</span>;
 }
 export function FactValue({ fact }: { fact: Fact }) {
-  return fact.value === null ? <span className="muted">Not verified</span> : <>{number(fact.value)} <span className="unit">{fact.unit}</span></>;
+  return fact.value === null ? <span className="muted">{/^not applicable/i.test(fact.basis) ? 'Not applicable' : 'Not verified'}</span> : <>{number(fact.value)} <span className="unit">{fact.unit}</span></>;
 }
 export function Photo({ vehicle, className = '' }: { vehicle: Vehicle; className?: string }) {
   const asset = imageFor(vehicle);
@@ -32,7 +32,7 @@ export function VehicleCard({ vehicle: v, options, price, favourite, compared, c
   score: ScoreResult; onScore: (v: Vehicle) => void;
   detailHref: string; scoreHref: string;
 }) {
-  const isHybrid = v.powertrain === 'HEV';
+  const isHybrid = isFuelOnly(v.powertrain);
   function follow(e: React.MouseEvent<HTMLAnchorElement>, open: () => void) {
     if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     e.preventDefault();
