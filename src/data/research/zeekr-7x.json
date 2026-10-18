@@ -1,0 +1,831 @@
+{
+  "familyId": "zeekr-7x",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-zeekr-7x-model-au",
+      "title": "Zeekr 7X current Australian model page, grade-scoped equipment and targets",
+      "url": "https://www.zeekrlife.com/en-au/models/zeekr-7x/",
+      "publisher": "Zeekr Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-brochure-au",
+      "title": "Zeekr 7X Australian August 2025 brochure: RWD / LR / AWD configuration matrix",
+      "url": "https://www.datocms-assets.com/130529/1755670382-au-7x-brochure-200825-web.pdf",
+      "publisher": "Zeekr Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-ancap",
+      "title": "7X Australian ANCAP 2025 applicability and results",
+      "url": "https://www.ancap.com.au/safety-ratings/zeekr/7x/6ec0ef",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-ancap-report",
+      "title": "7X Australian ANCAP report: exact anchor map and separate-position restraint assessments",
+      "url": "https://cdn.ancap.com.au/app/public/assets/9b199e1ad4498802bf7b18ed9865d6f28e9c896e/original.pdf?1770171174=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-rwd-practical",
+      "title": "2026 RWD long-term part 2: rear doors, ventilation and storage",
+      "url": "https://www.carsguide.com.au/ev/zeekr-7x-rwd-long-term-part-2-101138?msockid=23b4381ee996614b1f3e2dfbe8c26025",
+      "publisher": "CarsGuide",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-rwd-three-month",
+      "title": "2026 RWD three-month/2,383 km review: reported energy use and driving compromises",
+      "url": "https://www.carsguide.com.au/ev/zeekr-7x-rwd-long-term-part-3-101636",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-rwd-racv-october",
+      "title": "14 October 2026 Australian RWD test: 18.2 kWh/100 km and family packaging",
+      "url": "https://www.racv.com.au/royalauto/car-reviews/zeekr/2026-zeekr-7x-rwd-review.html",
+      "publisher": "RACV",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-lr-introduction",
+      "title": "22 July 2026 Australian Long Range RWD introduction: equipment and unconfirmed updated servicing tariff",
+      "url": "https://www.carexpert.com.au/car-reviews/2026-zeekr-7x-long-range-rwd-review-long-term-introduction",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-service-current",
+      "title": "Current Australian service/warranty page: contact route and policy link",
+      "url": "https://www.zeekrlife.com/en-au/service/",
+      "publisher": "Zeekr Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-warranty-policy",
+      "title": "Current Australian warranty policy: basic/battery terms and shorter component cover",
+      "url": "https://zcms.zeekrlife.com/published/assets/69db768999ef6f7067b88de5729fc40de340be85193f2813f0cc4d4dcce3eac4/Australian-Warranty-Policy.pdf",
+      "publisher": "Zeekr Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-launch-service-table",
+      "title": "September 2025 manufacturer servicing statement reproduced with scheduled price/inclusion tables",
+      "url": "https://thedriven.io/2025/09/22/zeekr-7x-first-drive-a-beast-on-the-track-and-a-surprise-off-roader/",
+      "publisher": "The Driven / reproduced Zeekr Australia statement",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-manual-market-caution",
+      "title": "Community-hosted 7X manual: maintenance p375; front anchor content conflicts with Australian ANCAP",
+      "url": "https://www.zeekr7xaustralia.com.au/info/Zeekr%207X%20User%20Manual%20Z7XA.pdf",
+      "publisher": "Zeekr manual hosted by ZEEKR 7X Australia community site; market applicability uncertain",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-community-fit-caution",
+      "title": "First-person 7X child-seat trial: unclear rear-facing seat identity and likely Performance test car",
+      "url": "https://www.reddit.com/r/Zeekr7xAustralia/comments/1su51s5/kids_car_seats/",
+      "publisher": "r/Zeekr7xAustralia / individual commenters",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-britax-bgrow-manual",
+      "title": "Britax b-grow ClickTight instruction manual: forward-facing only",
+      "url": "https://files-au-prod.cms.commerce.dynamics.com/cms/api/rklprdxdhk/binary/ML33Z5",
+      "publisher": "Britax Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-owner-aggregate-scope",
+      "title": "Zeekr ProductReview page: mixed dealership/brand/model 17-review aggregate, unsuitable as a 7X score",
+      "url": "https://www.productreview.com.au/listings/zeekr",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-insurance-youi",
+      "title": "Youi actual 7X comprehensive premium range, policies 22 Nov 2025–22 May 2026",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/zeekr",
+      "publisher": "Youi Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-tyres-jax",
+      "title": "JAX fitted HL255/50R19 110V XL ZK ELT Pirelli P Zero PZ4 SUV retail offer",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/19-inch/255-50r19",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-rvd-tyres",
+      "title": "ROVER applicant declaration VTA-065421: standard 19-inch rear-drive fitments",
+      "url": "https://www.rover.infrastructure.gov.au/PublishedApprovals/VTADetails/RVDTyreAndRim/?apprversionid=302d66aa-0956-f011-bec2-00224892d1b3&id=931ff8d1-4c82-f011-b4cc-000d3ad10c2e&itemid=4903b779-7b5c-f011-bec2-00224891dd22",
+      "publisher": "Australian Department of Infrastructure / Zeekr applicant declaration",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-rvd-variants",
+      "title": "ROVER applicant declaration VTA-065421: rear-drive 2,000 kg towing; department disclaims validation",
+      "url": "https://www.rover.infrastructure.gov.au/PublishedApprovals/VTADetails/RVDVariants/?apprversionid=302d66aa-0956-f011-bec2-00224892d1b3&id=931ff8d1-4c82-f011-b4cc-000d3ad10c2e",
+      "publisher": "Australian Department of Infrastructure / Zeekr applicant declaration",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-recalls-search",
+      "title": "Australian Vehicle Recalls register: no indexed 7X notice found; interactive/VIN result not verified",
+      "url": "https://www.vehiclerecalls.gov.au/recalls",
+      "publisher": "Australian Department of Infrastructure",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-qld-registration",
+      "title": "Queensland private-use registration/CTP fees effective 1 October 2026",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-stock-rwd-qld",
+      "title": "New 2026 RWD QLD 30 km stock advertisement A$64,109 drive-away",
+      "url": "https://www.carsales.com.au/cars/details/2026-zeekr-7x-auto-my26/OAG-AD-26350362/",
+      "publisher": "Carsales / Queensland dealer",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-stock-lr-hz2033",
+      "title": "New 2026 Long Range stock HZ2033 VIN ending 038633 A$71,805 drive-away",
+      "url": "https://www.zeekrcarsspringwood.com.au/cars/new-grey-2026-zeekr-7x-hz2033",
+      "publisher": "Zeekr Springwood",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-zeekr-7x-stock-lr-hz2137",
+      "title": "New 2026 Long Range stock HZ2137 VIN ending 043589 A$71,805 drive-away",
+      "url": "https://www.autopact.com.au/stock/details/OAG-AD-26341373/2026-zeekr-7x-new",
+      "publisher": "Autopact / Cricks Highway",
+      "kind": "market",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "zeekr7x-rwd-2025",
+      "checked": "2026-10-18",
+      "summary": "75 kWh LFP RWD with strong fast-charging capability and wide-opening rear doors. Three-restraint fit including one rear-facing remains unverified.",
+      "battery": {
+        "value": 75,
+        "unit": "kWh",
+        "basis": "Manufacturer nominal 75 kWh LFP pack; do not divide nominal capacity by range and call the result homologated consumption.",
+        "sourceIds": [
+          "audit-zeekr-7x-brochure-au",
+          "audit-zeekr-7x-model-au"
+        ]
+      },
+      "batteryWarranty": "8 years / 160,000 km for private use, with 70% original-capacity threshold; terms and exclusions apply.",
+      "servicing": "Launch recommendation: 24 months / 40,000 km; optional interim checks. Current local tariff and harsh-use requirements need written confirmation.",
+      "towing": {
+        "value": 2000,
+        "unit": "kg",
+        "basis": "Australian ROVER VTA-065421 rear-drive applicant declaration: 2,000 kg braked, 750 kg unbraked. The department explicitly says RVD information is supplied by the applicant and has not been verified or approved by it. Confirm VIN, towbar, towball, payload and loaded combination limits.",
+        "sourceIds": [
+          "audit-zeekr-7x-rvd-variants"
+        ]
+      },
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Mixed target: 1 rear-facing plus 2 forward-facing seats/boosters. No independently documented matching three-across installation verified.",
+        "row2": "Australian ANCAP: two outer ISOFIX positions, three rear top tethers; each restraint was assessed separately, not as a simultaneous three-across set.",
+        "row3": "Five seats; no third row.",
+        "testedSeats": "ANCAP single-position checks are positive. A community trial mentions a rear-facing fit, but seat identity/facing is inconsistent and the powered-door car appears to be Performance; it is not accepted as RWD / LR fit proof.",
+        "buckleAccess": "No independently verified three-across booster-buckle test. Test daily access with all children seated.",
+        "access": "RWD long-term test confirms rear doors open 90 degrees. These RWD trims do not have the AWD automatic-door package. Rear-facing loading and front-seat clearance still need your own trial.",
+        "ventilation": "Tri-zone climate, rear B-pillar vents and powered roof shade. Powered rear side-window shades are AWD-only, not standard RWD / LR. LR adds front-seat cooling/massage; base RWD does not.",
+        "sourceIds": [
+          "audit-zeekr-7x-ancap-report",
+          "audit-zeekr-7x-rwd-practical",
+          "audit-zeekr-7x-brochure-au",
+          "audit-zeekr-7x-community-fit-caution",
+          "audit-zeekr-7x-britax-bgrow-manual"
+        ]
+      },
+      "pros": [
+        "450 kW conditional DC peak and 22 kW three-phase AC capability.",
+        "Wide rear-door opening, rear B-pillar ventilation and powered roof shade."
+      ],
+      "cons": [
+        "Priced above the A$45,000 target; current QLD sample is small.",
+        "Mixed three-restraint arrangement, booster-buckle access and rear-facing front-seat clearance remain unverified.",
+        "Black PU front seats lack LR cooling; trial summer comfort."
+      ],
+      "inspection": [
+        "Install your actual rear-facing seat plus both other restraints together; confirm permitted seat recline, independent secure installation, door clearance, front adult driving position and buckle access.",
+        "Test rear B-pillar airflow, camera privacy/coverage, rear-seat recline and all door/emergency releases; a rear-seat camera is not proof of an ANCAP-qualified child-presence alert.",
+        "Obtain VIN-specific warranty balance, recall/service-campaign completion and written current service prices; confirm battery/underbody condition, charging performance and actual wheel placard."
+      ],
+      "gaps": [
+        "No verified Australian three-across mixed-facing restraint test, daily booster-buckle test or measured front-seat clearance with a rear-facing restraint.",
+        "Official brochure calls range a WLTP target; no manufacturer Australian consumption figure with verified charging boundary found.",
+        "Updated dealer servicing tariff and model-specific Australian owner-paid battery/electronic/strut repair invoices remain unavailable.",
+        "Community-hosted manual describes front ISOFIX/tether features absent from Australian ANCAP map; use the actual Australian VIN manual and anchors."
+      ],
+      "sourceIds": [
+        "ev-zeekr-spec",
+        "ev-zeekr-model",
+        "ev-zeekr-ancap",
+        "ev-zeekr-review",
+        "ev-zeekr-price",
+        "ev-zeekr-boot",
+        "ev-zeekr-anchor-report",
+        "ev-deep-zeekr-rvd-towing",
+        "audit-zeekr-7x-model-au",
+        "audit-zeekr-7x-brochure-au",
+        "audit-zeekr-7x-ancap",
+        "audit-zeekr-7x-ancap-report",
+        "audit-zeekr-7x-rwd-practical",
+        "audit-zeekr-7x-rwd-three-month",
+        "audit-zeekr-7x-rwd-racv-october",
+        "audit-zeekr-7x-rvd-variants",
+        "audit-zeekr-7x-community-fit-caution",
+        "audit-zeekr-7x-britax-bgrow-manual",
+        "audit-zeekr-7x-service-current",
+        "audit-zeekr-7x-warranty-policy"
+      ],
+      "observedConsumption": {
+        "value": 15.6,
+        "unit": "kWh/100km",
+        "basis": "CarsGuide standard RWD three-month report, 2,383 km total. Reported driving energy use; measurement/charging boundary is not explicitly documented. Not a wall-meter study or a Long Range result. RACV separately reported 18.2 over two weeks.",
+        "sourceIds": [
+          "audit-zeekr-7x-rwd-three-month",
+          "audit-zeekr-7x-rwd-racv-october"
+        ],
+        "energyBasis": "unspecified"
+      },
+      "observedRange": {
+        "value": null,
+        "unit": "km",
+        "basis": "CarsGuide 455 km is a calculation from asserted 71 kWh usable capacity and 15.6 kWh/100 km, not a full-charge-to-empty observed range test; not recorded as measured range.",
+        "sourceIds": [
+          "audit-zeekr-7x-rwd-three-month"
+        ]
+      }
+    },
+    {
+      "id": "zeekr7x-long-range-2025",
+      "checked": "2026-10-18",
+      "summary": "100 kWh long-range RWD with front-seat cooling and massage; no AWD air suspension, automatic doors or powered rear-window shades. Three-restraint fit including one rear-facing remains unverified.",
+      "battery": {
+        "value": 100,
+        "unit": "kWh",
+        "basis": "Manufacturer nominal 100 kWh NCM pack; usable capacity not independently confirmed.",
+        "sourceIds": [
+          "audit-zeekr-7x-brochure-au",
+          "audit-zeekr-7x-model-au"
+        ]
+      },
+      "batteryWarranty": "8 years / 160,000 km for private use, with 70% original-capacity threshold; terms and exclusions apply.",
+      "servicing": "Launch recommendation: 24 months / 40,000 km; optional interim checks. Current local tariff and harsh-use requirements need written confirmation.",
+      "towing": {
+        "value": 2000,
+        "unit": "kg",
+        "basis": "Australian ROVER VTA-065421 rear-drive applicant declaration: 2,000 kg braked, 750 kg unbraked. The department explicitly says RVD information is supplied by the applicant and has not been verified or approved by it. Confirm VIN, towbar, towball, payload and loaded combination limits.",
+        "sourceIds": [
+          "audit-zeekr-7x-rvd-variants"
+        ]
+      },
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Mixed target: 1 rear-facing plus 2 forward-facing seats/boosters. No independently documented matching three-across installation verified.",
+        "row2": "Australian ANCAP: two outer ISOFIX positions, three rear top tethers; each restraint was assessed separately, not as a simultaneous three-across set.",
+        "row3": "Five seats; no third row.",
+        "testedSeats": "ANCAP single-position checks are positive. A community trial mentions a rear-facing fit, but seat identity/facing is inconsistent and the powered-door car appears to be Performance; it is not accepted as RWD / LR fit proof.",
+        "buckleAccess": "No independently verified three-across booster-buckle test. Test daily access with all children seated.",
+        "access": "RWD long-term test confirms rear doors open 90 degrees. These RWD trims do not have the AWD automatic-door package. Rear-facing loading and front-seat clearance still need your own trial.",
+        "ventilation": "Tri-zone climate, rear B-pillar vents and powered roof shade. Powered rear side-window shades are AWD-only, not standard RWD / LR. LR adds front-seat cooling/massage; base RWD does not.",
+        "sourceIds": [
+          "audit-zeekr-7x-ancap-report",
+          "audit-zeekr-7x-rwd-practical",
+          "audit-zeekr-7x-brochure-au",
+          "audit-zeekr-7x-community-fit-caution",
+          "audit-zeekr-7x-britax-bgrow-manual"
+        ]
+      },
+      "pros": [
+        "615 km manufacturer WLTP target and 22 kW three-phase AC capability.",
+        "Front-seat ventilation/massage, powered roof shade and wide rear-door opening."
+      ],
+      "cons": [
+        "Priced above the A$45,000 target; current QLD sample is small.",
+        "Mixed three-restraint arrangement, booster-buckle access and rear-facing front-seat clearance remain unverified.",
+        "No AWD air suspension, automatic doors or powered rear-window shades."
+      ],
+      "inspection": [
+        "Install your actual rear-facing seat plus both other restraints together; confirm permitted seat recline, independent secure installation, door clearance, front adult driving position and buckle access.",
+        "Test rear B-pillar airflow, camera privacy/coverage, rear-seat recline and all door/emergency releases; a rear-seat camera is not proof of an ANCAP-qualified child-presence alert.",
+        "Obtain VIN-specific warranty balance, recall/service-campaign completion and written current service prices; confirm battery/underbody condition, charging performance and actual wheel placard."
+      ],
+      "gaps": [
+        "No verified Australian three-across mixed-facing restraint test, daily booster-buckle test or measured front-seat clearance with a rear-facing restraint.",
+        "Official brochure calls range a WLTP target; no manufacturer Australian consumption figure with verified charging boundary found.",
+        "Updated dealer servicing tariff and model-specific Australian owner-paid battery/electronic/strut repair invoices remain unavailable.",
+        "Community-hosted manual describes front ISOFIX/tether features absent from Australian ANCAP map; use the actual Australian VIN manual and anchors."
+      ],
+      "sourceIds": [
+        "ev-zeekr-spec",
+        "ev-zeekr-model",
+        "ev-zeekr-ancap",
+        "ev-zeekr-review",
+        "ev-zeekr-price",
+        "ev-zeekr-boot",
+        "ev-zeekr-anchor-report",
+        "ev-deep-zeekr-rvd-towing",
+        "audit-zeekr-7x-model-au",
+        "audit-zeekr-7x-brochure-au",
+        "audit-zeekr-7x-ancap",
+        "audit-zeekr-7x-ancap-report",
+        "audit-zeekr-7x-rwd-practical",
+        "audit-zeekr-7x-rwd-three-month",
+        "audit-zeekr-7x-rwd-racv-october",
+        "audit-zeekr-7x-rvd-variants",
+        "audit-zeekr-7x-community-fit-caution",
+        "audit-zeekr-7x-britax-bgrow-manual",
+        "audit-zeekr-7x-service-current",
+        "audit-zeekr-7x-warranty-policy"
+      ]
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "ev-price-zeekr-rwd",
+      "vehicleId": "zeekr7x-rwd-2025",
+      "low": 64109,
+      "high": 64109,
+      "condition": "new",
+      "basis": "drive-away",
+      "sampleCount": 1,
+      "geography": "Queensland dealer",
+      "kilometres": "30 km; exact configuration examples detailed below",
+      "observed": "2026-10-18",
+      "note": "One Queensland NEW 2026 Standard Range RWD stock car, Forest Green / black PU. A$64,109 is its advertised drive-away asking price, replacing the previous A$57,900 base RRP. Paint/options and on-road costs account for a different basis; this is not evidence the base RRP increased. Demo and new-order indicative prices are excluded. Asking prices and stock status can change; this is a small convenience sample, not a valuation. Re-opened in this per-model audit: all included stock advertisements still display the recorded asks; both LR VINs are distinct. These optioned stock cars do not establish a representative used-market value. Separate base RRPs remain A$57,900/A$63,900 before on-roads.",
+      "sourceIds": [
+        "audit-zeekr-7x-stock-rwd-qld",
+        "ev-zeekr-price"
+      ],
+      "confidence": "low",
+      "estimateBasis": "Single included advertised amount. The displayed low/high are only the included observations, not an estimated market range.",
+      "observations": [
+        {
+          "price": 64109,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 30,
+          "location": "Queensland dealer",
+          "url": "https://www.carsales.com.au/cars/details/2026-zeekr-7x-auto-my26/OAG-AD-26350362/",
+          "sourceId": "audit-zeekr-7x-stock-rwd-qld",
+          "checked": "2026-10-18",
+          "note": "New stock; Standard Range RWD, Forest Green / black PU upholstery. Actual advertised drive-away price A$64,109; the A$62,049 excluding-estimated-charges figure on the same page is not a second car. No sold/unavailable flag observed. Optioned stock differs from base manufacturer RRP."
+        }
+      ],
+      "point": 64109,
+      "kind": "observation"
+    },
+    {
+      "id": "ev-price-zeekr-lr",
+      "vehicleId": "zeekr7x-long-range-2025",
+      "low": 71805,
+      "high": 71805,
+      "condition": "new",
+      "basis": "drive-away",
+      "sampleCount": 2,
+      "geography": "Zeekr Springwood, Slacks Creek QLD; Autopact / Cricks Highway, Springwood QLD",
+      "kilometres": "0–30 km; exact configuration examples detailed below",
+      "observed": "2026-10-18",
+      "note": "Two distinct NEW 2026 Queensland Springwood dealer cars, stock HZ2033 and HZ2137, with different VINs, paint/interior combinations and 0 / 30 km. Both advertise A$71,805 drive-away, replacing the former A$63,900 excluding-charges base RRP. Dealer demo stock is excluded. Asking prices and stock status can change; this is a small convenience sample, not a valuation. Re-opened in this per-model audit: all included stock advertisements still display the recorded asks; both LR VINs are distinct. These optioned stock cars do not establish a representative used-market value. Separate base RRPs remain A$57,900/A$63,900 before on-roads.",
+      "sourceIds": [
+        "audit-zeekr-7x-stock-lr-hz2033",
+        "audit-zeekr-7x-stock-lr-hz2137",
+        "ev-zeekr-price"
+      ],
+      "confidence": "medium",
+      "estimateBasis": "Median of the included advertised amounts. The displayed low/high are only the included observations, not an estimated market range.",
+      "observations": [
+        {
+          "price": 71805,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 0,
+          "location": "Zeekr Springwood, Slacks Creek QLD",
+          "url": "https://www.zeekrcarsspringwood.com.au/cars/new-grey-2026-zeekr-7x-hz2033",
+          "sourceId": "audit-zeekr-7x-stock-lr-hz2033",
+          "checked": "2026-10-18",
+          "note": "New stock HZ2033, VIN ending 038633, Grey; RWD Long Range MY26. Dealer option/paint contents may differ from base MSRP."
+        },
+        {
+          "price": 71805,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 30,
+          "location": "Autopact / Cricks Highway, Springwood QLD",
+          "url": "https://www.autopact.com.au/stock/details/OAG-AD-26341373/2026-zeekr-7x-new",
+          "sourceId": "audit-zeekr-7x-stock-lr-hz2137",
+          "checked": "2026-10-18",
+          "note": "New stock HZ2137, VIN ending 043589, Brooke Blue / Black & Grey interior. Distinct VIN from HZ2033; not the 8,900-km demo cross-post HZ20605."
+        }
+      ],
+      "point": 71805,
+      "kind": "observation"
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "zeekr-7x",
+      "checked": "2026-10-18",
+      "serviceInterval": "Launch manufacturer statement: 24 months / 40,000 km recommended, optional annual / 20,000 km checks. Confirm current VIN-specific schedule and harsh-use requirements in writing; fresh Australian reviews still cannot confirm updated tariffs.",
+      "serviceAnnual": 500,
+      "serviceLow": 350,
+      "serviceHigh": 650,
+      "serviceConfidence": "low",
+      "serviceBasis": "ESTIMATE retained: A$500/year (A$350–650). Launch MSRP table: A$605 at year 2 and A$1,150 at year 4; optional year 1 free, year 3 A$330, year 5 A$300. Basic five-year total A$1,755; all checks A$2,385. The costly fourth-year visit includes cooling-system work in the reproduced schedule. July CarExpert and 14 October RACV could not confirm current prices. Confirm eligibility before assuming a free first check. Excludes tyres and fault repairs.",
+      "energyByVehicle": {
+        "zeekr7x-rwd-2025": {
+          "point": 18.2,
+          "low": 15.6,
+          "high": 23,
+          "confidence": "low",
+          "basis": "PLANNING ESTIMATE for standard 75 kWh RWD only, in battery-side kWh/100 km. The 18.2 point is anchored to RACV’s 14 October 2026 two-week city/country road test; CarsGuide reported 15.6 across 2,383 km over three months. Neither publishes a wall-meter boundary. Treating this as battery-side use is explicitly a budgeting assumption, not a verified meter result. Apply household charging loss once. The upper 23 allows for load, climate and short-trip variation; these are sensitivity bounds, not a probability interval. Long Range retains the separate 20 family proxy.",
+          "sourceIds": [
+            "audit-zeekr-7x-rwd-racv-october",
+            "audit-zeekr-7x-rwd-three-month"
+          ]
+        }
+      },
+      "warrantyCautions": [
+        "Private-use vehicle cover is 5 years unlimited kilometres with required service records. Obtain written confirmation of balance / transfer for a used purchase.",
+        "Private-use HV battery cover is 8 years / 160,000 km with 70% retention; commercial-use limits differ.",
+        "Eligible battery remedies may repair, replace or recondition. Wear, external damage and misuse are excluded. Shorter auxiliary-battery cover does not match the HV term.",
+        "The current 5-year policy must be checked against any original 2025 launch/promotional contract offering different cover. Policy is tied to first registration; do not erase an eligible older promotional warranty or assume it for every 7X.",
+        "Current policy separately limits original auxiliary/key-fob batteries to 12 months / 20,000 km, lighting to 6 months / 10,000 km and alignment/balancing to 3 months / 5,000 km. The basic vehicle term is not blanket cover for all items.",
+        "The linked community-hosted manual contains market-specific front anchor/airbag content inconsistent with Australian ANCAP. Get the VIN-specific Australian manual and original contract."
+      ],
+      "sourceIds": [
+        "own-ev-zeekr-warranty",
+        "own-ev-zeekr-manual",
+        "own-ev-est-service-zeekr",
+        "own-ev-refresh-zeekr-service",
+        "audit-zeekr-7x-service-current",
+        "audit-zeekr-7x-launch-service-table",
+        "audit-zeekr-7x-warranty-policy",
+        "audit-zeekr-7x-lr-introduction",
+        "audit-zeekr-7x-rwd-racv-october",
+        "audit-zeekr-7x-manual-market-caution"
+      ]
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "zeekr-7x",
+      "rating": null,
+      "outOf": 5,
+      "count": null,
+      "scope": "No verified Australian 7X-only aggregate. ProductReview shows 17 reviews and 2.0/5 for a mixed Zeekr dealership/brand page; it includes other models and delivery/service experiences.",
+      "summary": "Withhold the 7X numerical owner score. Mixed brand/dealer ratings and first-person forum posts do not establish model reliability or annual failure rates.",
+      "positiveThemes": [
+        "Some identified 7X buyers praise comfort, packaging and purchase experience; selection is not representative."
+      ],
+      "negativeThemes": [
+        "Identified 7X customers report communication/delivery frustrations.",
+        "Long-term Australian model-only owner count and failure/cost distribution remain unavailable."
+      ],
+      "sourceIds": [
+        "audit-zeekr-7x-owner-aggregate-scope"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-zeekr-7x-racv-rwd-20261014",
+      "familyId": "zeekr-7x",
+      "vehicleIds": [
+        "zeekr7x-rwd-2025"
+      ],
+      "tested": "2026 Zeekr 7X RWD 75 kWh — two-week Australian city/country test",
+      "scope": "Exact standard RWD, published 14 October 2026. Not a Long Range or Performance test, and not a reliability survey.",
+      "publisher": "RACV",
+      "published": "2026-10-14",
+      "checked": "2026-10-18",
+      "rating": null,
+      "outOf": 10,
+      "verdict": "Strong packaging, comfort and fast charging; frequent screen interaction and limited voice assistance weaken daily usability.",
+      "positiveThemes": [
+        "Generous rear passenger/storage space and near 90-degree rear-door opening.",
+        "Refined ride/noise isolation and convenient charging."
+      ],
+      "negativeThemes": [
+        "Touchscreen dependence and voice limitations distract during everyday controls.",
+        "Hard centre backrest, no spare wheel and no emergency-call system noted."
+      ],
+      "sourceIds": [
+        "audit-zeekr-7x-rwd-racv-october"
+      ]
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "zeekr-7x",
+      "low": 1520,
+      "high": 4000,
+      "point": 2270,
+      "basis": "Youi actual 7X policies sold 22 Nov 2025–22 May 2026: 80% of applicable comprehensive premiums fell within or below A$1,520–3,026. This is not stated to be a mean, median or middle-80% interval. The A$2,270 point is a rounded arithmetic midpoint chosen for planning. National mixed trims and households; A$1,520–4,000 sensitivity bounds are assumptions. Obtain your own postcode, driver, excess and use quote.",
+      "confidence": "low",
+      "sourceIds": [
+        "audit-zeekr-7x-insurance-youi"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "zeekr7x-rwd-2025",
+      "point": 900,
+      "low": 450,
+      "high": 2000,
+      "confidence": "low",
+      "basis": "ESTIMATE retained: A$900/year savings reserve (A$450–2,000 sensitivity). Young Australian fleet, 5-year private-use basic cover and 8-year /  160,000 km HV cover limit current owner-paid defect exposure. RWD and Long Range use conventional suspension and no automatic-door package; do not charge them an AWD air-strut repair risk. No matched Australian annual failure-cost dataset or installed battery/electronic/strut quote was verified. Network/parts uncertainty is not evidence of a higher failure rate. Excludes servicing, tyres and insured crashes; claim warranty/recall remedies first. Full-pack stress case is separate.",
+      "sourceIds": [
+        "audit-zeekr-7x-warranty-policy",
+        "audit-zeekr-7x-brochure-au",
+        "audit-zeekr-7x-service-current"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "zeekr7x-long-range-2025",
+      "point": 900,
+      "low": 450,
+      "high": 2000,
+      "confidence": "low",
+      "basis": "ESTIMATE retained: A$900/year savings reserve (A$450–2,000 sensitivity). Young Australian fleet, 5-year private-use basic cover and 8-year /  160,000 km HV cover limit current owner-paid defect exposure. RWD and Long Range use conventional suspension and no automatic-door package; do not charge them an AWD air-strut repair risk. No matched Australian annual failure-cost dataset or installed battery/electronic/strut quote was verified. Network/parts uncertainty is not evidence of a higher failure rate. Excludes servicing, tyres and insured crashes; claim warranty/recall remedies first. Full-pack stress case is separate.",
+      "sourceIds": [
+        "audit-zeekr-7x-warranty-policy",
+        "audit-zeekr-7x-brochure-au",
+        "audit-zeekr-7x-service-current"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "zeekr7x-rwd-2025",
+      "scope": "exact",
+      "summary": "Wide-opening RWD rear doors are independently evidenced; a safe mixed three-seat arrangement including one rear-facing remains unverified. ANCAP single-position installation is not three-across proof.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Target: one rear-facing plus two forward-facing seats/boosters. No verified matching simultaneous installation. Community powered-door test appears to be Performance; the named b-grow seat is forward-facing-only, so its rear-facing claim cannot establish a safe combination.",
+          "sourceIds": [
+            "audit-zeekr-7x-ancap-report",
+            "audit-zeekr-7x-community-fit-caution",
+            "audit-zeekr-7x-britax-bgrow-manual"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No independent daily booster-buckle access test with all three restraints installed.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "unknown",
+          "detail": "RWD reviewers report generous adult leg/headroom, but no measured front adult position or restraint clearance with the target rear-facing seat installed. Body width and adult space do not resolve that gap.",
+          "sourceIds": [
+            "audit-zeekr-7x-rwd-practical",
+            "audit-zeekr-7x-rwd-racv-october"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Exact standard RWD long-term test confirms rear doors open 90 degrees, helping child-seat loading. Rear-facing installation still needs a household trial.",
+          "sourceIds": [
+            "audit-zeekr-7x-rwd-practical",
+            "audit-zeekr-7x-brochure-au"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "zeekr7x-long-range-2025",
+      "scope": "related",
+      "summary": "Wide-opening RWD rear doors are independently evidenced; a safe mixed three-seat arrangement including one rear-facing remains unverified. ANCAP single-position installation is not three-across proof.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Target: one rear-facing plus two forward-facing seats/boosters. No verified matching simultaneous installation. Community powered-door test appears to be Performance; the named b-grow seat is forward-facing-only, so its rear-facing claim cannot establish a safe combination.",
+          "sourceIds": [
+            "audit-zeekr-7x-ancap-report",
+            "audit-zeekr-7x-community-fit-caution",
+            "audit-zeekr-7x-britax-bgrow-manual"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No independent daily booster-buckle access test with all three restraints installed.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "unknown",
+          "detail": "RWD reviewers report generous adult leg/headroom, but no measured front adult position or restraint clearance with the target rear-facing seat installed. Body width and adult space do not resolve that gap.",
+          "sourceIds": [
+            "audit-zeekr-7x-rwd-practical",
+            "audit-zeekr-7x-rwd-racv-october"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Related standard RWD long-term test confirms rear doors open 90 degrees; Australian brochure shows both rear-drive grades without powered automatic doors. Trial loading with your rear-facing seat.",
+          "sourceIds": [
+            "audit-zeekr-7x-rwd-practical",
+            "audit-zeekr-7x-brochure-au"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Mixed-facing fit remains unverified. Added a scoped standard-RWD energy-use observation and 18.2 kWh/100 km planning estimate. Confirmed RWD/LR equipment and found a market mismatch in a community-hosted manual. Prices, insurance, tyres and repair reserves were verified or retained as clearly labelled estimates.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "verified",
+        "finding": "Re-opened QLD new stock: standard RWD, 30 km, A$64,109 drive-away (n=1); Long Range, two distinct VINs, 0/30 km, A$71,805 each (n=2). No representative used-market value. Base RRPs A$57,900/A$63,900 exclude charges; stock options differ.",
+        "sourceIds": [
+          "audit-zeekr-7x-stock-rwd-qld",
+          "audit-zeekr-7x-stock-lr-hz2033",
+          "audit-zeekr-7x-stock-lr-hz2137",
+          "audit-zeekr-7x-lr-introduction"
+        ],
+        "vehicleIds": [
+          "zeekr7x-rwd-2025",
+          "zeekr7x-long-range-2025"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "verified",
+        "finding": "Australian RWD: 75 kWh LFP, 480 km WLTP target, 450 kW conditional DC. Long Range: 100 kWh NCM, 615 km target, 420 kW DC. Both list 22 kW AC. RWD observations of 15.6 and 18.2 kWh/100 km have unspecified meter boundaries and remain separate from official facts. No matched AAA result found.",
+        "sourceIds": [
+          "audit-zeekr-7x-brochure-au",
+          "audit-zeekr-7x-model-au",
+          "audit-zeekr-7x-rwd-three-month",
+          "audit-zeekr-7x-rwd-racv-october"
+        ],
+        "vehicleIds": [
+          "zeekr7x-rwd-2025",
+          "zeekr7x-long-range-2025"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "conflict",
+        "finding": "Australian ANCAP confirms two outer ISOFIX positions and three rear top tethers, with each restraint assessed separately. No reliable simultaneous one-rear-facing-plus-two-other trial, buckle test or front-seat-clearance measurement. RWD doors open 90 degrees. Community manual front anchors conflict with the local map; contradictory forum fit claim excluded.",
+        "sourceIds": [
+          "audit-zeekr-7x-ancap-report",
+          "audit-zeekr-7x-rwd-practical",
+          "audit-zeekr-7x-brochure-au",
+          "audit-zeekr-7x-manual-market-caution",
+          "audit-zeekr-7x-community-fit-caution",
+          "audit-zeekr-7x-britax-bgrow-manual"
+        ],
+        "vehicleIds": [
+          "zeekr7x-rwd-2025",
+          "zeekr7x-long-range-2025"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Current Australian private-use basic cover: 5 years/unlimited km. HV battery: 8 years/160,000 km and 70% capacity threshold. Auxiliary battery, lighting and alignment cover is shorter. Original contract, service history and used-buyer eligibility need VIN confirmation.",
+        "sourceIds": [
+          "audit-zeekr-7x-warranty-policy",
+          "audit-zeekr-7x-service-current"
+        ],
+        "vehicleIds": [
+          "zeekr7x-rwd-2025",
+          "zeekr7x-long-range-2025"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "conflict",
+        "finding": "Launch recommendation: 24 months/40,000 km plus optional interim checks. First-five-year basic services A$1,755; all checks A$2,385. Retain A$500/year, A$350–650 sensitivity, because fresh Australian reviews cannot confirm the current tariff. Confirm the actual Australian VIN schedule and harsh-use requirements.",
+        "sourceIds": [
+          "audit-zeekr-7x-launch-service-table",
+          "audit-zeekr-7x-lr-introduction",
+          "audit-zeekr-7x-rwd-racv-october",
+          "audit-zeekr-7x-manual-market-caution",
+          "audit-zeekr-7x-service-current"
+        ],
+        "vehicleIds": [
+          "zeekr7x-rwd-2025",
+          "zeekr7x-long-range-2025"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "Actual Youi 7X premium range A$1,520–3,026, with 80% within or below it. Retain the A$2,270 planning midpoint. This is neither a household quote nor a published average; postcode, driver, excess, use and trim matter.",
+        "sourceIds": [
+          "audit-zeekr-7x-insurance-youi"
+        ],
+        "vehicleIds": [
+          "zeekr7x-rwd-2025",
+          "zeekr7x-long-range-2025"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Standard RWD and Long Range use 255/50 R19; LR may have optional 20-inch wheels. JAX Zeekr-marked Pirelli retail anchor A$379 each fitted = A$1,516/set. Current four-buy promotion A$1,212.80/set is temporary. Retain assumed 35,000 km life, about A$650/year at 15,000 km. Confirm placard and local quote.",
+        "sourceIds": [
+          "audit-zeekr-7x-rvd-tyres",
+          "audit-zeekr-7x-tyres-jax",
+          "audit-zeekr-7x-brochure-au"
+        ],
+        "vehicleIds": [
+          "zeekr7x-rwd-2025",
+          "zeekr7x-long-range-2025"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "gap",
+        "finding": "No model-specific Australian annual failure-cost average or installed HV/electronics/strut invoice verified. Retain low-confidence A$900/year savings reserve, A$450–2,000 sensitivity. Do not import Performance air-suspension or automatic-door risks into RWD. No indexed recall notice found; interactive register/VIN outcome remains unverified.",
+        "sourceIds": [
+          "audit-zeekr-7x-warranty-policy",
+          "audit-zeekr-7x-brochure-au",
+          "audit-zeekr-7x-recalls-search",
+          "audit-zeekr-7x-service-current"
+        ],
+        "vehicleIds": [
+          "zeekr7x-rwd-2025",
+          "zeekr7x-long-range-2025"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "gap",
+        "finding": "CarsGuide’s standard-RWD three-month 8.3/10 verdict is not a reliability survey. Added fresh RACV packaging/charging praise and control-distraction criticism. ProductReview 2.0/5 from 17 is a mixed brand/dealer aggregate and is excluded from the 7X owner score.",
+        "sourceIds": [
+          "audit-zeekr-7x-rwd-three-month",
+          "audit-zeekr-7x-rwd-racv-october",
+          "audit-zeekr-7x-owner-aggregate-scope"
+        ],
+        "vehicleIds": [
+          "zeekr7x-rwd-2025",
+          "zeekr7x-long-range-2025"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "2025 five-star ANCAP covers all Australian variants: 91% adult and 87% child. A cabin camera is not qualified child-presence detection. ROVER applicant declares 2,000 kg braked/750 kg unbraked towing; confirm loaded VIN limits. QLD private EV registration plus CTP: A$782.15–798.15 from 1 October 2026. Resale and future repair costs remain estimates.",
+        "sourceIds": [
+          "audit-zeekr-7x-ancap",
+          "audit-zeekr-7x-ancap-report",
+          "audit-zeekr-7x-rvd-variants",
+          "audit-zeekr-7x-qld-registration"
+        ],
+        "vehicleIds": [
+          "zeekr7x-rwd-2025",
+          "zeekr7x-long-range-2025"
+        ]
+      }
+    ]
+  }
+}

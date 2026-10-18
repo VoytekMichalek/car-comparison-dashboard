@@ -1,5 +1,19 @@
 # Validation record — 18 October 2026
 
+## Latest: model-by-model audit and rear-facing target — 18 October 2026
+
+- **116 automated tests pass across six suites.** Strict TypeScript and production build pass. Build retains the existing Zod annotation notices and a large static research-chunk warning; the research chunk is about 311 kB compressed. No runtime vehicle-data API is required.
+- All **19 model families / 35 configurations** have dedicated audit reports, **190 item checks** and **35 structured fit assessments**. The integrated registry has **1,090 source records / 644 distinct URLs**, 35 price snapshots, 85 physical asking observations and 23 distinct local reference photos. A source record can reuse a URL; counts are not measures of certainty.
+- Dataset tests validate update identities and family scope, all audit categories/configuration coverage, source references, units, ordered prices and samples, image paths and original review scales. Regression checks distinguish original Model Y 8.6/10 fit from old RAV4 6.4/10, preserve the Atto mixed result, and withhold unestablished or unresolved mixed arrangements and positive badges.
+- Family scoring targets one rear-facing plus two forward-facing seats/boosters. Unknown criteria carry no score or weight. Related-configuration evidence has reduced influence. Outlander manual-guidance conflicts remain explicit; no blanket prohibition is invented. The independent evidence review spot-checked published facing photographs and current primary/market sources.
+- Observed EV energy is separate from lab claims. Tests verify mains figures are not charged losses twice, battery figures are adjusted once, household overrides still win, and fuel-only/PHEV units remain separate. The original Model Y RWD budget remains A$6,015.15 including its A$1,000 repair savings contribution, A$5,015.15 before that fund, and A$2,000 insurance.
+- Five new migration cases verify legacy fit confirmations reset for the changed target while notes, seat-model text, listings, favourites, costs and weights survive. Current-target confirmations persist through storage and backup round-trips; unsupported markers fail without replacing storage. An independent final review found no migration/persistence defect.
+- Production-preview browser: every vehicle page, with disclosures expanded, was checked at **320×740 and 1024×900**, with no internal or document horizontal overflow. All 35 show ten audit items. Browse, Scores, Notebook and all four Ownership tabs also fit at **390×844**. The ownership table remains a labelled phone layout without sideways scrolling.
+- Mobile comparison shows Model Y 8.6 versus old RAV4 6.4, and EV6's unestablished mixed arrangement as No data / excluded. Expanded evidence fits at 320px. Car photos/names remain at 60px below the mobile app bar after scrolling. Comparison links preserve the selected configurations.
+- A synthetic legacy backup was selected through the normal import UI: its review dialog explains the required rear-facing recheck and fits the 390px viewport (352px client/scroll width). The import was cancelled; existing preview notebook data was not replaced. The production preview reported no JavaScript errors. No physical iOS/Android device or real restraint installation was tested.
+- Individual findings and source limitations: [model audit index](research/README.md). The earlier records below describe previous releases and may contain superseded defaults.
+
+
 ## Weight reset feedback
 
 - Reset restored the original weights during reproduction, but gave no confirmation and remained enabled when defaults were already active.

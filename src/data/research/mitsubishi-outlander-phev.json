@@ -1,0 +1,1029 @@
+{
+  "familyId": "mitsubishi-outlander-phev",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-mitsubishi-outlander-phev-my24",
+      "title": "Australian MY24 Outlander PHEV brochure: five-seat Aspire specifications",
+      "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/vehicle-brochures/24MY%20Outlander%20Brochure.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-my25",
+      "title": "Australian updated MY25 Outlander PHEV brochure: 22.7 kWh / seven-seat Aspire",
+      "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/vehicle-brochures/25MY%20Outlander%20PHEV%20Brochure.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-battery-warranty",
+      "title": "Mitsubishi Australian warranty and Drive Battery Capacity Care",
+      "url": "https://www.mitsubishi-motors.com.au/owners/diamond-advantage/warranty.html",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-warranty-terms",
+      "title": "Mitsubishi Diamond Advantage complete terms, October 2023: transfer, servicing and limited-life exclusions",
+      "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/diamond-advantage/Mitsubishi-Diamond-Advantage-Full-Terms-and-Conditions-October-2023.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-my23-caps",
+      "title": "MY23 Outlander PHEV archived ten-service schedule: A$5,090",
+      "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/cps-updates/outlander/2020-10-01-2025-11-30/23MY_Outlander%20PHEV_4x4_2_4L_CPS_A4.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-my24-caps",
+      "title": "MY24 Outlander PHEV purchased by 30 November 2025: ten services A$5,490",
+      "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/cps-updates/outlander/2020-10-01-2025-11-30/24MY_Outlander%20PHEV_4x4_2_4L_CPS_A4.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-my25-caps",
+      "title": "Updated MY25 Outlander PHEV purchased from 1 April 2026: ten services A$5,718",
+      "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/cps-updates/outlander/2026-04-01/25MY_Outlander_PHEV_4x4_24L_Purchased%20from%201%20April%202026_CPS_A4.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-maintenance",
+      "title": "22MY ZM PHEV maintenance schedule: normal and severe-use fluids",
+      "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/maintenance-schedules/22MY%20ZM%20Outlander%20Plug-In%20Hybrid%20service%20schedule%20%28WEB%29%20FINAL.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-ancap-2022",
+      "title": "ANCAP 2022 Outlander technical report: individual restraint installation limitations",
+      "url": "https://cdn.ancap.com.au/app/public/assets/e9e2fecc6529d6359a9ffaeb24ea46dd625b1414/original.pdf?1758674620=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-ancap-2025",
+      "title": "ANCAP 2025 Outlander technical report: PHEV build applicability and third-row prohibition",
+      "url": "https://cdn.ancap.com.au/app/public/assets/a9a3ec37533de52f9c73446393cdc3001f9fcbf1/original.pdf?1758594945=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-mixed-fit",
+      "title": "BabyDrive April 2025 ES 20 kWh test: three across including rear-facing capsule, adult clearance",
+      "url": "https://babydrive.com.au/reviews/electric-cars/2025-mitsubishi-outlander-phev-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-southport-fu34705",
+      "title": "Used MY24 five-seat Aspire FU34705: A$44,990 drive-away / 43,477 km",
+      "url": "https://www.carsales.com.au/cars/details/2024-mitsubishi-outlander-phev-aspire-zm-auto-awd-my24/OAG-AD-26149455/",
+      "publisher": "carsales / dealer advertisement",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-hendra-h31146",
+      "title": "Used five-seat Aspire H31146: A$48,500 drive-away / 7,815 km",
+      "url": "https://www.carsguide.com.au/car/15341035/mitsubishi/outlander/qld/hendra/suv",
+      "publisher": "CarsGuide / dealer advertisement",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-alto-0003054294",
+      "title": "Updated new seven-seat Aspire 0003054294: A$67,420 drive-away / 15 km, NSW",
+      "url": "https://www.alto.com.au/stock/details/OAG-AD-26074834/2026-mitsubishi-outlander-new",
+      "publisher": "Alto Group",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-launceston-0003054277",
+      "title": "Updated new seven-seat Aspire 0003054277: current dealer HTML A$72,490 / 15 km, Tasmania",
+      "url": "https://www.launcestonmitsubishi.com.au/cars/new-white-diamond-2026-mitsubishi-outlander-0003054277",
+      "publisher": "Launceston Mitsubishi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-aspire-roadtest",
+      "title": "CarExpert 2023 Aspire road test: depleted 7.2 L/100 km over approximately 50 km",
+      "url": "https://www.carexpert.com.au/car-reviews/2023-mitsubishi-outlander-phev-aspire-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-updated-roadtest",
+      "title": "CarExpert updated 2026 Exceed test: mixed consumption is not depleted or EV-only",
+      "url": "https://www.carexpert.com.au/car-reviews/2026-mitsubishi-outlander-phev-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-whichcar-aspire",
+      "title": "WhichCar 2024 Aspire review: 7.5/10, road test July 2023 / pricing update October 2023",
+      "url": "https://www.whichcar.com.au/reviews/2024-mitsubishi-outlander-aspire-phev-review",
+      "publisher": "WhichCar",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-owner-scope",
+      "title": "ProductReview ZM PHEV page: four reviews include one pre-ZM 2021 GSR",
+      "url": "https://www.productreview.com.au/listings/mitsubishi-outlander-4th-gen-zm-phev",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-insurance-proxy",
+      "title": "Compare the Market March 2026 HEV/PHEV insurance study: no Outlander-specific quote",
+      "url": "https://www.comparethemarket.com.au/news/ev-insurance-up-in-12-months/",
+      "publisher": "Compare the Market Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-youi-mixed",
+      "title": "Youi Outlander premiums: mixed years / powertrains, not PHEV-specific",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/mitsubishi",
+      "publisher": "Youi Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-tyre-retail",
+      "title": "JAX 255/45R20 105Y XL Michelin Pilot Sport 4 SUV: A$505 each",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/20-inch/255-45r20",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-tyre-inclusions",
+      "title": "JAX purchase FAQ: fitting, balancing, valve, waste fee and GST included",
+      "url": "https://www.jaxtyres.com.au/tyre-stores/nsw/thornleigh",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-camera-recall",
+      "title": "REC-005692 / 010172: affected MY22/MY23 PHEV rear-camera software, free remedy",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005692",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-steering-scope",
+      "title": "REC-006322 / 010175: Exceed / Exceed Tourer steering sensor campaign, not an Aspire-wide fault",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006322",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-other-camera-vins",
+      "title": "REC-005938 / 010174: selected MY22 Outlander infotainment / rear camera VINs",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005938",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-key-warning-vins",
+      "title": "REC-005634: selected Mitsubishi VINs, missing key button-battery warnings",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005634",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-qld-rego",
+      "title": "QLD registration as at 1 October 2026: four-cylinder private Class 1 CTP band",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-qld-duty",
+      "title": "QLD registration duty: hybrid rate, including plug-in hybrids",
+      "url": "https://www.qld.gov.au/transport/registration/fees/duty/rates",
+      "publisher": "Queensland Government",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-current-dealer-connectors",
+      "title": "Australian authorised dealer updated PHEV range: seating and Type 2 / CHAdeMO connectors",
+      "url": "https://www.newenglandmitsubishi.com.au/models/outlander-plug-in-hybrid-ev",
+      "publisher": "New England Mitsubishi",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-phev-manual-conflict",
+      "title": "Outlander three-seat manual caution: conflicting manufacturer explanations, scope to confirm",
+      "url": "https://babydrive.com.au/news/mitsubishi-outlander-child-seat-confusion-and-why-the-nissan-x-trail-matters/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "outlander-phev-aspire-20",
+      "checked": "2026-10-18",
+      "sourceIds": [
+        "hy-recalls",
+        "hy-out-23",
+        "hy-out-24",
+        "hy-out-fit",
+        "hy-out-safe-old",
+        "hy-out-safe-new",
+        "hy-out-warranty",
+        "hy-out-service",
+        "hy-out-recall",
+        "hy-out-used",
+        "hy-refresh-out-aspire-depleted",
+        "audit-mitsubishi-outlander-phev-my24",
+        "audit-mitsubishi-outlander-phev-battery-warranty",
+        "audit-mitsubishi-outlander-phev-warranty-terms",
+        "audit-mitsubishi-outlander-phev-ancap-2022",
+        "audit-mitsubishi-outlander-phev-mixed-fit"
+      ],
+      "battery": {
+        "value": 20,
+        "unit": "kWh",
+        "basis": "Manufacturer-rated pack capacity; usable capacity not confirmed",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my24"
+        ]
+      },
+      "range": {
+        "value": 84,
+        "unit": "km",
+        "basis": "Electric only · ADR 81/02 / NEDC claim; not WLTP",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my24"
+        ]
+      },
+      "boot": {
+        "value": 494,
+        "unit": "L",
+        "basis": "MY24 manufacturer VDA, five seats upright to seatback. Earlier MY23 road tests quote 485 L; that difference is unresolved for earlier grouped cars.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my24"
+        ]
+      },
+      "length": {
+        "value": 4710,
+        "unit": "mm",
+        "basis": "Overall body length",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my24"
+        ]
+      },
+      "width": {
+        "value": 1862,
+        "unit": "mm",
+        "basis": "Body width; mirrors excluded",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my24"
+        ]
+      },
+      "towing": {
+        "value": 1600,
+        "unit": "kg",
+        "basis": "Maximum braked trailer capacity; loading and towbar limits apply",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my24"
+        ]
+      },
+      "summary": "Five-seat used PHEV with related-trim evidence for three restraints including a rear-facing capsule. Check the centre seat and front clearance with your own restraints.",
+      "familyFit": {
+        "status": "limitations",
+        "summary": "Related physical three-seat evidence is retained, but current Outlander manual guidance is disputed. This PHEV’s permitted mixed arrangement needs clarification; no family-fit score is assigned.",
+        "row2": "Two outboard ISOFIX pairs and three top tethers; centre tether is in the roof above the boot. ANCAP found a selected convertible and booster incompatible with the centre position.",
+        "row3": "No third row in this Aspire. Do not substitute seven-seat Exceed evidence.",
+        "testedSeats": "BabyDrive, April 2025 ES 20 kWh: three across including a rear-facing infant capsule. Full restraint models and positions are not named in the article.",
+        "buckleAccess": "Daily booster-buckle reach with three restraints was not assessed.",
+        "access": "Tester found the outboard ISOFIX and tether connections easy to use; centre tether connects through the boot. Fit your seats before judging daily loading.",
+        "ventilation": "Rear centre-console vents; two rows. Aspire has no sliding second row in the original 2023 test.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-mixed-fit",
+          "audit-mitsubishi-outlander-phev-ancap-2022",
+          "audit-mitsubishi-outlander-phev-my24",
+          "audit-mitsubishi-outlander-phev-aspire-roadtest",
+          "audit-mitsubishi-outlander-phev-manual-conflict"
+        ]
+      },
+      "gaps": [
+        "Your rear-facing seat, two other restraints, booster buckles and both adult front positions remain untested.",
+        "No exact Aspire mixed-restraint test found. The ES test supports a related cabin, not every seat combination.",
+        "Peak Australian AC/DC kW and EV-only purchased-energy consumption remain unverified; do not substitute mixed petrol/electric dashboard readings.",
+        "MY24 maker boot is 494 L; earlier Aspire tests quote 485 L. Confirm the actual build rather than treating grouped years as identical.",
+        "2021 ZL predecessor and original seven-seat Exceed are separate configurations."
+      ],
+      "inspection": [
+        "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
+        "Ask for proof that applicable rear-view camera software recall REC-005692 was completed.",
+        "Request a battery health report and demonstrate charging from your planned AC equipment.",
+        "Identify the 20 kWh specification from build/VIN, rather than registration year alone.",
+        "Australian MY 24 brochure specifies unleaded, minimum 91 RON recommended; select the matching fuel grade when editing petrol-cost assumptions.",
+        "The 7.2 L/100 km depleted figure is one roughly 50 km indicated test, not a repeatable lab or annual-cost guarantee. Do not buy grid electricity for its reported 19.6 kWh/100 km hybrid energy display; that includes energy generated by the petrol engine.",
+        "Try the rear-facing seat with the front seat set for each adult, then fit the centre restraint and check all buckle access.",
+        "Confirm the full Mitsubishi PHEV-dealer service history and remaining cover; several wear components have much shorter warranty terms."
+      ]
+    },
+    {
+      "id": "outlander-phev-aspire-227",
+      "checked": "2026-10-18",
+      "sourceIds": [
+        "hy-recalls",
+        "hy-out-current",
+        "hy-out-25",
+        "hy-out-dealer",
+        "hy-out-safe-new",
+        "hy-out-warranty",
+        "hy-out-fit",
+        "own-hy-refresh-out25-cps",
+        "audit-mitsubishi-outlander-phev-my25",
+        "audit-mitsubishi-outlander-phev-battery-warranty",
+        "audit-mitsubishi-outlander-phev-warranty-terms",
+        "audit-mitsubishi-outlander-phev-ancap-2025",
+        "audit-mitsubishi-outlander-phev-mixed-fit"
+      ],
+      "battery": {
+        "value": 22.7,
+        "unit": "kWh",
+        "basis": "Manufacturer-rated pack capacity",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my25"
+        ]
+      },
+      "range": {
+        "value": 103,
+        "unit": "km",
+        "basis": "Electric only · Australian manufacturer ADR 81/02 / NEDC claim",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my25"
+        ]
+      },
+      "boot": {
+        "value": 468,
+        "unit": "L",
+        "basis": "VDA to top of second-row seatback; second row upright, third row folded; updated seven-seat Aspire",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my25"
+        ]
+      },
+      "bootAllRows": {
+        "value": 191,
+        "unit": "L",
+        "basis": "VDA to top of third-row seatback; all seven seats upright",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my25"
+        ]
+      },
+      "length": {
+        "value": 4720,
+        "unit": "mm",
+        "basis": "Overall body length; updated 22.7 kWh model",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my25"
+        ]
+      },
+      "width": {
+        "value": 1862,
+        "unit": "mm",
+        "basis": "Body width; mirrors excluded",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my25"
+        ]
+      },
+      "towing": {
+        "value": 1600,
+        "unit": "kg",
+        "basis": "Maximum braked trailer capacity; 160 kg maximum towball load and loading/towbar limits apply",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my25"
+        ]
+      },
+      "familyFit": {
+        "status": "limitations",
+        "summary": "Updated PHEV mixed fit is unverified. A new Outlander manual-guidance conflict also needs exact-PHEV clarification; no family-fit score is assigned.",
+        "row2": "Two outboard ISOFIX pairs and three top tethers. ANCAP tests restraints individually; this does not prove simultaneous three-across fit.",
+        "row3": "ANCAP does not recommend child restraints in row three because top tethers are absent.",
+        "testedSeats": "The available BabyDrive rear-facing three-across test is an earlier five-seat ES 20 kWh, not this updated seven-seat Aspire.",
+        "buckleAccess": "No exact updated Aspire three-seat booster-buckle test found.",
+        "access": "Third-row access while second-row restraints remain installed has not been verified. Check overhead centre-tether routing with any third-row passengers.",
+        "ventilation": "Aspire has rear air vents and dual-zone climate control; tri-zone controls are higher-grade equipment. Dedicated third-row vents not verified.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my25",
+          "audit-mitsubishi-outlander-phev-ancap-2025",
+          "audit-mitsubishi-outlander-phev-mixed-fit",
+          "audit-mitsubishi-outlander-phev-manual-conflict"
+        ]
+      },
+      "gaps": [
+        "Peak AC/DC kW and electric-distance / charge-depleted consumption are not stated in the verified Australian brochure.",
+        "Captured exact new asking prices are interstate; Queensland transport, registration and buyer-specific charges need a local quote.",
+        "Australian MY 25 brochure and advertised 2026 retail/model years overlap; check battery, build and seating rather than registration year alone.",
+        "No exact updated seven-seat Aspire three-across test or booster-buckle clearance measurement verified.",
+        "An earlier five-seat rear-facing fit does not establish this updated Aspire combination.",
+        "Do not use the updated Exceed road test’s 5.2 L/100 km and 20.0 kWh/100 km mixed results as depleted fuel or pure-electric consumption."
+      ]
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "hy-price-out-used",
+      "vehicleId": "outlander-phev-aspire-20",
+      "low": 44990,
+      "high": 48500,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 2,
+      "geography": "Queensland · two dealer-used MY24 / original five-seat 20 kWh Aspire cars",
+      "kilometres": "7,815–43,477 km",
+      "observed": "2026-10-18",
+      "note": "Current release recheck excludes Ross Gray 00040414 / A$40,840: exact detail Offer is SoldOut even though visible inventory/prose still advertises the car and conflicting fees. Sold Motorama U226401 is also excluded. The remaining two examples are original five-seat / 20 kWh MY24 cars; their very different kilometres affect price. Asking sample, not valuation.",
+      "sourceIds": [
+        "audit-mitsubishi-outlander-phev-southport-fu34705",
+        "audit-mitsubishi-outlander-phev-hendra-h31146"
+      ],
+      "confidence": "medium",
+      "estimateBasis": "Median of the distinct, specifically matched advertised cars below; an asking-price sample, not a valuation or achieved sale price. Current public HTML/stock and seller-posted advertisements checked; availability and buyer-specific on-road charges still require confirmation.",
+      "point": 46745.0,
+      "kind": "observation",
+      "observations": [
+        {
+          "price": 44990,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 43477,
+          "location": "Southport, QLD",
+          "url": "https://www.carsales.com.au/cars/details/2024-mitsubishi-outlander-phev-aspire-zm-auto-awd-my24/OAG-AD-26149455/",
+          "sourceId": "audit-mitsubishi-outlander-phev-southport-fu34705",
+          "checked": "2026-10-18",
+          "note": "Stock FU34705; used MY24, May 2024 build, five seats and 20 kWh explicitly listed. Exact active advertisement and Queensland asking-price result checked; advertised sale discount is already included."
+        },
+        {
+          "price": 48500,
+          "basis": "drive-away",
+          "year": 2025,
+          "kilometres": 7815,
+          "location": "Hendra, QLD",
+          "url": "https://www.carsguide.com.au/car/15341035/mitsubishi/outlander/qld/hendra/suv",
+          "sourceId": "audit-mitsubishi-outlander-phev-hendra-h31146",
+          "checked": "2026-10-18",
+          "note": "Stock H31146, VIN JMFXDGN0WRZ012154, rego 562NS5; current InStock HTML confirms MY24 five seats/84 km electric range, original 20 kWh generation. Odometer is now 7,815 km; earlier 3,128 km index is superseded."
+        }
+      ]
+    },
+    {
+      "id": "hy-price-out-new",
+      "vehicleId": "outlander-phev-aspire-227",
+      "low": 67420,
+      "high": 72490,
+      "condition": "new",
+      "basis": "drive-away",
+      "sampleCount": 2,
+      "geography": "National examples · one NSW and one Tasmania new car; no Queensland on-road quote",
+      "kilometres": "15 km",
+      "observed": "2026-10-18",
+      "note": "Two distinct exact updated Aspire cars. Dealer-local drive-away charges differ by state; transport and Queensland registration/duty adjustments are not included. This is not a Queensland market band. Calendar/build/model-year overlap is recorded explicitly.",
+      "sourceIds": [
+        "audit-mitsubishi-outlander-phev-alto-0003054294",
+        "audit-mitsubishi-outlander-phev-launceston-0003054277"
+      ],
+      "confidence": "medium",
+      "estimateBasis": "Median of the distinct, specifically matched advertised cars below; an asking-price sample, not a valuation or achieved sale price. Current public HTML/stock and seller-posted advertisements checked; availability and buyer-specific on-road charges still require confirmation.",
+      "kind": "observation",
+      "point": 69955.0,
+      "observations": [
+        {
+          "price": 67420,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 15,
+          "location": "Pennant Hills, NSW",
+          "url": "https://www.alto.com.au/stock/details/OAG-AD-26074834/2026-mitsubishi-outlander-new",
+          "sourceId": "audit-mitsubishi-outlander-phev-alto-0003054294",
+          "checked": "2026-10-18",
+          "note": "New stock 0003054294, VIN JMFXDGN0WSZ000706; advertised 2026, seven seats/22.7 kWh, built August 2025 and complied December 2025. NewCondition/InStock and A$67,420 DAP verified in current dealer HTML."
+        },
+        {
+          "price": 72490,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 15,
+          "location": "Launceston, TAS",
+          "url": "https://www.launcestonmitsubishi.com.au/cars/new-white-diamond-2026-mitsubishi-outlander-0003054277",
+          "sourceId": "audit-mitsubishi-outlander-phev-launceston-0003054277",
+          "checked": "2026-10-18",
+          "note": "New stock 0003054277, VIN JMFXDGN0WSZ000893; advertised 2026 updated seven-seat Aspire. Current dealer HTML A$72,490/15 km supersedes indexed A$72,990/10 km. Direct dealer HTML re-fetched in this audit still shows A$72,490 / 15 km; web index retains stale A$72,990 / 10 km."
+        }
+      ]
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "mitsubishi-outlander-phev",
+      "serviceInterval": "ZM schedules: 12 months or 15,000 km, whichever first; severe-use work can be earlier. Confirm the exact model year and original purchase-date price cohort by VIN.",
+      "serviceAnnual": 550.0,
+      "serviceBasis": "ESTIMATE — A$550/year for the grouped original 20 kWh Aspire at 15,000 km/year. Maker archive now verified: MY23 ten services A$5,090 (A$509/year); MY24 purchased by 30 November 2025 A$5,490 (A$549/year). Later purchase cohorts differ. This allowance is not the remaining-service total for a particular used car. Wear, severe-use extras and repairs are separate; obtain the VIN schedule.",
+      "warrantyCautions": [
+        "Base cover is 5 years / 100,000 km. Eligible 10-year / 200,000-km extension requires every scheduled service from the first at an authorised Mitsubishi dealer, within the published 2-month / 2,000-km timing allowance. Missing one can end the extension while an unexpired base warranty remains; inspect the full history and original customer/use eligibility.",
+        "Drive-battery defects: 8 years/160,000 km for purchases after 1 October 2020. Capacity Care is separate: eligible MY22 onward batteries below 66% usable capacity; pre-MY22 Outlander is excluded. Confirm remaining cover and ownership details.",
+        "Capped servicing follows an eligible used vehicle until expiry; it does not restart at purchase. Prices depend on model year AND original purchase-date cohort. Government/rental and some business customers are excluded. The updated MY25 PHEV schedule for eligible purchases from 1 April 2026 is separately sourced; do not transfer it to earlier used purchases.",
+        "The full terms give shocks/struts, hoses, fuel injectors, LED/HID globes and other listed wear components only 12 months/20,000 km; the original 12 V battery has 12 months. Ten-year vehicle cover does not cover every part for ten years. Warranty transfers with ownership if its conditions remain satisfied; notify Mitsubishi of the transfer."
+      ],
+      "risks": [
+        {
+          "title": "Traction battery outside cover",
+          "detail": "No exact Australian fitted 20/22.7 kWh replacement quote was verified. A diagnostic battery report and warranty eligibility come before pack replacement; the displayed amount is a stress-case estimate, not a predicted failure.",
+          "low": 12000,
+          "high": 22000,
+          "priceBasis": "ESTIMATE — A$12,000–22,000 for a fitted replacement/aftermarket pack scenario, assuming labour and GST. Anchor: an Australian installer advertises an 18 kWh Outlander upgrade at A$14,600 incl GST; widen for newer 20/22.7 kWh packs and OEM sourcing. That upgrade is NOT verified compatible with this generation. No exact VIN quote or failure probability.",
+          "warranty": "Defect and Capacity Care eligibility differ; a qualifying maker remedy may be free.",
+          "sourceIds": [
+            "own-hy-mitsubishi-warranty",
+            "own-hy-mitsubishi-capacity",
+            "own-hy-phev-pack-proxy",
+            "audit-mitsubishi-outlander-phev-battery-warranty",
+            "audit-mitsubishi-outlander-phev-warranty-terms"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Cooling, transaxle and engine work",
+          "detail": "Inspect engine and motor cooling and transaxle leaks. Maker normal-use schedule specifies engine coolant first at 8 years/165,000 km and transaxle oil at 10 years/195,000 km; towing/rough-road use requires transaxle oil every 24 months/30,000 km. These are maintenance requirements, not common-failure claims.",
+          "low": 500,
+          "high": 10000,
+          "priceBasis": "ESTIMATE — A$500–10,000 for ONE diagnosed cooling or major engine/transaxle event, not all systems together. Generic Australian cooling-fan work is A$240–610; a different 1.6T SUV engine is A$6,000–7,500 fitted. Wide PHEV planning allowance adds diagnosis, labour/GST and sourcing uncertainty; assembly replacement can exceed it. Routine servicing is separate.",
+          "warranty": "Scheduled fluids and wear are owner costs; an eligible manufacturing defect may be covered.",
+          "sourceIds": [
+            "own-hy-mitsubishi-maintenance",
+            "own-hy-mitsubishi-warranty",
+            "own-hy-cooling-fan-proxy",
+            "own-hy-engine-repair-proxy",
+            "own-hy-hybrid-inverter-proxy",
+            "audit-mitsubishi-outlander-phev-maintenance"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Rear-camera software recall",
+          "detail": "Check campaign 010172 completion for affected 2021–2023 Outlander/PHEV VINs; camera images can be interrupted.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for the official recall software remedy only, including dealer work; not a general camera-replacement quote.",
+          "warranty": "Free dealer software remedy for an affected VIN; unrelated camera hardware is a separate diagnosis.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-phev-camera-recall"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sourceIds": [
+        "own-hy-mitsubishi-warranty",
+        "own-hy-mitsubishi-capacity",
+        "own-hy-mitsubishi-maintenance",
+        "own-hy-mitsubishi-camera-recall",
+        "own-hy-out-service-caps",
+        "own-hy-mitsubishi-terms",
+        "own-hy-mitsubishi-cps-current",
+        "own-hy-mitsubishi-my24-dec2025-caps",
+        "own-hy-refresh-out25-cps",
+        "audit-mitsubishi-outlander-phev-battery-warranty",
+        "audit-mitsubishi-outlander-phev-warranty-terms",
+        "audit-mitsubishi-outlander-phev-my23-caps",
+        "audit-mitsubishi-outlander-phev-my24-caps",
+        "audit-mitsubishi-outlander-phev-my25-caps",
+        "audit-mitsubishi-outlander-phev-maintenance",
+        "audit-mitsubishi-outlander-phev-camera-recall",
+        "audit-mitsubishi-outlander-phev-steering-scope",
+        "audit-mitsubishi-outlander-phev-other-camera-vins",
+        "audit-mitsubishi-outlander-phev-key-warning-vins"
+      ],
+      "checked": "2026-10-18",
+      "serviceLow": 350,
+      "serviceHigh": 750,
+      "serviceConfidence": "medium",
+      "energyEstimate": {
+        "low": 18,
+        "high": 26,
+        "point": 22,
+        "basis": "ESTIMATE — battery-side kWh/100 km during electric driving for the 20 and 22.7 kWh Outlander PHEVs. Assume 85% usable pack energy (unverified), divide by each stated NEDC range (84/103 km), then allow about 10% road-use uplift: roughly 20.6–22.3. Round to 22 with 18–26 sensitivity. Not a measured consumption claim; apply charging loss once when buying electricity.",
+        "sourceIds": [
+          "own-hy-out-energy-proxy",
+          "own-hy-out-new-energy-proxy"
+        ],
+        "confidence": "low"
+      },
+      "depletedEstimate": {
+        "low": 5.5,
+        "high": 8.5,
+        "point": 7.2,
+        "basis": "ESTIMATE — 7.2 L/100 km planning point, with 5.5–8.5 sensitivity. Anchor is an indicated roughly 50 km depleted city/suburban/highway test of the original 20 kWh Australian Aspire. The exact old-car observation is separately recorded in its vehicle fact. Applying this to the later 22.7 kWh car is an unverified same-family analogue, not its manufacturer figure or a measured later-car result. Weighted 1.5/1.2 are not substituted.",
+        "sourceIds": [
+          "own-hy-refresh-out-depleted"
+        ],
+        "confidence": "low"
+      },
+      "serviceByVehicle": {
+        "outlander-phev-aspire-227": {
+          "serviceAnnual": 571.8,
+          "serviceLow": 377,
+          "serviceHigh": 899,
+          "serviceConfidence": "high",
+          "serviceBasis": "MANUFACTURER PLAN — exact Australian MY25 Outlander 4x4 2.4L PHEV schedule for eligible purchases from 1 April 2026, matching the updated 22.7 kWh brochure designation. Ten normal-use visits at 12 months / 15,000 km cost A$377,449,399,499,399,899,399,899,499,899: A$5,718 over ten years / 150,000 km, or A$571.80/year averaged. The A$377–899 sensitivity is the lowest/highest individual visit, not uncertainty in the published caps. This is not a promise every used VIN has all ten visits remaining. Covered scheduled parts, labour, oils and fluids only; wear, missed-service catch-up, severe-use extras and repairs are additional. Confirm purchase-date eligibility and GST treatment on the dealer invoice."
+        }
+      }
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "mitsubishi-outlander-phev",
+      "rating": null,
+      "outOf": 5,
+      "count": 4,
+      "scope": "No clean configuration-specific owner aggregate verified. Public ZM PHEV page displays 4.7/5 from four reviews, including an explicit 2021 GSR owner from the previous generation.",
+      "summary": "The published 4.7/5 is retained here as context, but excluded from the scored owner rating because the four-review sample mixes generations. The updated 22.7 kWh car has no isolated subset.",
+      "positiveThemes": [
+        "Smooth electric acceleration and quiet running",
+        "Sliding second row and space for family use",
+        "Petrol backup alongside regular electric driving"
+      ],
+      "negativeThemes": [
+        "Some cabin noise and startup/infotainment annoyances",
+        "Third row described by one owner as occasional-use space",
+        "Economy varies with charging and driving mode"
+      ],
+      "sourceIds": [
+        "audit-mitsubishi-outlander-phev-owner-scope"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "mitsubishi-outlander-phev",
+      "low": 1300,
+      "high": 2900,
+      "point": 1900,
+      "basis": "ESTIMATE — A$1,900/year retained: March 2026 HEV/PHEV quote-study mean A$1,709 × assumed 1.10 SUV factor, rounded. Outlander is not a quoted study model. Youi A$785–1,531 covers mixed Outlander years/powertrains; it is not a PHEV quote. A$1,300–2,900 bounds are analyst assumptions. Replace with your address, driver, excess and insured-value quote; CTP is separate in rego.",
+      "confidence": "low",
+      "sourceIds": [
+        "audit-mitsubishi-outlander-phev-insurance-proxy",
+        "audit-mitsubishi-outlander-phev-youi-mixed"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyreUpdates": [
+    {
+      "vehicleId": "outlander-phev-aspire-20",
+      "setCost": 2020,
+      "setLow": 1676,
+      "setHigh": 2600,
+      "lifeKm": 40000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 50000,
+      "confidence": "low",
+      "basis": "ESTIMATE — Aspire maker fitment 255/45R20 101W; chosen retail replacement is 105Y XL, with higher load/speed ratings. JAX Michelin Pilot Sport 4 SUV A$505 each; four fitted A$2,020 including balancing, valve, waste fee and GST. Confirm exact placard and local quote. Assumed 40,000 km life gives A$757.50/year at 15,000 km; life and sensitivity bounds are assumptions. Alignment extra.",
+      "sourceIds": [
+        "audit-mitsubishi-outlander-phev-my24",
+        "audit-mitsubishi-outlander-phev-tyre-retail",
+        "audit-mitsubishi-outlander-phev-tyre-inclusions",
+        "budget-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "255/45R20 105Y XL",
+        "product": "Michelin Pilot Sport 4 SUV",
+        "unitPrice": 505,
+        "quantity": 4,
+        "sourceId": "audit-mitsubishi-outlander-phev-tyre-retail",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    },
+    {
+      "vehicleId": "outlander-phev-aspire-227",
+      "setCost": 2020,
+      "setLow": 1676,
+      "setHigh": 2600,
+      "lifeKm": 40000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 50000,
+      "confidence": "low",
+      "basis": "ESTIMATE — Aspire maker fitment 255/45R20 101W; chosen retail replacement is 105Y XL, with higher load/speed ratings. JAX Michelin Pilot Sport 4 SUV A$505 each; four fitted A$2,020 including balancing, valve, waste fee and GST. Confirm exact placard and local quote. Assumed 40,000 km life gives A$757.50/year at 15,000 km; life and sensitivity bounds are assumptions. Alignment extra.",
+      "sourceIds": [
+        "audit-mitsubishi-outlander-phev-my25",
+        "audit-mitsubishi-outlander-phev-tyre-retail",
+        "audit-mitsubishi-outlander-phev-tyre-inclusions",
+        "budget-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "255/45R20 105Y XL",
+        "product": "Michelin Pilot Sport 4 SUV",
+        "unitPrice": 505,
+        "quantity": 4,
+        "sourceId": "audit-mitsubishi-outlander-phev-tyre-retail",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "outlander-phev-aspire-20",
+      "point": 850,
+      "low": 450,
+      "high": 1700,
+      "confidence": "low",
+      "basis": "Used PHEV has petrol and electric systems. Ten-year vehicle cover depends on service eligibility; battery cover is separate. Verify the actual service history and exclusions. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund. Deep audit found no credible Australian annual fault-rate / out-of-pocket dataset for these exact Aspires. Keep this low-confidence buffer; conditional dealer-service cover and short-cover wear parts matter more than anecdote counts.",
+      "sourceIds": [
+        "own-hy-mitsubishi-warranty",
+        "own-hy-mitsubishi-capacity",
+        "own-hy-mitsubishi-maintenance",
+        "audit-mitsubishi-outlander-phev-battery-warranty",
+        "audit-mitsubishi-outlander-phev-warranty-terms",
+        "audit-mitsubishi-outlander-phev-maintenance",
+        "audit-mitsubishi-outlander-phev-camera-recall"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "outlander-phev-aspire-227",
+      "point": 650,
+      "low": 350,
+      "high": 1400,
+      "confidence": "low",
+      "basis": "Newer PHEV with substantial conditional vehicle cover. Keep a wear and post-cover buffer; do not assume ten-year battery cover or zero repair costs. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund. Deep audit found no credible Australian annual fault-rate / out-of-pocket dataset for these exact Aspires. Keep this low-confidence buffer; conditional dealer-service cover and short-cover wear parts matter more than anecdote counts.",
+      "sourceIds": [
+        "own-hy-mitsubishi-warranty",
+        "own-hy-mitsubishi-capacity",
+        "own-hy-mitsubishi-maintenance",
+        "audit-mitsubishi-outlander-phev-battery-warranty",
+        "audit-mitsubishi-outlander-phev-warranty-terms",
+        "audit-mitsubishi-outlander-phev-maintenance",
+        "audit-mitsubishi-outlander-phev-camera-recall"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "outlander-phev-aspire-20",
+      "scope": "related",
+      "summary": "Related physical three-seat evidence is retained, but current Outlander manual guidance is disputed. This PHEV’s permitted mixed arrangement needs clarification; no family-fit score is assigned.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Related ES 20 kWh test reports three across including a rear-facing capsule. ANCAP found some centre restraints incompatible; verify your seats. BabyDrive now reports conflicting Mitsubishi explanations of a left/centre occupancy caution. Applicability and permitted installation for this PHEV need the exact Australian manual and written clarification. Physical fit alone does not resolve that conflict.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-phev-mixed-fit",
+            "audit-mitsubishi-outlander-phev-ancap-2022",
+            "audit-mitsubishi-outlander-phev-manual-conflict"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No daily three-seat booster-buckle assessment found.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "good",
+          "detail": "BabyDrive reports a 184–186 cm driver ahead of its rear-facing infant capsule. This does not establish clearance for a larger convertible.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-phev-mixed-fit"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "Outboard ISOFIX/tethers were accessible; the centre tether connects through the boot. Daily loading with your restraints remains pending.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-phev-mixed-fit"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "outlander-phev-aspire-227",
+      "scope": "unknown",
+      "summary": "Updated PHEV mixed fit is unverified. A new Outlander manual-guidance conflict also needs exact-PHEV clarification; no family-fit score is assigned.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "No exact three-across test including rear-facing found. ANCAP says no third-row tethers and does not recommend restraints there; its installation tests are individual. BabyDrive now reports conflicting Mitsubishi explanations of a left/centre occupancy caution. Applicability and permitted installation for this PHEV need the exact Australian manual and written clarification. Physical fit alone does not resolve that conflict.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-phev-ancap-2025",
+            "audit-mitsubishi-outlander-phev-manual-conflict"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No exact updated Aspire three-restraint booster-buckle test found.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "unknown",
+          "detail": "No measured front-seat clearance with a rear-facing restraint found for updated Aspire. Earlier ES capsule clearance is related evidence only.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-phev-mixed-fit"
+          ]
+        },
+        "access": {
+          "rating": "unknown",
+          "detail": "No observed third-row access test with second-row restraints installed was verified.",
+          "sourceIds": []
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Original mixed rear-facing three-across evidence is stronger than a simple anchor count, with a real centre-seat caveat. Updated seven-seat Aspire is untested for this target. Exact service archive improves coverage; contaminated owner aggregate no longer scores.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "verified",
+        "finding": "Two distinct used QLD asks remain A$44,990–48,500 drive-away, 7,815–43,477 km; median A$46,745. Updated new NSW/TAS asks A$67,420–72,490, median A$69,955; no QLD drive-away quote. Thin samples and interstate charges remain material.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-southport-fu34705",
+          "audit-mitsubishi-outlander-phev-hendra-h31146",
+          "audit-mitsubishi-outlander-phev-alto-0003054294",
+          "audit-mitsubishi-outlander-phev-launceston-0003054277"
+        ],
+        "vehicleIds": [
+          "outlander-phev-aspire-20",
+          "outlander-phev-aspire-227"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "gap",
+        "finding": "Maker PDFs verify 20 / 22.7 kWh, 84 / 103 km ADR/NEDC, Type 2 / CHAdeMO, 91 RON, and charging times. Original depleted 7.2 L/100 km is a short indicated Aspire test. Neither exact EV-only purchased-energy use nor peak AU charging kW was established; retain labelled estimates.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my24",
+          "audit-mitsubishi-outlander-phev-my25",
+          "audit-mitsubishi-outlander-phev-aspire-roadtest",
+          "audit-mitsubishi-outlander-phev-updated-roadtest",
+          "audit-mitsubishi-outlander-phev-current-dealer-connectors"
+        ],
+        "vehicleIds": [
+          "outlander-phev-aspire-20",
+          "outlander-phev-aspire-227"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "conflict",
+        "finding": "Related older ES physical mixed fit is documented, but BabyDrive now reports conflicting Mitsubishi explanations of a left/centre occupancy caution. Exact Australian PHEV manual applicability and permitted installations remain unresolved. Updated 22.7 kWh mixed fit is also unverified. Family-fit scores are withheld; this is not a blanket claim that all Outlanders prohibit three seats. ANCAP selected-centre restraint failures and no row-three tether fallback remain relevant.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-mixed-fit",
+          "audit-mitsubishi-outlander-phev-ancap-2022",
+          "audit-mitsubishi-outlander-phev-ancap-2025",
+          "audit-mitsubishi-outlander-phev-my24",
+          "audit-mitsubishi-outlander-phev-my25",
+          "audit-mitsubishi-outlander-phev-manual-conflict"
+        ],
+        "vehicleIds": [
+          "outlander-phev-aspire-20",
+          "outlander-phev-aspire-227"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Base 5 years/100,000 km, conditional extension to 10 years/200,000 km, transfers with eligible service history. Battery defects and 66% capacity remedy have separate 8-year/160,000-km terms. Several wear components only 12 months/20,000 km; 12 V battery 12 months.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-battery-warranty",
+          "audit-mitsubishi-outlander-phev-warranty-terms"
+        ],
+        "vehicleIds": [
+          "outlander-phev-aspire-20",
+          "outlander-phev-aspire-227"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "verified",
+        "finding": "12 months/15,000 km. Exact maker ten-visit totals: MY23 A$5,090; MY24 purchased by 30 November 2025 A$5,490; updated MY25 bought from 1 April 2026 A$5,718. Keep grouped original A$550/year estimate and updated A$571.80 override. Severe-use transaxle fluids can add work.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my23-caps",
+          "audit-mitsubishi-outlander-phev-my24-caps",
+          "audit-mitsubishi-outlander-phev-my25-caps",
+          "audit-mitsubishi-outlander-phev-maintenance"
+        ],
+        "vehicleIds": [
+          "outlander-phev-aspire-20",
+          "outlander-phev-aspire-227"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "No exact household or Aspire quote found. A$1,900/year remains a low-confidence HEV/PHEV proxy, not measured PHEV premium. Youi’s broader Outlander band cannot replace it without matching driver, variant and insured value.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-insurance-proxy",
+          "audit-mitsubishi-outlander-phev-youi-mixed"
+        ],
+        "vehicleIds": [
+          "outlander-phev-aspire-20",
+          "outlander-phev-aspire-227"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Both Aspires use 255/45R20 101W maker specification. Current selected 105Y XL Michelin retail anchor A$505 each / A$2,020 fitted set verified. 40,000 km life and bounds remain assumptions; annual A$757.50 at default distance.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my24",
+          "audit-mitsubishi-outlander-phev-my25",
+          "audit-mitsubishi-outlander-phev-tyre-retail",
+          "audit-mitsubishi-outlander-phev-tyre-inclusions"
+        ],
+        "vehicleIds": [
+          "outlander-phev-aspire-20",
+          "outlander-phev-aspire-227"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "gap",
+        "finding": "No empirical AU annual repair average or exact fitted 20/22.7 kWh battery quote found. Keep A$850 original / A$650 updated savings buffers low confidence. Recall 010172 is free for affected VINs; 010175 steering campaign is Exceed/Exceed Tourer, not an Aspire-wide fault. Do not transfer old-generation or overseas problems.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-battery-warranty",
+          "audit-mitsubishi-outlander-phev-warranty-terms",
+          "audit-mitsubishi-outlander-phev-maintenance",
+          "audit-mitsubishi-outlander-phev-camera-recall",
+          "audit-mitsubishi-outlander-phev-steering-scope",
+          "audit-mitsubishi-outlander-phev-other-camera-vins",
+          "audit-mitsubishi-outlander-phev-key-warning-vins"
+        ],
+        "vehicleIds": [
+          "outlander-phev-aspire-20",
+          "outlander-phev-aspire-227"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "conflict",
+        "finding": "Public ZM PHEV 4.7/5 from four reviews includes an explicit pre-ZM 2021 owner, so clean owner rating is unavailable and excluded from scoring. Exact original Aspire professional review remains 7.5/10; current Exceed qualitative review is related trim, not exact Aspire.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-owner-scope",
+          "audit-mitsubishi-outlander-phev-whichcar-aspire",
+          "audit-mitsubishi-outlander-phev-aspire-roadtest",
+          "audit-mitsubishi-outlander-phev-updated-roadtest"
+        ],
+        "vehicleIds": [
+          "outlander-phev-aspire-20",
+          "outlander-phev-aspire-227"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "Both brochures list 1,600 kg braked / 160 kg towball, tyre repair kit and separate ANCAP applicability. Four-cylinder QLD rego plus Class 1 CTP guide A$864.50–880.50/year (midpoint A$872.50); hybrid duty A$2 per A$100 up to A$100,000. Resale and household risk remain estimates.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-phev-my24",
+          "audit-mitsubishi-outlander-phev-my25",
+          "audit-mitsubishi-outlander-phev-ancap-2022",
+          "audit-mitsubishi-outlander-phev-ancap-2025",
+          "audit-mitsubishi-outlander-phev-qld-rego",
+          "audit-mitsubishi-outlander-phev-qld-duty"
+        ],
+        "vehicleIds": [
+          "outlander-phev-aspire-20",
+          "outlander-phev-aspire-227"
+        ]
+      }
+    ]
+  }
+}

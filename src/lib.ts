@@ -3,10 +3,12 @@ import type { CostSettings, OwnershipSettings, PersonalData, PriceSnapshot, Scor
 
 export const CHECKED_DATE = '2026-10-18';
 export const STORAGE_KEY = 'fieldnotes-family-cars:v1';
+export const CURRENT_FIT_TARGET = 'one-rear-facing-two-other-restraints-v1' as const;
+export const FIT_REVIEW_NOTICE = 'Older fit confirmations were cleared. Recheck one rear-facing seat plus two forward-facing seats / boosters.';
 export const defaultCosts: CostSettings = { annualKm: 15000, homeRate: 0.30, publicRate: 0.65, petrolRate: 2.21, premiumPetrolRate: 2.38, dieselRate: 2.72, homeShare: 90, electricShare: 80, chargingLoss: 10 };
 export const defaultOwnership: OwnershipSettings = { years: 10, insurance: null, servicing: null, tyres: 600, tyreMode: 'vehicle', repairReserve: 500, repairMode: 'vehicle', regoOverride: null, ctp: null, purchasePrice: null, dutiableValue: null, feesIncluded: 'auto', resaleValue: null, charger: 2050, inspection: 385, otherUpfront: 0, financeInterestAnnual: 0, repairScenario: 0, vehicleOverrides: {} };
 export const defaultWeights: ScoreWeights = { seating: 10, price: 9, running: 8, boot: 7, range: 6, safety: 8, owners: 6, brand: 6 };
-export const emptyPersonal = (): PersonalData => ({ version: 1, favourites: [], listings: [], notes: {}, fitChecks: {}, seatModels: '', costs: { ...defaultCosts } });
+export const emptyPersonal = (): PersonalData => ({ version: 1, fitTarget: CURRENT_FIT_TARGET, favourites: [], listings: [], notes: {}, fitChecks: {}, seatModels: '', costs: { ...defaultCosts } });
 
 export function chooseComparison(ids: string[], index: number, id: string): string[] {
   if (!Number.isInteger(index) || index < 0 || index > ids.length || index >= 4) return ids;
@@ -26,6 +28,8 @@ export const ownershipSchema = z.object({ years: z.number().int().min(1).max(15)
 const costsSchema = z.object({ annualKm: z.number().min(0).max(200000), homeRate: z.number().min(0).max(10), publicRate: z.number().min(0).max(10), petrolRate: z.number().min(0).max(10), premiumPetrolRate: z.number().min(0).max(10).optional(), dieselRate: z.number().min(0).max(10).optional(), homeShare: z.number().min(0).max(100), electricShare: z.number().min(0).max(100), chargingLoss: z.number().min(0).max(50) });
 export const personalSchema = z.object({
   version: z.literal(1),
+  fitTarget: z.literal(CURRENT_FIT_TARGET).optional(),
+  fitReviewNeeded: z.boolean().optional(),
   favourites: z.array(z.string()).max(500),
   listings: z.array(z.object({
     id: z.string().min(1), vehicleId: z.string().min(1), title: z.string().max(300),
@@ -48,7 +52,14 @@ export function parseBackup(raw: string, validIds?: Set<string>): PersonalData {
   if (new Set(data.listings.map(l => l.id)).size !== data.listings.length) throw new Error('This backup contains duplicate listing IDs.');
   const ids = [...data.favourites, ...data.listings.map(l => l.vehicleId), ...Object.keys(data.notes), ...Object.keys(data.fitChecks), ...Object.keys(data.ownership?.vehicleOverrides ?? {})];
   if (validIds && ids.some(id => !validIds.has(id))) throw new Error('This backup references a vehicle that is not in this catalogue. No data was replaced.');
-  return { ...data, favourites: [...new Set(data.favourites)] };
+  const needsFitMigration = data.fitTarget === undefined;
+  const hadConfirmations = Object.values(data.fitChecks).some(Boolean);
+  return {
+    ...data,
+    fitTarget: CURRENT_FIT_TARGET,
+    favourites: [...new Set(data.favourites)],
+    ...(needsFitMigration ? { fitChecks: {}, ...(hadConfirmations ? { fitReviewNeeded: true } : {}) } : {}),
+  };
 }
 
 export interface StorageLike { getItem(key: string): string | null; setItem(key: string, value: string): void }

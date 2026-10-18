@@ -1,0 +1,790 @@
+{
+  "familyId": "kia-carnival",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-kia-carnival-spec-my22",
+      "title": "Kia Australia MY22 Carnival specification sheet: original S diesel equipment and dimensions",
+      "url": "https://resource.digitaldealer.com.au/pdf/709650923630853f237bb5118967305.pdf",
+      "publisher": "Kia Australia via dealer archive",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-manual-my22",
+      "title": "Australian Carnival KA4 ICE MY22 manual: restraints pp 3-63–75; AU/NZ diesel servicing pp 8-15–18; DPF p 8-103",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/owners-manuals/carnival/Kia-Carnival-KA4-ICE-owners-manual-MY22.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-ancap",
+      "title": "ANCAP Carnival 2021 rating and February 2024 facelift boundary",
+      "url": "https://www.ancap.com.au/safety-ratings/kia/carnival/65409e",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-ancap-report",
+      "title": "ANCAP Carnival technical report: exact child-restraint installation limitations",
+      "url": "https://cdn.ancap.com.au/app/public/assets/26cbd343ccb4f0bc8188199e45712d085f5b24cc/original.pdf?1755471457=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-fit-sli",
+      "title": "BabyDrive 2021 Carnival SLi: five restraints, mixed-facing legroom and tether extensions",
+      "url": "https://babydrive.com.au/reviews/suvs/2021-kia-carnival-sli/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-fit-platinum",
+      "title": "BabyDrive 2021 Carnival Platinum launch: three across and rear-facing clearance",
+      "url": "https://babydrive.com.au/reviews/people-mover/new-2021-kia-carnival-platinum-launch-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-s-diesel-road-test",
+      "title": "CarExpert exact 2021 S diesel road test: 7.2 L/100km indicated over 643 km",
+      "url": "https://www.carexpert.com.au/car-reviews/2021-kia-carnival-s-diesel-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-s-diesel-family-test",
+      "title": "CarsGuide exact 2021 S diesel family test: 7.0/10, 7.5 L/100km and awkward walk-in lever",
+      "url": "https://www.carsguide.com.au/family/kia-carnival-s-diesel-82585",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-s-diesel-exhaust-notes",
+      "title": "Exhaust Notes Australia exact 2021 S diesel road test: 7.8/10",
+      "url": "https://www.exhaustnotes.com.au/2021-kia-carnival-s-car-review/",
+      "publisher": "Exhaust Notes Australia",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-service-menu",
+      "title": "Kia Australian capped-service menu: 2021–23 2.2 diesel, eight-speed automatic",
+      "url": "https://dashboard.kia.com.au/kia/cps/kia/20170105v1_flat.html",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-warranty",
+      "title": "Kia Australian warranty terms, updated 20 August 2026: private/commercial, transfer and component exclusions",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/service/Kia-Warranty-terms-and-conditions.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-insurance",
+      "title": "Youi Carnival comprehensive premiums: national mixed-year model mean and policy-period limits",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/kia",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-tyres",
+      "title": "JAX 235/65R17 Michelin Primacy 5 108V XL: A$329 fitted including GST",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/17-inch/235-65r17",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-owner-reviews",
+      "title": "ProductReview Carnival KA4 3.1/5 from 18 contributions: mixed engines, trims, facelift and a professional test",
+      "url": "https://www.productreview.com.au/listings/kia-carnival-ka4",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-used-parts",
+      "title": "Total Parts Plus Brisbane KA4 D4HE diesel used parts: DPF 660, gearbox 2500, engine 7250, parts only",
+      "url": "https://www.totalpartsplus.com.au/car/2021-kia-carnival/",
+      "publisher": "Total Parts Plus",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-recall-latch",
+      "title": "REC-005019: selected MY21/MY22 2021 Carnival right sliding-door latch",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005019",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-recall-fuel",
+      "title": "REC-001615: selected 2021 Carnival/Sorento fuel supply pipes",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-001615",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-recall-power-door",
+      "title": "REC-005685: power sliding-door warning software; equipment distinction matters for manual-door S",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005685",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-excluded-v6-recall",
+      "title": "REC-006644: 3.5-litre Lambda III V6 fuel pipes, not this 2.2 diesel",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006644",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-excluded-2025-cluster",
+      "title": "REC-006557: selected 2025 cluster-equipped Kia vehicles, not automatically original S",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006557",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-qld-registration",
+      "title": "Queensland 1 October 2026 private four-cylinder registration, traffic fee and Class 1 CTP",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-qld-duty",
+      "title": "Queensland conventional four-cylinder light-vehicle duty rates",
+      "url": "https://www.qld.gov.au/transport/registration/fees/duty/rates",
+      "publisher": "Queensland Government",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-price-135709",
+      "title": "Current seller stock 135709: 2022 S diesel, Ashmore, A$39,750 drive-away / 112,238 km",
+      "url": "https://www.frizellesunshine.com.au/cars/used-white-2022-kia-carnival-135709",
+      "publisher": "Frizelle Sunshine Automotive",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-price-b14096",
+      "title": "Current seller B14096: 2023 S diesel, Bundamba, A$37,491 drive-away / 78,600 km",
+      "url": "https://www.twgcars.com.au/cars/used-grey-2023-kia-carnival-b14096",
+      "publisher": "TWG Cars Bundamba",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-price-a14125",
+      "title": "Current seller A14125: 2023 S diesel, Kedron, A$38,888 drive-away / 63,453 km",
+      "url": "https://www.twgcars.com.au/cars/used-ceramic-silver-2023-kia-carnival-a14125",
+      "publisher": "Byrne Ford / Tony White Group",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-price-u5797",
+      "title": "Current seller U5797: 2021 S diesel, Ipswich group, A$32,886 drive-away / 75,948 km",
+      "url": "https://www.cheryipswich.com.au/used-cars/for-sale/kia/carnival/2021/s/ka4-my21/4086237/",
+      "publisher": "Chery Ipswich / Boettcher group",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-carnival-excluded-sold-625",
+      "title": "Sold Straight Line Motors stock 625: excluded despite searchable A$39,990 price",
+      "url": "https://www.straightlinemotors.com.au/our-stock/2022-kia-carnival-wagon-s-ka4my22-533541",
+      "publisher": "Straight Line Motors",
+      "kind": "market",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "carnival-s-diesel-2021",
+      "generation": "KA4 original body, MY21–23; excludes KA4 PE / MY25 facelift",
+      "length": {
+        "value": 5155,
+        "unit": "mm",
+        "basis": "Original Australian MY22 manufacturer sheet; corrects the previous 5,115-mm older-generation figure.",
+        "sourceIds": [
+          "audit-kia-carnival-spec-my22"
+        ]
+      },
+      "observedConsumption": {
+        "value": 7.2,
+        "unit": "L/100km",
+        "basis": "CarExpert exact 2021 S diesel: trip-computer result over 643 km mixed driving, including a return Torquay trip. Separately, CarsGuide recorded 7.5 over a family week. Neither is a controlled population average.",
+        "sourceIds": [
+          "audit-kia-carnival-s-diesel-road-test",
+          "audit-kia-carnival-s-diesel-family-test"
+        ]
+      },
+      "summary": "Eight seats and five anchored restraint positions offer more layout choices. A related SLi test included rear-facing row two and forward-facing row three. Check your seats; frequent short trips can trigger the diesel severe-service schedule.",
+      "safety": {
+        "stars": 5,
+        "year": 2021,
+        "applicability": "Original Australian S diesel covered by the 2021 rating, expiring December 2027. All-row curtain airbags; front-centre airbag arrived with February 2024 facelift builds, excluded here. A 2024 registration alone does not establish the facelift.",
+        "sourceIds": [
+          "audit-kia-carnival-ancap",
+          "audit-kia-carnival-ancap-report"
+        ]
+      },
+      "servicing": "Normal: 12 months / 15,000 km. Severe use: oil/filter 6 months / 7,500 km; assess short-trip school-run use against the handbook.",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Related original SLi/Platinum tests show five restraints over two rear rows, including a mixed-facing layout. Exact S seats and your three-restraint combination remain unconfirmed.",
+        "row2": "Three independently sliding seats, each with ISOFIX and top tether. Only use restraints with vehicle seats facing forwards.",
+        "row3": "Both outboard seats have ISOFIX and top tether. Centre has neither; ANCAP does not recommend a restraint there.",
+        "testedSeats": "BabyDrive reports five restraints over rows two/three and a rear-facing row-two seat ahead of a forward-facing row-three seat, with a 182-cm driver. Product names are not published; rear-facing installations needed tether extension straps.",
+        "buckleAccess": "No independent mixed-three booster-buckling trial was verified. ANCAP found one rear-facing convertible incompatible with outboard ISOFIX in both rows and required care with one forward-facing model in row three.",
+        "access": "Removing the middle second-row seat creates a walkway. S has manual sliding doors. Its CarsGuide test found the outer-seat walk-in lever awkward with a restraint fitted; never move an occupied seat. Recheck installation after any adjustment.",
+        "ventilation": "MY22 S has manual front/rear air conditioning, controls at row two and vents in both rear rows. Higher-trim climate control and powered-door observations do not transfer to S.",
+        "sourceIds": [
+          "audit-kia-carnival-fit-sli",
+          "audit-kia-carnival-fit-platinum",
+          "audit-kia-carnival-s-diesel-family-test",
+          "audit-kia-carnival-manual-my22",
+          "audit-kia-carnival-spec-my22",
+          "audit-kia-carnival-ancap-report"
+        ]
+      },
+      "cons": [
+        "Large 5.155-metre body and 1.995-metre width.",
+        "Diesel short-trip use can require more frequent servicing and hinder DPF regeneration.",
+        "S has manual doors and air conditioning; exact booster access needs a fit trial."
+      ],
+      "inspection": [
+        "Fit one rear-facing plus your other two seats, check permitted tether extensions, buckle reach and third-row access.",
+        "Ask whether driving history required 6-month / 7,500-km oil changes; check invoices, DPF warning/fault history and diesel fuel-filter services.",
+        "Verify first delivery, rental/rideshare history, remaining warranty and completed VIN recalls.",
+        "Check the 120,000-km diesel timing-belt inspection, all-row air conditioning, seat locks, manual-door latches and head-unit operation."
+      ],
+      "changes": [
+        {
+          "period": "MY21–23 original KA4; 2021–24 advertised build/registration years",
+          "text": "This entry covers original S 2.2 diesel eight-seat cars. Confirm build, model year and body: a 2024 advertisement can instead be the materially changed MY25 facelift.",
+          "sourceIds": [
+            "audit-kia-carnival-spec-my22",
+            "audit-kia-carnival-ancap"
+          ]
+        },
+        {
+          "period": "February 2024 facelift build boundary",
+          "text": "ANCAP records the front-centre airbag from this facelift boundary. Do not apply later equipment or 2025 cluster recalls to every original S.",
+          "sourceIds": [
+            "audit-kia-carnival-ancap",
+            "audit-kia-carnival-excluded-2025-cluster"
+          ]
+        }
+      ],
+      "gaps": [
+        "BabyDrive used related SLi/Platinum trims and did not identify restraint product names. Exact mixed-three booster access is unverified.",
+        "The manufacturer labels third-row folded luggage as 2,785 L VDA and 2,461 L SAE; keep standards distinct.",
+        "No representative Australian KA4 diesel annual paid-repair average or exact installed engine/gearbox/DPF quote was found.",
+        "Owner aggregate mixes original/facelift, petrol/diesel and a professional borrowed-car review."
+      ],
+      "sourceIds": [
+        "audit-kia-carnival-spec-my22",
+        "audit-kia-carnival-manual-my22",
+        "audit-kia-carnival-ancap",
+        "audit-kia-carnival-ancap-report",
+        "audit-kia-carnival-fit-sli",
+        "audit-kia-carnival-fit-platinum",
+        "audit-kia-carnival-s-diesel-road-test",
+        "audit-kia-carnival-s-diesel-family-test"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "ice-kr-carnival-used",
+      "vehicleId": "carnival-s-diesel-2021",
+      "low": 32886,
+      "high": 39750,
+      "point": 38189.5,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 4,
+      "geography": "Four distinct South East Queensland dealer cars",
+      "kilometres": "63,453–112,238 km; 2021–23 cars",
+      "observed": "2026-10-18",
+      "kind": "observation",
+      "confidence": "low",
+      "note": "Small current asking-price sample, not sales or a valuation. Four VINs counted once; direct-seller prices take precedence over stale marketplace cross-posts. Excludes sold stock 625/1116279 and facelift, petrol or higher trims.",
+      "sourceIds": [
+        "audit-kia-carnival-price-135709",
+        "audit-kia-carnival-price-b14096",
+        "audit-kia-carnival-price-a14125",
+        "audit-kia-carnival-price-u5797"
+      ],
+      "observations": [
+        {
+          "price": 39750,
+          "basis": "drive-away",
+          "year": 2022,
+          "kilometres": 112238,
+          "location": "Ashmore QLD",
+          "url": "https://www.frizellesunshine.com.au/cars/used-white-2022-kia-carnival-135709",
+          "sourceId": "audit-kia-carnival-price-135709",
+          "checked": "2026-10-18",
+          "note": "Seller HTML, InStock schema and VIN KNANB81BMN6233508 agree."
+        },
+        {
+          "price": 37491,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 78600,
+          "location": "Bundamba QLD",
+          "url": "https://www.twgcars.com.au/cars/used-grey-2023-kia-carnival-b14096",
+          "sourceId": "audit-kia-carnival-price-b14096",
+          "checked": "2026-10-18",
+          "note": "Seller HTML and InStock schema; VIN KNANB81BMP6388247. Current A$37,491 replaces higher cached marketplace figures."
+        },
+        {
+          "price": 38888,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 63453,
+          "location": "Kedron QLD",
+          "url": "https://www.twgcars.com.au/cars/used-ceramic-silver-2023-kia-carnival-a14125",
+          "sourceId": "audit-kia-carnival-price-a14125",
+          "checked": "2026-10-18",
+          "note": "Seller HTML and InStock schema; VIN KNANB81BMP6345318. Same car as cross-post A14125, counted once."
+        },
+        {
+          "price": 32886,
+          "basis": "drive-away",
+          "year": 2021,
+          "kilometres": 75948,
+          "location": "Ipswich group / Bundamba QLD",
+          "url": "https://www.cheryipswich.com.au/used-cars/for-sale/kia/carnival/2021/s/ka4-my21/4086237/",
+          "sourceId": "audit-kia-carnival-price-u5797",
+          "checked": "2026-10-18",
+          "note": "Current direct-seller HTML and InStock schema; VIN KNANB81BMM6111574. U5797 duplicated within group stock and on marketplaces, counted once. Confirm collection branch."
+        }
+      ]
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "kia-carnival",
+      "serviceInterval": "Normal: 12 months / 15,000 km. Severe use: oil/filter 6 months / 7,500 km; assess short-trip school-run use against the handbook.",
+      "serviceAnnual": 600,
+      "serviceLow": 450,
+      "serviceHigh": 950,
+      "serviceBasis": "A$600/year remains an analyst long-ownership provision. Verified Kia normal-schedule seven-visit totals: MY21/22 A$3,767 (~A$538/year), MY23 A$3,816 (~A$545/year). These do not price extra severe-use oil changes or work after 105,000 km; get a VIN quote for school-run use.",
+      "serviceConfidence": "low",
+      "warrantyCautions": [
+        "Original 7-year private-use unlimited-kilometre coverage transfers; confirm first delivery and the vehicle’s own warranty document. Any commercial/rental/rideshare use can impose the 150,000-km limit.",
+        "Current terms distinguish the 2-year original 12V battery, 3-year audio head unit and wear/particulate-filter exclusions. Do not assume every component lasts under the full seven-year cover.",
+        "Keep detailed service invoices and assess the Australian severe-use schedule. A warranty repair or recall is separate from paid wear, misuse or maintenance."
+      ],
+      "risks": [
+        {
+          "title": "DPF trouble: diagnosis before replacement",
+          "detail": "Australian handbook explains that repeated short/slow trips can prevent regeneration and prolonged warnings can cause damage/oil dilution. A Brisbane recycler lists a KA4 2.2 diesel DPF at A$660, parts only. A fitted new DPF or cleaning quote was not verified; the old broad A$3,000–7,000 Kia proxy is removed.",
+          "low": null,
+          "high": null,
+          "priceBasis": "A$660 is one used-part advertisement, not a complete repair cost or a guaranteed suitable part. Diagnosis, removal, cleaning or new replacement, freight, labour and GST treatment require a written local quote.",
+          "warranty": "Current Kia terms exclude particulate-filter limited-life items and maintenance; ask Kia to assess any diagnosed manufacturing defect under the original terms and statutory rights.",
+          "sourceIds": [
+            "audit-kia-carnival-manual-my22",
+            "audit-kia-carnival-used-parts",
+            "audit-kia-carnival-warranty"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Engine or automatic gearbox: major-cost exposure",
+          "detail": "A Brisbane recycler advertises a KA4 D4HE diesel engine at A$7,250 and matching eight-speed automatic at A$2,500, parts only. These illustrate major-failure exposure; they do not show that either part commonly fails. Check exact donor compatibility and condition.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Used components only. Installed totals, consumables, diagnostics, freight and GST treatment unverified; no failure probability or new-component quote available.",
+          "warranty": "Manufacturing defects may qualify for the remaining original warranty; usage, service history, wear and cause must be assessed. Applicable recall remedies are free.",
+          "sourceIds": [
+            "audit-kia-carnival-used-parts",
+            "audit-kia-carnival-warranty"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "VIN-specific recalls; avoid V6/power-door contamination",
+          "detail": "Recheck selected 2021 fuel-pipe REC-001615 and right-door-latch REC-005019 completion. REC-005685 addresses power sliding doors, whereas original S doors are manual. The June 2026 3.5-litre V6 fuel-pipe REC-006644 and selected 2025 cluster REC-006557 are not generic diesel S repair risks.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "Applicable official recall work is free; exact VIN and equipment determine applicability.",
+          "warranty": "Ask Kia for written VIN recall status, including campaigns after purchase; ordinary warranty expiry does not turn an applicable recall into a default paid repair.",
+          "sourceIds": [
+            "audit-kia-carnival-recall-latch",
+            "audit-kia-carnival-recall-fuel",
+            "audit-kia-carnival-recall-power-door",
+            "audit-kia-carnival-excluded-v6-recall",
+            "audit-kia-carnival-excluded-2025-cluster",
+            "audit-kia-carnival-spec-my22"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sourceIds": [
+        "audit-kia-carnival-service-menu",
+        "audit-kia-carnival-manual-my22",
+        "audit-kia-carnival-warranty",
+        "audit-kia-carnival-s-diesel-road-test",
+        "audit-kia-carnival-s-diesel-family-test",
+        "audit-kia-carnival-used-parts",
+        "audit-kia-carnival-recall-latch",
+        "audit-kia-carnival-recall-fuel"
+      ],
+      "checked": "2026-10-18",
+      "fuelEstimate": {
+        "point": 8,
+        "low": 6.5,
+        "high": 10,
+        "confidence": "low",
+        "basis": "L/100km diesel planning scenario: 8 point, 6.5–10 sensitivity bounds. Rated combined 6.5 remains separate; exact S tests recorded 7.2 indicated over 643 km (CarExpert) and 7.5 over a family week (CarsGuide). The 8 point allows for local use/load/regeneration and is an assumption, not a measured annual average.",
+        "sourceIds": [
+          "audit-kia-carnival-spec-my22",
+          "audit-kia-carnival-s-diesel-road-test",
+          "audit-kia-carnival-s-diesel-family-test"
+        ]
+      }
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "kia-carnival",
+      "rating": 3.1,
+      "outOf": 5,
+      "count": 18,
+      "scope": "ProductReview KA4 aggregate: mixed original/facelift, petrol/diesel and trims; includes a professional borrowed-car review. Limited relevance to original S diesel.",
+      "summary": "18 self-selected contributions, not a reliability survey. Owners often praise space and diesel economy; some describe electronic/horn faults and delays obtaining parts or a suitable loan car. Later GT-Line complaints do not establish original S behaviour.",
+      "positiveThemes": [
+        "Flexible passenger space and occupied-row boot.",
+        "Diesel economy and comfort praised in several contributions."
+      ],
+      "negativeThemes": [
+        "Some report electronics, horn or head-unit problems.",
+        "Some report warranty delays and unsuitable/unavailable loan cars; anecdotal, not a failure rate."
+      ],
+      "sourceIds": [
+        "audit-kia-carnival-owner-reviews"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-kia-carnival-expert-carsguide",
+      "familyId": "kia-carnival",
+      "vehicleIds": [
+        "carnival-s-diesel-2021"
+      ],
+      "tested": "2021 Australian Carnival S 2.2 diesel, family week",
+      "scope": "Exact original S diesel; test result and period equipment, not a used-car reliability score.",
+      "publisher": "CarsGuide",
+      "published": "2021-03-01",
+      "checked": "2026-10-18",
+      "rating": 7,
+      "outOf": 10,
+      "verdict": "Spacious family transport; base-trim seat comfort, walk-in lever and driver-assist alerts drew criticism.",
+      "positiveThemes": [
+        "Eight-seat space and straightforward media.",
+        "Sliding-door access and useful boot."
+      ],
+      "negativeThemes": [
+        "Walk-in lever awkward with child seat installed.",
+        "Seat comfort over long trips and touchy lane warnings."
+      ],
+      "sourceIds": [
+        "audit-kia-carnival-s-diesel-family-test"
+      ]
+    },
+    {
+      "id": "audit-kia-carnival-expert-exhaust-notes",
+      "familyId": "kia-carnival",
+      "vehicleIds": [
+        "carnival-s-diesel-2021"
+      ],
+      "tested": "2021 Australian Carnival S 2.2 diesel",
+      "scope": "Exact original S diesel provided by Kia Australia; professional review, separate from owner aggregate.",
+      "publisher": "Exhaust Notes Australia",
+      "published": "2021-09-19",
+      "checked": "2026-10-18",
+      "rating": 7.8,
+      "outOf": 10,
+      "verdict": "Strong family practicality and warranty; basic steering-wheel finish.",
+      "positiveThemes": [
+        "Practical seating, deep occupied-row boot and warranty."
+      ],
+      "negativeThemes": [
+        "Plastic steering wheel."
+      ],
+      "sourceIds": [
+        "audit-kia-carnival-s-diesel-exhaust-notes"
+      ]
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "kia-carnival",
+      "point": 1580,
+      "low": 1070,
+      "high": 3200,
+      "confidence": "low",
+      "basis": "Rounded planning proxy from Youi national mixed-year/model comprehensive mean A$1,584, policies sold 22 November 2025–22 May 2026. Not an exact trim/year or Queensland household quote. The published 80%-within-or-below band is not a confidence interval; displayed wider scenarios are analyst budgets. Replace with a personal quote.",
+      "sourceIds": [
+        "audit-kia-carnival-insurance"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyreUpdates": [
+    {
+      "vehicleId": "carnival-s-diesel-2021",
+      "setCost": 1316,
+      "setLow": 980,
+      "setHigh": 1600,
+      "lifeKm": 40000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 60000,
+      "basis": "Four Michelin Primacy 5 235/65R17 108V XL at A$329 each = A$1,316. JAX includes fitting, balancing, valves, waste handling and GST; alignment extra. Original base/S brochures specify 235/65R17. Confirm placard, wheel size, load/speed index and local stock. Set bounds and tyre life are assumptions, not measured model averages.",
+      "confidence": "low",
+      "sourceIds": [
+        "audit-kia-carnival-spec-my22",
+        "audit-kia-carnival-tyres"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/65R17 108V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 329,
+        "quantity": 4,
+        "sourceId": "audit-kia-carnival-tyres",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "carnival-s-diesel-2021",
+      "point": 1300,
+      "low": 500,
+      "high": 3500,
+      "confidence": "low",
+      "basis": "A$1,300/year analyst repair savings fund retained; no representative Australian KA4 diesel paid-repair average was found. DPF use/maintenance, turbo-diesel components and major powertrain costs justify a wide sensitivity range, but do not establish annual failure rates. Used engine A$7,250 and gearbox A$2,500 are parts-only examples, not annual bills. Excludes scheduled service, tyres and insured collisions; claim applicable warranty/recalls first.",
+      "sourceIds": [
+        "audit-kia-carnival-manual-my22",
+        "audit-kia-carnival-warranty",
+        "audit-kia-carnival-used-parts",
+        "audit-kia-carnival-recall-latch",
+        "audit-kia-carnival-recall-fuel"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "carnival-s-diesel-2021",
+      "scope": "related",
+      "summary": "Original SLi/Platinum practical tests establish useful mixed-facing, multirow options, not certification of the base S with your exact seats.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "BabyDrive reports five installed restraints over rows two/three and a rear-facing row-two seat ahead of a forward-facing row-three seat. Product names and full facing mix are unstated; your one rear-facing plus two other seats must be checked, including any approved tether extensions.",
+          "sourceIds": [
+            "audit-kia-carnival-fit-sli",
+            "audit-kia-carnival-fit-platinum",
+            "audit-kia-carnival-ancap-report"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No independent daily booster-buckling test for the target three-seat S layout was verified. A spacious cabin does not establish buckle reach.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Related SLi trial accommodated a 182-cm driver ahead of rear-facing row two and forward-facing row three, with good legroom. Exact restraint model and driver proportions still matter.",
+          "sourceIds": [
+            "audit-kia-carnival-fit-sli"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "Sliding doors and a removable centre row-two seat provide a walkway. Exact S test found the walk-in lever awkward with a restraint; doors are manual. Handbook prohibits adjusting an occupied second-row seat; use a checked layout and reinstall/recheck if moved.",
+          "sourceIds": [
+            "audit-kia-carnival-s-diesel-family-test",
+            "audit-kia-carnival-fit-platinum",
+            "audit-kia-carnival-manual-my22",
+            "audit-kia-carnival-spec-my22"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Stronger mixed-facing, multirow fit evidence; corrected old-generation length; four current VIN-deduplicated asks; explicit diesel severe servicing; scoped owner reviews and parts-only repair evidence.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "estimate",
+        "finding": "Four distinct current 2021–23 QLD S diesel cars: A$32,886–39,750 drive-away, median A$38,189.50, 63,453–112,238 km. Direct sellers override stale cross-posts; sold and facelift stock excluded. Thin asking sample, no realised-sale data.",
+        "sourceIds": [
+          "audit-kia-carnival-price-135709",
+          "audit-kia-carnival-price-b14096",
+          "audit-kia-carnival-price-a14125",
+          "audit-kia-carnival-price-u5797",
+          "audit-kia-carnival-excluded-sold-625"
+        ],
+        "vehicleIds": [
+          "carnival-s-diesel-2021"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "verified",
+        "finding": "Original 2.2 diesel, 148 kW/440 Nm, FWD eight-speed torque-converter automatic; no traction battery or plug. Rated 6.5 L/100km kept separate from observed 7.2/7.5; family budget 8 remains an assumption. No V6/HEV or facelift test substitution.",
+        "sourceIds": [
+          "audit-kia-carnival-spec-my22",
+          "audit-kia-carnival-s-diesel-road-test",
+          "audit-kia-carnival-s-diesel-family-test"
+        ],
+        "vehicleIds": [
+          "carnival-s-diesel-2021"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "estimate",
+        "finding": "Related tests show five restraints, rear-facing legroom and multirow choices. Three row-two and two row-three outboard tether/ISOFIX positions; no centre row-three restraint. Exact S booster access is a gap. Length corrected to 5,155 mm; boot standards retained separately.",
+        "sourceIds": [
+          "audit-kia-carnival-fit-sli",
+          "audit-kia-carnival-fit-platinum",
+          "audit-kia-carnival-spec-my22",
+          "audit-kia-carnival-manual-my22",
+          "audit-kia-carnival-ancap-report"
+        ],
+        "vehicleIds": [
+          "carnival-s-diesel-2021"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Original private-use 7 years/unlimited km is transferable, subject to terms; commercial history can impose 150,000 km. Current terms list shorter 12V/audio coverage and maintenance/particulate-filter exclusions. Verify first delivery and original contract; no blanket seven-year component promise.",
+        "sourceIds": [
+          "audit-kia-carnival-warranty",
+          "audit-kia-carnival-s-diesel-road-test"
+        ],
+        "vehicleIds": [
+          "carnival-s-diesel-2021"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "Normal seven-visit totals verified: MY21/22 A$3,767, MY23 A$3,816; A$600 annual provision retained. Australian manual adds 7,500-km/6-month severe-use oil changes, 24-month brake fluid, diesel belt inspection 120,000 km and system replacement 240,000 km; high-mileage/severe-use quote needed.",
+        "sourceIds": [
+          "audit-kia-carnival-service-menu",
+          "audit-kia-carnival-manual-my22"
+        ],
+        "vehicleIds": [
+          "carnival-s-diesel-2021"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "A$1,580 annual budget retained against Youi A$1,584 national mixed-year Carnival mean for policies sold 22 Nov 2025–22 May 2026. Published A$1,073–1,908 band covers 80% within or below, not an interval for this QLD household; personal quote required.",
+        "sourceIds": [
+          "audit-kia-carnival-insurance"
+        ],
+        "vehicleIds": [
+          "carnival-s-diesel-2021"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "S 235/65R17 verified; JAX Primacy 5 108V XL A$329 each fitted/GST included, A$1,316 set retained. At assumed 40,000-km life, A$493.50/year at 15,000 km. Life and price bounds are assumptions; confirm placard, alignment and local stock.",
+        "sourceIds": [
+          "audit-kia-carnival-spec-my22",
+          "audit-kia-carnival-tyres"
+        ],
+        "vehicleIds": [
+          "carnival-s-diesel-2021"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "gap",
+        "finding": "A$1,300 annual savings fund retained, not an observed repair average. Replaced generic fitted DPF range with exact KA4 used-part evidence and unknown installed totals. VIN-specific free recalls separated from V6, power-door and 2025-only campaigns; no AU failure-rate dataset found.",
+        "sourceIds": [
+          "audit-kia-carnival-manual-my22",
+          "audit-kia-carnival-used-parts",
+          "audit-kia-carnival-warranty",
+          "audit-kia-carnival-recall-latch",
+          "audit-kia-carnival-recall-fuel",
+          "audit-kia-carnival-recall-power-door",
+          "audit-kia-carnival-excluded-v6-recall",
+          "audit-kia-carnival-excluded-2025-cluster"
+        ],
+        "vehicleIds": [
+          "carnival-s-diesel-2021"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "estimate",
+        "finding": "Added KA4 ProductReview 3.1/5 from 18 mixed-engine/facelift contributions, including a borrowed-car professional review; limit scoring relevance. Exact S diesel professional tests: CarsGuide 7.0/10 and Exhaust Notes 7.8/10; CarExpert retains its current qualitative verdict.",
+        "sourceIds": [
+          "audit-kia-carnival-owner-reviews",
+          "audit-kia-carnival-s-diesel-family-test",
+          "audit-kia-carnival-s-diesel-exhaust-notes",
+          "audit-kia-carnival-s-diesel-road-test"
+        ],
+        "vehicleIds": [
+          "carnival-s-diesel-2021"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "S diesel is four-cylinder: current private QLD registration/traffic/CTP A$864.50–880.50. Conventional duty is A$3 per A$100 up to A$100,000, not hybrid rates. Braked towing 2,000 kg/200-kg ball; observe payload. All-row curtains and 2021 ANCAP apply; facelift centre airbag not inherited.",
+        "sourceIds": [
+          "audit-kia-carnival-qld-registration",
+          "audit-kia-carnival-qld-duty",
+          "audit-kia-carnival-spec-my22",
+          "audit-kia-carnival-ancap",
+          "audit-kia-carnival-ancap-report"
+        ],
+        "vehicleIds": [
+          "carnival-s-diesel-2021"
+        ]
+      }
+    ]
+  }
+}

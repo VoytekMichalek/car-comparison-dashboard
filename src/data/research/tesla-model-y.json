@@ -1,0 +1,902 @@
+{
+  "familyId": "tesla-model-y",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-tesla-model-y-babydrive-original",
+      "title": "2023 RWD family test: restraint models, front clearance and loading",
+      "url": "https://babydrive.com.au/reviews/electric-cars/2023-tesla-model-y/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-babydrive-juniper",
+      "title": "2025 refreshed RWD family test: mixed-facing three-across",
+      "url": "https://babydrive.com.au/reviews/suvs/2025-tesla-model-y-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-ancap-original-report",
+      "title": "Original-body ANCAP technical report: centre restraint limitations",
+      "url": "https://cdn.ancap.com.au/app/public/assets/fb6b4ddefc9c05ea5dd37973c5d1f799dc3ceaac/original.pdf?1749706830=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-ancap-juniper-report",
+      "title": "Refreshed five-seat ANCAP technical report: centre restraint limitations and CPD",
+      "url": "https://cdn.ancap.com.au/app/public/assets/559d7262c46493711cfbb1f15efc7590056e7329/original.pdf?1778028135=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-carexpert-original-lr",
+      "title": "2024 Long Range road test: charging, ride and rear door access",
+      "url": "https://www.carexpert.com.au/car-reviews/2024-tesla-model-y-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-carexpert-original-rwd",
+      "title": "2023 RWD road test: consumption and original warranty",
+      "url": "https://www.carexpert.com.au/car-reviews/2023-tesla-model-y-rwd-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-chasing-juniper-rwd",
+      "title": "2025 RWD road test: 175kW peak and 24-minute charging session",
+      "url": "https://www.chasingcars.com.au/reviews/midsize-suvs/tesla-model-y-rear-wheel-drive-2025-review/",
+      "publisher": "Chasing Cars",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-aaa-original-lr",
+      "title": "AAA 2024 Long Range: 16.7kWh/100km mains energy and 490km test range",
+      "url": "https://realworld.org.au/wp-protected/9086ec53ab01/uploads/2025/08/AUG25_Tesla-Model-Y_WEB.pdf",
+      "publisher": "Australian Automobile Association",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-aaa-juniper-rwd",
+      "title": "AAA 2025 RWD: 14.8kWh/100km mains energy and 450km test range",
+      "url": "https://realworld.org.au/wp-protected/9caf49b35fc2/uploads/2025/11/DEC25_2025-Tesla-Model-Y_WEB.pdf",
+      "publisher": "Australian Automobile Association",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-aaa-mains-protocol",
+      "title": "AAA PEV protocol March 2025: published energy measured at mains, sections 3 and 5.2",
+      "url": "https://realworld.org.au/wp-protected/9c5bc2b93c32/uploads/2025/03/250303-RWT-Annex-IV-PEV-Test-Procedure-ver1_1-March-2025.pdf",
+      "publisher": "Australian Automobile Association",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-warranty",
+      "title": "Tesla Australian vehicle, battery, used-car and repair-parts warranty",
+      "url": "https://www.tesla.com/en_AU/support/Vehicle-warranty",
+      "publisher": "Tesla Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-warranty-2026",
+      "title": "Australian new-vehicle limited warranty effective 1 January 2026",
+      "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/tesla-new-vehicle-limited-warranty-en-au.pdf",
+      "publisher": "Tesla Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-maintenance",
+      "title": "Original-body maintenance intervals: filters, brake fluid, tyres",
+      "url": "https://www.tesla.com/ownersmanual/2020_2024_modely/en_au/GUID-E95DAAD9-646E-4249-9930-B109ED7B1D91.html",
+      "publisher": "Tesla",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-service-retail",
+      "title": "Tesla specialist servicing from A$199, not a scheduled manufacturer package",
+      "url": "https://rodz.com.au/services/tesla-service",
+      "publisher": "Rodz",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-insurance-youi",
+      "title": "Youi sold-policy Model Y premium aggregate, November 2025–May 2026",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/tesla",
+      "publisher": "Youi Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-insurance-brisbane",
+      "title": "March 2026 Alderley quote study: exact driver and excess profile",
+      "url": "https://www.comparethemarket.com.au/news/ev-insurance-up-in-12-months/",
+      "publisher": "Compare the Market Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-tyre-retail",
+      "title": "JAX fitted 255/45R19 104W XL Hankook iON retail anchor",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/19-inch/255-45r19",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-upper-arm-fitted",
+      "title": "Whiteline WA533 upper-arm pair: A$1,823 installed",
+      "url": "https://whitelineperformance.com/au/front-control-arm-upper-arm-to-suit-tesla-model-3-model-y-9986-wa533.html",
+      "publisher": "Whiteline Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-inspection-repairs",
+      "title": "Australian inspection guide: heat-pump, control-arm and underside checks",
+      "url": "https://jpi.report/car-problems/tesla-model-3-model-y",
+      "publisher": "JPI Report",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-tuv-2026",
+      "title": "TÜV 2026 inspection-defect report: German Model Y cohort",
+      "url": "https://www.tuev-verband.de/pressemitteilungen/tuev-report-2026",
+      "publisher": "TÜV-Verband",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-adac-2026",
+      "title": "ADAC 2026 roadside statistics: different endpoint from inspection defects",
+      "url": "https://www.adac.de/rund-ums-fahrzeug/unfall-schaden-panne/adac-pannenstatistik-2026/",
+      "publisher": "ADAC",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-recall-browse",
+      "title": "Australian official Tesla recall register search",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/browse-all-recalls?page=0&search=tesla",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-recall-steering",
+      "title": "REC-006300: 297 Australian Model 3/Y VINs, software remedy",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006300",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-recall-window",
+      "title": "REC-006419: 2025 driver-window anti-pinch software remedy",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006419",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-owners",
+      "title": "ProductReview Australian Model Y aggregate: 4.4/5, 30 contributions",
+      "url": "https://www.productreview.com.au/listings/tesla-model-y",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-qld-registration",
+      "title": "Queensland private-use annual registration and Class 1 CTP, October 2026",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Transport and Main Roads",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-tesla-model-y-qld-duty",
+      "title": "Queensland electric-vehicle duty rates",
+      "url": "https://www.qld.gov.au/transport/registration/fees/duty/rates",
+      "publisher": "Queensland Revenue Office",
+      "kind": "market",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "model-y-rwd-2022",
+      "familyFit": {
+        "status": "tested-three",
+        "summary": "Demonstrated mixed-facing three-across with positive cabin-space evidence; exact boosters remain untested.",
+        "row2": "Two outer ISOFIX positions; top tether on all three rear backrests.",
+        "row3": "No third row on this five-seat configuration.",
+        "testedSeats": "2023 test: rear-facing InfaSecure Attain More plus forward-facing Achieve More and Attain More; an alternative two Achieve More plus one Attain More also fitted.",
+        "buckleAccess": "Three-booster daily buckle reach is untested. ANCAP found its Type A capsule and one selected booster could not be correctly installed centrally; its restraints were tested separately.",
+        "access": "BabyDrive found loading easy from inside/outside, but 2024 Long Range road test reports narrower rear door opening than RAV4, less square than Forester and less than 90-degree opening.",
+        "ventilation": "Rear console vents; verify airflow with your restraints fitted.",
+        "sourceIds": [
+          "ev-tesla-family-2023",
+          "ev-deep-modely-ancap-fit",
+          "audit-tesla-model-y-babydrive-original",
+          "audit-tesla-model-y-ancap-original-report",
+          "audit-tesla-model-y-carexpert-original-lr"
+        ]
+      },
+      "sourceIds": [
+        "ev-tesla-used-review",
+        "ev-tesla-range",
+        "ev-tesla-family-2023",
+        "ev-tesla-china",
+        "ev-tesla-recall",
+        "ev-tesla-warranty",
+        "ev-tesla-old-ancap",
+        "ev-tesla-rwd-market",
+        "ev-tesla-original-dimensions",
+        "ev-deep-tesla-ac",
+        "ev-deep-modely-ancap-fit",
+        "audit-tesla-model-y-babydrive-original",
+        "audit-tesla-model-y-ancap-original-report",
+        "audit-tesla-model-y-carexpert-original-lr"
+      ],
+      "checked": "2026-10-18",
+      "observedConsumption": {
+        "value": 15.9,
+        "unit": "kWh/100km",
+        "basis": "Observed 2023 CarExpert mixed urban/suburban/freeway test; not WLTP or a promise for your use",
+        "sourceIds": [
+          "ev-tesla-used-review"
+        ],
+        "energyBasis": "unspecified"
+      },
+      "consumption": {
+        "value": null,
+        "unit": "kWh/100km",
+        "basis": "No matched official Australian laboratory consumption verified for this original RWD year group. The separate 15.9 road-test result has an unverified energy boundary.",
+        "sourceIds": [
+          "ev-tesla-used-review"
+        ],
+        "energyBasis": "unspecified"
+      }
+    },
+    {
+      "id": "model-y-long-range-2023",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Related original RWD body test demonstrates three-across; exact AWD fit is unconfirmed.",
+        "row2": "2023 body test reports outer ISOFIX and three rear top tethers; confirm this VIN.",
+        "row3": "No third row on this five-seat configuration.",
+        "testedSeats": "Reference only: InfaSecure Attain More / Achieve More combinations in BabyDrive’s 2023 Model Y, not a verified AWD-specific test.",
+        "buckleAccess": "Three-booster daily buckle reach is untested. ANCAP found its Type A capsule and one selected booster could not be correctly installed centrally; its restraints were tested separately.",
+        "access": "BabyDrive found loading easy from inside/outside, but 2024 Long Range road test reports narrower rear door opening than RAV4, less square than Forester and less than 90-degree opening.",
+        "ventilation": "Confirm rear-console airflow in the inspected vehicle.",
+        "sourceIds": [
+          "ev-tesla-family-2023",
+          "ev-deep-modely-ancap-fit",
+          "audit-tesla-model-y-babydrive-original",
+          "audit-tesla-model-y-ancap-original-report",
+          "audit-tesla-model-y-carexpert-original-lr"
+        ]
+      },
+      "sourceIds": [
+        "ev-tesla-range",
+        "ev-tesla-used-review",
+        "ev-tesla-warranty",
+        "ev-tesla-recall",
+        "ev-tesla-family-2023",
+        "ev-tesla-old-ancap",
+        "ev-tesla-lr-market",
+        "ev-tesla-original-dimensions",
+        "ev-deep-tesla-ac",
+        "ev-deep-modely-ancap-fit",
+        "audit-tesla-model-y-babydrive-original",
+        "audit-tesla-model-y-ancap-original-report",
+        "audit-tesla-model-y-carexpert-original-lr",
+        "audit-tesla-model-y-aaa-original-lr",
+        "audit-tesla-model-y-aaa-mains-protocol"
+      ],
+      "checked": "2026-10-18",
+      "consumption": {
+        "value": 16.9,
+        "unit": "kWh/100km",
+        "basis": "2024 original Long Range mandated Australian ADR 81/02 laboratory result reproduced by AAA from the Green Vehicle Guide. Converted from 169 Wh/km. Representative tested build, not every year/VIN in this group. The lab figure’s mains/battery boundary has not been separately verified here.",
+        "sourceIds": [
+          "audit-tesla-model-y-aaa-original-lr"
+        ],
+        "energyBasis": "unspecified"
+      },
+      "dcCharging": {
+        "value": 250,
+        "unit": "kW",
+        "basis": "Peak reported in Australian 2024 original Long Range road test; not sustained power. 2023 VIN-specific charging curve not measured here.",
+        "sourceIds": [
+          "audit-tesla-model-y-carexpert-original-lr"
+        ]
+      },
+      "chargeTime": "AAA 2024 Long Range test: 19–100% in 6 h 9 min at an 11 kW AC charger. This is not a DC 10–80% claim.",
+      "gaps": [
+        "Exact AWD-specific three-seat trial and pack gross/usable capacity remain unverified.",
+        "AAA consumption is for a February 2024-built original Long Range; weather, wheel specification and a late-2023 VIN can differ.",
+        "Australian plated towing and a VDA-comparable boot measure remain unverified."
+      ],
+      "pros": [
+        "533 km published WLTP range; AAA original Long Range test achieved 490 km.",
+        "AAA measured 16.7 kWh/100 km from the mains, including charging losses.",
+        "Related RWD body test supports spacious three-seat potential; confirm the AWD car."
+      ],
+      "cons": [
+        "Exact forward-facing/booster fit remains unconfirmed.",
+        "Original basic warranty is 4 years / 80,000 km.",
+        "Rear door opening is narrower than RAV4 in a first-hand road test."
+      ],
+      "observedConsumption": {
+        "value": 16.7,
+        "unit": "kWh/100km",
+        "basis": "Observed AAA mains-recharge energy including charging losses; February 2024-built original Long Range AWD, Geelong 21–25 March 2025, 18–21°C. 490 km observed range versus 533 km lab. Representative test within this year group, not every VIN.",
+        "sourceIds": [
+          "audit-tesla-model-y-aaa-original-lr",
+          "audit-tesla-model-y-aaa-mains-protocol"
+        ],
+        "energyBasis": "wall"
+      },
+      "observedRange": {
+        "value": 490,
+        "unit": "km",
+        "basis": "Observed AAA test range, calculated under its recharge-energy procedure; not WLTP, not a full-to-empty household trial. Observed AAA mains-recharge energy including charging losses; February 2024-built original Long Range AWD, Geelong 21–25 March 2025, 18–21°C. 490 km observed range versus 533 km lab. Representative test within this year group, not every VIN.",
+        "sourceIds": [
+          "audit-tesla-model-y-aaa-original-lr",
+          "audit-tesla-model-y-aaa-mains-protocol"
+        ]
+      }
+    },
+    {
+      "id": "model-y-rwd-juniper-2025",
+      "familyFit": {
+        "status": "tested-three",
+        "summary": "Demonstrated mixed-facing three-across with positive cabin-space evidence; exact boosters remain untested.",
+        "row2": "Two outer ISOFIX positions and three rear top tethers.",
+        "row3": "No third row on this five-seat configuration.",
+        "testedSeats": "2025 RWD test fitted two forward-facing seats and one rear-facing seat; product model names not stated in the text.",
+        "buckleAccess": "Three-booster daily buckle reach is untested. ANCAP found its Type A capsule and one selected booster could not be correctly installed centrally; its restraints were tested separately.",
+        "access": "Flat floor and easy-to-reach anchors in the 2025 test. Check loading through the actual rear door; no controlled door-aperture measurement was published.",
+        "ventilation": "Rear-console vents and rear climate controls in the tested RWD.",
+        "sourceIds": [
+          "ev-tesla-family-2025",
+          "audit-tesla-model-y-babydrive-juniper",
+          "audit-tesla-model-y-ancap-juniper-report"
+        ]
+      },
+      "sourceIds": [
+        "ev-tesla-order",
+        "ev-tesla-current",
+        "ev-tesla-warranty",
+        "ev-tesla-family-2025",
+        "ev-tesla-new-ancap",
+        "ev-deep-tesla-refresh-dimensions",
+        "ev-deep-tesla-ac",
+        "audit-tesla-model-y-babydrive-juniper",
+        "audit-tesla-model-y-ancap-juniper-report",
+        "audit-tesla-model-y-aaa-juniper-rwd",
+        "audit-tesla-model-y-aaa-mains-protocol",
+        "audit-tesla-model-y-chasing-juniper-rwd"
+      ],
+      "checked": "2026-10-18",
+      "consumption": {
+        "value": 15.3,
+        "unit": "kWh/100km",
+        "basis": "2025 Juniper RWD mandated Australian ADR 81/02 laboratory result reproduced by AAA from the Green Vehicle Guide. Converted from 153 Wh/km. Representative tested build, not every year/VIN in this group. The lab figure’s mains/battery boundary has not been separately verified here.",
+        "sourceIds": [
+          "audit-tesla-model-y-aaa-juniper-rwd"
+        ],
+        "energyBasis": "unspecified"
+      },
+      "dcCharging": {
+        "value": 175,
+        "unit": "kW",
+        "basis": "Peak observed/reported in Australian 2025 RWD road test; session average about 120 kW, not a sustained 175 kW.",
+        "sourceIds": [
+          "audit-tesla-model-y-chasing-juniper-rwd"
+        ]
+      },
+      "chargeTime": "Chasing Cars reports 10–80% in 24 min at a suitable ultra-rapid charger; AAA separately recorded 19–100% in 4 h 48 min on AC. Battery temperature, supply and starting charge matter.",
+      "gaps": [
+        "Pack gross/usable capacity remains unconfirmed by Tesla; independent reports disagree on which capacity measure is being quoted.",
+        "466 km WLTP and AAA 450 km observed apply to the tested 2025 RWD; later Premium wheel/build specifications need confirmation.",
+        "Australian plated towing remains unverified: the en_au manual includes inconsistent North American towing tables.",
+        "Model Y L and any Standard trim require separate entries."
+      ],
+      "observedConsumption": {
+        "value": 14.8,
+        "unit": "kWh/100km",
+        "basis": "Observed AAA mains-recharge energy including charging losses; April 2025-built RWD, Geelong 23–24 October 2025, 15–16°C. 450 km observed versus 466 km lab. A controlled Australian test, not a guaranteed Queensland annual average.",
+        "sourceIds": [
+          "audit-tesla-model-y-aaa-juniper-rwd",
+          "audit-tesla-model-y-aaa-mains-protocol"
+        ],
+        "energyBasis": "wall"
+      },
+      "observedRange": {
+        "value": 450,
+        "unit": "km",
+        "basis": "Observed AAA test range, calculated under its recharge-energy procedure; not WLTP, not a full-to-empty household trial. Observed AAA mains-recharge energy including charging losses; April 2025-built RWD, Geelong 23–24 October 2025, 15–16°C. 450 km observed versus 466 km lab. A controlled Australian test, not a guaranteed Queensland annual average.",
+        "sourceIds": [
+          "audit-tesla-model-y-aaa-juniper-rwd",
+          "audit-tesla-model-y-aaa-mains-protocol"
+        ]
+      }
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "ev-price-my-rwd",
+      "vehicleId": "model-y-rwd-2022",
+      "low": 35990,
+      "high": 42991,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 2,
+      "geography": "TWG Cars Bundamba, QLD; Norris Motor Group Nundah, QLD",
+      "kilometres": "26,101–87,987 km",
+      "observed": "2026-10-18",
+      "note": "Two individual Queensland dealer-used RWD asks, both drive-away; midpoint median rounded to A$39,491. The cheaper car has 87,987 km and the dearer car 26,101 km, so this is not a mileage-adjusted valuation. The previous Salisbury A$41,989 category-page example was excluded: its individual Bigbox stock U229557 could be identified in indexed advertising, but current availability and asking price were not independently reverified on an accessible individual page.",
+      "sourceIds": [
+        "ev-audit-my-rwd-twg",
+        "ev-audit-my-rwd-nmg"
+      ],
+      "confidence": "medium",
+      "estimateBasis": "Median of the included advertised amounts. The displayed low/high are only the included observations, not an estimated market range.",
+      "observations": [
+        {
+          "price": 42991,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 26101,
+          "location": "TWG Cars Bundamba, QLD",
+          "url": "https://www.twgcars.com.au/cars/used-white-2023-tesla-model-y-b14026",
+          "sourceId": "ev-audit-my-rwd-twg",
+          "checked": "2026-10-18",
+          "note": "Dealer page; stock B14026, VIN ending 053436. Build/compliance 2023; build month unverified. No sold label observed."
+        },
+        {
+          "price": 35990,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 87987,
+          "location": "Norris Motor Group Nundah, QLD",
+          "url": "https://nmg.com.au/u3143-1831438-tesla-modely-2023/",
+          "sourceId": "ev-audit-my-rwd-nmg",
+          "checked": "2026-10-18",
+          "note": "Stock U3143; VIN ending 833689. Current page A$35,990 supersedes indexed A$36,488. PPSR/repair history and build month still require inspection."
+        }
+      ],
+      "point": 39491,
+      "kind": "observation"
+    },
+    {
+      "id": "ev-price-my-lr",
+      "vehicleId": "model-y-long-range-2023",
+      "low": 42500,
+      "high": 48998,
+      "condition": "used",
+      "basis": "mixed",
+      "sampleCount": 2,
+      "geography": "Metro GWM Windsor, Brisbane QLD; Private seller, QLD",
+      "kilometres": "55,449–73,500 km; exact configuration examples detailed below",
+      "observed": "2026-10-18",
+      "note": "Two distinct 2023 Queensland Long Range AWD examples. Private asking price excludes charges while the dealer amount is drive-away; these totals are not directly equivalent. Dealer comments mention a September clearance that has expired; confirm the displayed October stock price. Asking prices and stock status can change; this is a small convenience sample, not a valuation.",
+      "sourceIds": [
+        "ev-audit-my-lr-metro",
+        "ev-audit-my-lr-private",
+        "ev-tesla-lr-market"
+      ],
+      "confidence": "medium",
+      "estimateBasis": "Median of the included advertised amounts. The displayed low/high are only the included observations, not an estimated market range. Fee bases differ; the point is a provisional cash-budget anchor, not a fee-normalised valuation. Add the relevant duty/transfer/registration before comparing all-in totals.",
+      "observations": [
+        {
+          "price": 48998,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 55449,
+          "location": "Metro GWM Windsor, Brisbane QLD",
+          "url": "https://metrogwm.com.au/u4239-1896388-tesla-modely-2023/",
+          "sourceId": "ev-audit-my-lr-metro",
+          "checked": "2026-10-18",
+          "note": "Stock U4239; live page price differs from aggregator. Comments mention September clearance ended 30 September; price validity needs confirmation. No sold label observed."
+        },
+        {
+          "price": 42500,
+          "basis": "excludes-charges",
+          "year": 2023,
+          "kilometres": 73500,
+          "location": "Private seller, QLD",
+          "url": "https://www.carsales.com.au/cars/details/2023-tesla-model-y-long-range-auto-awd/SSE-AD-20710586/",
+          "sourceId": "ev-audit-my-lr-private",
+          "checked": "2026-10-18",
+          "note": "Original individual ad re-opened; A$42,500 still displayed, despite a category index showing A$43,500. Fees extra; seller/build-month/condition confirmation required. Seller page lists June 2023 compliance and no current roadworthy certificate; ask for its supply and confirm all-in charges."
+        }
+      ],
+      "point": 45749,
+      "kind": "observation"
+    },
+    {
+      "id": "ev-price-my-new",
+      "vehicleId": "model-y-rwd-juniper-2025",
+      "low": 62918,
+      "high": 64448,
+      "condition": "new",
+      "basis": "drive-away",
+      "sampleCount": 3,
+      "geography": "Tesla Queensland dealer new in-stock ads",
+      "kilometres": "12 km in each of three advertised stocks",
+      "observed": "2026-10-18",
+      "note": "Three distinct Tesla Queensland stock IDs, not repeated category pages. Prices include advertised Queensland on-road charges and differ by stock/paint. All title years are 2026 and dealer descriptions say MY27; VIN/build date and exact equipment need confirmation. The advertised A$2,000 trade-in bonus requires delivery by 31 December 2026 and conditions, and has not been subtracted. Replaces the A$58,900 excluding-charges list-price proxy.",
+      "sourceIds": [
+        "ev-deep-juniper-qld-902005",
+        "ev-deep-juniper-qld-901069",
+        "ev-deep-juniper-qld-901733"
+      ],
+      "confidence": "medium",
+      "observations": [
+        {
+          "price": 64448,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 12,
+          "location": "Tesla Queensland, QLD",
+          "url": "https://www.carsales.com.au/cars/details/2026-tesla-model-y-premium-rear-wheel-drive-auto/OAG-AD-26383676/",
+          "sourceId": "ev-deep-juniper-qld-902005",
+          "checked": "2026-10-18",
+          "note": "Dealer new car in stock; Diamond Black, black interior, 19-inch wheels, stock 902005. Seller labels MY27; build date and VIN are not displayed. Advertised drive-away amount, no conditional trade-in bonus deducted. Confirm exact equipment and availability."
+        },
+        {
+          "price": 64448,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 12,
+          "location": "Tesla Queensland, QLD",
+          "url": "https://www.carsales.com.au/cars/details/2026-tesla-model-y-premium-rear-wheel-drive-auto/OAG-AD-26375489/",
+          "sourceId": "ev-deep-juniper-qld-901069",
+          "checked": "2026-10-18",
+          "note": "Dealer new car in stock; Glacier Blue, black interior, 19-inch wheels, stock 901069. Seller labels MY27; build date and VIN are not displayed. Advertised drive-away amount, no conditional trade-in bonus deducted. Confirm exact equipment and availability."
+        },
+        {
+          "price": 62918,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 12,
+          "location": "Tesla Queensland, QLD",
+          "url": "https://www.carsales.com.au/cars/details/2026-tesla-model-y-premium-rear-wheel-drive-auto/OAG-AD-26383725/",
+          "sourceId": "ev-deep-juniper-qld-901733",
+          "checked": "2026-10-18",
+          "note": "Dealer new car in stock; Pearl White, black interior, 19-inch wheels, stock 901733. Seller labels MY27; build date and VIN are not displayed. Advertised drive-away amount, no conditional trade-in bonus deducted. Confirm exact equipment and availability."
+        }
+      ],
+      "point": 64448,
+      "kind": "observation"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-model-y-original-lr-carexpert-2024",
+      "familyId": "tesla-model-y",
+      "vehicleIds": [
+        "model-y-long-range-2023"
+      ],
+      "tested": "2024 Tesla Model Y Long Range AWD",
+      "scope": "Original Australian five-seat AWD road test; supports this generation, not a late-2023 VIN hardware cutover. Current page has converted the old numeric rating to a label.",
+      "publisher": "CarExpert",
+      "published": "2024-06-08",
+      "checked": "2026-10-18",
+      "rating": null,
+      "outOf": 10,
+      "verdict": "Very Good",
+      "positiveThemes": [
+        "Smooth and efficient electric powertrain; useful cabin and cargo storage."
+      ],
+      "negativeThemes": [
+        "Busy ride and road noise; price cuts hurt resale; rear doors open less widely than RAV4."
+      ],
+      "sourceIds": [
+        "audit-tesla-model-y-carexpert-original-lr"
+      ]
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "model-y-rwd-2022",
+      "scope": "exact",
+      "summary": "Demonstrated mixed-facing three-across, good occupied cabin room; your one-rear-facing plus two-seat/booster combination still needs a fitting trial.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "2023 entry RWD: rear-facing InfaSecure Attain More beside forward-facing Achieve More and Attain More; alternate two Achieve More plus one Attain More fitted. The alternate facing directions are not separately specified.",
+          "sourceIds": [
+            "audit-tesla-model-y-babydrive-original"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No daily three-booster buckle-access trial. ANCAP independently found one selected booster and Type A capsule incompatible with the centre position; individual tests do not establish simultaneous three-across fit.",
+          "sourceIds": [
+            "audit-tesla-model-y-ancap-original-report"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "A 186 cm driver fitted ahead of rear-facing Attain More; flat rear floor and generous loading/head clearance in the test.",
+          "sourceIds": [
+            "audit-tesla-model-y-babydrive-original"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "BabyDrive found loading easy from inside/outside, but 2024 Long Range road test reports narrower rear door opening than RAV4, less square than Forester and less than 90-degree opening.",
+          "sourceIds": [
+            "audit-tesla-model-y-babydrive-original",
+            "audit-tesla-model-y-carexpert-original-lr"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "model-y-long-range-2023",
+      "scope": "related",
+      "summary": "Original-body RWD observations are related evidence for the AWD; no exact AWD three-seat trial verified. Demonstrated mixed-facing three-across, good occupied cabin room; your one-rear-facing plus two-seat/booster combination still needs a fitting trial.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "2023 entry RWD: rear-facing InfaSecure Attain More beside forward-facing Achieve More and Attain More; alternate two Achieve More plus one Attain More fitted. The alternate facing directions are not separately specified.",
+          "sourceIds": [
+            "audit-tesla-model-y-babydrive-original"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No daily three-booster buckle-access trial. ANCAP independently found one selected booster and Type A capsule incompatible with the centre position; individual tests do not establish simultaneous three-across fit.",
+          "sourceIds": [
+            "audit-tesla-model-y-ancap-original-report"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "A 186 cm driver fitted ahead of rear-facing Attain More; flat rear floor and generous loading/head clearance in the test.",
+          "sourceIds": [
+            "audit-tesla-model-y-babydrive-original"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "BabyDrive found loading easy from inside/outside, but 2024 Long Range road test reports narrower rear door opening than RAV4, less square than Forester and less than 90-degree opening.",
+          "sourceIds": [
+            "audit-tesla-model-y-babydrive-original",
+            "audit-tesla-model-y-carexpert-original-lr"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "model-y-rwd-juniper-2025",
+      "scope": "exact",
+      "summary": "Demonstrated mixed-facing three-across, good occupied cabin room; your one-rear-facing plus two-seat/booster combination still needs a fitting trial.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "Two forward-facing plus one rear-facing restraint fitted in the 2025 RWD; text does not name the seat models. Three boosters were not tested.",
+          "sourceIds": [
+            "audit-tesla-model-y-babydrive-juniper"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No daily three-booster buckle-access trial. ANCAP independently found one selected booster and Type A capsule incompatible with the centre position; individual tests do not establish simultaneous three-across fit.",
+          "sourceIds": [
+            "audit-tesla-model-y-ancap-juniper-report"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "About a 180 cm driver fitted ahead of the tested rear-facing seat; taller driver possible with forward-facing seats. Flat rear floor.",
+          "sourceIds": [
+            "audit-tesla-model-y-babydrive-juniper"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Flat floor and easy-to-reach anchors in the 2025 test. Check loading through the actual rear door; no controlled door-aperture measurement was published.",
+          "sourceIds": [
+            "audit-tesla-model-y-babydrive-juniper"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Updated restraint combinations, front-seat clearance, charging and measured energy use. Listing samples and repair budgets retain the limitations shown below.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "estimate",
+        "finding": "Re-read seven individual QLD asks: two 2023 RWD A$35,990–42,991 drive-away (26,101–87,987 km); two 2023 LR A$42,500 excluding charges/A$48,998 drive-away (55,449–73,500 km); three new Premium RWD A$62,918–64,448 drive-away, 12 km. Points remain A$39,491/A$45,749/A$64,448. Tiny, mixed-mileage samples; LR fees differ; build months and availability need confirmation. Corrected RWD geography to the two included dealers.",
+        "sourceIds": [
+          "ev-audit-my-rwd-twg",
+          "ev-audit-my-rwd-nmg",
+          "ev-audit-my-lr-metro",
+          "ev-audit-my-lr-private",
+          "ev-tesla-lr-market",
+          "ev-deep-juniper-qld-902005",
+          "ev-deep-juniper-qld-901069",
+          "ev-deep-juniper-qld-901733"
+        ],
+        "vehicleIds": [
+          "model-y-rwd-2022",
+          "model-y-long-range-2023",
+          "model-y-rwd-juniper-2025"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "conflict",
+        "finding": "Closed observed-consumption gaps with AAA: original 2024 LR 16.7 kWh/100 km and Juniper 2025 RWD 14.8, both measured from mains including charging losses. Observed ranges 490/450 km stay distinct from 533/466 km lab claims. Added LR 250 kW / refreshed RWD 175 kW reported DC peaks. Original RWD 15.9 remains a separate road-test observation. Battery gross/usable reports and en_au towing text conflict; no invented pack/tow figure. Lab and road-test use are separate: original LR 16.9 vs 16.7; Juniper RWD 15.3 vs 14.8 kWh/100km. Original RWD 15.9 is road-test only, with unknown boundary.",
+        "sourceIds": [
+          "audit-tesla-model-y-aaa-original-lr",
+          "audit-tesla-model-y-aaa-juniper-rwd",
+          "audit-tesla-model-y-aaa-mains-protocol",
+          "audit-tesla-model-y-carexpert-original-lr",
+          "audit-tesla-model-y-chasing-juniper-rwd",
+          "audit-tesla-model-y-carexpert-original-rwd"
+        ],
+        "vehicleIds": [
+          "model-y-rwd-2022",
+          "model-y-long-range-2023",
+          "model-y-rwd-juniper-2025"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "verified",
+        "finding": "Both generations demonstrate mixed-facing three-across. Original RWD has named seats, 186 cm driver clearance and flat floor; refreshed RWD reports about 180 cm. Exact LR restraint test is absent. Cabin room and door access differ: original LR review says rear aperture narrower than RAV4. Both ANCAP reports identify a centre booster/capsule incompatibility. Three-booster buckle access stays unknown.",
+        "sourceIds": [
+          "audit-tesla-model-y-babydrive-original",
+          "audit-tesla-model-y-babydrive-juniper",
+          "audit-tesla-model-y-ancap-original-report",
+          "audit-tesla-model-y-ancap-juniper-report",
+          "audit-tesla-model-y-carexpert-original-lr"
+        ],
+        "vehicleIds": [
+          "model-y-rwd-2022",
+          "model-y-long-range-2023",
+          "model-y-rwd-juniper-2025"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Original 2022–2025 basic cover 4 years/80,000 km; 2026 deliveries 5 years/unlimited normal-use kilometres, no retrospective restart. RWD battery/drive unit 8 years/160,000 km, LR 8 years/192,000 km, 70% retention. Balance transfers; extra used-car cover is only Tesla Certified Pre-Owned. Repair-parts cover and exclusions are separate.",
+        "sourceIds": [
+          "audit-tesla-model-y-warranty",
+          "audit-tesla-model-y-warranty-2026",
+          "audit-tesla-model-y-carexpert-original-rwd"
+        ],
+        "vehicleIds": [
+          "model-y-rwd-2022",
+          "model-y-long-range-2023",
+          "model-y-rwd-juniper-2025"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "Rechecked original-body schedule: brake-fluid health check four years, cabin filters two, HEPA/carbon three, tyre rotation 10,000 km/uneven wear. No compulsory annual Tesla package. A$350/year remains an optional maintenance estimate (200–500), supported only by a specialist from-A$199 offer and periodic work; VIN-specific quote required. Historical road-test two-year brake-fluid advice differs from current manual.",
+        "sourceIds": [
+          "audit-tesla-model-y-maintenance",
+          "audit-tesla-model-y-service-retail",
+          "audit-tesla-model-y-carexpert-original-rwd"
+        ],
+        "vehicleIds": [
+          "model-y-rwd-2022",
+          "model-y-long-range-2023",
+          "model-y-rwd-juniper-2025"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "Youi Model Y mean A$2,261 and indicative A$1,542–2,765 sold-policy band, Nov 2025–May 2026. March 2026 Alderley quote-study RWD mean A$3,203 uses a 34-year-old male, 15,000 km, garaged, market value and targeted A$900 excess. These are different samples, not a pooled quote. Preserve user-requested original-RWD A$2,000 default and mark it a budget; LR/Juniper family proxy remains A$3,200.",
+        "sourceIds": [
+          "audit-tesla-model-y-insurance-youi",
+          "audit-tesla-model-y-insurance-brisbane"
+        ],
+        "vehicleIds": [
+          "model-y-rwd-2022",
+          "model-y-long-range-2023",
+          "model-y-rwd-juniper-2025"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Verified 19-inch five-seat 255/45R19 104XL fitment and JAX Hankook iON 104W XL A$509 fitted/GST each: A$2,036 set before temporary multibuy offers. At 15,000 km and assumed 35,000 km life this is A$873/year. Life 25,000–50,000 km is sensitivity, not measured fleet life. Optional 20-inch wheels need another quote; Y L staggered tyres are excluded.",
+        "sourceIds": [
+          "audit-tesla-model-y-tyre-retail",
+          "ev-deep-tesla-original-tyres",
+          "ev-deep-tesla-refresh-tyres"
+        ],
+        "vehicleIds": [
+          "model-y-rwd-2022",
+          "model-y-long-range-2023",
+          "model-y-rwd-juniper-2025"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "estimate",
+        "finding": "No representative Australian annual paid-repair average found. Preserve A$1,000/year original-body and A$700 newer Juniper savings funds, low confidence. Rechecked A$1,823 fitted upper-arm pair and indicative A$2,000–4,000+ compressor guide. TÜV inspection defects and ADAC roadside breakdowns measure different events and cannot become annual Australian repair dollars. Official VIN-applicable software recalls have remedies; recall counts are not owner-paid replacement bills.",
+        "sourceIds": [
+          "audit-tesla-model-y-upper-arm-fitted",
+          "audit-tesla-model-y-inspection-repairs",
+          "audit-tesla-model-y-tuv-2026",
+          "audit-tesla-model-y-adac-2026",
+          "audit-tesla-model-y-recall-browse",
+          "audit-tesla-model-y-recall-steering",
+          "audit-tesla-model-y-recall-window",
+          "audit-tesla-model-y-warranty"
+        ],
+        "vehicleIds": [
+          "model-y-rwd-2022",
+          "model-y-long-range-2023",
+          "model-y-rwd-juniper-2025"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "verified",
+        "finding": "Opened ProductReview page still displays 4.4/5 from 30 mixed-year/variant contributions; not verified-owner-only or a reliability survey. Search snippet 4.5 is not substituted for the read page. Added exact original LR CarExpert categorical verdict. Keep Juniper CarsGuide 7.4/10 scoped to launch RWD; current warranty/safety supersede historical review text.",
+        "sourceIds": [
+          "audit-tesla-model-y-owners",
+          "audit-tesla-model-y-carexpert-original-lr",
+          "expert-model-y-juniper"
+        ],
+        "vehicleIds": [
+          "model-y-rwd-2022",
+          "model-y-long-range-2023",
+          "model-y-rwd-juniper-2025"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "gap",
+        "finding": "Confirmed QLD BEV private annual rego + Class 1 CTP A$782.15–798.15 (midpoint A$790.15), separate comprehensive insurance, and A$2/$100 EV duty below A$100,000. Original/Juniper ANCAP scopes differ. Body width is not cabin fit; Tesla cargo litres are not VDA. Australian plated towing and VIN-specific late-2023 suspension/hardware cutover remain unresolved. Inspect pack underside, suspension noise, HVAC, AC/DC charging, tyre inner edges and warranty/recall completion.",
+        "sourceIds": [
+          "audit-tesla-model-y-qld-registration",
+          "audit-tesla-model-y-qld-duty",
+          "audit-tesla-model-y-ancap-original-report",
+          "audit-tesla-model-y-ancap-juniper-report",
+          "audit-tesla-model-y-inspection-repairs",
+          "ev-tesla-original-dimensions",
+          "ev-deep-tesla-refresh-dimensions"
+        ],
+        "vehicleIds": [
+          "model-y-rwd-2022",
+          "model-y-long-range-2023",
+          "model-y-rwd-juniper-2025"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,844 @@
+{
+  "familyId": "kia-sorento",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-kia-sorento-fit-phev",
+      "title": "2021 Australian Sorento PHEV: mixed-facing restraints and driver clearance",
+      "url": "https://babydrive.com.au/reviews/suvs/2021-kia-sorento-phev/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-fit-hev",
+      "title": "2025 Australian Sorento GT-Line HEV: restraint layout and access",
+      "url": "https://babydrive.com.au/reviews/suvs/2025-kia-sorento-hybrid-gt-line-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-manual-my23",
+      "title": "Australian MY 23 Sorento HEV/PHEV owner manual: fuel pp 2-2; AU/NZ servicing pp 8-10–12",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/owners-manuals/sorento/Kia-Sorento-MQ4-PHEV-HEV-owners-manual-MY23.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-manual-my26",
+      "title": "Australian MY 26 Sorento HEV/PHEV owner manual: AU/NZ servicing pp 9-9–11 and restraints pp 4-38–44",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/owners-manuals/sorento/Kia-Sorento-MQ4PE-PHEV-HEV-owners-manual-MY26.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-brochure-my23",
+      "title": "Sorento Australian MY 23 HEV/PHEV specification sheet",
+      "url": "https://web-assets.cdn.dealersolutions.com.au/modular.multisite.dealer.solutions/wp-content/uploads/2022/10/20115827/kia-sorento-hybrid-brochure-1.pdf",
+      "publisher": "Kia Australia via authorised dealer",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-brochure-my26",
+      "title": "Sorento Australian MY 26 HEV/PHEV specification sheet",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/images/pdf/sorento/kia-sorento-hybrid-brochure.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-ancap-report",
+      "title": "ANCAP Sorento report: individual restraint positions, Australia/NZ distinction, row coverage",
+      "url": "https://cdn.ancap.com.au/app/public/assets/4512756d92eada2c7c7e052329a749e0fa654e94/original.pdf?1705637482=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-ancap-rating",
+      "title": "ANCAP Sorento 2020 rating, applicable variants and expiry",
+      "url": "https://www.ancap.com.au/safety-ratings/kia/sorento/ef7126",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-service-menu",
+      "title": "Kia Australian model-year and drivetrain capped-service prices",
+      "url": "https://dashboard.kia.com.au/kia/cps/kia/20170105v1_flat.html",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-warranty-terms",
+      "title": "Kia Australian warranty terms: components, transfer, original coverage",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/service/Kia-Warranty-terms-and-conditions.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-warranty-faq",
+      "title": "Kia Australia FAQ: pre-MY 27 battery warranty and minimum capacity",
+      "url": "https://www.kia.com/au/util/faq.html",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-recall-pretensioner",
+      "title": "REC-005780 / 231073: selected 2020–22 Sorento HEV/PHEV seatbelt pretensioner",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005780",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-recall-indicators",
+      "title": "REC-005767 / 231070: selected 2022 Sorento indicators",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005767",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-recall-cluster",
+      "title": "REC-006557: selected 2025 Kia cluster software, VIN-specific",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006557",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-price-wynnum",
+      "title": "Current Wynnum MY 22 PHEV GT-Line W 35894 advertisement",
+      "url": "https://www.carsguide.com.au/car/15350791/kia/sorento/qld/wynnum/suv",
+      "publisher": "CarsGuide / Wynnum dealer",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-price-berwick",
+      "title": "Current Berwick MY 23 PHEV GT-Line U 20257 advertisement",
+      "url": "https://www.carsguide.com.au/car/15325366/kia/sorento/vic/berwick/suv",
+      "publisher": "CarsGuide / Berwick dealer",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-price-qld-my23",
+      "title": "Current QLD MY 23 PHEV GT-Line U 61334, price displayed on detail page",
+      "url": "https://www.carsales.com.au/cars/details/2023-kia-sorento-phev-gt-line-auto-awd-my23/OAG-AD-26236225/",
+      "publisher": "Carsales / QLD dealer",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-price-hev",
+      "title": "New MY 26-declared HEV GT-Line AWD stock 517701",
+      "url": "https://bundabergkia.com.au/517701-1869135-kia-sorento-2026/",
+      "publisher": "Bundaberg Kia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-excluded-sold",
+      "title": "Mornington UFH 2185 now explicitly sold and model identification conflicts",
+      "url": "https://morningtonmg.com.au/ufh2185-1881474-kia-sorento-2023/",
+      "publisher": "Mornington MG",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-insurance-youi",
+      "title": "Youi Sorento aggregate premiums: mixed model years and engines, not a hybrid quote",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/kia",
+      "publisher": "Youi Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-tyre-jax",
+      "title": "JAX 235/55R19 fitted retail list: Michelin Pilot Sport 4 SUV 395 each",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/19-inch/235-55r19",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-owners-mixed",
+      "title": "ProductReview Sorento MQ 4 mixed-engine aggregate",
+      "url": "https://www.productreview.com.au/listings/kia-sorento-mq4",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-owners-hev-fwd",
+      "title": "ProductReview Sorento FWD HEV subpage: two posts including expert",
+      "url": "https://www.productreview.com.au/listings/kia-sorento-fwd-hev-gt-line",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-owners-phev",
+      "title": "ProductReview Sorento PHEV subpage: one expert post",
+      "url": "https://www.productreview.com.au/listings/kia-sorento-awd-phev-gt-line",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-hev-awd-roadtest",
+      "title": "WhichCar 2025 Sorento GT-Line HEV AWD week-long test",
+      "url": "https://www.whichcar.com.au/reviews/kia-sorento-gtline-hybrid-seven-seat-suv",
+      "publisher": "WhichCar / Wheels",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-phev-depleted-roadtest",
+      "title": "WhichCar 2022 original Sorento PHEV: minimum-charge road loop",
+      "url": "https://www.whichcar.com.au/reviews/2022-kia-sorento-phev-australian-first-drive-review",
+      "publisher": "WhichCar / Wheels",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-phev-expert",
+      "title": "CarExpert 2022 Sorento PHEV road test and period fuel requirement",
+      "url": "https://www.carexpert.com.au/car-reviews/2022-kia-sorento-plug-in-hybrid-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-qld-fees",
+      "title": "Queensland private registration and CTP fees effective 1 October 2026",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sorento-qld-duty",
+      "title": "Queensland vehicle duty: hybrid rate distinct from four-cylinder registration",
+      "url": "https://www.qld.gov.au/transport/registration/fees/duty/rates",
+      "publisher": "Queensland Government",
+      "kind": "market",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "sorento-phev-gtline-2021-23",
+      "familyFit": {
+        "summary": "Three across demonstrated with rear-facing seats; your exact fit remains pending.",
+        "testedSeats": "2021 test: two Attain More and one Achieve More in row two, tried both directions; two boosters also fitted in row three.",
+        "buckleAccess": "Independent booster-buckle clearance was not assessed.",
+        "access": "Test reported bench movement with ISOFIX restraints; confirm tether routing and both manuals. Roadside 40% split.",
+        "sourceIds": [
+          "hy-sorento-fit-phev",
+          "hy-sorento-fit-hev",
+          "hy-sorento-technical",
+          "hy-deep-sorento-my23",
+          "audit-kia-sorento-fit-phev",
+          "audit-kia-sorento-ancap-report",
+          "audit-kia-sorento-manual-my23"
+        ]
+      },
+      "servicing": "Normal AU/NZ interval 12 months / 10,000 km. PHEV inverter coolant 60,000 km / 36 months; HSG belt 100,000 km / 48 months. Severe-use oil schedule 5,000 km / 6 months; ask Kia which applies.",
+      "inspection": [
+        "Trial one rear-facing plus the two other restraints, checking adult driving position and each booster buckle.",
+        "Ask Kia to check this VIN for REC-005780 pretensioner and REC-005767 indicator campaign completion; campaigns are not owner-paid repair forecasts.",
+        "Request invoices for inverter coolant changes, HSG belt, brake fluid and every scheduled service. Repeated short/stop-start trips can trigger a stricter schedule.",
+        "Demonstrate an AC charge, all climate modes, engine transitions and absence of warning messages; get battery and diagnostic results.",
+        "Original MY 23 manual permits 91 RON, recommending 95 for best performance; confirm the actual car’s filler label. Later PHEV fuel guidance is separate.",
+        "If using row three, confirm airbag limitations and demonstrate a safe access routine with the restraints installed."
+      ],
+      "sourceIds": [
+        "hy-recalls",
+        "hy-sorento-fit-phev",
+        "hy-sorento-fit-hev",
+        "hy-sorento-safe",
+        "hy-kia-warranty",
+        "hy-sorento-used",
+        "hy-sorento-spec",
+        "hy-sorento-technical",
+        "hy-deep-sorento-my23",
+        "hy-deep-kia-fuel",
+        "hy-refresh-sorento-depleted",
+        "audit-kia-sorento-fit-phev",
+        "audit-kia-sorento-manual-my23",
+        "audit-kia-sorento-brochure-my23",
+        "audit-kia-sorento-ancap-report",
+        "audit-kia-sorento-recall-pretensioner",
+        "audit-kia-sorento-recall-indicators",
+        "audit-kia-sorento-phev-expert"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "sorento-gtline-hev-awd-2026",
+      "familyFit": {
+        "summary": "Related 2025 AWD GT-Line test supports mixed-facing restraints; exact MY 26 fit pending.",
+        "testedSeats": "2025 test fitted three across row two in either direction and two in row three. Text does not identify all restraint models.",
+        "buckleAccess": "No measured booster-buckle access test was published.",
+        "access": "2025 test: three across required removing one restraint for row-three access. Two-in-row-two layouts allowed easier access.",
+        "sourceIds": [
+          "hy-sorento-fit-hev",
+          "hy-sorento-spec",
+          "hy-sorento-technical",
+          "audit-kia-sorento-fit-hev",
+          "audit-kia-sorento-ancap-report",
+          "audit-kia-sorento-manual-my26"
+        ]
+      },
+      "servicing": "Normal AU/NZ interval 12 months / 10,000 km. HSG belt 100,000 km / 48 months; HEV inverter coolant first 180,000 km / 10 years. Severe-use oil schedule 5,000 km / 6 months.",
+      "inspection": [
+        "Trial one rear-facing plus the two other restraints; MY 25 related test does not confirm your MY 26 arrangement.",
+        "Check all booster buckles without moving adjacent restraints and check front occupant clearance.",
+        "If row three is occupied, test access and emergency exit with row-two restraints in place; manufacturer lists curtain airbags only in rows one/two.",
+        "Confirm actual model year and build/VIN before applying MY 26 versus MY 27 battery warranty or service menu.",
+        "Get a VIN campaign check, full service schedule and household comprehensive-insurance quote.",
+        "Ask whether repeated short/stop-start family trips require severe-use oil/HSG-belt servicing."
+      ],
+      "sourceIds": [
+        "hy-recalls",
+        "hy-sorento-spec",
+        "hy-sorento-current",
+        "hy-sorento-fit-hev",
+        "hy-sorento-safe",
+        "hy-kia-warranty",
+        "hy-sorento-technical",
+        "hy-deep-kia-fuel",
+        "audit-kia-sorento-fit-hev",
+        "audit-kia-sorento-manual-my26",
+        "audit-kia-sorento-brochure-my26",
+        "audit-kia-sorento-ancap-report",
+        "audit-kia-sorento-recall-cluster",
+        "audit-kia-sorento-hev-awd-roadtest"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "hy-price-sorento-hev",
+      "vehicleId": "sorento-gtline-hev-awd-2026",
+      "low": 79190,
+      "high": 79190,
+      "condition": "new",
+      "basis": "drive-away",
+      "sampleCount": 1,
+      "geography": "Bundaberg, Queensland · authorised dealer",
+      "kilometres": "15 km · new · MY 26 / May 2026 build",
+      "observed": "2026-10-18",
+      "note": "One current dealer-declared MY 26 new GT-Line HEV AWD. Dealer states 26 Model Year / May 2026 build, while VIN KNARH 81GSV 5531684 has a V year character: confirm Kia model-year/order and warranty details before relying on exact MY 26 applicability. Cheaper FWD, diesel, registered demos, MY 27 cars and sold Wayne Phillis stock are excluded; no three-car exact new MY 26 cohort verified.",
+      "sourceIds": [
+        "audit-kia-sorento-price-hev"
+      ],
+      "confidence": "low",
+      "estimateBasis": "Observed A$79,190 drive-away advertisement for the exact MY 26 AWD grade. Includes the advertised Queensland on-road basis; options, delivery to another location and purchaser circumstances may differ.",
+      "point": 79190,
+      "kind": "observation",
+      "observations": [
+        {
+          "price": 79190,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 15,
+          "location": "Bundaberg, QLD",
+          "url": "https://bundabergkia.com.au/517701-1869135-kia-sorento-2026/",
+          "sourceId": "audit-kia-sorento-price-hev",
+          "checked": "2026-10-18",
+          "note": "New stock 517701, 15 km, A$79,190 DAP. Dealer explicitly states 26 Model Year, May 2026 build and June 2026 compliance; VIN KNARH 81GSV 5531684 year character warrants Kia/order-sheet confirmation. Retained as a low-confidence seller-declared MY 26 observation."
+        }
+      ]
+    },
+    {
+      "id": "hy-price-sorento-phev",
+      "vehicleId": "sorento-phev-gtline-2021-23",
+      "low": 49990,
+      "high": 54990,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 3,
+      "geography": "Queensland two used cars + Victoria one used car; original MQ 4 PHEV GT-Line AWD",
+      "kilometres": "35,432–49,985 km",
+      "observed": "2026-10-18",
+      "note": "Three distinct original PHEV cars, not three advertisements of the same car. QLD MY 23 U 61334 now shows A$49,990 drive-away directly, superseding A$51,990. Interstate drive-away fees and transport differ. Sold Mornington stock UFH 2185 and the WA page without an active price are excluded.",
+      "sourceIds": [
+        "audit-kia-sorento-price-wynnum",
+        "audit-kia-sorento-price-qld-my23",
+        "audit-kia-sorento-price-berwick"
+      ],
+      "confidence": "medium",
+      "estimateBasis": "Median of the three matched asking prices below; not achieved sales or a valuation. Availability and buyer-specific charges require confirmation.",
+      "point": 52499,
+      "kind": "observation",
+      "observations": [
+        {
+          "price": 54990,
+          "basis": "drive-away",
+          "year": 2022,
+          "kilometres": 35432,
+          "location": "Wynnum, QLD",
+          "url": "https://www.carsguide.com.au/car/15350791/kia/sorento/qld/wynnum/suv",
+          "sourceId": "audit-kia-sorento-price-wynnum",
+          "checked": "2026-10-18",
+          "note": "Stock W 35894, VIN KNARM 81HSN 5083433, rego 596HA 4; current InStock A$54,990 DAP and exact MY 22 PHEV GT-Line AWD. Gumtree/carsales cross-posts count as the same car."
+        },
+        {
+          "price": 49990,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 42342,
+          "location": "Brisbane, QLD",
+          "url": "https://www.carsales.com.au/cars/details/2023-kia-sorento-phev-gt-line-auto-awd-my23/OAG-AD-26236225/",
+          "sourceId": "audit-kia-sorento-price-qld-my23",
+          "checked": "2026-10-18",
+          "note": "Current original MY23 PHEV detail page: white, 42,342 km, July 2023 build, stock U61334; A$49,990 drive-away. Dealer describes itself as a city BMW dealer. Separate from the sold or renamed Mornington HEV advertisement."
+        },
+        {
+          "price": 52499,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 49985,
+          "location": "Berwick, VIC",
+          "url": "https://www.carsguide.com.au/car/15325366/kia/sorento/vic/berwick/suv",
+          "sourceId": "audit-kia-sorento-price-berwick",
+          "checked": "2026-10-18",
+          "note": "Blue original MY 23 PHEV GT-Line AWD stock U 20257, VIN KNARM 81HSP 5201644. Current dealer-posted HTML and InStock Offer show A$52,499 DAP, superseding indexed A$52,999. Distinct VIN/stock from sold black Pakenham C 5187. VIC-local on-road fees; QLD transport/registration adjustment not quoted."
+        }
+      ]
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "kia-sorento",
+      "serviceInterval": "Normal: 12 months / 10,000 km. AU/NZ severe-use oil schedule: 6 months / 5,000 km; ask Kia about your trip pattern.",
+      "serviceBasis": "ESTIMATE — A$1,000/year at 15,000 km. MY 26 HEV AWD seven-visit caps total A$4,679/70,000 km including GST: A$668.43 per 10,000 km or A$1,002.64 per 15,000 km proportionally. Not an annual invoice. Normal schedule only; stricter use, wear and repairs need separate quotes.",
+      "serviceByVehicle": {
+        "sorento-phev-gtline-2021-23": {
+          "serviceAnnual": 1100,
+          "serviceLow": 850,
+          "serviceHigh": 1500,
+          "serviceConfidence": "low",
+          "serviceBasis": "ESTIMATE — A$1,100/year at 15,000 km. MY 22/MY 23 PHEV seven caps total A$4,894/A$4,937 per 70,000 km including GST (A$1,048.71/A$1,057.93 per 15,000 km proportionally), rounded with an ageing/post-cap buffer. Large visits reach A$1,159/A$1,165. Obtain a VIN-specific quote including coolant/HSG belt and any severe-use work; do not double-count covered scheduled items."
+        }
+      },
+      "energyByVehicle": {
+        "sorento-phev-gtline-2021-23": {
+          "low": 18,
+          "high": 26,
+          "point": 22,
+          "confidence": "low",
+          "basis": "ESTIMATE — battery-side kWh/100 km of electric driving only. Original MY 23 brochure rounded 14 kWh × assumed 85% usable / 55 km midpoint of the original-car observed 50–60 km ×100 ≈21.6; rounded 22. Usable capacity/boundary are assumptions, not measured electrical consumption. Apply charging losses once; engine assistance can add petrol.",
+          "sourceIds": [
+            "audit-kia-sorento-brochure-my23",
+            "audit-kia-sorento-fit-phev"
+          ]
+        }
+      },
+      "fuelByVehicle": {
+        "sorento-gtline-hev-awd-2026": {
+          "low": 5.7,
+          "high": 8.2,
+          "point": 6.9,
+          "confidence": "low",
+          "basis": "ESTIMATE — L/100 km planning proxy for MY 26 AWD HEV using WhichCar’s related 2025 AWD GT-Line week-long 6.9 L/100 km result. Not an exact MY 26 test; route/load and pump validation unpublished. Bounds 5.7–8.2 are illustrative sensitivity, not measured percentiles. Official MY 26 combined 5.7 remains separate.",
+          "sourceIds": [
+            "audit-kia-sorento-hev-awd-roadtest",
+            "audit-kia-sorento-brochure-my26"
+          ]
+        }
+      },
+      "risks": [
+        {
+          "title": "HEV traction battery outside cover",
+          "detail": "HEV only: a diagnosed battery defect/capacity issue may require pack work. The plug-in pack is a separate, larger scenario below. No failure-frequency claim is made.",
+          "low": 4500,
+          "high": 9000,
+          "priceBasis": "ESTIMATE — HEV ONLY: A$4,500–9,000 fitted pack planning scenario with assumed labour/GST. RAV 4 fitted new-genuine A$4,500–7,000 is the donor benchmark; add up to A$2,000 for Kia pack/platform availability. Not a Sorento quote or compatible Toyota part.",
+          "warranty": "Check original defect and capacity coverage, kilometre limit and service history.",
+          "sourceIds": [
+            "own-hy-kia-battery-warranty",
+            "own-hy-kia-powertrain",
+            "own-hy-rav4-battery-price"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "PHEV traction battery outside cover",
+          "detail": "PHEV only: larger plug-in pack repair/replacement after diagnosis. This is an alternative to the HEV scenario, not an additional HEV bill.",
+          "low": 12000,
+          "high": 24000,
+          "priceBasis": "ESTIMATE — PHEV ONLY: A$12,000–24,000 fitted pack planning scenario with assumed labour/GST. Anchor: different Outlander 18 kWh aftermarket upgrade A$14,600 incl GST; broaden roughly 0.8–1.6 times for OEM replacement and uncertain Kia sourcing. Not compatible hardware or a Kia quote.",
+          "warranty": "Check remaining original battery defect/capacity cover and diagnosis before funding work.",
+          "sourceIds": [
+            "own-hy-kia-battery-warranty",
+            "own-hy-kia-powertrain",
+            "own-hy-phev-pack-proxy"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Turbo petrol engine major work",
+          "detail": "Major petrol-engine work only, separate from routine servicing. Verify oil/coolant records; the planning scenario does not assert common failure or include a simultaneous gearbox replacement.",
+          "low": 5000,
+          "high": 12000,
+          "priceBasis": "ESTIMATE — A$5,000–12,000 for major petrol-engine repair/reconditioned replacement with assumed labour/GST. A different Hyundai Tucson 1.6T fitted engine is A$6,000–7,500; widen for Sorento hybrid integration and parts sourcing. Not a compatible-engine or transmission quote.",
+          "warranty": "Covered manufacturing-defect repairs are conditional; routine service and normal wear remain payable.",
+          "sourceIds": [
+            "own-hy-kia-powertrain",
+            "own-hy-kia-warranty",
+            "own-hy-engine-repair-proxy"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "PHEV charging electronics",
+          "detail": "For plug-in variants, test an AC charge and inspect inlet/cable operation before purchase. Charging hardware is an additional possible repair item; no failure frequency is established.",
+          "low": 2000,
+          "high": 6000,
+          "priceBasis": "ESTIMATE — PHEV ONLY: A$2,000–6,000 for charging-electronics/inlet repair or replacement, pack excluded, assuming labour/GST. Toyota/Lexus inverter A$1,000–2,500 is a power-electronics cost analogue; double and round for a different onboard charger, fitment and uncertain Kia supply. Not identical hardware or a quote.",
+          "warranty": "Confirm exact component cover and fault cause; accident/misuse and wear exclusions can apply.",
+          "sourceIds": [
+            "own-hy-kia-powertrain",
+            "own-hy-kia-warranty",
+            "own-hy-hybrid-inverter-proxy"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "2022 (P)HEV turn-indicator recall",
+          "detail": "REC-005767 / campaign 231070 explicitly includes selected 2022 MQ 4 (P)HEV Sorento VINs. Turn indicators may not illuminate; the official remedy is a free multi-function-switch software update.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+          "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "own-hy-kia-indicator-recall"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "2025 instrument-cluster campaign — check build/VIN",
+          "detail": "REC-006557 includes selected 2025 MQ 4 Sorento and other Kia VINs. A blank/slow instrument cluster can hide speed and warnings. This does not establish applicability to the older 2021–2023 PHEV or every MY 26 HEV; ask Kia about the exact build/VIN.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+          "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "own-ev-kia-cluster-2025-recall"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "HEV/PHEV seatbelt pretensioner recall — selected 2020–22 VINs",
+          "detail": "REC-005780 / campaign 231073 concerns 167 selected HEV/PHEV Sorentos. The pretensioner inflator cap can break during deployment and release metal fragments. Check the exact VIN and completed remedy; this does not establish a recurring annual owner-paid failure.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for the official VIN-applicable recall repair; no out-of-pocket component quote or annual failure rate is implied.",
+          "warranty": "Official recall remedy is free; confirm campaign completion with Kia.",
+          "sourceIds": [
+            "audit-kia-sorento-recall-pretensioner"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sourceIds": [
+        "own-hy-kia-warranty",
+        "own-hy-kia-battery-warranty",
+        "own-hy-kia-service-prices",
+        "own-hy-kia-powertrain",
+        "own-hy-kia-terms",
+        "audit-kia-sorento-manual-my23",
+        "audit-kia-sorento-manual-my26",
+        "audit-kia-sorento-service-menu",
+        "audit-kia-sorento-warranty-terms",
+        "audit-kia-sorento-warranty-faq",
+        "audit-kia-sorento-recall-pretensioner",
+        "audit-kia-sorento-recall-indicators",
+        "audit-kia-sorento-recall-cluster",
+        "audit-kia-sorento-hev-awd-roadtest",
+        "audit-kia-sorento-brochure-my23"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-sorento-hev-awd-whichcar-2025",
+      "familyId": "kia-sorento",
+      "vehicleIds": [],
+      "tested": "2025 Kia Sorento GT-Line HEV AWD",
+      "scope": "Related facelift AWD benchmark for the dashboard MY 26 HEV; not an exact model-year test.",
+      "publisher": "WhichCar / Wheels",
+      "published": "2025-05-01",
+      "checked": "2026-10-18",
+      "rating": null,
+      "outOf": 10,
+      "verdict": "Efficient and practical, with short service intervals.",
+      "positiveThemes": [
+        "Comfortable cabin and useful family equipment.",
+        "Efficient AWD hybrid drivetrain."
+      ],
+      "negativeThemes": [
+        "Third row and its access are compromised.",
+        "10,000 km service intervals add expense."
+      ],
+      "sourceIds": [
+        "audit-kia-sorento-hev-awd-roadtest"
+      ]
+    }
+  ],
+  "fuelUpdates": [
+    {
+      "vehicleId": "sorento-phev-gtline-2021-23",
+      "planningRon": 91,
+      "minimumRon": 91,
+      "basis": "Original Australian MY 23 manual p 2-2 recommends 95 RON for best performance but explicitly permits 91–94; period brochure says regular unleaded. Use 91 as original-generation planning, not later PHEV 95 guidance; confirm the actual used car’s filler label, especially 2021–22.",
+      "confidence": "medium",
+      "sourceIds": [
+        "audit-kia-sorento-manual-my23",
+        "audit-kia-sorento-brochure-my23",
+        "audit-kia-sorento-phev-expert"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "sorento-phev-gtline-2021-23",
+      "scope": "exact",
+      "summary": "Original PHEV test; this supports the mixed target but does not confirm your restraints.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "2021 PHEV fitted three named convertibles across row two in both orientations, supporting one rear-facing plus two forward-facing.",
+          "sourceIds": [
+            "audit-kia-sorento-fit-phev"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No independent daily booster-buckle clearance measurement.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "good",
+          "detail": "184 cm driver ahead of rear-facing Attain More, with forward-facing restraints in row three.",
+          "sourceIds": [
+            "audit-kia-sorento-fit-phev"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "Large openings helped loading; third-row use needs a checked bench/tether routine.",
+          "sourceIds": [
+            "audit-kia-sorento-fit-phev",
+            "audit-kia-sorento-manual-my23"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "sorento-gtline-hev-awd-2026",
+      "scope": "related",
+      "summary": "2025 facelift AWD GT-Line practical test; MY 26 restraint and buckle checks remain pending.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "Related 2025 test demonstrated three across with rear/forward-facing seats plus third-row restraints; exact models not fully listed.",
+          "sourceIds": [
+            "audit-kia-sorento-fit-hev",
+            "audit-kia-sorento-brochure-my26"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No measured buckle reach with the proposed boosters and rear-facing seat.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Related test fitted a 180 cm driver ahead of a rear-facing row-two capsule and a forward-facing restraint behind in row three.",
+          "sourceIds": [
+            "audit-kia-sorento-fit-hev"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "Two across gave better third-row access; three across required uninstalling one restraint.",
+          "sourceIds": [
+            "audit-kia-sorento-fit-hev",
+            "audit-kia-sorento-manual-my26"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Sorento mixed-facing fit is well supported, with useful driver-clearance evidence. Added pretensioner recall, original fuel-grade clarification, exact fluid/belt schedule and related HEV real-use planning; retained honest gaps on repair averages and insurance.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "verified",
+        "finding": "Original PHEV sample remains 3 cars: A$49,990–54,990 DAP, median A$52,499, 35,432–49,985 km across QLD/VIC. MY 26-declared HEV is one QLD new-car observation at A$79,190 DAP; seller model year/VIN conflict remains. Sold and ambiguous cars excluded.",
+        "sourceIds": [
+          "audit-kia-sorento-price-wynnum",
+          "audit-kia-sorento-price-qld-my23",
+          "audit-kia-sorento-price-berwick",
+          "audit-kia-sorento-price-hev",
+          "audit-kia-sorento-excluded-sold"
+        ],
+        "vehicleIds": [
+          "sorento-phev-gtline-2021-23",
+          "sorento-gtline-hev-awd-2026"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "conflict",
+        "finding": "Keep original PHEV 68 km WLTP, 3.3 kW AC and 6.7 L/100 km minimum-charge road result separate from MY 26 HEV 5.7 ADR. New HEV planning 6.9 uses a related AWD test, not exact MY 26 observation. Period original PHEV manual permits 91 RON; later PHEV 95 guidance is separate.",
+        "sourceIds": [
+          "audit-kia-sorento-brochure-my23",
+          "audit-kia-sorento-brochure-my26",
+          "audit-kia-sorento-manual-my23",
+          "audit-kia-sorento-hev-awd-roadtest",
+          "audit-kia-sorento-phev-depleted-roadtest",
+          "audit-kia-sorento-phev-expert"
+        ],
+        "vehicleIds": [
+          "sorento-phev-gtline-2021-23",
+          "sorento-gtline-hev-awd-2026"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "verified",
+        "finding": "Both tests support mixed-facing arrangements and publish adult clearance. Exact PHEV evidence is stronger than the related-year HEV evidence. Booster buckles remain unknown; third-row curtain-airbag coverage is absent.",
+        "sourceIds": [
+          "audit-kia-sorento-fit-phev",
+          "audit-kia-sorento-fit-hev",
+          "audit-kia-sorento-ancap-report",
+          "audit-kia-sorento-brochure-my23",
+          "audit-kia-sorento-brochure-my26"
+        ],
+        "vehicleIds": [
+          "sorento-phev-gtline-2021-23",
+          "sorento-gtline-hev-awd-2026"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Private-use 7 years / unlimited km transfers; HV components 7 years / 150,000 km. Both listed configurations predate MY 27’s longer battery term. Existing 70% / 7 years / 150,000 km capacity note retained; original delivery/use and booklet govern remaining cover.",
+        "sourceIds": [
+          "audit-kia-sorento-warranty-terms",
+          "audit-kia-sorento-warranty-faq"
+        ],
+        "vehicleIds": [
+          "sorento-phev-gtline-2021-23",
+          "sorento-gtline-hev-awd-2026"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "Official year/drivetrain caps rechecked; keep A$1,000 HEV and A$1,100 PHEV annual planning. Manuals identify PHEV coolant 36 months / 60,000 km, HSG belt 4 years / 100,000 km and a shorter severe-use oil schedule. Do not add scheduled work twice.",
+        "sourceIds": [
+          "audit-kia-sorento-service-menu",
+          "audit-kia-sorento-manual-my23",
+          "audit-kia-sorento-manual-my26"
+        ],
+        "vehicleIds": [
+          "sorento-phev-gtline-2021-23",
+          "sorento-gtline-hev-awd-2026"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "Youi model mean A$1,393 and indicative A$935–1,742 range mix years and engines, with at least 10 policies. Not a household/new-hybrid quote; retain A$2,100 low-confidence planning pending matched quotes.",
+        "sourceIds": [
+          "audit-kia-sorento-insurance-youi"
+        ],
+        "vehicleIds": [
+          "sorento-phev-gtline-2021-23",
+          "sorento-gtline-hev-awd-2026"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Both specified 235/55R19. JAX Michelin 395 fitted each rechecked; four A$1,580. Keep 45,000 km assumed life (A$526.67/year at 15,000 km), not measured Sorento wear.",
+        "sourceIds": [
+          "audit-kia-sorento-brochure-my23",
+          "audit-kia-sorento-brochure-my26",
+          "audit-kia-sorento-tyre-jax"
+        ],
+        "vehicleIds": [
+          "sorento-phev-gtline-2021-23",
+          "sorento-gtline-hev-awd-2026"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "gap",
+        "finding": "Added selected 2020–22 HEV/PHEV pretensioner recall; indicator and later cluster campaigns remain VIN-specific/free. No robust Australian annual hybrid-repair average or fitted Sorento pack quote found. A$650 HEV/A$1,100 PHEV savings remain assumptions, not expected invoices.",
+        "sourceIds": [
+          "audit-kia-sorento-recall-pretensioner",
+          "audit-kia-sorento-recall-indicators",
+          "audit-kia-sorento-recall-cluster",
+          "audit-kia-sorento-warranty-terms"
+        ],
+        "vehicleIds": [
+          "sorento-phev-gtline-2021-23",
+          "sorento-gtline-hev-awd-2026"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "verified",
+        "finding": "Mixed MQ 4 aggregate remains 3.4/5 from 31 posts; powertrain mix and experts prevent hybrid-specific reliability inference. FWD HEV has 2 posts including an expert; PHEV 1 expert. Add related AWD professional review without converting prose verdict into a numeric score.",
+        "sourceIds": [
+          "audit-kia-sorento-owners-mixed",
+          "audit-kia-sorento-owners-hev-fwd",
+          "audit-kia-sorento-owners-phev",
+          "audit-kia-sorento-hev-awd-roadtest",
+          "audit-kia-sorento-phev-expert"
+        ],
+        "vehicleIds": [
+          "sorento-phev-gtline-2021-23",
+          "sorento-gtline-hev-awd-2026"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "ANCAP 2020 rating covers both, listed expiry Dec 2026; third-row airbags absent. Original PHEV towing 1,350 kg / 175 L occupied boot versus HEV 1,650 kg / 179 L. QLD four-cylinder recurring registration differs from hybrid duty category; buyer-specific CTP and interstate transfer remain separate.",
+        "sourceIds": [
+          "audit-kia-sorento-ancap-rating",
+          "audit-kia-sorento-ancap-report",
+          "audit-kia-sorento-brochure-my23",
+          "audit-kia-sorento-brochure-my26",
+          "audit-kia-sorento-qld-fees",
+          "audit-kia-sorento-qld-duty"
+        ],
+        "vehicleIds": [
+          "sorento-phev-gtline-2021-23",
+          "sorento-gtline-hev-awd-2026"
+        ]
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { getPrice, budgetBenchmarks, insuranceFor, ownershipFor, vehicles } from './data';
-import { representativePrice, defaultOwnership, emptyPersonal, parseBackup } from './lib';
+import { calculateEnergy, representativePrice, defaultOwnership, emptyPersonal, parseBackup } from './lib';
 import { energyBudget, ownershipEstimate, qldDuty, registrationCost } from './ownership';
 
 const ev = vehicles.find(v => v.id === 'model-y-rwd-2022')!;
@@ -8,6 +8,17 @@ const xtrail = vehicles.find(v => v.id === 'xtrail-ti-epower-awd')!;
 const rav4 = vehicles.find(v => v.id === 'rav4-gxl-hev-2021-25')!;
 
 describe('Queensland ownership budgeting', () => {
+  it('uses matched observed EV energy without replacing official claims or counting mains losses twice', () => {
+    const settings = { ...emptyPersonal().costs, annualKm: 10000, homeShare: 100, homeRate: .3, chargingLoss: 20 };
+    const car = { ...ev, familyId: 'test', consumption: { value: 20, unit: 'kWh/100km', energyBasis: 'wall' as const, basis: 'Official mains claim', sourceIds: ['official'] }, observedConsumption: { value: 16, unit: 'kWh/100km', energyBasis: 'wall' as const, basis: 'Matched road test; mains recharge', sourceIds: ['observed'] } };
+    expect(calculateEnergy(car, settings).total).toBe(600);
+    expect(energyBudget(car, settings).total).toBe(480);
+    expect(energyBudget(car, settings).sourceIds).toContain('observed');
+    expect(energyBudget(car, settings).reason).toContain('Matched road-test');
+    expect(energyBudget({ ...car, observedConsumption: { ...car.observedConsumption, energyBasis: 'battery' } }, settings).total).toBe(600);
+    expect(energyBudget({ ...car, observedConsumption: { ...car.observedConsumption, energyBasis: 'unspecified' } }, settings).total).toBe(600);
+    expect(car.consumption.value).toBe(20);
+  });
   it('uses the electric/three-cylinder group and adds CTP exactly once', () => {
     expect(registrationCost(ev, defaultOwnership).total).toBeCloseTo(790.15);
     expect(registrationCost(xtrail, defaultOwnership).total).toBeCloseTo(790.15);
@@ -93,7 +104,9 @@ describe('Queensland ownership budgeting', () => {
   it('does not use the Sorento family PHEV electrical proxy as HEV fuel consumption', () => {
     const car = vehicles.find(v => v.id === 'sorento-gtline-hev-awd-2026')!;
     const settings = emptyPersonal().costs;
-    expect(energyBudget(car, settings).total).toBeCloseTo(15000 / 100 * car.consumption.value! * settings.petrolRate);
+    const fuel = ownershipFor(car.familyId)?.fuelByVehicle?.[car.id] ?? ownershipFor(car.familyId)?.fuelEstimate;
+    const rate = car.fuel?.planningRon === 95 ? settings.premiumPetrolRate! : settings.petrolRate;
+    expect(energyBudget(car, settings).total).toBeCloseTo(15000 / 100 * (fuel?.point ?? car.consumption.value!) * rate);
     expect(energyBudget(car, settings).electric).toBe(0);
   });
   it('uses a generation-specific Forester fuel scenario ahead of the family fallback', () => {

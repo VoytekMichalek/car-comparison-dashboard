@@ -1,0 +1,680 @@
+{
+  "familyId": "hyundai-tucson",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-hyundai-tucson-spec21",
+      "title": "Hyundai Australia original 2021 NX4 specifications: 2.0 MPi, dimensions, VDA boot, wheels and towing",
+      "url": "https://www.hyundai.com/content/dam/hyundai/au/en/models/tucson/docs/Hyundai_Tucson_Specifications_Sheet_2021.pdf",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-spec23",
+      "title": "Hyundai January 2023 NX4 specification table: unchanged original 2.0 MPi specification and N Line exclusions",
+      "url": "https://www.hyundai.com/content/dam/hyundai/au/en/models/tucson/docs/NX4-Tucson_Spec-Table_Jan_2023_simplified_disclaimers_v2.1.pdf",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-family21",
+      "title": "BabyDrive 2021 Elite: named rear-facing / forward-facing / slim-booster combination and 184 cm clearance",
+      "url": "https://babydrive.com.au/reviews/suvs/2021-hyundai-tucson-elite/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-base-test",
+      "title": "CarsGuide exact 2021 base 2.0 family test: observed 8.8 L/100km, original service pricing, 7.6/10",
+      "url": "https://www.carsguide.com.au/family/hyundai-tucson-20-83952",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-launch-test",
+      "title": "CarsGuide 2021 Australian launch: original 2.0 petrol, grade equipment and 7.8/10",
+      "url": "https://www.carsguide.com.au/car-reviews/hyundai-tucson-83451",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-ancap",
+      "title": "ANCAP 2021 Tucson NX4 rating, all variants; December 2027 expiry",
+      "url": "https://www.ancap.com.au/safety-ratings/hyundai/tucson/0b314b",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-ancap-report",
+      "title": "ANCAP technical report: one rear-facing convertible fails outboard ISOFIX; centre installation cautions",
+      "url": "https://cdn.ancap.com.au/app/public/assets/02b12cb0c2d0a3d1ecd085a882fc7d7e8ae475b4/original.pdf?1723441168=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-passport21",
+      "title": "Hyundai July 2021 Australian service/warranty passport: original terms, commercial use and exclusions",
+      "url": "https://www.hyundai.com/content/dam/hyundai/au/en/documents/Service-Warranty_Passport.pdf",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-warranty",
+      "title": "Hyundai current warranty: first-registration-from-June-2025 eligibility and transfer",
+      "url": "https://www.hyundai.com/au/en/owning/myhyundaicare/warranty",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-service",
+      "title": "Hyundai Genuine Service Plan: time-limited maximum quotes, transferable with the car",
+      "url": "https://www.hyundai.com/au/en/owning/servicing",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-manual-index",
+      "title": "Hyundai Australian owner-manual index; no original Tucson maintenance PDF exposed in fetched index",
+      "url": "https://www.hyundai.com/au/en/owning/manual",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-insurance",
+      "title": "Youi Tucson comprehensive premiums: A$1,191 mixed-model mean; policies 22 November 2025–22 May 2026",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/hyundai",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-tyres",
+      "title": "JAX 235/65R17: Michelin Primacy 5 108V XL A$329 fitted incl GST; October alternatives",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/17-inch/235-65r17",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-fca-recall",
+      "title": "REC-006615, 29 May 2026: selected 2023–26 NX4 FCA software, free remedy",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006615",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-cluster-recall",
+      "title": "REC-006717, 3 September 2026: selected 2023–26 NX4 display software, free remedy",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006717",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-vin-recall",
+      "title": "Hyundai Australian recall lookup: verify applicability and completion by VIN",
+      "url": "https://www.hyundai.com/au/en/owning/safety-recalls",
+      "publisher": "Hyundai Australia",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-engine-used",
+      "title": "JJ Auto Parts NX4 G4NL 2.0 petrol used engine: A$4,900.39, 70,647 km donor, parts only",
+      "url": "https://parts.jjautoparts.com.au/find-auto-parts/year/2022/make/HYUNDAI/model/TUCSON/itemTypeCode/ENGINE/sku/MTAwMjkwNTk4MC1uczAx/",
+      "publisher": "JJ Auto Parts",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-engine-guide",
+      "title": "Hyun Engines Tucson guide: published fitted price ranges concern older TL GDI/turbo; NX4 MPi is VIN-quoted",
+      "url": "https://hyunengines.com.au/hyundai-tucson-engine-replacement-cost/",
+      "publisher": "Hyun Engines",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-owner-nx4",
+      "title": "ProductReview NX4 aggregate 2.5/5, 25 posts; mixes original/facelift, powertrains and borrowed-car review",
+      "url": "https://www.productreview.com.au/listings/hyundai-tucson-nx4",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-stock-139653",
+      "title": "Frizelle Sunshine 2023 base 2.0, stock 139653: live A$24,990 drive-away / 90,684 km",
+      "url": "https://www.frizellesunshine.com.au/cars/used-white-2023-hyundai-tucson-139653",
+      "publisher": "Frizelle Sunshine Automotive",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-stock-b13946",
+      "title": "TWG Bundamba 2023 base 2.0, B13946: live A$19,991 drive-away / 113,244 km",
+      "url": "https://www.twgcars.com.au/cars/used-white-2023-hyundai-tucson-b13946",
+      "publisher": "TWG Cars Bundamba",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-stock-u228762",
+      "title": "Motorama Springwood 2023 base 2.0, U228762: live A$24,880 drive-away / 89,531 km",
+      "url": "https://www.motorama.com.au/cars/used-grey-2023-hyundai-tucson-u228762",
+      "publisher": "Motorama",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-stock-58144",
+      "title": "Q Suzuki 2024 base 2.0, 58144: live A$28,490 drive-away / 26,784 km",
+      "url": "https://www.qsuzuki.com.au/cars/used-silver-2024-hyundai-tucson-58144",
+      "publisher": "Q Suzuki",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-stock-58151",
+      "title": "Q Suzuki 2024 base, stock 58151: sold on live page; excluded from asking sample",
+      "url": "https://www.qsuzuki.com.au/cars/used-silver-2024-hyundai-tucson-58151",
+      "publisher": "Q Suzuki",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-stock-58146",
+      "title": "Q Suzuki 2024 base, stock 58146: sold on live page; excluded from asking sample",
+      "url": "https://www.qsuzuki.com.au/cars/used-grey-2024-hyundai-tucson-58146",
+      "publisher": "Q Suzuki",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-rego",
+      "title": "Queensland 1 October 2026 private registration / Class 1 CTP: four-cylinder category",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-tucson-duty",
+      "title": "Queensland light-vehicle duty: four-cylinder petrol A$3 per A$100 up to A$100,000",
+      "url": "https://www.qld.gov.au/transport/registration/fees/duty/rates",
+      "publisher": "Queensland Government",
+      "kind": "market",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "tucson-base-petrol-2021",
+      "headline": "Rear-facing + forward-facing + slim booster demonstrated",
+      "summary": "The related Elite test fitted a rear-facing Serene, forward-facing Optima and slim Versatile booster. Three full-size seats did not fit. Base trim retains rear vents and a full-size spare; confirm your seats before buying.",
+      "observedConsumption": {
+        "value": 8.8,
+        "unit": "L/100km",
+        "basis": "Exact original 2021 base 2.0 MPi CarsGuide family test over one mainly suburban week. One road test, not a fleet average; separate from ADR 8.1.",
+        "sourceIds": [
+          "audit-hyundai-tucson-base-test"
+        ]
+      },
+      "warranty": "Original private-use cover: five years / unlimited km from first registration or first retail delivery, whichever occurred earlier. Earlier commercial use can impose a 130,000 km cap. Later seven-year offer is delivery-date/service conditional, not retrospective.",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Related Elite test demonstrated one rear-facing seat, one forward-facing seat and a slim folding booster; three full-size seats failed.",
+        "row2": "Three top-tether anchors on rear seatbacks; ISOFIX on both outboard positions. ANCAP found one selected rear-facing convertible incompatible with outboard ISOFIX; centre installations also need care.",
+        "row3": "No third row.",
+        "testedSeats": "2021 Elite: Infasecure Serene rear-facing + Optima forward-facing + Versatile Folding Booster. This named slim-booster result is not evidence that three bulky harnessed seats fit.",
+        "buckleAccess": "Daily independent booster buckling was not established. Check with all three of your seats installed.",
+        "access": "Related Elite test found large doors and easy child loading. Tapered upper sides limited three-seat width.",
+        "ventilation": "Original base specification includes rear console vents and manual air conditioning. Elite climate controls and upholstery differ.",
+        "sourceIds": [
+          "audit-hyundai-tucson-family21",
+          "audit-hyundai-tucson-spec21",
+          "audit-hyundai-tucson-ancap-report"
+        ]
+      },
+      "inspection": [
+        "Fit your rear-facing seat and both other restraints together; test booster buckles independently.",
+        "Check the restraint manual and installation method: ANCAP found one rear-facing ISOFIX combination incompatible.",
+        "Check first registration/delivery, previous commercial or rental use, and complete annual / 15,000 km records.",
+        "Ask Hyundai for VIN-specific recall completion and the next major-service quote.",
+        "Inspect cold start, oil level, coolant, air conditioning, suspension, brakes and six-speed automatic shifts; test your phone connection."
+      ],
+      "gaps": [
+        "Published mixed-facing test is Elite trim; your base car and exact seats still need a physical fit check.",
+        "Three full-size restraints did not fit that test, and daily booster-buckle access remains unverified.",
+        "Current four-car asking sample covers 2023–24 only; no claim of equivalent pricing for every cohort year.",
+        "Exact Australian original-model fluid / spark-plug schedule and current major-service prices require the car’s logbook and quote.",
+        "No representative Australian annual paid-repair average or installed G4NL engine replacement quote."
+      ],
+      "sourceIds": [
+        "audit-hyundai-tucson-spec21",
+        "audit-hyundai-tucson-spec23",
+        "audit-hyundai-tucson-passport21",
+        "audit-hyundai-tucson-launch-test"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "ice-kr-tucson-used",
+      "vehicleId": "tucson-base-petrol-2021",
+      "low": 19991,
+      "high": 28490,
+      "point": 24935,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 4,
+      "geography": "Four distinct Queensland dealer-used base 2.0 cars: Arundel, Bundamba and Springwood",
+      "kilometres": "26,784–113,244 km",
+      "observed": "2026-10-18",
+      "kind": "observation",
+      "confidence": "low",
+      "note": "Median of four distinct live dealer asks, all drive-away: A$19,991–28,490. Three 2023 cars and one 2024; price differences include kilometre/age context. Fresh visible seller prices agree with InStock schemas; stale search caches are excluded. Two other Q Suzuki cars are now sold. This small sample is not a valuation for every 2021–24 car.",
+      "sourceIds": [
+        "audit-hyundai-tucson-stock-139653",
+        "audit-hyundai-tucson-stock-b13946",
+        "audit-hyundai-tucson-stock-u228762",
+        "audit-hyundai-tucson-stock-58144"
+      ],
+      "observations": [
+        {
+          "price": 24990,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 90684,
+          "location": "Arundel QLD",
+          "url": "https://www.frizellesunshine.com.au/cars/used-white-2023-hyundai-tucson-139653",
+          "sourceId": "audit-hyundai-tucson-stock-139653",
+          "checked": "2026-10-18",
+          "note": "Original NX4 base 2.0 MPi FWD six-speed auto. Distinct stock 139653 / VIN KMHJB81DMPU237403. Live seller header and InStock schema checked; cached prices superseded."
+        },
+        {
+          "price": 19991,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 113244,
+          "location": "Bundamba QLD",
+          "url": "https://www.twgcars.com.au/cars/used-white-2023-hyundai-tucson-b13946",
+          "sourceId": "audit-hyundai-tucson-stock-b13946",
+          "checked": "2026-10-18",
+          "note": "Original NX4 base 2.0 MPi FWD six-speed auto. Distinct stock B13946 / VIN KMHJB81DMRU271859. Live seller header and InStock schema checked; cached prices superseded."
+        },
+        {
+          "price": 24880,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 89531,
+          "location": "Springwood QLD",
+          "url": "https://www.motorama.com.au/cars/used-grey-2023-hyundai-tucson-u228762",
+          "sourceId": "audit-hyundai-tucson-stock-u228762",
+          "checked": "2026-10-18",
+          "note": "Original NX4 base 2.0 MPi FWD six-speed auto. Distinct stock U228762 / VIN KMHJB81DMPU236667. Live seller header and InStock schema checked; cached prices superseded."
+        },
+        {
+          "price": 28490,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 26784,
+          "location": "Springwood QLD",
+          "url": "https://www.qsuzuki.com.au/cars/used-silver-2024-hyundai-tucson-58144",
+          "sourceId": "audit-hyundai-tucson-stock-58144",
+          "checked": "2026-10-18",
+          "note": "Original NX4 base 2.0 MPi FWD six-speed auto. Distinct stock 58144 / VIN KMHJB81DMRU352693. Live seller header and InStock schema checked; cached prices superseded."
+        }
+      ]
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "hyundai-tucson",
+      "serviceInterval": "12 months / 15,000 km for 2.0 MPi; VIN-specific service quote required.",
+      "serviceAnnual": 450,
+      "serviceLow": 300,
+      "serviceHigh": 750,
+      "serviceBasis": "A$450/year long-ownership planning allowance, A$300–750 sensitivity bounds. Exact original base family test reports A$319 each for the first five scheduled services (A$1,595 / 75,000 km), not a current remaining-life quote. Hyundai’s transferable Genuine Service Plan provides time-limited maximum quotes. Original 2.0 MPi fluid/spark-plug schedule and higher-mileage work need the vehicle logbook and dealer quote; do not import turbo, diesel or hybrid intervals.",
+      "serviceConfidence": "low",
+      "warrantyCautions": [
+        "The July 2021 Australian passport gives private-use five-year / unlimited-km cover from first registration or first retail delivery, whichever is earlier; the remaining balance does not restart on resale.",
+        "Any prior commercial application, including rental/hire, can change the original limit to five years / 130,000 km. Check the actual warranty passport and usage history.",
+        "Original 12 V battery cover is two years / 40,000 km; original paint durability is three years. Normal wear, tyres, brake friction materials and accident damage are separate.",
+        "Proper scheduled work and detailed invoices from a suitably qualified repairer support original basic cover; the later seven-year offer requires first registration from 1 June 2025 and authorised-dealer servicing."
+      ],
+      "risks": [
+        {
+          "title": "VIN-specific FCA and instrument-display recalls",
+          "detail": "REC-006615 (36,496 selected 2023–26 cars) concerns continued unexpected braking. REC-006717 (11,461 selected 2023–26 cars) concerns missing instrument/HUD safety information. Listed equipment and actual VIN determine applicability; base cars do not all have a HUD.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "Official VIN-applicable software remedies are free. They are not owner-paid annual repair costs.",
+          "warranty": "Recall remedies are separate from remaining basic cover.",
+          "sourceIds": [
+            "audit-hyundai-tucson-fca-recall",
+            "audit-hyundai-tucson-cluster-recall",
+            "audit-hyundai-tucson-vin-recall"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "Major engine failure: a parts-price example, not a failure forecast",
+          "detail": "An Australian recycler lists a used NX4 G4NL 2.0 petrol engine from a 2022 FWD donor with 70,647 km at A$4,900.39. The listing says GST included, shipping excluded; structured tax metadata conflicts, so confirm in writing. Labour, freight, fluids and diagnosis are additional. This does not establish how often these engines fail.",
+          "low": 4900.39,
+          "high": 4900.39,
+          "priceBasis": "One used component ask only, checked 18 October 2026. Not an installed repair quote, range or representative average. Confirm exact VIN/engine interchange and current stock.",
+          "warranty": "Use applicable warranty or consumer remedies first; fitting a used engine has its own supplier terms.",
+          "sourceIds": [
+            "audit-hyundai-tucson-engine-used",
+            "audit-hyundai-tucson-engine-guide",
+            "audit-hyundai-tucson-passport21"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Age-related cooling, air conditioning and chassis work",
+          "detail": "Inspection priorities include oil level/leaks, cooling, air conditioning, suspension, brake wear and conventional automatic operation. No exact installed quote or representative annual paid-repair dataset was verified. Older TL GDI engine / DCT / diesel stories are not evidence about this NX4 2.0 MPi six-speed.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Unpriced inspection risks. Obtain diagnosis and an itemised Queensland quote.",
+          "warranty": "Wear and maintenance exclusions apply; original cover may be expiring.",
+          "sourceIds": [
+            "audit-hyundai-tucson-spec21",
+            "audit-hyundai-tucson-passport21",
+            "audit-hyundai-tucson-engine-guide"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "audit-hyundai-tucson-passport21",
+        "audit-hyundai-tucson-warranty",
+        "audit-hyundai-tucson-service",
+        "audit-hyundai-tucson-spec21",
+        "audit-hyundai-tucson-base-test",
+        "audit-hyundai-tucson-manual-index"
+      ],
+      "checked": "2026-10-18",
+      "fuelEstimate": {
+        "point": 9.5,
+        "low": 8.1,
+        "high": 12,
+        "confidence": "low",
+        "basis": "L/100km family-driving planning scenario: 9.5 point, 8.1–12 bounds. Original ADR combined 8.1 / urban 11.0 and the exact base CarsGuide suburban week at 8.8 support a broader planning allowance. Point and bounds remain analyst assumptions, not a measured fleet mean.",
+        "sourceIds": [
+          "audit-hyundai-tucson-spec21",
+          "audit-hyundai-tucson-base-test"
+        ]
+      }
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "hyundai-tucson",
+      "rating": 2.5,
+      "outOf": 5,
+      "count": 25,
+      "scope": "ProductReview NX4 2021–26 mixed engines, trims and original/facelift cars; includes hybrids and a borrowed-car professional contribution. Limited relevance to original base 2.0 MPi.",
+      "summary": "Verified broad NX4 page aggregate, not 25 matched base-petrol owners. Original 2.0 posts mention weak acceleration; several later-model posts concern intrusive assistance or service experience. Self-selected reports do not establish failure rates.",
+      "positiveThemes": [
+        "Roomy cabin and equipment in some same-generation reports."
+      ],
+      "negativeThemes": [
+        "Original 2.0 petrol performance complaints.",
+        "Assistance-system and after-sales complaints across mixed variants; not all relate to this configuration."
+      ],
+      "sourceIds": [
+        "audit-hyundai-tucson-owner-nx4"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "hyundai-tucson",
+      "point": 1190,
+      "low": 770,
+      "high": 2500,
+      "confidence": "low",
+      "basis": "Rounded planning proxy from Youi national mixed-year/model comprehensive mean A$1,191, policies sold 22 November 2025–22 May 2026. Not an exact trim/year or Queensland household quote. The published 80%-within-or-below band is not a confidence interval; displayed wider scenarios are analyst budgets. Replace with a personal quote.",
+      "sourceIds": [
+        "audit-hyundai-tucson-insurance"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyreUpdates": [
+    {
+      "vehicleId": "tucson-base-petrol-2021",
+      "setCost": 1316,
+      "setLow": 980,
+      "setHigh": 1600,
+      "lifeKm": 45000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 60000,
+      "basis": "Four Michelin Primacy 5 235/65R17 108V XL at A$329 = A$1,316, fitted including balancing, valves, waste handling and GST; alignment extra. Original base specification is 235/65R17 104H; confirm placard/load/speed suitability. October promotions on other brands are temporary, not long-term prices. A$980–1,600 set bounds and 45,000 km life (30,000–60,000 sensitivity) are assumptions.",
+      "confidence": "low",
+      "sourceIds": [
+        "audit-hyundai-tucson-tyres",
+        "audit-hyundai-tucson-spec21",
+        "audit-hyundai-tucson-spec23"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/65R17 108V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 329,
+        "quantity": 4,
+        "sourceId": "audit-hyundai-tucson-tyres",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "tucson-base-petrol-2021",
+      "point": 950,
+      "low": 400,
+      "high": 2700,
+      "confidence": "low",
+      "basis": "Analyst repair savings budget, not an observed average repair bill or failure rate. Naturally aspirated petrol / conventional automatic still needs an age-related buffer for chassis, cooling, accessories and diagnosis outside warranty. Claim applicable warranty/recall remedies first. Excludes scheduled servicing, tyres and insured collisions; a major failure can exceed the fund. No representative Australian annual paid-repair dataset was available.",
+      "sourceIds": [
+        "audit-hyundai-tucson-passport21",
+        "audit-hyundai-tucson-spec21",
+        "audit-hyundai-tucson-engine-used",
+        "audit-hyundai-tucson-engine-guide"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "tucson-base-petrol-2021",
+      "scope": "related",
+      "summary": "Related 2021 Elite test establishes a named mixed-facing fit using a slim booster; base-trim fit and independent booster buckling remain pending.",
+      "criteria": {
+        "arrangement": {
+          "rating": "workable",
+          "detail": "Serene rear-facing + Optima forward-facing + slim Versatile Folding Booster fitted in the Elite test. Three full-size restraints did not. ANCAP separately found one rear-facing ISOFIX seat incompatible; check the exact installation.",
+          "sourceIds": [
+            "audit-hyundai-tucson-family21",
+            "audit-hyundai-tucson-ancap-report"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No independently verified daily booster-buckle assessment with all three seats installed.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Related Elite test accommodated a 184 cm front passenger ahead of the rear-facing seat. The upper cabin taper limits third-seat width.",
+          "sourceIds": [
+            "audit-hyundai-tucson-family21"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Related Elite reviewer found large door openings and easy child loading from outside and inside.",
+          "sourceIds": [
+            "audit-hyundai-tucson-family21"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Named mixed-facing restraint fit is promising with a slim booster, subject to ANCAP installation cautions. Four live QLD asks improve price coverage; current owner aggregate remains weakly matched. No empirical reason to turn a A$950 repair savings allowance into a predicted bill.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "estimate",
+        "finding": "Four distinct live 2023–24 base-petrol QLD asks: A$19,991–28,490 drive-away, median A$24,935, 26,784–113,244 km. Two other 2024 cars sold; small year/km-skewed sample.",
+        "sourceIds": [
+          "audit-hyundai-tucson-stock-139653",
+          "audit-hyundai-tucson-stock-b13946",
+          "audit-hyundai-tucson-stock-u228762",
+          "audit-hyundai-tucson-stock-58144",
+          "audit-hyundai-tucson-stock-58151",
+          "audit-hyundai-tucson-stock-58146"
+        ],
+        "vehicleIds": [
+          "tucson-base-petrol-2021"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "verified",
+        "finding": "Original 2.0 MPi FWD six-speed: rated 8.1 L/100km ADR, 91 RON / E10. Exact suburban-week test 8.8; planning 9.5 remains an assumption. No traction battery or plug-in range.",
+        "sourceIds": [
+          "audit-hyundai-tucson-spec21",
+          "audit-hyundai-tucson-spec23",
+          "audit-hyundai-tucson-base-test"
+        ],
+        "vehicleIds": [
+          "tucson-base-petrol-2021"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "verified",
+        "finding": "Related Elite named mixed-facing combination fits with slim booster, not three full-size seats. 184 cm passenger clears rear-facing seat. ANCAP rear-facing ISOFIX incompatibility and centre cautions retained; booster buckles unverified.",
+        "sourceIds": [
+          "audit-hyundai-tucson-family21",
+          "audit-hyundai-tucson-spec21",
+          "audit-hyundai-tucson-ancap-report"
+        ],
+        "vehicleIds": [
+          "tucson-base-petrol-2021"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Period passport: private five years/unlimited km; earlier registration/delivery starts cover, prior commercial use can cap at 130,000 km. Seven-year offer starts with eligible June 2025 first registrations.",
+        "sourceIds": [
+          "audit-hyundai-tucson-passport21",
+          "audit-hyundai-tucson-warranty"
+        ],
+        "vehicleIds": [
+          "tucson-base-petrol-2021"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "12 months/15,000 km; historical first five averaged A$319 each. A$450/year remains a longer-term budget. Current major-service prices and original exact fluid/spark-plug schedule require the logbook and quote.",
+        "sourceIds": [
+          "audit-hyundai-tucson-base-test",
+          "audit-hyundai-tucson-service",
+          "audit-hyundai-tucson-manual-index"
+        ],
+        "vehicleIds": [
+          "tucson-base-petrol-2021"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "Youi mixed Tucson mean A$1,191, published band A$766–1,519. Retain rounded A$1,190 budget / A$770–2,500 scenarios. No exact 2021–24 base QLD household quote.",
+        "sourceIds": [
+          "audit-hyundai-tucson-insurance"
+        ],
+        "vehicleIds": [
+          "tucson-base-petrol-2021"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Base 235/65R17 104H; current Michelin 108V XL anchor A$329 fitted each / A$1,316 set. Life 45,000 km is assumed, not a model wear test.",
+        "sourceIds": [
+          "audit-hyundai-tucson-spec21",
+          "audit-hyundai-tucson-spec23",
+          "audit-hyundai-tucson-tyres"
+        ],
+        "vehicleIds": [
+          "tucson-base-petrol-2021"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "estimate",
+        "finding": "Retain A$950/year repair savings budget, not an annual failure-cost prediction. Genuine NX4 used-engine example A$4,900.39 excludes installation; older TL fitted ranges rejected. Listed recall remedies free.",
+        "sourceIds": [
+          "audit-hyundai-tucson-engine-used",
+          "audit-hyundai-tucson-engine-guide",
+          "audit-hyundai-tucson-passport21",
+          "audit-hyundai-tucson-fca-recall",
+          "audit-hyundai-tucson-cluster-recall"
+        ],
+        "vehicleIds": [
+          "tucson-base-petrol-2021"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "estimate",
+        "finding": "NX4 ProductReview 2.5/5 from 25 posts verified, but mixed engines/facelift/hybrids and borrowed-car review limit relevance. Exact 2021 base professional 7.6/10 and launch 7.8/10 remain separate.",
+        "sourceIds": [
+          "audit-hyundai-tucson-owner-nx4",
+          "audit-hyundai-tucson-base-test",
+          "audit-hyundai-tucson-launch-test"
+        ],
+        "vehicleIds": [
+          "tucson-base-petrol-2021"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "539 L VDA upright boot, rear vents/full-size spare, 1,650 kg braked / 100 kg towball. 2021 ANCAP applies, expires Dec 2027. Four-cylinder QLD renewal A$864.50–880.50; drive-away asks already include on-road charges.",
+        "sourceIds": [
+          "audit-hyundai-tucson-spec21",
+          "audit-hyundai-tucson-spec23",
+          "audit-hyundai-tucson-ancap",
+          "audit-hyundai-tucson-rego",
+          "audit-hyundai-tucson-duty"
+        ],
+        "vehicleIds": [
+          "tucson-base-petrol-2021"
+        ]
+      }
+    ]
+  }
+}

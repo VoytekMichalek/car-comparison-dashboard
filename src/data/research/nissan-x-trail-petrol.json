@@ -1,0 +1,677 @@
+{
+  "familyId": "nissan-x-trail-petrol",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-nissan-x-trail-petrol-spec",
+      "title": "Australian MY23 X-Trail specifications: original ST petrol AWD seven-seat",
+      "url": "https://www.nissan.com.au/content/dam/Nissan/AU/Files/Brochures/Models/Specsheet/NIS4635_Nissan_MY23_X-TRAIL_POS_Update_eSpec_v3_web.pdf",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-ancap",
+      "title": "Current ANCAP X-Trail applicability, 2021 datestamp and December 2027 expiry",
+      "url": "https://www.ancap.com.au/safety-ratings/nissan/x-trail/7b8e49",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-ancap-report",
+      "title": "ANCAP installation colour matrix and third-row protection/anchor limitations",
+      "url": "https://cdn.ancap.com.au/app/public/assets/341bb460aff177d7bb1b54c12cc468e72797fc23/original.pdf?1720509150=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-babydrive",
+      "title": "BabyDrive 2023 seven-seat T33: two forward-facing restraints plus rear-facing capsule",
+      "url": "https://babydrive.com.au/reviews/suvs/2023-nissan-x-trail-seven-seater-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-babydrive-manual",
+      "title": "BabyDrive reports Nissan confirmation: no Outlander-style second-row occupancy restriction",
+      "url": "https://babydrive.com.au/news/mitsubishi-outlander-child-seat-confusion-and-why-the-nissan-x-trail-matters/",
+      "publisher": "BabyDrive, reporting Nissan response",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-carexpert",
+      "title": "CarExpert original ST-L petrol AWD seven-seat: 8.9 L/100km and historical service package",
+      "url": "https://www.carexpert.com.au/car-reviews/2023-nissan-x-trail-st-l-4wd-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-carsguide",
+      "title": "CarsGuide ST-L petrol AWD seven-seat family road test: 7.0/10 and 8.1 L/100km",
+      "url": "https://www.carsguide.com.au/family/nissan-x-trail-st-l-7-seat-90158",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-st-snapshot",
+      "title": "Period ST equipment and original new price, distinguishing AWD seven-seat from FWD five-seat",
+      "url": "https://www.carsguide.com.au/car-reviews/nissan-x-trail-st-88371",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-ipswich-u5827",
+      "title": "Fresh dealer read: 2024 original ST AWD seven-seat, U5827, A$27,886 drive-away",
+      "url": "https://www.ipswichnissan.com.au/used-car/nissan/x-trail/st-x-tronic-4wd/u5827/",
+      "publisher": "Ipswich Nissan",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-springwood-sold",
+      "title": "Fresh dealer page marks ST AWD 2107551 sold; cached asking price excluded",
+      "url": "https://www.geelyhillcrest.com.au/cars/used-silver-2023-nissan-x-trail-2107551",
+      "publisher": "Geely Hillcrest / Springwood Nissan",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-easyauto-unavailable",
+      "title": "Hendra H30423 detail no longer returns the advertised car; cached ask excluded",
+      "url": "https://easyauto123.com.au/buy/used-cars/details/2024/NISSAN/X-TRAIL/ST/QLD/Brisbane/Hendra/Automatic/Blue/Wagon-7%2B-Seater/JN1T33JEXA0006070",
+      "publisher": "easyauto123",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-service",
+      "title": "Nissan current servicing: flat-price eligibility starts with January 2025 new retail",
+      "url": "https://www.nissan.com.au/owners-hub/maintenance-and-repair/servicing-price-guides.html",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-warranty",
+      "title": "Nissan standard and service-activated warranty terms, exclusions and discretion",
+      "url": "https://www.nissan.com.au/owners-hub/nissan-warranty/new-vehicle-warranty-terms.html",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-warranty-deadline",
+      "title": "Official September 2025 announcement: non-dealer re-entry deadline was 31 December 2025",
+      "url": "https://australia.nissannews.com/en-AU/releases/limited-time-remains-for-eligible-customers-to-unlock-australias-only-10-year300000km-warranty-extension",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-my26",
+      "title": "Official MY26 changes: facelift, 12.3-inch screen, 15,000 km servicing",
+      "url": "https://australia.nissannews.com/en-AU/releases/my26-nissan-x-trail-now-on-sale-in-australia",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-insurance",
+      "title": "Youi X-Trail comprehensive premium data, November 2025 to May 2026 policies",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/nissan",
+      "publisher": "Youi Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-tyres",
+      "title": "JAX 235/65R17 Michelin Primacy 5 108V XL: A$329 each including fitting and GST",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/17-inch/235-65r17",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-recall-scope",
+      "title": "REC-006653 is e-POWER only; not the naturally aspirated 2.5-litre petrol",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006653",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-vin-check",
+      "title": "Official Nissan VIN recall and service-campaign checker",
+      "url": "https://www.nissan.com.au/owners-hub/recalls/recalls-service-campaigns.html",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-suspension",
+      "title": "Generic Australian front damper-pair installed guide; not a T33 quote or failure rate",
+      "url": "https://www.autorepairperth.com.au/blog/cost-to-replace-shock-absorber-in-australia/",
+      "publisher": "Auto Repair Perth",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-owners-st",
+      "title": "ProductReview exact T33 ST seven-seat 4WD: 1.0/5 from one complaint",
+      "url": "https://www.productreview.com.au/listings/nissan-x-trail-t33-st-7-seat-4wd",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-owners-mixed",
+      "title": "Broader T33 owner aggregate mixes petrol and e-POWER; not used for petrol ST score",
+      "url": "https://www.productreview.com.au/listings/nissan-x-trail-t33",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-qld-rego",
+      "title": "Queensland four-cylinder private registration and CTP, 1 October 2026",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-petrol-u5828",
+      "title": "Ipswich Nissan U5828: 2024 MY25 ST petrol AWD seven-seat, A$25,886 drive-away",
+      "url": "https://www.ipswichnissan.com.au/used-car/nissan/x-trail/st-x-tronic-4wd/u5828/",
+      "publisher": "Ipswich Nissan",
+      "kind": "market",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "xtrail-st-petrol-awd-2023",
+      "headline": "Related seven-seat test fits one rear-facing capsule plus two forward-facing restraints.",
+      "summary": "Original ST AWD is a seven-seat petrol car. A related T33 test demonstrates the mixed-direction three-across target; exact ST trim and your own seats remain unconfirmed. Keep row three folded for normal family use.",
+      "consumption": {
+        "value": 7.8,
+        "unit": "L/100km",
+        "basis": "Manufacturer ADR 81/02 combined claim for original 2.5 petrol AWD; not FWD 7.4 or e-POWER. Related ST-L AWD tests returned indicated 8.1 and 8.9 on different mixed routes.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-spec",
+          "audit-nissan-x-trail-petrol-carsguide",
+          "audit-nissan-x-trail-petrol-carexpert"
+        ]
+      },
+      "observedConsumption": {
+        "value": 8.9,
+        "unit": "L/100km",
+        "basis": "CarExpert original 2023 ST-L AWD seven-seat mixed commuting/highway test, usually one occupant; related trim, not an exact ST test. CarsGuide separately reported 8.1 on its family mixed route. Not a fleet average.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-carexpert",
+          "audit-nissan-x-trail-petrol-carsguide"
+        ]
+      },
+      "warranty": "Original 5 years/unlimited km. Eligible cars can retain transferable Nissan service-activated cover up to 10 years/300,000 km. The advertised non-dealer re-entry deadline for 2021–24 retail cars was 31 December 2025; obtain written VIN status, not a seller promise.",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "The published seven-seat test matches one rear-facing plus two forward-facing restraints. ST grade and your exact models remain unconfirmed.",
+        "row2": "Two outboard ISOFIX positions; three top tethers. Centre tether is roof-mounted above row three. BabyDrive reports Nissan confirms no Outlander-style adjacent-seat occupancy restriction.",
+        "row3": "No ISOFIX or top tethers. ANCAP marks all tested child restraints not allowed here and does not recommend child-restraint installation. A reviewer using an untethered folding booster does not establish manufacturer approval.",
+        "testedSeats": "Achieve More and Momentum More forward-facing, Adapt More capsule rear-facing. This is a related seven-seat T33 test, not proof for any three seats.",
+        "buckleAccess": "Daily booster buckle access is unverified. ANCAP could not safely fit either sampled booster in the centre; both fitted individually outboard. One rear-facing convertible failed outboard ISOFIX but fitted belted.",
+        "access": "Wide doors help loading. With three row-two restraints, the reviewer removed one before entering row three. Adjust and secure seats according to the Australian manual; occupied-seat sliding is not verified.",
+        "ventilation": "Manufacturer confirms row-two console vents and manual air-conditioning in ST. No dedicated row-three vents; higher-trim climate control is not standard here.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-babydrive",
+          "audit-nissan-x-trail-petrol-babydrive-manual",
+          "audit-nissan-x-trail-petrol-ancap-report",
+          "audit-nissan-x-trail-petrol-spec"
+        ]
+      },
+      "pros": [
+        "A related test demonstrates the required mixed-direction three-across layout.",
+        "Wide rear doors; 91-RON fuel, 17-inch tyres and temporary spare.",
+        "Lower used asking price than many hybrids; check the individual car."
+      ],
+      "cons": [
+        "Centre boosters and one ISOFIX rear-facing convertible failed ANCAP installation checks.",
+        "No approved third-row restraint solution established; limited access with row-two seats fitted.",
+        "Original 10,000-km service interval; base ST omits ST-L cameras and comfort equipment."
+      ],
+      "inspection": [
+        "Fit your rear-facing seat and the other two restraints together. Check front-seat clearance, independent buckle access, headrest position and roof-tether routing.",
+        "Verify 2.5 petrol AWD seven-seat, original MY23–MY25; exclude five-seat FWD, e-POWER and MY26 facelift when checking the ad.",
+        "Get written VIN warranty eligibility and transfer status. For non-Nissan service history, establish whether approved re-entry happened by 31 December 2025; later acceptance is discretionary.",
+        "Obtain the actual Australian owner manual and maintenance booklet. No period Australian fluid-change schedule or permission to move occupied restraint seats was publicly verified.",
+        "Test CVT/AWD cold and hot, inspect leaks and towing wear, and review diagnostic codes and service records. Older T32 and overseas turbo Rogue problems do not establish T33 2.5 failure rates.",
+        "Run Nissan recall/service-campaign VIN check. REC-006653 concerns e-POWER, not this petrol variant. ANCAP lists no third-row side-head airbag protection."
+      ],
+      "gaps": [
+        "ST trim and your exact three-seat combination remain unconfirmed. Test uses a rear-facing capsule; a larger rear-facing convertible can need different clearance.",
+        "No current Australian period owner/maintenance PDF verified; check the car’s manual for installation, seat adjustment and fluid schedules.",
+        "No primary all-seven-up cargo litre figure found. Manufacturer 465 L is to the roof with row three folded, not VDA-to-seatback.",
+        "Only one fresh exact-configuration Queensland dealer ask remained available; excluded sold or unavailable cached cars.",
+        "No credible Australian T33 2.5 installed CVT replacement quote or annual failure-cost dataset found. Repair reserve remains uncertain savings.",
+        "Owner score is one complaint; it cannot estimate satisfaction or failure prevalence. MY26 facelift needs a separate entry.",
+        "Photo remains a labelled overseas e-POWER generation reference, not ST petrol."
+      ],
+      "sourceIds": [
+        "audit-nissan-x-trail-petrol-spec",
+        "audit-nissan-x-trail-petrol-ancap",
+        "audit-nissan-x-trail-petrol-ancap-report",
+        "audit-nissan-x-trail-petrol-babydrive",
+        "audit-nissan-x-trail-petrol-babydrive-manual",
+        "audit-nissan-x-trail-petrol-carexpert",
+        "audit-nissan-x-trail-petrol-carsguide",
+        "audit-nissan-x-trail-petrol-st-snapshot",
+        "audit-nissan-x-trail-petrol-service",
+        "audit-nissan-x-trail-petrol-warranty",
+        "audit-nissan-x-trail-petrol-warranty-deadline",
+        "audit-nissan-x-trail-petrol-my26",
+        "audit-nissan-x-trail-petrol-vin-check",
+        "audit-nissan-x-trail-petrol-recall-scope"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "ice-jp-price-xtrail-st-petrol-awd-2023",
+      "vehicleId": "xtrail-st-petrol-awd-2023",
+      "low": 25886,
+      "high": 27886,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 2,
+      "geography": "Ipswich Nissan, Bundamba, Queensland",
+      "kilometres": "61,219–62,942 km",
+      "observed": "2026-10-18",
+      "note": "Two distinct available 2024 ST petrol AWD seven-seat dealer cars, U5828 and U5827. Both drive-away; median A$26,886. Narrow local sample with similar kilometres, not a full 2023–25 valuation. Sold Geely 2107551 and stale or mismatched ads are excluded. Dealer prose calls the transmission seven-speed, but its specification says Constant Variable; manufacturer CVT specification takes precedence.",
+      "sourceIds": [
+        "audit-nissan-x-trail-petrol-ipswich-u5827",
+        "audit-nissan-x-trail-petrol-u5828"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "estimateBasis": "Two dealer asking observations; not achieved prices or a mileage-adjusted market valuation.",
+      "point": 26886,
+      "observations": [
+        {
+          "price": 27886,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 62942,
+          "location": "Bundamba, QLD",
+          "url": "https://www.ipswichnissan.com.au/used-car/nissan/x-trail/st-x-tronic-4wd/u5827/",
+          "sourceId": "audit-nissan-x-trail-petrol-ipswich-u5827",
+          "checked": "2026-10-18",
+          "note": "Stock U5827; VIN JN1T33JE5A0013802. Direct fresh read displays A$27,886 drive-away, 62,942 km and InStock schema. MY23 despite 2024 build listing; original pre-facelift ST AWD seven-seat. Confirm registration/duty inclusions."
+        },
+        {
+          "price": 25886,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 61219,
+          "location": "Ipswich Nissan, Bundamba QLD",
+          "url": "https://www.ipswichnissan.com.au/used-car/nissan/x-trail/st-x-tronic-4wd/u5828/",
+          "sourceId": "audit-nissan-x-trail-petrol-u5828",
+          "checked": "2026-10-18",
+          "note": "Stock U5828, VIN JN1T33JEXA0013827, T33 MY25, seven seats, 2.5 petrol, 4WD/CVT; distinct from U5827 VIN ending13802. Current direct dealer page, no sold label observed. Conflicting generic seven-speed prose is not used as a specification."
+        }
+      ]
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "nissan-x-trail-petrol",
+      "serviceBasis": "A$650/year long-ownership planning allowance at 15,000 km, with A$450–950 sensitivity bounds. Historical related-ST-L AWD five-service prepay was A$2,124: A$424.80/visit × 1.5 visits/year ≈ A$637, rounded. This is not a current used-ST quote. A$399 flat-price first-five offer requires new retail from January 2025; original 10,000-km intervals still apply. Get the remaining VIN schedule and fluid-work quotes; tyres and unexpected repairs are separate.",
+      "warrantyCautions": [
+        "Original five-year/unlimited-kilometre warranty is separate from service-activated years 6–10. Confirm original in-service date, eligible service history and current VIN coverage.",
+        "Nissan’s published re-entry deadline for non-dealer-serviced 2021–24 retail vehicles was 31 December 2025, now past. General terms permit discretionary written approval; a used-car purchase does not automatically reopen the offer.",
+        "Service-activated cover is transferable but excludes normal wear including suspension, mounts, hoses and exhaust components; 12-V battery and tyre cover differ. Confirm the applicable period booklet.",
+        "MY26 15,000-km service intervals and new-sale offers are not applied retrospectively to MY23–MY25."
+      ],
+      "fuelEstimate": {
+        "point": 8.5,
+        "low": 7.8,
+        "high": 11,
+        "confidence": "low",
+        "basis": "L/100km family-use planning point is the midpoint of two related ST-L AWD mixed-route indicated tests: CarsGuide 8.1 and CarExpert 8.9. Different routes and loads, not a measured ST fleet average. Official 7.8 remains separate; 7.8–11 are analyst sensitivity bounds.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-spec",
+          "audit-nissan-x-trail-petrol-carsguide",
+          "audit-nissan-x-trail-petrol-carexpert"
+        ]
+      },
+      "risks": [
+        {
+          "title": "CVT and AWD repair exposure — price unverified",
+          "detail": "Both systems can create a substantial bill outside cover. No credible Australian installed T33 2.5-petrol replacement quote or failure frequency was verified. Inspect cold/hot operation, leaks and servicing. Older T32 or overseas 1.5-turbo Rogue evidence is not transferred to this engine/generation.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Unpriced scenario; request a VIN-specific diagnosis and installed quote. The savings allowance is not an expected annual claim cost.",
+          "warranty": "A manufacturing defect may be covered if standard or service-activated warranty remains valid; wear and neglect are excluded.",
+          "sourceIds": [
+            "audit-nissan-x-trail-petrol-spec",
+            "audit-nissan-x-trail-petrol-warranty"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Age-related suspension — Australian workshop proxy",
+          "detail": "Generic conventional front damper-pair replacement is quoted at A$650–1,300 with labour by an Australian repairer. This is not a T33 quote or an incidence estimate.",
+          "low": 650,
+          "high": 1300,
+          "priceBasis": "AUD installed generic front damper pair; alignment and additional components may cost extra.",
+          "warranty": "Normal wear can be excluded; ask Nissan to assess a manufacturing defect.",
+          "sourceIds": [
+            "audit-nissan-x-trail-petrol-suspension"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "audit-nissan-x-trail-petrol-spec",
+        "audit-nissan-x-trail-petrol-service",
+        "audit-nissan-x-trail-petrol-carexpert",
+        "audit-nissan-x-trail-petrol-carsguide",
+        "audit-nissan-x-trail-petrol-warranty",
+        "audit-nissan-x-trail-petrol-warranty-deadline",
+        "audit-nissan-x-trail-petrol-my26",
+        "audit-nissan-x-trail-petrol-recall-scope",
+        "audit-nissan-x-trail-petrol-vin-check",
+        "audit-nissan-x-trail-petrol-suspension"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "nissan-x-trail-petrol",
+      "rating": 1,
+      "outOf": 5,
+      "count": 1,
+      "scope": "ProductReview T33 ST seven-seat 4WD; one 2023-car owner complaint, not a representative survey.",
+      "summary": "Exact-grade page reports 1.0/5 from one contribution about an unresolved vehicle fault and dealer response. No failure frequency follows from this. Broad T33 3.5/5 from 18 mixes e-POWER and petrol, so is not substituted. Tiny sample has very little scoring weight.",
+      "positiveThemes": [],
+      "negativeThemes": [
+        "One owner reports an unresolved fault and poor dispute handling; not independently diagnosed."
+      ],
+      "sourceIds": [
+        "audit-nissan-x-trail-petrol-owners-st",
+        "audit-nissan-x-trail-petrol-owners-mixed"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-expert-nissan-x-trail-petrol-carsguide-stl",
+      "familyId": "nissan-x-trail-petrol",
+      "vehicleIds": [],
+      "tested": "2023 Nissan X-Trail ST-L 2.5 petrol AWD seven-seat",
+      "scope": "Related ST-L grade; different comfort equipment, tyres and cameras from ST. One family road test, not a reliability study.",
+      "publisher": "CarsGuide",
+      "published": "2023-07-01",
+      "checked": "2026-10-18",
+      "rating": 7,
+      "outOf": 10,
+      "verdict": "Comfortable family SUV with useful handling and easy parking; row three takes boot room, and the CVT can feel jerky when pushed.",
+      "positiveThemes": [
+        "Comfortable ride",
+        "Solid handling",
+        "Useful family packaging"
+      ],
+      "negativeThemes": [
+        "Less cargo room with third row up",
+        "Occasional CVT jerkiness under acceleration",
+        "Sound quality disappointed reviewer"
+      ],
+      "sourceIds": [
+        "audit-nissan-x-trail-petrol-carsguide"
+      ]
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "nissan-x-trail-petrol",
+      "point": 1180,
+      "low": 740,
+      "high": 2500,
+      "confidence": "low",
+      "basis": "Rounded from Youi’s published A$1,181 X-Trail comprehensive mean; A$744–1,521 indicative range. Policies sold 22 November 2025–22 May 2026; model averages require at least ten policies, and 80% fell within or below the range. Mixed generations/powertrains, not an ST AWD Queensland quote. A$740–2,500 planning bounds are analyst assumptions. Replace with your quote; CTP is separate.",
+      "sourceIds": [
+        "audit-nissan-x-trail-petrol-insurance"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyreUpdates": [
+    {
+      "vehicleId": "xtrail-st-petrol-awd-2023",
+      "setCost": 1316,
+      "setLow": 1000,
+      "setHigh": 1700,
+      "lifeKm": 45000,
+      "lifeLowKm": 35000,
+      "lifeHighKm": 60000,
+      "basis": "Original ST 17-inch fitment. JAX 235/65R17 108V XL Michelin Primacy 5: A$329 each fitted including GST, four A$1316; no temporary multi-buy discount assumed. Confirm placard load/speed rating, local stock and quote; alignment extra. Life 45,000 km (35,000–60,000) and set-price bounds are analyst assumptions, not measured model-specific tyre life.",
+      "confidence": "low",
+      "sourceIds": [
+        "audit-nissan-x-trail-petrol-spec",
+        "audit-nissan-x-trail-petrol-tyres",
+        "budget-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/65R17 108V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 329,
+        "quantity": 4,
+        "sourceId": "audit-nissan-x-trail-petrol-tyres",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "xtrail-st-petrol-awd-2023",
+      "point": 800,
+      "low": 350,
+      "high": 1800,
+      "confidence": "low",
+      "basis": "A$800/year analyst repair-savings allowance, A$350–1,800 sensitivity bounds, for original T33 petrol AWD retained after warranty. No empirical Australian annual failure-cost dataset supports a precise ranking against Tesla or Outlander. Generic suspension pricing only illustrates one possible wear bill; no T32 or turbo Rogue CVT costs are transferred. Confirm remaining Nissan warranty eligibility. No e-POWER battery fund; tyres, scheduled service and insured crash costs are separate. Savings can remain unspent; this is not an observed or predicted annual repair bill.",
+      "sourceIds": [
+        "audit-nissan-x-trail-petrol-warranty",
+        "audit-nissan-x-trail-petrol-suspension",
+        "audit-nissan-x-trail-petrol-spec"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "xtrail-st-petrol-awd-2023",
+      "scope": "related",
+      "summary": "Mixed-direction three-across is demonstrated in a seven-seat T33; grade unconfirmed, and a capsule may need less room than your rear-facing convertible.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "Two named forward-facing restraints plus an Adapt More rear-facing capsule fitted across row two in BabyDrive’s seven-seat test. ANCAP separately restricts some centre restraints; check your models.",
+          "sourceIds": [
+            "audit-nissan-x-trail-petrol-babydrive",
+            "audit-nissan-x-trail-petrol-ancap-report",
+            "audit-nissan-x-trail-petrol-babydrive-manual"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No daily three-seat booster-buckle test. ANCAP’s two sampled boosters failed in the centre; harnessed-seat success does not establish booster access.",
+          "sourceIds": [
+            "audit-nissan-x-trail-petrol-ancap-report"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Related mixed-layout test accommodated a 186-cm driver with the rear-facing capsule; third-row legroom remained limited. Larger rear-facing seats require a new check.",
+          "sourceIds": [
+            "audit-nissan-x-trail-petrol-babydrive"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Wide rear doors helped loading in the related test. Target fits row two; using row three with three restraints requires removing one. No approval for moving a seat with a restraint occupied was verified.",
+          "sourceIds": [
+            "audit-nissan-x-trail-petrol-babydrive",
+            "audit-nissan-x-trail-petrol-ancap-report"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Mixed rear-facing/forward-facing fit is stronger than generic three-across labels. Exact ST owners remain a one-person sample; prices remain one fresh car. Warranty re-entry deadline and MY26 exclusions are explicit. Fuel budget now uses two related tests.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "estimate",
+        "finding": "Two distinct current Bundamba dealer 2024 ST petrol AWD seven-seat cars: A$25,886 / 61,219 km and A$27,886 / 62,942 km, both drive-away. Median A$26,886, n=2; narrow local cohort, low confidence as a broader valuation. Sold Geely 2107551 and stale or mismatched stock excluded.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-ipswich-u5827",
+          "audit-nissan-x-trail-petrol-springwood-sold",
+          "audit-nissan-x-trail-petrol-easyauto-unavailable",
+          "audit-nissan-x-trail-petrol-u5828"
+        ],
+        "vehicleIds": [
+          "xtrail-st-petrol-awd-2023"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "verified",
+        "finding": "Original 2.5 petrol AWD CVT seven-seat: 135 kW/244 Nm, 55-L tank, 91 RON, ADR 7.8 L/100km. Related road tests 8.1/8.9 inform an uncertain 8.5 budget; e-POWER figures excluded.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-spec",
+          "audit-nissan-x-trail-petrol-carsguide",
+          "audit-nissan-x-trail-petrol-carexpert"
+        ],
+        "vehicleIds": [
+          "xtrail-st-petrol-awd-2023"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "verified",
+        "finding": "Related mixed-facing fit demonstrated, generous capsule clearance and wide doors. ST grade and household models pending; centre boosters and one outboard ISOFIX convertible fail ANCAP. Row three is not a restraint fallback.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-babydrive",
+          "audit-nissan-x-trail-petrol-babydrive-manual",
+          "audit-nissan-x-trail-petrol-ancap-report",
+          "audit-nissan-x-trail-petrol-spec"
+        ],
+        "vehicleIds": [
+          "xtrail-st-petrol-awd-2023"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Original five-year cover and conditional transferable years 6–10 distinguished. Non-dealer re-entry deadline for 2021–24 retail cars was 31 December 2025; obtain written VIN approval/status.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-warranty",
+          "audit-nissan-x-trail-petrol-warranty-deadline"
+        ],
+        "vehicleIds": [
+          "xtrail-st-petrol-awd-2023"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "Retain A$650/year at 15,000 km using original 10,000-km interval and historical A$2,124 five-visit package. Current VIN prices/fluid schedule not verified; new-retail 2025 flat prices and MY26 interval excluded.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-carexpert",
+          "audit-nissan-x-trail-petrol-service",
+          "audit-nissan-x-trail-petrol-my26"
+        ],
+        "vehicleIds": [
+          "xtrail-st-petrol-awd-2023"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "Retain A$1,180/year, rounded from Youi A$1,181 model mean. November 2025–May 2026 mixed-generation/powertrain national policies; not a Queensland ST household quote.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-insurance"
+        ],
+        "vehicleIds": [
+          "xtrail-st-petrol-awd-2023"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "ST 235/65R17 verified. Michelin Primacy 5 108V XL A$329 each fitted/GST, A$1,316 set; retain assumed 45,000-km life, not measured ST wear. Alignment extra.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-spec",
+          "audit-nissan-x-trail-petrol-tyres"
+        ],
+        "vehicleIds": [
+          "xtrail-st-petrol-awd-2023"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "gap",
+        "finding": "Retain A$800/year uncertain savings, not observed failures. No installed T33 2.5 CVT quote/frequency found. Generic suspension example remains labelled; e-POWER battery recall excluded. Check VIN campaigns.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-warranty",
+          "audit-nissan-x-trail-petrol-suspension",
+          "audit-nissan-x-trail-petrol-vin-check",
+          "audit-nissan-x-trail-petrol-recall-scope"
+        ],
+        "vehicleIds": [
+          "xtrail-st-petrol-awd-2023"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "estimate",
+        "finding": "Exact ST seven-seat page: 1.0/5 from one complaint; very low evidence weight. Broad T33 aggregate mixes e-POWER. Added related ST-L CarsGuide 7.0/10 road test; no invented reliability rating.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-owners-st",
+          "audit-nissan-x-trail-petrol-owners-mixed",
+          "audit-nissan-x-trail-petrol-carsguide",
+          "audit-nissan-x-trail-petrol-carexpert"
+        ],
+        "vehicleIds": [
+          "xtrail-st-petrol-awd-2023"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "ANCAP five stars, 2021 datestamp, through December 2027; 2,000-kg braked maximum subject to loaded limits. QLD four-cylinder rego/CTP A$864.50–880.50. Roof-height cargo basis and missing all-seven-up volume retained.",
+        "sourceIds": [
+          "audit-nissan-x-trail-petrol-ancap",
+          "audit-nissan-x-trail-petrol-ancap-report",
+          "audit-nissan-x-trail-petrol-spec",
+          "audit-nissan-x-trail-petrol-qld-rego"
+        ],
+        "vehicleIds": [
+          "xtrail-st-petrol-awd-2023"
+        ]
+      }
+    ]
+  }
+}

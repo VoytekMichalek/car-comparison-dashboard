@@ -1,0 +1,841 @@
+{
+  "familyId": "mitsubishi-outlander-petrol",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-mitsubishi-outlander-petrol-period-spec",
+      "title": "Australian 22.5MY combined Outlander brochure: LS 2WD petrol seven-seat specification",
+      "url": "https://resource.digitaldealer.com.au/pdf/53717918630e8a6b59b77948323546.pdf",
+      "publisher": "Mitsubishi Motors Australia / dealer-hosted period brochure",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-ancap",
+      "title": "ANCAP original ZM applicability: all petrol and PHEV variants, July 2021–March 2025 builds",
+      "url": "https://www.ancap.com.au/safety-ratings/mitsubishi/outlander/cc365d",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-ancap-matrix",
+      "title": "ANCAP original ZM technical report: LS 2WD test, centre installation limitations and no row-three tethers",
+      "url": "https://cdn.ancap.com.au/app/public/assets/e9e2fecc6529d6359a9ffaeb24ea46dd625b1414/original.pdf?1758674620=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-baby-exceed",
+      "title": "BabyDrive 2022 petrol Exceed: three rear-facing and three forward-facing combinations, driver-clearance constraint",
+      "url": "https://babydrive.com.au/reviews/suvs/2022-mitsubishi-outlander-exceed-seven-seater/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-manual-conflict",
+      "title": "Outlander centre/left-seat manual caution: conflicting manufacturer explanations still unresolved",
+      "url": "https://babydrive.com.au/news/mitsubishi-outlander-child-seat-confusion-and-why-the-nissan-x-trail-matters/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-wheels-ls",
+      "title": "Wheels exact 2022 LS 2WD road test: 8.5 L/100km observed, 7.8/10",
+      "url": "https://www.whichcar.com.au/reviews/2022-mitsubishi-outlander-review-ls-2wd",
+      "publisher": "Wheels / WhichCar",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-maintenance",
+      "title": "MY23 ZM manufacturer inspection and maintenance schedule: normal and severe-use fluid intervals",
+      "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/maintenance-schedules/23MY%20ZM%20OUTLANDER%20INSPECTION%20AND%20MAINTENANCE%20SCHEDULE.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-cps-eligibility",
+      "title": "Capped-price servicing: original purchase-date schedules, transferable remaining entitlement and exclusions",
+      "url": "https://www.mitsubishi-motors.com.au/owners/service/capped-price-servicing.html",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-my22-caps",
+      "title": "Original MY22/22.5 petrol 2.5 capped-price schedule: A$3,190 for ten visits",
+      "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/cps-updates/outlander/2020-10-01-2025-11-30/22MY_22_5MY_Outlander_4x2_4x4_2_5L_CPS_A4.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-my23-caps",
+      "title": "Original MY23 petrol 2.5 capped-price schedule: A$4,340 for ten visits",
+      "url": "https://midlandmitsubishi.b-cdn.net/wp-content/uploads/23my-outlander-4x2-4x4-2.5l-cps.pdf",
+      "publisher": "Mitsubishi Motors Australia / Midland Mitsubishi",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-my24-caps",
+      "title": "MY24 petrol 2.5 schedule for original purchases by 30 November 2025: A$4,340 for ten visits",
+      "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/cps-updates/outlander/2020-10-01-2025-11-30/24MY_Outlander_4x2_4x4_2_5L_CPS_A4.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-warranty",
+      "title": "Diamond Advantage warranty: 5-year base, conditional 10-year extension and used-car transfer",
+      "url": "https://www.mitsubishi-motors.com.au/owners/diamond-advantage/warranty.html",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-warranty-terms",
+      "title": "October 2023 warranty terms: service eligibility, limited-life components and 12 V battery",
+      "url": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/diamond-advantage/Mitsubishi-Diamond-Advantage-Full-Terms-and-Conditions-October-2023.pdf",
+      "publisher": "Mitsubishi Motors Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-youi",
+      "title": "Youi Outlander premiums: A$785–1,531 model-level range, policies sold November 2025–May 2026",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/mitsubishi",
+      "publisher": "Youi Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-tyre-retail",
+      "title": "JAX 235/60R18: Goodyear Optilife 3 SUV 107V XL A$259 fitted including GST",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/235-60r18",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-tyre-life",
+      "title": "Michelin Australia: tyre mileage depends on use, maintenance, load and conditions",
+      "url": "https://www.michelin.com.au/auto/faq-cars",
+      "publisher": "Michelin Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-camera-5692",
+      "title": "REC-005692 / 010172: selected MY22/23 camera software, free update",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005692",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-camera-5938",
+      "title": "REC-005938 / 010174: selected MY22 infotainment camera software, free update",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005938",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-steering-scope",
+      "title": "REC-006322 / 010175 is limited to Exceed and Exceed Tourer, not this LS",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006322",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-key-warning",
+      "title": "ACCC PRA 2023/19809: selected MY2020–22 remote keys lack button-battery warnings",
+      "url": "https://www.productsafety.gov.au/search-consumer-product-recalls/mitsubishi-my2020-2022-mirage-asx-eclipse-cross-outlander-pajero-pajero-sport-triton-and-express-some-remote-keys-for-all-variants-only-vehicles-in-the-attached-vin-list-are-affected",
+      "publisher": "ACCC Product Safety",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-price-caloundra",
+      "title": "Current dealer inventory: stock 716670, 2023 LS FWD, A$28,990 drive-away / 42,565 km",
+      "url": "https://pacificmgcaloundra.com.au/used-vehicles/",
+      "publisher": "Pacific Motor Group Caloundra",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-price-banyo",
+      "title": "Indexed exact seller ad: U20070, 2022 LS FWD, A$29,990 drive-away / 76,345 km",
+      "url": "https://www.autotrader.com.au/car/15327246/mitsubishi/outlander/qld/banyo/suv",
+      "publisher": "Brisbane Auto Group via Autotrader",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-price-robina",
+      "title": "Indexed exact seller ad: 2024 LS FWD, A$30,980 drive-away / 56,966 km",
+      "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1344638728",
+      "publisher": "East Coast Commercials Gold Coast via Gumtree",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-aaa-awd-related",
+      "title": "AAA 2023 LS AWD test: 7.9 overall / 10.3 urban L/100km; related AWD, not this FWD",
+      "url": "https://realworld.org.au/wp-protected/9ed17513c23c/uploads/2025/02/FEB25-Mitsubishi-Outlander-AWD_WEB.pdf",
+      "publisher": "Australian Automobile Association",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-qld-rego",
+      "title": "Queensland 1 October 2026 private four-cylinder registration + Class 1 CTP guide",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-qld-duty",
+      "title": "Queensland vehicle duty: 1–4 cylinder petrol A$3 per A$100 up to A$100,000",
+      "url": "https://www.qld.gov.au/transport/registration/fees/duty/rates",
+      "publisher": "Queensland Government",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-my24-changes",
+      "title": "MY24 original-body changes: rear-seat alert, always-on auto lights and rear fog lamp",
+      "url": "https://www.goauto.com.au/new-models/mitsubishi/outlander/updated-outlander-priced-for-2024/2023-10-06/92139.html",
+      "publisher": "GoAuto",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-my23-changes",
+      "title": "Australian MY23 changes: unchanged 2.5 petrol drivetrain; shortage-era screen differences need inspection",
+      "url": "https://www.carsguide.com.au/car-news/2023-mitsubishi-outlander-updated-with-prices-rising-to-match-88396",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-owner-ls",
+      "title": "ProductReview ZM petrol LS FWD category: 2.8/5 from five reviews; one loan-car reviewer",
+      "url": "https://www.productreview.com.au/listings/mitsubishi-outlander-4th-gen-zm-petrol-ls-fwd",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-mitsubishi-outlander-petrol-suspension-proxy",
+      "title": "Australian workshop guide: A$650–1,300 conventional front damper pair installed, not an Outlander quote",
+      "url": "https://www.autorepairperth.com.au/blog/cost-to-replace-shock-absorber-in-australia/",
+      "publisher": "Auto Repair Perth",
+      "kind": "market",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "outlander-ls-petrol-fwd-2022",
+      "headline": "Low used price; three-seat physical tests need manual clarification.",
+      "summary": "The original LS is a 2.5 petrol FWD seven-seater. Related Exceed tests show three restraints across, but your one-rear-facing arrangement is unconfirmed. A recent manual-guidance conflict needs written clarification. Row three has no restraint anchors.",
+      "consumption": {
+        "value": 7.7,
+        "unit": "L/100km",
+        "basis": "Manufacturer ADR 81/02 combined claim for LS FWD seven-seat. Keep separate from the 8.5 L/100km exact-grade road-test observation and the 7.9 L/100km AAA test of LS AWD.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-period-spec",
+          "audit-mitsubishi-outlander-petrol-wheels-ls",
+          "audit-mitsubishi-outlander-petrol-aaa-awd-related"
+        ]
+      },
+      "observedConsumption": {
+        "value": 8.5,
+        "unit": "L/100km",
+        "basis": "Wheels 2022 LS 2WD seven-seat road-test observation. One indicated test; route, distance and climate were not specified. AAA 2023 LS AWD returned 7.9 overall / 10.3 urban but is a different drivetrain and is not substituted.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-wheels-ls",
+          "audit-mitsubishi-outlander-petrol-aaa-awd-related"
+        ]
+      },
+      "boot": {
+        "value": 478,
+        "unit": "L",
+        "basis": "Manufacturer VDA to top of second-row seatback, third row folded. Not an all-seven-occupied volume.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-period-spec"
+        ]
+      },
+      "bootAllRows": {
+        "value": 163,
+        "unit": "L",
+        "basis": "Manufacturer VDA to top of third-row seatback with all seven seats raised. Remaining space depends on the actual pram.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-period-spec"
+        ]
+      },
+      "length": {
+        "value": 4710,
+        "unit": "mm",
+        "basis": "Original Australian ZM body; later facelift excluded.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-period-spec"
+        ]
+      },
+      "width": {
+        "value": 1862,
+        "unit": "mm",
+        "basis": "Manufacturer body width excluding mirrors; not a measure of usable child-seat space.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-period-spec"
+        ]
+      },
+      "familyFit": {
+        "status": "limitations",
+        "summary": "Related Exceed physically fitted three rear-facing or three forward-facing seats. The requested mixed arrangement in LS is unconfirmed, and current Outlander manual advice conflicts. No family-fit score is assigned.",
+        "row2": "Two outboard ISOFIX pairs and three top tethers. Outer tethers are on seatbacks; centre tether is in the roof above row three. Confirm installation in the exact Australian manual.",
+        "row3": "No top tethers or ISOFIX; ANCAP does not recommend child restraints here. The review’s untethered folding-booster suggestion is not treated as manufacturer approval.",
+        "testedSeats": "Related 2022 Exceed: two Infasecure Attain More plus one Achieve More rear-facing; Achieve More, Aspire More and Attain More forward-facing. No explicit one-rear-facing plus two-forward-facing arrangement verified.",
+        "buckleAccess": "Flush buckles improved the related test, but daily booster buckling was not demonstrated. ANCAP centre position rejected its convertible Model A in both directions and Type E 4–8-year booster. A separate left/centre occupancy caution now needs clarification.",
+        "access": "Related test required removing one row-two restraint before folding for row-three entry. The centre tether crosses the third-row area. Three-across daily loading in your LS remains pending.",
+        "ventilation": "LS has dual-zone front climate and second-row console vents. No dedicated third-row vents were reported. Exceed window blinds and luxury trim are not assumed for LS.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-period-spec",
+          "audit-mitsubishi-outlander-petrol-baby-exceed",
+          "audit-mitsubishi-outlander-petrol-ancap-matrix",
+          "audit-mitsubishi-outlander-petrol-manual-conflict"
+        ]
+      },
+      "pros": [
+        "A$28,990–30,980 used Queensland asking sample; thin and availability unconfirmed.",
+        "478 L VDA boot when using five seats.",
+        "91-RON petrol, 18-inch tyres and normal 15,000-km service interval."
+      ],
+      "cons": [
+        "Three-across physical fit does not resolve current manufacturer manual-guidance conflict.",
+        "Third row lacks restraint anchors; 163 L VDA boot with all seats raised.",
+        "Rear-facing clearance was tighter for the driver than the passenger in the related Exceed test."
+      ],
+      "inspection": [
+        "Have a fitter assess your one rear-facing seat plus two other restraints in the LS. Obtain written Mitsubishi clarification of the exact manual’s left/centre-seat caution before relying on three-across.",
+        "Check booster buckles independently, head-restraint instructions, the roof-tether route and front-seat clearance; do not use row three as an assumed anchored alternative.",
+        "Ask Mitsubishi for remaining warranty and capped-service eligibility by VIN, original delivery date, all service invoices and any rental/fleet history.",
+        "Check REC-005692 / REC-005938 camera updates and applicable PRA 2023/19809 key-warning labels by VIN. Exceed-only steering recall REC-006322 is not assigned to LS.",
+        "Test the CVT cold and hot for shudder or noise, obtain a diagnostic scan, and verify fluid work. MY23 normal CVT replacement is 90,000 km/72 months; severe use 45,000 km/36 months.",
+        "Check actual tailgate, screen/phone mirroring, rear-seat alert, spare, tyre placard, brakes and towing history; shortage-era and model-year equipment differ."
+      ],
+      "changes": [
+        {
+          "period": "MY22–MY24 original ZM",
+          "text": "Groups the 2.5-litre FWD LS seven-seat drivetrain and original body. Does not include older ZL cars. Verify model year rather than relying on registration year.",
+          "sourceIds": [
+            "ice-jp-out-spec",
+            "ice-jp-out-wheels"
+          ]
+        },
+        {
+          "period": "MY22.5 equipment",
+          "text": "The period LS road test records deletion of the powered tailgate during semiconductor shortages. Check the individual car rather than assuming higher-trim equipment.",
+          "sourceIds": [
+            "ice-jp-out-wheels"
+          ]
+        },
+        {
+          "period": "2025 facelift onward",
+          "text": "Later facelift and new pricing are excluded from this original-body used cohort; late registrations need a build/model-year check.",
+          "sourceIds": [
+            "hy-out-25",
+            "ice-jp-out-ancap"
+          ]
+        },
+        {
+          "period": "MY23 equipment",
+          "text": "The petrol drivetrain stayed unchanged. Semiconductor shortages affected equipment across the range; inspect the actual LS screen, phone mirroring and tailgate. Do not assign Exceed-only MI-PILOT or heated equipment to LS.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-petrol-my23-changes",
+            "audit-mitsubishi-outlander-petrol-period-spec",
+            "audit-mitsubishi-outlander-petrol-wheels-ls"
+          ]
+        },
+        {
+          "period": "MY24 original body",
+          "text": "Added rear-seat alert, always-on dusk-sensing headlights and LED rear fog light. Grouped here for original-body drivetrain/space comparisons; check individual equipment and original service schedule.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-petrol-my24-changes",
+            "audit-mitsubishi-outlander-petrol-my24-caps"
+          ]
+        }
+      ],
+      "gaps": [
+        "No exact LS fit test of one rear-facing plus two other restraints or daily booster buckle access.",
+        "A recent Outlander left/centre-seat manual caution has conflicting reported Mitsubishi interpretations. The exact original Australian petrol manual and written permitted-arrangement clarification were not obtained.",
+        "No credible Australian ZM LS annual repair-frequency or installed CVT replacement-price dataset found; reserve is savings, not predicted spending.",
+        "Insurance is a broad model-level proxy; servicing depends on model year, severe use, remaining caps and eligibility.",
+        "Used asking sample is small; two seller ads were available through indexed content only. Confirm availability and a written drive-away price.",
+        "MY25 facelift petrol LS requires a separate entry. The local photo remains a labelled Japan-market PHEV generation reference."
+      ],
+      "sourceIds": [
+        "ice-jp-out-spec",
+        "ice-jp-out-maint",
+        "ice-jp-out-cps",
+        "ice-jp-out-ancap",
+        "ice-jp-out-ancap-report",
+        "ice-jp-out-baby",
+        "ice-jp-out-wheels",
+        "ice-jp-out-recall-5692",
+        "ice-jp-out-recall-5938",
+        "own-hy-mitsubishi-warranty",
+        "ice-refresh-outlander-my23-cps",
+        "audit-mitsubishi-outlander-petrol-period-spec",
+        "audit-mitsubishi-outlander-petrol-ancap",
+        "audit-mitsubishi-outlander-petrol-ancap-matrix",
+        "audit-mitsubishi-outlander-petrol-baby-exceed",
+        "audit-mitsubishi-outlander-petrol-manual-conflict",
+        "audit-mitsubishi-outlander-petrol-wheels-ls",
+        "audit-mitsubishi-outlander-petrol-maintenance",
+        "audit-mitsubishi-outlander-petrol-my22-caps",
+        "audit-mitsubishi-outlander-petrol-my23-caps",
+        "audit-mitsubishi-outlander-petrol-my24-caps",
+        "audit-mitsubishi-outlander-petrol-warranty",
+        "audit-mitsubishi-outlander-petrol-warranty-terms",
+        "audit-mitsubishi-outlander-petrol-camera-5692",
+        "audit-mitsubishi-outlander-petrol-camera-5938",
+        "audit-mitsubishi-outlander-petrol-steering-scope",
+        "audit-mitsubishi-outlander-petrol-key-warning",
+        "audit-mitsubishi-outlander-petrol-my23-changes",
+        "audit-mitsubishi-outlander-petrol-my24-changes"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "ice-jp-price-outlander-ls-petrol-fwd-2022",
+      "vehicleId": "outlander-ls-petrol-fwd-2022",
+      "low": 28990,
+      "high": 30980,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 3,
+      "geography": "Queensland dealer-used seller listings; physical QLD locations",
+      "kilometres": "42,565–76,345 km",
+      "observed": "2026-10-18",
+      "note": "Three distinct physical cars identified by stock/VIN; asking prices, not sales. Caloundra stock 716670 replaces older 716593, which was no longer present in the fresh dealer inventory. Banyo and Robina details were read from indexed exact seller ads; direct pages were inaccessible. Availability and on-road inclusions need written confirmation.",
+      "sourceIds": [
+        "audit-mitsubishi-outlander-petrol-price-caloundra",
+        "audit-mitsubishi-outlander-petrol-price-banyo",
+        "audit-mitsubishi-outlander-petrol-price-robina"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "estimateBasis": "Median of three exact original LS FWD seven-seat used dealer asks; not a market valuation. Small mixed-year sample, indexed-ad latency and uncertain availability keep confidence low.",
+      "point": 29990,
+      "observations": [
+        {
+          "price": 28990,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 42565,
+          "location": "Caloundra, QLD",
+          "url": "https://pacificmgcaloundra.com.au/used-vehicles/#716670",
+          "sourceId": "audit-mitsubishi-outlander-petrol-price-caloundra",
+          "checked": "2026-10-18",
+          "note": "Current dealer inventory stock 716670, red LS FWD 2.5 seven-seat; distinct from older grey 716593. Stock-detail fetch unavailable; VIN not independently obtained."
+        },
+        {
+          "price": 29990,
+          "basis": "drive-away",
+          "year": 2022,
+          "kilometres": 76345,
+          "location": "Banyo, QLD",
+          "url": "https://www.autotrader.com.au/car/15327246/mitsubishi/outlander/qld/banyo/suv",
+          "sourceId": "audit-mitsubishi-outlander-petrol-price-banyo",
+          "checked": "2026-10-18",
+          "note": "Indexed seller page: stock U20070, VIN JMFXTGM4WNZ016762. Older Sunshine Coast ad of same VIN at 72,111 km / A$29,985 excluded as duplicate/stale."
+        },
+        {
+          "price": 30980,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 56966,
+          "location": "Robina, QLD",
+          "url": "https://www.gumtree.com.au/web/listing/cars-vans-utes/1344638728",
+          "sourceId": "audit-mitsubishi-outlander-petrol-price-robina",
+          "checked": "2026-10-18",
+          "note": "Indexed seller page: VIN JMFXTGM4WRZ024990. Registration listed No despite drive-away price label; obtain written inclusions. Carsales/Autotrader syndications count once."
+        }
+      ]
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "mitsubishi-outlander-petrol",
+      "serviceAnnual": 450,
+      "serviceLow": 300,
+      "serviceHigh": 750,
+      "serviceConfidence": "low",
+      "serviceBasis": "A$450/year retained as long-ownership planning allowance at 15,000 km, with A$300–750 sensitivity bounds. Original ten-visit caps total MY22/22.5 A$3,190; MY23 A$4,340; MY24 purchased by 30 November 2025 A$4,340. MY23 visits reach A$849; bounds are annual planning scenarios, not min/max individual visits. Remaining caps transfer only if eligible; a used purchase starts partway through the schedule. Severe-use extras, wear and unscheduled repairs are additional. Confirm original retail date and VIN schedule.",
+      "warrantyCautions": [
+        "Standard 5 years/100,000 km; extension up to 10 years/200,000 km requires all scheduled services on time in Mitsubishi’s authorised network. Some government, rental and national business customers are excluded.",
+        "Cover transfers with vehicle ownership, subject to remaining time/km and eligibility. Obtain written VIN confirmation; a used-car purchase does not restart the term.",
+        "October 2023 terms limit items including injectors, shocks/struts, hoses, rubber/plastic parts and lamps to 12 months/20,000 km; original 12 V battery 12 months. Confirm the original booklet. Consumer-law rights are separate.",
+        "MY23 maintenance specifies CVT fluid 90,000 km/72 months normal or 45,000 km/36 months severe; spark plugs 90,000 km/72 months; coolant first 150,000 km/8 years, then 75,000 km/4 years. Brake fluid 30,000 km/24 months and fuel filter 180,000 km/144 months. Check the car’s exact schedule and severe-use classification."
+      ],
+      "risks": [
+        {
+          "title": "Camera software campaigns — free remedy",
+          "detail": "Selected MY22/MY23 VINs under REC-005692 and selected MY22 VINs under REC-005938 need software updates. Check completion. REC-006322 concerns Exceed/Exceed Tourer MI-PILOT and is not an LS fault.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "Official recall remedies are free for affected VINs.",
+          "warranty": "Recall remedy is separate from the ordinary warranty expiry.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-petrol-camera-5692",
+            "audit-mitsubishi-outlander-petrol-camera-5938",
+            "audit-mitsubishi-outlander-petrol-steering-scope"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "Remote-key button-battery warning campaign",
+          "detail": "PRA 2023/19809 covers selected MY2020–22 VINs with missing warnings. Bring both keys and the service/manual books for the dealer check.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "Missing warning labels are fitted at no cost for affected VINs.",
+          "warranty": "ACCC recall remedy; check exact VIN.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-petrol-key-warning"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "CVT, engine and cooling repairs — quote gap",
+          "detail": "Potential major bills after cover, but no exact Australian ZM LS installed replacement quote or annual failure frequency was verified. Inspect cold/hot operation, diagnostic codes, leaks and scheduled fluid records; older-generation, PHEV and AWD fault costs are not transferred.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Unpriced: obtain diagnosis and a VIN-specific installed quote. A reserve cannot establish the bill or probability.",
+          "warranty": "Manufacturing defects may be covered if eligible; wear, missed maintenance and shorter component terms matter.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-petrol-period-spec",
+            "audit-mitsubishi-outlander-petrol-maintenance",
+            "audit-mitsubishi-outlander-petrol-warranty-terms"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Conventional front dampers — generic workshop example",
+          "detail": "Australian repairer guide quotes A$650–1,300 for a front pair with labour; not an LS diagnosis, installed quote or common-fault claim. Alignment or extra mounts can add cost.",
+          "low": 650,
+          "high": 1300,
+          "priceBasis": "Generic Australian installed front damper pair, not model-specific evidence.",
+          "warranty": "Shocks/struts are limited to 12 months/20,000 km in the October 2023 terms; confirm original cover and consumer-law position.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-petrol-suspension-proxy",
+            "audit-mitsubishi-outlander-petrol-warranty-terms"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "fuelEstimate": {
+        "point": 8.5,
+        "low": 7.7,
+        "high": 11,
+        "confidence": "low",
+        "basis": "L/100km planning point from exact 2022 LS 2WD Wheels test, not a fleet average. ADR 7.7 retained separately. AAA 2023 LS AWD gave 7.9 overall / 10.3 urban, useful route context only. Bounds 7.7–11 are analyst scenarios; local short trips, traffic, load and towing can differ.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-period-spec",
+          "audit-mitsubishi-outlander-petrol-wheels-ls",
+          "audit-mitsubishi-outlander-petrol-aaa-awd-related"
+        ]
+      },
+      "sourceIds": [
+        "audit-mitsubishi-outlander-petrol-maintenance",
+        "audit-mitsubishi-outlander-petrol-cps-eligibility",
+        "audit-mitsubishi-outlander-petrol-my22-caps",
+        "audit-mitsubishi-outlander-petrol-my23-caps",
+        "audit-mitsubishi-outlander-petrol-my24-caps",
+        "audit-mitsubishi-outlander-petrol-warranty",
+        "audit-mitsubishi-outlander-petrol-warranty-terms",
+        "audit-mitsubishi-outlander-petrol-camera-5692",
+        "audit-mitsubishi-outlander-petrol-camera-5938",
+        "audit-mitsubishi-outlander-petrol-steering-scope",
+        "audit-mitsubishi-outlander-petrol-key-warning",
+        "audit-mitsubishi-outlander-petrol-wheels-ls",
+        "audit-mitsubishi-outlander-petrol-aaa-awd-related",
+        "audit-mitsubishi-outlander-petrol-suspension-proxy"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "mitsubishi-outlander-petrol",
+      "rating": 2.8,
+      "outOf": 5,
+      "count": 5,
+      "scope": "ProductReview fourth-generation ZM petrol LS FWD category. Page labels 2023–26, but visible purchases include December 2021, May 2022 and February 2024; one reviewer used a loan car. Not a clean registered-owner reliability survey.",
+      "summary": "Five self-selected reviews: two positive and three negative. The LS FWD category is closer than the all-Outlander aggregate, but tiny and includes a loan-car reviewer. Treat as a weak satisfaction signal; the existing exact LS professional test remains 7.8/10.",
+      "positiveThemes": [
+        "Some users praise space and value",
+        "Positive highway-economy and everyday-driving reports"
+      ],
+      "negativeThemes": [
+        "Complaints about trim quality and service responses",
+        "Wireless-charging, camera-image and audio complaints"
+      ],
+      "sourceIds": [
+        "audit-mitsubishi-outlander-petrol-owner-ls"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "mitsubishi-outlander-petrol",
+      "point": 1160,
+      "low": 780,
+      "high": 2500,
+      "confidence": "low",
+      "basis": "A$1,160 retained: rounded midpoint of Youi Outlander A$785–1,531 published premium band, not a reported mean. Policies sold 22 November 2025–22 May 2026; 80% fell within or below that band. Mixed years and powertrains Australia-wide, not this LS or your address. A$780–2,500 planning bounds are assumptions. Replace with a comprehensive household quote; CTP is in rego.",
+      "sourceIds": [
+        "audit-mitsubishi-outlander-petrol-youi"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyreUpdates": [
+    {
+      "vehicleId": "outlander-ls-petrol-fwd-2022",
+      "setCost": 1036,
+      "setLow": 862,
+      "setHigh": 1600,
+      "lifeKm": 45000,
+      "lifeLowKm": 35000,
+      "lifeHighKm": 60000,
+      "basis": "Maker LS fitment 235/60R18 103H. Retail replacement Goodyear Optilife 3 SUV 107V XL has higher load/speed ratings: JAX A$259 each / A$1,036 for four fitted, balancing/valves/waste fee/GST included; no promotion deducted. Local stock and alignment extra need a quote. Assumed 45,000 km life (35,000–60,000), not measured LS tyre life; A$345.33/year at 15,000 km. Set-price bounds remain planning assumptions.",
+      "confidence": "low",
+      "sourceIds": [
+        "audit-mitsubishi-outlander-petrol-period-spec",
+        "audit-mitsubishi-outlander-petrol-tyre-retail",
+        "audit-mitsubishi-outlander-petrol-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/60R18 107V XL",
+        "product": "Goodyear Optilife 3 SUV",
+        "unitPrice": 259,
+        "quantity": 4,
+        "sourceId": "audit-mitsubishi-outlander-petrol-tyre-retail",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "outlander-ls-petrol-fwd-2022",
+      "point": 750,
+      "low": 350,
+      "high": 1600,
+      "confidence": "low",
+      "basis": "Analyst repair-savings fund A$750/year retained, A$350–1,600 sensitivity bounds for a used original LS petrol FWD kept long term. No credible Australian ZM LS annual repair-frequency or out-of-pocket mean was found. Conditional vehicle cover can expire during ownership, and many wear components have shorter terms. Generic installed damper pricing only illustrates a possible bill; it is not an actuarial input. No PHEV battery or AWD component costs apply. Excludes tyres, scheduled servicing and insured crashes. This is money set aside, not predicted annual spending.",
+      "sourceIds": [
+        "audit-mitsubishi-outlander-petrol-warranty-terms",
+        "audit-mitsubishi-outlander-petrol-maintenance",
+        "audit-mitsubishi-outlander-petrol-suspension-proxy"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "outlander-ls-petrol-fwd-2022",
+      "scope": "related",
+      "summary": "Related Exceed physical tests support cabin potential, but this LS mixed arrangement and current manual permission remain unconfirmed. No family-fit score is assigned.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Related Exceed fitted three rear-facing seats and a separate three-forward-facing combination. No explicit one-rear-facing plus two-other-seats LS test was verified. BabyDrive’s newer left/centre-seat caution report contains conflicting Mitsubishi interpretations; obtain exact-manual written clarification.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-petrol-baby-exceed",
+            "audit-mitsubishi-outlander-petrol-manual-conflict",
+            "audit-mitsubishi-outlander-petrol-ancap-matrix"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "Flush buckle housings are helpful, but daily booster buckling with three installed was not tested. ANCAP centre convertible Model A in either direction and Type E booster failed individual installation checks; its tests do not establish simultaneous fit.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-petrol-baby-exceed",
+            "audit-mitsubishi-outlander-petrol-ancap-matrix",
+            "audit-mitsubishi-outlander-petrol-manual-conflict"
+          ]
+        },
+        "space": {
+          "rating": "workable",
+          "detail": "Related seven-seat Exceed test accommodated a 186 cm passenger ahead of a rear-facing seat, but driver clearance was tighter: the 162 cm reviewer only just fitted with row two fully back. Passenger-side clearance in your LS is still an inspection question, not confirmed for your restraints.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-petrol-baby-exceed"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "Related test required uninstalling a row-two restraint to fold the seat for third-row access; centre tether crosses row three. No approved row-three restraint alternative is established. Check normal loading with your seats.",
+          "sourceIds": [
+            "audit-mitsubishi-outlander-petrol-baby-exceed",
+            "audit-mitsubishi-outlander-petrol-ancap-matrix"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "LS-specific owner feedback and exact service schedules improve coverage. Mixed restraint fit remains unconfirmed and current manual guidance conflicts. No new empirical annual repair-cost basis; keep the editable savings fund labelled as an estimate.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "estimate",
+        "finding": "Used QLD sample remains A$28,990–30,980 drive-away, median A$29,990, three cars / 42,565–76,345 km. Fresh Caloundra stock 716670 replaces older 716593. Banyo and Robina were readable only through indexed seller content; confirm availability and fee inclusions. Interstate Cars24 stock and conflicting Motorama caches were excluded.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-price-caloundra",
+          "audit-mitsubishi-outlander-petrol-price-banyo",
+          "audit-mitsubishi-outlander-petrol-price-robina"
+        ],
+        "vehicleIds": [
+          "outlander-ls-petrol-fwd-2022"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "verified",
+        "finding": "2.5 petrol CVT FWD, 91 RON; manufacturer 7.7 L/100km ADR claim and exact LS 2WD road-test 8.5 stay separate. Related AAA LS AWD 7.9 overall / 10.3 urban is not substituted. No plug-in charging, EV range or traction battery applies.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-period-spec",
+          "audit-mitsubishi-outlander-petrol-wheels-ls",
+          "audit-mitsubishi-outlander-petrol-aaa-awd-related"
+        ],
+        "vehicleIds": [
+          "outlander-ls-petrol-fwd-2022"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "conflict",
+        "finding": "Exceed physical three-across tests in each direction do not confirm this LS mixed target. A newer report records conflicting Mitsubishi explanations of a left/centre-seat caution. Exact Australian petrol manual clarification remains pending. ANCAP centre convertible/booster failures and no row-three anchors remain relevant; family-fit score withheld.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-baby-exceed",
+          "audit-mitsubishi-outlander-petrol-manual-conflict",
+          "audit-mitsubishi-outlander-petrol-ancap-matrix",
+          "audit-mitsubishi-outlander-petrol-period-spec"
+        ],
+        "vehicleIds": [
+          "outlander-ls-petrol-fwd-2022"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "5 years/100,000 km base; extension to 10 years/200,000 km requires eligible on-time dealer servicing and transfers with the vehicle. Some business/rental users excluded. Several wear components only 12 months/20,000 km; 12 V battery 12 months. Confirm original VIN booklet.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-warranty",
+          "audit-mitsubishi-outlander-petrol-warranty-terms"
+        ],
+        "vehicleIds": [
+          "outlander-ls-petrol-fwd-2022"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "Normal 12 months/15,000 km; A$450 annual estimate retained. Exact original ten-visit caps: MY22/22.5 A$3,190, MY23 and MY24 A$4,340. MY23 CVT fluid 90,000 km/72 months normal or 45,000 km/36 months severe. Used remaining entitlement, major fluids and severe-use extras need VIN quote.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-maintenance",
+          "audit-mitsubishi-outlander-petrol-cps-eligibility",
+          "audit-mitsubishi-outlander-petrol-my22-caps",
+          "audit-mitsubishi-outlander-petrol-my23-caps",
+          "audit-mitsubishi-outlander-petrol-my24-caps"
+        ],
+        "vehicleIds": [
+          "outlander-ls-petrol-fwd-2022"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "A$1,160/year remains a rounded midpoint, not an insurer mean. Youi broader Outlander A$785–1,531 band includes different years/powertrains; no exact LS Queensland household quote found. Analyst bounds A$780–2,500 remain editable.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-youi"
+        ],
+        "vehicleIds": [
+          "outlander-ls-petrol-fwd-2022"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Correct maker LS size 235/60R18 103H. Selected 107V XL Goodyear retail A$259 fitted each / A$1,036 set verified. Assumed 45,000 km life yields A$345.33/year at 15,000 km; life, local stock and sensitivity bounds remain uncertain.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-period-spec",
+          "audit-mitsubishi-outlander-petrol-tyre-retail",
+          "audit-mitsubishi-outlander-petrol-tyre-life"
+        ],
+        "vehicleIds": [
+          "outlander-ls-petrol-fwd-2022"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "gap",
+        "finding": "No defensible Australian ZM LS annual repair average or fitted CVT replacement quote found; A$750/year is a savings fund. Selected camera campaigns and key-warning recall have free remedies. Exceed-only steering recall, PHEV batteries and older-gen transmission anecdotes are excluded.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-maintenance",
+          "audit-mitsubishi-outlander-petrol-warranty-terms",
+          "audit-mitsubishi-outlander-petrol-camera-5692",
+          "audit-mitsubishi-outlander-petrol-camera-5938",
+          "audit-mitsubishi-outlander-petrol-steering-scope",
+          "audit-mitsubishi-outlander-petrol-key-warning",
+          "audit-mitsubishi-outlander-petrol-suspension-proxy"
+        ],
+        "vehicleIds": [
+          "outlander-ls-petrol-fwd-2022"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "estimate",
+        "finding": "Located exact LS FWD ProductReview category 2.8/5 from five reviews, including one loan-car reviewer and pre-2025 purchases despite page year labels. Weak satisfaction evidence, not failure rates. Existing exact 2022 Wheels professional test remains 7.8/10.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-owner-ls",
+          "audit-mitsubishi-outlander-petrol-wheels-ls"
+        ],
+        "vehicleIds": [
+          "outlander-ls-petrol-fwd-2022"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "Original LS FWD seven-seat: 478 L VDA with row three folded / 163 L all seats raised; 1,600 kg braked towing / 160 kg towball. Applicable 2022 ANCAP rating. Four-cylinder QLD rego + CTP A$864.50–880.50 guide; duty A$3 per A$100 up to A$100,000. Do not add included drive-away duty twice.",
+        "sourceIds": [
+          "audit-mitsubishi-outlander-petrol-period-spec",
+          "audit-mitsubishi-outlander-petrol-ancap",
+          "audit-mitsubishi-outlander-petrol-ancap-matrix",
+          "audit-mitsubishi-outlander-petrol-qld-rego",
+          "audit-mitsubishi-outlander-petrol-qld-duty"
+        ],
+        "vehicleIds": [
+          "outlander-ls-petrol-fwd-2022"
+        ]
+      }
+    ]
+  }
+}

@@ -1,6 +1,12 @@
 import type { Vehicle } from './types';
 
 export function reviewScope(v: Vehicle): { factor: number; note: string } {
+  if (v.familyId === 'mitsubishi-outlander-petrol') return { factor: .6, note: 'Tiny LS FWD category mixes years and includes a loan-car contribution; reduced relevance to original-model ownership.' };
+  if (v.familyId === 'hyundai-tucson') return { factor: .25, note: 'NX4 aggregate mixes engines, facelift hybrids and borrowed-car professional contributions; limited relevance to the original base 2.0 petrol.' };
+  if (v.familyId === 'kia-carnival') return { factor: .5, note: 'KA4 owner aggregate mixes petrol, diesel and facelift variants; limited relevance to the original S diesel.' };
+  if (v.familyId === 'subaru-outback') return { factor: .5, note: 'Sixth-generation owner aggregate mixes Sport, Touring and turbo XT reports; limited relevance to the non-turbo 2.5 base.' };
+  if (v.familyId === 'subaru-forester' && /sixth|\bS6\b/i.test(v.generation)) return { factor: 0, note: 'The S5 owner aggregate is reference only; it does not establish the sixth-generation Forester’s owner rating.' };
+  if (v.familyId === 'subaru-forester') return { factor: .5, note: 'Previous-generation aggregate mixes years, trims and engines; limited relevance to the specific 2.5i-L.' };
   if (v.familyId === 'byd-atto-3' && /EVO/i.test(v.variant + v.generation)) return { factor: 0, note: 'Original Atto 3 reviews are reference only; excluded from this EVO score.' };
   if (v.familyId === 'hyundai-ioniq-5' && /84 kWh/i.test(v.variant)) return { factor: 0, note: 'Early-generation reviews do not establish the refreshed 84 kWh model’s owner rating; excluded from its score.' };
   if (v.familyId === 'toyota-rav4-hybrid' && /sixth|XA60/i.test(v.generation)) return { factor: 0, note: 'Previous-generation reviews are reference only; excluded from the new-generation score.' };

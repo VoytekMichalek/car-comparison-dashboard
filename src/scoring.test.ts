@@ -8,6 +8,8 @@ import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { ScoreBreakdown } from './components/Scores';
 import { reviewScope } from './reviewScope';
+import { fitAssessmentFor } from './research';
+import { calculateFamilyFit } from './familyFit';
 import type { ScoreWeights } from './types';
 
 const v = vehicles[0];
@@ -68,13 +70,16 @@ describe('transparent importance-weighted scoring', () => {
     expect(result.provisional).toBe(true);
   });
   it('does not apply original-generation owner ratings to the Atto 3 EVO or new RAV4', () => {
-    for (const id of ['atto3-evo-premium-2026', 'rav4-gxl-hev-2026']) {
+    for (const id of ['atto3-evo-premium-2026', 'rav4-gxl-hev-2026', 'forester-awd-petrol-2025']) {
       const car = vehicles.find(v => v.id === id)!;
       const owners = scoreVehicle(car, emptyPersonal()).categories.find(c => c.key === 'owners')!;
       expect(owners.confidence).toBe(0);
       expect(owners.score).toBeNull();
       expect(owners.effectiveWeight).toBe(0);
     }
+    const oldForester = vehicles.find(v => v.id === 'forester-25il-2021')!;
+    expect(reviewScope(oldForester).factor).toBe(.5);
+    expect(scoreVehicle(oldForester, emptyPersonal()).categories.find(c => c.key === 'owners')!.confidence).toBeGreaterThan(0);
   });
   it('limits contaminated review aggregates and further reduces unmatched updates', () => {
     const older = vehicles.find(v => v.id === 'outlander-phev-aspire-20')!;
@@ -113,14 +118,20 @@ describe('transparent importance-weighted scoring', () => {
       expect(zero.score).toBeNull();
     }
   });
-  it('keeps related child-seat tests usable with less influence than an exact published test', () => {
+  it('uses the audited configuration scope rather than upgrading a related test by changing its badge', () => {
     const ioniq = vehicles.find(v => v.id === 'ioniq5-dynamiq-rwd-2023')!;
     const related = scoreVehicle(ioniq, emptyPersonal()).categories.find(c => c.key === 'seating')!;
     const exact = scoreVehicle({ ...ioniq, familyFit: { ...ioniq.familyFit, status: 'tested-three' } }, emptyPersonal()).categories.find(c => c.key === 'seating')!;
-    expect(related.score).toBe(8);
-    expect(related.confidence).toBe(.5);
+    const audited = calculateFamilyFit(fitAssessmentFor(ioniq.id)!);
+    expect(related.score).toBe(audited.score);
+    expect(related.confidence).toBeCloseTo(audited.confidence);
+    expect(related.breakdown).toHaveLength(4);
     expect(exact.score).toEqual(related.score);
-    expect(exact.effectiveWeight).toBeGreaterThan(related.effectiveWeight);
+    expect(exact.effectiveWeight).toBe(related.effectiveWeight);
+    const confirmed = scoreVehicle(ioniq, { ...emptyPersonal(), fitChecks: { [ioniq.id]: true } }).categories.find(c => c.key === 'seating')!;
+    expect(confirmed.score).toBe(10);
+    expect(confirmed.confidence).toBe(1);
+    expect(confirmed.breakdown).toBeUndefined();
   });
   it('uses the saved deal price in scoring and clears it back to research', () => {
     const other = vehicles.find(car => car.id !== v.id)!;

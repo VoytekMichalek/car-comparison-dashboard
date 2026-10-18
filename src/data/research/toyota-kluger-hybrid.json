@@ -1,0 +1,903 @@
+{
+  "familyId": "toyota-kluger-hybrid",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-toyota-kluger-hybrid-fit",
+      "title": "BabyDrive 2021 Grande Hybrid: named mixed-facing seats, 180 cm front clearance and occupied boot",
+      "url": "https://babydrive.com.au/reviews/suvs/2021-toyota-kluger-hybrid-grande/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-ancap",
+      "title": "ANCAP Kluger 2021 report: restraint installation exceptions and all-row protection",
+      "url": "https://s3.amazonaws.com/cdn.ancap.com.au/app/public/assets/534362bf4ca200cb445ddb1b17b2fd7c1bde22c0/original.pdf",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-manual21",
+      "title": "Toyota Australian hybrid owner manual, Oct 2021–Sept 2022: restraint warnings, NiMH pack and tyre specification",
+      "url": "https://toyotamanuals.com.au/docs/kluger-hybrid-owners-manual-oct-21-current/",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-manual23",
+      "title": "Toyota Australian hybrid owner manual, Oct 2022 onward: restraint instructions pp 38–52, battery cooling p345 and pack p408",
+      "url": "https://toyotamanuals.com.au/docs/kluger-hybrid-owners-manual-oct-22-current/",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-spec21",
+      "title": "Toyota Kluger May 2021 specification table: hybrid GX climate control, cargo, anchors and equipment",
+      "url": "https://www.toyota.com.au/-/media/toyota/main-site/page-data/all-new-kluger/file/kluger-spec-table-260521.pdf",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-spec26",
+      "title": "Toyota Kluger 23 February 2026 specification table: GX hybrid equipment and mechanical figures",
+      "url": "https://www.toyota.com.au/-/media/toyota/main-site/vehicle-hubs/kluger/files/20260223_kluger_spec_table-_gto009639.pdf?rev=221d4e90078d4986993973ca39042df0",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-launch21",
+      "title": "Toyota original Australian Kluger hybrid launch: original pricing, service caps and warranty",
+      "url": "https://www.toyota.com.au/discover/news/all-new-toyota-kluger-arrives-in-australia",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-update23",
+      "title": "Toyota January 2023 Kluger upgrade: GX 7-inch driver display and connected multimedia",
+      "url": "https://www.toyota.com.au/discover/news/turbocharged-performance-and-connected-services-raise-the-bar-for-toyota-kluger",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-hybrid-only24",
+      "title": "Toyota Australia ends petrol-only Kluger orders in 2024",
+      "url": "https://www.toyota.com.au/discover/news/toyota-moves-to-100-percent-hybrid-on-popular-cars-and-suvs",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-aaa",
+      "title": "AAA real-world GX Hybrid AWD May 2023 build: 5.8 L/100 km, tested July 2024",
+      "url": "https://realworld.org.au/wp-protected/1b0aa83ae89d/uploads/2024/08/AUG2024_2023-Toyota-Kluger-Hybrid.pdf",
+      "publisher": "Australian Automobile Association",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-kedron",
+      "title": "Auto Request current 2021 GX 2.5 hybrid stock 15437: A$39,990 DAP and 106,500 km",
+      "url": "https://autorequest.com.au/current-stock/?make=Toyota",
+      "publisher": "Auto Request",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-booval",
+      "title": "Llewellyn current GX Hybrid stock U675461: raw public dealer HTML A$48,490 DAP and 47,122 km",
+      "url": "https://www.llewellynmotors.com.au/used-cars/for-sale/toyota/kluger-hybrid/2022/gx-awd/3974517/",
+      "publisher": "Llewellyn Motors",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-gympie",
+      "title": "Pacific current GX Hybrid stock U13155: A$49,990 DAP and 12,181 km",
+      "url": "https://www.pacificmitsubishi.com.au/used-cars/for-sale/toyota/kluger/2022/gx/axuh78r-4x4-on-demand/4042218/",
+      "publisher": "Pacific Mitsubishi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-new-qld",
+      "title": "Ingham Toyota current new GX Hybrid stock: four distinct 2025–26 VINs, A$64,990–67,250 DAP",
+      "url": "https://inghamtoyota.dealer.toyota.com.au/new-vehicles-all/kluger",
+      "publisher": "Ingham Toyota",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-warranty",
+      "title": "Toyota Warranty Advantage: balance transfers with vehicle; HEV battery health-check extension",
+      "url": "https://www.toyota.com.au/owners/warranty",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-warranty-terms",
+      "title": "Toyota April 2026 full warranty terms: exclusions, extended cover and capacity cover scope",
+      "url": "https://www.toyota.com.au/-/media/project/toyota/toyota/owners/warranty/20260401_toyota-warranty-advantage_tandcs_t2026-022197.pdf?rev=a9c6245447e84c2fa4c0cff88b0c50c5",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-service-terms",
+      "title": "Toyota service-pricing terms: original eligibility clock, standard inclusions and wear exclusions",
+      "url": "https://www.toyota.com.au/-/media/toyota/main-site/page-data/service/service_pricing_terms_and_conditions_20250519-v3.pdf?rev=bbd159226ba049d9ad7abe267a1746b4",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-insurance",
+      "title": "NRMA 10 August 2026 family-car cost table and NSW insurance assumptions",
+      "url": "https://www.mynrma.com.au/open-road/best-value-car-awards/2026/family-cars",
+      "publisher": "The NRMA",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-tyres",
+      "title": "JAX fitted 235/65R18 106V Continental UltraContact UX7 SUV: A$319 each incl GST",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/235-65r18",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-battery-supplier",
+      "title": "Infinitev AXUH78 2021-on new replacement pack: compatible listing with no public fitted price",
+      "url": "https://infinitev.au/collections/toyota-hybrid/products/toyota-kluger-hybrid-2021-on-new-replacement-hybrid-battery",
+      "publisher": "Infinitev",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-recliner",
+      "title": "REC-006562 updated Kluger second-row recliner campaign: 46,467 vehicles, free remedy",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006562",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-recliner-expansion",
+      "title": "Toyota 24 September 2026 expansion: production through 10 June 2025, return-spring remedy",
+      "url": "https://pressroom.toyota.com.au/PressRelease?pr-code=65c7365b-3276-4872-8a7a-7fc527870b08",
+      "publisher": "Toyota Australia",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-meter",
+      "title": "REC-006390 selected 2022–25 Kluger meter software recall; remedy status needs VIN check",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006390",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-seat-frame",
+      "title": "REC-006125 second-row seat-frame protector recall: selected 2021–24 Kluger",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006125",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-airbag",
+      "title": "Toyota selected March–July 2023 spiral-cable assembly campaign",
+      "url": "https://www.toyota.com.au/discover/news/toyota-australia-recalls-kluger-vehicles-due-to-spiral-cable-assembly",
+      "publisher": "Toyota Australia",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-front-seat",
+      "title": "REC-005459 selected 2021 Kluger front-seat frame recall",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005459",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-bumper",
+      "title": "REC-005813 selected 2021–23 Kluger lower-bumper fastener recall",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005813",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-vsc",
+      "title": "Toyota original VSC campaign: selected March 2021–April 2022 hybrid builds",
+      "url": "https://www.toyota.com.au/discover/news/toyota-australia-recalls-vehicles-due-to-vehicle-stability-control-system-software",
+      "publisher": "Toyota Australia",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-owners",
+      "title": "ProductReview Kluger AWD Hybrid 2021–26: 3.0/5 from seven posts",
+      "url": "https://www.productreview.com.au/listings/toyota-kluger-awd-hybrid",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-gx-test",
+      "title": "CarExpert 2022 GX Hybrid AWD road test: refinement, three-zone climate and short-trip use",
+      "url": "https://www.carexpert.com.au/car-reviews/2022-toyota-kluger-hybrid-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-kluger-hybrid-qld-rego",
+      "title": "Queensland October 2026 four-cylinder private registration, TIF and Class 1 CTP",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "market",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "kluger-gx-hev-awd",
+      "summary": "Strong mixed-facing three-across evidence in a related 2021 Grande, with useful rear-facing front clearance. GX shares the generation but lacks some Grande equipment. Third-row child-restraint use and access need particular care.",
+      "battery": {
+        "value": 1.87,
+        "unit": "kWh",
+        "basis": "Calculated nominal NiMH energy: 288 V × 6.5 Ah = 1.872 kWh, rounded. Original and updated Toyota hybrid manuals agree; this is not usable capacity or a plug-in battery.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-manual21",
+          "audit-toyota-kluger-hybrid-manual23"
+        ]
+      },
+      "observedConsumption": {
+        "value": 5.8,
+        "unit": "L/100km",
+        "basis": "AAA observed petrol use: exact GX AWD AXUH78R, May 2023 build, 16,925 km; 93 km Geelong route, 8–10 July 2024, 95 RON. Not a guarantee for all loads, routes or model years. Official ADR combined remains 5.6.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-aaa"
+        ]
+      },
+      "consumption": {
+        "value": 5.6,
+        "unit": "L/100km",
+        "basis": "Official Australian ADR 81/02 combined GX hybrid claim; separate AAA observed result is 5.8.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-launch21",
+          "audit-toyota-kluger-hybrid-spec26"
+        ]
+      },
+      "boot": {
+        "value": 552,
+        "unit": "L",
+        "basis": "Toyota cargo capacity with third row folded, second row upright; not an all-seven-seats figure.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-spec21",
+          "audit-toyota-kluger-hybrid-spec26"
+        ]
+      },
+      "bootAllRows": {
+        "value": 241,
+        "unit": "L",
+        "basis": "Toyota cargo capacity with all three rows upright.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-spec21",
+          "audit-toyota-kluger-hybrid-spec26"
+        ]
+      },
+      "towing": {
+        "value": 2000,
+        "unit": "kg",
+        "basis": "Maximum braked trailer capacity; actual towbar, load and vehicle limits apply.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-spec21",
+          "audit-toyota-kluger-hybrid-spec26"
+        ]
+      },
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Related Grande test demonstrated three across including rear-facing Attain More; GX still needs your exact fit check. ANCAP found a different rear-facing ISOFIX seat incompatible.",
+        "row2": "Three seatback top tethers; outboard ISOFIX only. ANCAP reports one tested rear-facing convertible could not use outboard ISOFIX; an outboard belt-installed capsule required care.",
+        "row3": "No top tether or ISOFIX. ANCAP recommends against installing child restraints here; do not count row 3 as an extra position for this family’s mixed three-seat arrangement.",
+        "testedSeats": "2021 Grande: Aspire More booster plus two Attain More seats, tested in forward- and rear-facing modes. Front clearance was demonstrated with a rear-facing Attain More and a 180 cm driver. Exact mixed positions are not fully mapped in text.",
+        "buckleAccess": "No verified test of independent booster fastening with three installed. The owner manual warns adjacent belts may interfere with some restraints. Trial buckles with your actual seats.",
+        "access": "BabyDrive found a child-sized third-row gap after sliding an ISOFIX-occupied row-2 seat. Toyota manuals warn never to adjust the vehicle seat after securing the restraint. Do not rely on that shortcut; check the exact manual and trial entry with seats correctly installed.",
+        "ventilation": "GX Hybrid had three-zone climate from launch, confirmed by its own GX road test; the related Grande family test confirms ceiling outlets in both rear rows. Grande sunblinds and 360-degree camera are not GX equipment.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-fit",
+          "audit-toyota-kluger-hybrid-ancap",
+          "audit-toyota-kluger-hybrid-manual21",
+          "audit-toyota-kluger-hybrid-manual23",
+          "audit-toyota-kluger-hybrid-spec21",
+          "audit-toyota-kluger-hybrid-gx-test"
+        ]
+      },
+      "pros": [
+        "Related mixed-facing three-across test, with a 180 cm driver ahead of the rear-facing seat.",
+        "GX Hybrid has three-zone climate; boot remains 241 L with all rows upright.",
+        "Exact GX AAA test returned 5.8 L/100 km on 95 RON."
+      ],
+      "cons": [
+        "Third row has no restraint anchors and is not an assumed child-seat solution.",
+        "Three-across booster buckle access remains unverified.",
+        "Large parking footprint; early GX equipment differs from 2026 cars."
+      ],
+      "inspection": [
+        "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
+        "Confirm battery-health checks and remaining Toyota warranty eligibility.",
+        "Trial your pram with the third row in the intended position.",
+        "Check current GX ventilation and safety/multimedia equipment rather than relying on Grande photos.",
+        "Original 2021 Australian hybrid launch and current February 2026 sheet both specify minimum 95 RON premium unleaded; budget the matching fuel grade.",
+        "The three captured GX Hybrid VINs are listed in REC-006562 second-row recliner campaign data. Obtain completion evidence; neither the model year nor the advert establishes that the free remedy has been carried out.",
+        "Install all three actual restraints, including the rear-facing one; try the front seats in both adults’ driving positions and check booster buckle reach.",
+        "Check the Australian restraint/vehicle manuals together. A different rear-facing convertible failed ANCAP outboard ISOFIX installation; a seatbelt route may differ.",
+        "Ask Toyota for all outstanding VIN campaigns and completed repair orders, including the September 2026 expansion of second-row recliner campaign 6GG11.",
+        "Check hybrid battery cooling-intake cleanliness, warning history, battery-health records and remaining conditional cover.",
+        "Ask for the next several VIN-specific service quotes, including spark plugs, coolant and brake-fluid work when due. A launch capped service price does not cover indefinite aged-car maintenance."
+      ],
+      "changes": [
+        {
+          "period": "June 2021 launch",
+          "text": "Australian XU70 hybrid introduced with 2.5L eFour AWD, 184 kW combined and GX three-zone climate. Do not apply V6-petrol fuel, service or driveline details to the hybrid.",
+          "sourceIds": [
+            "audit-toyota-kluger-hybrid-launch21",
+            "audit-toyota-kluger-hybrid-spec21"
+          ]
+        },
+        {
+          "period": "January 2023 update",
+          "text": "Hybrid drivetrain retained. GX driver display grew from 4.2 to 7 inches; updated multimedia added wireless Apple CarPlay and Connected Services. The 12.3-inch centre screen belonged to GXL/Grande, not GX.",
+          "sourceIds": [
+            "audit-toyota-kluger-hybrid-update23"
+          ]
+        },
+        {
+          "period": "2024 customer orders",
+          "text": "Toyota ended petrol-only Kluger orders. Existing used petrol cars remain a different powertrain; this record covers GX AWD Hybrid only.",
+          "sourceIds": [
+            "audit-toyota-kluger-hybrid-hybrid-only24"
+          ]
+        },
+        {
+          "period": "February 2026 specification sheet",
+          "text": "Lists a 12.3-inch driver information display, tyre-pressure monitoring and USB-C ports across grades, while GX retains an 8-inch centre touchscreen. Confirm build/equipment; these features must not be back-applied to 2021–22 asking samples.",
+          "sourceIds": [
+            "audit-toyota-kluger-hybrid-spec26"
+          ]
+        }
+      ],
+      "gaps": [
+        "Named three-seat test is a related Grande, not a direct GX test of every year or your restraints. Independent three-across booster fastening is not established.",
+        "2021–22 used asking sample does not value every year through 2026. The February 2026 sheet has material equipment changes; confirm production applicability by VIN.",
+        "Exact post-cap service schedule prices and fitted AXUH78R replacement-pack cost remain unverified. Nominal battery energy is known; usable battery energy is not."
+      ],
+      "sourceIds": [
+        "hy-recalls",
+        "hy-kluger-current",
+        "hy-kluger-launch",
+        "hy-kluger-fit",
+        "hy-kluger-safe",
+        "hy-toyota-warranty",
+        "hy-kluger-used",
+        "hy-deep-kluger-launch-21",
+        "hy-deep-kluger-spec-26",
+        "hy-refresh-kluger-recliner-vins",
+        "audit-toyota-kluger-hybrid-fit",
+        "audit-toyota-kluger-hybrid-ancap",
+        "audit-toyota-kluger-hybrid-manual21",
+        "audit-toyota-kluger-hybrid-manual23",
+        "audit-toyota-kluger-hybrid-spec21",
+        "audit-toyota-kluger-hybrid-spec26",
+        "audit-toyota-kluger-hybrid-update23",
+        "audit-toyota-kluger-hybrid-hybrid-only24",
+        "audit-toyota-kluger-hybrid-aaa",
+        "audit-toyota-kluger-hybrid-recliner",
+        "audit-toyota-kluger-hybrid-recliner-expansion",
+        "audit-toyota-kluger-hybrid-gx-test"
+      ],
+      "checked": "2026-10-18",
+      "length": {
+        "value": 4966,
+        "unit": "mm",
+        "basis": "Toyota overall body length; original/current XU70 hybrid specifications.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-spec21",
+          "audit-toyota-kluger-hybrid-spec26"
+        ]
+      },
+      "width": {
+        "value": 1930,
+        "unit": "mm",
+        "basis": "Toyota body width, excluding mirrors. Body width alone does not establish three-restraint fit.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-spec21",
+          "audit-toyota-kluger-hybrid-spec26"
+        ]
+      },
+      "safety": {
+        "stars": 5,
+        "year": 2021,
+        "applicability": "ANCAP report covers all XU7 petrol/hybrid variants built from March 2021, on sale June 2021; curtain protection covers all three rows. Child installation assessment is per position, not three-across.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-ancap"
+        ]
+      }
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "hy-price-kluger-used",
+      "vehicleId": "kluger-gx-hev-awd",
+      "low": 39990,
+      "high": 49990,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 3,
+      "geography": "Queensland · three distinct GX Hybrid AWD dealer-used cars",
+      "kilometres": "12,181–106,500 km",
+      "observed": "2026-10-18",
+      "note": "Three distinct Queensland 2021–22 GX Hybrid AWD asking ads; median A$48,490. Current raw public dealer HTML verifies Booval A$48,490/47,122 km and Gympie A$49,990/12,181 km; indexed dealer text is stale. The 12,181–106,500 km spread is material. This used sample does not value new 2025–26 GX stock, separately observed at A$64,990–67,250 drive-away.",
+      "sourceIds": [
+        "audit-toyota-kluger-hybrid-kedron",
+        "audit-toyota-kluger-hybrid-booval",
+        "audit-toyota-kluger-hybrid-gympie",
+        "hy-refresh-kluger-recliner-vins"
+      ],
+      "confidence": "medium",
+      "estimateBasis": "Current, physically distinct asking-price sample, not achieved sale prices or a value for every grouped year. Dealer stock/VINs prevent double counting; confirm availability and the buyer-specific drive-away amount.",
+      "point": 48490,
+      "kind": "observation",
+      "observations": [
+        {
+          "price": 39990,
+          "basis": "drive-away",
+          "year": 2021,
+          "kilometres": 106500,
+          "location": "Kedron, QLD",
+          "url": "https://autorequest.com.au/current-stock/?make=Toyota",
+          "sourceId": "audit-toyota-kluger-hybrid-kedron",
+          "checked": "2026-10-18",
+          "note": "Current dealer stock 15437; VIN 5TDLB3CH00S058648 confirms GX Hybrid AWD. Dealer list labels fuel generically Petrol but its 2.5L hybrid VIN/specification is cross-checked; 3.5L petrol stock 15355 is excluded. This exact VIN is present in official REC-006562 second-row recliner recall data; completion is unknown. Request Toyota remedy paperwork."
+        },
+        {
+          "price": 48490,
+          "basis": "drive-away",
+          "year": 2022,
+          "kilometres": 47122,
+          "location": "Booval, QLD",
+          "url": "https://www.llewellynmotors.com.au/used-cars/for-sale/toyota/kluger-hybrid/2022/gx-awd/3974517/",
+          "sourceId": "audit-toyota-kluger-hybrid-booval",
+          "checked": "2026-10-18",
+          "note": "Stock U675461; VIN 5TDLB3CH80S101780; rego 004QM2. Current raw public HTML/structured offer and odometer are A$48,490 DAP/47,122 km, overriding cached A$49,880/47,104 km. Toyota-certified claims and campaign completion need documentation. This VIN was already matched to official recliner recall data; remedy completion remains unknown."
+        },
+        {
+          "price": 49990,
+          "basis": "drive-away",
+          "year": 2022,
+          "kilometres": 12181,
+          "location": "Gympie, QLD",
+          "url": "https://www.pacificmitsubishi.com.au/used-cars/for-sale/toyota/kluger/2022/gx/axuh78r-4x4-on-demand/4042218/",
+          "sourceId": "audit-toyota-kluger-hybrid-gympie",
+          "checked": "2026-10-18",
+          "note": "Stock U13155; GX Hybrid AXUH78R; Graphite. Current public dealer HTML/structured offer verifies A$49,990 DAP and 12,181 km. Counted once across dealer-group cross-posts. This VIN was already matched to official recliner recall data; obtain completion evidence."
+        }
+      ]
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "toyota-kluger-hybrid",
+      "fuelEstimate": {
+        "point": 5.8,
+        "low": 5.5,
+        "high": 7.5,
+        "confidence": "medium",
+        "basis": "L/100 km petrol planning anchor from AAA’s exact 2023 GX AWD test: 5.8 overall. The 5.5–7.5 sensitivity band is assumed, informed by AAA segment results and CarExpert short urban use around 7.0; it is not a fleet-average interval. Extrapolation to the grouped 2021–26 drivetrain remains an estimate. Uses 95 RON.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-aaa",
+          "audit-toyota-kluger-hybrid-gx-test"
+        ]
+      },
+      "serviceAnnual": 500,
+      "serviceLow": 300,
+      "serviceHigh": 700,
+      "serviceConfidence": "low",
+      "serviceBasis": "ESTIMATE — A$500/year at 15,000 km/year, A$300–700 sensitivity. Original 2021 launch offered A$250 standard scheduled visits during the first five years/75,000 km; this is historical eligibility, not a fresh cap for a used purchase. Later service prices require the VIN, mileage and service number. Parts, labour and scheduled fluids belong to standard servicing; extra severe-use work and wear items are separate. No verified post-cap ten-year average was found.",
+      "risks": [
+        {
+          "title": "Hybrid battery outside cover",
+          "detail": "A traction-battery fault needs diagnosis before replacement. Infinitev lists a 2021-on AXUH78 replacement but no public fitted price; obtain a VIN-specific quote and warranty terms. The retained A$4,500–9,000 scenario is a RAV4-based planning analogue, not a Kluger quotation or expected failure bill.",
+          "low": 4500,
+          "high": 9000,
+          "priceBasis": "ESTIMATE — A$4,500–9,000 fitted new-genuine pack planning scenario, assuming labour and GST. Analogue: Australian 2019-on RAV4 guide A$4,500–7,000 fitted, with up to A$2,000 extra uncertainty for Kluger pack/sourcing; guide GST unspecified. No verified AXUH78R quote or compatible part is claimed.",
+          "warranty": "Confirm annual extended-cover eligibility before funding a repair; normal capacity degradation is excluded.",
+          "sourceIds": [
+            "own-hy-toyota-warranty",
+            "own-hy-rav4-battery-price",
+            "repair-kluger-infinitev",
+            "audit-toyota-kluger-hybrid-battery-supplier",
+            "audit-toyota-kluger-hybrid-warranty-terms"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Second-row seat-frame recall",
+          "detail": "Campaign ZGGA0 affects selected 2021–2024 Kluger petrol/hybrid vehicles: a seat-frame bar can protrude with the bench partly stowed.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for the official VIN-specific recall remedy, including dealer installation; not a replacement-seat price.",
+          "warranty": "Free rear-protector installation for affected VINs.",
+          "sourceIds": [
+            "own-hy-kluger-seat-recall"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "Driver-airbag spiral-cable recall",
+          "detail": "Selected March–July 2023 production can lose the driver-airbag circuit connection. Verify inspection and any required cable replacement.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for Toyota’s VIN-specific recall inspection/replacement, including dealer work; unrelated airbag faults need diagnosis.",
+          "warranty": "Official serial-number inspection and necessary replacement are free for involved VINs.",
+          "sourceIds": [
+            "own-hy-kluger-airbag-recall"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "2022–2025 combination-meter recall",
+          "detail": "REC-006390 (campaign 5GG31) includes selected RAV4 Hybrid and Kluger Hybrid VINs. A memory/software issue can blank the meter, hiding speed and warning indicators. The published notice anticipated a late-2025 software remedy; confirm its current availability and completion with Toyota. Do not apply automatically to the new-generation 2026 RAV4.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+          "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "own-hy-toyota-meter-recall"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "Second-row recliner recall — separate from frame protector",
+          "detail": "REC-006562 / 6GG11 was expanded on 24 September 2026 to 46,467 Australian Klugers produced 31 March 2021–10 June 2025, including selected GX hybrids. The row-2 seatback can move if its recliner fails to engage. Toyota replaces return springs free for affected VINs. Confirm completion independently of the older seat-frame protector campaign.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+          "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "audit-toyota-kluger-hybrid-recliner",
+            "audit-toyota-kluger-hybrid-recliner-expansion"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "Additional early Kluger safety campaigns",
+          "detail": "Selected 2021 cars have front-seat frame/ADR rectification (REC-005459); selected 2021–2023 cars need improved lower-bumper fasteners (REC-005813). Selected March 2021–April 2022 hybrid builds also have VSC reset software rectification. Check completion by VIN rather than inferring from model year.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+          "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "own-hy-kluger-front-seat-recall",
+            "own-hy-kluger-bumper-recall",
+            "own-hy-toyota-vsc-recall"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sourceIds": [
+        "own-hy-toyota-warranty",
+        "own-hy-toyota-service-terms",
+        "own-hy-kluger-seat-recall",
+        "own-hy-kluger-airbag-recall",
+        "own-hy-kluger-service-launch",
+        "own-hy-toyota-warranty-terms",
+        "own-hy-toyota-service-faq",
+        "audit-toyota-kluger-hybrid-launch21",
+        "audit-toyota-kluger-hybrid-service-terms",
+        "audit-toyota-kluger-hybrid-warranty",
+        "audit-toyota-kluger-hybrid-warranty-terms",
+        "audit-toyota-kluger-hybrid-manual23",
+        "audit-toyota-kluger-hybrid-aaa",
+        "audit-toyota-kluger-hybrid-gx-test",
+        "audit-toyota-kluger-hybrid-recliner",
+        "audit-toyota-kluger-hybrid-recliner-expansion",
+        "audit-toyota-kluger-hybrid-battery-supplier"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "toyota-kluger-hybrid",
+      "rating": 3.0,
+      "outOf": 5,
+      "count": 7,
+      "scope": "ProductReview AWD Hybrid 2021–26 page, seven GX/GXL/Grande posts. One is labelled Fair Incentive. Excludes the 3.8/5 broad Kluger parent aggregate and pre-2021 petrol generations; it is not a representative reliability survey.",
+      "summary": "Seven self-selected AWD Hybrid posts average 3.0/5. Positives concern room, smoothness and economy; negatives include trim/seals, equipment and isolated warranty handling. Several Grande-specific issues do not apply directly to GX, and the sample does not measure failure rates.",
+      "positiveThemes": [
+        "Roomy cabin and smooth, quiet driving",
+        "Economy praised against previous large family cars",
+        "Responsive acceleration"
+      ],
+      "negativeThemes": [
+        "Trim, wheel-cover or upholstery complaints",
+        "Lane-assist intrusiveness and a sunroof creak in one report",
+        "Individual dissatisfaction with warranty handling and equipment"
+      ],
+      "sourceIds": [
+        "ownreview-hy-kluger-awd-hybrid",
+        "audit-toyota-kluger-hybrid-owners"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "toyota-kluger-hybrid",
+      "low": 1400,
+      "high": 3200,
+      "point": 1620,
+      "basis": "Same-model public benchmark: NRMA August 2026 GX Hybrid table gives A$8,111 comprehensive insurance over five years; annualised A$1,622.20, rounded to A$1,620. Profile is a 30-year-old man in Chatswood NSW, private use, clean history and A$1,000 excess, for a new vehicle. It is not this household’s Queensland used-car quote. A$1,400–3,200 bounds remain assumed; obtain actual quotes. The article’s narrative calls it petrol but the full results explicitly identify GX Hybrid; use the table’s scoped row.",
+      "confidence": "low",
+      "sourceIds": [
+        "budget-insurance-kluger-nrma-2026",
+        "budget-insurance-youi-toyota",
+        "budget-insurance-factors",
+        "audit-toyota-kluger-hybrid-insurance"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyreUpdates": [
+    {
+      "vehicleId": "kluger-gx-hev-awd",
+      "setCost": 1276,
+      "setLow": 1176,
+      "setHigh": 1900,
+      "lifeKm": 45000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 55000,
+      "confidence": "low",
+      "basis": "Toyota hybrid manuals specify 235/65R18 106V on 18×8 J wheels. JAX lists Continental UltraContact UX7 SUV A$319 each fitted/GST included, so four cost A$1,276 before temporary cashback; current displayed four-tyre discount is not assumed permanent. 45,000 km life and A$1,176–1,900 set bounds are assumptions. At 15,000 km/year the point allowance is A$425.33. Confirm placard, current fitted Queensland quote and alignment cost.",
+      "sourceIds": [
+        "budget-tyre-2356518",
+        "hy-deep-kluger-dealer",
+        "budget-tyre-life",
+        "audit-toyota-kluger-hybrid-manual21",
+        "audit-toyota-kluger-hybrid-manual23",
+        "audit-toyota-kluger-hybrid-tyres"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/65R18 106V",
+        "product": "Continental UltraContact UX7 SUV",
+        "unitPrice": 319,
+        "quantity": 4,
+        "sourceId": "budget-tyre-2356518",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "kluger-gx-hev-awd",
+      "point": 800,
+      "low": 400,
+      "high": 1600,
+      "confidence": "low",
+      "basis": "A$800/year savings allowance, assumed A$400–1,600 range, for grouped used large AWD hybrids with differing age and remaining cover. No public Australian AXUH78R fleet repair-spend or failure-frequency dataset was found. Recall remedies are free; battery replacement is a separate low-confidence stress case, and scheduled servicing/tyres/insured collision damage are excluded. Conditional battery/driveline cover can reduce owner-paid exposure. Exact fitted pack and major component prices remain quote-only; this is not an empirical expected repair bill.",
+      "sourceIds": [
+        "own-hy-toyota-warranty",
+        "own-hy-toyota-service-terms",
+        "audit-toyota-kluger-hybrid-battery-supplier",
+        "audit-toyota-kluger-hybrid-manual23",
+        "audit-toyota-kluger-hybrid-recliner",
+        "audit-toyota-kluger-hybrid-warranty-terms"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "kluger-gx-hev-awd",
+      "scope": "related",
+      "summary": "Strong named mixed-facing test in a related 2021 Grande; retain GX and rear-facing compatibility checks. No booster-buckle confirmation or approved extra tethered row-3 positions.",
+      "criteria": {
+        "arrangement": {
+          "rating": "workable",
+          "detail": "Grande test fitted Aspire More booster plus two Attain More seats in rear/forward modes. This supports the mixed-facing target but does not prove all seat models or each position; ANCAP could not correctly install one other convertible rear-facing with outboard ISOFIX. Three GX row-2 tethers are documented.",
+          "sourceIds": [
+            "audit-toyota-kluger-hybrid-fit",
+            "audit-toyota-kluger-hybrid-ancap",
+            "audit-toyota-kluger-hybrid-spec21"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No demonstrated independent fastening with three installed. Toyota warns some restraints interfere with adjacent belts. Check actual booster buckle reach.",
+          "sourceIds": [
+            "audit-toyota-kluger-hybrid-manual21",
+            "audit-toyota-kluger-hybrid-manual23"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "BabyDrive reports a 180 cm driver ahead of rear-facing Attain More while a 162 cm tester could also occupy row 3. Its named seat and related Grande scope matter; exact GX front-seat position still needs a trial.",
+          "sourceIds": [
+            "audit-toyota-kluger-hybrid-fit"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "Published third-row opening was child-sized, not adult-sized, after sliding the second-row seat. Manuals warn not to adjust seats once restraints are secured, so occupied-seat sliding is not an assumed approved access route. Three-across row-2 use avoids needing that route.",
+          "sourceIds": [
+            "audit-toyota-kluger-hybrid-fit",
+            "audit-toyota-kluger-hybrid-manual21",
+            "audit-toyota-kluger-hybrid-manual23"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Verified mixed-facing three-across evidence is stronger than a generic three-seat badge, but ANCAP compatibility and the manual’s occupied-seat adjustment warning add important limits. AAA supplies an exact GX observed fuel result. Current used prices and cost anchors remain; repair and aged-service averages are still honest estimates.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "verified",
+        "finding": "Used exact-GX Queensland sample remains A$39,990–49,990 drive-away, median A$48,490, n=3, 2021–22, 12,181–106,500 km. Current raw dealer HTML supersedes stale indexed figures. Separately, four new 2025–26 Ingham GX Hybrid VINs are A$64,990–67,250 DAP, median A$64,990; new-stock odometers are unstated. Neither cohort values every grouped year.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-kedron",
+          "audit-toyota-kluger-hybrid-booval",
+          "audit-toyota-kluger-hybrid-gympie",
+          "audit-toyota-kluger-hybrid-new-qld"
+        ],
+        "vehicleIds": [
+          "kluger-gx-hev-awd"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "verified",
+        "finding": "2.5L eFour AWD HEV; official 5.6 L/100 km remains distinct from exact 2023 GX AAA observed 5.8 on 95 RON. Manuals verify 288 V/6.5 Ah NiMH, calculated 1.872 kWh nominal; usable capacity unstated. No plug-in charging or electric-only rated range.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-spec21",
+          "audit-toyota-kluger-hybrid-spec26",
+          "audit-toyota-kluger-hybrid-manual21",
+          "audit-toyota-kluger-hybrid-manual23",
+          "audit-toyota-kluger-hybrid-aaa"
+        ],
+        "vehicleIds": [
+          "kluger-gx-hev-awd"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "conflict",
+        "finding": "Related Grande demonstrates named mixed-facing three-across and 180 cm front clearance. ANCAP found one rear-facing outboard ISOFIX incompatibility. No independent booster-buckle test. Row 3 has no anchors and ANCAP recommends no restraints there. BabyDrive’s occupied-seat sliding observation conflicts with manual warnings against adjustment after installation.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-fit",
+          "audit-toyota-kluger-hybrid-ancap",
+          "audit-toyota-kluger-hybrid-manual21",
+          "audit-toyota-kluger-hybrid-manual23",
+          "audit-toyota-kluger-hybrid-gx-test"
+        ],
+        "vehicleIds": [
+          "kluger-gx-hev-awd"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Original launch confirmed five-year unlimited-km private warranty with conditional seven-year engine/driveline cover. Current detailed terms allow annual HEV battery extension to ten years, exclude normal capacity degradation and commercial-use extensions. Balance transfers with vehicle; inspect the original booklet, health checks and delivery date.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-launch21",
+          "audit-toyota-kluger-hybrid-warranty",
+          "audit-toyota-kluger-hybrid-warranty-terms"
+        ],
+        "vehicleIds": [
+          "kluger-gx-hev-awd"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "Original A$250 eligible annual/15,000 km visits are historical. A$500/year, A$300–700 range, remains an aged-car planning estimate; no VIN-specific post-cap quotation was obtained. Scheduled parts/labour/fluids are included, wear and severe-use additions separate. Original detailed service-book URLs now require login or return unavailable, so plug/coolant/brake-fluid due dates need the car’s logbook.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-launch21",
+          "audit-toyota-kluger-hybrid-service-terms",
+          "audit-toyota-kluger-hybrid-manual23"
+        ],
+        "vehicleIds": [
+          "kluger-gx-hev-awd"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "Retain A$1,620/year from NRMA’s new GX Hybrid A$8,111/five-year NSW profile, not a Queensland household quote. A$1,400–3,200 sensitivity bounds are assumed; article table scope used despite loose petrol wording in narrative.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-insurance"
+        ],
+        "vehicleIds": [
+          "kluger-gx-hev-awd"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Correct GX 235/65R18 106V: verified fitted/GST-inclusive JAX Continental anchor A$319 each, A$1,276/set. At assumed 45,000 km life and 15,000 km/year that is A$425.33/year. Tyre life, Queensland availability, alignment and future prices are unverified.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-manual21",
+          "audit-toyota-kluger-hybrid-manual23",
+          "audit-toyota-kluger-hybrid-tyres"
+        ],
+        "vehicleIds": [
+          "kluger-gx-hev-awd"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "estimate",
+        "finding": "Retain A$800/year reserve as savings only; no empirical model-year repair average. AXUH78 pack supplier has no fitted public price, so A$4,500–9,000 replacement scenario remains a weak analogue. Seven relevant campaign topics were checked; latest recliner expansion covers selected production through June 2025 and remedies are free. Verify VIN completion and battery cooling/health records.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-battery-supplier",
+          "audit-toyota-kluger-hybrid-manual23",
+          "audit-toyota-kluger-hybrid-recliner",
+          "audit-toyota-kluger-hybrid-recliner-expansion",
+          "audit-toyota-kluger-hybrid-seat-frame",
+          "audit-toyota-kluger-hybrid-airbag",
+          "audit-toyota-kluger-hybrid-meter",
+          "audit-toyota-kluger-hybrid-front-seat",
+          "audit-toyota-kluger-hybrid-bumper",
+          "audit-toyota-kluger-hybrid-vsc",
+          "audit-toyota-kluger-hybrid-warranty-terms"
+        ],
+        "vehicleIds": [
+          "kluger-gx-hev-awd"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "verified",
+        "finding": "ProductReview exact AWD Hybrid page is still 3.0/5 from seven self-selected mixed-grade posts, including one incentive label. Grande wheel-cover/sunroof complaints must not become GX failure rates. The 2022 GX professional test praises refined hybrid driving and roomy seating but criticises dated multimedia; its verdict is Very Good, not a numerical rating.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-owners",
+          "audit-toyota-kluger-hybrid-gx-test"
+        ],
+        "vehicleIds": [
+          "kluger-gx-hev-awd"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "Braked towing 2,000 kg; cargo 552 L with row 3 folded or 241 L upright. ANCAP 2021 five-star result applies all XU7 variants from March 2021, with curtains covering three rows. Hybrid is four-cylinder QLD fee group: A$864.50–880.50/year including Class 1 CTP at October 2026 rates. Depreciation and repair probability remain estimates; trial seats, pram, parking and VIN service/recall history.",
+        "sourceIds": [
+          "audit-toyota-kluger-hybrid-spec21",
+          "audit-toyota-kluger-hybrid-spec26",
+          "audit-toyota-kluger-hybrid-ancap",
+          "audit-toyota-kluger-hybrid-qld-rego"
+        ],
+        "vehicleIds": [
+          "kluger-gx-hev-awd"
+        ]
+      }
+    ]
+  }
+}

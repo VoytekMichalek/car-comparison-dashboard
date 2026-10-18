@@ -1,0 +1,31 @@
+.family-fit-evidence { margin-block: 26px; padding-top: 22px; border-top: 1px solid var(--line); }
+.family-fit-evidence > h3 { margin-bottom: 10px; }
+.fit-criteria-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; margin-top: 18px; }
+.fit-criterion { min-width: 0; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: #f7f9f2; }
+.fit-criterion.unknown { background: #f6f5f0; }
+.fit-criterion.restricted { background: #fff6e0; }
+.fit-criterion > div, .research-audit-items section > div { display: flex; align-items: start; justify-content: space-between; gap: 14px; }
+.fit-criterion h4, .research-audit-items h4 { font-size: 15px; line-height: 1.55; margin: 0; }
+.fit-criterion > div > span { flex: none; color: #355d48; font-size: 15px; font-weight: 650; }
+.fit-criterion.unknown > div { flex-wrap: wrap; gap: 6px; }
+.fit-criterion.unknown > div > span { color: #777b70; font-size: 13px; }
+.fit-criterion p { font-size: 14px; line-height: 1.75; margin: 10px 0 0; overflow-wrap: anywhere; }
+.fit-criterion .micro { font-size: 12px; }
+.research-audit.panel { margin: 24px 0; min-width: 0; padding: 20px; }
+.research-audit > p { font-size: 14px; line-height: 1.8; }
+.research-audit-items section { padding-block: 18px; border-top: 1px solid var(--line); }
+.research-audit-items p { font-size: 14px; line-height: 1.8; margin: 10px 0 0; overflow-wrap: anywhere; }
+.audit-status { padding: 5px 8px; border-radius: 4px; font-size: 12px; line-height: 1.5; flex: none; background: #eaf1e5; color: #3d6040; }
+.audit-status.estimate, .audit-status.conflict { background: #fff2c8; color: #715318; }
+.audit-status.gap { background: #eeede7; color: #64675e; }
+.category-evidence-parts section { padding-block: 12px; border-top: 1px solid var(--line); }
+.category-evidence-parts small { display: block; font-size: 12px; color: #6f7f66; margin-top: 5px; }
+.category-evidence-parts p { line-height: 1.75; margin: 5px 0; }
+.comparison-table .compare-score-method p { font-size: 14px; line-height: 1.75; max-width: none; color: #52644b; }
+.comparison-table .category-evidence-parts p strong { font-size: 14px; }
+:root .comparison-table .compare-score-method > summary { font-size: 12px; }
+.price-sample-context { display: block; font-size: 11px; line-height: 1.7; margin-top: 4px; color: #66795c; }
+@media (max-width:620px) {
+  .fit-criteria-grid { grid-template-columns: minmax(0,1fr); }
+  .research-audit-items section > div { flex-wrap: wrap; gap: 8px; }
+}

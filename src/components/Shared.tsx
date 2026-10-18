@@ -25,7 +25,12 @@ export function FitBadge({ vehicle, confirmed = false }: { vehicle: Vehicle; con
 export function Price({ price, compact = false }: { price?: PriceSnapshot; compact?: boolean }) {
   if (!price || price.low === null) return <><span className="price unknown-price">Price to verify</span><span className="price-caption">Research gap · no verified asking sample</span></>;
   const estimated = price.kind === 'estimate' || price.confidence === 'low' || price.basis === 'unverified' || price.basis === 'mixed';
-  return <><span className={`price ${estimated ? 'estimated-value' : ''}`} title={price.estimateBasis ?? price.note}>{money(price.low, compact)}{price.high !== null && price.high !== price.low ? <span className="price-high">–{money(price.high, compact)}</span> : null}</span><span className="price-caption">{estimated ? 'Estimate' : price.condition === 'used' ? 'Used asking' : 'New asking'} · {price.basis === 'drive-away' ? 'drive-away' : price.basis === 'excludes-charges' ? 'excl. charges' : 'fee basis varies'}{price.sampleCount > 0 ? ` · n=${price.sampleCount}` : ''}</span></>;
+  const observations = price.observations ?? [];
+  const years = observations.map(o => o.year).filter((year): year is number => year !== null);
+  const lowYear = Math.min(...years), highYear = Math.max(...years);
+  const missingYears = observations.length - years.length;
+  const yearContext = years.length ? `${lowYear === highYear ? String(lowYear) : `${lowYear}–${String(highYear).slice(2)}`}${missingYears ? `; ${missingYears} year unverified` : ''}` : observations.length ? 'Year unverified' : null;
+  return <><span className={`price ${estimated ? 'estimated-value' : ''}`} title={price.estimateBasis ?? price.note}>{money(price.low, compact)}{price.high !== null && price.high !== price.low ? <span className="price-high">–{money(price.high, compact)}</span> : null}</span><span className="price-caption">{estimated ? 'Estimate' : price.condition === 'used' ? 'Used asking' : 'New asking'} · {price.basis === 'drive-away' ? 'drive-away' : price.basis === 'excludes-charges' ? 'excl. charges' : 'fee basis varies'}{price.sampleCount > 0 ? ` · n=${price.sampleCount}` : ''}{yearContext && <span className="price-sample-context">Priced cars: {yearContext}</span>}</span></>;
 }
 export function VehicleCard({ vehicle: v, options, price, favourite, compared, confirmed, score, detailHref, scoreHref, onScore, onVariant, onDetail, onFavourite, onCompare }: {
   vehicle: Vehicle; options: Vehicle[]; price?: PriceSnapshot; favourite: boolean; compared: boolean; confirmed: boolean;

@@ -1,0 +1,1118 @@
+{
+  "familyId": "hyundai-ioniq-5",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-hyundai-ioniq-5-my22-spec",
+      "title": "Australian July 2022 Ioniq 5 specifications",
+      "url": "https://www.hyundai.com/content/dam/hyundai/au/en/models/ioniq5/images/IONIQ5_Spec-Table_July_2022.pdf",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-my23-spec",
+      "title": "Australian MY23 Dynamiq / Techniq specification guide",
+      "url": "https://www.hyundai.com/content/dam/hyundai/au/en/ecomm/ioniq5v3/IONIQ5_Specification_Guide_version3.pdf",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-my26-spec",
+      "title": "Australian MY26 Ioniq 5 84-kWh specifications, dated November 2025",
+      "url": "https://www.hyundai.com/content/dam/hyundai/au/en/models/ioniq5/docs/2026-IONIQ-5-Specification-Sheet.pdf",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-my23-release",
+      "title": "Australian MY23 release: larger battery without loss of cabin space",
+      "url": "https://www.hyundai.com/au/en/news/electrified/2023-ioniq-5-more-power-increased-range-for-flagship-ev",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-babydrive",
+      "title": "BabyDrive 2022 AWD practical restraint and family test",
+      "url": "https://babydrive.com.au/reviews/electric-cars/2022-hyundai-ioniq-5-ev/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-ancap-report",
+      "title": "ANCAP Ioniq 5 report: individually tested restraints and variant applicability",
+      "url": "https://cdn.ancap.com.au/app/public/assets/58e5822855174c125b22e2947d8b099770480648/original.pdf?1695096088=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-ancap-current",
+      "title": "Current ANCAP Ioniq 5 applicability and December 2027 expiry",
+      "url": "https://www.ancap.com.au/safety-ratings/hyundai/ioniq-5/9de91a",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-original-passport",
+      "title": "Original Australian Ioniq 5 service / warranty passport",
+      "url": "https://www.hyundai.com/content/dam/hyundai/au/en/models/ioniq5/images/ecommerce/IONIQ5_Service_Warranty_Passport.pdf",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-warranty",
+      "title": "Hyundai Australia current warranty and transfer conditions",
+      "url": "https://www.hyundai.com/au/en/owning/myhyundaicare/warranty.html",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-warranty-terms",
+      "title": "Hyundai Australian warranty terms, September 2025",
+      "url": "https://www.hyundai.com/content/dam/hyundai/au/en/documents/2025/2025-Warranty-Terms-and-Conditions.pdf",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-my23-manual",
+      "title": "Australian MY23 owner manual p9-8: distinct coolant, brake fluid and 12V intervals",
+      "url": "https://www.hyundai.com/content/dam/hyundai/au/en/owning/manuals/vehicle-manuals/ioniq-5/2023/IONIQ%205%202023%20Owner%20Manual.pdf",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-prepaid",
+      "title": "Hyundai Australian prepaid service limits and transfer",
+      "url": "https://www.hyundai.com/au/en/owning/servicing/pre-paid",
+      "publisher": "Hyundai Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-carexpert-my23",
+      "title": "CarExpert MY23 Techniq test and historical service prices",
+      "url": "https://www.carexpert.com.au/car-reviews/2023-hyundai-ioniq-5-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-carexpert-my26-service",
+      "title": "CarExpert 2026 review: Australian 16-year scheduled servicing table",
+      "url": "https://origin.carexpert.com.au/car-reviews/2026-hyundai-ioniq-5-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-youi",
+      "title": "Youi Australian Ioniq 5 premiums: own policies, November 2025–May 2026",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/hyundai",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-tyres-19",
+      "title": "JAX 235/55R19 fitted prices and inclusions",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/19-inch/235-55r19",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-tyres-20",
+      "title": "JAX 255/45R20 fitted prices and inclusions",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/20-inch/255-45r20",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-iccu-recall",
+      "title": "REC-006224: superseding Ioniq 5 / 6 ICCU software recall",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006224",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-park-recall",
+      "title": "REC-005448: selected 2021–2022 Ioniq 5 parking-pawl software",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005448",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-driveshaft-recall",
+      "title": "REC-005940: selected 2023 Ioniq 5 / 6 driveshaft replacement",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005940",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-my22-ask",
+      "title": "MY22 Techniq AWD 33,657-km NSW asking price, excluding government charges",
+      "url": "https://www.carsales.com.au/cars/details/2022-hyundai-ioniq-5-techniq-auto-awd-my22/OAG-AD-26391063/",
+      "publisher": "Carsales / dealer advertisement",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-my23-rwd-ask",
+      "title": "MY23 Dynamiq 77.4-kWh NSW private asking price",
+      "url": "https://www.carsales.com.au/cars/details/2022-hyundai-ioniq-5-dynamiq-auto-2wd-my23/SSE-AD-20746442/",
+      "publisher": "Carsales / private advertisement",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-my23-awd-ask",
+      "title": "MY23 Techniq stock 234362, VIN ending 215236, dealer asking price",
+      "url": "https://www.geelybelconnen.com.au/cars/used-blue-2023-hyundai-ioniq-5-234362",
+      "publisher": "Geely Belconnen / Canberra Fleet & Wholesale Centre",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-84-sunco-ask",
+      "title": "Sunco new 84-kWh RWD stock H25454: 2026 build / MY27 label",
+      "url": "https://suncohyundai.com.au/h25454-1876540-hyundai-ioniq5-2026/",
+      "publisher": "Sunco Hyundai",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-84-townsville-ask",
+      "title": "Townsville new 2026 84-kWh RWD stock 544536 asking price",
+      "url": "https://www.autotrader.com.au/car/15216057/hyundai/ioniq-5/qld/townsville/suv",
+      "publisher": "Autotrader / Pickerings Hyundai",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-owner-reviews",
+      "title": "ProductReview Ioniq 5: 3.8/5 from eight mixed-contributor reviews",
+      "url": "https://www.productreview.com.au/listings/hyundai-ioniq-5",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-techniq-roadtest",
+      "title": "Carsales Australian MY23 Techniq AWD road test: 85/100",
+      "url": "https://www.carsales.com.au/editorial/details/hyundai-ioniq-5-techniq-2023-review-141927/",
+      "publisher": "Carsales",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-dynamiq-family-review",
+      "title": "CarsGuide MY23 Dynamiq RWD family review: 7.5/10",
+      "url": "https://www.carsguide.com.au/family/hyundai-ioniq-5-dynamiq-2wd-89991",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-84-rwd-review",
+      "title": "EV Central base 84-kWh RWD Australian review: 4/5",
+      "url": "https://evcentral.com.au/2025-hyundai-ioniq-5-base-review-can-this-entry-level-ev-variant-keep-the-cheaper-byd-sealion-7-and-tesla-model-y-at-bay/",
+      "publisher": "EV Central",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-redriven-used",
+      "title": "ReDriven August 2026 used Ioniq 5 review and inspection observations",
+      "url": "https://redriven.com/reviews/hyundai/ioniq-5/used-hyundai-ioniq-5-review/",
+      "publisher": "ReDriven",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-qld-registration",
+      "title": "Queensland private electric-car registration and Class 1 CTP, October 2026",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-hyundai-ioniq-5-facing-photo",
+      "title": "Original Ioniq 5 AWD: one rear-facing plus two forward-facing photo",
+      "url": "https://babydrive.com.au/wp-content/uploads/2021/11/EV_2021_HYUNDAI_IONIQ_5_SUV_AWD_10-1024x768.jpg",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "ioniq5-awd-2021",
+      "familyFit": {
+        "status": "tested-three",
+        "summary": "BabyDrive’s 2022 AWD test fitted named three-restraint combinations; your exact three-forward-facing/booster arrangement is still pending.",
+        "row2": "Two outer ISOFIX and three rear-backrest top tethers.",
+        "row3": "No third row on this five-seat configuration.",
+        "testedSeats": "BabyDrive 2022 AWD: two InfaSecure Attain More seats plus an InfaSecure Achieve More in the centre. Forward/rear-facing combinations are reported; the article does not document every three-seat orientation or a three-booster trial.",
+        "buckleAccess": "Try the exact boosters and buckles. ANCAP’s selected Type E (4–8 years) booster failed centre installation while the selected Type F (4–10 years) passed; this is specific to those tested restraints.",
+        "access": "BabyDrive found child loading easy through the broad door openings, with room to work inside. Sliding the bench changes remaining luggage space.",
+        "ventilation": "Rear pillar air vents in the independently tested AWD.",
+        "sourceIds": [
+          "ev-ioniq-family",
+          "audit-hyundai-ioniq-5-babydrive",
+          "audit-hyundai-ioniq-5-ancap-report",
+          "audit-hyundai-ioniq-5-my22-spec"
+        ]
+      },
+      "servicing": "Original Australian Service Passport confirms 12 months / 15,000 km, whichever first. Obtain current VIN-specific pricing and coolant invoices; the MY23 two-year schedule does not apply retrospectively.",
+      "checked": "2026-10-18",
+      "sourceIds": [
+        "ev-ioniq-old-spec",
+        "ev-ioniq-old-release",
+        "ev-ioniq-family",
+        "ev-ioniq-ancap",
+        "ev-ioniq-recall",
+        "ev-ioniq-launch-spec",
+        "ev-ioniq-old-market",
+        "ev-ioniq-old-market-basis",
+        "own-ev-hyundai-recall",
+        "audit-hyundai-ioniq-5-my22-spec",
+        "audit-hyundai-ioniq-5-ancap-current",
+        "audit-hyundai-ioniq-5-original-passport",
+        "audit-hyundai-ioniq-5-warranty",
+        "audit-hyundai-ioniq-5-redriven-used"
+      ],
+      "inspection": [
+        "Trial all three restraints together and check every buckle with the children seated.",
+        "Confirm VIN, build date, service history, recall completion and remaining warranty.",
+        "Check VIN eligibility and completion of current Australian ICCU recall REC-006224, which supersedes REC-005942, and any later campaigns.",
+        "Test AC/DC charging and inspect auxiliary-battery and scheduled-coolant records.",
+        "Load-test the 12V battery, check underbody / battery enclosure damage, test both AC and DC charging, and listen for tailgate rattles. Obtain invoices and diagnostic records rather than treating owner anecdotes as failure rates."
+      ]
+    },
+    {
+      "id": "ioniq5-dynamiq-rwd-2023",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "BabyDrive fitted three InfaSecure seats across the 2022 Ioniq 5 AWD. Hyundai says the MY23 battery update preserves cabin space and practicality, with the same published rear hip room and anchor layout. This is strong related-model evidence; the MY23 configuration and your exact seats still need an installation check.",
+        "row2": "Two outboard ISOFIX positions and three rear top-tether anchors, per MY23 specification guide.",
+        "row3": "No third row on this five-seat configuration.",
+        "testedSeats": "Related 2022 AWD test: two InfaSecure Attain More seats plus an InfaSecure Achieve More in the centre. BabyDrive reports forward/rear-facing combinations; it does not map every possible position or establish a three-booster arrangement.",
+        "buckleAccess": "No verified three-booster buckle-access trial. ANCAP’s selected Type E (4–8 years) booster failed centre installation; its selected Type F (4–10 years) booster passed. Check the exact boosters, belt paths and buckles together.",
+        "access": "The related AWD test has easy door access. In CarsGuide’s exact MY23 Dynamiq, a six-year-old entered easily but struggled to latch the rear door. Dynamiq bench sliding is manual; Techniq is powered.",
+        "ventilation": "Manufacturer lists rear B-pillar vents and rear floor ducts.",
+        "sourceIds": [
+          "ev-ioniq-2023-spec",
+          "ev-ioniq-family",
+          "ev-ioniq-2023-release",
+          "ev-ioniq-old-spec",
+          "ev-ioniq-ancap",
+          "audit-hyundai-ioniq-5-dynamiq-family-review",
+          "audit-hyundai-ioniq-5-my23-spec",
+          "audit-hyundai-ioniq-5-babydrive",
+          "audit-hyundai-ioniq-5-ancap-report"
+        ]
+      },
+      "servicing": "MY23 normal schedule: 24 months / 30,000 km. The Australian owner manual separately requires low-conductivity coolant replacement every 36 months / 60,000 km and 12V battery inspection every 12 months / 15,000 km, whichever comes first. Historical A$570 / A$1,090 / A$570 service prices are not a current all-inclusive quote; ask which fluid work is included.",
+      "checked": "2026-10-18",
+      "sourceIds": [
+        "ev-ioniq-2023-spec",
+        "ev-ioniq-2023-release",
+        "ev-ioniq-ancap",
+        "ev-ioniq-family",
+        "own-ev-hyundai-recall",
+        "own-ev-hyundai-terms",
+        "ev-ioniq-2023-roadtest",
+        "own-ev-refresh-ioniq-my23-manual",
+        "ev-refresh-dynamiq-private-20746442",
+        "audit-hyundai-ioniq-5-my23-spec",
+        "audit-hyundai-ioniq-5-ancap-current",
+        "audit-hyundai-ioniq-5-warranty-terms",
+        "audit-hyundai-ioniq-5-my23-manual",
+        "audit-hyundai-ioniq-5-redriven-used"
+      ],
+      "inspection": [
+        "Trial all three restraints together and check every buckle with the children seated.",
+        "Confirm VIN, build date, service history, recall completion and remaining warranty.",
+        "Check VIN eligibility and completion of current Australian ICCU recall REC-006224, which supersedes REC-005942, and any later campaigns.",
+        "Test AC/DC charging and inspect auxiliary-battery and scheduled-coolant records.",
+        "Confirm MY23 NE.V3 and 77.4 kWh on the build / specification record; registration year alone is insufficient.",
+        "Check the tyre placard: 235/55R19 on standard Dynamiq wheels.",
+        "Check dated low-conductivity coolant invoices against the separate 36-month / 60,000-km interval; a two-year general-service stamp alone does not establish this work was completed.",
+        "Load-test the 12V battery, check underbody / battery enclosure damage, test both AC and DC charging, and listen for tailgate rattles. Obtain invoices and diagnostic records rather than treating owner anecdotes as failure rates."
+      ]
+    },
+    {
+      "id": "ioniq5-techniq-awd-2023",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "BabyDrive fitted three InfaSecure seats across the 2022 Ioniq 5 AWD. Hyundai says the MY23 battery update preserves cabin space and practicality, with the same published rear hip room and anchor layout. This is strong related-model evidence; the MY23 configuration and your exact seats still need an installation check.",
+        "row2": "Two outboard ISOFIX positions and three rear top-tether anchors, per MY23 specification guide.",
+        "row3": "No third row on this five-seat configuration.",
+        "testedSeats": "Related 2022 AWD test: two InfaSecure Attain More seats plus an InfaSecure Achieve More in the centre. BabyDrive reports forward/rear-facing combinations; it does not map every possible position or establish a three-booster arrangement.",
+        "buckleAccess": "No verified three-booster buckle-access trial. ANCAP’s selected Type E (4–8 years) booster failed centre installation; its selected Type F (4–10 years) booster passed. Check the exact boosters, belt paths and buckles together.",
+        "access": "The related AWD test has easy door access. In CarsGuide’s exact MY23 Dynamiq, a six-year-old entered easily but struggled to latch the rear door. Dynamiq bench sliding is manual; Techniq is powered.",
+        "ventilation": "Manufacturer lists rear B-pillar vents and rear floor ducts.",
+        "sourceIds": [
+          "ev-ioniq-2023-spec",
+          "ev-ioniq-family",
+          "ev-ioniq-2023-release",
+          "ev-ioniq-old-spec",
+          "ev-ioniq-ancap",
+          "audit-hyundai-ioniq-5-dynamiq-family-review",
+          "audit-hyundai-ioniq-5-my23-spec",
+          "audit-hyundai-ioniq-5-babydrive",
+          "audit-hyundai-ioniq-5-ancap-report"
+        ]
+      },
+      "servicing": "MY23 normal schedule: 24 months / 30,000 km. The Australian owner manual separately requires low-conductivity coolant replacement every 36 months / 60,000 km and 12V battery inspection every 12 months / 15,000 km, whichever comes first. Historical A$570 / A$1,090 / A$570 service prices are not a current all-inclusive quote; ask which fluid work is included.",
+      "checked": "2026-10-18",
+      "sourceIds": [
+        "ev-ioniq-2023-spec",
+        "ev-ioniq-2023-release",
+        "ev-ioniq-ancap",
+        "ev-ioniq-family",
+        "own-ev-hyundai-recall",
+        "own-ev-hyundai-terms",
+        "ev-ioniq-2023-roadtest",
+        "ev-ioniq-2023-awd-listing",
+        "own-ev-refresh-ioniq-my23-manual",
+        "audit-hyundai-ioniq-5-my23-spec",
+        "audit-hyundai-ioniq-5-ancap-current",
+        "audit-hyundai-ioniq-5-warranty-terms",
+        "audit-hyundai-ioniq-5-my23-manual",
+        "audit-hyundai-ioniq-5-redriven-used"
+      ],
+      "inspection": [
+        "Trial all three restraints together and check every buckle with the children seated.",
+        "Confirm VIN, build date, service history, recall completion and remaining warranty.",
+        "Check VIN eligibility and completion of current Australian ICCU recall REC-006224, which supersedes REC-005942, and any later campaigns.",
+        "Test AC/DC charging and inspect auxiliary-battery and scheduled-coolant records.",
+        "Confirm MY23 NE.V3 and 77.4 kWh on the build / specification record; registration year alone is insufficient.",
+        "Check the tyre placard: 255/45R20 on standard Techniq wheels.",
+        "Check dated low-conductivity coolant invoices against the separate 36-month / 60,000-km interval; a two-year general-service stamp alone does not establish this work was completed.",
+        "Load-test the 12V battery, check underbody / battery enclosure damage, test both AC and DC charging, and listen for tailgate rattles. Obtain invoices and diagnostic records rather than treating owner anecdotes as failure rates."
+      ]
+    },
+    {
+      "id": "ioniq5-rwd-84-2025",
+      "familyFit": {
+        "status": "unverified",
+        "summary": "The earlier 2022 Ioniq 5 AWD fitted three named InfaSecure seats in BabyDrive’s test. The refreshed 84-kWh car retains published rear dimensions and three top tethers, but that source did not test the revised seats. Exact refreshed-model fit remains unverified.",
+        "row2": "Australian MY26 specification: two outer rear ISOFIX positions and three rear top-tether anchors. This establishes anchors, not simultaneous restraint fit.",
+        "row3": "No third row on this five-seat configuration.",
+        "testedSeats": "Earlier-generation context only: two InfaSecure Attain More plus an Achieve More in the centre. No direct BabyDrive three-across test of this refreshed 84-kWh configuration verified.",
+        "buckleAccess": "Test your three boosters/harnessed seats and every buckle.",
+        "access": "An Australian base 84-kWh review finds the rear cabin spacious, with a flat floor. It does not test loading three children or simultaneous restraints.",
+        "ventilation": "Australian MY26 specification lists rear B-pillar and floor cooling/heating outlets; check airflow with all restraints.",
+        "sourceIds": [
+          "ev-ioniq-family",
+          "ev-ioniq-new-spec",
+          "audit-hyundai-ioniq-5-my26-spec",
+          "audit-hyundai-ioniq-5-84-rwd-review"
+        ]
+      },
+      "servicing": "MY26 schedule reported at 24 months / 30,000 km. Published first five visits total A$4,025 over ten years, including A$1,313 at year ten; use a current VIN quote, not the early-model low-conductivity coolant schedule.",
+      "checked": "2026-10-18",
+      "sourceIds": [
+        "ev-ioniq-new-spec",
+        "ev-hyundai-warranty",
+        "ev-ioniq-family",
+        "ev-ioniq-new-market",
+        "own-ev-hyundai-recall",
+        "ev-deep-ioniq-ancap-current",
+        "ev-deep-adr-energy-boundary",
+        "audit-hyundai-ioniq-5-my26-spec",
+        "audit-hyundai-ioniq-5-ancap-current",
+        "audit-hyundai-ioniq-5-warranty-terms",
+        "audit-hyundai-ioniq-5-warranty",
+        "audit-hyundai-ioniq-5-redriven-used",
+        "audit-hyundai-ioniq-5-carexpert-my26-service"
+      ],
+      "batteryWarranty": "8 years / 160,000 km, whichever first, from first registration. Current Australian terms cover SOH below 70% subject to checks, maintenance and operating conditions; confirm the delivered vehicle’s terms."
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "ev-price-ioniq-old",
+      "vehicleId": "ioniq5-awd-2021",
+      "low": 44990,
+      "high": 44990,
+      "condition": "used",
+      "basis": "excludes-charges",
+      "sampleCount": 1,
+      "geography": "One NSW dealer advertisement; no currently priced Queensland exact-configuration car verified",
+      "kilometres": "33,657 km",
+      "observed": "2026-10-18",
+      "note": "Re-read individual Carsales ad 18 October 2026: A$44,990 explicitly excludes government charges. Earlier drive-away classification was incorrect. July 2022 build, MY22 NE.V2, 225 kW / 72.6 kWh; 33,657 km. No sold flag found. Kedron ad has no retrievable current price in its body, so its old indexed ask is excluded. n=1 is weak coverage, not a valuation.",
+      "sourceIds": [
+        "audit-hyundai-ioniq-5-my22-ask"
+      ],
+      "confidence": "low",
+      "estimateBasis": "Median of the included advertised amounts. The displayed low/high are only the included observations, not an estimated market range.",
+      "observations": [
+        {
+          "price": 44990,
+          "basis": "excludes-charges",
+          "year": 2022,
+          "kilometres": 33657,
+          "location": "Dealer used, NSW",
+          "url": "https://www.carsales.com.au/cars/details/2022-hyundai-ioniq-5-techniq-auto-awd-my22/OAG-AD-26391063/",
+          "sourceId": "audit-hyundai-ioniq-5-my22-ask",
+          "checked": "2026-10-18",
+          "note": "Stock HY00163; MY22 NE.V2, July 2022 build, 72.6 kWh / 225 kW. Page explicitly A$44,990 Excl. Govt. Charges. Queensland duty, transport and registration treatment are extra; no sold flag found."
+        }
+      ],
+      "point": 44990,
+      "kind": "observation"
+    },
+    {
+      "id": "ev-price-ioniq-new",
+      "vehicleId": "ioniq5-rwd-84-2025",
+      "low": 69990,
+      "high": 70990,
+      "condition": "new",
+      "basis": "drive-away",
+      "sampleCount": 2,
+      "geography": "Sunco Hyundai, Maroochydore, Queensland; Pickerings Hyundai, Townsville, Queensland",
+      "kilometres": "10–25 km; two Queensland new-stock cars",
+      "observed": "2026-10-18",
+      "note": "Two Queensland new-stock 2026-build RWD 84-kWh cars. Both Sunco and Townsville now identify NE.V7 MY27; battery, power, wheels and published range match the grouped 84-kWh benchmark, but MY27 equipment must be checked against the advertised VIN. Townsville individual ask A$70,990 supersedes older indexed A$69,990. Expired manufacturer campaigns are excluded. Small asking sample, not a valuation; confirm stock and final on-road inclusions.",
+      "sourceIds": [
+        "audit-hyundai-ioniq-5-84-sunco-ask",
+        "audit-hyundai-ioniq-5-84-townsville-ask"
+      ],
+      "confidence": "medium",
+      "estimateBasis": "Median of the included advertised amounts. The displayed low/high are only the included observations, not an estimated market range.",
+      "observations": [
+        {
+          "price": 69990,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 10,
+          "location": "Sunco Hyundai, Maroochydore, Queensland",
+          "url": "https://suncohyundai.com.au/h25454-1876540-hyundai-ioniq5-2026/",
+          "sourceId": "audit-hyundai-ioniq-5-84-sunco-ask",
+          "checked": "2026-10-18",
+          "note": "New stock H25454, VIN ending 417442, 10 km. Advertised 2026 build with MY27 label; 19-inch, 84 kWh / 168 kW / 570 km matches this grouped reference. Independent dealer ask; confirm final MY27 equipment and stock availability."
+        },
+        {
+          "price": 70990,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 25,
+          "location": "Pickerings Hyundai, Townsville QLD",
+          "url": "https://www.autotrader.com.au/car/15216057/hyundai/ioniq-5/qld/townsville/suv",
+          "sourceId": "audit-hyundai-ioniq-5-84-townsville-ask",
+          "checked": "2026-10-18",
+          "note": "New stock 544536, VIN ending 417672, 25 km. Current page identifies 2026 build / NE.V7 MY27 base RWD 84 kWh on 19-inch wheels, A$70,990 drive-away. Core specification matches this benchmark; confirm MY27 equipment."
+        }
+      ],
+      "point": 70490,
+      "kind": "observation"
+    },
+    {
+      "id": "ev-price-ioniq-2023-rwd",
+      "vehicleId": "ioniq5-dynamiq-rwd-2023",
+      "low": 41900,
+      "high": 41900,
+      "point": 41900,
+      "kind": "observation",
+      "confidence": "low",
+      "condition": "used",
+      "basis": "excludes-charges",
+      "sampleCount": 1,
+      "geography": "One NSW private seller; no current Queensland exact-MY23 sample verified",
+      "kilometres": "42,904 km",
+      "observed": "2026-10-18",
+      "note": "One exact MY23 77.4 kWh / 168 kW RWD private asking example replaces the zero-sample valuation proxy. November 2022 build and MY23 designation are explicit. Opened 18 October 2026 with A$41,900 excluding government charges and no sold/deposit/deadline wording; crawl metadata is about a month old and current seller availability has not been independently confirmed. Not a Queensland landed price, completed sale or model-wide valuation.",
+      "sourceIds": [
+        "audit-hyundai-ioniq-5-my23-rwd-ask"
+      ],
+      "observations": [
+        {
+          "price": 41900,
+          "basis": "excludes-charges",
+          "year": 2022,
+          "kilometres": 42904,
+          "location": "NSW, private seller",
+          "url": "https://www.carsales.com.au/cars/details/2022-hyundai-ioniq-5-dynamiq-auto-2wd-my23/SSE-AD-20746442/",
+          "sourceId": "audit-hyundai-ioniq-5-my23-rwd-ask",
+          "checked": "2026-10-18",
+          "note": "November 2022 build; NE.V3 MY23 Dynamiq 168 kW RWD, 77.4 kWh / 507 km. Advertised A$41,900 excluding government charges. VIN not displayed; no sold/deposit/deadline text in opened advert. Cached listing metadata is about a month old, so confirm availability before travel. New tyres/roof racks are seller claims, not priced separately."
+        }
+      ]
+    },
+    {
+      "id": "ev-price-ioniq-2023-awd",
+      "vehicleId": "ioniq5-techniq-awd-2023",
+      "low": 46950,
+      "high": 46950,
+      "point": 46950,
+      "kind": "observation",
+      "confidence": "low",
+      "condition": "used",
+      "basis": "excludes-charges",
+      "sampleCount": 1,
+      "geography": "Canberra Fleet and Wholesale Centre / Geely Belconnen, ACT",
+      "kilometres": "47,982 km; one 2023-build / 2023-compliance car",
+      "observed": "2026-10-18",
+      "note": "One MY23 Techniq AWD dealer advertisement, stock 234362, A$46,950 excluding government charges. Listed build and compliance years are 2023. Mirrored dealer advertisements for the same stock are not counted again. This is a small interstate asking sample, not a market valuation; confirm availability, QLD charges and transport.",
+      "estimateBasis": "One exact-configuration advertisement. The single point is provisional and highlighted yellow because n=1 gives weak market coverage.",
+      "sourceIds": [
+        "audit-hyundai-ioniq-5-my23-awd-ask"
+      ],
+      "observations": [
+        {
+          "price": 46950,
+          "basis": "excludes-charges",
+          "year": 2023,
+          "kilometres": 47982,
+          "location": "Belconnen, ACT",
+          "url": "https://www.geelybelconnen.com.au/cars/used-blue-2023-hyundai-ioniq-5-234362",
+          "sourceId": "audit-hyundai-ioniq-5-my23-awd-ask",
+          "checked": "2026-10-18",
+          "note": "Live dealer HTML re-read: stock 234362, VIN KMHKR81FRPU215236, 2023 build / compliance, 47,982 km, A$46,950 EGC. Mirrored group sites are one physical car."
+        }
+      ]
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "hyundai-ioniq-5",
+      "serviceInterval": "MY22-and-earlier: confirm original passport’s 12 months / 15,000 km schedule. MY23 Dynamiq/Techniq maker release and current Genuine Service Plan terms distinguish MY23-and-later EVs at 24 months / 30,000 km. Whichever comes first; severe-use and coolant work can differ. Australian MY23 owner manual p9-8 separately lists low-conductivity coolant replacement at 36 months / 60,000 km and 12V battery inspection at 12 months / 15,000 km, whichever comes first; these do not inherit the two-year general-service interval.",
+      "serviceAnnual": 400,
+      "serviceBasis": "ESTIMATE: A$400/year midpoint (A$250–550), across differing early/later schedules. A current Australian road test reports A$667/689 two-year dealer visits (about A$339/year over eight years); independent 48-month booking examples are lower and may cover a different scope. Allow age/coolant uncertainty. Obtain the VIN schedule; dealer servicing is required for the newer 7-year extension. Excludes tyres and fault repairs. Hyundai prepaid terms limit new-car plans to the first five services for MY22-and-earlier EVs or first two for MY23-and-later EVs; a remaining plan transfers with the car. A plan is not a guaranteed lifelong tariff. MY23 coolant can fall between ordinary service visits: have the dealer identify prepaid/capped-price inclusions and off-cycle work. No fresh Australian model-specific coolant tariff was verified, so historical visit prices are not represented as a guaranteed all-inclusive maintenance total.",
+      "warrantyCautions": [
+        "Older cars originally have 5-year unlimited-kilometre private-use cover. The 7-year offer is for eligible first registrations from 1 June 2025 and requires on-time authorised-dealer servicing for the extension.",
+        "Remaining vehicle cover transfers, but prior commercial use and service history can change eligibility. Confirm the original passport.",
+        "HV battery cover is 8 years / 160,000 km. Current terms specify a 70% state-of-health threshold and usage / maintenance conditions; confirm applicable original terms. The 12V battery has 2 years / 40,000 km.",
+        "Australian manufacturer statements reported by Drive in May 2026 describe 15-year/300,000-km ICCU cover from first registration for Ioniq 5 built 2 April 2021–14 February 2024. This is reported component cover, not a verified VIN-specific contract; obtain written eligibility and exclusions from the Australian dealer."
+      ],
+      "risks": [
+        {
+          "title": "Superseding ICCU software recall",
+          "detail": "REC-006224 covers selected 2021–2024 Ioniq 5 / 6 VINs and replaces REC-005942. Confirm the later campaign is complete; the notice specifies a software update.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "Applicable official recall update is free. The separate paid ICCU scenario below applies only if recall, warranty, extended cover and other remedies do not cover the fault.",
+          "warranty": "Australian manufacturer statements reported by Drive in May 2026 describe 15-year/300,000-km ICCU cover from first registration for Ioniq 5 built 2 April 2021–14 February 2024. This is reported component cover, not a verified VIN-specific contract; obtain written eligibility and exclusions from the Australian dealer. Recall rectification remains free for affected VINs; use a paid stress case only when every applicable remedy is unavailable.",
+          "sourceIds": [
+            "own-ev-hyundai-recall",
+            "repair-iccu-au-extension"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "Full traction-battery replacement — stress case",
+          "detail": "Budget for a complete pack only if diagnosis supports replacement. A module, control-system or drive-unit-only repair can be substantially cheaper; this range does not predict failure.",
+          "low": 10000,
+          "high": 35000,
+          "priceBasis": "ESTIMATE: model-specific Australian quote unavailable; based on the Insurance Council’s 2024 A$7,500–30,000 benchmark (itself converted from US research, not Australian installed invoices) and a broker’s A$10,000–30,000+ general guide, adjusted for the family’s 72.6–84 kWh packs; upper end includes a larger-pack allowance. Full replacement planning total assumes parts, labour and GST; not a hard ceiling or a priced repair offer.",
+          "warranty": "Current policy conditions and 70% threshold apply only as specified in the relevant warranty.",
+          "sourceIds": [
+            "own-ev-hyundai-terms",
+            "own-ev-est-battery-ica",
+            "own-ev-est-battery-broker"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Windscreen replacement and calibration example",
+          "detail": "A glass-only cash repair is separate from manufacturing warranty. The owner’s insurance excess may be lower; this estimate is the repair bill, not an insurance excess or full collision budget.",
+          "low": 900,
+          "high": 2200,
+          "priceBasis": "ESTIMATE: Ioniq-5-specific quote unavailable; Gold Coast specialist guidance is A$850–1,500 for ADAS/HUD glass. Widened for genuine/acoustic glass and calibration scope. Assumes installed glass, calibration and GST; confirm supplier inclusions and insurance treatment.",
+          "warranty": "Accident-related costs depend on insurance cover; ordinary manufacturing warranty is not accident insurance.",
+          "sourceIds": [
+            "own-ev-hyundai-terms",
+            "own-ev-est-glass"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "ICCU hardware replacement if all cover is unavailable",
+          "detail": "Conditional paid stress case only: first confirm recall, original warranty, any ICCU extension and other remedies. This is not added as a routine annual cost and implies no failure probability.",
+          "low": 3000,
+          "high": 7000,
+          "confidence": "low",
+          "priceBasis": "ESTIMATE: Australian model-specific quote unavailable; first-party US OEM ICCU listing is about US$1,297–1,855 for Ioniq 5. Illustrative US$1=A$1.50, plus 10% GST/import/parts variation and roughly A$800–2,000 diagnosis, labour, coolant/fuse allowance. Foreign part is a pricing proxy, not confirmed Australian-VIN fitment; not a live FX or installation quote.",
+          "warranty": "Australian manufacturer statements reported by Drive in May 2026 describe 15-year/300,000-km ICCU cover from first registration for Ioniq 5 built 2 April 2021–14 February 2024. This is reported component cover, not a verified VIN-specific contract; obtain written eligibility and exclusions from the Australian dealer. Recall rectification remains free for affected VINs; use a paid stress case only when every applicable remedy is unavailable.",
+          "sourceIds": [
+            "own-ev-est-iccu-hyundai-us",
+            "own-ev-hyundai-terms",
+            "repair-iccu-au-extension"
+          ]
+        },
+        {
+          "title": "Early Ioniq 5 park-pawl and driveshaft campaigns",
+          "detail": "REC-005448 applies to selected 2021–2022 cars’ Shift Control Unit software (roll-away risk). REC-005940 covers defective driveshafts in selected 2023 cars. Check the exact VIN; these free remedies are separate from the later ICCU action.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+          "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "own-ev-hyundai-park-recall",
+            "own-ev-hyundai-driveshaft-recall"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sourceIds": [
+        "own-ev-hyundai-warranty",
+        "own-ev-hyundai-terms",
+        "own-ev-est-service-ioniq",
+        "own-ev-est-service-ioniq-dealer",
+        "ev-ioniq-2023-roadtest",
+        "ev-ioniq-2023-release",
+        "own-ev-hyundai-prepaid",
+        "own-ev-hyundai-service-terms",
+        "repair-iccu-au-extension",
+        "own-ev-refresh-ioniq-my23-manual",
+        "audit-hyundai-ioniq-5-my23-manual",
+        "audit-hyundai-ioniq-5-original-passport",
+        "audit-hyundai-ioniq-5-prepaid",
+        "audit-hyundai-ioniq-5-carexpert-my26-service",
+        "audit-hyundai-ioniq-5-warranty-terms",
+        "audit-hyundai-ioniq-5-iccu-recall",
+        "audit-hyundai-ioniq-5-park-recall",
+        "audit-hyundai-ioniq-5-driveshaft-recall",
+        "audit-hyundai-ioniq-5-redriven-used"
+      ],
+      "checked": "2026-10-18",
+      "serviceLow": 250,
+      "serviceHigh": 550,
+      "serviceConfidence": "low",
+      "serviceByVehicle": {
+        "ioniq5-dynamiq-rwd-2023": {
+          "serviceAnnual": 375,
+          "serviceLow": 285,
+          "serviceHigh": 650,
+          "serviceConfidence": "low",
+          "serviceBasis": "MY23 24-month / 30,000 km schedule. Historical first three services A$570 + A$1,090 + A$570 total A$2,230 over six years, rounded to A$375/year. A$285–650 sensitivity range allows visit and coolant variation; these 2023 capped prices are not a current service quote. Confirm the VIN schedule and current dealer pricing. Manual p9-8 separately requires low-conductivity coolant every 36 months / 60,000 km and annual 12V inspection; confirm whether the quoted service prices include early/off-cycle fluid work. This estimate is not a current all-inclusive VIN quote."
+        },
+        "ioniq5-techniq-awd-2023": {
+          "serviceAnnual": 375,
+          "serviceLow": 285,
+          "serviceHigh": 650,
+          "serviceConfidence": "low",
+          "serviceBasis": "MY23 24-month / 30,000 km schedule. Historical first three services A$570 + A$1,090 + A$570 total A$2,230 over six years, rounded to A$375/year. A$285–650 sensitivity range allows visit and coolant variation; these 2023 capped prices are not a current service quote. Confirm the VIN schedule and current dealer pricing. Manual p9-8 separately requires low-conductivity coolant every 36 months / 60,000 km and annual 12V inspection; confirm whether the quoted service prices include early/off-cycle fluid work. This estimate is not a current all-inclusive VIN quote."
+        },
+        "ioniq5-rwd-84-2025": {
+          "serviceAnnual": 403,
+          "serviceLow": 330,
+          "serviceHigh": 650,
+          "serviceConfidence": "low",
+          "serviceBasis": "ESTIMATE: A$403/year rounded from the 2026 Australian road test’s first five scheduled prices: A$667 + 689 + 667 + 689 + 1,313 = A$4,025 / ten years. Earlier A$339/year calculation covered only eight years and omitted year ten. Published schedule accompanies N Line Premium AWD review; obtain confirmation for this RWD VIN and additional/severe-use work. It is a future annualised planning amount, not a current quote or prediction of each used-car year. Excludes tyres and fault repairs."
+        }
+      }
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "hyundai-ioniq-5",
+      "low": 1140,
+      "high": 3500,
+      "point": 1850,
+      "basis": "Youi’s Australian model-specific mean remains A$1,851, rounded to A$1,850. Its indicative A$1,142–2,234 band and comparisons use policies sold 22 November 2025–22 May 2026, with at least ten policies required for model comparisons. This is a national mixed-year/trim customer sample, not a household, Queensland or specific-variant quote. The A$1,140–3,500 sensitivity range is the dashboard’s wider assumption.",
+      "confidence": "low",
+      "sourceIds": [
+        "audit-hyundai-ioniq-5-youi"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-ioniq5-my23-techniq-carsales",
+      "familyId": "hyundai-ioniq-5",
+      "vehicleIds": [
+        "ioniq5-techniq-awd-2023"
+      ],
+      "tested": "Australian MY23 Techniq AWD, 77.4 kWh",
+      "scope": "Direct variant match. Original 85/100 is converted to 8.5/10. Historical new price is not today’s market. Three adults described, not a three-restraint trial.",
+      "publisher": "Carsales",
+      "published": "2023-08-09",
+      "checked": "2026-10-18",
+      "rating": 8.5,
+      "outOf": 10,
+      "verdict": "",
+      "positiveThemes": [
+        "Useful rear room, storage and comfort.",
+        "Quick responses and intuitive equipment."
+      ],
+      "negativeThemes": [
+        "Ride refinement trails some rivals.",
+        "High original purchase price."
+      ],
+      "sourceIds": [
+        "audit-hyundai-ioniq-5-techniq-roadtest"
+      ]
+    },
+    {
+      "id": "audit-ioniq5-used-redriven-2026",
+      "familyId": "hyundai-ioniq-5",
+      "vehicleIds": [],
+      "tested": "2021 Hyundai Ioniq 5; Australian used-car review",
+      "scope": "2026 used-car inspection commentary. Reviewer does not identify a drivetrain in the page header, so exact AWD driving behaviour is not established. Its unsourced pooled 2% ICCU assertion is excluded from reliability/cost calculations; warranty and model-year claims are checked separately against Hyundai.",
+      "publisher": "ReDriven",
+      "published": "2026-08-07",
+      "checked": "2026-10-18",
+      "rating": null,
+      "outOf": 10,
+      "verdict": "Would buy used",
+      "positiveThemes": [
+        "Appealing used value and cabin build."
+      ],
+      "negativeThemes": [
+        "Consumable/insurance costs and uncertain resale.",
+        "Inspect charging, 12V health, tailgate rattles and glass."
+      ],
+      "sourceIds": [
+        "audit-hyundai-ioniq-5-redriven-used"
+      ]
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "ioniq5-awd-2021",
+      "scope": "exact",
+      "summary": "Named original-AWD three-across evidence, with positive room and access observations. Booster buckling remains untested.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "BabyDrive reports three InfaSecure restraints with forward- and rear-facing use. The published three-seat photo shows one rear-facing and two forward-facing. Its written detailed list names two Attain More plus a centre Achieve More; this does not prove every restraint or orientation fits.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-babydrive",
+            "audit-hyundai-ioniq-5-facing-photo"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No simultaneous three-booster buckle trial. ANCAP’s selected Type E failed centre installation; its Type F passed separately.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-ancap-report"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "The trial retained front room for 180–186 cm adults ahead of an Attain More rear-facing seat.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-babydrive"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Reviewer found child loading easy, from outside and inside, through generous openings.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-babydrive"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "ioniq5-dynamiq-rwd-2023",
+      "scope": "related",
+      "summary": "Three-across evidence comes from the earlier AWD. Hyundai confirms the MY23 battery update preserves cabin practicality.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "Related original-AWD three-restraint installation; MY23 specification retains the anchor layout. Exact MY23 combination untested.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-babydrive",
+            "audit-hyundai-ioniq-5-my23-spec",
+            "audit-hyundai-ioniq-5-my23-release",
+            "audit-hyundai-ioniq-5-facing-photo"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No three-booster buckle trial verified; ANCAP’s selected centre booster restriction remains relevant to installation checks.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-ancap-report"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "MY23 independent tests describe generous rear room and front clearance; manufacturer retains rear hip room.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-dynamiq-family-review",
+            "audit-hyundai-ioniq-5-my23-spec"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "Easy entry reported, but the MY23 Dynamiq reviewer’s child struggled to close the rear door; related evidence for Techniq.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-dynamiq-family-review"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "ioniq5-techniq-awd-2023",
+      "scope": "related",
+      "summary": "Three-across evidence comes from the earlier AWD. Hyundai confirms the MY23 battery update preserves cabin practicality.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "Related original-AWD three-restraint installation; MY23 specification retains the anchor layout. Exact MY23 combination untested.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-babydrive",
+            "audit-hyundai-ioniq-5-my23-spec",
+            "audit-hyundai-ioniq-5-my23-release",
+            "audit-hyundai-ioniq-5-facing-photo"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No three-booster buckle trial verified; ANCAP’s selected centre booster restriction remains relevant to installation checks.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-ancap-report"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "MY23 independent tests describe generous rear room and front clearance; manufacturer retains rear hip room.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-techniq-roadtest",
+            "audit-hyundai-ioniq-5-my23-spec"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "Easy entry reported, but the MY23 Dynamiq reviewer’s child struggled to close the rear door; related evidence for Techniq.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-dynamiq-family-review"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "ioniq5-rwd-84-2025",
+      "scope": "exact",
+      "summary": "Exact base 84-kWh Australian review verifies useful rear space; no refreshed-model three-restraint installation was found.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Two outer ISOFIX positions and three tethers are specified; simultaneous three-seat fit is unverified.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-my26-spec"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No simultaneous booster-buckle evaluation found.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "unknown",
+          "detail": "Exact base 84-kWh review reports a spacious adult rear bench and flat footwell, but no rear-facing restraint/front-seat clearance trial. Adult space alone does not establish this criterion.",
+          "sourceIds": [
+            "audit-hyundai-ioniq-5-84-rwd-review"
+          ]
+        },
+        "access": {
+          "rating": "unknown",
+          "detail": "No exact refreshed-model child-loading/access trial verified.",
+          "sourceIds": []
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Corrected original AWD asking-price fee basis, verified distinct MY23 coolant/12V/brakefluid intervals, added 84-kWh ten-year service allowance and two scoped expert reviews. Refined fit assessments credit measured room/access while preserving the unknown three-booster and facelift arrangements. Repair reserves remain explicitly uncertain.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "estimate",
+        "finding": "Four exact configuration snapshots re-read: original AWD A$44,990 EGC (corrected from drive-away); MY23 Dynamiq A$41,900 EGC; MY23 Techniq A$46,950 EGC; new 84-kWh QLD median A$70,490 DA (A$69,990–70,990, n=2). Used samples are n=1 each; Dynamiq cached availability and interstate landed costs remain uncertain.",
+        "sourceIds": [
+          "audit-hyundai-ioniq-5-my22-ask",
+          "audit-hyundai-ioniq-5-my23-rwd-ask",
+          "audit-hyundai-ioniq-5-my23-awd-ask",
+          "audit-hyundai-ioniq-5-84-sunco-ask",
+          "audit-hyundai-ioniq-5-84-townsville-ask"
+        ],
+        "vehicleIds": [
+          "ioniq5-awd-2021",
+          "ioniq5-dynamiq-rwd-2023",
+          "ioniq5-techniq-awd-2023",
+          "ioniq5-rwd-84-2025"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "conflict",
+        "finding": "Australian brochures confirm 72.6 / 77.4 / 84 kWh grouping and 430 / 507 / 454 / 570 km WLTP by configuration. AC maximum is 10.5 kW; 350 kW denotes infrastructure, not a verified car peak. Preserve the MY26 PDF’s WLTP/ADR consumption-footnote conflict. MY23 Dynamiq/Techniq lack Epiq’s heat pump and conditioning; MY26 includes both.",
+        "sourceIds": [
+          "audit-hyundai-ioniq-5-my22-spec",
+          "audit-hyundai-ioniq-5-my23-spec",
+          "audit-hyundai-ioniq-5-my26-spec",
+          "audit-hyundai-ioniq-5-my23-release"
+        ],
+        "vehicleIds": [
+          "ioniq5-awd-2021",
+          "ioniq5-dynamiq-rwd-2023",
+          "ioniq5-techniq-awd-2023",
+          "ioniq5-rwd-84-2025"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "verified",
+        "finding": "Original AWD has a named three-restraint trial; MY23 is related evidence, not a new installation. Room and access observations are stronger than anchor count alone. No three-booster buckling evidence; ANCAP separately records one selected booster failing centre fit. Facelift arrangement stays unverified. Brochures confirm rear vents and 527-L old / 520-L refreshed VDA rear boots.",
+        "sourceIds": [
+          "audit-hyundai-ioniq-5-babydrive",
+          "audit-hyundai-ioniq-5-ancap-report",
+          "audit-hyundai-ioniq-5-my23-spec",
+          "audit-hyundai-ioniq-5-my26-spec",
+          "audit-hyundai-ioniq-5-dynamiq-family-review",
+          "audit-hyundai-ioniq-5-84-rwd-review"
+        ],
+        "vehicleIds": [
+          "ioniq5-awd-2021",
+          "ioniq5-dynamiq-rwd-2023",
+          "ioniq5-techniq-awd-2023",
+          "ioniq5-rwd-84-2025"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Original private-use cover is five years with unlimited km, not retrospective seven. Vehicles first registered from 1 June 2025 can get two extra years through required dealer servicing; remaining cover transfers. HV battery is 8 years / 160,000 km; current terms cover SOH below 70% with conditions and permit repair/reconditioned remedies. Original used-car terms still govern. 12V cover is 2 years / 40,000 km.",
+        "sourceIds": [
+          "audit-hyundai-ioniq-5-original-passport",
+          "audit-hyundai-ioniq-5-warranty",
+          "audit-hyundai-ioniq-5-warranty-terms"
+        ],
+        "vehicleIds": [
+          "ioniq5-awd-2021",
+          "ioniq5-dynamiq-rwd-2023",
+          "ioniq5-techniq-awd-2023",
+          "ioniq5-rwd-84-2025"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "MY22 passport: 12 months / 15,000 km; MY23 normal: 24 months / 30,000 km. MY23 manual p9-8 separately requires low-conductivity coolant at 36 months / 60,000 km, 12V inspection at 12 months / 15,000 km and brake fluid every 24 months; standard coolant initially at 10 years / 200,000 km. No current all-inclusive Australian coolant tariff found. Add facelift allowance A$403/year from reported first ten-year scheduled total A$4,025. Early/MY23 allowances retain low confidence.",
+        "sourceIds": [
+          "audit-hyundai-ioniq-5-original-passport",
+          "audit-hyundai-ioniq-5-my23-manual",
+          "audit-hyundai-ioniq-5-carexpert-my23",
+          "audit-hyundai-ioniq-5-carexpert-my26-service",
+          "audit-hyundai-ioniq-5-prepaid"
+        ],
+        "vehicleIds": [
+          "ioniq5-awd-2021",
+          "ioniq5-dynamiq-rwd-2023",
+          "ioniq5-techniq-awd-2023",
+          "ioniq5-rwd-84-2025"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "Re-read insurer’s model premium: Youi mean A$1,851, rounded dashboard A$1,850 unchanged. Published band A$1,142–2,234 uses its stated 80%-within-or-below criterion; November 2025–May 2026 policies. National mixed trims; no Queensland household quote or exact-variant sample. Dashboard broader bounds remain illustrative.",
+        "sourceIds": [
+          "audit-hyundai-ioniq-5-youi"
+        ],
+        "vehicleIds": [
+          "ioniq5-awd-2021",
+          "ioniq5-dynamiq-rwd-2023",
+          "ioniq5-techniq-awd-2023",
+          "ioniq5-rwd-84-2025"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Australian MY23/new brochures specify 235/55R19 105W for RWD or 255/45R20 105W for Techniq. JAX fitted/GST-inclusive Michelin Pilot Sport 4 SUV anchors remain A$395 / A$505 each: A$1,580 / A$2,020 per set. Assumed 40,000 km life gives A$592.50 / A$757.50 per year at 15,000 km, excluding alignment. Check the placard; no spare.",
+        "sourceIds": [
+          "audit-hyundai-ioniq-5-my22-spec",
+          "audit-hyundai-ioniq-5-my23-spec",
+          "audit-hyundai-ioniq-5-my26-spec",
+          "audit-hyundai-ioniq-5-tyres-19",
+          "audit-hyundai-ioniq-5-tyres-20"
+        ],
+        "vehicleIds": [
+          "ioniq5-awd-2021",
+          "ioniq5-dynamiq-rwd-2023",
+          "ioniq5-techniq-awd-2023",
+          "ioniq5-rwd-84-2025"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "gap",
+        "finding": "Official ICCU recall REC-006224 supersedes REC-005942 with free software; separate selected-VIN park-pawl/driveshaft remedies are also free. Reported 15-year / 300,000-km ICCU extension still needs written Australian VIN terms; Drive re-fetch blocked, so not promoted to a verified contract. No defensible Australian annual failure/bill distribution found: retain reserves A$1,200 / 1,000 / 1,100 / 700 as low-confidence savings, not fault predictions.",
+        "sourceIds": [
+          "audit-hyundai-ioniq-5-iccu-recall",
+          "audit-hyundai-ioniq-5-park-recall",
+          "audit-hyundai-ioniq-5-driveshaft-recall",
+          "audit-hyundai-ioniq-5-warranty-terms",
+          "repair-iccu-au-extension",
+          "audit-hyundai-ioniq-5-redriven-used"
+        ],
+        "vehicleIds": [
+          "ioniq5-awd-2021",
+          "ioniq5-dynamiq-rwd-2023",
+          "ioniq5-techniq-awd-2023",
+          "ioniq5-rwd-84-2025"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "verified",
+        "finding": "ProductReview remains 3.8/5, n=8, mixed owners and two identified expert borrowed-car posts. CarsGuide exact MY23 Dynamiq 7.5/10 and EV Central base 84-kWh 4/5 retained. Add Carsales exact MY23 Techniq 85/100 (8.5/10). ReDriven’s 2026 used verdict is qualitative; its unscoped pooled 2% fault claim does not become an annual probability.",
+        "sourceIds": [
+          "audit-hyundai-ioniq-5-owner-reviews",
+          "audit-hyundai-ioniq-5-dynamiq-family-review",
+          "audit-hyundai-ioniq-5-84-rwd-review",
+          "audit-hyundai-ioniq-5-techniq-roadtest",
+          "audit-hyundai-ioniq-5-redriven-used"
+        ],
+        "vehicleIds": [
+          "ioniq5-awd-2021",
+          "ioniq5-dynamiq-rwd-2023",
+          "ioniq5-techniq-awd-2023",
+          "ioniq5-rwd-84-2025"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "Brochures specify 1,600-kg braked towing with 100-kg towball and vehicle limits; ANCAP 2021 applies except N, expires December 2027. QLD private electric registration + traffic fee + Class 1 CTP is A$782.15–798.15 as at 1 October 2026. Used price drops do not establish future depreciation. Inspect underbody, warranty/service/recall records and charging; budget remaining warranty by first registration.",
+        "sourceIds": [
+          "audit-hyundai-ioniq-5-my22-spec",
+          "audit-hyundai-ioniq-5-my23-spec",
+          "audit-hyundai-ioniq-5-my26-spec",
+          "audit-hyundai-ioniq-5-ancap-current",
+          "audit-hyundai-ioniq-5-qld-registration",
+          "audit-hyundai-ioniq-5-redriven-used"
+        ],
+        "vehicleIds": [
+          "ioniq5-awd-2021",
+          "ioniq5-dynamiq-rwd-2023",
+          "ioniq5-techniq-awd-2023",
+          "ioniq5-rwd-84-2025"
+        ]
+      }
+    ]
+  }
+}

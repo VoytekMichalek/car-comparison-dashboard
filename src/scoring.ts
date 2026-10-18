@@ -2,11 +2,13 @@ import { brandFor, getPrice, reviewFor } from './data';
 import { defaultWeights, rangeStandard, isFuelOnly, money } from './lib';
 import { ownershipEstimate } from './ownership';
 import { reviewScope } from './reviewScope';
+import { fitAssessmentFor } from './research';
+import { calculateFamilyFit } from './familyFit';
 import type { PersonalData, ScoreCategory, ScoreWeights, Vehicle } from './types';
 
 export const categoryLabels: Record<ScoreCategory, string> = { seating: 'Child-seat fit', price: 'Purchase price', running: 'Running budget', boot: 'Boot space', range: 'Electric range', safety: 'Safety rating', owners: 'People’s reviews', brand: 'Brand support' };
 export const categoryRules: Record<ScoreCategory, string> = {
-  seating: 'Your confirmed fit = 10; published combination = 8; documented limitations = 3. Unverified fit is excluded. Published tests still require your own seat check; related-variant tests have less influence.',
+  seating: 'Target: one rear-facing plus two forward-facing seats/boosters. Detailed family fit: three-seat arrangement 45%, booster buckles 25%, cabin/clearance 20%, loading/access 10%. Evidence grades: good = 9, workable with constraints = 6, restricted = 2. Unknown criteria add no score or weight and reduce coverage. A documented arrangement restriction caps the score at 2; no established arrangement means no score. Exact published evidence factor = 80% × known criteria; related = 50% × known criteria. Your confirmed fit = 10. These are editorial practicality scores, not safety certification.',
   price: 'Asking price at 75% of your budget or less = 10; at the budget = 7; at 150% = 1. Linear between these points. Fees may be additional. Uncertain prices have less influence; missing prices are excluded.',
   running: 'Complete annual running budget: A$4,000 or less = 10; A$8,000 or more = 1; linear between. These fixed reference points are calibrated to the catalogue’s roughly A$4,500–8,100 default budgets, not a percentile rank. Filters and comparison selections do not change the scale. Includes repair savings and interest; excludes purchase and depreciation. The weakest automatic cost estimate limits its influence. Incomplete budgets are excluded.',
   boot: 'VDA five-seat boot: 300 L = 1, 600 L = 10, linear between. Missing or non-comparable measurements are excluded.',
@@ -15,7 +17,7 @@ export const categoryRules: Record<ScoreCategory, string> = {
   owners: 'Community aggregate converted to /10. Evidence factor = n/(n+20), capped at 80%, multiplied by the scope-match factor. Small or poorly matched samples have less influence. Missing ratings, unknown sample sizes and incompatible generations are excluded.',
   brand: 'Australian service-support evidence: established = 8; developing = 6; limited = 3. Unverified support is excluded. This is support access, not a prediction of reliability.',
 };
-export interface CategoryScore { key: ScoreCategory; score: number | null; weight: number; confidence: number; effectiveWeight: number; applicable: boolean; reason: string; sourceIds: string[] }
+export interface CategoryScore { key: ScoreCategory; score: number | null; weight: number; confidence: number; effectiveWeight: number; applicable: boolean; reason: string; sourceIds: string[]; breakdown?: { label: string; score: number | null; share: number; detail: string; sourceIds: string[] }[] }
 export interface ScoreResult { total: number | null; coverage: number; provisional: boolean; categories: CategoryScore[] }
 const clamp = (value: number) => Math.max(1, Math.min(10, value));
 export const formatScore = (value: number | null) => value === null ? '—' : value.toFixed(1);
@@ -40,14 +42,15 @@ export function scoreVehicle(v: Vehicle, personal: PersonalData, weights: ScoreW
   const brand = brandFor(v.make);
   const costs = ownershipEstimate(v, personal);
   const categories: CategoryScore[] = [];
-  const add = (key: ScoreCategory, score: number | null, confidence: number, reason: string, sourceIds: string[], applicable = true) => {
+  const add = (key: ScoreCategory, score: number | null, confidence: number, reason: string, sourceIds: string[], applicable = true, breakdown?: CategoryScore['breakdown']) => {
     const evidence = applicable && score !== null && Number.isFinite(score) && Number.isFinite(confidence) ? Math.max(0, Math.min(1, confidence)) : 0;
     const raw = evidence > 0 ? Math.round(clamp(score!) * 10) / 10 : null;
-    categories.push({ key, score: raw, confidence: evidence, weight: weights[key], effectiveWeight: weights[key] * evidence, reason, sourceIds, applicable });
+    categories.push({ key, score: raw, confidence: evidence, weight: weights[key], effectiveWeight: weights[key] * evidence, reason, sourceIds, applicable, ...(breakdown ? { breakdown } : {}) });
   };
   const confirmed = Boolean(personal.fitChecks[v.id]);
-  const tested = v.familyFit.status.startsWith('tested');
-  add('seating', confirmed ? 10 : tested ? 8 : v.familyFit.status === 'limitations' ? 3 : null, confirmed ? 1 : v.familyFit.status === 'tested-related' ? .5 : tested ? .8 : v.familyFit.status === 'limitations' ? 1 : 0, confirmed ? 'Your fit confirmation for this configuration.' : v.familyFit.summary, v.familyFit.sourceIds);
+  const fitAudit = fitAssessmentFor(v.id);
+  const detailedFit = fitAudit ? calculateFamilyFit(fitAudit) : null;
+  add('seating', confirmed ? 10 : detailedFit?.score ?? null, confirmed ? 1 : detailedFit?.confidence ?? 0, confirmed ? 'Your fit confirmation for this configuration.' : detailedFit?.reason ?? `No detailed assessment for the current mixed-seat target; excluded from the score. ${v.familyFit.summary}`, detailedFit?.sourceIds ?? v.familyFit.sourceIds, true, confirmed ? undefined : detailedFit?.breakdown);
   const savedPrice = personal.ownership?.vehicleOverrides?.[v.id]?.purchase ?? personal.ownership?.purchasePrice;
   const hasSavedPrice = savedPrice != null;
   const asking = costs.purchasePrice;

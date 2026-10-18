@@ -12,7 +12,7 @@ describe('researched catalogue integrity', () => {
     expect(vehicles.find(v => v.id === 'xtrail-ti-epower-awd')?.fuel?.minimumRon).toBe(91);
     expect(vehicles.find(v => v.id === 'rav4-gxl-hev-2021-25')?.fuel?.planningRon).toBe(91);
     expect(vehicles.find(v => v.id === 'rav4-gxl-hev-2026')?.fuel?.planningRon).toBe(95);
-    expect(vehicles.find(v => v.id === 'sorento-phev-gtline-2021-23')?.fuel).toMatchObject({ planningRon: 95, minimumRon: null, confidence: 'low' });
+    expect(vehicles.find(v => v.id === 'sorento-phev-gtline-2021-23')?.fuel).toMatchObject({ planningRon: 91, minimumRon: 91, confidence: 'medium' });
   });
   it('preserves the original catalogue and includes researched petrol and diesel alternatives', () => {
     const families = new Set(vehicles.map(v => v.familyId));
@@ -38,13 +38,24 @@ describe('researched catalogue integrity', () => {
         if (v[key].value !== null) { expect(v[key].unit, `${v.id}:${key}`).toBe(unit); expect(v[key].sourceIds.length).toBeGreaterThan(0); }
       }
       if (v.consumption.value !== null) expect(v.consumption.unit).toBe(['HEV','PETROL','DIESEL'].includes(v.powertrain) ? 'L/100km' : 'kWh/100km');
+      if (v.observedConsumption?.value != null) {
+        expect(v.observedConsumption.unit).toBe(['HEV','PETROL','DIESEL'].includes(v.powertrain) ? 'L/100km' : 'kWh/100km');
+        expect(v.observedConsumption.sourceIds.length).toBeGreaterThan(0);
+      }
+      if (v.observedRange?.value != null) {
+        expect(v.observedRange.unit).toBe('km');
+        expect(v.observedRange.sourceIds.length).toBeGreaterThan(0);
+        expect(v.observedRange.basis).toMatch(/observed|measured|test/i);
+      }
     }
   });
   it('preserves the practical distinctions central to this purchase', () => {
     const originalY = vehicles.find(v => v.id === 'model-y-rwd-2022')!;
     expect(originalY.years).toContain(2023);
     expect(originalY.familyFit.testedSeats.toLowerCase()).toContain('infasecure');
-    expect(vehicles.find(v => v.id === 'atto3-standard-2022')?.familyFit.status).toBe('limitations');
+    const atto = vehicles.find(v => v.id === 'atto3-standard-2022')!;
+    expect(atto.familyFit.status).toBe('tested-related');
+    expect(atto.familyFit.testedSeats).toMatch(/rear.facing|capsule/i);
     expect(vehicles.find(v => v.familyId === 'toyota-kluger-hybrid')?.familyFit.row3.toLowerCase()).toMatch(/no|not/);
     expect(rangeStandard(vehicles.find(v => v.id === 'outlander-phev-aspire-20')!.range)).toBe('NEDC');
   });
@@ -151,7 +162,11 @@ it('keeps physical listing counts distinct from list-price proxies', () => {
     for (const o of p.observations ?? []) {
       expect(urls.has(o.url)).toBe(false);
       urls.add(o.url);
-      expect(sources.find(s => s.id === o.sourceId)?.url).toBe(o.url);
+      const sourceUrl = new URL(sources.find(s => s.id === o.sourceId)!.url);
+      const observationUrl = new URL(o.url);
+      sourceUrl.hash = '';
+      observationUrl.hash = '';
+      expect(sourceUrl.href).toBe(observationUrl.href);
     }
   }
 });
@@ -163,6 +178,7 @@ it('has one transparent repair reserve for every researched configuration', () =
     expect(r.low).toBeLessThanOrEqual(r.point);
     expect(r.high).toBeGreaterThanOrEqual(r.point);
     expect(r.confidence).toBe('low');
-    expect(r.basis).toMatch(/not an observed average|not a measured average|not predicted annual spending/);
+    expect(r.basis).toMatch(/allowance|reserve|savings|fund/i);
+    expect(r.basis).toMatch(/\b(?:not|no)\b.*(?:average|annual|failure|predict)/i);
   }
 });

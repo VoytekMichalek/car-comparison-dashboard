@@ -1,0 +1,971 @@
+{
+  "familyId": "nissan-x-trail-epower",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-nissan-x-trail-epower-launch",
+      "title": "Nissan AU original AWD e-POWER launch: 2.1 kWh battery, five seats and Ti equipment",
+      "url": "https://www.nissan.com.au/about-nissan/news-and-events/news/2022/october/e-power-to-the-people.html",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-old-spec",
+      "title": "Australian launch X-Trail e-POWER specification PDF",
+      "url": "https://www.nissan.com.au/content/dam/Nissan/AU/Files/Brochures/Models/Specsheet/NIS4609_T33_X-TRAIL_eSpec_ePOWER_Desktop_Web.pdf",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-my26-spec",
+      "title": "MY26 Australian specification PDF, updated August 2026",
+      "url": "https://www.nissan.com.au/vehicles/browse-range/x-trail/download-specsheet.html",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-current-web",
+      "title": "Live Australian X-Trail table: FWD fuel and length conflicts with dated PDF",
+      "url": "https://www.nissan.com.au/vehicles/browse-range/x-trail/specs-and-pricing.html",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-my26-update",
+      "title": "Official MY26 update: styling, connected services and 15,000 km service interval",
+      "url": "https://australia.nissannews.com/en-AU/releases/my26-nissan-x-trail-now-on-sale-in-australia?origin=channel-75f606e125080a9f50f6de56880080bc",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-ancap-report",
+      "title": "ANCAP technical report: variant applicability and individual child-restraint installation failures",
+      "url": "https://cdn.ancap.com.au/app/public/assets/341bb460aff177d7bb1b54c12cc468e72797fc23/original.pdf?1720509150=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-ancap-page",
+      "title": "ANCAP current X-Trail page: all variants, 2021 datestamp, December 2027 expiry",
+      "url": "https://www.ancap.com.au/safety-ratings/nissan/x-trail/7b8e49",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-babydrive",
+      "title": "BabyDrive 2023 Ti-L AWD: restraints, rear-facing clearance and access",
+      "url": "https://babydrive.com.au/reviews/suvs/2023-nissan-x-trail-e-power-hybrid-launch-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-babydrive-mixed-photo",
+      "title": "BabyDrive original test photo: one rear-facing restraint with two forward-facing restraints alongside",
+      "url": "https://babydrive.com.au/wp-content/uploads/2023/02/2023_NISSAN_X-TRAIL_E-POWER_HYBRID_SUV_11-1024x572.jpg",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-ti-long-term",
+      "title": "Chasing Cars exact 2023 Ti AWD: five months / 10,000 km, rear-facing use and consumption",
+      "url": "https://www.chasingcars.com.au/reviews/midsize-suvs/nissan-x-trail-e-power-hybrid-long-term-review/",
+      "publisher": "Chasing Cars",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-aaa-awd",
+      "title": "AAA 2024 Ti-L AWD real-world test: 6.7 L/100 km, April 2025",
+      "url": "https://realworld.org.au/wp-protected/1998fb604905/uploads/2025/07/JULY25_Nissan-X-Trail-e-Power-Hybrid_WEB.pdf",
+      "publisher": "Australian Automobile Association",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-fwd-drive",
+      "title": "GoAuto October 2026 ST-L e-POWER FWD launch test in New Zealand",
+      "url": "https://www.goauto.com.au/car-reviews/nissan/x-trail/e-power/2026-nissan-x-trail-st-l-e-power-2wd-review/2026-10-07/100617.html",
+      "publisher": "GoAuto",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-fwd-second-drive",
+      "title": "Chasing Cars Australian-market FWD launch review: 6.5 L/100 km and 8.0/10",
+      "url": "https://www.chasingcars.com.au/reviews/midsize-suvs/nissan-x-trail-e-power-fwd-2027-first-drive-review/",
+      "publisher": "Chasing Cars",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-warranty",
+      "title": "Nissan current warranty and service-activated eligibility terms",
+      "url": "https://www.nissan.com.au/owners-hub/nissan-warranty/new-vehicle-warranty-terms.html",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-service",
+      "title": "Nissan flat-price servicing: retail-date eligibility and exclusions",
+      "url": "https://www.nissan.com.au/owners-hub/maintenance-and-repair/servicing-price-guides.html",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-old-service-report",
+      "title": "CarExpert 2023 Ti AWD: original warranty and six service caps",
+      "url": "https://www.carexpert.com.au/car-reviews/2023-nissan-x-trail-ti-e-power-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-racq-costs",
+      "title": "RACQ 2024 operating-cost report: ST-L AWD e-POWER servicing and assumptions",
+      "url": "https://www.racq.com.au/-/media/project/racqgroup/racq/articles/news/2024/11/racq-vehicle-operating-cost-report-2024/racq-vehicle-operating-cost-report-2024.pdf?rev=780cd7696cc24204b7141c01f643b7ad",
+      "publisher": "RACQ",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-youi",
+      "title": "Youi X-Trail premiums: mixed-generation/powertrain policies, November 2025 to May 2026",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/nissan",
+      "publisher": "Youi Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-insurance-study",
+      "title": "March 2026 Brisbane insurance study: RAV4 HEV proxy, not X-Trail quote",
+      "url": "https://www.comparethemarket.com.au/news/ev-insurance-up-in-12-months/",
+      "publisher": "Compare the Market Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-tyre19",
+      "title": "JAX 235/55R19 fitted retail prices: Michelin Pilot Sport 4 SUV A$395",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/19-inch/235-55r19",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-tyre18",
+      "title": "JAX 235/60R18 fitted retail prices: Goodyear Optilife 3 SUV A$259",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/235-60r18",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-recall",
+      "title": "REC-006653 / R26A5: Australian e-POWER battery-controller software recall",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006653",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-used-battery",
+      "title": "T&H Wreckers AWD e-POWER traction battery: tag 32270, A$2,266 parts only",
+      "url": "https://shop.thwreckers.com.au/products/part-3778a8c9-e914-474b-97dc-29c7ae786e2d",
+      "publisher": "T&H Wreckers",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-owner-reviews",
+      "title": "ProductReview T33 Ti e-POWER: 4.2/5 from four posts, not new FWD",
+      "url": "https://www.productreview.com.au/listings/nissan-x-trail-t33-ti-e-power",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-qld-rego",
+      "title": "Queensland private registration: 1–3 cylinder total including Class 1 CTP, October 2026",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-manual-access",
+      "title": "Nissan Australia directs owners to service advisers for model-specific manuals",
+      "url": "https://www.nissan.com.au/owners-hub/owner-support.html",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-price-gatton",
+      "title": "2023 Ti AWD stock 76188: A$36,990 drive-away, 60,573 km, Gatton",
+      "url": "https://www.gattonauto.com.au/used-cars/for-sale/nissan/x-trail/2023/ti-e-power/4037637/",
+      "publisher": "Gatton Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-price-motorama",
+      "title": "2023 Ti AWD stock U229441: current A$42,488 drive-away, 44,346 km",
+      "url": "https://www.motorama.com.au/cars/used-white-2023-nissan-x-trail-u229441",
+      "publisher": "Motorama Mitsubishi Springwood",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-price-sunshine-conflict",
+      "title": "Sunshine Coast U61979: cached A$39,999 conflicts with earlier same-day A$33,999 observation",
+      "url": "https://sunshinecoastnissan.com.au/u61979-1894471-nissan-xtrail-2023/",
+      "publisher": "Sunshine Coast Nissan",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-price-townsville",
+      "title": "New FWD ST-L stock 3018561: A$45,990 drive-away, 10 km",
+      "url": "https://www.townsvillenissan.com.au/cars/new-everest-white-2026-nissan-x-trail-3018561",
+      "publisher": "Townsville Nissan",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-price-alto",
+      "title": "New FWD ST-L stock 3019432: A$45,990 drive-away, 6 km",
+      "url": "https://www.alto.com.au/stock/details/OAG-AD-26319594/2026-nissan-x-trail-new",
+      "publisher": "Alto Group",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-price-bega",
+      "title": "New FWD ST-L stock B5382: A$45,990 drive-away, odometer unadvertised",
+      "url": "https://www.begavalleynissan.com.au/new-cars/for-sale/nissan/x-trail/2026/st-l-e-power/t33-my26/4111520/",
+      "publisher": "Bega Valley Nissan",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-nissan-x-trail-epower-reentry-deadline",
+      "title": "Nissan 8 September 2025 release: advertised warranty re-entry deadline was 31 December 2025",
+      "url": "https://australia.nissannews.com/en-AU/releases/limited-time-remains-for-eligible-customers-to-unlock-australias-only-10-year300000km-warranty-extension",
+      "publisher": "Nissan Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "xtrail-ti-epower-awd",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "summary": "Five-seat series hybrid: petrol generates electricity and motors drive the wheels. Related mixed three-seat evidence is promising, with specific centre-restraint limitations. This entry covers pre-MY26 Ti AWD.",
+      "battery": {
+        "value": 2.1,
+        "unit": "kWh",
+        "basis": "Nissan Australia original AWD launch capacity; not a verified usable figure and not a plug-in driving battery.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-launch"
+        ]
+      },
+      "observedConsumption": {
+        "value": 7.4,
+        "unit": "L/100km",
+        "basis": "Exact 2023 Ti AWD long-term review: approximately 10,000 km over five months, highway-heavy. Review separately reports 5.8 urban and 7.8 highway; not a lab figure or fleet average.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-ti-long-term"
+        ]
+      },
+      "length": {
+        "value": 4680,
+        "unit": "mm",
+        "basis": "Pre-MY26 Australian body length. MY26 is 4,690 mm and is excluded from this entry.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-old-spec",
+          "audit-nissan-x-trail-epower-my26-spec"
+        ]
+      },
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "A related 2023 Ti-L AWD test demonstrates the mixed rear-facing/forward-facing target. Some ANCAP test restraints failed in particular positions; your three seats still need a fitting trial.",
+        "row2": "Two outboard ISOFIX pairs; three top tethers. Outer tethers on seatbacks; centre tether above boot.",
+        "row3": "No third row in this e-POWER configuration.",
+        "testedSeats": "BabyDrive names Adapt More, Achieve More and Versatile Folding Booster but its text is inconsistent about facing direction. Inspected photos show one rear-facing plus two forward-facing restraints; exact model-to-position assignment remains uncertain.",
+        "buckleAccess": "Daily booster buckle reach is unverified. ANCAP could not fit either of its tested boosters correctly in the centre; that does not invalidate a different tested booster.",
+        "access": "Exact Ti long-term family use reports easy rear-facing installation and 85-degree rear-door openings. Ti-L rear sunshades are not Ti equipment.",
+        "ventilation": "Original and MY 26 Australian specifications list rear air vents and tri-zone climate on Ti e-POWER. Ti-L rear sunshades in the test are not assumed on Ti.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-babydrive",
+          "audit-nissan-x-trail-epower-babydrive-mixed-photo",
+          "audit-nissan-x-trail-epower-ti-long-term",
+          "audit-nissan-x-trail-epower-ancap-report",
+          "audit-nissan-x-trail-epower-old-spec"
+        ]
+      },
+      "servicing": "Pre-MY26: 12 months / 10,000 km, whichever first. Eligibility and prices depend on original retail date and VIN.",
+      "batteryWarranty": "Original five-year defect warranty applies subject to its booklet. No verified e-POWER retained-capacity guarantee. Current terms exclude gradual HEV capacity loss; confirm original-delivery terms.",
+      "inspection": [
+        "Check VIN applicability and completion of REC-006653 / R26A5; inclusion in a VIN list does not prove the recall remains open.",
+        "Bring your one rear-facing and two forward-facing seats/boosters. Check each approved position, centre belt/tether routing and booster buckles with all three installed.",
+        "Check front-seat clearance in your real driving position; the published 182 cm test used a related Ti-L, not your own seat.",
+        "Obtain the original warranty booklet, Nissan-network history and written Nissan MORE eligibility. Independent servicing alone does not establish extended-cover eligibility.",
+        "Check the next 10,000 km service and written VIN price. A 2025 retail date can change flat-price eligibility; calendar registration year alone is insufficient.",
+        "Test sustained uphill drive for any hesitation or torque pulsing; a long-term reviewer observed this, but it is not a verified diagnosis or repair-frequency claim.",
+        "Budget for your chosen 91 RON minimum or recommended 95 RON fuel. Check tyre repair kit condition; no spare is supplied."
+      ],
+      "changes": [
+        {
+          "period": "2023 launch",
+          "text": "Australian Ti and Ti-L e-POWER introduced as five-seat e-4ORCE AWD configurations.",
+          "sourceIds": [
+            "hy-xt-spec"
+          ]
+        },
+        {
+          "period": "September 2026 arrivals",
+          "text": "FWD e-POWER ST-L, Ti and Ti-L added. Nissan’s seven-seat Rock Creek is petrol, not e-POWER.",
+          "sourceIds": [
+            "hy-xt-fwd"
+          ]
+        },
+        {
+          "period": "MY26 is outside this 2023–25 configuration",
+          "text": "MY26 changes styling/equipment, body length to 4,690 mm and servicing to 15,000 km/12 months. A separate Ti AWD MY26 configuration has not yet been audited.",
+          "sourceIds": [
+            "audit-nissan-x-trail-epower-my26-spec",
+            "audit-nissan-x-trail-epower-my26-update"
+          ]
+        }
+      ],
+      "gaps": [
+        "Your exact mixed restraints, driver position and daily booster buckle access remain unconfirmed.",
+        "Original 2023/24 HEV battery exclusions need the delivered warranty booklet; current published new-vehicle terms are explicitly for retail from January 2025.",
+        "MY26 Ti AWD is outside this pre-MY26 entry and needs a separately audited configuration.",
+        "No verified Nissan installed major electrical/engine repair quote or actuarial annual repair average was located."
+      ],
+      "sourceIds": [
+        "hy-recalls",
+        "hy-xt-spec",
+        "hy-xt-fwd",
+        "hy-xt-fit",
+        "hy-xt-safe",
+        "hy-nissan-warranty",
+        "hy-xt-recall",
+        "hy-xt-used",
+        "hy-deep-xt-my26",
+        "hy-deep-xt-ancap",
+        "hy-deep-xt-my26-service",
+        "hy-refresh-xtrail-lbc-vins",
+        "audit-nissan-x-trail-epower-launch",
+        "audit-nissan-x-trail-epower-ancap-report",
+        "audit-nissan-x-trail-epower-babydrive-mixed-photo",
+        "audit-nissan-x-trail-epower-ti-long-term",
+        "audit-nissan-x-trail-epower-aaa-awd",
+        "audit-nissan-x-trail-epower-my26-spec",
+        "audit-nissan-x-trail-epower-my26-update",
+        "audit-nissan-x-trail-epower-warranty",
+        "audit-nissan-x-trail-epower-service"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "xtrail-stl-epower-fwd-2026",
+      "length": {
+        "value": 4690,
+        "unit": "mm",
+        "basis": "Dated August 2026 MY26 PDF. Live web table retains 4,680 mm; use the dated sheet pending exact VIN confirmation.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-my26-spec",
+          "audit-nissan-x-trail-epower-current-web"
+        ]
+      },
+      "observedConsumption": {
+        "value": 6.0,
+        "unit": "L/100km",
+        "basis": "GoAuto ST-L FWD launch-drive trip computer, New Zealand, October 2026. Australian-market coverage but not an Australian commuting test; another launch reviewer saw 6.5.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-fwd-drive",
+          "audit-nissan-x-trail-epower-fwd-second-drive"
+        ]
+      },
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Mixed three-across evidence comes from the related 2023 Ti-L AWD, not this new ST-L FWD. The target needs a direct trial.",
+        "row2": "Current Australian MY 26 brochure explicitly lists two outboard ISOFIX positions and three top tethers. A 2023 Ti-L AWD fit test is related evidence, not a test of this FWD ST-L.",
+        "row3": "No third row in this e-POWER configuration.",
+        "testedSeats": "Related AWD photos show one rear-facing plus two forward-facing restraints. No direct ST-L FWD three-seat test was located.",
+        "buckleAccess": "No FWD booster buckle-access trial located. Related ANCAP centre-booster limitations warrant a careful trial.",
+        "access": "The related AWD cabin has wide rear doors; confirm actual ST-L FWD loading space with all three seats installed.",
+        "ventilation": "MY 26 ST-L specification lists second-row air vents and dual-zone climate control; no third row.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-babydrive",
+          "audit-nissan-x-trail-epower-babydrive-mixed-photo",
+          "audit-nissan-x-trail-epower-ancap-report",
+          "audit-nissan-x-trail-epower-my26-spec"
+        ]
+      },
+      "servicing": "MY26: 12 months / 15,000 km. Eligible first five scheduled services A$399 each; five-service / five-year limit and exclusions apply.",
+      "inspection": [
+        "Install your complete mixed three-seat set before purchase; related AWD results do not confirm FWD ST-L fit or centre booster compatibility.",
+        "Check exact fuel label: dated MY26 PDF says 5.4 L/100 km while the web table says 5.3.",
+        "Check the compliance/build details and dimensions: MY26 PDF says 4,690 mm but the live web table retains 4,680 mm.",
+        "Confirm first five services / five-year eligibility and written Nissan MORE conditions; later services and NissanConnect after its complimentary period may cost extra.",
+        "Confirm the 670 kg braked tow limit, repair-kit provision and official VIN recall lookup. Do not assume an older AWD recall covers every new FWD car.",
+        "Ask Nissan or ANCAP to confirm FWD rating applicability: the public model page says all variants, but the downloadable table only explicitly names e-POWER 4WD."
+      ],
+      "gaps": [
+        "No direct Australian ST-L FWD mixed three-seat test or daily booster buckle-access test located.",
+        "FWD battery kWh is not verified from an Australian maker source; the original AWD 2.1 kWh claim is not copied.",
+        "Dated MY26 PDF and live table conflict on fuel use (5.4 vs 5.3 L/100 km) and length (4,690 vs 4,680 mm).",
+        "ANCAP public page says all variants, but the downloadable applicability table does not explicitly name FWD e-POWER.",
+        "No FWD-specific owner aggregate, household insurance quote or installed major-repair quote was located."
+      ],
+      "sourceIds": [
+        "hy-recalls",
+        "hy-xt-current",
+        "hy-xt-fwd",
+        "hy-xt-fit",
+        "hy-xt-safe",
+        "hy-nissan-warranty",
+        "hy-xt-recall",
+        "hy-deep-xt-my26",
+        "hy-deep-xt-ancap",
+        "hy-deep-xt-my26-service",
+        "audit-nissan-x-trail-epower-my26-spec",
+        "audit-nissan-x-trail-epower-current-web",
+        "audit-nissan-x-trail-epower-ancap-report",
+        "audit-nissan-x-trail-epower-babydrive-mixed-photo",
+        "audit-nissan-x-trail-epower-fwd-drive",
+        "audit-nissan-x-trail-epower-fwd-second-drive",
+        "audit-nissan-x-trail-epower-warranty",
+        "audit-nissan-x-trail-epower-service"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "nissan-x-trail-epower",
+      "serviceInterval": "Pre-MY26: 12 months / 10,000 km. MY26 FWD: 12 months / 15,000 km; whichever first.",
+      "serviceAnnual": 750,
+      "serviceLow": 400,
+      "serviceHigh": 1000,
+      "serviceConfidence": "medium",
+      "serviceBasis": "Estimate at 15,000 km/year, mainly for pre-MY26 used AWD. RACQ 2024 related ST-L AWD budgets A$756/year. Original 2023 six visits total A$3,051 over 60,000 km, reached in four years at this distance. These historical caps support the allowance but are not today’s VIN quote. Eligible retail from January 2025 has A$399 initial visits; confirm remaining caps, due work and exclusions. Tyres and repairs are separate.",
+      "serviceByVehicle": {
+        "xtrail-stl-epower-fwd-2026": {
+          "serviceAnnual": 500,
+          "serviceLow": 399,
+          "serviceHigh": 750,
+          "serviceConfidence": "low",
+          "serviceBasis": "Estimate at 15,000 km/year: first five eligible MY26 visits are A$399 each, limited to five services / five years. A$500 is a long-term planning allowance with an assumed post-cap buffer, not a ten-year cap. Wear, tyres, severe-use work and repairs are separate."
+        }
+      },
+      "fuelByVehicle": {
+        "xtrail-ti-epower-awd": {
+          "low": 5.8,
+          "point": 6.7,
+          "high": 8.5,
+          "confidence": "medium",
+          "basis": "L/100 km planning estimate, not the 6.1 ADR claim. AAA measured 6.7 in a related 2024 Ti-L AWD on 95 RON (6.4 urban / 7.3 motorway). Exact 2023 Ti five-month test averaged 7.4 with highway bias and reported 5.8 urban / 7.8 highway. Point reflects mixed use; bounds allow route/load differences. Minimum fuel remains 91 RON, with 95 recommended; selecting premium changes pump cost.",
+          "sourceIds": [
+            "audit-nissan-x-trail-epower-aaa-awd",
+            "audit-nissan-x-trail-epower-ti-long-term",
+            "audit-nissan-x-trail-epower-old-spec"
+          ]
+        },
+        "xtrail-stl-epower-fwd-2026": {
+          "low": 5.4,
+          "point": 6.3,
+          "high": 8.0,
+          "confidence": "low",
+          "basis": "L/100 km analyst planning estimate. New ST-L FWD launch trip computers reported 6.0 and 6.5 on New Zealand routes; 6.3 is a rounded midpoint, not an Australian fleet average. A$ or annual distance are not included in this rate. Bounds are assumed. Manufacturer combined claim remains separate (dated PDF 5.4; web 5.3).",
+          "sourceIds": [
+            "audit-nissan-x-trail-epower-fwd-drive",
+            "audit-nissan-x-trail-epower-fwd-second-drive",
+            "audit-nissan-x-trail-epower-my26-spec",
+            "audit-nissan-x-trail-epower-current-web"
+          ]
+        }
+      },
+      "warrantyCautions": [
+        "Base cover is five years / unlimited km from first registration or service. Original 2023/24 booklet terms must be checked; the currently published new-vehicle terms explicitly apply to retail from January 2025.",
+        "Nissan MORE can extend eligible 2021-onward retail cars to ten years / 300,000 km, subject to Nissan-network service terms and transfer eligibility. The advertised re-entry deadline for 2021–24 cars previously serviced elsewhere was 31 December 2025 and has passed. Current section 3(e) permits discretionary written Nissan approval; obtain the VIN’s written status rather than assume a used car can re-enter now.",
+        "Current terms exclude gradual HEV battery capacity loss. LEAF nine-bar / eight-year capacity cover is not an e-POWER capacity promise. Normal wear, tyres and 12 V battery limitations remain relevant."
+      ],
+      "risks": [
+        {
+          "title": "Battery-controller recall",
+          "detail": "REC-006653 / R26A5 covers listed T33 e-POWER VINs, with possible loss of propulsion from LBC software. Check VIN and completion status.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "Official software reprogramming is free for affected VINs. This is not a replacement-battery price.",
+          "warranty": "VIN-specific recall remedy; claim through Nissan before paying independently.",
+          "sourceIds": [
+            "audit-nissan-x-trail-epower-recall"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "Out-of-cover battery, inverter or motor",
+          "detail": "A diagnosed failure may require specialist electrical repair. No verified Australian Nissan installed price or failure probability was located.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Unavailable. Removed cross-brand Toyota event-price proxies because they do not establish Nissan repair charges. A real used AWD battery parts listing is shown separately.",
+          "warranty": "Check original defect cover, consumer guarantees and written service-activated eligibility. Gradual HEV capacity loss is excluded by current terms.",
+          "sourceIds": [
+            "audit-nissan-x-trail-epower-warranty",
+            "audit-nissan-x-trail-epower-launch",
+            "audit-nissan-x-trail-epower-used-battery"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Generator, turbo or engine diagnosis",
+          "detail": "The petrol generator and high-voltage system need diagnosis. One exact Ti long-term test described torque pulsing on an uphill commute without a confirmed cause.",
+          "low": null,
+          "high": null,
+          "priceBasis": "No verified Nissan Australian fitted repair quote. A different manufacturer’s reconditioned-engine price is not an e-POWER repair price.",
+          "warranty": "Covered manufacturing defects and recall work should be claimed first. Maintenance, wear and excluded damage are separate.",
+          "sourceIds": [
+            "audit-nissan-x-trail-epower-ti-long-term",
+            "audit-nissan-x-trail-epower-warranty"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Used AWD traction battery: parts only",
+          "detail": "T&H tag 32270 is listed in stock at A$2,266 including tax, from a 27,149 km T33 e-POWER AWD donor. Compatibility and health still need written confirmation.",
+          "low": 2266,
+          "high": 2266,
+          "priceBasis": "Current advertised used-part price. Diagnosis, freight, installation and commissioning are extra and unpriced. Does not establish FWD compatibility or a new-pack cost.",
+          "warranty": "Check manufacturer remedies and the seller’s written used-part terms first.",
+          "sourceIds": [
+            "audit-nissan-x-trail-epower-used-battery",
+            "audit-nissan-x-trail-epower-warranty"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sourceIds": [
+        "audit-nissan-x-trail-epower-warranty",
+        "audit-nissan-x-trail-epower-service",
+        "audit-nissan-x-trail-epower-old-service-report",
+        "audit-nissan-x-trail-epower-racq-costs",
+        "audit-nissan-x-trail-epower-my26-update",
+        "audit-nissan-x-trail-epower-aaa-awd",
+        "audit-nissan-x-trail-epower-ti-long-term",
+        "audit-nissan-x-trail-epower-fwd-drive",
+        "audit-nissan-x-trail-epower-fwd-second-drive",
+        "audit-nissan-x-trail-epower-recall",
+        "audit-nissan-x-trail-epower-used-battery",
+        "audit-nissan-x-trail-epower-reentry-deadline"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "nissan-x-trail-epower",
+      "rating": 4.2,
+      "outOf": 5,
+      "count": 4,
+      "scope": "ProductReview T33 Ti e-POWER AWD: 4.2/5 from four posts. Related 2023–25 Ti cohort only; no isolated new 2026 FWD owner sample. Self-selected reviews do not measure failure probability.",
+      "summary": "Visible owners value the smooth electric-motor drive. One detailed MY 25 owner reports technology and after-sales frustrations; check the actual build and equipment.",
+      "positiveThemes": [
+        "Smooth, quiet EV-like response",
+        "Comfort and family space",
+        "AWD traction and surround-camera usability"
+      ],
+      "negativeThemes": [
+        "MY25 app/connectivity and map-update frustrations in one report",
+        "Variable dealer technology support",
+        "Individual concerns about engine noise, audio or lack of spare"
+      ],
+      "sourceIds": [
+        "audit-nissan-x-trail-epower-owner-reviews"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-nissan-x-trail-epower-expert-fwd-goauto",
+      "familyId": "nissan-x-trail-epower",
+      "vehicleIds": [
+        "xtrail-stl-epower-fwd-2026"
+      ],
+      "tested": "2026 Nissan X-Trail ST-L e-POWER FWD",
+      "scope": "Australian-market press launch driven in New Zealand. Direct FWD grade review, not an Australian long-term reliability or child-seat trial. Its 650 kg tow claim conflicts with maker 670 kg; use maker.",
+      "publisher": "GoAuto",
+      "published": "2026-10-07",
+      "checked": "2026-10-18",
+      "rating": null,
+      "outOf": 10,
+      "verdict": "Refined, intuitive family SUV, with fuel economy still behind stronger hybrids.",
+      "positiveThemes": [
+        "Smooth electric-motor response and restrained driver-assistance alerts.",
+        "Comfortable, roomy cabin and useful physical controls."
+      ],
+      "negativeThemes": [
+        "Five seats only and no spare tyre.",
+        "Low FWD towing limit and weaker laboratory efficiency than RAV4."
+      ],
+      "sourceIds": [
+        "audit-nissan-x-trail-epower-fwd-drive",
+        "audit-nissan-x-trail-epower-my26-spec"
+      ]
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "nissan-x-trail-epower",
+      "low": 1250,
+      "high": 2800,
+      "point": 1850,
+      "basis": "Low-confidence A$1,850/year planning proxy retained, rounded from the March 2026 Brisbane RAV4 HEV A$1,844 study; no e-POWER-specific quote found. Youi’s X-Trail A$1,181 mean and A$744–1,521 range mix generations/powertrains. Chasing Cars reports Budget Direct new-X-Trail median A$1,300 for first-purchased policies May 2025–May 2026, without an e-POWER-only sample. None is your household quote; A$1,250–2,800 bounds are analyst assumptions.",
+      "confidence": "low",
+      "sourceIds": [
+        "audit-nissan-x-trail-epower-insurance-study",
+        "audit-nissan-x-trail-epower-youi",
+        "audit-nissan-x-trail-epower-fwd-second-drive"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyreUpdates": [
+    {
+      "vehicleId": "xtrail-ti-epower-awd",
+      "setCost": 1580,
+      "setLow": 1406,
+      "setHigh": 2200,
+      "lifeKm": 45000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 55000,
+      "confidence": "low",
+      "basis": "Ti 19-inch fitment. Retail anchor: 235/55R19 105Y XL, Michelin Pilot Sport 4 SUV, A$395 each fitted including GST; four = A$1,580. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 45,000 km and A$1,406–2,200 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
+      "sourceIds": [
+        "audit-nissan-x-trail-epower-tyre19",
+        "audit-nissan-x-trail-epower-old-spec"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/55R19 105Y XL",
+        "product": "Michelin Pilot Sport 4 SUV",
+        "unitPrice": 395,
+        "quantity": 4,
+        "sourceId": "audit-nissan-x-trail-epower-tyre19",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    },
+    {
+      "vehicleId": "xtrail-stl-epower-fwd-2026",
+      "setCost": 1036,
+      "setLow": 862,
+      "setHigh": 1600,
+      "lifeKm": 45000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 55000,
+      "confidence": "low",
+      "basis": "MY26 ST-L 18-inch fitment; replaces the generic 235/55R18 price anchor. Retail anchor: 235/60R18 107V XL, Goodyear Optilife 3 SUV, A$259 each fitted including GST; four = A$1,036. Uses the displayed single-tyre price, before temporary multi-buy discounts. Life 45,000 km and A$862–1,600 bounds are assumptions. Confirm local stock, placard and quote; excludes alignment. Annual allowance = set × annual km / life.",
+      "sourceIds": [
+        "audit-nissan-x-trail-epower-tyre18",
+        "audit-nissan-x-trail-epower-my26-spec"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/60R18 107V XL",
+        "product": "Goodyear Optilife 3 SUV",
+        "unitPrice": 259,
+        "quantity": 4,
+        "sourceId": "audit-nissan-x-trail-epower-tyre18",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "xtrail-ti-epower-awd",
+      "point": 850,
+      "low": 450,
+      "high": 1700,
+      "confidence": "low",
+      "basis": "Pre-MY26 used AWD: A$850/year retained as a low-confidence savings assumption, with A$450–1,700 sensitivity. Verify remaining base or service-activated cover. No empirical model-specific annual repair average or failure probability was found. This is money saved, not predicted spending. Excludes servicing, tyres and insured crash repairs. Free recalls and valid warranty claims are not charged to this fund. A major uncovered event can exceed it.",
+      "sourceIds": [
+        "audit-nissan-x-trail-epower-warranty",
+        "audit-nissan-x-trail-epower-recall",
+        "audit-nissan-x-trail-epower-used-battery"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "xtrail-stl-epower-fwd-2026",
+      "point": 600,
+      "low": 300,
+      "high": 1300,
+      "confidence": "low",
+      "basis": "New MY26 FWD: A$600/year retained as a low-confidence savings assumption, with A$300–1,300 sensitivity. Conditional extended cover needs ongoing eligible Nissan servicing. No empirical model-specific annual repair average or failure probability was found. This is money saved, not predicted spending. Excludes servicing, tyres and insured crash repairs. Free recalls and valid warranty claims are not charged to this fund. A major uncovered event can exceed it.",
+      "sourceIds": [
+        "audit-nissan-x-trail-epower-warranty",
+        "audit-nissan-x-trail-epower-my26-spec",
+        "audit-nissan-x-trail-epower-recall"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "xtrail-ti-epower-awd",
+      "scope": "related",
+      "summary": "Related 2023 Ti-L AWD mixed-restraint test; exact seats and daily buckles still need confirmation.",
+      "criteria": {
+        "arrangement": {
+          "rating": "workable",
+          "detail": "Photos demonstrate one rear-facing plus two forward-facing restraints in Ti-L AWD. ANCAP documents model-specific centre fit failures; this is not an any-three-seat guarantee.",
+          "sourceIds": [
+            "audit-nissan-x-trail-epower-babydrive-mixed-photo",
+            "audit-nissan-x-trail-epower-ancap-report"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No daily booster buckle-access test for the mixed arrangement was located.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "good",
+          "detail": "A 182 cm driver fitted ahead of a rear-facing restraint in related Ti-L; exact Ti long-term use also reports easy rear-facing installation.",
+          "sourceIds": [
+            "audit-nissan-x-trail-epower-babydrive",
+            "audit-nissan-x-trail-epower-ti-long-term"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Exact Ti long-term family use confirms wide doors and easy rear-facing loading.",
+          "sourceIds": [
+            "audit-nissan-x-trail-epower-ti-long-term"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "xtrail-stl-epower-fwd-2026",
+      "scope": "related",
+      "summary": "Related AWD evidence only; new ST-L FWD has no direct mixed-restraint trial.",
+      "criteria": {
+        "arrangement": {
+          "rating": "workable",
+          "detail": "Photos demonstrate one rear-facing plus two forward-facing restraints in Ti-L AWD. ANCAP documents model-specific centre fit failures; this is not an any-three-seat guarantee.",
+          "sourceIds": [
+            "audit-nissan-x-trail-epower-babydrive-mixed-photo",
+            "audit-nissan-x-trail-epower-ancap-report"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No daily booster buckle-access test for the mixed arrangement was located.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "workable",
+          "detail": "The related Ti-L test had rear-facing clearance for a 182 cm driver. FWD ST-L seating/trim still requires a direct trial.",
+          "sourceIds": [
+            "audit-nissan-x-trail-epower-babydrive",
+            "audit-nissan-x-trail-epower-my26-spec"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "Related AWD wide-opening doors help, but loaded ST-L FWD access has not been directly tested.",
+          "sourceIds": [
+            "audit-nissan-x-trail-epower-babydrive",
+            "audit-nissan-x-trail-epower-my26-spec"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Mixed rear-facing fit evidence is more useful than the old generic three-across label, but centre restraint compatibility and exact buckles matter. Fuel budgets now separate observed AWD/FWD evidence. Old AWD is narrowed to pre-MY26; uncertain installed repair prices are no longer borrowed from other brands.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "conflict",
+        "finding": "Three new FWD physical stocks remain A$45,990 drive-away: QLD one, NSW two; known odometers 6–10 km. Motorama A$42,488 / 44,346 km and Gatton A$36,990 / 60,573 km match used data. Sunshine cached A$39,999 conflicts with the earlier same-day A$33,999 direct observation; fresh access was blocked. Keep existing asking snapshot, not a sale valuation.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-price-gatton",
+          "audit-nissan-x-trail-epower-price-motorama",
+          "audit-nissan-x-trail-epower-price-sunshine-conflict",
+          "audit-nissan-x-trail-epower-price-townsville",
+          "audit-nissan-x-trail-epower-price-alto",
+          "audit-nissan-x-trail-epower-price-bega"
+        ],
+        "vehicleIds": [
+          "xtrail-ti-epower-awd",
+          "xtrail-stl-epower-fwd-2026"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "conflict",
+        "finding": "Old AWD battery gap closed at manufacturer-published 2.1 kWh; usable energy is not verified. Rated AWD 6.1 L/100 km stays separate from observed 7.4 long-term Ti / 6.7 related AAA Ti-L. FWD planning use is 6.3; dated maker claim 5.4 conflicts with web 5.3. Both allow 91 RON and recommend 95; neither plugs in.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-launch",
+          "audit-nissan-x-trail-epower-old-spec",
+          "audit-nissan-x-trail-epower-my26-spec",
+          "audit-nissan-x-trail-epower-current-web",
+          "audit-nissan-x-trail-epower-aaa-awd",
+          "audit-nissan-x-trail-epower-ti-long-term",
+          "audit-nissan-x-trail-epower-fwd-drive",
+          "audit-nissan-x-trail-epower-fwd-second-drive"
+        ],
+        "vehicleIds": [
+          "xtrail-ti-epower-awd",
+          "xtrail-stl-epower-fwd-2026"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "conflict",
+        "finding": "Related photos demonstrate the mixed target, but facing/model wording in the article conflicts. ANCAP found centre capsule, one rear-facing convertible and both tested boosters incompatible, plus one rear-facing ISOFIX convertible issue. Those are individual tests, not simultaneous three-across trials. Exact three-seat buckle access remains unknown.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-babydrive",
+          "audit-nissan-x-trail-epower-babydrive-mixed-photo",
+          "audit-nissan-x-trail-epower-ancap-report",
+          "audit-nissan-x-trail-epower-ti-long-term",
+          "audit-nissan-x-trail-epower-my26-spec"
+        ],
+        "vehicleIds": [
+          "xtrail-ti-epower-awd",
+          "xtrail-stl-epower-fwd-2026"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Five-year base cover and conditional up-to-ten-year / 300,000 km service activation verified. Current full new-vehicle terms begin January 2025; obtain original older booklet. Retail-from-2021 eligibility requires Nissan-network servicing or written Nissan approval. HEV gradual capacity loss has no current warranty cover. The advertised 2021–24 re-entry deadline was 31 December 2025; current discretionary written approval is not automatic eligibility.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-warranty",
+          "audit-nissan-x-trail-epower-old-service-report",
+          "audit-nissan-x-trail-epower-reentry-deadline"
+        ],
+        "vehicleIds": [
+          "xtrail-ti-epower-awd",
+          "xtrail-stl-epower-fwd-2026"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "Used pre-MY26 A$750/year retained: 10,000 km interval, related RACQ A$756/year, historical six visits A$3,051. FWD A$500/year remains a planning buffer above eligible first five A$399 visits / five years, with 15,000 km interval. Neither long-term budget is a VIN-specific quote.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-service",
+          "audit-nissan-x-trail-epower-old-service-report",
+          "audit-nissan-x-trail-epower-racq-costs",
+          "audit-nissan-x-trail-epower-my26-update",
+          "audit-nissan-x-trail-epower-my26-spec"
+        ],
+        "vehicleIds": [
+          "xtrail-ti-epower-awd",
+          "xtrail-stl-epower-fwd-2026"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "A$1,850 proxy retained with low confidence. Available X-Trail public premium samples mix generations or powertrains; no separately identified e-POWER cohort or household quote. Do not present this as observed e-POWER insurance.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-youi",
+          "audit-nissan-x-trail-epower-insurance-study",
+          "audit-nissan-x-trail-epower-fwd-second-drive"
+        ],
+        "vehicleIds": [
+          "xtrail-ti-epower-awd",
+          "xtrail-stl-epower-fwd-2026"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Correct original Ti 235/55R19 and new ST-L 235/60R18 verified. Fitted retail anchors unchanged at A$1,580 / A$1,036 per four. 45,000 km life and replacement bounds remain assumptions, not measured tyre durability.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-old-spec",
+          "audit-nissan-x-trail-epower-my26-spec",
+          "audit-nissan-x-trail-epower-tyre19",
+          "audit-nissan-x-trail-epower-tyre18"
+        ],
+        "vehicleIds": [
+          "xtrail-ti-epower-awd",
+          "xtrail-stl-epower-fwd-2026"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "gap",
+        "finding": "R26A5 software remedy is free for affected VINs. Real AWD donor battery is A$2,266 parts only; installed new battery, inverter or engine prices remain unavailable. Removed cross-brand major-event ranges. A$850 used / A$600 new annual funds remain savings assumptions, not measured repair averages.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-recall",
+          "audit-nissan-x-trail-epower-used-battery",
+          "audit-nissan-x-trail-epower-warranty",
+          "audit-nissan-x-trail-epower-ti-long-term"
+        ],
+        "vehicleIds": [
+          "xtrail-ti-epower-awd",
+          "xtrail-stl-epower-fwd-2026"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "verified",
+        "finding": "Ti e-POWER owner aggregate still 4.2/5 from four self-selected posts, not FWD. Exact Ti professional long-term use adds highway-heavy fuel and practical evidence. New FWD has an Australian-publisher launch review from New Zealand; it cannot establish Australian ownership reliability.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-owner-reviews",
+          "audit-nissan-x-trail-epower-ti-long-term",
+          "audit-nissan-x-trail-epower-old-service-report",
+          "audit-nissan-x-trail-epower-fwd-drive",
+          "audit-nissan-x-trail-epower-fwd-second-drive"
+        ],
+        "vehicleIds": [
+          "xtrail-ti-epower-awd",
+          "xtrail-stl-epower-fwd-2026"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "conflict",
+        "finding": "Towing verified: AWD 1,650 kg, FWD 670 kg. Boot 575 L is to roof, not shelf-height VDA. MY26 dated length 4,690 mm conflicts with web 4,680; old AWD narrowed to 2023–25. Three-cylinder QLD annual rego + CTP A$782.15–798.15. FWD exact ANCAP table extension remains unverified.",
+        "sourceIds": [
+          "audit-nissan-x-trail-epower-old-spec",
+          "audit-nissan-x-trail-epower-my26-spec",
+          "audit-nissan-x-trail-epower-current-web",
+          "audit-nissan-x-trail-epower-ancap-report",
+          "audit-nissan-x-trail-epower-ancap-page",
+          "audit-nissan-x-trail-epower-qld-rego"
+        ],
+        "vehicleIds": [
+          "xtrail-ti-epower-awd",
+          "xtrail-stl-epower-fwd-2026"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,793 @@
+{
+  "familyId": "subaru-forester",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-subaru-forester-s5-fit-2024",
+      "title": "2024 Forester Sport: two forward-facing seats plus a rear-facing capsule; 184 cm driver",
+      "url": "https://babydrive.com.au/reviews/suvs/2024-subaru-forester-sport-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s5-fit-2019",
+      "title": "2019 Forester Premium: named mixed-facing restraints installed using vehicle belts",
+      "url": "https://babydrive.com.au/reviews/suvs/2019-subaru-forester/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s6-fit",
+      "title": "2025 Forester Hybrid Sport: two forward-facing plus one rear-facing; 186 cm driver",
+      "url": "https://babydrive.com.au/reviews/suvs/2025-subaru-forester-hybrid-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s6-fit-preview",
+      "title": "S6 preview: single 0–4 rear-facing restraint leaves room for a 180 cm driver",
+      "url": "https://babydrive.com.au/reviews/suvs/2025-subaru-forester-hybrid-preview-event-in-melbourne/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s5-spec",
+      "title": "Australian MY24 Forester brochure: 2.5i-L petrol column",
+      "url": "https://www.citysubaru.com.au/wp-content/uploads/2025/02/13137-MY24-Forester-Launch-Brochure-opt-singleA4.pdf",
+      "publisher": "Subaru Australia / City Subaru",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s6-spec",
+      "title": "Australian MY26 Forester brochure: base petrol column",
+      "url": "https://cdn.oem-production.subaru.com.au/documents/Subaru-Forester-brochure.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s5-ancap",
+      "title": "S5 ANCAP technical report: centre restraint installation restrictions",
+      "url": "https://cdn.ancap.com.au/app/public/assets/37489ea0884e4b4d82a60ef20b5780ef6c8d88a8/original.pdf?1752102069=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s6-ancap",
+      "title": "S6 ANCAP technical report: one centre booster cannot be correctly installed",
+      "url": "https://s3.amazonaws.com/cdn.ancap.com.au/app/public/assets/1505a0e2c855214de7c9e2a3f0aef902297797ac/original.pdf?1767074059=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s5-handbook",
+      "title": "MY21 onward Australian warranty and maintenance handbook: transfer, exclusions, CVT inspections",
+      "url": "https://docs.subaru.com.au/MY21%20onwards%20Subaru%20Forester_Impreza_Outback_XV%20Warranty%20and%20Service%20Handbook.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-warranty-index",
+      "title": "Australian warranty handbook index: five years from new purchase, commercial limits",
+      "url": "https://www.subaru.com.au/warranty-service-handbooks",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-my21-caps",
+      "title": "MY21 Forester petrol capped servicing: first five visits A$2,413.63",
+      "url": "https://docs.subaru.com.au/MY21_Forester_Capped_Price_Servicing.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-my24-caps",
+      "title": "MY24 Forester petrol capped servicing: first five visits A$2,674.64",
+      "url": "https://docs.subaru.com.au/MY24_Forester_Capped_Price_Servicing.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-my26-caps",
+      "title": "MY26 Forester 15,000 km schedule: first five visits A$2,299",
+      "url": "https://docs.subaru.com.au/MY26-Subaru-Forester-Capped-Price-Servicing.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-my23-driveshaft",
+      "title": "REC-005831 / SRT-352: selected MY23 Forester front driveshaft; free rectification",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005831",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s6-hybrid-recall-excluded",
+      "title": "REC-006737: 42 selected 2026 hybrids; excludes listed petrol AWD",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006737",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-tcv-bulletin",
+      "title": "US TCV bulletin 09-119-24: 2019–2021 Forester, coolant sensor intrusion and revised valve",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2024/MC-10253930-0001.pdf",
+      "publisher": "Subaru of America / NHTSA",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-tcv-retail",
+      "title": "Australian genuine-parts listing for TCV; VIN fitment and installed price require confirmation",
+      "url": "https://www.genuineedge.com.au/genuine-subaru-thermo-control-valve-forester-2.5l",
+      "publisher": "Suttons Parts / Genuine Edge",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-insurance",
+      "title": "Youi Forester sold-policy mean A$1,069: November 2025–May 2026, mixed model years",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/subaru",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-tyre-17",
+      "title": "JAX Michelin Primacy 5 225/60R17 103V XL: A$299 per fitted tyre",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/17-inch/225-60r17",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-tyre-18",
+      "title": "JAX Michelin Primacy 5 225/55R18 102V XL: A$299 per fitted tyre",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/225-55r18",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s5-owners",
+      "title": "ProductReview S5 aggregate: 3.1/5 from 57; mixed grades and possible taxonomy errors",
+      "url": "https://www.productreview.com.au/listings/subaru-forester-sk-2019-present",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s5-il-owners",
+      "title": "ProductReview S5 2.5i-L: 3.5/5 from 11; some incorrectly classified older reports",
+      "url": "https://www.productreview.com.au/listings/subaru-forester-s5-25i-l",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s5-roadtest",
+      "title": "2021 Forester 2.5i-S: middle-eights observed fuel consumption, related grade",
+      "url": "https://www.carexpert.com.au/car-reviews/2021-subaru-forester-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s5-facelift-roadtest",
+      "title": "2023 Forester Sport: near-90-degree rear doors and facelift context",
+      "url": "https://www.carexpert.com.au/car-reviews/2023-subaru-forester-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s6-roadtest",
+      "title": "2026 Forester Touring petrol: indicated 9.3 L/100 km mixed-route result",
+      "url": "https://www.carexpert.com.au/car-reviews/2026-subaru-forester-awd-touring-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-used-wippells",
+      "title": "2021 MY22 2.5i-L: A$24,995 drive-away, 112,933 km, Toowoomba",
+      "url": "https://www.wippellsvolkswagen.com.au/all-stock/view/2021-Subaru-Forester/34742926",
+      "publisher": "Wippells Volkswagen",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-used-vonbibra",
+      "title": "2021 MY21 2.5i-L: A$23,888 drive-away, 102,452 km, Gold Coast",
+      "url": "https://vonbibragmsv.com.au/stock/details/OAG-AD-26311897/2021-subaru-forester-used",
+      "publisher": "von Bibra GMSV",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-new-vic",
+      "title": "Traralgon stock 1704108: A$44,990, new base petrol, 0 km, InStock schema",
+      "url": "https://www.traralgonsubaru.com.au/cars/new-magnetite-grey-2026-subaru-forester-1704108",
+      "publisher": "Traralgon Subaru",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-new-nsw",
+      "title": "Sydney stock SU029590: A$44,990 drive-away, exact base petrol S6 MY26",
+      "url": "https://autosportsgroup.com.au/su029590-1893153-subaru-forester-2026/",
+      "publisher": "Autosports Group",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-official-offer",
+      "title": "Current MY26 Forester base offer: A$45,990 drive-away, Brisbane included, delivery by 31 October 2026",
+      "url": "https://www.subaru.com.au/special-offers/my26-forester-awd-driveaway-offer",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-qld-rego",
+      "title": "Queensland 4-cylinder private registration/CTP: A$864.50–880.50 from 1 October 2026",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-forester-s5-handbook-2023",
+      "title": "September 2023 Australian MY21 onward Forester 12-month/12,500 km warranty handbook; 12 V battery two years",
+      "url": "https://docs.subaru.com.au/SA1196-12-Month-12500-Kilometre-Service-Interval-Warranty-and-Service-Handbook.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "forester-25il-2021",
+      "summary": "Used petrol AWD with positive related-grade mixed-facing three-seat evidence. Budget for 12,500 km servicing and inspect early-car cooling history.",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "BabyDrive’s 2024 S5 Sport fitted one rear-facing capsule and two forward-facing seats. Related-grade evidence for this 2.5i-L; your seats remain unconfirmed.",
+        "row2": "Two outer ISOFIX positions; three rear top-tether anchors. Centre installation uses the vehicle belt.",
+        "row3": "No third row.",
+        "testedSeats": "2024 Sport: capsule behind driver plus forward-facing 0–4 and 0–8 seats; models unnamed. Earlier 2019 Premium: Unity and Graphene rear-facing, Maxi Guard Pro centre; all belted.",
+        "buckleAccess": "Daily booster buckling remains untested. ANCAP found one booster and one rear-facing convertible incompatible with the centre position, assessed individually.",
+        "access": "Related tests report generous loading access; 2023 Sport rear doors open almost 90 degrees. Try the roof-mounted centre belt.",
+        "ventilation": "Rear console air vents; confirm airflow with all three restraints installed.",
+        "sourceIds": [
+          "audit-subaru-forester-s5-fit-2024",
+          "audit-subaru-forester-s5-fit-2019",
+          "audit-subaru-forester-s5-ancap",
+          "audit-subaru-forester-s5-facelift-roadtest",
+          "audit-subaru-forester-s5-spec"
+        ]
+      },
+      "cons": [
+        "12,500 km service interval can require more than one visit a year at 15,000 km.",
+        "Fuel use is higher than the hybrids.",
+        "Compatible restraints fit; centre-seat restrictions and booster buckles still need a personal trial."
+      ],
+      "inspection": [
+        "Read the build plate: late-2021 MY22 facelift cars differ from MY21.",
+        "Ask for dated 12,500 km service invoices, coolant history and any thermo-control-valve diagnosis/replacement.",
+        "Road test the CVT cold and warm; ask a Subaru specialist to diagnose warnings, shudder or leaks.",
+        "Load-test the 12 V battery and test air-conditioning, EyeSight, cameras and every restraint buckle.",
+        "Check MY23 REC-005831 / SRT-352 driveshaft recall completion by VIN; applicable rectification is free.",
+        "Trial your rear-facing seat at its required recline, two other restraints, all buckles and your normal driving positions."
+      ],
+      "gaps": [
+        "Exact 2.5i-L restraint models, booster access and your fit are unconfirmed.",
+        "Price sample is small, spans 2021/2023 years, kilometres and fee bases.",
+        "No representative Australian annual repair average or exact installed CVT quote verified."
+      ],
+      "sourceIds": [
+        "ice-sub-forester-old-spec",
+        "ice-sub-warranty",
+        "ice-sub-forester-old-fit",
+        "ice-sub-forester-old-service",
+        "ice-sub-forester-old-ancap",
+        "ice-sub-forester-old-roadtest",
+        "ice-sub-forester-my23-change",
+        "audit-subaru-forester-s5-fit-2024",
+        "audit-subaru-forester-s5-ancap",
+        "audit-subaru-forester-s5-facelift-roadtest",
+        "audit-subaru-forester-my23-driveshaft",
+        "audit-subaru-forester-s5-handbook-2023"
+      ],
+      "checked": "2026-10-18",
+      "warranty": "5 years / unlimited km private use from original warranty start; cover transfers subject to conditions. S5 12 V battery: 2 years."
+    },
+    {
+      "id": "forester-awd-petrol-2025",
+      "summary": "New S6 petrol AWD. Related Hybrid Sport test fitted one rear-facing and two forward-facing seats; petrol retains a spare and 1,800 kg braked towing.",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "BabyDrive’s S6 Hybrid Sport fitted two forward-facing seats plus a rear-facing seat behind the driver. Related powertrain/grade; confirm in the petrol base.",
+        "row2": "Two outer ISOFIX positions and three rear top tethers. No centre ISOFIX pair.",
+        "row3": "No third row.",
+        "testedSeats": "July 2025 S6 Hybrid Sport: two forward-facing plus one rear-facing behind driver. Restraint models unnamed.",
+        "buckleAccess": "Booster buckle access untested; ANCAP found one tested booster incompatible with the rear centre position. Individual position testing does not prove three across.",
+        "access": "July mixed-seat test allowed a 186 cm driver; separate preview with a 0–4 rear-facing convertible allowed 180 cm. Clearance depends on the seat and recline.",
+        "ventilation": "Rear console air vents, documented in the new-generation family test and Australian specification.",
+        "sourceIds": [
+          "audit-subaru-forester-s6-fit",
+          "audit-subaru-forester-s6-fit-preview",
+          "audit-subaru-forester-s6-ancap",
+          "audit-subaru-forester-s6-spec"
+        ]
+      },
+      "gaps": [
+        "A$44,990 physical new-stock ads verified interstate; the QLD stock page blocks fresh access. Current official Brisbane-inclusive offer is A$45,990, subject to stock and delivery by 31 October 2026.",
+        "No direct petrol-base three-seat or booster-buckling test.",
+        "No long-term S6 Australian repair-cost average verified."
+      ],
+      "sourceIds": [
+        "ice-sub-forester-new-spec",
+        "ice-sub-warranty",
+        "ice-sub-forester-new-fit",
+        "ice-sub-forester-new-service",
+        "ice-sub-forester-new-ancap",
+        "ice-sub-forester-new-roadtest",
+        "ice-refresh-forester-new-qld514760",
+        "audit-subaru-forester-s6-ancap",
+        "audit-subaru-forester-s6-fit-preview",
+        "audit-subaru-forester-official-offer"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "ice-sub-price-forester-awd-petrol-2025",
+      "vehicleId": "forester-awd-petrol-2025",
+      "low": 44990,
+      "high": 44990,
+      "point": 44990,
+      "condition": "new",
+      "basis": "drive-away",
+      "sampleCount": 2,
+      "geography": "Two physical new dealer stocks: Traralgon VIC and Sydney NSW",
+      "kilometres": "0 km in VIC; NSW odometer not published",
+      "observed": "2026-10-18",
+      "note": "Two exact new base-petrol VINs advertise A$44,990 drive-away. Median unchanged; small interstate sample, not a Queensland delivered quote. Blocked Pialba A$44,990 advertisement excluded from this fresh sample. Official Brisbane-inclusive offer is A$45,990, ending/deliverable by 31 October 2026; location, paint and stock conditions apply. Demo/Premium listings excluded.",
+      "sourceIds": [
+        "audit-subaru-forester-new-vic",
+        "audit-subaru-forester-new-nsw",
+        "audit-subaru-forester-official-offer"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "observations": [
+        {
+          "price": 44990,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 0,
+          "location": "Traralgon, VIC",
+          "url": "https://www.traralgonsubaru.com.au/cars/new-magnetite-grey-2026-subaru-forester-1704108",
+          "sourceId": "audit-subaru-forester-new-vic",
+          "checked": "2026-10-18",
+          "note": "New petrol base S6MY26; VIN JF2SL9KL5TG026674. Interstate drive-away campaign; Queensland registration/delivery treatment needs confirmation. Public dealer page freshly read; advertised availability is not a reserved car."
+        },
+        {
+          "price": 44990,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": null,
+          "location": "Sydney, NSW",
+          "url": "https://autosportsgroup.com.au/su029590-1893153-subaru-forester-2026/",
+          "sourceId": "audit-subaru-forester-new-nsw",
+          "checked": "2026-10-18",
+          "note": "New petrol base S6MY26; VIN JF2SL9KL5TG029590. Interstate drive-away campaign; Queensland registration/delivery treatment needs confirmation. Public dealer page freshly read; advertised availability is not a reserved car."
+        }
+      ]
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "subaru-forester",
+      "serviceInterval": "S5/MY21–MY24: 12 months or 12,500 km. S6/MY26: 12 months or 15,000 km. Whichever first.",
+      "serviceAnnual": 750,
+      "serviceLow": 600,
+      "serviceHigh": 1100,
+      "serviceConfidence": "low",
+      "serviceBasis": "ESTIMATE: A$750/year for the used S5 at 15,000 km/year, including post-cap uncertainty (A$600–1,100). Historical first-five caps: MY21 A$2,413.63; MY24 A$2,674.64, each over 62,500 km, not five years at this mileage. They are not current used-car quotations. MY21 handbook normally inspects CVT oil; extreme-condition work needs the workshop schedule. Excludes repairs and tyres.",
+      "warrantyCautions": [
+        "Private-use manufacturer cover is five years / unlimited kilometres from original supply, not from your used-car purchase. Commercial/hire/ride-share uses have a 150,000 km limit; check the contract.",
+        "Dealer-backed extended warranties can have conditions and are separate from Subaru’s manufacturer warranty. Do not assume a photographed or advertised ten-year dealer scheme applies.",
+        "Australian Consumer Law rights are separate from the written warranty; ask for the VIN-specific warranty and recall status.",
+        "The October 2026 REC-006737 parking-pawl campaign is for 42 selected Forester Hybrid VINs. It is not assigned to this petrol S6 configuration.",
+        "Original warranty and eligible capped servicing transfer with the vehicle; original start date, remaining time/kilometres and exclusions still apply. A 2021 car may now be out of manufacturer cover.",
+        "S5 12 V starter battery cover is two years under the applicable handbook, shorter than the five-year vehicle warranty. Verify the original booklet and S6 VIN-specific exclusions."
+      ],
+      "risks": [
+        {
+          "title": "CVT / AWD drivetrain inspection",
+          "detail": "A major gearbox or engine repair can exceed a small annual reserve. Inspect cold and hot operation, leaks, warnings and service invoices. No representative Australian failure rate for these exact configurations was found.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Unpriced: no exact Australian installed quote verified. Obtain a VIN-specific diagnosis and written parts/labour/GST quote; do not transfer prices or failure rates from older Subarus.",
+          "warranty": "Manufacturing-defect cover depends on the original warranty, diagnosis, service history and exclusions; wear and external damage differ.",
+          "sourceIds": [
+            "ice-sub-warranty",
+            "ice-sub-forester-old-spec",
+            "ice-sub-forester-new-spec",
+            "ice-sub-outback-spec"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Early S5 thermo-control valve: diagnosis and support check",
+          "detail": "US bulletin covers 2019–2021 Forester coolant-valve sensor intrusion and a revised component. Relevant inspection lead for an early S5, not proof every Australian VIN or the S6 is affected. Australian installed pricing and incidence remain unverified.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Unpriced: an Australian installed repair quote and incidence were not verified. Ask for diagnostic codes and any replacement invoice.",
+          "warranty": "The US 15-year / 150,000-mile extension is not an Australian warranty entitlement. Ask Subaru Australia to confirm VIN-specific support before paying.",
+          "sourceIds": [
+            "audit-subaru-forester-tcv-bulletin",
+            "audit-subaru-forester-s5-handbook",
+            "audit-subaru-forester-tcv-retail"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "MY23 S5 driveshaft recall: free VIN-specific remedy",
+          "detail": "REC-005831 / SRT-352 covers 186 vehicles across MY23 Forester, MY23 Outback and MY24 Crosstrek. A front driveshaft outer race may crack, stopping the vehicle. Check the actual VIN; this is not an S6 campaign.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for applicable official recall rectification; not a predicted paid repair.",
+          "warranty": "Recall remedy is free and separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "audit-subaru-forester-my23-driveshaft"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sourceIds": [
+        "ice-sub-warranty",
+        "ice-sub-forester-old-service",
+        "ice-sub-forester-new-service",
+        "ice-sub-service-intervals",
+        "ice-sub-forester-hybrid-recall-excluded",
+        "audit-subaru-forester-s5-handbook",
+        "audit-subaru-forester-my21-caps",
+        "audit-subaru-forester-my24-caps",
+        "audit-subaru-forester-my26-caps",
+        "audit-subaru-forester-my23-driveshaft",
+        "audit-subaru-forester-s5-handbook-2023"
+      ],
+      "checked": "2026-10-18",
+      "serviceByVehicle": {
+        "forester-awd-petrol-2025": {
+          "serviceAnnual": 459.8,
+          "serviceLow": 347.95,
+          "serviceHigh": 700,
+          "serviceConfidence": "medium",
+          "serviceBasis": "Australian MY26 S6 petrol capped visits: A$347.95,520.45,393.10,679.30 and 358.20 = A$2,299 for first five services / five years / 75,000 km; A$459.80/year at 15,000 km/year. Includes GST. Post-cap years and additional work are not quoted; the upper bound is a planning allowance. The generic Subaru website still mentions 12,500 km for Forester; the model-specific MY26 PDF explicitly supersedes it with 15,000 km."
+        }
+      },
+      "fuelEstimate": {
+        "point": 8.5,
+        "low": 7.4,
+        "high": 11,
+        "confidence": "low",
+        "basis": "L/100 km family-driving scenario for S5 petrol: 8.5 point, 7.4–11 sensitivity bounds. CarExpert’s related 2021 2.5i-S observed consumption in the middle eights in mixed urban/highway use; ADR combined 7.4. This is one higher-trim test plus analyst bounds, not a fleet mean.",
+        "sourceIds": [
+          "ice-sub-forester-old-spec",
+          "ice-sub-forester-old-roadtest"
+        ]
+      },
+      "fuelByVehicle": {
+        "forester-awd-petrol-2025": {
+          "point": 9.3,
+          "low": 7.9,
+          "high": 11.5,
+          "confidence": "low",
+          "basis": "L/100 km planning point 9.3 uses CarExpert’s related S6 Touring petrol mixed-route indicated test; base petrol AWD may differ. ADR combined 7.9; 7.9–11.5 are analyst sensitivity bounds, not confidence limits or a measured fleet average.",
+          "sourceIds": [
+            "ice-sub-forester-new-spec",
+            "ice-sub-forester-new-roadtest"
+          ]
+        }
+      }
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "subaru-forester",
+      "rating": 3.1,
+      "outOf": 5,
+      "count": 57,
+      "scope": "ProductReview S5 generation page only; mixed grades, petrol/hybrid labels, years and possible incorrectly categorised reports. Excludes S6. Self-selected opinions, not a reliability survey.",
+      "summary": "S5 aggregate 3.1/5 from 57. Exact 2.5i-L subpage shows 3.5/5 from 11 but contains older/mistagged reports; do not combine counts or treat either as a 2021–2024-only result.",
+      "positiveThemes": [
+        "Space, visibility, comfort and AWD usefulness."
+      ],
+      "negativeThemes": [
+        "Some owners report cooling-valve, air-conditioning/starting and warranty-service frustrations. No failure frequency can be inferred."
+      ],
+      "sourceIds": [
+        "audit-subaru-forester-s5-owners",
+        "audit-subaru-forester-s5-il-owners"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "forester-25il-2021",
+      "scope": "related",
+      "summary": "2024 Sport matches the facing mix; 2.5i-L remains a personal-fit check.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "2024 S5 Sport fitted a rear-facing capsule behind the driver plus forward-facing 0–4 and 0–8 seats. Named models unavailable.",
+          "sourceIds": [
+            "audit-subaru-forester-s5-fit-2024"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "Daily buckling with boosters was not demonstrated. Centre-position compatibility varies; ANCAP rejects one tested booster and one rear-facing convertible.",
+          "sourceIds": [
+            "audit-subaru-forester-s5-ancap"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "184 cm driver fitted ahead of the capsule in the 2024 trial. A different rear-facing convertible may require more room.",
+          "sourceIds": [
+            "audit-subaru-forester-s5-fit-2024"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Related Sport testing found wide rear-door opening and easy child loading.",
+          "sourceIds": [
+            "audit-subaru-forester-s5-fit-2024",
+            "audit-subaru-forester-s5-facelift-roadtest"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "forester-awd-petrol-2025",
+      "scope": "related",
+      "summary": "S6 Hybrid Sport demonstrates the facing mix; the petrol base is related evidence.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "July 2025 Hybrid Sport fitted two forward-facing seats and one rear-facing behind the driver. Exact restraint models unreported; centre booster compatibility still matters.",
+          "sourceIds": [
+            "audit-subaru-forester-s6-fit",
+            "audit-subaru-forester-s6-ancap"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No occupied three-restraint booster-buckling trial. ANCAP rejects one selected centre booster, tested alone.",
+          "sourceIds": [
+            "audit-subaru-forester-s6-ancap"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "July mixed-seat trial allowed a 186 cm driver. Preview with a different 0–4 rear-facing convertible allowed 180 cm; recline and model affect clearance.",
+          "sourceIds": [
+            "audit-subaru-forester-s6-fit",
+            "audit-subaru-forester-s6-fit-preview"
+          ]
+        },
+        "access": {
+          "rating": "unknown",
+          "detail": "Rear anchor access is documented, but a specific petrol-base child-loading and door-clearance trial was not verified.",
+          "sourceIds": [
+            "audit-subaru-forester-s6-fit"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Both generations have positive related-grade one-rear-facing/two-forward-facing evidence. Added centre-restraint caveats and MY23 driveshaft recall; retained honest repair uncertainty.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "conflict",
+        "finding": "Used S5 matched ads remain A$23,888–32,989 (three physical cars, mixed fees; two dealer pages read and Carplace indexed ad corroborated). New fresh sample is two interstate base-petrol VINs at A$44,990 drive-away; blocked QLD ad removed from fresh count. Current official offer is A$45,990 including Brisbane, delivery by 31 October 2026.",
+        "sourceIds": [
+          "audit-subaru-forester-used-wippells",
+          "audit-subaru-forester-used-vonbibra",
+          "audit-subaru-forester-new-vic",
+          "audit-subaru-forester-new-nsw",
+          "audit-subaru-forester-official-offer"
+        ],
+        "vehicleIds": [
+          "forester-25il-2021",
+          "forester-awd-petrol-2025"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "verified",
+        "finding": "2.5 petrol AWD/CVT, 91 RON minimum. Official S5/S6 ADR combined 7.4/7.9 L/100 km unchanged. Family planning 8.5/9.3 remains low-confidence related-trim road-test evidence; no exact 2.5i-L/base observed fleet mean.",
+        "sourceIds": [
+          "audit-subaru-forester-s5-spec",
+          "audit-subaru-forester-s6-spec",
+          "audit-subaru-forester-s5-roadtest",
+          "audit-subaru-forester-s6-roadtest"
+        ],
+        "vehicleIds": [
+          "forester-25il-2021",
+          "forester-awd-petrol-2025"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "verified",
+        "finding": "Newer S5 Sport test demonstrates the target facing mix, improving the older two-rear-facing evidence. S6 Hybrid Sport also demonstrates the mix. Two outer ISOFIX/three rear tethers; ANCAP identifies centre compatibility restrictions. Booster access and exact base-grade fits remain pending.",
+        "sourceIds": [
+          "audit-subaru-forester-s5-fit-2024",
+          "audit-subaru-forester-s6-fit",
+          "audit-subaru-forester-s5-ancap",
+          "audit-subaru-forester-s6-ancap"
+        ],
+        "vehicleIds": [
+          "forester-25il-2021",
+          "forester-awd-petrol-2025"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Original five years/unlimited km for private use; specified commercial uses five years/150,000 km. Cover and eligible service caps transfer subject to conditions; used purchase does not restart them. Dealer extensions are separate. S5 12 V battery cover is two years, not five.",
+        "sourceIds": [
+          "audit-subaru-forester-warranty-index",
+          "audit-subaru-forester-s5-handbook",
+          "audit-subaru-forester-s5-handbook-2023"
+        ],
+        "vehicleIds": [
+          "forester-25il-2021",
+          "forester-awd-petrol-2025"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "S5 12 months/12,500 km; MY21/MY24 first-five caps A$2,413.63/A$2,674.64. Used A$750/year retained, not a current quote. S6 model-specific schedule 12 months/15,000 km and A$2,299 first five (A$459.80/year). No blanket scheduled CVT replacement assumed.",
+        "sourceIds": [
+          "audit-subaru-forester-my21-caps",
+          "audit-subaru-forester-my24-caps",
+          "audit-subaru-forester-my26-caps",
+          "audit-subaru-forester-s5-handbook"
+        ],
+        "vehicleIds": [
+          "forester-25il-2021",
+          "forester-awd-petrol-2025"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "A$1,070/year retained from Youi mean A$1,069; model-wide sold-policy window 22 November 2025–22 May 2026. Published band A$691–1,352 is not a Queensland household quote or confidence interval; no separate S6 cohort.",
+        "sourceIds": [
+          "audit-subaru-forester-insurance"
+        ],
+        "vehicleIds": [
+          "forester-25il-2021",
+          "forester-awd-petrol-2025"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Standard S5 2.5i-L 225/60R17 99V; S6 AWD 225/55R18 98V. JAX Michelin replacement XL alternatives each A$299 fitted: four A$1,196. Assumed 45,000 km life means about A$399/year at 15,000 km; life and alignment remain assumptions.",
+        "sourceIds": [
+          "audit-subaru-forester-s5-spec",
+          "audit-subaru-forester-s6-spec",
+          "audit-subaru-forester-tyre-17",
+          "audit-subaru-forester-tyre-18"
+        ],
+        "vehicleIds": [
+          "forester-25il-2021",
+          "forester-awd-petrol-2025"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "gap",
+        "finding": "Added official MY23 driveshaft campaign with A$0 applicable remedy; October 2026 parking-pawl recall is hybrid-only, not petrol S6. Early S5 TCV inspection supported by US bulletin, not Australian extended cover. Repair funds A$1,100 used/A$600 new stay editorial savings; no annual fault probability or exact Australian installed CVT/TCV quote.",
+        "sourceIds": [
+          "audit-subaru-forester-my23-driveshaft",
+          "audit-subaru-forester-s6-hybrid-recall-excluded",
+          "audit-subaru-forester-tcv-bulletin",
+          "audit-subaru-forester-tcv-retail",
+          "audit-subaru-forester-s5-handbook"
+        ],
+        "vehicleIds": [
+          "forester-25il-2021",
+          "forester-awd-petrol-2025"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "verified",
+        "finding": "S5 3.1/5 from 57 community reports; narrower 2.5i-L page 3.5/5 from 11, with classification anomalies. Use S5 only, downweighted for scope/sample bias; S6 owner score excluded. Existing related-grade CarExpert qualitative verdicts verified.",
+        "sourceIds": [
+          "audit-subaru-forester-s5-owners",
+          "audit-subaru-forester-s5-il-owners",
+          "audit-subaru-forester-s5-roadtest",
+          "audit-subaru-forester-s6-roadtest"
+        ],
+        "vehicleIds": [
+          "forester-25il-2021",
+          "forester-awd-petrol-2025"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "Both tow 1,800 kg braked subject to payload/ball limits; rear-seat-up boots S5 498 L and S6 petrol 496 L, both with full-size spare. ANCAP 2019 versus 2024 protocols are separate. QLD four-cylinder rego/CTP A$864.50–880.50; avoid duplicating included drive-away charges.",
+        "sourceIds": [
+          "audit-subaru-forester-s5-spec",
+          "audit-subaru-forester-s6-spec",
+          "audit-subaru-forester-s5-ancap",
+          "audit-subaru-forester-s6-ancap",
+          "audit-subaru-forester-qld-rego"
+        ],
+        "vehicleIds": [
+          "forester-25il-2021",
+          "forester-awd-petrol-2025"
+        ]
+      }
+    ]
+  },
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "forester-25il-2021",
+      "point": 1100,
+      "low": 500,
+      "high": 2200,
+      "confidence": "low",
+      "basis": "ESTIMATE: A$1100/year editorial repair savings budget, not an observed average repair cost. Used petrol AWD: allow for ageing cooling, 12 V/electrical, suspension and CVT diagnosis outside the remaining five-year cover. Excludes scheduled servicing, tyres and insured accident repairs. Use applicable warranty/recall remedies first. A major transmission or engine repair can exceed the saved fund; no unsupported annual failure probability is inferred.",
+      "sourceIds": [
+        "ice-sub-warranty",
+        "ice-sub-tcv-us-bulletin",
+        "audit-subaru-forester-s5-handbook-2023"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "forester-awd-petrol-2025",
+      "point": 600,
+      "low": 250,
+      "high": 1500,
+      "confidence": "low",
+      "basis": "ESTIMATE: A$600/year editorial repair savings budget, not an observed average repair cost. New S6 petrol: current factory cover reduces near-term owner-paid defect exposure; long-term S6 incidence is not established. Increase the budget as the car ages or cover expires. Excludes scheduled servicing, tyres and insured accident repairs. Use applicable warranty/recall remedies first. A major transmission or engine repair can exceed the saved fund; no unsupported annual failure probability is inferred.",
+      "sourceIds": [
+        "ice-sub-warranty",
+        "ice-sub-forester-new-spec",
+        "audit-subaru-forester-warranty-index"
+      ],
+      "checked": "2026-10-18"
+    }
+  ]
+}

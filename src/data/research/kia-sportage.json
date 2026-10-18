@@ -1,0 +1,687 @@
+{
+  "familyId": "kia-sportage",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-kia-sportage-my22-spec",
+      "title": "Kia Australia Sportage MY22 mechanical and feature list",
+      "url": "https://s3.ap-southeast-2.amazonaws.com/assets.i-motor.com.au/kia/brochure/kia-sportage-brochure.pdf",
+      "publisher": "Kia Australia, dealer-hosted PDF",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-manual-maintenance",
+      "title": "Kia NQ5 MY22 manual: Australian non-turbo maintenance schedule",
+      "url": "https://ownersmanual.kia.com/full_webhelp/NQ5/2022/en_RG/topics/chapter8_4.html",
+      "publisher": "Kia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-warranty",
+      "title": "Kia Australia warranty terms: component limits, commercial use and transfer",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/service/Kia-Warranty-terms-and-conditions.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-service",
+      "title": "Kia Australia capped prices: 2022–25 2.0 petrol six-speed automatic",
+      "url": "https://dashboard.kia.com.au/kia/cps/kia/20170105v1_flat.html",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-family",
+      "title": "BabyDrive 2022 Sportage GT-Line: named restraints and rear-facing clearance",
+      "url": "https://babydrive.com.au/reviews/suvs/2022-kia-sportage-gt-line/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-photo-3ff",
+      "title": "BabyDrive photograph: three forward-facing Attain More seats, related GT-Line",
+      "url": "https://babydrive.com.au/wp-content/uploads/2022/01/2022_KIA_SPORTAGE_GT_LINE_SUV_58-1024x768.jpg",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-photo-3rf",
+      "title": "BabyDrive photograph: three rear-facing Attain More seats, related GT-Line",
+      "url": "https://babydrive.com.au/wp-content/uploads/2022/01/2022_KIA_SPORTAGE_GT_LINE_SUV_60-1024x768.jpg",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-photo-2rf-booster",
+      "title": "BabyDrive photograph: two rear-facing seats and one booster, related GT-Line",
+      "url": "https://babydrive.com.au/wp-content/uploads/2022/01/2022_KIA_SPORTAGE_GT_LINE_SUV_62-1024x768.jpg",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-ancap",
+      "title": "ANCAP Sportage 2022 rating and applicability",
+      "url": "https://www.ancap.com.au/safety-ratings/kia/sportage/92c727",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-ancap-report",
+      "title": "ANCAP Sportage technical report: capsule and centre convertible restrictions",
+      "url": "https://cdn.ancap.com.au/app/public/assets/849b8a685905928742bf3c639721f905438891e3/original.pdf?1772500486=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-h30465",
+      "title": "easyauto123 H30465: 2024 S 2.0 petrol automatic, Hendra",
+      "url": "https://easyauto123.com.au/buy/used-cars/details/2024/KIA/SPORTAGE/S/QLD/Brisbane/Hendra/Automatic/White/Wagon-SUV/KNAPU81DMR7324812",
+      "publisher": "easyauto123 Hendra",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-u61384",
+      "title": "Bay City Kia U61384: 2022 build/MY23 S petrol automatic",
+      "url": "https://baycitykia.com.au/u61384-1852831-kia-sportage-2022/",
+      "publisher": "Bay City Kia, Hervey Bay",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-p005416",
+      "title": "Motorama P005416: 2023 S petrol automatic, Hillcrest",
+      "url": "https://www.motoramakia.com.au/cars/used-red-2023-kia-sportage-p005416",
+      "publisher": "Motorama",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-sold-u227948",
+      "title": "Big Box Cars U227948: sold vehicle excluded from sample",
+      "url": "https://www.bigboxcars.com.au/cars/used-white-2024-kia-sportage-u227948",
+      "publisher": "Big Box Cars",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-insurance",
+      "title": "Youi Kia insurance: Sportage A$1,175 mixed-model mean, sold-policy methodology",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/kia",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-tyres",
+      "title": "JAX 235/65R17: Michelin Primacy 5 A$329 fitted including GST",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/17-inch/235-65r17",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-recall-cluster",
+      "title": "REC-005699: selected 2022–23 NQ5 seat-belt warning software",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005699",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-recall-excluded-turbo",
+      "title": "REC-006373: 1.6 T-GDI fuel-pipe recall, excluded from 2.0 MPi",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006373",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-wheels",
+      "title": "Wheels 29 January 2022: exact S 2.0 petrol automatic, 7.3/10",
+      "url": "https://www.whichcar.com.au/reviews/2022-kia-sportage-s-review",
+      "publisher": "Wheels / WhichCar",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-discoverauto",
+      "title": "DiscoverAuto 22 February 2022: S 2.0 automatic, 10.2 L/100km observed, 8/10 verdict",
+      "url": "https://www.discoverauto.com.au/reviews/2022-kia-sportage-s-2-0l-petrol-2wd-auto-review/",
+      "publisher": "DiscoverAuto",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-chasingcars",
+      "title": "Chasing Cars Australian launch: S 2.0 automatic 7.6 L/100km observed",
+      "url": "https://www.chasingcars.com.au/reviews/midsize-suvs/kia-sportage-s-and-gt-line-2022-review/",
+      "publisher": "Chasing Cars",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-owners",
+      "title": "ProductReview NQ5 petrol: 3.5/5 from six, includes a visibly misfiled 2019 QL",
+      "url": "https://www.productreview.com.au/listings/kia-sportage-nq5-petrol",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-redriven",
+      "title": "ReDriven NQ5 used-car audit: separate 2.0 MPi/six-speed from turbo/DCT and diesel",
+      "url": "https://redriven.com/reviews/kia/sportage/used-kia-sportage-review-nq5/",
+      "publisher": "ReDriven",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-sportage-qld",
+      "title": "Queensland registration fees as at 1 October 2026: four-cylinder private vehicle",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "sportage-s-petrol-2022",
+      "headline": "Roomy petrol option; exact mixed restraint fit pending",
+      "summary": "The original S 2.0 petrol uses a conventional six-speed automatic, rear vents and a full-size spare. Related GT-Line tests are encouraging, but the one-rear-facing plus two-other-seat arrangement still needs a fit check.",
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Related GT-Line trials succeeded with three forward-facing, three rear-facing, and two rear-facing seats plus a booster. The requested one-rear-facing plus two others was not established.",
+        "testedSeats": "Related 2022 GT-Line: three Infasecure Attain More forward-facing or three rear-facing; also two rear-facing Attain More plus an Aspire More booster. Reviewed photographs confirm those orientations.",
+        "buckleAccess": "Daily buckle access beside the requested mixed three-seat arrangement was not verified.",
+        "access": "BabyDrive found lifting a child in practical from inside or outside; this was GT-Line, not the S.",
+        "sourceIds": [
+          "audit-kia-sportage-family",
+          "audit-kia-sportage-photo-3ff",
+          "audit-kia-sportage-photo-3rf",
+          "audit-kia-sportage-photo-2rf-booster",
+          "audit-kia-sportage-my22-spec",
+          "audit-kia-sportage-ancap-report"
+        ]
+      },
+      "observedConsumption": {
+        "value": 10.2,
+        "unit": "L/100km",
+        "basis": "DiscoverAuto tested the exact 2022 S 2.0 petrol six-speed automatic in mixed driving. One road-test result; route, distance and refuelling method were not specified. Chasing Cars recorded 7.6 at launch on a different route. Neither is a fleet average.",
+        "sourceIds": [
+          "audit-kia-sportage-discoverauto",
+          "audit-kia-sportage-chasingcars"
+        ]
+      },
+      "safety": {
+        "applicability": "2022 five-star NQ5 rating covers the 2.0 petrol automatic; expires December 2028. Selected capsule installations and one forward-facing centre convertible failed the Australian fit checks; this does not assess three seats together.",
+        "sourceIds": [
+          "audit-kia-sportage-ancap",
+          "audit-kia-sportage-ancap-report"
+        ]
+      },
+      "servicing": "12 months / 15,000 km normally; severe-use oil services can shorten to 6 months / 7,500 km.",
+      "inspection": [
+        "Fit one rear-facing seat plus the two other restraints, then check front-seat posture, tether routing and booster buckles.",
+        "Verify first-delivery date, all service invoices and any former rental or commercial use.",
+        "Check REC-005699 by VIN; test the 2.0 six-speed auto from cold and warm, and inspect oil level/history and timing-chain noise.",
+        "Quote the next major service: brake fluid every 2 years, severe-use transmission fluid at 90,000 km; check whether your short trips meet severe-use conditions."
+      ],
+      "gaps": [
+        "No verified exact S-trim one-rear-facing plus two-other-seat test or daily booster buckle assessment.",
+        "No uncontaminated Australian NQ5 2.0 automatic owner aggregate or representative annual paid-repair dataset.",
+        "MY22 brochure verifies original core specifications; confirm later pre-facelift equipment and 2025 build/model-year by VIN.",
+        "No installed Australian exact-VIN engine or automatic-transmission repair quote was verified."
+      ],
+      "sourceIds": [
+        "audit-kia-sportage-my22-spec",
+        "audit-kia-sportage-manual-maintenance",
+        "audit-kia-sportage-ancap",
+        "audit-kia-sportage-ancap-report",
+        "audit-kia-sportage-wheels",
+        "audit-kia-sportage-discoverauto"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "ice-kr-sportage-used",
+      "vehicleId": "sportage-s-petrol-2022",
+      "low": 25990,
+      "high": 28999,
+      "point": 27980,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 3,
+      "geography": "Three distinct QLD dealer vehicles: Hendra, Hillcrest and Hervey Bay",
+      "kilometres": "33,673–62,566 km",
+      "observed": "2026-10-18",
+      "kind": "observation",
+      "confidence": "low",
+      "note": "Median of three exact S 2.0 petrol automatic asking prices, all advertised drive-away. Model/build years 2022–24 only; no 2025 observation. VINs deduplicated. Small sample and cached inventory: confirm price and availability. Sold Big Box U227948 and turbo/diesel/manual/facelift cars excluded.",
+      "sourceIds": [
+        "audit-kia-sportage-h30465",
+        "audit-kia-sportage-p005416",
+        "audit-kia-sportage-u61384"
+      ],
+      "observations": [
+        {
+          "price": 25990,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 62566,
+          "location": "Hendra QLD",
+          "url": "https://easyauto123.com.au/buy/used-cars/details/2024/KIA/SPORTAGE/S/QLD/Brisbane/Hendra/Automatic/White/Wagon-SUV/KNAPU81DMR7324812",
+          "sourceId": "audit-kia-sportage-h30465",
+          "checked": "2026-10-18",
+          "note": "Read seller page: H30465, VIN KNAPU81DMR7324812. Advertises A$25,990 drive-away; availability must be reconfirmed."
+        },
+        {
+          "price": 28999,
+          "basis": "drive-away",
+          "year": 2022,
+          "kilometres": 33673,
+          "location": "Hervey Bay QLD",
+          "url": "https://baycitykia.com.au/u61384-1852831-kia-sportage-2022/",
+          "sourceId": "audit-kia-sportage-u61384",
+          "checked": "2026-10-18",
+          "note": "Read seller page: U61384, VIN KNAPU81DMP7112243, 2022 build/MY23; A$28,999 drive-away. Web cache may lag seller stock."
+        },
+        {
+          "price": 27980,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 58929,
+          "location": "Hillcrest QLD",
+          "url": "https://www.motoramakia.com.au/cars/used-red-2023-kia-sportage-p005416",
+          "sourceId": "audit-kia-sportage-p005416",
+          "checked": "2026-10-18",
+          "note": "P005416, VIN KNAPU81DMR7238708, S 2.0 petrol automatic FWD; distinct from H30465 and U61384. Seller page available; cached inventory may lag availability."
+        }
+      ]
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "kia-sportage",
+      "serviceInterval": "12 months / 15,000 km normally; severe-use oil services can shorten to 6 months / 7,500 km.",
+      "serviceAnnual": 500,
+      "serviceLow": 350,
+      "serviceHigh": 800,
+      "serviceBasis": "A$500/year planning allowance retained. Kia lists seven normal 2.0 automatic visits at A$3,479 for 2022, A$3,331 for 2023 and A$3,344 for 2024. The 2022 year-four visit is A$759 and year-six A$706. Brake fluid is due every 2 years; engine coolant first 10 years/210,000 km and plugs at 150,000 km. Severe short-trip/stop-start use can require oil every 6 months/7,500 km and automatic fluid at 90,000 km. Budget depends on start age/km; later uncapped work needs a VIN quote.",
+      "serviceConfidence": "low",
+      "warrantyCautions": [
+        "Seven years/unlimited km for eligible private use starts at original delivery/registration, not your used purchase; transfer the owner record.",
+        "Any commercial use, including rental or rideshare, can limit the original warranty to 7 years/150,000 km.",
+        "Shorter terms apply: original 12V battery 2 years, original audio/navigation head unit 3 years; tyre wear and scheduled maintenance are separate.",
+        "Use the vehicle’s original contract and service records. Current EV or facelift terms do not define the old S petrol contract."
+      ],
+      "risks": [
+        {
+          "title": "Seat-belt warning recall",
+          "detail": "REC-005699: selected 2022–23 NQ5 VINs need instrument-cluster software correction. The separate 1.6 T-GDI fuel-pipe recall REC-006373 does not apply to this 2.0 MPi powertrain.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "Applicable recall software remedy is free; not an annual paid repair. Check all open campaigns by VIN.",
+          "warranty": "Recall remedy is separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "audit-kia-sportage-recall-cluster",
+            "audit-kia-sportage-recall-excluded-turbo"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "Oil use, cold-start noise and automatic shift quality",
+          "detail": "ReDriven’s NQ5 review distinguishes the 2.0 naturally aspirated engine and six-speed auto from the troublesome turbo/DCT reports. It suggests checking oil consumption, chain rattle and auto shudder/slip; it supplies no failure rate or installed bill.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Diagnosis and exact-VIN installed quote required. No representative Australian repair-price or failure-frequency dataset verified.",
+          "warranty": "Eligible manufacturing defects may be covered by remaining warranty; neglect, ordinary wear and ineligible history require assessment.",
+          "sourceIds": [
+            "audit-kia-sportage-redriven",
+            "audit-kia-sportage-warranty",
+            "audit-kia-sportage-manual-maintenance"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "12V battery or original multimedia after shorter coverage",
+          "detail": "These components do not automatically receive the full seven-year base coverage. Test the battery and phone/media functions, especially on a 2022 used car.",
+          "low": null,
+          "high": null,
+          "priceBasis": "No exact S installed replacement quote verified; obtain a VIN-specific quote if faulty.",
+          "warranty": "Current Kia terms specify 2 years for original 12V battery and 3 years for the original audio/navigation head unit; confirm the original contract.",
+          "sourceIds": [
+            "audit-kia-sportage-warranty"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "audit-kia-sportage-warranty",
+        "audit-kia-sportage-service",
+        "audit-kia-sportage-manual-maintenance",
+        "audit-kia-sportage-redriven"
+      ],
+      "checked": "2026-10-18",
+      "fuelEstimate": {
+        "low": 8.1,
+        "point": 9.5,
+        "high": 12,
+        "basis": "Analyst family-driving estimate retained at 9.5 L/100km, scenarios 8.1–12. Exact S automatic road tests vary: DiscoverAuto 10.2 in mixed driving and Chasing Cars 7.6 at launch. Official 8.1 combined/11.0 urban are laboratory figures. No matched fleet average or representative urban-family result; replace after your own usage.",
+        "confidence": "low",
+        "sourceIds": [
+          "audit-kia-sportage-my22-spec",
+          "audit-kia-sportage-discoverauto",
+          "audit-kia-sportage-chasingcars"
+        ]
+      }
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "kia-sportage",
+      "rating": null,
+      "outOf": 5,
+      "count": 0,
+      "scope": "Exact NQ5 2.0 naturally aspirated automatic aggregate not verified.",
+      "summary": "ProductReview displays NQ5 petrol 3.5/5 from six, but includes a plainly labelled 2019 QL review and a GT-Line turbo/DCT failure. The aggregate is excluded from scoring; exact S road-test verdicts appear separately.",
+      "positiveThemes": [
+        "A scoped SX owner reports comfort and handling; this is one anecdote, not a reliability measure."
+      ],
+      "negativeThemes": [
+        "One SX owner reports intrusive assistance; misfiled older-generation and turbo/DCT complaints cannot define S 2.0 reliability."
+      ],
+      "sourceIds": [
+        "audit-kia-sportage-owners"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-kia-sportage-discoverauto-review",
+      "familyId": "kia-sportage",
+      "vehicleIds": [
+        "sportage-s-petrol-2022"
+      ],
+      "tested": "2022 Sportage S 2.0 petrol FWD six-speed automatic",
+      "scope": "Exact launch configuration; one professional test, not an owner-reliability survey. Later pre-facelift equipment needs VIN confirmation.",
+      "publisher": "DiscoverAuto",
+      "published": "2022-02-22",
+      "checked": "2026-10-18",
+      "rating": 8,
+      "outOf": 10,
+      "verdict": "Strong ride and cabin space; weak performance, thirsty mixed-test consumption and expensive servicing.",
+      "positiveThemes": [
+        "Practical rear seat and boot.",
+        "Comfortable ride on Australian roads."
+      ],
+      "negativeThemes": [
+        "Modest acceleration and 10.2 L/100km in this mixed test.",
+        "Service costs and basic S equipment."
+      ],
+      "sourceIds": [
+        "audit-kia-sportage-discoverauto"
+      ]
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "kia-sportage",
+      "point": 1180,
+      "low": 760,
+      "high": 2500,
+      "confidence": "low",
+      "basis": "Rounded planning proxy from Youi national mixed-year/model comprehensive mean A$1,175, policies sold 22 November 2025–22 May 2026. Not an exact trim/year or Queensland household quote. The published 80%-within-or-below band is not a confidence interval; displayed wider scenarios are analyst budgets. Replace with a personal quote.",
+      "sourceIds": [
+        "audit-kia-sportage-insurance"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyreUpdates": [
+    {
+      "vehicleId": "sportage-s-petrol-2022",
+      "setCost": 1316,
+      "setLow": 980,
+      "setHigh": 1600,
+      "lifeKm": 45000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 60000,
+      "basis": "Four Michelin Primacy 5 235/65R17 108V XL at A$329 each = A$1,316. JAX includes fitting, balancing, valves, waste handling and GST; alignment extra. Original base/S brochures specify 235/65R17. Confirm placard, wheel size, load/speed index and local stock. Set bounds and tyre life are assumptions, not measured model averages.",
+      "confidence": "low",
+      "sourceIds": [
+        "audit-kia-sportage-tyres",
+        "audit-kia-sportage-my22-spec"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/65R17 108V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 329,
+        "quantity": 4,
+        "sourceId": "audit-kia-sportage-tyres",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "sportage-s-petrol-2022",
+      "point": 850,
+      "low": 350,
+      "high": 2400,
+      "confidence": "low",
+      "basis": "A$850/year analyst repair savings fund retained, not a measured annual bill or failure probability. Original 2.0 MPi/six-speed cars avoid transferring turbo/DCT, diesel/DPF or older-generation engine claims. Age, history and remaining warranty matter more than an unsupported brand average. Includes diagnosis and age-related chassis, cooling and electrical contingencies; excludes scheduled service, tyres and insured collisions. Claim eligible warranty/recalls first; one major failure can exceed the fund. No representative Australian paid-repair dataset was verified.",
+      "sourceIds": [
+        "audit-kia-sportage-warranty",
+        "audit-kia-sportage-redriven",
+        "audit-kia-sportage-manual-maintenance"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fuelUpdates": [
+    {
+      "vehicleId": "sportage-s-petrol-2022",
+      "planningRon": 91,
+      "minimumRon": 91,
+      "basis": "Kia NQ5 MY22 non-turbo manual recommends at least 91 RON outside Europe; exact Australian S 2.0 automatic test confirms 91 RON. Use the original handbook/fuel flap.",
+      "confidence": "high",
+      "sourceIds": [
+        "audit-kia-sportage-manual-maintenance",
+        "audit-kia-sportage-discoverauto"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "sportage-s-petrol-2022",
+      "scope": "related",
+      "summary": "GT-Line three-across trials are promising. They demonstrate different facing combinations, not the exact one-rear-facing plus two-other-seat target. Your fit check remains pending.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Photos show three forward-facing Attain More, three rear-facing Attain More, or two rear-facing Attain More plus an Aspire More booster. No verified one-rear-facing plus two-forward-facing/booster trial in S. ANCAP also found selected capsule/centre-seat incompatibilities.",
+          "sourceIds": [
+            "audit-kia-sportage-family",
+            "audit-kia-sportage-photo-3ff",
+            "audit-kia-sportage-photo-3rf",
+            "audit-kia-sportage-photo-2rf-booster",
+            "audit-kia-sportage-ancap-report"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No verified daily booster-buckle access test for the target arrangement.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "good",
+          "detail": "In the related GT-Line, BabyDrive accommodated a 180 cm driver or 186 cm front passenger ahead of a rear-facing Attain More. S trim and your seat geometry still need confirmation.",
+          "sourceIds": [
+            "audit-kia-sportage-family"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "BabyDrive found loading a child practical from inside or outside the related GT-Line. Three rear tethers were accessible through the boot; there is no third row.",
+          "sourceIds": [
+            "audit-kia-sportage-family",
+            "audit-kia-sportage-my22-spec"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Confirmed original 2.0 MPi/six-speed specifications, scheduled fluid work and component warranty limits. Added a third distinct QLD asking price and a second exact S road test. The requested mixed restraint arrangement and clean owner aggregate remain unverified; repair savings stay an explicit estimate.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "estimate",
+        "finding": "Three distinct 2022–24 QLD S petrol autos advertise A$25,990–28,999 drive-away, median A$27,980, 33,673–62,566 km. Small cached asking sample; sold stock excluded. No 2025 observation.",
+        "sourceIds": [
+          "audit-kia-sportage-h30465",
+          "audit-kia-sportage-p005416",
+          "audit-kia-sportage-u61384",
+          "audit-kia-sportage-sold-u227948"
+        ],
+        "vehicleIds": [
+          "sportage-s-petrol-2022"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "verified",
+        "finding": "Original 2.0 MPi FWD six-speed auto: 8.1 L/100km ADR combined, 11.0 urban; 91 RON minimum. Exact road tests returned 7.6 and 10.2; the 9.5 planning figure remains an estimate. No plug-in hardware.",
+        "sourceIds": [
+          "audit-kia-sportage-my22-spec",
+          "audit-kia-sportage-manual-maintenance",
+          "audit-kia-sportage-discoverauto",
+          "audit-kia-sportage-chasingcars"
+        ],
+        "vehicleIds": [
+          "sportage-s-petrol-2022"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "gap",
+        "finding": "Related GT-Line fits three forward-facing, three rear-facing, or two rear-facing plus booster. Exact one-rear-facing plus two others and booster buckles remain unverified. ANCAP flags selected capsule and centre-convertible failures.",
+        "sourceIds": [
+          "audit-kia-sportage-family",
+          "audit-kia-sportage-photo-3ff",
+          "audit-kia-sportage-photo-3rf",
+          "audit-kia-sportage-photo-2rf-booster",
+          "audit-kia-sportage-ancap-report"
+        ],
+        "vehicleIds": [
+          "sportage-s-petrol-2022"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Seven years/unlimited km private use from original start, transferable; any commercial history can impose 150,000 km cap. Original 12V battery 2 years and multimedia 3 years. Check the vehicle’s original contract.",
+        "sourceIds": [
+          "audit-kia-sportage-warranty"
+        ],
+        "vehicleIds": [
+          "sportage-s-petrol-2022"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "Normal 12 months/15,000 km; severe-use oil 6 months/7,500 km and auto fluid 90,000 km. Brake fluid 2 years, coolant initially 10 years/210,000 km, plugs 150,000 km. A$500/year retained; normal first-seven totals vary by year.",
+        "sourceIds": [
+          "audit-kia-sportage-manual-maintenance",
+          "audit-kia-sportage-service"
+        ],
+        "vehicleIds": [
+          "sportage-s-petrol-2022"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "A$1,180 annual planning point retained from Youi’s mixed-year Sportage A$1,175 national mean. Not an exact S/QLD household quote; public premium band is not a confidence interval.",
+        "sourceIds": [
+          "audit-kia-sportage-insurance"
+        ],
+        "vehicleIds": [
+          "sportage-s-petrol-2022"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Original S uses 235/65R17. Four Michelin Primacy 5 at A$329 fitted including GST = A$1,316. Alignment extra; assumed 45,000 km life is unmeasured. Confirm placard and local stock.",
+        "sourceIds": [
+          "audit-kia-sportage-tyres",
+          "audit-kia-sportage-my22-spec"
+        ],
+        "vehicleIds": [
+          "sportage-s-petrol-2022"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "estimate",
+        "finding": "A$850 repair fund retained, with no credible annual paid-repair average. Free cluster recall is not paid maintenance. Exclude turbo/DCT, diesel and old-generation faults; installed major-component prices remain quote gaps.",
+        "sourceIds": [
+          "audit-kia-sportage-recall-cluster",
+          "audit-kia-sportage-recall-excluded-turbo",
+          "audit-kia-sportage-redriven",
+          "audit-kia-sportage-warranty"
+        ],
+        "vehicleIds": [
+          "sportage-s-petrol-2022"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "conflict",
+        "finding": "Wheels 7.3/10 and DiscoverAuto 8/10 test exact S petrol auto. ProductReview’s 3.5/5 from six contains a 2019 QL and turbo/DCT complaints, so no owner aggregate is scored.",
+        "sourceIds": [
+          "audit-kia-sportage-wheels",
+          "audit-kia-sportage-discoverauto",
+          "audit-kia-sportage-owners"
+        ],
+        "vehicleIds": [
+          "sportage-s-petrol-2022"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "543 L VDA boot, 4,660×1,865 mm body, rear vents and full-size spare verified. Braked tow 1,650 kg, towball 100 kg; not the manual/diesel 1,900 kg. 2022 five-star rating expires Dec 2028. QLD four-cylinder private rego/CTP A$864.50–880.50.",
+        "sourceIds": [
+          "audit-kia-sportage-my22-spec",
+          "audit-kia-sportage-ancap",
+          "audit-kia-sportage-ancap-report",
+          "audit-kia-sportage-qld"
+        ],
+        "vehicleIds": [
+          "sportage-s-petrol-2022"
+        ]
+      }
+    ]
+  }
+}

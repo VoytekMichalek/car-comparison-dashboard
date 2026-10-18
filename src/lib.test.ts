@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
-import { activeFilterCount, calculateEnergy, chooseComparison, defaultCosts, defaultFilters, emptyPersonal, filterVehicles, parseBackup, parseHash, priceGroup, publicHash, rangeStandard, readPersonal, STORAGE_KEY, toggleComparison, writePersonal } from './lib';
+import { activeFilterCount, calculateEnergy, chooseComparison, CURRENT_FIT_TARGET, defaultCosts, defaultFilters, defaultOwnership, defaultWeights, emptyPersonal, filterVehicles, parseBackup, parseHash, priceGroup, publicHash, rangeStandard, readPersonal, STORAGE_KEY, toggleComparison, writePersonal } from './lib';
 import { vehicles, vehicleIds, getPrice, prices as priceSnapshots } from './data';
 import type { Fact, Vehicle } from './types';
+import { scoreVehicle } from './scoring';
 
 const fact = (value: number | null, unit: string): Fact => ({ value, unit, basis: 'Test fixture', sourceIds: [], energyBasis: 'battery' });
 const ev: Vehicle = { ...vehicles[0], powertrain: 'BEV', consumption: fact(18, 'kWh/100km') };
@@ -177,8 +178,49 @@ describe('catalogue filtering and evidence', () => {
 
 describe('private notebook backup and storage', () => {
   it('round-trips notes, fit checks, listings, child seats and settings', () => {
-    const personal = { ...emptyPersonal(), favourites: [known], notes: { [known]: 'Try the booster buckles' }, fitChecks: { [known]: true }, seatModels: 'Three forward-facing seats', listings: [{ id: 'listing-1', vehicleId: known, title: 'Local car', url: 'https://example.com/car', price: 42000, kilometres: 40000, location: 'Brisbane', status: 'test-drive' as const, notes: 'Ask for service history' }] };
+    const personal = { ...emptyPersonal(), favourites: [known], notes: { [known]: 'Try the booster buckles' }, fitChecks: { [known]: true }, seatModels: 'One rear-facing seat and two boosters', listings: [{ id: 'listing-1', vehicleId: known, title: 'Local car', url: 'https://example.com/car', price: 42000, kilometres: 40000, location: 'Brisbane', status: 'test-drive' as const, notes: 'Ask for service history' }] };
     expect(parseBackup(JSON.stringify(personal), vehicleIds)).toEqual(personal);
+  });
+  it('migrates an older backup by resetting only fit checks and retaining the rest of the notebook', () => {
+    const legacy = { ...emptyPersonal(), fitTarget: undefined, favourites: [known], notes: { [known]: 'Bring our restraints' }, fitChecks: { [known]: true, [vehicles[1].id]: false }, seatModels: 'Rear-facing restraint, exact model to check', costs: { ...defaultCosts, annualKm: 12000 }, ownership: { ...defaultOwnership, vehicleOverrides: { [known]: { insurance: 2000 } } }, weights: { ...defaultWeights, seating: 9 }, listings: [{ id: 'legacy-1', vehicleId: known, title: 'Saved car', url: '', price: 40000, kilometres: 30000, location: 'Brisbane', status: 'saved' as const, notes: 'Check seat installation' }] };
+    const migrated = parseBackup(JSON.stringify(legacy), vehicleIds);
+    expect(migrated).toEqual({ ...legacy, fitTarget: CURRENT_FIT_TARGET, fitChecks: {}, fitReviewNeeded: true });
+    expect(filterVehicles(vehicles, { ...defaultFilters, fit: 'confirmed' }, migrated.favourites, migrated.fitChecks)).toEqual([]);
+  });
+  it('loads legacy storage safely and retains new confirmations and a dismissed notice on the next reload', () => {
+    let saved = JSON.stringify({ ...emptyPersonal(), fitTarget: undefined, fitChecks: { [known]: true }, seatModels: 'Our seats' });
+    const storage = { getItem: () => saved, setItem: (_key: string, value: string) => { saved = value; } };
+    const loaded = readPersonal(storage, vehicleIds);
+    expect(loaded.error).toBeNull();
+    expect(loaded.data).toMatchObject({ fitTarget: CURRENT_FIT_TARGET, fitChecks: {}, fitReviewNeeded: true, seatModels: 'Our seats' });
+    const reconfirmed = { ...loaded.data, fitChecks: { [known]: true }, fitReviewNeeded: false };
+    expect(writePersonal(storage, reconfirmed)).toBeNull();
+    expect(readPersonal(storage, vehicleIds)).toEqual({ data: reconfirmed, error: null });
+    expect(parseBackup(JSON.stringify(reconfirmed), vehicleIds)).toEqual(reconfirmed);
+  });
+  it('does not add a review notice when a legacy notebook has no confirmed fits', () => {
+    const migrated = parseBackup(JSON.stringify({ ...emptyPersonal(), fitTarget: undefined, fitChecks: { [known]: false } }));
+    expect(migrated.fitChecks).toEqual({});
+    expect(migrated.fitReviewNeeded).toBeUndefined();
+    expect(migrated.fitTarget).toBe(CURRENT_FIT_TARGET);
+  });
+  it('rejects an unsupported fit target without replacing saved browser data', () => {
+    const raw = JSON.stringify({ ...emptyPersonal(), fitTarget: 'another-household-target', fitChecks: { [known]: true } });
+    expect(() => parseBackup(raw, vehicleIds)).toThrow('supported');
+    const storage = { getItem: () => raw, setItem: () => { throw new Error('Must not replace data on read'); } };
+    const loaded = readPersonal(storage, vehicleIds);
+    expect(loaded.error).toContain('Existing browser data has not been replaced');
+    expect(loaded.data.fitChecks).toEqual({});
+    expect(storage.getItem()).toBe(raw);
+  });
+  it('uses the researched fit score after migration until the mixed-seat target is confirmed again', () => {
+    const migrated = parseBackup(JSON.stringify({ ...emptyPersonal(), fitTarget: undefined, fitChecks: { [known]: true } }), vehicleIds);
+    const before = scoreVehicle(vehicles[0], migrated).categories.find(c => c.key === 'seating')!;
+    expect(before.score).not.toBe(10);
+    expect(before.confidence).toBeLessThan(1);
+    const confirmed = parseBackup(JSON.stringify({ ...migrated, fitChecks: { [known]: true } }), vehicleIds);
+    const after = scoreVehicle(vehicles[0], confirmed).categories.find(c => c.key === 'seating')!;
+    expect(after).toMatchObject({ score: 10, confidence: 1 });
   });
   it('rejects malformed JSON, unsupported versions and unsafe links', () => {
     expect(() => parseBackup('{')).toThrow('valid JSON');

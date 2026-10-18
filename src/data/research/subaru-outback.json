@@ -1,0 +1,822 @@
+{
+  "familyId": "subaru-outback",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-subaru-outback-spec25",
+      "title": "Australian MY25 BT Outback brochure: non-XT 2.5 mechanical, cargo, wheel and fuel specifications",
+      "url": "https://docs.subaru.com.au/Subaru-Outback-Brochure.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-launch21",
+      "title": "Original 2021 Australian Outback brochure; preliminary-specification caveat retained",
+      "url": "https://docs.subaru.com.au/All-new-Outback-Brochure.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-update23",
+      "title": "Subaru 14 February 2023 Australian MY23 update: wireless phone connectivity, USB-C and revised controls",
+      "url": "https://www.subaru.com.au/news/performance-meets-adventure-australian-arrival-of-the-highly-anticipated-turbocharged-subaru-outback",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-family21",
+      "title": "BabyDrive 2021 Sport: two forward-facing plus one rear-facing seat; roof-mounted centre belt and clearance discrepancy",
+      "url": "https://babydrive.com.au/reviews/suvs/all-new-2021-subaru-outback-sport/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-family-base21",
+      "title": "CarsGuide exact base AWD family test: 7.9/10 and observed 9.6 L/100km",
+      "url": "https://www.carsguide.com.au/family/subaru-outback-awd-82821",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-wheels-base21",
+      "title": "Wheels exact 2021 base AWD test: 8.5/10, comfort, cargo and loaded fuel-use caveat",
+      "url": "https://www.whichcar.com.au/reviews/2021-subaru-outback-awd-review",
+      "publisher": "Wheels / WhichCar",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-ancap",
+      "title": "ANCAP BT Outback 2021 rating, all variants from December 2020; expiry December 2027",
+      "url": "https://www.ancap.com.au/safety-ratings/subaru/outback/c5ee38",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-ancap-report",
+      "title": "ANCAP BT technical report, page 4 visually checked: both selected centre boosters cannot fit safely",
+      "url": "https://s3.amazonaws.com/cdn.ancap.com.au/app/public/assets/bbdcc0569192c378e9e67d4a3836e424eb2d6f8b/original.pdf",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-warranty",
+      "title": "Australian five-year warranty: transfer, exclusions and separate consumer guarantees",
+      "url": "https://www.subaru.com.au/new-vehicle-warranty",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-handbook",
+      "title": "SA1196 September 2023 Australian MY21-onward non-XT Outback warranty and 12,500 km maintenance schedule",
+      "url": "https://docs.subaru.com.au/SA1196-12-Month-12500-Kilometre-Service-Interval-Warranty-and-Service-Handbook.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-caps21",
+      "title": "Original MY21 Outback first five capped service prices: A$2,449.88 total incl GST",
+      "url": "https://docs.subaru.com.au/MY21_Outback_Capped_Price_Servicing.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-caps25",
+      "title": "MY25 non-XT Outback first five capped service prices: A$2,715.67 total incl GST",
+      "url": "https://docs.subaru.com.au/MY25-Subaru-Outback-(excluding-XT)-Capped-Price-Servicing.pdf",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-intervals",
+      "title": "Subaru Australian service intervals: separate non-XT 12,500 km and XT 15,000 km schedules",
+      "url": "https://www.subaru.com.au/servicing/scheduled-service-intervals",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-insurance",
+      "title": "Youi sold comprehensive-policy Outback mean A$1,138; mixed years and risk profiles, 22 Nov 2025–22 May 2026",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/subaru",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-tyres",
+      "title": "JAX 225/60R18 Michelin Primacy 5 104V XL, A$309 each fitted incl GST",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/225-60r18",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-recall306",
+      "title": "REC-001227 / SRT306: selected MY21 Outback unexpected braking; free remedy",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-001227",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-recall315",
+      "title": "REC-005005 / SRT315: selected MY21 Outback pre-collision braking software; free remedy",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005005",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-recall351",
+      "title": "REC-005830 / SRT351: selected MY21 Outback inhibitor-switch moisture, reversing camera/lamps; free remedy",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005830",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-recall352",
+      "title": "REC-005831 / SRT-352: 186 selected MY23 Forester/Outback and MY24 Crosstrek combined; front driveshaft defect",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005831",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-tcv-us",
+      "title": "Subaru of America TCV bulletin: 2020–22 US Outback scope and revised valve; Australian entitlement unverified",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2024/MC-10253930-0001.pdf",
+      "publisher": "Subaru of America / NHTSA",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-stock-hw3681",
+      "title": "Fresh public seller HTML: MY21 base AWD HW3681 A$25,888 drive-away, 123,976 km, InStock",
+      "url": "https://vonbibrawholesale.com.au/wholesale-stock/details/OAG-AD-26205354/2021-subaru-outback-used",
+      "publisher": "von Bibra Wholesale",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-stock-fu34790",
+      "title": "Seller advertisement read: MY21 base AWD FU34790 A$28,990 drive-away, 54,534 km; direct refresh blocked",
+      "url": "https://www.autotrader.com.au/car/15322143/subaru/outback/qld/southport/suv",
+      "publisher": "von Bibra Ferry Road via Autotrader",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-cricks-removed",
+      "title": "2023 base AWD U63073 search cache conflicts; fresh seller request redirects to general stock, excluded from sample",
+      "url": "https://www.crickssunshinecoastram.com.au/used-cars/for-sale/subaru/outback/2023/awd/6gen-my23-awd/4054566/",
+      "publisher": "Cricks Sunshine Coast RAM",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-owners",
+      "title": "ProductReview Outback 6GEN: 3.1/5 from 25 reviews; Sport/Touring/XT mixed",
+      "url": "https://www.productreview.com.au/listings/subaru-outback-6gen",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-rego",
+      "title": "Queensland 1 October 2026 registration table: private four-cylinder passenger vehicle, Class 1 CTP",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government — Transport and Main Roads",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-duty",
+      "title": "Queensland conventional 1–4 cylinder light-vehicle duty: A$3 per A$100 up to A$100,000",
+      "url": "https://www.qld.gov.au/transport/registration/fees/duty/rates",
+      "publisher": "Queensland Government — Queensland Revenue Office",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-subaru-outback-owner-resources",
+      "title": "Australian owners-resource page returned no readable vehicle manual; obtain VIN-matched handbook at inspection",
+      "url": "https://www.subaru.com.au/owners/owners-resources",
+      "publisher": "Subaru Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "outback-awd-25-2021",
+      "summary": "A roomy AWD wagon with a long boot. A related 2021 Sport test fitted one rear-facing and two forward-facing restraints. Centre booster compatibility and your own combination still need checking.",
+      "consumption": {
+        "value": 7.3,
+        "unit": "L/100km",
+        "basis": "Australian ADR 81/02 combined laboratory figure for the naturally aspirated 2.5. Separate from XT 9.0 and from observed use.",
+        "sourceIds": [
+          "audit-subaru-outback-spec25",
+          "audit-subaru-outback-update23"
+        ]
+      },
+      "observedConsumption": {
+        "value": 9.6,
+        "unit": "L/100km",
+        "basis": "CarsGuide exact 2021 base AWD: reviewer average over one week of city, suburban and brief highway driving. Route-specific observation, not a fleet average; the article’s automatic 2.0D data box is inconsistent with its explicitly identified 2.5 petrol test.",
+        "sourceIds": [
+          "audit-subaru-outback-family-base21"
+        ]
+      },
+      "boot": {
+        "value": 522,
+        "unit": "L",
+        "basis": "Rear seats occupied; VDA volume identified in the exact Australian base AWD family test. Pram shape and loading under the cargo blind still matter.",
+        "sourceIds": [
+          "audit-subaru-outback-family-base21",
+          "audit-subaru-outback-spec25"
+        ]
+      },
+      "length": {
+        "value": 4870,
+        "unit": "mm",
+        "basis": "Australian BT base specification, excluding accessories; not the seventh-generation MY26 Outback.",
+        "sourceIds": [
+          "audit-subaru-outback-spec25"
+        ]
+      },
+      "width": {
+        "value": 1875,
+        "unit": "mm",
+        "basis": "Australian BT specification excluding mirrors; width alone does not establish three-restraint fit.",
+        "sourceIds": [
+          "audit-subaru-outback-spec25"
+        ]
+      },
+      "towing": {
+        "value": 2000,
+        "unit": "kg",
+        "basis": "Maximum braked trailer mass for non-XT 2.5 with suitable equipment; 200 kg maximum tow-ball download and vehicle/axle/load limits still apply. Do not use XT 2,400 kg.",
+        "sourceIds": [
+          "audit-subaru-outback-spec25"
+        ]
+      },
+      "warranty": "5 years / unlimited km for private use from original first registration; transferable subject to terms. 12 V battery cover is 2 years. Confirm remaining cover by VIN.",
+      "servicing": "Non-XT: 12 months / 12,500 km, whichever first. First five capped visits: MY21 A$2,449.88; MY25 A$2,715.67. Older used cars need a quote for the actual next services.",
+      "safety": {
+        "stars": 5,
+        "year": 2021,
+        "applicability": "BT generation, all variants built from December 2020; Australian sale from March 2021, expiry December 2027. Report updated December 2022. Does not establish a rating for seventh-generation MY26.",
+        "sourceIds": [
+          "audit-subaru-outback-ancap",
+          "audit-subaru-outback-ancap-report"
+        ]
+      },
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Related 2021 Sport: one rear-facing plus two forward-facing seats fitted. Centre belt routing was awkward; ANCAP could not safely fit either selected centre booster. Check your exact arrangement in this base grade.",
+        "row2": "Two outer ISOFIX pairs and three rear-seatback top tethers. Centre installation uses the roof-mounted vehicle belt. ANCAP’s selected harnessed seats fitted individually across the rear row; its two selected boosters failed in the centre.",
+        "row3": "No third row.",
+        "testedSeats": "BabyDrive 2021 Sport: rear-facing behind the front passenger, two forward-facing restraints including the centre. Article does not name the restraint models; it does not prove any two harnessed seats or boosters will work.",
+        "buckleAccess": "Daily booster buckle access was not established. Test the actual belt receivers and roof-mounted centre belt with all three seats installed.",
+        "access": "The related test found loading a child from inside or outside manageable. Exact base CarsGuide test reports wide-opening doors. BabyDrive front-passenger clearance is inconsistently stated as 182 and 184 cm; use 182 cm as the conservative report, not a measurement for your seat.",
+        "ventilation": "Rear console vents and two rear USB ports; centre armrest cupholders are unavailable with a centre restraint. Base seats/tailgate are manual, unlike some higher grades.",
+        "sourceIds": [
+          "audit-subaru-outback-family21",
+          "audit-subaru-outback-family-base21",
+          "audit-subaru-outback-ancap-report",
+          "audit-subaru-outback-spec25"
+        ]
+      },
+      "pros": [
+        "Related mixed-facing three-restraint test with good front clearance.",
+        "522 L VDA boot, full-size spare and 2,000 kg braked towing.",
+        "Used MY21 base asking prices are below the A$45,000 target."
+      ],
+      "cons": [
+        "Selected centre boosters failed ANCAP installation checks; exact seats matter.",
+        "12,500 km servicing and relatively high observed city/suburban fuel use.",
+        "Touchscreen climate controls and frequent driver-assistance alerts need a test drive."
+      ],
+      "inspection": [
+        "Confirm BT sixth-generation base naturally aspirated 2.5; exclude XT, diesel, older-generation and seventh-generation MY26 ads.",
+        "Trial one rear-facing and two other restraints independently; check centre belt geometry, every buckle and front-seat clearance. Ask for the VIN-matched Australian owner manual.",
+        "Get completion evidence for REC-001227, REC-005005, REC-005830 and MY23 REC-005831 where VIN-applicable.",
+        "Check cooling/thermo-control-valve diagnosis or replacement history, CVT operation cold and hot, front suspension bushes and 12 V battery health.",
+        "Read dated 12,500 km invoices; obtain a quote for due coolant, differential fluids, spark plugs and fuel filter rather than assuming remaining capped services.",
+        "Test the touchscreen, phone connection, climate controls, windscreen and EyeSight operation. MY23 adds wireless phone connectivity and revised controls."
+      ],
+      "changes": [
+        {
+          "period": "MY21–MY22",
+          "text": "Australian BT launch: naturally aspirated 2.5 petrol AWD, 138 kW / 245 Nm, 7.3 L/100km ADR combined. Original base has manual front-seat and tailgate adjustment.",
+          "sourceIds": [
+            "audit-subaru-outback-launch21",
+            "audit-subaru-outback-family-base21"
+          ]
+        },
+        {
+          "period": "MY23–MY25",
+          "text": "The non-XT mechanical figures remain. MY23 adds wireless Apple CarPlay/Android Auto, front USB-C, revised 11.6-inch screen/climate shortcuts, steering-wheel controls and 18-inch wheel design. The new XT turbo is a separate variant. Verify equipment by model year.",
+          "sourceIds": [
+            "audit-subaru-outback-update23",
+            "audit-subaru-outback-spec25"
+          ]
+        },
+        {
+          "period": "MY26 new generation",
+          "text": "Seventh-generation Outback is outside this BT configuration. Its new-car price, cabin, safety applicability and ownership evidence must be researched separately.",
+          "sourceIds": [
+            "audit-subaru-outback-ancap",
+            "audit-subaru-outback-spec25"
+          ]
+        }
+      ],
+      "gaps": [
+        "Two sampled asking cars are MY21; later MY22–MY25 base prices are not established. Cached 2023 stock and a 2022 stock PDF failed fresh availability checks and are excluded.",
+        "Restraint models in the 2021 mixed test are unnamed; exact base-grade fit and daily booster buckle access remain pending.",
+        "No representative Australian annual repair average or verified installed BT CVT/thermo-control-valve quote found. US warranty extensions do not establish Australian entitlement.",
+        "Owner aggregate mixes non-XT and XT grades; no exact base-only rating or failure-rate dataset. Equipment changed for MY23 within this grouped mechanical configuration."
+      ],
+      "sourceIds": [
+        "audit-subaru-outback-spec25",
+        "audit-subaru-outback-launch21",
+        "audit-subaru-outback-update23",
+        "audit-subaru-outback-family21",
+        "audit-subaru-outback-family-base21",
+        "audit-subaru-outback-ancap",
+        "audit-subaru-outback-ancap-report",
+        "audit-subaru-outback-warranty",
+        "audit-subaru-outback-handbook",
+        "audit-subaru-outback-caps21",
+        "audit-subaru-outback-caps25",
+        "audit-subaru-outback-recall306",
+        "audit-subaru-outback-recall315",
+        "audit-subaru-outback-recall351",
+        "audit-subaru-outback-recall352"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "ice-sub-price-outback-awd-25-2021",
+      "vehicleId": "outback-awd-25-2021",
+      "low": 25888,
+      "high": 28990,
+      "point": 27439.0,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 2,
+      "geography": "Queensland: Helensvale and Southport",
+      "kilometres": "54,534–123,976 km",
+      "observed": "2026-10-18",
+      "note": "Two distinct MY21 base AWD asking cars, not a full MY21–MY25 valuation. HW3681 public seller HTML freshly confirms InStock at A$25,888 drive-away / 123,976 km; a cached dealer comment says price after cashback, so obtain unconditional written terms. FU34790 advertisement reads A$28,990 drive-away / 54,534 km, but fresh direct fetch returns 403. Cached U63073 and B10215 are excluded after fresh redirect/404 checks. Actual availability and later-year prices remain uncertain.",
+      "sourceIds": [
+        "audit-subaru-outback-stock-hw3681",
+        "audit-subaru-outback-stock-fu34790"
+      ],
+      "kind": "observation",
+      "confidence": "low",
+      "observations": [
+        {
+          "price": 25888,
+          "basis": "drive-away",
+          "year": 2021,
+          "kilometres": 123976,
+          "location": "Helensvale, QLD",
+          "url": "https://vonbibrawholesale.com.au/wholesale-stock/details/OAG-AD-26205354/2021-subaru-outback-used",
+          "sourceId": "audit-subaru-outback-stock-hw3681",
+          "checked": "2026-10-18",
+          "note": "VIN JF2BT9KL3MG005962; stock HW3681. Fresh InStock and asking price confirmed. Cached cashback wording requires seller confirmation; no unconditional quote."
+        },
+        {
+          "price": 28990,
+          "basis": "drive-away",
+          "year": 2021,
+          "kilometres": 54534,
+          "location": "Southport, QLD",
+          "url": "https://www.autotrader.com.au/car/15322143/subaru/outback/qld/southport/suv",
+          "sourceId": "audit-subaru-outback-stock-fu34790",
+          "checked": "2026-10-18",
+          "note": "VIN JF2BT9KL3MG010239; stock FU34790. Readable seller advertisement; fresh direct fetch blocked (403), so availability is lower-confidence."
+        }
+      ]
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "subaru-outback",
+      "serviceInterval": "BT non-XT 2.5 petrol: 12 months or 12,500 km, whichever first. Do not use the XT interval.",
+      "serviceAnnual": 750,
+      "serviceLow": 600,
+      "serviceHigh": 1100,
+      "serviceConfidence": "low",
+      "serviceBasis": "ESTIMATE: A$750/year (A$600–1,100), retained for a used BT at 15,000 km/year. Original MY21 first five caps total A$2,449.88; MY25 A$2,715.67. These are year-specific initial caps, not current post-cap quotes. Distance-scaled references are about A$588 and A$652/year respectively. Allow for ageing cars and due major visits; tyres, wear repairs and accident damage are separate.",
+      "warrantyCautions": [
+        "Five-year private-use cover runs from original first registration and transfers subject to the terms; it does not restart when bought used. Commercial-use limit is five years / 150,000 km.",
+        "The 12 V battery has two-year cover. Ordinary suspension/bush, tyre, brake and glass wear or external damage are excluded; a manufacturing defect is a different question.",
+        "Dealer mechanical protection and US thermo-control-valve extensions are separate from Australian manufacturer cover. Obtain VIN-specific Australian support before authorising a paid repair.",
+        "Australian Consumer Law guarantees remain separate. Ask Subaru to confirm original warranty clock, service eligibility and campaign completion in writing."
+      ],
+      "risks": [
+        {
+          "title": "CVT / AWD drivetrain diagnosis",
+          "detail": "Inspect cold and hot operation, shudder, warnings, leaks and matching tyres. No Australian BT non-XT failure-rate series or installed major-repair quote was verified. Do not transfer older EJ-engine, diesel or XT faults onto this 2.5.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Quote gap: VIN-specific diagnosis, parts, labour and GST required. A major repair can exceed the saved reserve.",
+          "warranty": "Manufacturing-defect remedies depend on diagnosis, remaining Australian cover and consumer guarantees; normal wear is different.",
+          "sourceIds": [
+            "audit-subaru-outback-handbook",
+            "audit-subaru-outback-warranty",
+            "audit-subaru-outback-spec25"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Thermo-control valve on early cars",
+          "detail": "A US Subaru bulletin identifies sensor contamination and a revised valve on selected US 2020–22 Outbacks. This is an inspection lead for an early BT, not evidence that every Australian MY21–MY25 is affected.",
+          "low": null,
+          "high": null,
+          "priceBasis": "No verified Australian installed BT repair quote or representative incidence; obtain diagnostic codes and replacement history.",
+          "warranty": "US 15-year / 150,000-mile cover is not an Australian entitlement. Ask Subaru Australia about the actual VIN and any goodwill.",
+          "sourceIds": [
+            "audit-subaru-outback-tcv-us",
+            "audit-subaru-outback-warranty"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "12 V battery and suspension wear",
+          "detail": "Check battery condition and front suspension bushes. Owners report problems, but self-selected posts do not establish frequency or a fixed repair price.",
+          "low": null,
+          "high": null,
+          "priceBasis": "Quote gap: inspection and chosen replacement parts determine cost; not an automatic annual repair charge.",
+          "warranty": "12 V battery written cover is two years. Ordinary suspension wear is excluded; diagnosis and statutory rights still matter.",
+          "sourceIds": [
+            "audit-subaru-outback-handbook",
+            "audit-subaru-outback-owners"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "MY21 EyeSight software recalls",
+          "detail": "Selected VINs under REC-001227 / SRT306 and REC-005005 / SRT315 may experience unwanted pre-collision braking. Verify both completion records.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 applicable official recall rectification, not a paid-repair forecast.",
+          "warranty": "Campaign remedy is separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "audit-subaru-outback-recall306",
+            "audit-subaru-outback-recall315"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "MY21 CVT inhibitor-switch recall",
+          "detail": "REC-005830 / SRT351 covers 2,610 selected MY21 Outbacks (notice year range 2021–22): moisture may affect reversing lamps/camera. This does not mean the gearbox itself requires replacement.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 applicable official recall remedy.",
+          "warranty": "Campaign remedy is separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "audit-subaru-outback-recall351"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "Selected MY23 front-driveshaft recall",
+          "detail": "REC-005831 / SRT-352 covers 186 Forester/Outback/Crosstrek vehicles combined. A front driveshaft outer race may crack and stop the vehicle. Only the listed VINs apply; this is not 186 Outbacks.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 applicable official recall remedy.",
+          "warranty": "Authorised Australian Subaru service centres provide campaign rectification.",
+          "sourceIds": [
+            "audit-subaru-outback-recall352"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sourceIds": [
+        "audit-subaru-outback-spec25",
+        "audit-subaru-outback-warranty",
+        "audit-subaru-outback-handbook",
+        "audit-subaru-outback-caps21",
+        "audit-subaru-outback-caps25",
+        "audit-subaru-outback-intervals",
+        "audit-subaru-outback-family-base21",
+        "audit-subaru-outback-recall306",
+        "audit-subaru-outback-recall315",
+        "audit-subaru-outback-recall351",
+        "audit-subaru-outback-recall352",
+        "audit-subaru-outback-tcv-us"
+      ],
+      "checked": "2026-10-18",
+      "fuelEstimate": {
+        "point": 9.6,
+        "low": 7.3,
+        "high": 11.5,
+        "confidence": "medium",
+        "basis": "L/100km planning estimate informed by CarsGuide’s exact 2021 base AWD week: 9.6 average for city, suburban and brief highway use. Replaces the previous assumed 9.0 point. The 7.3–11.5 bounds are editorial sensitivity limits, not a statistical interval; highway, load and traffic change use. Official ADR combined 7.3 remains separate. Minimum/planning fuel is 91 RON.",
+        "sourceIds": [
+          "audit-subaru-outback-family-base21",
+          "audit-subaru-outback-spec25"
+        ]
+      }
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "subaru-outback",
+      "rating": 3.1,
+      "outOf": 5,
+      "count": 25,
+      "scope": "ProductReview Australian Outback 6GEN aggregate. Mixed Sport, Touring and Touring XT reviews; no base non-XT-only breakdown. Site labels 2020–2026 and includes a sloppy 2027 alias, so use only as limited related-generation sentiment.",
+      "summary": "Small, self-selected sample with positive comfort/space reports and complaints about alerts, electronics, servicing and support. This is satisfaction evidence, not an Australian failure rate.",
+      "positiveThemes": [
+        "Comfortable long-distance cabin and useful luggage space.",
+        "AWD confidence and practical visibility."
+      ],
+      "negativeThemes": [
+        "Intrusive alerts and some infotainment complaints.",
+        "Service costs, suspension/battery complaints and variable aftersales experiences."
+      ],
+      "sourceIds": [
+        "audit-subaru-outback-owners"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-subaru-outback-carsguide-base21-expert",
+      "familyId": "subaru-outback",
+      "vehicleIds": [
+        "outback-awd-25-2021"
+      ],
+      "tested": "2021 Outback AWD base · 2.5 naturally aspirated petrol",
+      "scope": "Direct Australian base-grade family test; one week of driving, not a long-term reliability study. Body text identifies the petrol base; ignore the mismatched automatic 2.0D specifications box.",
+      "publisher": "CarsGuide",
+      "published": "2021-03-20",
+      "checked": "2026-10-18",
+      "rating": 7.9,
+      "outOf": 10,
+      "verdict": "7.9/10: useful family space, AWD and safety equipment, with relatively high observed fuel use.",
+      "positiveThemes": [
+        "Useful rear-seat and boot space, wide-opening doors and rear vents.",
+        "Comfortable family driving and extensive safety equipment."
+      ],
+      "negativeThemes": [
+        "9.6 L/100km in a mostly city/suburban week.",
+        "Plain presentation and overly sensitive indicator stalk."
+      ],
+      "sourceIds": [
+        "audit-subaru-outback-family-base21"
+      ]
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "subaru-outback",
+      "point": 1140,
+      "low": 750,
+      "high": 2500,
+      "confidence": "low",
+      "basis": "ESTIMATE: Youi national sold-policy Outback mean A$1,138 for 22 Nov 2025–22 May 2026, rounded to A$1140. Mixed years/grades and individual policyholder profiles; no exact Queensland quote, agreed value or new-generation subgroup. Published indicative bands are not confidence intervals; 80% of applicable premiums fell within or below Youi’s bands. Budget bounds are widened editorial sensitivity limits; replace with your quote.",
+      "sourceIds": [
+        "audit-subaru-outback-insurance"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyreUpdates": [
+    {
+      "vehicleId": "outback-awd-25-2021",
+      "setCost": 1236,
+      "setLow": 1000,
+      "setHigh": 1700,
+      "lifeKm": 45000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 60000,
+      "basis": "ESTIMATE: four Michelin Primacy 5 tyres in 225/60R18 104V XL at JAX’s displayed A$309 regular fitted single-tyre price each; no short-term multi-buy discount assumed. Includes GST, fitting, balancing, valves and tyre disposal. Manufacturer standard-wheel size checked; confirm the placard, load/speed rating and local stock. Alignment is extra. Life 45,000 km (30,000–60,000) is an editable assumption, not a Subaru wear study.",
+      "confidence": "low",
+      "sourceIds": [
+        "audit-subaru-outback-tyres",
+        "audit-subaru-outback-spec25",
+        "budget-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "225/60R18 104V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 309,
+        "quantity": 4,
+        "sourceId": "audit-subaru-outback-tyres",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "outback-awd-25-2021",
+      "point": 1100,
+      "low": 500,
+      "high": 2400,
+      "confidence": "low",
+      "basis": "ESTIMATE: A$1,100/year repair savings budget (A$500–2,400), retained as an editorial allowance for used BT non-XT cooling, electrical, suspension and CVT exposure after original cover. No Australian annual repair average or failure probability establishes this number. Use recall/warranty remedies first. Excludes scheduled services, tyres and insured accident repairs; a major repair may exceed the saved fund.",
+      "sourceIds": [
+        "audit-subaru-outback-warranty",
+        "audit-subaru-outback-handbook",
+        "audit-subaru-outback-tcv-us"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "outback-awd-25-2021",
+      "scope": "related",
+      "summary": "2021 Sport establishes the mixed-facing trial; base-grade installation remains to be checked. Selected centre boosters fail the separate ANCAP check.",
+      "criteria": {
+        "arrangement": {
+          "rating": "workable",
+          "detail": "BabyDrive fitted one rear-facing seat behind the passenger and two forward-facing seats, models unnamed. Centre roof-belt routing was awkward; ANCAP’s selected Type E/F centre boosters could not fit safely.",
+          "sourceIds": [
+            "audit-subaru-outback-family21",
+            "audit-subaru-outback-ancap-report"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No daily mixed-seat booster-buckle access test established. Trial your actual receivers and centre belt with all three fitted.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Related test reports good front clearance: at least a 182 cm passenger ahead of the rear-facing seat and a 184 cm driver ahead of a forward-facing seat. Passenger text also says 184 cm elsewhere; retain the conservative report.",
+          "sourceIds": [
+            "audit-subaru-outback-family21"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "BabyDrive found child loading from inside and outside manageable; the exact base family test reports wide-opening doors. No third row is involved.",
+          "sourceIds": [
+            "audit-subaru-outback-family21",
+            "audit-subaru-outback-family-base21"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Verified a mixed-facing related test, identified centre-booster exceptions and original MY21 service prices, added the selected MY23 driveshaft campaign and scoped owner sentiment. Fuel budget now uses an exact base road-test observation; uncertain annual repair and used-price assumptions remain labelled.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "estimate",
+        "finding": "A$25,888–28,990 drive-away, two distinct MY21 base cars at 54,534–123,976 km. Fresh HW3681 stock verified; cashback terms and FU34790 fresh availability need confirmation. Later-year cached listings were excluded.",
+        "sourceIds": [
+          "audit-subaru-outback-stock-hw3681",
+          "audit-subaru-outback-stock-fu34790",
+          "audit-subaru-outback-cricks-removed"
+        ],
+        "vehicleIds": [
+          "outback-awd-25-2021"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "verified",
+        "finding": "Non-XT 2.5: 138 kW / 245 Nm, ADR 7.3 L/100km, minimum 91 RON. Exact base test observed 9.6 for one urban/suburban week; this now informs the editable budget, not a fleet claim. MY23 equipment changes are listed.",
+        "sourceIds": [
+          "audit-subaru-outback-spec25",
+          "audit-subaru-outback-family-base21",
+          "audit-subaru-outback-update23"
+        ],
+        "vehicleIds": [
+          "outback-awd-25-2021"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "conflict",
+        "finding": "Related mixed-facing trial works, but restraint models are unnamed and front-passenger height is inconsistent (182/184 cm). Selected centre boosters failed ANCAP. Base-grade fit and daily booster buckles remain pending; boot is 522 L VDA.",
+        "sourceIds": [
+          "audit-subaru-outback-family21",
+          "audit-subaru-outback-family-base21",
+          "audit-subaru-outback-ancap-report"
+        ],
+        "vehicleIds": [
+          "outback-awd-25-2021"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Five years / unlimited km private-use cover transfers with the car; 12 V battery two years, ordinary wear excluded. Use the MY21-onward handbook, not the obsolete six-month-service booklet. Original VIN terms control.",
+        "sourceIds": [
+          "audit-subaru-outback-warranty",
+          "audit-subaru-outback-handbook"
+        ],
+        "vehicleIds": [
+          "outback-awd-25-2021"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "12 months / 12,500 km. Original first five caps: MY21 A$2,449.88; MY25 A$2,715.67. Retain A$750/year used-car allowance. Handbook identifies coolant at 75,000 km/72 months and plugs/filter at 100,000 km/96 months; confirm due quotes.",
+        "sourceIds": [
+          "audit-subaru-outback-handbook",
+          "audit-subaru-outback-caps21",
+          "audit-subaru-outback-caps25",
+          "audit-subaru-outback-intervals"
+        ],
+        "vehicleIds": [
+          "outback-awd-25-2021"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "A$1,140/year retained: rounded Youi Outback sold-policy mean A$1,138. Mixed years/grades and customer risk profiles; no exact household Queensland quote. Editorial A$750–2,500 sensitivity bounds.",
+        "sourceIds": [
+          "audit-subaru-outback-insurance"
+        ],
+        "vehicleIds": [
+          "outback-awd-25-2021"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Factory 225/60R18 100V; JAX Michelin Primacy 5 104V XL A$309 fitted each incl GST. Retain four-tyre A$1,236 and assumed 45,000 km life, about A$412/year at 15,000 km. Alignment and actual wear require a quote.",
+        "sourceIds": [
+          "audit-subaru-outback-tyres",
+          "audit-subaru-outback-spec25"
+        ],
+        "vehicleIds": [
+          "outback-awd-25-2021"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "estimate",
+        "finding": "Added VIN-limited MY23 front-driveshaft recall; all four applicable campaigns have free remedies. A$1,100/year reserve retained as savings, not measured repairs. No Australian installed BT CVT/TCV quote or annual failure rate established; US extension is not local cover.",
+        "sourceIds": [
+          "audit-subaru-outback-recall306",
+          "audit-subaru-outback-recall315",
+          "audit-subaru-outback-recall351",
+          "audit-subaru-outback-recall352",
+          "audit-subaru-outback-tcv-us",
+          "audit-subaru-outback-warranty"
+        ],
+        "vehicleIds": [
+          "outback-awd-25-2021"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "verified",
+        "finding": "ProductReview sixth-generation 3.1/5, 25 self-selected reviews, mixes Sport/Touring/XT. Apply limited relevance to non-XT base. Add direct CarsGuide base 7.9/10 alongside existing Wheels 8.5/10; professional scores do not measure reliability.",
+        "sourceIds": [
+          "audit-subaru-outback-owners",
+          "audit-subaru-outback-family-base21",
+          "audit-subaru-outback-wheels-base21"
+        ],
+        "vehicleIds": [
+          "outback-awd-25-2021"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "2,000 kg braked towing / 200 kg ball limit; five seats, full-size spare. BT ANCAP five-star 2021 rating expires Dec 2027. QLD private four-cylinder renewal A$864.50–880.50 including Class 1 CTP; petrol duty differs from hybrid duty. Resale remains a scenario.",
+        "sourceIds": [
+          "audit-subaru-outback-spec25",
+          "audit-subaru-outback-ancap",
+          "audit-subaru-outback-rego",
+          "audit-subaru-outback-duty"
+        ],
+        "vehicleIds": [
+          "outback-awd-25-2021"
+        ]
+      }
+    ]
+  }
+}

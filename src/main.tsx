@@ -5,5 +5,6 @@ import './dropdowns.css';
 import './mobile.css';
 import './panels.css';
 import './sticky-tables.css';
+import './research.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(<App />);

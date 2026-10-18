@@ -7,6 +7,13 @@ export interface Source {
   kind: 'manufacturer' | 'safety' | 'family-test' | 'review' | 'market' | 'recall';
   checked: string;
 }
+export type FamilyFitCriterionKey = 'arrangement' | 'buckles' | 'space' | 'access';
+export interface FamilyFitAssessment {
+  vehicleId: string;
+  scope: 'exact' | 'related' | 'unknown';
+  summary: string;
+  criteria: Record<FamilyFitCriterionKey, { rating: 'good' | 'workable' | 'restricted' | 'unknown'; detail: string; sourceIds: string[] }>;
+}
 export interface Fact {
   value: number | null;
   unit: string;
@@ -30,6 +37,8 @@ export interface Vehicle {
   range: Fact;
   battery: Fact;
   consumption: Fact;
+  observedConsumption?: Fact;
+  observedRange?: Fact;
   depletedConsumption: Fact;
   acCharging: Fact;
   dcCharging: Fact;
@@ -118,6 +127,8 @@ export interface CostSettings {
 }
 export interface PersonalData {
   version: 1;
+  fitTarget?: 'one-rear-facing-two-other-restraints-v1';
+  fitReviewNeeded?: boolean;
   favourites: string[];
   listings: Listing[];
   notes: Record<string, string>;
@@ -158,6 +169,7 @@ export interface OwnershipInfo {
   serviceHigh?: number;
   serviceConfidence?: Confidence;
   energyEstimate?: BudgetEstimate;
+  energyByVehicle?: Record<string, BudgetEstimate>;
   fuelEstimate?: BudgetEstimate;
   fuelByVehicle?: Record<string, BudgetEstimate>;
   depletedEstimate?: BudgetEstimate;

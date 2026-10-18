@@ -1,0 +1,682 @@
+{
+  "familyId": "toyota-rav4-hybrid",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-toyota-rav4-hybrid-fit21",
+      "title": "BabyDrive 2021 Cruiser: three-across arrangements, 180 cm driver clearance and anchor access",
+      "url": "https://babydrive.com.au/reviews/suvs/2021-toyota-rav4-hybrid-cruiser/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-fit26",
+      "title": "BabyDrive 2026 PHEV launch fit: related generation evidence, not GXL HEV",
+      "url": "https://babydrive.com.au/reviews/suvs/2026-toyota-rav4-phev-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-cruiser-boosters",
+      "title": "CarsGuide 2021 Cruiser AWD family test: two boosters and a capsule were a tight squeeze",
+      "url": "https://www.carsguide.com.au/family/toyota-rav4-hybrid-2021-cruiser-review-80379",
+      "publisher": "CarsGuide",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-seat-pool",
+      "title": "BabyDrive test-seat pool: not an installation map for a particular review",
+      "url": "https://babydrive.com.au/articles/will-my-child-seats-fit-in-my-car/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-brochure24",
+      "title": "Toyota Australian RAV4 brochure June 2024, dealer-hosted original",
+      "url": "https://resource.digitaldealer.com.au/pdf/596780827667a27a128e9e617343088.pdf",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-spec26",
+      "title": "Toyota Australian RAV4 specifications May 2026: HEV versus PHEV and equipment",
+      "url": "https://www.toyota.com.au/-/media/toyota/main-site/vehicle-hubs/rav4/files/20260512_gto009809_rav4_spec_table.pdf?rev=ce8a2ddd60a64574988cc62705c3145a",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-warranty",
+      "title": "Toyota Warranty Advantage detailed terms April 2026",
+      "url": "https://www.toyota.com.au/-/media/project/toyota/toyota/owners/warranty/20260401_toyota-warranty-advantage_tandcs_t2026-022197.pdf?rev=a9c6245447e84c2fa4c0cff88b0c50c5",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-service-terms",
+      "title": "Toyota service pricing eligibility, exclusions and transfer terms",
+      "url": "https://www.toyota.com.au/-/media/toyota/main-site/page-data/service/service_pricing_terms_and_conditions_20250519-v3.pdf?rev=bbd159226ba049d9ad7abe267a1746b4",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-service25",
+      "title": "Queensland Toyota dealer: 2025 eligible RAV4 standard services A$270 including GST",
+      "url": "https://www.llewellyntoyota.com.au/blog/how-much-does-it-cost-to-service-a-toyota-rav-4-capped-price-guide-for-2025/3209/",
+      "publisher": "Llewellyn Toyota",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-launch26",
+      "title": "Toyota 16 April 2026 launch: dimensions, GXL pricing and A$325 standard service cap",
+      "url": "https://www.toyota.com.au/discover/news/all-new-rav4-suv-arrives-australia-with-bold-new-styling-new-generation-technology-hybrid",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-insurance",
+      "title": "March 2026 Brisbane insurance quote study: RAV4 GX 2WD HEV A$1844 mean",
+      "url": "https://www.comparethemarket.com.au/news/ev-insurance-up-in-12-months/",
+      "publisher": "Compare the Market",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-tyre225",
+      "title": "JAX current 225/60R18 Michelin Primacy 5 A$309 each fitted including GST",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/225-60r18",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-tyre235",
+      "title": "JAX current 235/60R18 Michelin Primacy 5 A$315 each fitted including GST",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/235-60r18",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-tyre-fit26",
+      "title": "Michelin Australian selector: 2026 GXL Hybrid FWD 235/60R18 103V, placard caveat",
+      "url": "https://www.michelin.com.au/auto/manufacturers/toyota/rav4/rav4-gxl-hybrid-fwd/2026/cvt-2.5l-4cyl-petrol-slash-electric",
+      "publisher": "Michelin Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-ancap-old",
+      "title": "ANCAP old RAV4 May 2019–December 2025: all variants, expired rating datestamp",
+      "url": "https://www.ancap.com.au/safety-ratings/toyota/rav4/c922ba",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-ancap-new",
+      "title": "ANCAP March 2026-onward RAV4 HEV/PHEV remains unrated",
+      "url": "https://www.ancap.com.au/safety-ratings/toyota/rav4/b5089e",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-aaa-fuel",
+      "title": "AAA real-world 2022 GX FWD AXAH52R: 4.8 L/100km on 93 km protocol",
+      "url": "https://realworld.org.au/wp-protected/c0e3194f7218/uploads/2023/11/NOV23_RAV4-Hybrid_WEB.pdf",
+      "publisher": "Australian Automobile Association",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-whichcar-gxl23",
+      "title": "WhichCar 5 September 2023 GXL Hybrid FWD test: 6.4 L/100km measured, 7.8/10 verdict",
+      "url": "https://www.whichcar.com.au/reviews/2023-toyota-rav4-gxl-hybrid-fwd-review",
+      "publisher": "WhichCar",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-carexpert-gxl22",
+      "title": "CarExpert 2022 GXL Hybrid FWD direct road test, comfort and circa 6 L/100km use",
+      "url": "https://www.carexpert.com.au/car-reviews/2022-toyota-rav4-gxl-hybrid-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-owner-fwd",
+      "title": "ProductReview XA50 FWD Hybrid aggregate: 3.9/5, 18 contributions, not sixth generation",
+      "url": "https://www.productreview.com.au/listings/toyota-rav4-xa50-fwd-25l-hybrid",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-market-norris",
+      "title": "Norris stock U4509 exact 2022 GXL FWD Hybrid A$34990 driveaway",
+      "url": "https://nmg.com.au/u4509-1905262-toyota-rav4-2022/",
+      "publisher": "Norris Motor Group",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-market-geebung",
+      "title": "CarsGuide seller ad stock S13107; cached A$37495 conflicts with fresher recorded A$36995",
+      "url": "https://www.carsguide.com.au/car/15320487/toyota/rav4/qld/geebung/suv",
+      "publisher": "CarsGuide / TWG Cars Geebung",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-market-motorama",
+      "title": "Motorama exact new GXL FWD VIN JTM5DABV50D339094; cached price differs A$3",
+      "url": "https://motoramatoyota.dealer.toyota.com.au/new-vehicles/dealer-stock/rav4",
+      "publisher": "Motorama Toyota",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-meter-recall",
+      "title": "Official REC-006390 campaign 5GG31: selected 2022–2025 combination meters",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006390",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-vsc-recall",
+      "title": "Toyota Australian VSC recall: exact AXAH52/54 production and VIN ranges",
+      "url": "https://www.toyota.com.au/discover/news/toyota-australia-recalls-vehicles-due-to-vehicle-stability-control-system-software",
+      "publisher": "Toyota Australia",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-phev-recall26",
+      "title": "Official REC-006742 campaign 6GG85, 9 October 2026: PHEV only, not listed HEV",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006742",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-battery-guide",
+      "title": "Australian specialist guide: RAV4 Hybrid fitted new/reconditioned/cell-repair planning bands",
+      "url": "https://evhybridnetwork.com.au/toyota-rav4-camry-hybrid-battery-replacement-cost-australia/",
+      "publisher": "EV & Hybrid Network",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-manual-portal",
+      "title": "Toyota Australian owners-manual portal; no exact readable manual retrieved in this audit",
+      "url": "https://www.toyota.com.au/owners/manuals",
+      "publisher": "Toyota Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-qld-rego",
+      "title": "QLD private four-cylinder registration and CTP October 2026 guide",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-toyota-rav4-hybrid-facing-photo",
+      "title": "2026 RAV4 PHEV: one rear-facing plus two forward-facing photo",
+      "url": "https://babydrive.com.au/wp-content/uploads/2026/07/2026-toyota-rav4-phev-with-three-child-seats-installed-in-the-second-row.jpeg",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "rav4-gxl-hev-2021-25",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Three forward-facing seats fitted in a related 2021 Cruiser; a separate two-booster/capsule test was tight. Seat selection matters.",
+        "row2": "Three seatback top tethers; two outboard ISOFIX pairs. Tested Cruiser anchor access was easy; GXL seat upholstery differs.",
+        "row3": "No third row.",
+        "testedSeats": "BabyDrive demonstrated three forward-facing, or one rear-facing plus two forward-facing seats. CarsGuide fitted two boosters plus a capsule in Cruiser AWD, tightly. Neither establishes three boosters or names every installed model/position.",
+        "buckleAccess": "No verified independent buckle-access test with three boosters. The reported two-booster/capsule installation was tight; check that each buckle and belt path stays usable.",
+        "access": "Related Cruiser test found loading children easy from outside and adequate roof clearance to load from inside. No sliding rear bench or third-row fallback.",
+        "ventilation": "Rear-console air vents are documented; centre passenger sits above a floor/seat-base hump.",
+        "sourceIds": [
+          "audit-toyota-rav4-hybrid-fit21",
+          "audit-toyota-rav4-hybrid-cruiser-boosters",
+          "audit-toyota-rav4-hybrid-brochure24",
+          "audit-toyota-rav4-hybrid-seat-pool"
+        ]
+      },
+      "summary": "Efficient used hybrid with proven but combination-dependent three-across capacity in related Cruiser tests. Two boosters plus a capsule were tight. Year-specific technology and service eligibility still matter.",
+      "inspection": [
+        "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
+        "Request hybrid battery health-check records and confirm any warranty extension.",
+        "Test all restraints together, including any overlapping seatbelt paths.",
+        "Confirm model generation and equipment from build/VIN, not registration year alone.",
+        "January 2025 Australian specification recommends 91 RON; do not inherit the sixth-generation 2026 car’s 95 RON requirement.",
+        "Check centre-seat contour, buckle access and all three belt paths using your exact forward-facing seats or boosters; published fit results differ by restraint combination.",
+        "At high kilometres ask for itemised upcoming logbook work and a post-cap quote; Toyota post-cap price-tool eligibility has age and 150,000 km limits.",
+        "Confirm 2019 ANCAP rating applicability by build date; its December 2025 expiry is a datestamp issue, not a new crash test of the used car."
+      ],
+      "safety": {
+        "stars": 5,
+        "year": 2019,
+        "applicability": "2019 five-star assessment applies to all May 2019–December 2025 variants; rating expired December 2025 for new-model datestamping. It does not cover the sixth generation.",
+        "sourceIds": [
+          "audit-toyota-rav4-hybrid-ancap-old"
+        ]
+      },
+      "sourceIds": [
+        "hy-recalls",
+        "hy-rav-spec-25",
+        "hy-rav-update-23",
+        "hy-rav-launch-26",
+        "hy-toyota-safety",
+        "hy-toyota-warranty",
+        "hy-rav-fit",
+        "hy-rav-brochure-24",
+        "hy-rav-used",
+        "hy-deep-rav-old-dealer",
+        "audit-toyota-rav4-hybrid-fit21",
+        "audit-toyota-rav4-hybrid-cruiser-boosters",
+        "audit-toyota-rav4-hybrid-ancap-old",
+        "audit-toyota-rav4-hybrid-aaa-fuel",
+        "audit-toyota-rav4-hybrid-whichcar-gxl23",
+        "audit-toyota-rav4-hybrid-service-terms"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "rav4-gxl-hev-2026",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "2026 PHEV sibling fitted three across and improved tall-driver clearance; exact GXL HEV remains untested.",
+        "row2": "Australian 2026 specification confirms two outboard ISOFIX positions. Three seatback top tethers were observed in the 2026 PHEV sibling; check the GXL HEV manual and actual car.",
+        "row3": "No third row.",
+        "testedSeats": "Related PHEV launch test: three forward-facing or three rear-facing restraints fitted. Exact seat models and independent booster buckling were not reported; no GXL HEV test is claimed.",
+        "buckleAccess": "No three-booster buckle-access result verified for the GXL HEV or PHEV sibling.",
+        "access": "PHEV sibling had accessible seatback tethers and ample reported front/rear clearance; GXL has a manual tailgate and different seat trim. Check the actual car.",
+        "ventilation": "Rear passenger air vents listed for every 2026 grade in the Australian specification table.",
+        "sourceIds": [
+          "hy-rav-spec-26",
+          "hy-deep-rav-fit-phev",
+          "audit-toyota-rav4-hybrid-fit26",
+          "audit-toyota-rav4-hybrid-spec26"
+        ]
+      },
+      "inspection": [
+        "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
+        "Request hybrid battery health-check records and confirm any warranty extension.",
+        "Test all restraints together, including any overlapping seatbelt paths.",
+        "Confirm model generation and equipment from build/VIN, not registration year alone.",
+        "May 2026 specification recommends 95 RON or higher, whereas the previous generation specified 91; use a premium-petrol cost assumption.",
+        "The October 2026 MG-ECU recall REC-006742 names PHEV AXAP62R/64R, not this HEV configuration; use the exact VIN rather than transferring sibling recalls.",
+        "Confirm 235/60R18 placard/load/speed requirements; the preceding generation uses a different common GXL size.",
+        "Do not infer a new-generation owner rating or repair history from XA50 reviews."
+      ],
+      "sourceIds": [
+        "hy-recalls",
+        "hy-rav-spec-26",
+        "hy-rav-update-23",
+        "hy-rav-launch-26",
+        "hy-toyota-safety",
+        "hy-toyota-warranty",
+        "hy-deep-rav-current",
+        "hy-deep-rav-fit-phev",
+        "hy-refresh-rav6-ancap",
+        "audit-toyota-rav4-hybrid-fit26",
+        "audit-toyota-rav4-hybrid-spec26",
+        "audit-toyota-rav4-hybrid-ancap-new",
+        "audit-toyota-rav4-hybrid-phev-recall26",
+        "audit-toyota-rav4-hybrid-tyre-fit26"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "toyota-rav4-hybrid",
+      "fuelByVehicle": {
+        "rav4-gxl-hev-2021-25": {
+          "low": 4.7,
+          "high": 6.5,
+          "point": 5.5,
+          "confidence": "medium",
+          "basis": "ESTIMATE — 5.5 L/100km family-driving budget for fifth-generation GXL FWD only, not a measured fleet mean. AAA measured 4.8 in a 2022 GX FWD on its 93 km Geelong protocol; exact GXL road tests report around 6.0 (CarExpert 2022) and 6.4 at the pump (WhichCar 2023, low-kilometre car). Use an explicit midpoint with a 4.7–6.5 sensitivity band rather than present the official 4.7 as a household forecast. No transfer to the sixth generation.",
+          "sourceIds": [
+            "audit-toyota-rav4-hybrid-aaa-fuel",
+            "audit-toyota-rav4-hybrid-whichcar-gxl23",
+            "audit-toyota-rav4-hybrid-carexpert-gxl22"
+          ]
+        }
+      },
+      "serviceBasis": "ESTIMATE — A$450/year planning midpoint at 15,000 km/year. A Queensland Toyota dealer publishes A$270 incl GST for five eligible 2025 annual capped visits; the A$250–650 allowance includes older caps and a self-set post-cap buffer. It is not a promised post-cap tariff; wear, tyres and repairs are separate. Used purchase retains only the unexpired original capped-service entitlement; the clock does not restart. Toyota service terms separately limit the post-cap pricing program to current/previous-generation eligibility and less than 150,000 km; the high-kilometre bargain cannot be assumed eligible.",
+      "sourceIds": [
+        "own-hy-toyota-warranty",
+        "own-hy-toyota-service-terms",
+        "own-hy-rav4-battery-price",
+        "own-hy-toyota-vsc-recall",
+        "own-hy-rav-service-dealer",
+        "own-hy-toyota-warranty-terms",
+        "own-hy-toyota-service-faq",
+        "own-hy-rav4-2026-service-launch",
+        "audit-toyota-rav4-hybrid-warranty",
+        "audit-toyota-rav4-hybrid-service-terms",
+        "audit-toyota-rav4-hybrid-service25",
+        "audit-toyota-rav4-hybrid-launch26",
+        "audit-toyota-rav4-hybrid-aaa-fuel",
+        "audit-toyota-rav4-hybrid-whichcar-gxl23",
+        "audit-toyota-rav4-hybrid-carexpert-gxl22"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "toyota-rav4-hybrid",
+      "low": 1250,
+      "high": 2800,
+      "point": 1840,
+      "basis": "ESTIMATE — A$1,840 rounded from the March 2026 published A$1,844 GX 2WD HEV mean across available quotes. Study reference: 34-year-old male, Alderley Brisbane, targeted A$900 excess, garaged, clean history and up to 15,000 km/year. It does not identify an exact GXL, used-car age or sixth-generation quote. A$1,250–2,800 bounds remain planning assumptions, not published min/max quotes; obtain a household-specific quote.",
+      "confidence": "medium",
+      "sourceIds": [
+        "budget-insurance-study",
+        "budget-insurance-factors",
+        "budget-insurance-youi-toyota",
+        "audit-toyota-rav4-hybrid-insurance"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyreUpdates": [
+    {
+      "vehicleId": "rav4-gxl-hev-2026",
+      "setCost": 1260,
+      "setLow": 880,
+      "setHigh": 1600,
+      "lifeKm": 45000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 55000,
+      "confidence": "low",
+      "basis": "Sixth-generation GXL FWD: Michelin AU selector lists 235/60R18 103V, distinct from the old 225/60R18 proxy. JAX Michelin Primacy 5 in 235/60R18 103V is A$315 each fitted/GST included; four = A$1,260. Confirm actual placard and local stock. A$880–1,600 set bounds and 45,000 km life (30,000–55,000) remain assumptions; excludes alignment. Annual allowance = set × annual km / life.",
+      "sourceIds": [
+        "audit-toyota-rav4-hybrid-tyre-fit26",
+        "audit-toyota-rav4-hybrid-tyre235",
+        "budget-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/60R18 103V",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 315,
+        "quantity": 4,
+        "sourceId": "audit-toyota-rav4-hybrid-tyre235",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-toyota-rav4-hybrid-whichcar-gxl23",
+      "familyId": "toyota-rav4-hybrid",
+      "vehicleIds": [
+        "rav4-gxl-hev-2021-25"
+      ],
+      "tested": "2023 Toyota RAV4 GXL Hybrid FWD",
+      "scope": "Exact fifth-generation GXL FWD, MY23 equipment. Review price and waiting-time remarks are historical; observed fuel consumption is one low-kilometre test car.",
+      "publisher": "WhichCar",
+      "published": "2023-09-05",
+      "checked": "2026-10-18",
+      "rating": 7.8,
+      "outOf": 10,
+      "verdict": "Strong hybrid drivetrain and comfortable ride; technology and value slipped against newer rivals.",
+      "positiveThemes": [
+        "Hybrid response and efficiency; comfortable ride and useful cabin storage."
+      ],
+      "negativeThemes": [
+        "Small touchscreen and basic digital instruments; three adults less comfortable; test fuel use exceeded claim."
+      ],
+      "sourceIds": [
+        "audit-toyota-rav4-hybrid-whichcar-gxl23"
+      ]
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "rav4-gxl-hev-2021-25",
+      "scope": "related",
+      "summary": "Positive three-forward-facing result in Cruiser is retained. Separate booster/capsule evidence shows a tight arrangement; no exact GXL three-booster or buckle test.",
+      "criteria": {
+        "arrangement": {
+          "rating": "workable",
+          "detail": "2021 Cruiser: three forward-facing, or two forward-facing plus one rear-facing, fitted in BabyDrive. CarsGuide Cruiser AWD fitted two boosters and a capsule tightly. Models/positions are not fully specified, so no any-three or GXL-specific promise.",
+          "sourceIds": [
+            "audit-toyota-rav4-hybrid-fit21",
+            "audit-toyota-rav4-hybrid-cruiser-boosters",
+            "audit-toyota-rav4-hybrid-seat-pool"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No documented independent buckling test with three boosters; a successful harnessed-seat installation does not establish booster access.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "workable",
+          "detail": "Old Cruiser test accommodated a 180 cm driver ahead of a rear-facing seat. Centre floor/seat-base hump and tight related booster arrangement constrain space. Different seats/drivers prevent a controlled numerical comparison with Model Y.",
+          "sourceIds": [
+            "audit-toyota-rav4-hybrid-fit21",
+            "audit-toyota-rav4-hybrid-cruiser-boosters"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Related Cruiser review positively tested loading children from outside and inside; accessible boot-side tethers and outboard ISOFIX. No third row.",
+          "sourceIds": [
+            "audit-toyota-rav4-hybrid-fit21"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "rav4-gxl-hev-2026",
+      "scope": "related",
+      "summary": "New-generation PHEV sibling offers encouraging fit/legroom evidence, but does not confirm the listed GXL HEV or booster-buckle arrangement.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "BabyDrive’s 2026 PHEV launch test reports three forward-facing or rear-facing restraints, and its photo shows one rear-facing plus two forward-facing. Related powertrain/trim; exact GXL HEV installation and your restraint models remain unconfirmed.",
+          "sourceIds": [
+            "audit-toyota-rav4-hybrid-fit26",
+            "audit-toyota-rav4-hybrid-facing-photo"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "Three-booster buckle access was not documented.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "good",
+          "detail": "PHEV sibling accommodated a 186 cm driver ahead of a rear-facing restraint and taller with forward-facing seats; small centre-floor hump remains. GXL HEV has not been directly tested.",
+          "sourceIds": [
+            "audit-toyota-rav4-hybrid-fit26"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "PHEV sibling had accessible seatback tethers and outboard ISOFIX; GXL HEV cabin/trim and manual tailgate need direct checking. No anchored third-row fallback.",
+          "sourceIds": [
+            "audit-toyota-rav4-hybrid-fit26",
+            "audit-toyota-rav4-hybrid-spec26"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Related Australian tests support RAV4 three-across with meaningful combination constraints, not a universal fit. Correct new-generation tyre size/price, separate real-world fuel budget, and preserve generation-specific safety, warranty and review scope.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "conflict",
+        "finding": "Retain the existing matched sample: old GXL 2WD A$27,989–37,895 drive-away, median A$35,992.50 (4 QLD cars, 60,132–171,230 km); new GXL 2WD A$53,565–53,873 drive-away (3 QLD/NSW cars). Norris A$34,990 was re-read. Cached Geebung and Motorama pages display older A$37,495 / A$53,562 versus the fresher recorded A$36,995 / A$53,565. Several stock pages were inaccessible; availability and current price need confirmation.",
+        "sourceIds": [
+          "audit-toyota-rav4-hybrid-market-norris",
+          "audit-toyota-rav4-hybrid-market-geebung",
+          "audit-toyota-rav4-hybrid-market-motorama"
+        ],
+        "vehicleIds": [
+          "rav4-gxl-hev-2021-25",
+          "rav4-gxl-hev-2026"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "estimate",
+        "finding": "Official HEV consumption stays 4.7 old / 4.5 new L/100 km ADR 81/02. Add an old-only 5.5 L/100 km budget (4.7–6.5): AAA measured 4.8 in related GX FWD; exact GXL tests report around 6.0 and 6.4. New specification recommends 95 RON; old FWD tests used 91 RON. Neither car plugs in. Battery kWh / VIN-specific chemistry remain gaps; no PHEV figures transferred.",
+        "sourceIds": [
+          "audit-toyota-rav4-hybrid-spec26",
+          "audit-toyota-rav4-hybrid-brochure24",
+          "audit-toyota-rav4-hybrid-aaa-fuel",
+          "audit-toyota-rav4-hybrid-whichcar-gxl23",
+          "audit-toyota-rav4-hybrid-carexpert-gxl22"
+        ],
+        "vehicleIds": [
+          "rav4-gxl-hev-2021-25",
+          "rav4-gxl-hev-2026"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "verified",
+        "finding": "Old three-forward-facing fit is supported, but the related two-booster/capsule test was tight. Exact restraint allocation and three-booster buckles remain unknown. Two outboard ISOFIX pairs and three seatback tethers were observed. The new PHEV sibling accommodated a taller driver, but exact GXL HEV fit is untested. Rear vents confirmed. Old upper-floor 542 L and new up-to 705 L boot figures are not method-equivalent.",
+        "sourceIds": [
+          "audit-toyota-rav4-hybrid-fit21",
+          "audit-toyota-rav4-hybrid-cruiser-boosters",
+          "audit-toyota-rav4-hybrid-fit26",
+          "audit-toyota-rav4-hybrid-spec26",
+          "audit-toyota-rav4-hybrid-brochure24"
+        ],
+        "vehicleIds": [
+          "rav4-gxl-hev-2021-25",
+          "rav4-gxl-hev-2026"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Retain 5-year/unlimited-km private base cover, eligible 7-year engine/electric-motor/driveline cover and annual health-check traction-battery extension up to 10 years. Normal HEV capacity degradation is excluded from that defect extension; the EV-only 70% promise does not apply. Commercial use, delivery date and service compliance affect eligibility. The auxiliary 12 V battery has 2-year cover.",
+        "sourceIds": [
+          "audit-toyota-rav4-hybrid-warranty"
+        ],
+        "vehicleIds": [
+          "rav4-gxl-hev-2021-25",
+          "rav4-gxl-hev-2026"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "Normal interval: 12 months / 15,000 km. Eligible 2025 capped visits cost A$270 including GST; new 2026 visits A$325, up to five visits within original 5 years / 75,000 km. Keep A$450 annual long-horizon allowance; post-cap price is not proven. Standard scheduled parts/labour/fluids included; wear and severe-use additions excluded. The post-cap price tool has age / 150,000 km eligibility limits; exact major-service costs remain a gap.",
+        "sourceIds": [
+          "audit-toyota-rav4-hybrid-service-terms",
+          "audit-toyota-rav4-hybrid-service25",
+          "audit-toyota-rav4-hybrid-launch26"
+        ],
+        "vehicleIds": [
+          "rav4-gxl-hev-2021-25",
+          "rav4-gxl-hev-2026"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "Keep A$1,840 annual point: the public A$1,844 GX 2WD HEV quote-study mean is relevant to Brisbane but not exact GXL, household or model year. Reference: 34-year-old Alderley male, target A$900 excess, garaged, clean history, up to 15,000 km/year. A$1,250–2,800 remains an assumed sensitivity band. New-generation premium is unverified.",
+        "sourceIds": [
+          "audit-toyota-rav4-hybrid-insurance"
+        ],
+        "vehicleIds": [
+          "rav4-gxl-hev-2021-25",
+          "rav4-gxl-hev-2026"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Old 225/60R18 Michelin Primacy 5 remains A$309 each fitted including GST: A$1,236/set. Correct new GXL to 235/60R18 and A$315 each: A$1,260/set, using Michelin AU selector and JAX. Actual placard governs load/speed. Life of 45,000 km and bounds remain assumptions. At 15,000 km/year the new allowance rises A$412 → A$420.",
+        "sourceIds": [
+          "audit-toyota-rav4-hybrid-tyre225",
+          "audit-toyota-rav4-hybrid-tyre235",
+          "audit-toyota-rav4-hybrid-tyre-fit26"
+        ],
+        "vehicleIds": [
+          "rav4-gxl-hev-2021-25",
+          "rav4-gxl-hev-2026"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "estimate",
+        "finding": "VSC and 2022–25 meter recalls are VIN-scoped, free remedies. The 9 October 2026 MG-ECU recall is PHEV-only, excluded from these HEVs. Existing fitted battery guide A$4,500–7,000 new / A$2,500–4,000 reconditioned remains indicative, not a VIN quote or demonstrated XA60 compatibility. Retain A$700 old / A$500 new low-confidence savings allowances. No Australian fleet annual repair average found; anecdotes do not supply probabilities.",
+        "sourceIds": [
+          "audit-toyota-rav4-hybrid-vsc-recall",
+          "audit-toyota-rav4-hybrid-meter-recall",
+          "audit-toyota-rav4-hybrid-phev-recall26",
+          "audit-toyota-rav4-hybrid-battery-guide",
+          "audit-toyota-rav4-hybrid-warranty"
+        ],
+        "vehicleIds": [
+          "rav4-gxl-hev-2021-25",
+          "rav4-gxl-hev-2026"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "verified",
+        "finding": "ProductReview XA50 FWD HEV remains 3.9/5 from 18 contributions, mixing GX/GXL/Cruiser, pre-2021 and hire-car reports. It cannot score the sixth generation or establish failure rates. Add exact 2023 GXL WhichCar 7.8/10 review; retain CarExpert 2022 categorical verdict without inventing a number. Economy/ride positives and dated-screen/noise drawbacks remain scoped by year.",
+        "sourceIds": [
+          "audit-toyota-rav4-hybrid-owner-fwd",
+          "audit-toyota-rav4-hybrid-whichcar-gxl23",
+          "audit-toyota-rav4-hybrid-carexpert-gxl22"
+        ],
+        "vehicleIds": [
+          "rav4-gxl-hev-2021-25",
+          "rav4-gxl-hev-2026"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "Old FWD braked towing 480 kg versus new 800 kg; no AWD 1,500 kg figure transferred. Old 2019 five-star ANCAP covers May 2019–December 2025 and its datestamp has expired; new March 2026-onward HEV/PHEV remains unrated. Both use QLD four-cylinder private fees A$864.50–880.50 including Class 1 CTP, as at 1 October 2026. Comprehensive insurance is separate. Depreciation / post-cap servicing remain estimates.",
+        "sourceIds": [
+          "audit-toyota-rav4-hybrid-ancap-old",
+          "audit-toyota-rav4-hybrid-ancap-new",
+          "audit-toyota-rav4-hybrid-spec26",
+          "audit-toyota-rav4-hybrid-carexpert-gxl22",
+          "audit-toyota-rav4-hybrid-qld-rego"
+        ],
+        "vehicleIds": [
+          "rav4-gxl-hev-2021-25",
+          "rav4-gxl-hev-2026"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1038 @@
+{
+  "familyId": "byd-atto-3",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-byd-atto-3-family-2024",
+      "title": "2024 original-body Atto 3: named mixed-facing restraint test and shoulder-width limitation",
+      "url": "https://babydrive.com.au/reviews/suvs/2024-byd-atto-3-ev-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-ancap-au-report",
+      "title": "2022 Atto 3 Australian ANCAP technical report: scope and individual restraint installations",
+      "url": "https://cdn.ancap.com.au/app/public/assets/ed80c88b336ed046d519e10024561f8975cdfb00/original.pdf?1668811703=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-ancap-au-scope",
+      "title": "Atto 3 ANCAP Australian applicability: Standard/Extended and rectification conditions",
+      "url": "https://www.ancap.com.au/safety-ratings/byd/atto-3/e5634a",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-au-2025-spec",
+      "title": "Australian 2025 Essential/Premium specification sheet",
+      "url": "https://bydautomotive.com.au/brochures/BYD-ATTO-3-2025.pdf",
+      "publisher": "BYD Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-au-evo-spec",
+      "title": "Australian Atto 3 EVO brochure v3: Premium RWD specifications, visually checked",
+      "url": "https://bydautomotive.com.au/brochures/BYD-ATTO-3-EVO.pdf?v=3",
+      "publisher": "BYD Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-au-evo-manual",
+      "title": "Australian-hosted EVO Premium handbook: child-restraint instructions and market caveat",
+      "url": "https://bydautomotive.com.au/brochures/BYD-ATTO-3-EVO-Premium-Owners-Handbook.pdf?v=1",
+      "publisher": "BYD Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-aaa-extended",
+      "title": "AAA 2023 Atto 3 Extended FWD: measured 18.0 kWh/100 km and 369 km",
+      "url": "https://realworld.org.au/wp-protected/7ea00f8c93ec/uploads/2025/08/AUG25_BYD-Atto-3_WEB.pdf",
+      "publisher": "Australian Automobile Association",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-aaa-essential",
+      "title": "AAA 2025 Atto 3 Essential FWD: measured 17.1 kWh/100 km and 328 km",
+      "url": "https://realworld.org.au/wp-protected/be27311f4741/uploads/2026/06/JUNE26_BYD-Atto-3-Essential_BEV_WEB.pdf",
+      "publisher": "Australian Automobile Association",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-aaa-protocol",
+      "title": "AAA Annex IV BEV protocol v1.1: consumption measured from mains recharge",
+      "url": "https://realworld.org.au/wp-protected/9c5bc2b93c32/uploads/2025/03/250303-RWT-Annex-IV-PEV-Test-Procedure-ver1_1-March-2025.pdf",
+      "publisher": "Australian Automobile Association",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-warranty-2026",
+      "title": "2026 Australian warranty handbook: transferable cover, capacity threshold and exclusions",
+      "url": "https://bydautomotive.com.au/public/vehicle-warranty-2026.pdf",
+      "publisher": "BYD Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-service-current",
+      "title": "BYD Australian current EV service guide: 12 months/20,000 km and fluid replacements",
+      "url": "https://bydautomotive.com.au/service-and-warranty",
+      "publisher": "BYD Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-service-minor-bookings",
+      "title": "Atto 3 20,000 km/12-month serviced booking observations, supplied/fitted/GST included",
+      "url": "https://www.autoguru.com.au/car-service/byd/atto-3/20000-kms-12-months",
+      "publisher": "AutoGuru",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-service-major-bookings",
+      "title": "Atto 3 120,000 km/72-month serviced booking observations: A$498–587 incl. GST",
+      "url": "https://www.autoguru.com.au/car-service/byd/atto-3/120000-kms-72-months",
+      "publisher": "AutoGuru",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-recall-005579",
+      "title": "Australian recall REC-005579/A11.22: 703 original 2022 cars, free remedy",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005579",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-youi-premiums",
+      "title": "Youi Atto 3 comprehensive premium range: sold policies 22 November 2025–22 May 2026",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/byd",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-owners-productreview",
+      "title": "Australian Atto 3 owner reviews: 3.2/5 from 10 self-selected contributions",
+      "url": "https://www.productreview.com.au/listings/byd-atto-3",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-evo-carsguide-local",
+      "title": "2026 EVO Premium Australian first drive: 7.1/10; reported five-year service cost",
+      "url": "https://www.carsguide.com.au/ev/byd-atto-3-evo-102790",
+      "publisher": "CarsGuide",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-original-review",
+      "title": "Original Australian Extended launch review: 7.5/10; original tyre size",
+      "url": "https://www.whichcar.com.au/reviews/2023-byd-atto3-ev-review-australia",
+      "publisher": "WhichCar",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-compressor-part",
+      "title": "Original FWD Atto 3 BCO1000OE compressor: A$1,320 tax-included part-only asking price",
+      "url": "https://alliedautoonline.com.au/products/bco1000oe",
+      "publisher": "Allied Auto Online",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-tyres-17",
+      "title": "JAX 215/60R17 retail: Hankook iON GT SUV IK41A 96H BYD A$285 fitted each",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/17-inch/215-60r17",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-tyres-original-18",
+      "title": "JAX 215/55R18 retail: Michelin Primacy 5 99V XL A$319 fitted each",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/215-55r18",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-tyres-evo-18",
+      "title": "JAX 235/50R18 retail: Continental UC7 SUV 101W XL A$319 fitted each",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/235-50r18",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-qld-fees",
+      "title": "Queensland electric private-car registration and Class 1 CTP guide, 1 October 2026",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-standard-cars4us",
+      "title": "2023 Standard stock 72387/VIN ending 092575: A$27,490 excluding charges, 94,514 km",
+      "url": "https://www.cars4us.com.au/vehicles/72387",
+      "publisher": "Cars4us",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-standard-cars24",
+      "title": "2023 Standard Cars24 Sydney: A$28,690 excluding charges, 53,282 km",
+      "url": "https://www.cars24.com.au/buy-used-byd-atto-3-car-22824906765376/",
+      "publisher": "Cars24",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-extended-cars4us",
+      "title": "2022 Extended stock 72546: A$30,990 excluding charges, 46,532 km",
+      "url": "https://www.cars4us.com.au/vehicles/72546",
+      "publisher": "Cars4us",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-extended-vonbibra",
+      "title": "2023 Extended FU34633/VIN ending 052715: A$30,990 drive-away, 73,385 km",
+      "url": "https://www.vonbibramitsubishi.com.au/stock/details/OAG-AD-26008305/2023-byd-atto-3-used",
+      "publisher": "von Bibra Mitsubishi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-extended-toowoomba",
+      "title": "2023 Extended U19667/VIN ending 182071: A$28,990 drive-away, 74,447 km",
+      "url": "https://www.autotrader.com.au/car/15244050/byd/atto-3/qld/toowoomba/suv",
+      "publisher": "Autotrader / Toowoomba Automotive",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-extended-ashmore",
+      "title": "2023 Extended 004667/VIN ending 057569: A$28,990 excluding charges, 67,680 km",
+      "url": "https://www.autotrader.com.au/car/15245204/byd/atto-3/qld/ashmore/suv",
+      "publisher": "Autotrader / Gold Coast Car Warehouse",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-atto-3-essential-aspley",
+      "title": "2026/MY25 Essential H30541/VIN ending 183332: A$36,490 drive-away, 2,010 km",
+      "url": "https://easyauto123.com.au/buy/used-cars/details/2026/BYD/ATTO-3/Essential/QLD/Brisbane/Aspley/Automatic/ski-white/Wagon-SUV-Electric/LGXCE4CB7T2183332",
+      "publisher": "easyauto123 Aspley",
+      "kind": "market",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "atto3-standard-2022",
+      "headline": "Mixed three-seat fit demonstrated in related test",
+      "summary": "A related original-body test demonstrates one rear-facing capsule plus two forward-facing restraints; the exact seats matter.",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Related 2024 original-body test fitted two forward-facing seats/boosters plus a rear-facing capsule. Your seat models still need checking.",
+        "row2": "Two outer ISOFIX positions and three rear top tethers; pre-21 November 2022 builds require the prescribed Australian updates.",
+        "row3": "No third row on this five-seat configuration.",
+        "testedSeats": "Achieve More + Liberty Onyx booster forward-facing; Cocoon Go capsule rear-facing behind driver.",
+        "buckleAccess": "Three-booster buckle access was not established.",
+        "access": "Reviewer could load the rear-facing child from outside or inside; no third row.",
+        "ventilation": "Rear console air-conditioning vents observed in the original-body test.",
+        "sourceIds": [
+          "audit-byd-atto-3-family-2024",
+          "audit-byd-atto-3-ancap-au-report",
+          "audit-byd-atto-3-au-2025-spec"
+        ]
+      },
+      "gaps": [
+        "Standard-range pack appears as 49.94 kWh in one review versus 49.92 in the manufacturer reference; use VIN-specific documents.",
+        "Your specific rear-facing seat and two forward-facing seats/boosters have not been installed; a capsule result does not establish larger rear-facing-seat clearance.",
+        "No matched Standard Range observed consumption result found; its energy budget remains a labelled family proxy."
+      ],
+      "cons": [
+        "The published 2024 test flags shoulder-width limits for three forward-facing restraints.",
+        "A capsule fit does not guarantee clearance for a larger rear-facing convertible."
+      ],
+      "sourceIds": [
+        "ev-atto-2025-spec",
+        "ev-atto-original",
+        "ev-atto-family",
+        "ev-atto-ancap",
+        "ev-byd-warranty",
+        "ev-atto-standard-market",
+        "own-ev-byd-warranty",
+        "own-ev-byd-service",
+        "audit-byd-atto-3-family-2024",
+        "audit-byd-atto-3-ancap-au-report",
+        "audit-byd-atto-3-au-2025-spec"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "atto3-extended-2022",
+      "headline": "Mixed three-seat fit demonstrated in related test",
+      "summary": "A related original-body test demonstrates one rear-facing capsule plus two forward-facing restraints; the exact seats matter.",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Related 2024 original-body test fitted two forward-facing seats/boosters plus a rear-facing capsule. Your seat models still need checking.",
+        "row2": "Two outer ISOFIX positions and three rear top tethers; pre-21 November 2022 builds require the prescribed Australian updates.",
+        "row3": "No third row on this five-seat configuration.",
+        "testedSeats": "Achieve More + Liberty Onyx booster forward-facing; Cocoon Go capsule rear-facing behind driver.",
+        "buckleAccess": "Three-booster buckle access was not established.",
+        "access": "Reviewer could load the rear-facing child from outside or inside; no third row.",
+        "ventilation": "Rear console air-conditioning vents observed in the original-body test.",
+        "sourceIds": [
+          "audit-byd-atto-3-family-2024",
+          "audit-byd-atto-3-ancap-au-report",
+          "audit-byd-atto-3-au-2025-spec"
+        ]
+      },
+      "gaps": [
+        "Standard-range pack appears as 49.94 kWh in one review versus 49.92 in the manufacturer reference; use VIN-specific documents.",
+        "Your specific rear-facing seat and two forward-facing seats/boosters have not been installed; a capsule result does not establish larger rear-facing-seat clearance.",
+        "AAA observed results are for a May 2023 Extended FWD, not every load, wheel/tyre condition or driving route."
+      ],
+      "cons": [
+        "The published 2024 test flags shoulder-width limits for three forward-facing restraints.",
+        "A capsule fit does not guarantee clearance for a larger rear-facing convertible."
+      ],
+      "sourceIds": [
+        "ev-atto-2025-spec",
+        "ev-atto-original",
+        "ev-atto-family",
+        "ev-atto-ancap",
+        "ev-byd-warranty",
+        "ev-atto-market",
+        "own-ev-byd-warranty",
+        "own-ev-byd-service",
+        "audit-byd-atto-3-family-2024",
+        "audit-byd-atto-3-ancap-au-report",
+        "audit-byd-atto-3-au-2025-spec"
+      ],
+      "checked": "2026-10-18",
+      "observedConsumption": {
+        "value": 18,
+        "unit": "kWh/100km",
+        "basis": "AAA mains-recharge result: May 2023 Extended FWD, 23,040 km odometer; Geelong 93 km circuit, 4–7 April 2025, damp/dry, 17°C. Includes AC charging losses; not a WLTP claim.",
+        "sourceIds": [
+          "audit-byd-atto-3-aaa-extended",
+          "audit-byd-atto-3-aaa-protocol"
+        ],
+        "energyBasis": "wall"
+      },
+      "observedRange": {
+        "value": 369,
+        "unit": "km",
+        "basis": "AAA observed route-derived range, same 2023 Extended test; not the 420 km WLTP or 480 km NEDC claim.",
+        "sourceIds": [
+          "audit-byd-atto-3-aaa-extended",
+          "audit-byd-atto-3-aaa-protocol"
+        ]
+      }
+    },
+    {
+      "id": "atto3-essential-2025",
+      "headline": "Mixed three-seat fit demonstrated in related test",
+      "summary": "A related original-body test demonstrates one rear-facing capsule plus two forward-facing restraints; the exact seats matter.",
+      "familyFit": {
+        "status": "tested-related",
+        "summary": "Related 2024 original-body test fitted two forward-facing seats/boosters plus a rear-facing capsule. Your seat models still need checking.",
+        "row2": "Essential-specific anchor positions need physical confirmation; related original-body ANCAP test has two outer ISOFIX pairs and three top tethers.",
+        "row3": "No third row on this five-seat configuration.",
+        "testedSeats": "Achieve More + Liberty Onyx booster forward-facing; Cocoon Go capsule rear-facing behind driver.",
+        "buckleAccess": "Three-booster buckle access was not established.",
+        "access": "Reviewer could load the rear-facing child from outside or inside; no third row.",
+        "ventilation": "Australian Essential sheet includes rear air-conditioning vents; check airflow with seats fitted.",
+        "sourceIds": [
+          "audit-byd-atto-3-family-2024",
+          "audit-byd-atto-3-ancap-au-report",
+          "audit-byd-atto-3-au-2025-spec"
+        ]
+      },
+      "gaps": [
+        "ANCAP applicability to this later-named Essential grade not independently matched; no star value entered.",
+        "Your specific rear-facing seat and two forward-facing seats/boosters have not been installed; a capsule result does not establish larger rear-facing-seat clearance.",
+        "AAA Essential report publishes 11 kW AC, while commonly quoted original-platform AC is 7 kW and the matched AU sheet omits an AC maximum; confirm the VIN. No peak entered."
+      ],
+      "cons": [
+        "The published 2024 test flags shoulder-width limits for three forward-facing restraints.",
+        "A capsule fit does not guarantee clearance for a larger rear-facing convertible."
+      ],
+      "sourceIds": [
+        "ev-atto-2025-spec",
+        "ev-atto-family",
+        "ev-byd-warranty",
+        "ev-atto-essential-order",
+        "own-ev-byd-warranty",
+        "own-ev-byd-service",
+        "audit-byd-atto-3-family-2024",
+        "audit-byd-atto-3-ancap-au-report",
+        "audit-byd-atto-3-au-2025-spec"
+      ],
+      "checked": "2026-10-18",
+      "observedConsumption": {
+        "value": 17.1,
+        "unit": "kWh/100km",
+        "basis": "AAA mains-recharge result: February 2025 Essential FWD, 20,480 km odometer; Geelong 93 km circuit, 16–20 April 2026, dry, 20–24°C. Includes charging losses; not a WLTP claim.",
+        "sourceIds": [
+          "audit-byd-atto-3-aaa-essential",
+          "audit-byd-atto-3-aaa-protocol"
+        ],
+        "energyBasis": "wall"
+      },
+      "observedRange": {
+        "value": 328,
+        "unit": "km",
+        "basis": "AAA observed route-derived range, same 2025 Essential test. Compare with 345 km WLTP separately from 410 km NEDC; not a 20% shortfall from WLTP.",
+        "sourceIds": [
+          "audit-byd-atto-3-aaa-essential",
+          "audit-byd-atto-3-aaa-protocol"
+        ]
+      },
+      "acCharging": {
+        "value": null,
+        "unit": "kW",
+        "basis": "Conflicting AC evidence: AAA Essential report says 11 kW; AU Essential specification sheet omits maximum and original-platform sources commonly report 7 kW. Obtain VIN-specific confirmation.",
+        "sourceIds": [
+          "audit-byd-atto-3-aaa-essential",
+          "audit-byd-atto-3-au-2025-spec"
+        ]
+      },
+      "chargeTime": "AAA tested Essential: 10–100% AC in 7 h 4 min. Its report labels the AC rate 11 kW; resolve this against VIN specifications before choosing charging equipment."
+    },
+    {
+      "id": "atto3-evo-premium-2026",
+      "cons": [
+        "Observed Queensland new in-transit asking price is above the A$45,000 target.",
+        "Australian restraint fit and long-term repair evidence remain unverified."
+      ],
+      "safety": {
+        "stars": null,
+        "year": null,
+        "applicability": "Original 2022 ANCAP detailed scope names Standard/Extended FWD; no explicit EVO Premium RWD extension verified. A secondary review carries the old stars, so they are not imported here.",
+        "sourceIds": [
+          "audit-byd-atto-3-ancap-au-scope",
+          "audit-byd-atto-3-ancap-au-report",
+          "audit-byd-atto-3-evo-carsguide-local"
+        ]
+      },
+      "sourceIds": [
+        "ev-atto-evo",
+        "ev-byd-warranty",
+        "ev-atto-evo-price",
+        "own-ev-byd-warranty",
+        "ev-deep-atto-evo-brochure",
+        "ev-energy-method-wltp",
+        "own-ev-byd-service",
+        "audit-byd-atto-3-au-evo-spec",
+        "audit-byd-atto-3-au-evo-manual",
+        "audit-byd-atto-3-ancap-au-report",
+        "audit-byd-atto-3-evo-carsguide-local"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "ev-price-atto-std",
+      "vehicleId": "atto3-standard-2022",
+      "low": 27490,
+      "high": 28690,
+      "condition": "used",
+      "basis": "excludes-charges",
+      "sampleCount": 2,
+      "geography": "Cars4us, Eagle Farm / Pinkenba QLD; Cars24, Sydney, NSW",
+      "kilometres": "53,282–94,514 km; exact configuration examples detailed below",
+      "observed": "2026-10-18",
+      "note": "Two distinct 2023 Standard cars, both excluding government charges. QLD: 94,514 km; Sydney: 53,282 km. Packages on one Cars24 car count once. Small asking-price sample; transport and QLD total quote still required. Cars4us includes generic reserved-modal text in HTML; its actual vehicle card remains Reserve Now, so confirm availability.",
+      "sourceIds": [
+        "audit-byd-atto-3-standard-cars4us",
+        "audit-byd-atto-3-standard-cars24"
+      ],
+      "confidence": "medium",
+      "estimateBasis": "Median of the included advertised amounts. The displayed low/high are only the included observations, not an estimated market range.",
+      "observations": [
+        {
+          "price": 27490,
+          "basis": "excludes-charges",
+          "year": 2023,
+          "kilometres": 94514,
+          "location": "Cars4us, Eagle Farm / Pinkenba QLD",
+          "url": "https://www.cars4us.com.au/vehicles/72387",
+          "sourceId": "audit-byd-atto-3-standard-cars4us",
+          "checked": "2026-10-18",
+          "note": "Stock 72387. Primary current amount A$27,490 supersedes A$27,990 index. Charge basis corroborated by original carsales ad for this same car; counted once."
+        },
+        {
+          "price": 28690,
+          "basis": "excludes-charges",
+          "year": 2023,
+          "kilometres": 53282,
+          "location": "Cars24, Sydney, NSW",
+          "url": "https://www.cars24.com.au/buy-used-byd-atto-3-car-22824906765376/",
+          "sourceId": "audit-byd-atto-3-standard-cars24",
+          "checked": "2026-10-18",
+          "note": "Used Standard Range. Base package A$28,690 excluding government charges; optional package A$29,939 is the same car, not a second observation. Interstate delivery/QLD registration require a quote. Page seller label “Sold by Cars24” identifies the seller, not a sold-stock status."
+        }
+      ],
+      "point": 28090,
+      "kind": "observation"
+    },
+    {
+      "id": "ev-price-atto-ext",
+      "vehicleId": "atto3-extended-2022",
+      "low": 28990,
+      "high": 30990,
+      "condition": "used",
+      "basis": "mixed",
+      "sampleCount": 4,
+      "geography": "Southport, Brisbane/Pinkenba, Toowoomba and Ashmore, Queensland",
+      "kilometres": "46,532–74,447 km; 2022–2023 exact Extended FWD cars",
+      "observed": "2026-10-18",
+      "note": "Four distinct Extended FWD asks: two drive-away and two excluding government charges. Median headline amount A$29,990 is not fee-normalised. Excludes previously sold Norris car and ads whose current detail page no longer prints an asking price. Do not count cross-posts twice.",
+      "sourceIds": [
+        "audit-byd-atto-3-extended-vonbibra",
+        "audit-byd-atto-3-extended-cars4us",
+        "audit-byd-atto-3-extended-toowoomba",
+        "audit-byd-atto-3-extended-ashmore"
+      ],
+      "confidence": "low",
+      "estimateBasis": "Median of four included advertised amounts (A$28,990, A$28,990, A$30,990, A$30,990). Small convenience sample with mixed fee basis; low/high are observed asks, not market valuation bounds. Compare each all-in total before negotiating.",
+      "observations": [
+        {
+          "price": 30990,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 73385,
+          "location": "von Bibra Ferry Road, Southport QLD",
+          "url": "https://www.vonbibramitsubishi.com.au/stock/details/OAG-AD-26008305/2023-byd-atto-3-used",
+          "sourceId": "audit-byd-atto-3-extended-vonbibra",
+          "checked": "2026-10-18",
+          "note": "Stock FU34633; February 2023 build, March compliance; VIN ending 052715. Dealer identifies 60.4 kWh. A$1,000 sale discount already included, not deducted again."
+        },
+        {
+          "price": 30990,
+          "basis": "excludes-charges",
+          "year": 2022,
+          "kilometres": 46532,
+          "location": "Cars4us, Brisbane QLD",
+          "url": "https://www.cars4us.com.au/vehicles/72546",
+          "sourceId": "audit-byd-atto-3-extended-cars4us",
+          "checked": "2026-10-18",
+          "note": "Stock 72546. Current primary seller page explicitly A$30,990 excluding government charges; additional dealer fees may apply."
+        },
+        {
+          "price": 28990,
+          "basis": "drive-away",
+          "year": 2023,
+          "kilometres": 74447,
+          "location": "Toowoomba Automotive Used Cars, QLD",
+          "url": "https://www.autotrader.com.au/car/15244050/byd/atto-3/qld/toowoomba/suv",
+          "sourceId": "audit-byd-atto-3-extended-toowoomba",
+          "checked": "2026-10-18",
+          "note": "Stock U19667, VIN ending 182071, plate 323IW5. Advertised registration expiry June 2026 has passed; confirm renewed drive-away inclusions. Dalby Ford cross-post is this same physical car and is not counted again."
+        },
+        {
+          "price": 28990,
+          "basis": "excludes-charges",
+          "year": 2023,
+          "kilometres": 67680,
+          "location": "Gold Coast Car Warehouse, Ashmore QLD",
+          "url": "https://www.autotrader.com.au/car/15245204/byd/atto-3/qld/ashmore/suv",
+          "sourceId": "audit-byd-atto-3-extended-ashmore",
+          "checked": "2026-10-18",
+          "note": "Stock 004667, VIN ending 057569, plate 861QN3; registration advertised to November 2026."
+        }
+      ],
+      "point": 29990,
+      "kind": "observation"
+    },
+    {
+      "id": "ev-price-atto-essential",
+      "vehicleId": "atto3-essential-2025",
+      "low": 36490,
+      "high": 36490,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 1,
+      "geography": "easyauto123 Aspley, Queensland",
+      "kilometres": "2,010 km (current structured vehicle card); dealer description also says 10 km, so verify odometer",
+      "observed": "2026-10-18",
+      "note": "One fresh primary dealer MY25 Essential listed as 2026 used stock H30541, VIN ending 183332. Current detail card A$36,490 supersedes A$36,990 search index. Card odometer 2,010 km conflicts with stale narrative 10 km. Registration UNREG; confirm drive-away registration inclusions and warranty start. Former Hendra H30546 ad could not be live-verified in this audit and is excluded.",
+      "sourceIds": [
+        "audit-byd-atto-3-essential-aspley"
+      ],
+      "confidence": "low",
+      "estimateBasis": "Single included advertised amount; not a market valuation or a new-car RRP. Vehicle card is used for current price/odometer; conflicting narrative is flagged.",
+      "observations": [
+        {
+          "price": 36490,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": 2010,
+          "location": "easyauto123 Aspley, QLD",
+          "url": "https://easyauto123.com.au/buy/used-cars/details/2026/BYD/ATTO-3/Essential/QLD/Brisbane/Aspley/Automatic/ski-white/Wagon-SUV-Electric/LGXCE4CB7T2183332",
+          "sourceId": "audit-byd-atto-3-essential-aspley",
+          "checked": "2026-10-18",
+          "note": "H30541 / VIN LGXCE4CB7T2183332, labelled MY25 Essential. Odometer card 2,010 km; description 10 km. UNREG: request written registration inclusions and original warranty start. Current price A$36,490."
+        }
+      ],
+      "point": 36490,
+      "kind": "observation"
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "byd-atto-3",
+      "serviceBasis": "ESTIMATE: original FWD A$350/year (A$250–450) retained. RACQ 2024 new-to-five-year same-model service reference A$315.84/year at 15,000 km. Fresh AutoGuru completed bookings show original Atto minor services A$165–248 and 120,000 km/72-month major visits A$498–587 incl. GST, sometimes extras. These are visits, not annual averages or guaranteed future tariffs. The manufacturer current guide confirms 12 months/20,000 km, periodic brake/drive fluids and 48-month coolant; obtain the actual VIN schedule. EVO Premium has a separate A$334/year first-five-year reported schedule average below. Excludes tyres and fault repairs.",
+      "serviceByVehicle": {
+        "atto3-evo-premium-2026": {
+          "serviceAnnual": 334,
+          "serviceLow": 250,
+          "serviceHigh": 500,
+          "serviceBasis": "ESTIMATE: CarsGuide Australian EVO launch report, 2 October 2026, quotes A$1,670 capped scheduled servicing over first five years; A$1,670 / 5 = A$334/year. Not a verified ten-year average or a current itemised BYD dealer quote. Range A$250–500 is an analyst sensitivity allowance, not published price bounds. Confirm eligibility, inclusions and major-fluid work for the VIN.",
+          "serviceConfidence": "medium"
+        }
+      },
+      "sourceIds": [
+        "own-ev-byd-warranty",
+        "own-ev-byd-update",
+        "own-ev-byd-service",
+        "own-ev-est-service-atto-minor",
+        "own-ev-est-service-byd-proxy",
+        "own-ev-service-racq2024",
+        "audit-byd-atto-3-service-current",
+        "audit-byd-atto-3-service-minor-bookings",
+        "audit-byd-atto-3-service-major-bookings",
+        "audit-byd-atto-3-evo-carsguide-local",
+        "audit-byd-atto-3-warranty-2026",
+        "audit-byd-atto-3-recall-005579",
+        "audit-byd-atto-3-compressor-part"
+      ],
+      "checked": "2026-10-18",
+      "warrantyCautions": [
+        "Current handbook: vehicle 6 years / 150,000 km; power battery and drive unit 8 years / 160,000 km. Confirm the updated terms against the VIN and first-registration date.",
+        "Australian reporting says the April 2025 simplified warranty was backdated to deliveries from August 2022. The current booklet alone does not establish each older VIN’s amendment: obtain written BYD confirmation before relying on removal of the original component carve-outs.",
+        "Battery retention threshold is 70%; an eligible remedy may use a repaired, new, reconditioned or remanufactured unit. Normal wear, impact and flood damage are excluded.",
+        "Current booklet: auxiliary lead-acid battery and emergency AC/discharge cable have 12-month limits (auxiliary battery also 20,000 km). The warranty follows the car, with maintenance records required; Queensland timing generally starts at first registration, including an earlier demonstrator registration.",
+        "Current 2026 handbook also excludes vehicles acquired at auction or imported outside BYD Australia. This wording's application to a used car's ownership history is not resolved here: obtain written VIN-specific coverage confirmation if auction/grey-import history exists."
+      ]
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-atto-evo-carsguide-au",
+      "familyId": "byd-atto-3",
+      "vehicleIds": [
+        "atto3-evo-premium-2026"
+      ],
+      "tested": "2026 BYD Atto 3 EVO Premium RWD",
+      "scope": "Australian manufacturer-hosted first drive. Article covers both variants but explicitly only Premium was driven; no child-restraint installation or long-term reliability trial. Some embedded spec/warranty entries conflict with official documents and are not adopted.",
+      "publisher": "CarsGuide",
+      "published": "2026-10-02",
+      "checked": "2026-10-18",
+      "rating": 7.1,
+      "outOf": 10,
+      "verdict": "More appealing handling and cabin; ride firmness remains a compromise.",
+      "positiveThemes": [
+        "Improved driving composure and a less cluttered console.",
+        "Competitive equipment and larger Premium luggage capacity."
+      ],
+      "negativeThemes": [
+        "Firm reactions to some bumps and limited steering feedback.",
+        "Climate controls still require the touchscreen."
+      ],
+      "sourceIds": [
+        "audit-byd-atto-3-evo-carsguide-local"
+      ]
+    }
+  ],
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "atto3-standard-2022",
+      "point": 650,
+      "low": 350,
+      "high": 1300,
+      "confidence": "low",
+      "basis": "A$650/year savings allowance retained for an ageing 2022–2024 original FWD car, not a measured annual repair average. Current handbook gives 6 years/150,000 km for manufacturing defects, with wear excluded and explicit shorter auxiliary-battery/body-adjustment provisions; do not assume the obsolete three-year infotainment carve-out still applies. No Australian model-specific failure-frequency dataset or defensible actuarial annual repair average found. Compressor A$1,320 is a parts-only example, not a common fault or annual bill. Claim eligible warranty/recall remedies first. Excludes scheduled service, tyres and insured accidents; a full pack stress case is separate.",
+      "sourceIds": [
+        "own-ev-byd-warranty",
+        "audit-byd-atto-3-warranty-2026",
+        "audit-byd-atto-3-recall-005579",
+        "audit-byd-atto-3-compressor-part"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "atto3-extended-2022",
+      "point": 650,
+      "low": 350,
+      "high": 1300,
+      "confidence": "low",
+      "basis": "A$650/year savings allowance retained for an ageing 2022–2024 original FWD car, not a measured annual repair average. Current handbook gives 6 years/150,000 km for manufacturing defects, with wear excluded and explicit shorter auxiliary-battery/body-adjustment provisions; do not assume the obsolete three-year infotainment carve-out still applies. No Australian model-specific failure-frequency dataset or defensible actuarial annual repair average found. Compressor A$1,320 is a parts-only example, not a common fault or annual bill. Claim eligible warranty/recall remedies first. Excludes scheduled service, tyres and insured accidents; a full pack stress case is separate.",
+      "sourceIds": [
+        "own-ev-byd-warranty",
+        "audit-byd-atto-3-warranty-2026",
+        "audit-byd-atto-3-recall-005579",
+        "audit-byd-atto-3-compressor-part"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "atto3-essential-2025",
+      "point": 550,
+      "low": 300,
+      "high": 1150,
+      "confidence": "low",
+      "basis": "A$550/year savings allowance retained for the younger original-platform Essential. Current vehicle/battery cover can reduce eligible defect bills; wear, short-term auxiliary battery items and later post-warranty work still need a buffer. No measured model-specific annual failure-cost evidence supports a precise expected repair bill. Excludes servicing, tyres and insured accidents; full traction-battery replacement is a separate stress case.",
+      "sourceIds": [
+        "own-ev-byd-warranty",
+        "audit-byd-atto-3-warranty-2026",
+        "audit-byd-atto-3-recall-005579",
+        "audit-byd-atto-3-compressor-part"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "atto3-evo-premium-2026",
+      "point": 650,
+      "low": 350,
+      "high": 1500,
+      "confidence": "low",
+      "basis": "New rear-drive EVO architecture has little Australian long-term repair evidence. Warranty limits early exposure; the broad buffer reflects unknown parts and post-cover costs, not a measured defect rate. Analyst savings allowance, not an observed average repair bill. Rounded assumptions use age, cover and component costs. Excludes servicing, tyres and insured crashes. Claim warranty/recall remedies first. Full battery replacement is a separate stress case and can exceed this fund.",
+      "sourceIds": [
+        "own-ev-byd-warranty",
+        "audit-byd-atto-3-warranty-2026",
+        "audit-byd-atto-3-recall-005579",
+        "audit-byd-atto-3-compressor-part"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "atto3-standard-2022",
+      "scope": "related",
+      "summary": "Mixed-direction combination demonstrated in a 2024 original body; exact battery trim unspecified, Essential not individually tested.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "Related 2024 test fitted Achieve More + Liberty Onyx forward-facing and Cocoon Go rear-facing behind driver. Specific combination only.",
+          "sourceIds": [
+            "audit-byd-atto-3-family-2024"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No daily three-booster buckle-access test.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "workable",
+          "detail": "About 180 cm driver clearance ahead of the tested capsule; larger rear-facing convertible untested.",
+          "sourceIds": [
+            "audit-byd-atto-3-family-2024"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Reviewer reports loading the child from outside or inside.",
+          "sourceIds": [
+            "audit-byd-atto-3-family-2024"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "atto3-extended-2022",
+      "scope": "related",
+      "summary": "Mixed-direction combination demonstrated in a 2024 original body; exact battery trim unspecified, Essential not individually tested.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "Related 2024 test fitted Achieve More + Liberty Onyx forward-facing and Cocoon Go rear-facing behind driver. Specific combination only.",
+          "sourceIds": [
+            "audit-byd-atto-3-family-2024"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No daily three-booster buckle-access test.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "workable",
+          "detail": "About 180 cm driver clearance ahead of the tested capsule; larger rear-facing convertible untested.",
+          "sourceIds": [
+            "audit-byd-atto-3-family-2024"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Reviewer reports loading the child from outside or inside.",
+          "sourceIds": [
+            "audit-byd-atto-3-family-2024"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "atto3-essential-2025",
+      "scope": "related",
+      "summary": "Mixed-direction combination demonstrated in a 2024 original body; exact battery trim unspecified, Essential not individually tested.",
+      "criteria": {
+        "arrangement": {
+          "rating": "good",
+          "detail": "Related 2024 test fitted Achieve More + Liberty Onyx forward-facing and Cocoon Go rear-facing behind driver. Specific combination only.",
+          "sourceIds": [
+            "audit-byd-atto-3-family-2024"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No daily three-booster buckle-access test.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "workable",
+          "detail": "About 180 cm driver clearance ahead of the tested capsule; larger rear-facing convertible untested.",
+          "sourceIds": [
+            "audit-byd-atto-3-family-2024"
+          ]
+        },
+        "access": {
+          "rating": "good",
+          "detail": "Reviewer reports loading the child from outside or inside.",
+          "sourceIds": [
+            "audit-byd-atto-3-family-2024"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "atto3-evo-premium-2026",
+      "scope": "unknown",
+      "summary": "Australian EVO Premium is a distinct RWD configuration; no matched three-restraint installation verified.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Three tethers in Australian brochure do not demonstrate simultaneous mixed three-seat fit.",
+          "sourceIds": []
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No matched booster-buckle access test.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "unknown",
+          "detail": "Front clearance with an occupied rear-facing restraint untested.",
+          "sourceIds": []
+        },
+        "access": {
+          "rating": "unknown",
+          "detail": "No matched child-loading test verified.",
+          "sourceIds": []
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Mixed capsule-plus-two-forward fit now represented as demonstrated related evidence instead of a three-forward-only limitation. Added two exact AAA observed energy/range results, widened live Extended sample and refreshed Essential asking price; repair reserves remain explicitly uncertain.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "estimate",
+        "finding": "Standard A$27,490–28,690 EGC n=2. Extended A$28,990–30,990 mixed fee bases n=4, median headline A$29,990. Essential current primary used ask A$36,490 DA n=1, 2,010 km card/10 km narrative conflict. EVO existing A$50,461 QLD DA n=3 in-transit allocations retained; configurator recheck blocked in this pass. No sale-price valuation inferred.",
+        "sourceIds": [
+          "audit-byd-atto-3-standard-cars4us",
+          "audit-byd-atto-3-standard-cars24",
+          "audit-byd-atto-3-extended-vonbibra",
+          "audit-byd-atto-3-extended-cars4us",
+          "audit-byd-atto-3-extended-toowoomba",
+          "audit-byd-atto-3-extended-ashmore",
+          "audit-byd-atto-3-essential-aspley",
+          "ev-deep-evo-qld-8122528"
+        ],
+        "vehicleIds": [
+          "atto3-standard-2022",
+          "atto3-extended-2022",
+          "atto3-essential-2025",
+          "atto3-evo-premium-2026"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "conflict",
+        "finding": "Added matched AAA observations: 2023 Extended 18.0 kWh/100km from mains recharge / 369 km calculated range; 2025 Essential 17.1 kWh/100km / 328 km. Original WLTP 345/420 km and EVO 510 km remain separate from NEDC 410/480 km. Essential AC charging has conflicting 11 kW and 7 kW reports; peak remains unverified. EVO brochure: 16.4 kWh/100km WLTP, 11 kW AC, 220 kW DC and a 30-minute 0–80% claim.",
+        "sourceIds": [
+          "audit-byd-atto-3-aaa-extended",
+          "audit-byd-atto-3-aaa-essential",
+          "audit-byd-atto-3-aaa-protocol",
+          "audit-byd-atto-3-au-2025-spec",
+          "audit-byd-atto-3-au-evo-spec"
+        ],
+        "vehicleIds": [
+          "atto3-standard-2022",
+          "atto3-extended-2022",
+          "atto3-essential-2025",
+          "atto3-evo-premium-2026"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "verified",
+        "finding": "Related original-body test demonstrates the requested mixed arrangement with a capsule; larger rear-facing convertible and daily booster buckle reach remain unverified. ANCAP installation table assesses individual positions, explicitly not simultaneous restraints. Essential is related-trim evidence; EVO has no matched Australian three-restraint test.",
+        "sourceIds": [
+          "audit-byd-atto-3-family-2024",
+          "audit-byd-atto-3-ancap-au-report",
+          "audit-byd-atto-3-au-2025-spec",
+          "audit-byd-atto-3-au-evo-spec",
+          "audit-byd-atto-3-au-evo-manual"
+        ],
+        "vehicleIds": [
+          "atto3-standard-2022",
+          "atto3-extended-2022",
+          "atto3-essential-2025",
+          "atto3-evo-premium-2026"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "conflict",
+        "finding": "Current official handbook:6yr/150,000 km vehicle;8yr/160,000 km battery/drive with70% retention; transferable with conditions. Defects differ from wear. Current short auxiliary-battery/cable terms remain despite 2025 simplified-warranty reporting. Auction/grey-import exclusion and original registration date need written VIN check.",
+        "sourceIds": [
+          "audit-byd-atto-3-warranty-2026",
+          "own-ev-byd-update"
+        ],
+        "vehicleIds": [
+          "atto3-standard-2022",
+          "atto3-extended-2022",
+          "atto3-essential-2025",
+          "atto3-evo-premium-2026"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "Original A$350/year retained using actual minor A$165–248 /72-month major A$498–587 booking evidence plus historical RACQ315.84/year. Manufacturer interval12months/20,000km and periodic fluid replacements checked. EVO first-five-year reported A$1,670/5 =>A$334/year separately entered, with250–500 planning bounds; no ten-year price guarantee.",
+        "sourceIds": [
+          "audit-byd-atto-3-service-current",
+          "audit-byd-atto-3-service-minor-bookings",
+          "audit-byd-atto-3-service-major-bookings",
+          "own-ev-service-racq2024",
+          "audit-byd-atto-3-evo-carsguide-local"
+        ],
+        "vehicleIds": [
+          "atto3-standard-2022",
+          "atto3-extended-2022",
+          "atto3-essential-2025",
+          "atto3-evo-premium-2026"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "Youi actual Atto3 sold-policy range A$988–1,753,22Nov2025–22May2026, re-read. Existing A$1,370 midpoint proxy retained; no sample count, QLD household quote or EVO-specific premium published. Existing990–2,800 sensitivity range is an assumption, not the insurer result.",
+        "sourceIds": [
+          "audit-byd-atto-3-youi-premiums"
+        ],
+        "vehicleIds": [
+          "atto3-standard-2022",
+          "atto3-extended-2022",
+          "atto3-essential-2025",
+          "atto3-evo-premium-2026"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "JAX fitted/GST retail anchors re-read: original launch215/55R18 Primacy5 A$319each; Essential215/60R17 BYD-rated Hankook285; EVO235/50R18 UC7SUV319. Existing four-tyre totals1,276/1,140/1,276 retained. Later original2024 cars may have235/50R18: check placard.40,000km life and bounds are assumptions, not observed durability.",
+        "sourceIds": [
+          "audit-byd-atto-3-tyres-original-18",
+          "audit-byd-atto-3-tyres-17",
+          "audit-byd-atto-3-tyres-evo-18",
+          "audit-byd-atto-3-original-review",
+          "audit-byd-atto-3-au-2025-spec",
+          "audit-byd-atto-3-au-evo-spec"
+        ],
+        "vehicleIds": [
+          "atto3-standard-2022",
+          "atto3-extended-2022",
+          "atto3-essential-2025",
+          "atto3-evo-premium-2026"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "estimate",
+        "finding": "Official A11.22 recall703 selected2022 cars/free VIN remedy verified. Original FWD compressor1,320AUD inc.tax is part only; not an installed quote or fault prevalence. No defensible AU annual repair average found. Reserve points650 original/550Essential/650EVO retained as uncertain savings, not expected expense; obsolete component-carveout implication removed.",
+        "sourceIds": [
+          "audit-byd-atto-3-recall-005579",
+          "audit-byd-atto-3-compressor-part",
+          "audit-byd-atto-3-warranty-2026"
+        ],
+        "vehicleIds": [
+          "atto3-standard-2022",
+          "atto3-extended-2022",
+          "atto3-essential-2025",
+          "atto3-evo-premium-2026"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "verified",
+        "finding": "ProductReview 3.2/5 from ten remains a small self-selected original-car sample, not EVO reliability evidence. Original WhichCar 7.5/10 checked. Added CarsGuide EVO Premium 7.1/10, 2 October 2026; Dynamic was not driven. An original MY24 review retitled 2025 elsewhere must not become Essential-specific experience.",
+        "sourceIds": [
+          "audit-byd-atto-3-owners-productreview",
+          "audit-byd-atto-3-original-review",
+          "audit-byd-atto-3-evo-carsguide-local",
+          "ev-atto-original"
+        ],
+        "vehicleIds": [
+          "atto3-standard-2022",
+          "atto3-extended-2022",
+          "atto3-essential-2025",
+          "atto3-evo-premium-2026"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "conflict",
+        "finding": "Official original750kg braked/EVO Premium1,500kg retained, with loaded/towbar limits. QLD electric fee group current782.15–798.15 total incl.Class1CTP; existing790.15 midpoint appropriate. ANCAP2022 explicit Standard/Extended scope does not establish EVO extension or later Essential naming. Depreciation is unknown resale scenario, not measurable annual repair cost.",
+        "sourceIds": [
+          "audit-byd-atto-3-au-2025-spec",
+          "audit-byd-atto-3-au-evo-spec",
+          "audit-byd-atto-3-ancap-au-report",
+          "audit-byd-atto-3-ancap-au-scope",
+          "audit-byd-atto-3-qld-fees"
+        ],
+        "vehicleIds": [
+          "atto3-standard-2022",
+          "atto3-extended-2022",
+          "atto3-essential-2025",
+          "atto3-evo-premium-2026"
+        ]
+      }
+    ]
+  }
+}

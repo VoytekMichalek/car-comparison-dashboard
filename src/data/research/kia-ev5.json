@@ -1,0 +1,1146 @@
+{
+  "familyId": "kia-ev5",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-kia-ev5-my25-spec",
+      "title": "Australian Kia EV5 MY25 mechanical and feature specification (dealer-hosted original Kia PDF)",
+      "url": "https://resource.digitaldealer.com.au/pdf/2028283869671863149f123594597090.pdf",
+      "publisher": "Kia Australia / Australian dealer document host",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-my26-spec",
+      "title": "Kia EV5 MY26 Australian specification",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/images/pdf/ev5/kia-ev5-brochure.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-my25-manual",
+      "title": "Kia EV5 MY25 Australian owner manual — anchors, maintenance and tyre specifications",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/owners-manuals/ev5/Kia-EV5-OVc-EV-owners-manual-MY25.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-ancap",
+      "title": "Kia EV5 ANCAP — all variants, build April 2024 onward",
+      "url": "https://www.ancap.com.au/safety-ratings/kia/ev5/518902",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-ancap-report",
+      "title": "ANCAP EV5 detailed report — restraint installation restrictions (page 4)",
+      "url": "https://cdn.ancap.com.au/app/public/assets/e2a4a5778af065103b0060bcbbcae6f07bea73d8/original.pdf?1767073063=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-babydrive",
+      "title": "2025 EV5 Earth AWD family test — tight three-across and front-seat clearance",
+      "url": "https://babydrive.com.au/reviews/suvs/2025-kia-ev5-review/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-warranty-terms",
+      "title": "Kia Australia warranty terms WP11 — transfer, commercial use, HV, battery and head unit limits",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/service/Kia-Warranty-terms-and-conditions.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-warranty-faq",
+      "title": "Kia Australia FAQ — pre-MY27 battery retention terms",
+      "url": "https://www.kia.com/au/util/faq.html",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-service-plan",
+      "title": "Kia Australia EV prepaid service prices — Air 3/5/7 services",
+      "url": "https://www.kia.com/au/owners/prepaid-servicing.html",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-service-terms",
+      "title": "Kia Passenger EV prepaid service terms updated May 2026",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/service/prepaid-servicing-for-ev-terms-and-conditions.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-cluster-recall",
+      "title": "REC-006557 — selected 2025 Kia EV5 cluster software, published 6 March 2026",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006557",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-ctm-insurance",
+      "title": "EV insurance comparison — EV5 Standard Range Brisbane profile March 2026",
+      "url": "https://www.comparethemarket.com.au/news/ev-insurance-up-in-12-months/",
+      "publisher": "Compare the Market",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-youi-insurance",
+      "title": "Youi model insurance data — EV5 national mixed-customer average",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/kia",
+      "publisher": "Youi",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-jax-tyres",
+      "title": "JAX 225/60R18 fitted retail prices — Michelin Primacy 5 104V XL",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/18-inch/225-60r18",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-carexpert-air-lr",
+      "title": "CarExpert MY26 Air Long Range road test — 16.7 kWh/100 km indicated, over 250 km",
+      "url": "https://www.carexpert.com.au/car-reviews/2026-kia-ev5-review-1",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-carsales-air-lr",
+      "title": "Carsales Air Long Range local launch test — 78/100, 30 October 2024",
+      "url": "https://www.carsales.com.au/editorial/details/kia-ev5-air-2024-review-147744/",
+      "publisher": "Carsales",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-carscoops-air-sr",
+      "title": "Carscoops Australian Air Standard Range week test — 6 April 2025",
+      "url": "https://www.carscoops.com/2025/04/2025-kia-ev5-air-review-an-affordable-electric-suv-that-aims-to-please-not-thrill/",
+      "publisher": "Carscoops",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-productreview",
+      "title": "Australian ProductReview EV5 — one GT-Line delivery-experience review",
+      "url": "https://www.productreview.com.au/listings/kia-ev5",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-owner-12v",
+      "title": "First-person Australian EV5 auxiliary-battery experience; unverified owner anecdotes",
+      "url": "https://www.reddit.com/r/KiaEV5/comments/1rer8rz/this_unhelpful_check_electric_vehicle_system/",
+      "publisher": "Reddit r/KiaEV5 owners (unverified)",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-owner-hv",
+      "title": "Australian owner comment on warranty battery replacement; Canadian main post not AU evidence",
+      "url": "https://www.reddit.com/r/KiaEV5/comments/1vic565/one_weekend_ev5_3_month_update/",
+      "publisher": "Reddit r/KiaEV5 owners (unverified)",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-october-offer",
+      "title": "Kia EV5 September/October 2026 new/demo cashback or finance offer",
+      "url": "https://www.kia.com/au/shopping-tools/offers/car-offers.html",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-qld-registration",
+      "title": "Queensland private electric vehicle 12-month registration and Class 1 CTP fees",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Transport and Main Roads",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-sr-sa",
+      "title": "Air Standard Range SA, 503 km, A$42,999 excluding charges",
+      "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-standard-range-auto-my25/OAG-AD-25744810/",
+      "publisher": "Carsales dealer listing",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-sr-wa",
+      "title": "Air Standard Range WA, 25,972 km, A$39,990 excluding charges",
+      "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-standard-range-auto-my25/OAG-AD-26128016/",
+      "publisher": "Carsales dealer listing",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-sr-qld-conflict",
+      "title": "Air Standard Range QLD stock 70029 — cached price conflict excluded from refreshed sample",
+      "url": "https://www.cars4us.com.au/vehicles/70029",
+      "publisher": "Cars4us",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-lr-t4739",
+      "title": "Air Long Range QLD stock T4739, 48,696 km, A$42,990 drive-away",
+      "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-long-range-auto-my25/OAG-AD-25954540/",
+      "publisher": "Carsales dealer listing",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-lr-t4746",
+      "title": "Air Long Range QLD stock T4746, 46,052 km, A$42,990 drive-away",
+      "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-long-range-auto-my25/OAG-AD-25993354/",
+      "publisher": "Carsales dealer listing",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-lr-t4735",
+      "title": "Air Long Range QLD stock T4735, 54,960 km, A$42,490 drive-away",
+      "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-long-range-auto-my25/OAG-AD-25967001/",
+      "publisher": "Carsales dealer listing",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-lr-t4754",
+      "title": "Air Long Range QLD stock T4754, 48,215 km, A$42,990 drive-away",
+      "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-long-range-auto-my25/OAG-AD-25987078/",
+      "publisher": "Carsales dealer listing",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev5-facing-photo",
+      "title": "EV5 Earth: three forward-facing restraints photo",
+      "url": "https://babydrive.com.au/wp-content/uploads/2025/06/2025_KIA_EV5_SUV_70-1024x768.jpg",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "ev5-air-standard-2024",
+      "checked": "2026-10-18",
+      "headline": "Three-across shown in Earth; Air trial still needed",
+      "summary": "Air offers a flat floor and rear pillar vents. Related Earth testing squeezed three restraints in and gave a 180 cm driver space ahead of a rear-facing seat; exact Air mixed fit and booster buckling need a trial.",
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Related Earth demonstrated a very tight three-across fit, photographed forward-facing. The requested one rear-facing plus two-seat/booster mix is not established; family-fit scoring is withheld.",
+        "row2": "Three top tethers on rear seatbacks; ISOFIX at the two outer positions only. Centre uses the seatbelt, not borrowed outer ISOFIX anchors.",
+        "row3": "Five seats only; no third row.",
+        "testedSeats": "2025 Earth AWD Long Range: three child restraints fitted, described as very tight. Article does not name the restraints or specify the full facing/booster mix. Separate rear-facing clearance test is documented; exact one rear-facing plus two forward-facing/booster setup is not confirmed.",
+        "buckleAccess": "Three-booster daily buckle access is unknown. ANCAP tested each restraint separately, not three together.",
+        "access": "Related Earth test praises flat-floor foot space and getting in/out; Air door opening and loading with your restraints need a physical trial.",
+        "ventilation": "MY25/MY26 Air: rear door-pillar air vents and two USB-C outlets behind the front seats.",
+        "sourceIds": [
+          "audit-kia-ev5-babydrive",
+          "audit-kia-ev5-my25-manual",
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec",
+          "audit-kia-ev5-ancap-report",
+          "audit-kia-ev5-facing-photo"
+        ]
+      },
+      "safety": {
+        "stars": 5,
+        "year": 2024,
+        "applicability": "ANCAP covers all variants built April 2024 onward, on sale Australia October 2024 onward. Report identifies a Type A capsule seatbelt-installation problem at outer rear positions; separate-position checks do not prove three-across.",
+        "sourceIds": [
+          "audit-kia-ev5-ancap",
+          "audit-kia-ev5-ancap-report"
+        ]
+      },
+      "servicing": "12 months/15,000 km. MY25 manual: low-conductivity coolant every 36 months/60,000 km; brake fluid every 24 months/30,000 km. Request due-service and plan-transfer records.",
+      "pros": [
+        "Rear pillar vents, flat floor and practical storage.",
+        "Air uses 18-inch tyres; fitted retail replacement anchor is A$1,236/set before alignment."
+      ],
+      "cons": [
+        "Related Earth three-across trial was at the seat-base limit; booster buckles remain untested.",
+        "Air lacks Earth power tailgate; no spare wheel or GT-Line surround-view camera."
+      ],
+      "inspection": [
+        "Install all three actual restraints in the Air; check harness access, belt routing, door closure and booster buckles with children seated.",
+        "Check low-conductivity coolant at 36 months/60,000 km and brake-fluid records; ask for the next service cost in writing.",
+        "Confirm first-registration date, private/fleet/rental history, prepaid plan and kilometre-limited HV cover; inspect the battery underside and complete both AC and DC charge tests.",
+        "Ask Kia to check VIN campaigns, software version, fault history and 12V battery health. A generic EV-system warning is not a diagnosis."
+      ],
+      "changes": [
+        {
+          "period": "Australian MY25 launch / MY26",
+          "text": "Original Australian MY25 dealer-hosted Kia specification matches current MY26 Air battery, range, consumption, AC and 10–80% charging claims. Overseas Korean/European EV5 packs and equipment are different; do not substitute.",
+          "sourceIds": [
+            "audit-kia-ev5-my25-spec",
+            "audit-kia-ev5-my26-spec"
+          ]
+        }
+      ],
+      "gaps": [
+        "Exact Air combination of one rear-facing plus two forward-facing seats/boosters and daily buckle access is unverified; related Earth fit is constrained evidence, not a documented mixed-setup failure.",
+        "Peak DC kW is not stated in matched Australian maker PDFs; independent launch reports 102 kW SR / about 140 kW LR, but numeric field remains unverified.",
+        "No representative Australian long-term EV5 paid-repair dataset or installed traction-pack quote found."
+      ],
+      "sourceIds": [
+        "ev-ev5-spec",
+        "ev-ev5-launch",
+        "ev-ev5-family",
+        "ev-ev5-ancap",
+        "ev-kia-warranty",
+        "ev-kia-battery",
+        "ev-ev5-sr-market",
+        "audit-kia-ev5-my25-spec",
+        "audit-kia-ev5-my26-spec",
+        "audit-kia-ev5-my25-manual",
+        "audit-kia-ev5-ancap",
+        "audit-kia-ev5-ancap-report",
+        "audit-kia-ev5-babydrive",
+        "audit-kia-ev5-warranty-terms",
+        "audit-kia-ev5-carscoops-air-sr"
+      ],
+      "range": {
+        "value": 400,
+        "unit": "km",
+        "basis": "WLTP combined, Air FWD",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "battery": {
+        "value": 64.2,
+        "unit": "kWh",
+        "basis": "Published LFP pack energy; gross/usable split not stated",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "acCharging": {
+        "value": 6.6,
+        "unit": "kW",
+        "basis": "On-board maximum: single-phase SR; three-phase LR. Matching MY25 and MY26 maker specifications.",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "boot": {
+        "value": 513,
+        "unit": "L",
+        "basis": "VDA rear luggage, rear seats up; excludes 67 L front storage",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "bootAllRows": {
+        "value": 513,
+        "unit": "L",
+        "basis": "VDA rear luggage, rear seats up; excludes 67 L front storage",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "length": {
+        "value": 4615,
+        "unit": "mm",
+        "basis": "Manufacturer overall length",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "width": {
+        "value": 1875,
+        "unit": "mm",
+        "basis": "Manufacturer body width",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "towing": {
+        "value": 300,
+        "unit": "kg",
+        "basis": "Braked rating, matching Australian MY25/MY26 specification; SR 300 kg versus LR 1,250 kg. Towball download 50 kg; account for occupants and luggage.",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "consumption": {
+        "value": 18.2,
+        "unit": "kWh/100km",
+        "basis": "Australian MY25 and MY26 WLTP combined, converted from Wh/km; regulated recharge-energy figure, not a road test",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec",
+          "ev-energy-method-wltp"
+        ],
+        "energyBasis": "wall"
+      },
+      "chargeTime": "Maker MY25/MY26: 10–80% approximately 36 min on suitable 350 kW infrastructure; 57 min on 50 kW. AC 10–100% approximately 9 h 43 min on suitable 7 kW supply; car limited to 6.6 kW. Times depend on temperature, state of charge and charger output; 350 kW is infrastructure rating, not vehicle intake."
+    },
+    {
+      "id": "ev5-air-long-2024",
+      "checked": "2026-10-18",
+      "headline": "Three-across shown in Earth; Air trial still needed",
+      "summary": "Air offers a flat floor and rear pillar vents. Related Earth testing squeezed three restraints in and gave a 180 cm driver space ahead of a rear-facing seat; exact Air mixed fit and booster buckling need a trial.",
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Related Earth demonstrated a very tight three-across fit, photographed forward-facing. The requested one rear-facing plus two-seat/booster mix is not established; family-fit scoring is withheld.",
+        "row2": "Three top tethers on rear seatbacks; ISOFIX at the two outer positions only. Centre uses the seatbelt, not borrowed outer ISOFIX anchors.",
+        "row3": "Five seats only; no third row.",
+        "testedSeats": "2025 Earth AWD Long Range: three child restraints fitted, described as very tight. Article does not name the restraints or specify the full facing/booster mix. Separate rear-facing clearance test is documented; exact one rear-facing plus two forward-facing/booster setup is not confirmed.",
+        "buckleAccess": "Three-booster daily buckle access is unknown. ANCAP tested each restraint separately, not three together.",
+        "access": "Related Earth test praises flat-floor foot space and getting in/out; Air door opening and loading with your restraints need a physical trial.",
+        "ventilation": "MY25/MY26 Air: rear door-pillar air vents and two USB-C outlets behind the front seats.",
+        "sourceIds": [
+          "audit-kia-ev5-babydrive",
+          "audit-kia-ev5-my25-manual",
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec",
+          "audit-kia-ev5-ancap-report",
+          "audit-kia-ev5-facing-photo"
+        ]
+      },
+      "safety": {
+        "stars": 5,
+        "year": 2024,
+        "applicability": "ANCAP covers all variants built April 2024 onward, on sale Australia October 2024 onward. Report identifies a Type A capsule seatbelt-installation problem at outer rear positions; separate-position checks do not prove three-across.",
+        "sourceIds": [
+          "audit-kia-ev5-ancap",
+          "audit-kia-ev5-ancap-report"
+        ]
+      },
+      "servicing": "12 months/15,000 km. MY25 manual: low-conductivity coolant every 36 months/60,000 km; brake fluid every 24 months/30,000 km. Request due-service and plan-transfer records.",
+      "pros": [
+        "Rear pillar vents, flat floor and practical storage.",
+        "Air uses 18-inch tyres; fitted retail replacement anchor is A$1,236/set before alignment."
+      ],
+      "cons": [
+        "Related Earth three-across trial was at the seat-base limit; booster buckles remain untested.",
+        "Air lacks Earth power tailgate; no spare wheel or GT-Line surround-view camera."
+      ],
+      "inspection": [
+        "Install all three actual restraints in the Air; check harness access, belt routing, door closure and booster buckles with children seated.",
+        "Check low-conductivity coolant at 36 months/60,000 km and brake-fluid records; ask for the next service cost in writing.",
+        "Confirm first-registration date, private/fleet/rental history, prepaid plan and kilometre-limited HV cover; inspect the battery underside and complete both AC and DC charge tests.",
+        "Ask Kia to check VIN campaigns, software version, fault history and 12V battery health. A generic EV-system warning is not a diagnosis."
+      ],
+      "changes": [
+        {
+          "period": "Australian MY25 launch / MY26",
+          "text": "Original Australian MY25 dealer-hosted Kia specification matches current MY26 Air battery, range, consumption, AC and 10–80% charging claims. Overseas Korean/European EV5 packs and equipment are different; do not substitute.",
+          "sourceIds": [
+            "audit-kia-ev5-my25-spec",
+            "audit-kia-ev5-my26-spec"
+          ]
+        }
+      ],
+      "gaps": [
+        "Exact Air combination of one rear-facing plus two forward-facing seats/boosters and daily buckle access is unverified; related Earth fit is constrained evidence, not a documented mixed-setup failure.",
+        "Peak DC kW is not stated in matched Australian maker PDFs; independent launch reports 102 kW SR / about 140 kW LR, but numeric field remains unverified.",
+        "No representative Australian long-term EV5 paid-repair dataset or installed traction-pack quote found."
+      ],
+      "sourceIds": [
+        "ev-ev5-spec",
+        "ev-ev5-launch",
+        "ev-ev5-family",
+        "ev-ev5-ancap",
+        "ev-kia-warranty",
+        "ev-kia-battery",
+        "ev-ev5-lr-market",
+        "audit-kia-ev5-my25-spec",
+        "audit-kia-ev5-my26-spec",
+        "audit-kia-ev5-my25-manual",
+        "audit-kia-ev5-ancap",
+        "audit-kia-ev5-ancap-report",
+        "audit-kia-ev5-babydrive",
+        "audit-kia-ev5-warranty-terms",
+        "audit-kia-ev5-carexpert-air-lr"
+      ],
+      "range": {
+        "value": 555,
+        "unit": "km",
+        "basis": "WLTP combined, Air FWD",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "battery": {
+        "value": 88.1,
+        "unit": "kWh",
+        "basis": "Published LFP pack energy; gross/usable split not stated",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "acCharging": {
+        "value": 11,
+        "unit": "kW",
+        "basis": "On-board maximum: single-phase SR; three-phase LR. Matching MY25 and MY26 maker specifications.",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "boot": {
+        "value": 513,
+        "unit": "L",
+        "basis": "VDA rear luggage, rear seats up; excludes 67 L front storage",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "bootAllRows": {
+        "value": 513,
+        "unit": "L",
+        "basis": "VDA rear luggage, rear seats up; excludes 67 L front storage",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "length": {
+        "value": 4615,
+        "unit": "mm",
+        "basis": "Manufacturer overall length",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "width": {
+        "value": 1875,
+        "unit": "mm",
+        "basis": "Manufacturer body width",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "towing": {
+        "value": 1250,
+        "unit": "kg",
+        "basis": "Braked rating, matching Australian MY25/MY26 specification; SR 300 kg versus LR 1,250 kg. Towball download 100 kg; account for occupants and luggage.",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec"
+        ]
+      },
+      "consumption": {
+        "value": 18.0,
+        "unit": "kWh/100km",
+        "basis": "Australian MY25 and MY26 WLTP combined, converted from Wh/km; regulated recharge-energy figure, not a road test",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec",
+          "ev-energy-method-wltp"
+        ],
+        "energyBasis": "wall"
+      },
+      "chargeTime": "Maker MY25/MY26: 10–80% approximately 38 min on suitable 350 kW infrastructure; 72 min on 50 kW. AC 10–100% approximately 8 h 10 min with suitable three-phase 11 kW supply. Times depend on temperature, state of charge and charger output; 350 kW is infrastructure rating, not vehicle intake.",
+      "observedConsumption": {
+        "value": 16.7,
+        "unit": "kWh/100km",
+        "basis": "2026 Air Long Range FWD, CarExpert 21 Aug 2026: vehicle-indicated average over more than 250 km in a week, mixed traffic and freeway. Battery-side indication, not mains recharge; one test cannot predict every journey or earlier battery condition.",
+        "energyBasis": "battery",
+        "sourceIds": [
+          "audit-kia-ev5-carexpert-air-lr"
+        ]
+      }
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "ev-price-ev5-sr",
+      "vehicleId": "ev5-air-standard-2024",
+      "low": 39990,
+      "high": 42999,
+      "condition": "used",
+      "basis": "excludes-charges",
+      "sampleCount": 2,
+      "geography": "Two interstate dealer-used MY25 examples: SA and south-west WA; freight/QLD costs additional",
+      "kilometres": "503–25,972 km",
+      "observed": "2026-10-18",
+      "note": "Two distinct individual MY25 Air Standard Range ads re-read with price, charges and km. No sold flag observed. Prior QLD stock 70029 excluded because cached seller page shows A$43,990 EGC while earlier fresh direct HTML showed A$42,990; fresh direct recheck unavailable. No new/demo or sold entries mixed in. Not completed-sale evidence.",
+      "sourceIds": [
+        "audit-kia-ev5-sr-sa",
+        "audit-kia-ev5-sr-wa"
+      ],
+      "confidence": "low",
+      "estimateBasis": "Arithmetic median of two included advertised prices, A$41,494.50; thin interstate sample is not a valuation or delivered Queensland quote.",
+      "observations": [
+        {
+          "price": 42999,
+          "basis": "excludes-charges",
+          "year": 2024,
+          "kilometres": 503,
+          "location": "Dealer used, southern Adelaide SA",
+          "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-standard-range-auto-my25/OAG-AD-25744810/",
+          "sourceId": "audit-kia-ev5-sr-sa",
+          "checked": "2026-10-18",
+          "note": "Exact MY25 Air Standard Range, seller says ex-Kia Australia ownership. Individual ad A$42,999 excludes charges supersedes category A$43,888. Freight/QLD costs extra; not combined with demos/new orders."
+        },
+        {
+          "price": 39990,
+          "basis": "excludes-charges",
+          "year": 2024,
+          "kilometres": 25972,
+          "location": "South-west WA, dealer says two hours south of Perth",
+          "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-standard-range-auto-my25/OAG-AD-26128016/",
+          "sourceId": "audit-kia-ev5-sr-wa",
+          "checked": "2026-10-18",
+          "note": "Distinct stock 37859, Shale Grey MY25 Air Standard Range; 64.2 kWh / 400 km configuration, dealer used. Individual seller advert states A$39,990 fixed including GST, excluding government charges. VIN/build date not public; freight and Queensland registration costs are additional. No sold flag on the opened listing."
+        }
+      ],
+      "point": 41494.5,
+      "kind": "observation"
+    },
+    {
+      "id": "ev-price-ev5-lr",
+      "vehicleId": "ev5-air-long-2024",
+      "low": 42490,
+      "high": 42990,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 4,
+      "geography": "Dealer used, Brisbane region QLD",
+      "kilometres": "46,052–54,960 km; exact configuration examples detailed below",
+      "observed": "2026-10-18",
+      "note": "Four distinct dealer-used MY25 Air Long Range stock IDs re-read: T4739, T4746, T4735, T4754. Prices and kilometre figures unchanged; no sold flag observed. Advertised drive-away applies subject to renewed registration and written Queensland delivery quote. Published registration-expiry fields are in the past. Stock T4754 seller prose incorrectly says self-charging hybrid; badge/88.1 kWh specification establish BEV. Confirm prior commercial/rental use; prices are asks, not completed sales.",
+      "sourceIds": [
+        "audit-kia-ev5-lr-t4739",
+        "audit-kia-ev5-lr-t4746",
+        "audit-kia-ev5-lr-t4735",
+        "audit-kia-ev5-lr-t4754"
+      ],
+      "confidence": "medium",
+      "estimateBasis": "Median of the included advertised amounts. The displayed low/high are only the included observations, not an estimated market range.",
+      "observations": [
+        {
+          "price": 42990,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 48696,
+          "location": "Dealer used, Brisbane region QLD",
+          "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-long-range-auto-my25/OAG-AD-25954540/",
+          "sourceId": "audit-kia-ev5-lr-t4739",
+          "checked": "2026-10-18",
+          "note": "MY25 Air Long Range, 88.1 kWh / 555 km specification. Individual price and absence of sold flag checked.  Confirm renewed registration and current availability. Stock T4739; Magma Red; April 2024 build / May compliance. Distinct from stocks T4746, T4735 and T4754."
+        },
+        {
+          "price": 42990,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 46052,
+          "location": "Dealer used, Brisbane region QLD",
+          "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-long-range-auto-my25/OAG-AD-25993354/",
+          "sourceId": "audit-kia-ev5-lr-t4746",
+          "checked": "2026-10-18",
+          "note": "Stock T4746, Clear White (corrected from prior Frost Blue label), 46,052 km; June 2024 build / October compliance. Individual ad A$42,990 drive-away. Published May 2026 registration expiry requires renewed registration to be confirmed."
+        },
+        {
+          "price": 42490,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 54960,
+          "location": "Dealer used, Brisbane region QLD",
+          "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-long-range-auto-my25/OAG-AD-25967001/",
+          "sourceId": "audit-kia-ev5-lr-t4735",
+          "checked": "2026-10-18",
+          "note": "MY25 Air Long Range, 88.1 kWh / 555 km specification. Individual price and absence of sold flag checked.  Confirm renewed registration and current availability. Stock T4735; Frost Blue; April 2024 build / May compliance. Distinct from stocks T4739, T4746 and T4754."
+        },
+        {
+          "price": 42990,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 48215,
+          "location": "Dealer used, Brisbane region QLD",
+          "url": "https://www.carsales.com.au/cars/details/2024-kia-ev5-air-long-range-auto-my25/OAG-AD-25987078/",
+          "sourceId": "audit-kia-ev5-lr-t4754",
+          "checked": "2026-10-18",
+          "note": "Stock T4754, Clear White, 48,215 km, June 2024 build / October compliance. A$42,990 drive-away. Dealer prose mislabels it self-charging hybrid; use MY25 Air Long Range BEV specification. Confirm renewed registration."
+        }
+      ],
+      "point": 42990,
+      "kind": "observation"
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "kia-ev5",
+      "serviceInterval": "12 months / 15,000 km, whichever first. MY25 manual adds low-conductivity coolant every 36 months / 60,000 km and AU/NZ brake fluid every 24 months / 30,000 km; severe-use extras apply.",
+      "serviceAnnual": 450,
+      "serviceBasis": "ESTIMATE retained A$450/year (A$350–550) for used Air pay-as-you-go budgeting. Current GST-inclusive maker prepaid plans: 3 services A$1,185, 5 A$1,839, 7 A$2,892 (A$413/year over seven annual visits). These are package prices, not individual fixed service quotes. Plans include standard scheduled fluids/labour; confirm coolant inclusion and the VIN schedule. New enrolment requires under 11 months / 15,000 km and no prior scheduled service; attached plans stay with the car. Tyres, faults and severe-use extras excluded.",
+      "warrantyCautions": [
+        "Private-use vehicle warranty is transferable for 7 years/unlimited km, subject to original terms. Any prior commercial use can impose 150,000 km limit; inspect usage and service records, not only age.",
+        "Pre-MY27 HV battery retention is 7 years/150,000 km to at least 70%; not the newer 8-year/160,000-km promise. HV motor/on-board charger/control components separately have 7-year/150,000-km defect cover.",
+        "12V battery: 2 years; AV/AVN head unit: 3 years/unlimited km. A headline seven-year warranty does not extend these terms. Normal wear, accident damage and scheduled maintenance are excluded.",
+        "Official VIN-applicable cluster recall has a free remedy. Owner reports below establish inspection questions, not rates of failure or annual paid repair costs. Confirm earliest warranty commencement date and any written-off history."
+      ],
+      "risks": [
+        {
+          "title": "Full traction-battery replacement — stress case",
+          "detail": "Budget for a complete pack only if diagnosis supports replacement. A module, control-system or drive-unit-only repair can be substantially cheaper; this range does not predict failure.",
+          "low": 9000,
+          "high": 35000,
+          "priceBasis": "ESTIMATE: model-specific Australian quote unavailable; based on the Insurance Council’s 2024 A$7,500–30,000 benchmark (itself converted from US research, not Australian installed invoices) and a broker’s A$10,000–30,000+ general guide, adjusted for the family’s 64.2–88.1 kWh packs; upper end includes a larger-pack allowance. Full replacement planning total assumes parts, labour and GST; not a hard ceiling or a priced repair offer.",
+          "warranty": "Pre-MY2027 capacity promise: 7 years / 150,000 km, at least 70%.",
+          "sourceIds": [
+            "own-ev-kia-battery",
+            "own-ev-est-battery-ica",
+            "own-ev-est-battery-broker"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Shorter auxiliary-battery cover",
+          "detail": "The 12V battery has shorter cover than the traction battery and can become an owner-paid maintenance item.",
+          "low": 250,
+          "high": 600,
+          "priceBasis": "ESTIMATE: EV5-specific installed quote unavailable; based on NRMA’s SUV battery service starting at A$249 member / A$339 non-member incl. delivery/installation, widened for correct EV battery specification and workshop fitment. Assumes GST; not a fitment guarantee. NRMA’s published offer is for ordinary SUV auxiliary batteries in NSW/ACT; Queensland availability and the specific EV battery/fitment are not established by that class price.",
+          "warranty": "Auxiliary-battery cover is 2 years, subject to terms.",
+          "sourceIds": [
+            "own-ev-kia-battery",
+            "own-ev-est-12v"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Conventional suspension repair example — one axle",
+          "detail": "A worn damper/strut pair is a paid-work example outside ordinary scheduled servicing. Structural accident damage needs a separate estimate; this does not establish an EV5 failure pattern.",
+          "low": 800,
+          "high": 2200,
+          "priceBasis": "ESTIMATE: EV5-specific quote unavailable; Australian conventional front-damper pair guidance is A$650–1,300. Widened for vehicle weight, OEM parts, mounts and alignment. Assumes parts, labour and GST; excludes tyres and collision reconstruction.",
+          "warranty": "Vehicle cover and prepaid services both have wear / damage exclusions.",
+          "sourceIds": [
+            "own-ev-kia-plan",
+            "own-ev-kia-warranty",
+            "own-ev-est-suspension"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Selected 2025 VINs — March 2026 instrument-cluster recall",
+          "detail": "REC-006557, published 6 March 2026, includes selected 2025 EV5 VINs and other Kia models. Cluster software can cause blank/slow display. The free update is VIN-specific, not evidence every grouped year is affected.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+          "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "audit-kia-ev5-cluster-recall"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "Reported EV-system warnings — diagnosis and warranty history",
+          "detail": "One Australian first-person post reports roadside diagnosis/replacement of a 12V battery; another comment reports front-motor replacement pending. A separate thread has an Australian commenter reporting an HV pack replaced under warranty in three weeks; its main Canadian case is not Australian evidence. These unverified anecdotes show different possible causes and downtime, not incidence, cost averages or an EV6-style ICCU fault rate.",
+          "low": null,
+          "high": null,
+          "priceBasis": "No Australian EV5 installed paid invoice or representative annual repair average verified. Do not infer an out-of-pocket pack price from warranty replacement anecdotes. Existing A$650 annual fund remains an explicitly low-confidence savings allowance.",
+          "warranty": "Ask for Kia diagnostic/service records, HV warranty balance and loan-car arrangements; claimed covered remedies are not owner-paid repairs.",
+          "sourceIds": [
+            "audit-kia-ev5-owner-12v",
+            "audit-kia-ev5-owner-hv",
+            "audit-kia-ev5-warranty-terms"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sourceIds": [
+        "own-ev-kia-prices",
+        "own-ev-kia-plan",
+        "own-ev-kia-warranty",
+        "own-ev-kia-battery",
+        "own-ev-kia-terms",
+        "audit-kia-ev5-my25-manual",
+        "audit-kia-ev5-service-plan",
+        "audit-kia-ev5-service-terms",
+        "audit-kia-ev5-warranty-terms",
+        "audit-kia-ev5-warranty-faq",
+        "audit-kia-ev5-cluster-recall",
+        "audit-kia-ev5-owner-12v",
+        "audit-kia-ev5-owner-hv"
+      ],
+      "checked": "2026-10-18",
+      "serviceLow": 350,
+      "serviceHigh": 550,
+      "serviceConfidence": "medium"
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "kia-ev5",
+      "sourceIds": [
+        "audit-kia-ev5-productreview"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-kia-ev5-air-lr-carsales-2024",
+      "familyId": "kia-ev5",
+      "vehicleIds": [
+        "ev5-air-long-2024"
+      ],
+      "tested": "2024 Kia EV5 Air Long Range, Australian MY25 local launch",
+      "scope": "Southern Highlands NSW launch, 30 October 2024. Published 78/100 converted arithmetically to 7.8/10. Historical launch pricing is not current used-market evidence; SR was driven back-to-back but the headline scored configuration is LR.",
+      "publisher": "Carsales",
+      "published": "2024-10-30",
+      "checked": "2026-10-18",
+      "rating": 7.8,
+      "outOf": 10,
+      "verdict": "78/100: spacious family EV; moderate charging and front-drive traction compromises.",
+      "positiveThemes": [
+        "Good passenger space and immediate electric response.",
+        "Practical boot and familiar cabin controls."
+      ],
+      "negativeThemes": [
+        "Base Air equipment omissions and modest DC charging.",
+        "Front-wheel torque steer and traction limits under hard acceleration."
+      ],
+      "sourceIds": [
+        "audit-kia-ev5-carsales-air-lr"
+      ]
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "kia-ev5",
+      "low": 1300,
+      "high": 3000,
+      "point": 1920,
+      "basis": "A$1,920/year retained, rounded from Compare the Market March 2026 EV5 Standard Range quote average A$1,921: 34-year-old male in Alderley Brisbane, garaged, clean history, up to 15,000 km, market value, targeted A$900 excess. A$1,300–3,000 bounds are assumptions, not study quantiles. Youi national mixed-customer EV5 average A$1,765 is a different population; do not blend. Air LR and this household need actual quotes.",
+      "confidence": "medium",
+      "sourceIds": [
+        "audit-kia-ev5-ctm-insurance",
+        "audit-kia-ev5-youi-insurance",
+        "budget-insurance-factors"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyreUpdates": [
+    {
+      "vehicleId": "ev5-air-standard-2024",
+      "setCost": 1236,
+      "setLow": 880,
+      "setHigh": 1600,
+      "lifeKm": 40000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 50000,
+      "confidence": "low",
+      "basis": "Air MY25/MY26 225/60R18; MY25 manual lists 100H minimum in its table (confirm actual placard). Michelin Primacy 5 104V XL meets/exceeds that published index: JAX A$309 each including fitting, balancing, valve, disposal and GST, four A$1,236. No temporary discount assumed; alignment extra. A$880–1,600 set bounds and 40,000 km life (30,000–50,000 km) remain explicit assumptions, not EV5 wear measurements. At 15,000 km/year this annualises to A$463.50.",
+      "sourceIds": [
+        "audit-kia-ev5-jax-tyres",
+        "audit-kia-ev5-my25-spec",
+        "audit-kia-ev5-my25-manual",
+        "budget-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "225/60R18 104V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 309,
+        "quantity": 4,
+        "sourceId": "audit-kia-ev5-jax-tyres",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    },
+    {
+      "vehicleId": "ev5-air-long-2024",
+      "setCost": 1236,
+      "setLow": 880,
+      "setHigh": 1600,
+      "lifeKm": 40000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 50000,
+      "confidence": "low",
+      "basis": "Air MY25/MY26 225/60R18; MY25 manual lists 100H minimum in its table (confirm actual placard). Michelin Primacy 5 104V XL meets/exceeds that published index: JAX A$309 each including fitting, balancing, valve, disposal and GST, four A$1,236. No temporary discount assumed; alignment extra. A$880–1,600 set bounds and 40,000 km life (30,000–50,000 km) remain explicit assumptions, not EV5 wear measurements. At 15,000 km/year this annualises to A$463.50.",
+      "sourceIds": [
+        "audit-kia-ev5-jax-tyres",
+        "audit-kia-ev5-my25-spec",
+        "audit-kia-ev5-my25-manual",
+        "budget-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "225/60R18 104V XL",
+        "product": "Michelin Primacy 5",
+        "unitPrice": 309,
+        "quantity": 4,
+        "sourceId": "audit-kia-ev5-jax-tyres",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "ev5-air-standard-2024",
+      "scope": "related",
+      "summary": "Related Earth demonstrated a very tight three-across fit, photographed forward-facing. The requested one rear-facing plus two-seat/booster mix is not established; family-fit scoring is withheld.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Earth test reports a very tight three-across fit; its published three-seat photo shows three forward-facing restraints. Rear-facing clearance was also assessed, but the simultaneous one rear-facing plus two-seat/booster arrangement is not documented for Earth or the listed Air.",
+          "sourceIds": [
+            "audit-kia-ev5-babydrive",
+            "audit-kia-ev5-my25-spec",
+            "audit-kia-ev5-facing-photo"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No repeatable three-booster buckle-access trial found; individual ANCAP installations do not answer this.",
+          "sourceIds": [
+            "audit-kia-ev5-ancap-report"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Related Earth test accommodated a 180 cm driver ahead of a rear-facing seat; flat floor provided useful foot space. Does not prove Air front-seat clearance for your restraints.",
+          "sourceIds": [
+            "audit-kia-ev5-babydrive"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "Related Earth observation found getting in/out easy with a flat floor and accessible rear tethers; exact Air door/loading clearance with three seats remains untested.",
+          "sourceIds": [
+            "audit-kia-ev5-babydrive",
+            "audit-kia-ev5-my25-manual"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "ev5-air-long-2024",
+      "scope": "related",
+      "summary": "Related Earth demonstrated a very tight three-across fit, photographed forward-facing. The requested one rear-facing plus two-seat/booster mix is not established; family-fit scoring is withheld.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Earth test reports a very tight three-across fit; its published three-seat photo shows three forward-facing restraints. Rear-facing clearance was also assessed, but the simultaneous one rear-facing plus two-seat/booster arrangement is not documented for Earth or the listed Air.",
+          "sourceIds": [
+            "audit-kia-ev5-babydrive",
+            "audit-kia-ev5-my25-spec",
+            "audit-kia-ev5-facing-photo"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No repeatable three-booster buckle-access trial found; individual ANCAP installations do not answer this.",
+          "sourceIds": [
+            "audit-kia-ev5-ancap-report"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Related Earth test accommodated a 180 cm driver ahead of a rear-facing seat; flat floor provided useful foot space. Does not prove Air front-seat clearance for your restraints.",
+          "sourceIds": [
+            "audit-kia-ev5-babydrive"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "Related Earth observation found getting in/out easy with a flat floor and accessible rear tethers; exact Air door/loading clearance with three seats remains untested.",
+          "sourceIds": [
+            "audit-kia-ev5-babydrive",
+            "audit-kia-ev5-my25-manual"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "MY25 maker PDF closes year-applicability gaps; related Earth test supports constrained three-across evidence, with booster buckles unknown. Added maintenance-fluid schedule, exact LR observed consumption and scored launch review. Six clean asks rechecked; conflicting QLD SR observation excluded. Repair and owner reliability evidence remain thin.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "conflict",
+        "finding": "SR refreshed to two verified interstate asks A$39,990–42,999 EGC, median A$41,494.50; QLD stock 70029 excluded for A$42,990/43,990 cached/direct conflict. LR four distinct QLD asks A$42,490–42,990 drive-away and 46,052–54,960 km unchanged. Confirm renewed registration and freight. New/demo October A$2,000 cashback is separate and cannot combine with promoted finance.",
+        "sourceIds": [
+          "audit-kia-ev5-sr-sa",
+          "audit-kia-ev5-sr-wa",
+          "audit-kia-ev5-sr-qld-conflict",
+          "audit-kia-ev5-lr-t4739",
+          "audit-kia-ev5-lr-t4746",
+          "audit-kia-ev5-lr-t4735",
+          "audit-kia-ev5-lr-t4754",
+          "audit-kia-ev5-october-offer"
+        ],
+        "vehicleIds": [
+          "ev5-air-standard-2024",
+          "ev5-air-long-2024"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "verified",
+        "finding": "Original MY25 PDF matches MY26 Air: 64.2/88.1 kWh LFP, FWD; WLTP 400/555 km and 18.2/18.0 kWh/100 km. AC maxima 6.6/11 kW and DC 10–80% 36/38 min. LR road-test indicated 16.7 is separate from lab wall energy; projected >520 km is not a measured depleted range. Peak DC maker figure still missing.",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec",
+          "audit-kia-ev5-my25-manual",
+          "audit-kia-ev5-carexpert-air-lr"
+        ],
+        "vehicleIds": [
+          "ev5-air-standard-2024",
+          "ev5-air-long-2024"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "gap",
+        "finding": "Three restraints were demonstrated only in related Earth, with a tight bench. Air has two outer ISOFIX/three rear tethers and pillar vents. ANCAP identifies outer seatbelt-fitted Type A capsule restriction and tests restraints separately. Three-booster buckles and exact Air combinations remain unknown. Facing-photo recheck: the requested one rear-facing plus two-seat/booster mix is not established, so no family-fit score is assigned.",
+        "sourceIds": [
+          "audit-kia-ev5-babydrive",
+          "audit-kia-ev5-my25-manual",
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-ancap-report",
+          "audit-kia-ev5-facing-photo"
+        ],
+        "vehicleIds": [
+          "ev5-air-standard-2024",
+          "ev5-air-long-2024"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Original/pre-MY27 terms preserved: private vehicle 7 years/unlimited km; HV components and battery 7 years/150,000 km, battery to 70%. Transferable subject to terms; commercial use, 2-year 12V and 3-year AV/AVN exceptions matter on used stock.",
+        "sourceIds": [
+          "audit-kia-ev5-warranty-terms",
+          "audit-kia-ev5-warranty-faq"
+        ],
+        "vehicleIds": [
+          "ev5-air-standard-2024",
+          "ev5-air-long-2024"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "A$450/year used-Air budget retained; maker Air prepaid 3/5/7 plans A$1,185/1,839/2,892 include GST. Manual identifies low-conductivity coolant 36 months/60,000 km and AU/NZ brake fluid 24 months/30,000 km. Used car may only inherit an existing plan; individual next-service quote missing.",
+        "sourceIds": [
+          "audit-kia-ev5-my25-manual",
+          "audit-kia-ev5-service-plan",
+          "audit-kia-ev5-service-terms"
+        ],
+        "vehicleIds": [
+          "ev5-air-standard-2024",
+          "ev5-air-long-2024"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "A$1,920/year retained from A$1,921 model-specific March 2026 Brisbane study profile; Youi EV5 national mean A$1,765 is a different customer pool. Assumed bounds are not percentiles; LR and household-specific quotes absent.",
+        "sourceIds": [
+          "audit-kia-ev5-ctm-insurance",
+          "audit-kia-ev5-youi-insurance"
+        ],
+        "vehicleIds": [
+          "ev5-air-standard-2024",
+          "ev5-air-long-2024"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "18-inch Air fitment checked against MY25 maker sheet/manual. JAX Michelin 225/60R18 104V XL A$309 fitted incl GST gives A$1,236/set. 40,000-km planning life yields A$463.50/year at 15,000 km; lifespan and set-price bounds remain assumptions.",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my25-manual",
+          "audit-kia-ev5-jax-tyres"
+        ],
+        "vehicleIds": [
+          "ev5-air-standard-2024",
+          "ev5-air-long-2024"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "gap",
+        "finding": "Official REC-006557 applies to selected 2025 VINs; free cluster software update, published March 2026. AU first-person 12V/motor/HV anecdotes provide no paid invoice or denominator. No empirical annual EV5 paid-repair rate found: retain A$650 savings reserve as low-confidence, not an average or proof of better reliability.",
+        "sourceIds": [
+          "audit-kia-ev5-cluster-recall",
+          "audit-kia-ev5-warranty-terms",
+          "audit-kia-ev5-owner-12v",
+          "audit-kia-ev5-owner-hv"
+        ],
+        "vehicleIds": [
+          "ev5-air-standard-2024",
+          "ev5-air-long-2024"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "gap",
+        "finding": "ProductReview remains 5/5 from one GT-Line delivery/dealer review, not Air reliability evidence. Air SR week test and Air LR launch/week tests are correctly separated. Added LR Carsales 78/100 normalised to 7.8/10; Earth/GT-Line ride complaints must not be applied wholesale to Air.",
+        "sourceIds": [
+          "audit-kia-ev5-productreview",
+          "audit-kia-ev5-carscoops-air-sr",
+          "audit-kia-ev5-carexpert-air-lr",
+          "audit-kia-ev5-carsales-air-lr"
+        ],
+        "vehicleIds": [
+          "ev5-air-standard-2024",
+          "ev5-air-long-2024"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "estimate",
+        "finding": "Towing differs sharply: SR 300 kg/50 kg towball; LR 1,250 kg/100 kg. No spare, manual Air tailgate. ANCAP all variants Apr-2024 onward. QLD electric rego+CTP currently A$782.15–798.15; future fees/depreciation unverified. Inspect due coolant, battery underside, VIN/software, AC/DC and prior fleet history.",
+        "sourceIds": [
+          "audit-kia-ev5-my25-spec",
+          "audit-kia-ev5-my26-spec",
+          "audit-kia-ev5-ancap",
+          "audit-kia-ev5-qld-registration",
+          "audit-kia-ev5-my25-manual",
+          "audit-kia-ev5-warranty-terms"
+        ],
+        "vehicleIds": [
+          "ev5-air-standard-2024",
+          "ev5-air-long-2024"
+        ]
+      }
+    ]
+  }
+}

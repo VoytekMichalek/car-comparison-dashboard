@@ -1,0 +1,786 @@
+{
+  "familyId": "kia-ev6",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-kia-ev6-my24-spec",
+      "title": "Australian MY24 EV6 mechanical and feature list, August 2024",
+      "url": "https://resource.digitaldealer.com.au/pdf/45505888866f3780287a48309089661.pdf",
+      "publisher": "Kia Australia (dealer-hosted manufacturer PDF)",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-my22-spec",
+      "title": "Australian MY22 EV6 mechanical and feature list (manufacturer PDF archive)",
+      "url": "https://cdn.productreview.com.au/document/entry-product-manual/d1b1f735-5c92-544c-afea-7fe7a422f1da",
+      "publisher": "Kia Australia (ProductReview-hosted manufacturer PDF)",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-my22-manual",
+      "title": "Australian EV6 CV MY22 owner manual: maintenance p 8-7; tyres and fluids p 9-4",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/owners-manuals/ev6/Kia-EV6-CV-EV-owners-manual-MY22.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-my24-manual",
+      "title": "Australian EV6 CV MY24 owner manual: maintenance p 8-7",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/owners-manuals/ev6/Kia-EV6-CV-EV-owners-manual-MY24.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-babydrive",
+      "title": "2022 EV6 GT-Line RWD: specific three-restraint test and clearance",
+      "url": "https://babydrive.com.au/reviews/electric-cars/2022-kia-ev6-gt-line-rwd/",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-air-family",
+      "title": "2024 EV6 Air RWD family test, 29 March 2024",
+      "url": "https://www.carsguide.com.au/family/kia-ev6-air-92472",
+      "publisher": "CarsGuide",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-ancap",
+      "title": "EV6 2022 ANCAP applicability and expiry",
+      "url": "https://www.ancap.com.au/safety-ratings/kia/ev6/1d4e4f",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-ancap-install",
+      "title": "EV6 ANCAP technical report: individual restraint installation pp 3–4",
+      "url": "https://cdn.ancap.com.au/app/public/assets/f28a0b6aac3ac9eb1e3aabea1c85a2ed2b9c7b91/original.pdf?1663120918=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-aaa-air",
+      "title": "AAA measured MY2022 EV6 Air RWD: 166 Wh/km and calculated 484 km",
+      "url": "https://realworld.org.au/wp-protected/9d78abb235b5/uploads/2025/08/AUG25_EV6_WEB.pdf",
+      "publisher": "Australian Automobile Association",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-aaa-protocol",
+      "title": "AAA Annex IV v 1.1: BEV mains recharge consumption and range method",
+      "url": "https://realworld.org.au/wp-protected/9c5bc2b93c32/uploads/2025/03/250303-RWT-Annex-IV-PEV-Test-Procedure-ver1_1-March-2025.pdf",
+      "publisher": "Australian Automobile Association",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-prepaid-prices",
+      "title": "Kia current EV6 Air/GT-Line prepaid service prices",
+      "url": "https://www.kia.com/au/owners/prepaid-servicing.html",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-prepaid-terms",
+      "title": "Kia passenger EV prepaid servicing terms, updated 14 May 2026",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/service/prepaid-servicing-for-ev-terms-and-conditions.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-warranty",
+      "title": "Kia Australia warranty terms, 20 August 2026; pre-MY27 capacity terms",
+      "url": "https://www.kia.com/content/dam/kwcms/au/en/files/service/Kia-Warranty-terms-and-conditions.pdf",
+      "publisher": "Kia Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-iccu-recall",
+      "title": "REC-006238: 2021–2024 EV6 ICCU inspection, replacement if needed, and software",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006238",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-park-recall",
+      "title": "REC-005455: selected 2021–2022 EV6 parking-pawl software",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005455",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-shaft-recall",
+      "title": "REC-005939: selected 2023 EV6/Niro driveshaft replacement",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005939",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-cluster-recall",
+      "title": "REC-006557: 2025 Kia cluster campaign; outside listed MY22–24 Air year scope",
+      "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006557",
+      "publisher": "Australian Government Vehicle Recalls",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-youi",
+      "title": "Youi EV6 comprehensive premium mean and range; Nov 2025–May 2026 policy cohort",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/kia",
+      "publisher": "Youi Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-jax-19",
+      "title": "JAX fitted/GST-inclusive 235/55 R 19 tyre prices",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/19-inch/235-55r19",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-productreview-air",
+      "title": "EV6 RWD Air mixed owner/expert aggregate: 4.0/5 from two contributions",
+      "url": "https://www.productreview.com.au/listings/kia-ev6-rwd-air",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-carexpert-air",
+      "title": "Original Air road test published 5 December 2022: Very Good verdict",
+      "url": "https://www.carexpert.com.au/car-reviews/2022-kia-ev6-air-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-qld-rego",
+      "title": "Queensland private EV registration and Class 1 CTP fee guide, 1 October 2026",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Government",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-qld-duty",
+      "title": "Queensland electric light-vehicle registration duty rates",
+      "url": "https://www.qld.gov.au/transport/registration/fees/duty/rates",
+      "publisher": "Queensland Government",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-motorama",
+      "title": "Motorama stock P005132: original 2024 Air, 53 km, A$48,980 drive-away",
+      "url": "https://www.motoramachery.com.au/cars/used-2024-kia-ev6-p005132",
+      "publisher": "Motorama Toyota Hillcrest",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-private",
+      "title": "Queensland 2023 Air MY24:26,376 km, A$40,000 excluding charges",
+      "url": "https://www.carsales.com.au/cars/details/2023-kia-ev6-air-auto-my24/SSE-AD-20675863/",
+      "publisher": "Carsales / private seller",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-cars4us",
+      "title": "Cars4us original 2024 Air stock 74400:59,306 km, A$41,990 excluding charges",
+      "url": "https://www.cars4us.com.au/vehicles/74400",
+      "publisher": "Cars4us",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-kia-ev6-facing-photo",
+      "title": "Original EV6 GT-Line: two rear-facing restraints and a centre booster photo",
+      "url": "https://babydrive.com.au/wp-content/uploads/2022/07/2022_KIA_EV6_EV_10-1024x768.jpg",
+      "publisher": "BabyDrive",
+      "kind": "family-test",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "ev6-air-2022",
+      "headline": "Generous rear-facing clearance; three-across buckle compromise",
+      "summary": "Original Air RWD has strong longitudinal space. Three-across evidence is a related GT-Line test; an Air family review also favours two seats over three. Check the exact one-rear-facing / two-forward-facing-or-booster arrangement.",
+      "observedConsumption": {
+        "value": 16.6,
+        "unit": "kWh/100km",
+        "basis": "AAA MY2022 Air RWD, February 2022 build, 14,049 km: 93 km Geelong route, 24–28 April 2025, 17–25°C, damp/dry. Result 166 Wh/km = 16.6 kWh/100km. Annex IV measures mains recharge including charging losses; do not add losses again. Separate from 16.5 WLTP; one test, not a Queensland lifetime average.",
+        "sourceIds": [
+          "audit-kia-ev6-aaa-air",
+          "audit-kia-ev6-aaa-protocol"
+        ],
+        "energyBasis": "wall"
+      },
+      "observedRange": {
+        "value": 484,
+        "unit": "km",
+        "basis": "AAA calculated real-world electric range for the same MY2022 Air RWD test, 24–28 April 2025; not a full 484 km depletion run. Separate from 528 km WLTP. Conditions and battery condition matter.",
+        "sourceIds": [
+          "audit-kia-ev6-aaa-air",
+          "audit-kia-ev6-aaa-protocol"
+        ]
+      },
+      "familyFit": {
+        "status": "unverified",
+        "summary": "Related GT-Line fits two rear-facing restraints and a centre booster, with restricted buckle access. The requested one rear-facing plus two-seat/booster mix is not established; family-fit scoring is withheld.",
+        "row2": "Air manufacturer documents confirm two outer ISOFIX positions and three rear top tethers; no centre ISOFIX.",
+        "row3": "No third row.",
+        "testedSeats": "BabyDrive GT-Line: InfaSecure Attain More and Achieve More rear-facing, Aspire More centre. This differs from your one-rear-facing / two-forward-facing-or-booster target.",
+        "buckleAccess": "Centre belt buckle was awkward in the related three-across test. ANCAP could not correctly install one selected booster in the centre, testing restraints individually.",
+        "access": "Air family test found easy child exit but awkward manual flush handles. Air lacks GT-Line remote parking; test loading in a narrow parking bay.",
+        "ventilation": "B-pillar second-row vents confirmed for Air in MY22 and MY24 manufacturer lists.",
+        "sourceIds": [
+          "audit-kia-ev6-babydrive",
+          "audit-kia-ev6-air-family",
+          "audit-kia-ev6-ancap-install",
+          "audit-kia-ev6-my22-spec",
+          "audit-kia-ev6-my24-spec",
+          "audit-kia-ev6-facing-photo"
+        ]
+      },
+      "safety": {
+        "stars": 5,
+        "year": 2022,
+        "applicability": "Original Australian Air RWD is explicitly covered; all EV6 variants except GT. Current ANCAP page lists December 2028 expiry. A rating is not proof that any three restraints fit.",
+        "sourceIds": [
+          "audit-kia-ev6-ancap",
+          "audit-kia-ev6-ancap-install"
+        ]
+      },
+      "servicing": "12 months/15,000 km. MY22/MY24 manuals: brake fluid every 24 months; first coolant change 210,000 km/120 months, then 30,000 km/24 months. Obtain the exact VIN schedule and quote; existing prepaid plans can transfer.",
+      "pros": [
+        "Documented room ahead of rear-facing restraints; Air has a flat rear floor and rear vents.",
+        "AAA exact Air test: 16.6 kWh/100 km mains consumption and calculated 484 km range, separately labelled from WLTP.",
+        "Fast DC charging on suitable infrastructure; Air tyre costs have a current fitted retail anchor."
+      ],
+      "cons": [
+        "Three-across evidence includes difficult middle buckle access; not a universal booster fit.",
+        "Air manual flush handles and manual tailgate add effort when carrying children or bags.",
+        "Inspect ICCU/12 V and recall records; a recall repair is free when applicable."
+      ],
+      "inspection": [
+        "Trial all three restraints together and check every buckle with the children seated.",
+        "Confirm VIN, build date, service history, recall completion and remaining warranty.",
+        "Check VIN completion of REC-006238 ICCU software recall; request documentation for any associated repair.",
+        "Test both AC and DC charging and inspect the auxiliary-battery history.",
+        "Fit your one rear-facing and two forward-facing/booster seats simultaneously, then check front driver comfort and daily buckle reach.",
+        "Check brake-fluid service invoices and any prepaid-service balance; do not import an Ioniq 5 coolant schedule.",
+        "Confirm the original warranty-start date and any prior commercial/rideshare use. Obtain written ICCU-extension terms for this VIN."
+      ],
+      "gaps": [
+        "Exact Air three-across trial using your one-rear-facing / two-forward-facing-or-booster seats remains unverified.",
+        "Manufacturer DC vehicle peak remains unverified; 350 kW is charger infrastructure. CarExpert observed 202 kW once, not a certified maximum.",
+        "No representative Australian out-of-pocket repair annual mean or Air-specific household insurance quote found.",
+        "Later 84 kWh facelift is outside this original 77.4 kWh entry."
+      ],
+      "sourceIds": [
+        "ev-ev6-spec",
+        "ev-ev6-family",
+        "ev-ev6-ancap",
+        "ev-kia-warranty",
+        "ev-kia-battery",
+        "ev-ev6-recall",
+        "ev-ev6-market",
+        "ev-deep-ev6-ancap-fit",
+        "audit-kia-ev6-my22-spec",
+        "audit-kia-ev6-my24-spec",
+        "audit-kia-ev6-my22-manual",
+        "audit-kia-ev6-my24-manual",
+        "audit-kia-ev6-babydrive",
+        "audit-kia-ev6-air-family",
+        "audit-kia-ev6-ancap",
+        "audit-kia-ev6-ancap-install",
+        "audit-kia-ev6-aaa-air",
+        "audit-kia-ev6-aaa-protocol",
+        "audit-kia-ev6-carexpert-air",
+        "audit-kia-ev6-warranty",
+        "audit-kia-ev6-iccu-recall"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "ev-price-ev6",
+      "vehicleId": "ev6-air-2022",
+      "low": 40000,
+      "high": 48980,
+      "condition": "used",
+      "basis": "mixed",
+      "sampleCount": 3,
+      "geography": "Motorama Toyota Hillcrest, Queensland; private seller, Queensland; Cars4us Pinkenba, Queensland",
+      "kilometres": "53–59,306 km; three distinct Queensland used Air RWD examples",
+      "observed": "2026-10-18",
+      "note": "Three distinct Queensland original Air RWD asks, re-read 18 October 2026; not sold-price evidence. The 53 km Motorama used-labelled car is a nearly-new outlier. Cars4us stock 74400/VIN ending 211021 is one physical car across cross-posts; its page also warns additional dealer fees may apply. Ask each seller for an all-in quote and current availability. No 84 kWh facelift, GT-Line or GT is included.",
+      "sourceIds": [
+        "audit-kia-ev6-motorama",
+        "audit-kia-ev6-private",
+        "audit-kia-ev6-cars4us"
+      ],
+      "confidence": "medium",
+      "estimateBasis": "Median of the included advertised amounts. The displayed low/high are only the included observations, not an estimated market range. Fee bases differ; the point is a provisional cash-budget anchor, not a fee-normalised valuation. Add the relevant duty/transfer/registration before comparing all-in totals.",
+      "observations": [
+        {
+          "price": 48980,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 53,
+          "location": "Motorama Toyota Hillcrest, QLD",
+          "url": "https://www.motoramachery.com.au/cars/used-2024-kia-ev6-p005132",
+          "sourceId": "audit-kia-ev6-motorama",
+          "checked": "2026-10-18",
+          "note": "Stock P005132; seller labels USED despite only 53 km. Air RWD original CV body/build 2024. Do not treat as a typical high-mileage used example."
+        },
+        {
+          "price": 40000,
+          "basis": "excludes-charges",
+          "year": 2023,
+          "kilometres": 26376,
+          "location": "Private seller, Queensland",
+          "url": "https://www.carsales.com.au/cars/details/2023-kia-ev6-air-auto-my24/SSE-AD-20675863/",
+          "sourceId": "audit-kia-ev6-private",
+          "checked": "2026-10-18",
+          "note": "Private-used Air RWD MY24, original 77.4 kWh generation; asking price excludes government charges. Build year/model year differ; verify VIN. Active price page retrieved, not an auction or sold-price result."
+        },
+        {
+          "price": 41990,
+          "basis": "excludes-charges",
+          "year": 2024,
+          "kilometres": 59306,
+          "location": "Cars4us, Pinkenba, Queensland",
+          "url": "https://www.cars4us.com.au/vehicles/74400",
+          "sourceId": "audit-kia-ev6-cars4us",
+          "checked": "2026-10-18",
+          "note": "Used Air RWD MY24, stock 74400, VIN ending 211021 (cross-posted Autotrader 15329952; counted once). Dealer pay-in-full price explicitly excludes government charges. 77.4 kWh original generation; dealer equipment prose is labelled AI-generated and is not specification evidence. Confirm current reservation/availability with dealer."
+        }
+      ],
+      "point": 41990,
+      "kind": "observation"
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "kia-ev6",
+      "serviceAnnual": 350,
+      "serviceLow": 250,
+      "serviceHigh": 450,
+      "serviceConfidence": "medium",
+      "serviceBasis": "ESTIMATE A$350/year (A$250–450) for a used Air without a prepaid balance. Current Air/GT-Line prepaid plan: A$758/3, A$1,446/5, A$2,136/7 services including GST; five-plan averages A$289.20/service but a used 2022–24 car cannot newly enrol after eligibility. Original MY22/MY24 manuals include brake fluid every 24 months and first coolant 210,000 km/120 months, then 30,000 km/24 months. No Air-specific current pay-as-you-go dealer quote found; ageing/severe-use supplements may cost more. Excludes tyres and unscheduled repairs.",
+      "risks": [
+        {
+          "title": "ICCU / 12 V-charging recall",
+          "detail": "REC-006238 covers selected 2021–2024 VINs and supersedes REC-005946. Software-related ICCU failure can stop 12 V charging; Kia inspects and replaces hardware if required, plus updates software, free.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "Official VIN-applicable recall work is free. The separate paid ICCU scenario below applies only if recall, warranty, extended cover and other remedies do not cover the fault.",
+          "warranty": "Australian manufacturer statements reported by Drive in May 2026 describe 15-year/300,000-km ICCU cover from first registration for EV6 MY22–24. This is reported component cover, not a verified VIN-specific contract; obtain written eligibility and exclusions from the Australian dealer. Recall rectification remains free for affected VINs; use a paid stress case only when every applicable remedy is unavailable.",
+          "sourceIds": [
+            "own-ev-kia-recall",
+            "repair-iccu-au-extension",
+            "audit-kia-ev6-iccu-recall"
+          ],
+          "confidence": "high"
+        },
+        {
+          "title": "Full traction-battery replacement — stress case",
+          "detail": "Budget for a complete pack only if diagnosis supports replacement. A module, control-system or drive-unit-only repair can be substantially cheaper; this range does not predict failure.",
+          "low": 10000,
+          "high": 35000,
+          "priceBasis": "ESTIMATE: model-specific Australian quote unavailable; based on the Insurance Council’s 2024 A$7,500–30,000 benchmark (itself converted from US research, not Australian installed invoices) and a broker’s A$10,000–30,000+ general guide, adjusted for the 77.4 kWh class and an explicit allowance above the generic upper benchmark. Full replacement planning total assumes parts, labour and GST; not a hard ceiling or a priced repair offer.",
+          "warranty": "Apply the original model-year terms; do not infer full battery replacement from a warning light.",
+          "sourceIds": [
+            "own-ev-kia-battery",
+            "own-ev-kia-warranty",
+            "own-ev-est-battery-ica",
+            "own-ev-est-battery-broker"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Brake pads and discs example — one axle",
+          "detail": "A paid brake job is separate from standard prepaid servicing. Inspect before budgeting: regenerative braking changes wear, but does not remove the need for sound friction brakes.",
+          "low": 500,
+          "high": 1200,
+          "priceBasis": "ESTIMATE: EV6-specific quote unavailable; based on AutoGuru’s Australian A$500–700+ front pads/discs benchmark, widened for larger EV/OEM parts. Assumes one axle, parts, labour and GST; excludes tyres, calipers and unrelated repairs.",
+          "warranty": "Manufacturing cover excludes normal wear and external damage.",
+          "sourceIds": [
+            "own-ev-kia-plan",
+            "own-ev-kia-warranty",
+            "own-ev-est-brakes-booking",
+            "own-ev-est-brakes"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "ICCU hardware replacement if all cover is unavailable",
+          "detail": "Conditional paid stress case only: first confirm recall, original warranty, any ICCU extension and other remedies. This is not added as a routine annual cost and implies no failure probability.",
+          "low": 3500,
+          "high": 8000,
+          "confidence": "low",
+          "priceBasis": "ESTIMATE: Australian model-specific quote unavailable; first-party US OEM ICCU listing is about US$1,658–2,445 for EV6. Illustrative US$1=A$1.50, plus 10% GST/import/parts variation and roughly A$800–2,000 diagnosis, labour, coolant/fuse allowance. Foreign part is a pricing proxy, not confirmed Australian-VIN fitment; not a live FX or installation quote.",
+          "warranty": "Australian manufacturer statements reported by Drive in May 2026 describe 15-year/300,000-km ICCU cover from first registration for EV6 MY22–24. This is reported component cover, not a verified VIN-specific contract; obtain written eligibility and exclusions from the Australian dealer. Recall rectification remains free for affected VINs; use a paid stress case only when every applicable remedy is unavailable.",
+          "sourceIds": [
+            "own-ev-est-iccu-kia-us",
+            "own-ev-kia-terms",
+            "repair-iccu-au-extension"
+          ]
+        },
+        {
+          "title": "Other early EV6 VIN-specific campaigns",
+          "detail": "REC-005455 concerns selected 2021–2022 cars’ park-pawl/Shift Control Unit software (roll-away risk). REC-005939 concerns a defective driveshaft in selected 2023 EV6 VINs. Both provide free dealer remedies and are separate from ICCU campaigns.",
+          "low": 0,
+          "high": 0,
+          "priceBasis": "A$0 for the official VIN-applicable recall remedy. This is rectification of an identified campaign, not a future owner-paid replacement quote.",
+          "warranty": "Check the VIN and campaign completion with the Australian manufacturer; official recall rectification is separate from ordinary warranty expiry.",
+          "sourceIds": [
+            "own-ev-kia-park-recall",
+            "own-ev-kia-driveshaft-recall",
+            "audit-kia-ev6-park-recall",
+            "audit-kia-ev6-shaft-recall"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sourceIds": [
+        "own-ev-kia-prices",
+        "own-ev-kia-plan",
+        "own-ev-kia-warranty",
+        "own-ev-kia-battery",
+        "own-ev-kia-terms",
+        "repair-iccu-au-extension",
+        "audit-kia-ev6-prepaid-prices",
+        "audit-kia-ev6-prepaid-terms",
+        "audit-kia-ev6-my22-manual",
+        "audit-kia-ev6-my24-manual",
+        "audit-kia-ev6-warranty",
+        "audit-kia-ev6-iccu-recall",
+        "audit-kia-ev6-park-recall",
+        "audit-kia-ev6-shaft-recall"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "kia-ev6",
+      "rating": 4.0,
+      "outOf": 5,
+      "count": 2,
+      "scope": "ProductReview RWD Air page:4.0/5 from 2 contributions, one owner and one disclosed borrowed-car expert. Page groups 2022–2026/other-year aliases; contributions concern original Air. Tiny mixed sample, not an owner-only reliability survey.",
+      "summary": "One owner and one expert praise the drive and charging but question original new-price equipment value. The expert misstates Air range/consumption using GT-Line figures; manufacturer and AAA figures take precedence.",
+      "positiveThemes": [
+        "Enjoyable, quiet driving and adjustable regeneration.",
+        "Fast-charging capability and useful range."
+      ],
+      "negativeThemes": [
+        "Equipment omissions and value against newer competitors.",
+        "Lane assistance and some cabin-material concerns."
+      ],
+      "sourceIds": [
+        "audit-kia-ev6-productreview-air"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-ev6-air-carsguide-2024",
+      "familyId": "kia-ev6",
+      "vehicleIds": [
+        "ev6-air-2022"
+      ],
+      "tested": "2024 Kia EV6 Air RWD 77.4 kWh",
+      "scope": "Exact original Air family test; historical new price and service offers are not current used-price evidence.",
+      "publisher": "CarsGuide",
+      "published": "2024-03-29",
+      "checked": "2026-10-18",
+      "rating": 7.9,
+      "outOf": 10,
+      "verdict": "Comfortable and practical Air; narrow three-seat and manual-handle compromises.",
+      "positiveThemes": [
+        "Comfortable ride and generous longitudinal cabin space.",
+        "Useful rear amenities and clear technology."
+      ],
+      "negativeThemes": [
+        "Awkward manual flush handles.",
+        "Road noise at higher speed; three-across needs narrow seats."
+      ],
+      "sourceIds": [
+        "audit-kia-ev6-air-family"
+      ]
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "kia-ev6",
+      "low": 980,
+      "high": 3500,
+      "point": 1570,
+      "basis": "Youi EV6 mean A$1,569, rounded to A$1,570, for comprehensive policies sold 22 November 2025–22 May 2026; published indicative band A$984–2,065. Model comparisons require at least ten policies, but the exact EV6 count is undisclosed. National mixed years, trims and customers; not a Queensland Air household quote. Dashboard A$980–3,500 sensitivity bounds are assumptions. Obtain a personal quote.",
+      "confidence": "low",
+      "sourceIds": [
+        "audit-kia-ev6-youi"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyreUpdates": [
+    {
+      "vehicleId": "ev6-air-2022",
+      "setCost": 1700,
+      "setLow": 1300,
+      "setHigh": 2200,
+      "lifeKm": 40000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 50000,
+      "confidence": "low",
+      "basis": "Air: 235/55R19, MY22 manual load index 105 and speed rating V. JAX Hankook iON evo AS SUV IH01A 105V XL NCS: A$425 each fitted/GST included, A$1,700 for four before temporary promotions. Current buy-four offer is A$325 each; the long-term anchor stays A$1,700. Set bounds A$1,300–2,200 and life 40,000 km (30,000–50,000) are assumptions. At 15,000 km/year the allowance is A$637.50; alignment extra.",
+      "sourceIds": [
+        "audit-kia-ev6-jax-19",
+        "audit-kia-ev6-my24-spec",
+        "audit-kia-ev6-my22-manual",
+        "budget-tyre-life"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/55 R 19 105 V XL",
+        "product": "Hankook iON evo AS SUV IH 01 A",
+        "unitPrice": 425,
+        "quantity": 4,
+        "sourceId": "audit-kia-ev6-jax-19",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "ev6-air-2022",
+      "point": 1000,
+      "low": 550,
+      "high": 1900,
+      "confidence": "low",
+      "basis": "ESTIMATE A$1,000/year savings(A$550–1,900), retained: no credible Australian Air annual paid-failure average found. Original vehicle/HV cover and VIN-applicable free recall remedies reduce owner-paid exposure; reported 15 year/300,000 km ICCU extension still requires written Australian VIN eligibility. Reserve covers other uncovered ageing electrical/thermal/chassis faults, not recall work, routine fluids, tyres or insured crashes. No failure probability inferred from forum complaints or one foreign part price. A full traction pack is a separate conditional stress case.",
+      "sourceIds": [
+        "own-ev-kia-warranty",
+        "own-ev-kia-terms",
+        "own-ev-kia-plan",
+        "repair-iccu-au-extension",
+        "audit-kia-ev6-warranty",
+        "audit-kia-ev6-iccu-recall",
+        "audit-kia-ev6-my22-manual",
+        "audit-kia-ev6-my24-manual"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "ev6-air-2022",
+      "scope": "related",
+      "summary": "Related GT-Line fits two rear-facing restraints and a centre booster, with restricted buckle access. The requested one rear-facing plus two-seat/booster mix is not established; family-fit scoring is withheld.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "Published GT-Line trial and photo show two rear-facing InfaSecure convertibles plus a centre Aspire More booster. This differs from the requested one rear-facing plus two forward-facing seats or boosters. The Air review also favours two seats and says three require narrow restraints; no matched mixed trial was found.",
+          "sourceIds": [
+            "audit-kia-ev6-babydrive",
+            "audit-kia-ev6-air-family",
+            "audit-kia-ev6-facing-photo"
+          ]
+        },
+        "buckles": {
+          "rating": "restricted",
+          "detail": "Related three-across centre buckle was difficult; ANCAP could not correctly install one selected centre booster individually. This is a documented restriction, not failure of every booster or a three-booster test.",
+          "sourceIds": [
+            "audit-kia-ev6-babydrive",
+            "audit-kia-ev6-ancap-install"
+          ]
+        },
+        "space": {
+          "rating": "good",
+          "detail": "Related GT-Line fitted 186 cm front occupants ahead of rear-facing seats with room remaining. Exact Air review corroborates useful front clearance with a 0–4 rear-facing restraint and a flat rear floor; verify your driver position.",
+          "sourceIds": [
+            "audit-kia-ev6-babydrive",
+            "audit-kia-ev6-air-family"
+          ]
+        },
+        "access": {
+          "rating": "workable",
+          "detail": "Exact Air test reports easy child exit but awkward manually operated flush door handles. No quantified door-opening measurement or exact three-restraint loading trial; no third row.",
+          "sourceIds": [
+            "audit-kia-ev6-air-family",
+            "audit-kia-ev6-my24-spec"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Exact AAA Air observed energy/range added; original manuals verify coolant interval instead of importing Ioniq 5 costs. Family scoring now distinguishes rear-facing clearance from centre-buckle restriction. Current asks/premiums/tyres rechecked; unsupported repair annual mean remains a labelled estimate.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "verified",
+        "finding": "Three distinct Queensland asks: A$40,000 excluding charges / 26,376 km; A$41,990 excluding charges / 59,306 km; A$48,980 drive-away / 53 km. Median A$41,990 retained. Different fee bases and the nearly-new outlier matter; Cars4us fees may be additional. These are asks, not transactions.",
+        "sourceIds": [
+          "audit-kia-ev6-motorama",
+          "audit-kia-ev6-private",
+          "audit-kia-ev6-cars4us"
+        ],
+        "vehicleIds": [
+          "ev6-air-2022"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "verified",
+        "finding": "Original MY22/MY24 Air: 77.4 kWh, 528 km WLTP, 16.5 kWh/100km WLTP and 10.5 kW AC; CCS2 / Type 2. The 18-minute 10–80% claim uses a 350 kW charger, not a 350 kW vehicle peak. Added matched AAA results: 16.6 kWh/100km from mains recharge and 484 km calculated test range. GT-Line and later 84 kWh cars remain separate.",
+        "sourceIds": [
+          "audit-kia-ev6-my22-spec",
+          "audit-kia-ev6-my24-spec",
+          "audit-kia-ev6-aaa-air",
+          "audit-kia-ev6-aaa-protocol"
+        ],
+        "vehicleIds": [
+          "ev6-air-2022"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "gap",
+        "finding": "Air anchors and B-pillar vents verified. Related GT-Line fitted two rear-facing restraints and a centre booster tightly: 186 cm front-seat clearance was positive, centre-buckle access restricted. The Air review also reports generous front clearance but a constrained three-across fit. Your one rear-facing plus two-seat/booster arrangement remains pending. Boot: 490 L VDA. Facing-photo recheck: the requested one rear-facing plus two-seat/booster mix is not established, so no family-fit score is assigned.",
+        "sourceIds": [
+          "audit-kia-ev6-my22-spec",
+          "audit-kia-ev6-my24-spec",
+          "audit-kia-ev6-babydrive",
+          "audit-kia-ev6-air-family",
+          "audit-kia-ev6-ancap-install",
+          "audit-kia-ev6-facing-photo"
+        ],
+        "vehicleIds": [
+          "ev6-air-2022"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "verified",
+        "finding": "Original private-use warranty: 7 years / unlimited km; high-voltage components and pre-MY27 70% capacity cover: 7 years / 150,000 km. Remaining cover transfers. Exceptions include 2 years for the 12 V battery, 3 years for the head unit and a 150,000 km commercial-use cap. Confirm reported ICCU extensions in writing for the VIN; overseas terms do not establish Australian eligibility.",
+        "sourceIds": [
+          "audit-kia-ev6-warranty",
+          "repair-iccu-au-extension"
+        ],
+        "vehicleIds": [
+          "ev6-air-2022"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "12 months / 15,000 km; retained A$350/year used-car budget. The current A$1,446 five-plan offer applies to eligible new cars, not used pay-as-you-go servicing. MY22/MY24 brake fluid: 24 months; coolant first 210,000 km / 120 months, then 30,000 km / 24 months. Fitted fluid/dealer quotes remain unavailable.",
+        "sourceIds": [
+          "audit-kia-ev6-prepaid-prices",
+          "audit-kia-ev6-prepaid-terms",
+          "audit-kia-ev6-my22-manual",
+          "audit-kia-ev6-my24-manual"
+        ],
+        "vehicleIds": [
+          "ev6-air-2022"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "Retained A$1,570 from Youi’s A$1,569 mean, November 2025–May 2026 cohort; published indicative band A$984–2,065. Exact sample size and Air subgroup unavailable. National mixed trims and customers; no household quote. Dashboard A$980–3,500 bounds are assumptions.",
+        "sourceIds": [
+          "audit-kia-ev6-youi"
+        ],
+        "vehicleIds": [
+          "ev6-air-2022"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "Air 235/55R19 105V verified. JAX fitted/GST-inclusive Hankook A$425 each / A$1,700 set retained, rather than assuming a temporary buy-four discount lasts. Assumed 40,000 km life gives A$637.50/year at 15,000 km; model-specific wear distribution unavailable.",
+        "sourceIds": [
+          "audit-kia-ev6-my22-manual",
+          "audit-kia-ev6-my24-spec",
+          "audit-kia-ev6-jax-19"
+        ],
+        "vehicleIds": [
+          "ev6-air-2022"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "estimate",
+        "finding": "Retained A$1,000 repair savings; no representative Australian annual paid-fault average found. ICCU, earlier parking and driveshaft recalls have free VIN-applicable remedies. Removed 2025 cluster campaign from the original MY22–24 Air list. Paid ICCU/battery stress cases remain low-confidence ranges, not failure forecasts.",
+        "sourceIds": [
+          "audit-kia-ev6-iccu-recall",
+          "audit-kia-ev6-park-recall",
+          "audit-kia-ev6-shaft-recall",
+          "audit-kia-ev6-cluster-recall",
+          "audit-kia-ev6-warranty",
+          "own-ev-est-iccu-kia-us",
+          "own-ev-est-battery-ica"
+        ],
+        "vehicleIds": [
+          "ev6-air-2022"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "verified",
+        "finding": "Air 4.0/5 from two contributions retained, explicitly one owner plus a borrowed-car professional. That contributor also mixes GT-Line figures, so it cannot establish Air specifications. Added independent 2024 Air CarsGuide 7.9/10; CarExpert’s qualitative verdict stays separate. No large applicable Australian reliability survey found.",
+        "sourceIds": [
+          "audit-kia-ev6-productreview-air",
+          "audit-kia-ev6-air-family",
+          "audit-kia-ev6-carexpert-air"
+        ],
+        "vehicleIds": [
+          "ev6-air-2022"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "verified",
+        "finding": "Maker limits: 1,600 kg braked towing / 100 kg towball. The 2022 ANCAP assessment explicitly covers Air and excludes GT; expiry December 2028. Restraint matrix tests individual positions. QLD private EV annual rego/CTP A$782.15–798.15, midpoint A$790.15. Duty below A$100,000 is A$2 per A$100, rounded up. Resale remains a scenario.",
+        "sourceIds": [
+          "audit-kia-ev6-my22-spec",
+          "audit-kia-ev6-my24-spec",
+          "audit-kia-ev6-ancap",
+          "audit-kia-ev6-ancap-install",
+          "audit-kia-ev6-qld-rego",
+          "audit-kia-ev6-qld-duty"
+        ],
+        "vehicleIds": [
+          "ev6-air-2022"
+        ]
+      }
+    ]
+  }
+}

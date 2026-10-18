@@ -1,0 +1,1170 @@
+{
+  "familyId": "byd-sealion-6",
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "audit-byd-sealion-6-current-spec",
+      "title": "Australian Sealion 6 September 2025 specification: variant columns visually inspected",
+      "url": "https://bydautomotive.com.au/brochures/BYD-SEALION-6-2025.pdf",
+      "publisher": "BYD Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-current-range",
+      "title": "Current Australian Sealion 6 grades, equipment and handbook links",
+      "url": "https://bydautomotive.com.au/sealion-6",
+      "publisher": "BYD Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-au-handbook",
+      "title": "Australian 2024 handbook: restraint positions, towing, premium fuel and maintenance",
+      "url": "https://bydautomotive.com.au/brochures/BYD-SEALION-6-Owners-Handbook-2024.pdf",
+      "publisher": "BYD Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-ancap-scope",
+      "title": "ANCAP Sealion 6: PHEV applicability, 2023 rating and expiry",
+      "url": "https://www.ancap.com.au/safety-ratings/byd/sealion-6/304014",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-ancap-report",
+      "title": "ANCAP technical report: individual restraint installations are not a three-across test",
+      "url": "https://cdn.ancap.com.au/app/public/assets/1d72f990fae84d314701b822fc8b6f305d417f3a/original.pdf?1767071738=",
+      "publisher": "ANCAP",
+      "kind": "safety",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-premium-practicality",
+      "title": "2025 Premium AWD review: unnamed tight three-seat claim and retrospective FWD range observation",
+      "url": "https://www.carexpert.com.au/car-reviews/2025-byd-sealion-6-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-2026-warranty",
+      "title": "Current Australian warranty booklet: battery/drive unit, exclusions and used-car eligibility",
+      "url": "https://bydautomotive.com.au/public/vehicle-warranty-2026.pdf",
+      "publisher": "BYD Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-2025-warranty",
+      "title": "Australian 2025 warranty booklet, still linked by authorised dealer",
+      "url": "https://bydautomotive.com.au/public/vehicle-warranty-2025.pdf",
+      "publisher": "BYD Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-warranty-backdating",
+      "title": "Distributor confirms April 2025 simplified warranty was backdated to August 2022 deliveries",
+      "url": "https://www.carexpert.com.au/car-news/byd-cuts-strings-attached-to-its-new-car-warranty",
+      "publisher": "CarExpert, reporting EVDirect confirmation",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-maker-service",
+      "title": "Current Australian PHEV guide: total-distance and HEV-distance service triggers",
+      "url": "https://bydautomotive.com.au/service-and-warranty",
+      "publisher": "BYD Australia",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-dynamic-service-caps",
+      "title": "Authorised dealer MY24 Dynamic capped prices: initial visit and eleven annual services",
+      "url": "https://evdealergroup-byd.com.au/service-and-warranty",
+      "publisher": "EV Dealer Group BYD",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-hendra-current-ask",
+      "title": "Current Hendra Dynamic H31098: live public HTML price, odometer, VIN and availability",
+      "url": "https://www.carsguide.com.au/car/15340890/byd/sealion-6/qld/hendra/suv",
+      "publisher": "easyauto123 Hendra via CarsGuide",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-qld-extended-stock",
+      "title": "Queensland Dynamic Extended new inventory: stocks 8125424, 8125425 and 8125426",
+      "url": "https://evdealergroup-byd.com.au/inventory?model=sealion-6&state=QLD&type=n",
+      "publisher": "EV Dealer Group BYD",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-owner-reviews",
+      "title": "Current Sealion 6 owner aggregate: 3.7/5 from nine self-selected mixed-variant posts",
+      "url": "https://www.productreview.com.au/listings/byd-sealion-6",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-dynamic-road-test",
+      "title": "Original Australian Dynamic FWD road test: exact grade, mixed charging use and family compromises",
+      "url": "https://drivingenthusiast.com.au/2025/01/2024-byd-sealion-6-dynamic-review-video/",
+      "publisher": "Driving Enthusiast",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-2026-essential-road-test",
+      "title": "August 2026 Essential road test: related cabin and current-market verdict, not Dynamic road test",
+      "url": "https://www.carexpert.com.au/car-reviews/2026-byd-sealion-6-essential-review",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-brisbane-insurance",
+      "title": "March 2026 Brisbane comprehensive quote study: Sealion 6 Essential A$1,821 average",
+      "url": "https://www.comparethemarket.com.au/news/ev-insurance-up-in-12-months/",
+      "publisher": "Compare the Market Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-youi-insurance",
+      "title": "Youi Sealion 6 policy premium distribution: November 2025 to May 2026",
+      "url": "https://www.youi.com.au/car-insurance/insurance-by-make/byd",
+      "publisher": "Youi Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-fitted-tyres",
+      "title": "JAX 235/50 R19: Dunlop Grandtrek PT5 103V XL fitted retail price and inclusions",
+      "url": "https://www.jaxtyres.com.au/tyres/sizes/19-inch/235-50r19",
+      "publisher": "JAX Tyres & Auto",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-recall-vin",
+      "title": "BYD Australia official VIN recall checker",
+      "url": "https://bydautomotive.com.au/vehicle-recall",
+      "publisher": "BYD Australia",
+      "kind": "recall",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-qld-fees",
+      "title": "Queensland private four-cylinder annual registration and Class 1 CTP, effective October 2026",
+      "url": "https://www.qld.gov.au/transport/registration/fees/cost",
+      "publisher": "Queensland Transport and Main Roads",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-qld-duty",
+      "title": "Queensland hybrid light-vehicle registration duty rates",
+      "url": "https://www.qld.gov.au/transport/registration/fees/duty/rates",
+      "publisher": "Queensland Government",
+      "kind": "market",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-original-spec-archive",
+      "title": "Original BYD Australia/New Zealand Dynamic/Premium specification PDF, archived copy with ADR 81/02 footnote",
+      "url": "https://www.johnkeellscgauto.com/wp-content/uploads/2025/02/BYD-SEALION-6-Vehicle-Specifications.pdf",
+      "publisher": "BYD brochure, archived by John Keells CG Auto",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-extended-gov-spec",
+      "title": "Government VESR / Green Vehicle Guide derived Dynamic Extended: 140 km NEDC, 14.7 kWh/100 km and 95 RON",
+      "url": "https://vesr.gov.au/vehicle/byd-sealion-6-extended-range-dynamic-wagon-2024-2026",
+      "publisher": "NSW Government, incorporating Australian Green Vehicle Guide data",
+      "kind": "manufacturer",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-raa-practicality-conflict",
+      "title": "RAA original 2024 review: rear anchors and conflicting unsourced 574 L boot claim",
+      "url": "https://samove.raa.com.au/car-review-2024-byd-sealion-6/",
+      "publisher": "RAA",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "audit-byd-sealion-6-cars24-current-model-inventory",
+      "title": "Current Cars24 Sealion 6 inventory: original Dynamic absent at audit",
+      "url": "https://www.cars24.com.au/buy-used-byd-sealion-6/",
+      "publisher": "Cars24 Australia",
+      "kind": "market",
+      "checked": "2026-10-18"
+    }
+  ],
+  "vehicleUpdates": [
+    {
+      "id": "sealion6-dynamic-183",
+      "summary": "A five-seat plug-in hybrid with useful rear vents and verified anchors. The mixed-facing three-seat arrangement still needs a physical fitting. Charge regularly and test the 425 L boot with your pram.",
+      "familyFit": {
+        "status": "unverified",
+        "summary": "One rear-facing seat plus two forward-facing seats or boosters is not demonstrated. Two rear ISOFIX positions and three top tethers are verified.",
+        "row2": "ANCAP identifies two outboard ISOFIX positions and top tethers for all three rear seating positions.",
+        "row3": "No third row.",
+        "testedSeats": "CarExpert describes three child seats fitting tightly in a related Premium AWD, but gives no restraint models, facing directions or positions. This is not a verified mixed-facing combination.",
+        "buckleAccess": "No published daily booster-buckle test found. Check both belt tongues can be reached without shifting adjacent restraints.",
+        "access": "The handbook requires access behind the rear seatbacks for top tethers; it says to remove the cargo cover for outboard top-tether access. Front-seat clearance with a rear-facing seat is unmeasured.",
+        "ventilation": "Rear directional centre vents and rear USB-A/USB-C sockets. No third row.",
+        "sourceIds": [
+          "hy-sl6-anchors",
+          "hy-sl6-24",
+          "audit-byd-sealion-6-au-handbook",
+          "audit-byd-sealion-6-ancap-report",
+          "audit-byd-sealion-6-premium-practicality",
+          "audit-byd-sealion-6-current-spec"
+        ]
+      },
+      "changes": [
+        {
+          "period": "2024–2025 original Dynamic",
+          "text": "18.3 kWh battery; separate from the later Essential and Extended Range grades.",
+          "sourceIds": [
+            "hy-sl6-24"
+          ]
+        },
+        {
+          "period": "September 2025 specification",
+          "text": "Extended Range adds a 26.6 kWh battery. Current brochure distinguishes SOC windows and low-SOC petrol figures.",
+          "sourceIds": [
+            "hy-sl6-25"
+          ]
+        },
+        {
+          "period": "Original versus later grades",
+          "text": "Later Essential and Dynamic Extended have different equipment and battery options. The Premium AWD road-test powertrain and its fuel use are not assigned to either Dynamic FWD entry.",
+          "sourceIds": [
+            "audit-byd-sealion-6-current-spec",
+            "audit-byd-sealion-6-current-range",
+            "audit-byd-sealion-6-premium-practicality"
+          ]
+        }
+      ],
+      "gaps": [
+        "Check the VIN-specific service history and component warranty exclusions against the separately documented ownership terms.",
+        "Later Essential shares headline battery/range but is not treated as equipment-identical to the original Dynamic.",
+        "Verified electric-driving consumption remains unavailable; any combined energy-cost budget uses a separate, labelled planning estimate.",
+        "No named Australian three-restraint test verifies one rear-facing seat plus two forward-facing seats or boosters, front-adult clearance, or usable booster buckles. General rear legroom is not a substitute.",
+        "The original BYD Australian brochure URLs are unavailable. An archived copy of the Australian/New Zealand specification with ADR 81/02 footnotes was recovered; manufacturer-hosted archival provenance is still preferable."
+      ],
+      "inspection": [
+        "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
+        "Verify charging, included cables and service records.",
+        "Confirm battery size and grade from the VIN/order sheet; Dynamic and Dynamic Extended differ.",
+        "Try the boot with your pram while all child seats remain installed.",
+        "The Australian handbook currently linked by BYD specifies 95-grade or higher unleaded, E 10 or below (p 109). Budget premium petrol and confirm the delivered VIN handbook; do not assume a 91 RON price.",
+        "With one rear-facing seat installed, set both front seats for the adults and check their usable positions before testing the other two restraints.",
+        "Get written remaining-warranty confirmation including the April 2025 backdated change, service eligibility, any auction/write-off history, and the original in-service date.",
+        "Check the build plate, model year, battery size and equipment on the actual car; the original Dynamic and Dynamic Extended are not interchangeable."
+      ],
+      "safety": {
+        "stars": 5,
+        "year": 2023,
+        "applicability": "ANCAP applies the 2023 assessment to Australian/New Zealand PHEV variants sold from May 2024, built from March 2024. Published expiry is December 2031. Individual restraint installation results do not establish three across.",
+        "sourceIds": [
+          "audit-byd-sealion-6-ancap-scope",
+          "audit-byd-sealion-6-ancap-report"
+        ]
+      },
+      "sourceIds": [
+        "hy-recalls",
+        "hy-sl6-24",
+        "hy-sl6-current",
+        "hy-sl6-safe",
+        "hy-sl6-anchors",
+        "hy-byd-warranty",
+        "hy-sl6-used",
+        "hy-deep-sl6-handbook",
+        "own-hy-refresh-byd-service",
+        "audit-byd-sealion-6-au-handbook",
+        "audit-byd-sealion-6-ancap-report",
+        "audit-byd-sealion-6-ancap-scope",
+        "audit-byd-sealion-6-current-range",
+        "audit-byd-sealion-6-current-spec",
+        "audit-byd-sealion-6-premium-practicality",
+        "audit-byd-sealion-6-warranty-backdating",
+        "audit-byd-sealion-6-2026-warranty",
+        "audit-byd-sealion-6-maker-service",
+        "audit-byd-sealion-6-original-spec-archive"
+      ],
+      "checked": "2026-10-18",
+      "observedRange": {
+        "value": 90,
+        "unit": "km",
+        "basis": "Retrospective Australian road-test observation of the original base FWD: CarExpert reports about 90 km of electric driving in prior testing. Route, weather, wheel details and precise build year are not given. This is not WLTP/NEDC or an Extended Range result.",
+        "sourceIds": [
+          "audit-byd-sealion-6-premium-practicality"
+        ]
+      },
+      "range": {
+        "value": 92,
+        "unit": "km",
+        "basis": "Electric only · NEDC / ADR 81/02; SOC 25–100%",
+        "sourceIds": [
+          "hy-sl6-24",
+          "audit-byd-sealion-6-original-spec-archive"
+        ]
+      },
+      "battery": {
+        "value": 18.3,
+        "unit": "kWh",
+        "basis": "Manufacturer-rated Blade battery capacity",
+        "sourceIds": [
+          "hy-sl6-24",
+          "audit-byd-sealion-6-original-spec-archive"
+        ]
+      },
+      "consumption": {
+        "value": 16.9,
+        "unit": "kWh/100km",
+        "basis": "Published ADR 81/02 electrical claim (169 Wh/km); the brochure does not identify weighted-versus-electric-distance or wall-versus-battery basis. Retained as a specification only; not used as verified all-electric driving consumption.",
+        "sourceIds": [
+          "hy-sl6-24",
+          "audit-byd-sealion-6-original-spec-archive"
+        ],
+        "energyBasis": "unspecified"
+      },
+      "depletedConsumption": {
+        "value": 4.8,
+        "unit": "L/100km",
+        "basis": "Manufacturer ADR 81/02 combined fuel claim at SOC <25%; distinct from weighted PHEV claim",
+        "sourceIds": [
+          "hy-sl6-24",
+          "audit-byd-sealion-6-original-spec-archive"
+        ]
+      },
+      "acCharging": {
+        "value": 7,
+        "unit": "kW",
+        "basis": "Australian brochure AC charging rating; 2024 and 2025 documents use different rounding",
+        "sourceIds": [
+          "hy-sl6-24",
+          "audit-byd-sealion-6-original-spec-archive"
+        ]
+      },
+      "dcCharging": {
+        "value": 18,
+        "unit": "kW",
+        "basis": "Maximum published CCS 2 DC rating",
+        "sourceIds": [
+          "hy-sl6-24",
+          "audit-byd-sealion-6-original-spec-archive"
+        ]
+      },
+      "boot": {
+        "value": 425,
+        "unit": "L",
+        "basis": "Manufacturer minimum load space; five seats upright, measurement standard not specified",
+        "sourceIds": [
+          "hy-sl6-24",
+          "audit-byd-sealion-6-original-spec-archive"
+        ]
+      },
+      "length": {
+        "value": 4775,
+        "unit": "mm",
+        "basis": "Overall body length",
+        "sourceIds": [
+          "hy-sl6-24",
+          "audit-byd-sealion-6-original-spec-archive"
+        ]
+      },
+      "width": {
+        "value": 1890,
+        "unit": "mm",
+        "basis": "Body width; mirrors excluded",
+        "sourceIds": [
+          "hy-sl6-24",
+          "audit-byd-sealion-6-original-spec-archive"
+        ]
+      }
+    },
+    {
+      "id": "sealion6-dynamic-extended",
+      "summary": "A five-seat plug-in hybrid with useful rear vents and verified anchors. The mixed-facing three-seat arrangement still needs a physical fitting. Charge regularly and test the 425 L boot with your pram.",
+      "familyFit": {
+        "status": "unverified",
+        "summary": "One rear-facing seat plus two forward-facing seats or boosters is not demonstrated. Two rear ISOFIX positions and three top tethers are verified.",
+        "row2": "ANCAP identifies two outboard ISOFIX positions and top tethers for all three rear seating positions.",
+        "row3": "No third row.",
+        "testedSeats": "CarExpert describes three child seats fitting tightly in a related Premium AWD, but gives no restraint models, facing directions or positions. This is not a verified mixed-facing combination.",
+        "buckleAccess": "No published daily booster-buckle test found. Check both belt tongues can be reached without shifting adjacent restraints.",
+        "access": "The handbook requires access behind the rear seatbacks for top tethers; it says to remove the cargo cover for outboard top-tether access. Front-seat clearance with a rear-facing seat is unmeasured.",
+        "ventilation": "Rear directional centre vents and rear USB-A/USB-C sockets. No third row.",
+        "sourceIds": [
+          "hy-sl6-anchors",
+          "hy-sl6-25",
+          "audit-byd-sealion-6-au-handbook",
+          "audit-byd-sealion-6-ancap-report",
+          "audit-byd-sealion-6-premium-practicality",
+          "audit-byd-sealion-6-current-spec"
+        ]
+      },
+      "changes": [
+        {
+          "period": "2024–2025 original Dynamic",
+          "text": "18.3 kWh battery; separate from the later Essential and Extended Range grades.",
+          "sourceIds": [
+            "hy-sl6-24"
+          ]
+        },
+        {
+          "period": "September 2025 specification",
+          "text": "Extended Range adds a 26.6 kWh battery. Current brochure distinguishes SOC windows and low-SOC petrol figures.",
+          "sourceIds": [
+            "hy-sl6-25"
+          ]
+        },
+        {
+          "period": "Original versus later grades",
+          "text": "Later Essential and Dynamic Extended have different equipment and battery options. The Premium AWD road-test powertrain and its fuel use are not assigned to either Dynamic FWD entry.",
+          "sourceIds": [
+            "audit-byd-sealion-6-current-spec",
+            "audit-byd-sealion-6-current-range",
+            "audit-byd-sealion-6-premium-practicality"
+          ]
+        }
+      ],
+      "gaps": [
+        "Exact 26.6 kWh variant towing and a supported charging-time window are not captured; the original 2WD handbook rating is not automatically transferred.",
+        "Check the VIN-specific service history and component warranty exclusions against the separately documented ownership terms.",
+        "Verified electric-driving consumption remains unavailable; any combined energy-cost budget uses a separate, labelled planning estimate.",
+        "No named Australian three-restraint test verifies one rear-facing seat plus two forward-facing seats or boosters, front-adult clearance, or usable booster buckles. General rear legroom is not a substitute."
+      ],
+      "inspection": [
+        "Check the VIN against current official recall campaigns; this dataset is not a complete recall history.",
+        "Verify charging, included cables and service records.",
+        "Confirm battery size and grade from the VIN/order sheet; Dynamic and Dynamic Extended differ.",
+        "Try the boot with your pram while all child seats remain installed.",
+        "The Australian handbook currently linked by BYD specifies 95-grade or higher unleaded, E 10 or below (p 109). Budget premium petrol and confirm the delivered VIN handbook; do not assume a 91 RON price.",
+        "With one rear-facing seat installed, set both front seats for the adults and check their usable positions before testing the other two restraints.",
+        "Get written remaining-warranty confirmation including the April 2025 backdated change, service eligibility, any auction/write-off history, and the original in-service date.",
+        "Check the build plate, model year, battery size and equipment on the actual car; the original Dynamic and Dynamic Extended are not interchangeable."
+      ],
+      "safety": {
+        "stars": 5,
+        "year": 2023,
+        "applicability": "ANCAP applies the 2023 assessment to Australian/New Zealand PHEV variants sold from May 2024, built from March 2024. Published expiry is December 2031. Individual restraint installation results do not establish three across.",
+        "sourceIds": [
+          "audit-byd-sealion-6-ancap-scope",
+          "audit-byd-sealion-6-ancap-report"
+        ]
+      },
+      "sourceIds": [
+        "hy-recalls",
+        "hy-sl6-25",
+        "hy-sl6-current",
+        "hy-sl6-safe",
+        "hy-sl6-anchors",
+        "hy-byd-warranty",
+        "hy-deep-sl6-handbook",
+        "own-hy-refresh-byd-service",
+        "audit-byd-sealion-6-au-handbook",
+        "audit-byd-sealion-6-ancap-report",
+        "audit-byd-sealion-6-ancap-scope",
+        "audit-byd-sealion-6-current-range",
+        "audit-byd-sealion-6-current-spec",
+        "audit-byd-sealion-6-premium-practicality",
+        "audit-byd-sealion-6-warranty-backdating",
+        "audit-byd-sealion-6-2026-warranty",
+        "audit-byd-sealion-6-maker-service",
+        "audit-byd-sealion-6-extended-gov-spec"
+      ],
+      "checked": "2026-10-18",
+      "range": {
+        "value": 140,
+        "unit": "km",
+        "basis": "Electric only · NEDC / ADR 81/02; SOC 20–100%",
+        "sourceIds": [
+          "hy-sl6-25",
+          "audit-byd-sealion-6-current-spec",
+          "audit-byd-sealion-6-extended-gov-spec"
+        ]
+      },
+      "battery": {
+        "value": 26.6,
+        "unit": "kWh",
+        "basis": "Manufacturer-rated Blade battery capacity",
+        "sourceIds": [
+          "hy-sl6-25",
+          "audit-byd-sealion-6-current-spec"
+        ]
+      },
+      "consumption": {
+        "value": 14.7,
+        "unit": "kWh/100km",
+        "basis": "Published ADR 81/02 electrical claim (147 Wh/km); the brochure does not identify weighted-versus-electric-distance or wall-versus-battery basis. Retained as a specification only; not used as verified all-electric driving consumption.",
+        "sourceIds": [
+          "hy-sl6-25",
+          "audit-byd-sealion-6-current-spec",
+          "audit-byd-sealion-6-extended-gov-spec"
+        ],
+        "energyBasis": "unspecified"
+      },
+      "depletedConsumption": {
+        "value": 4.8,
+        "unit": "L/100km",
+        "basis": "Manufacturer ADR 81/02 combined fuel claim at SOC <20%; distinct from weighted PHEV claim",
+        "sourceIds": [
+          "hy-sl6-25",
+          "audit-byd-sealion-6-current-spec"
+        ]
+      },
+      "acCharging": {
+        "value": 6.6,
+        "unit": "kW",
+        "basis": "Australian brochure AC charging rating; 2024 and 2025 documents use different rounding",
+        "sourceIds": [
+          "hy-sl6-25",
+          "audit-byd-sealion-6-current-spec"
+        ]
+      },
+      "dcCharging": {
+        "value": 18,
+        "unit": "kW",
+        "basis": "Maximum published CCS 2 DC rating",
+        "sourceIds": [
+          "hy-sl6-25",
+          "audit-byd-sealion-6-current-spec"
+        ]
+      },
+      "boot": {
+        "value": 425,
+        "unit": "L",
+        "basis": "Manufacturer minimum load space; five seats upright, measurement standard not specified",
+        "sourceIds": [
+          "hy-sl6-25",
+          "audit-byd-sealion-6-current-spec"
+        ]
+      },
+      "length": {
+        "value": 4775,
+        "unit": "mm",
+        "basis": "Overall body length",
+        "sourceIds": [
+          "hy-sl6-25",
+          "audit-byd-sealion-6-current-spec"
+        ]
+      },
+      "width": {
+        "value": 1890,
+        "unit": "mm",
+        "basis": "Body width; mirrors excluded",
+        "sourceIds": [
+          "hy-sl6-25",
+          "audit-byd-sealion-6-current-spec"
+        ]
+      }
+    }
+  ],
+  "priceUpdates": [
+    {
+      "id": "hy-price-sl6-used",
+      "vehicleId": "sealion6-dynamic-183",
+      "low": 38990,
+      "high": 38990,
+      "condition": "used",
+      "basis": "drive-away",
+      "sampleCount": 1,
+      "geography": "Queensland · one exact original 18.3 kWh Dynamic dealer-used car",
+      "kilometres": "9,193 km",
+      "observed": "2026-10-18",
+      "note": "One exact original Dynamic observed at A$38,990 drive-away in current public HTML. Search extracts still show A$39,990; the live page and InStock structured offer agree on A$38,990. Blue H30165 is excluded because a current cross-post marks it sold. The 23,990 km Cars24 Dynamic no longer appears in current model inventory. Essential, Premium and Extended are excluded.",
+      "sourceIds": [
+        "hy-priceaudit-sl6-grey",
+        "audit-byd-sealion-6-hendra-current-ask",
+        "audit-byd-sealion-6-cars24-current-model-inventory"
+      ],
+      "confidence": "low",
+      "estimateBasis": "Median of the distinct, specifically matched advertised cars below; an asking-price sample, not a valuation or achieved sale price. Current public HTML/stock and seller-posted advertisements checked; availability and buyer-specific on-road charges still require confirmation.",
+      "kind": "observation",
+      "point": 38990,
+      "observations": [
+        {
+          "price": 38990,
+          "basis": "drive-away",
+          "year": 2024,
+          "kilometres": 9193,
+          "location": "Hendra, QLD",
+          "url": "https://www.carsguide.com.au/car/15340890/byd/sealion-6/qld/hendra/suv",
+          "sourceId": "audit-byd-sealion-6-hendra-current-ask",
+          "checked": "2026-10-18",
+          "note": "Stock H31098, VIN LGXC74C45R0533203, rego 736LZ6. Current InStock HTML is A$38,990 DAP; cached A$39,490/A$39,990 prices are superseded. Original Dynamic 18.3 kWh/92 km, not Essential or Extended."
+        }
+      ]
+    },
+    {
+      "id": "hy-price-sl6-ext",
+      "vehicleId": "sealion6-dynamic-extended",
+      "low": 49931,
+      "high": 49931,
+      "condition": "new",
+      "basis": "drive-away",
+      "sampleCount": 3,
+      "geography": "Queensland · three distinct new-stock records on one authorised dealer platform",
+      "kilometres": "Odometers not advertised",
+      "observed": "2026-10-18",
+      "note": "Three distinct new-stock cards on one authorised dealer platform, each A$49,931 drive-away for Queensland registration. Exact stocks 8125424, 8125425 and 8125426 remain available. Odometer and VIN are unpublished. Advertised model year is not a verified build year. No cashback or finance discount has been subtracted. Confirm the final written cash price and eligibility.",
+      "sourceIds": [
+        "hy-deep-price-sl6-ext-8125424",
+        "hy-deep-price-sl6-ext-8125425",
+        "hy-deep-price-sl6-ext-8125426",
+        "hy-deep-price-sl6-extended-stock",
+        "audit-byd-sealion-6-qld-extended-stock"
+      ],
+      "confidence": "medium",
+      "estimateBasis": "Median of the distinct, specifically matched advertised cars below; an asking-price sample, not a valuation or achieved sale price. Current public HTML/stock and seller-posted advertisements checked; availability and buyer-specific on-road charges still require confirmation.",
+      "kind": "observation",
+      "point": 49931,
+      "observations": [
+        {
+          "price": 49931,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": null,
+          "location": "Queensland pickup/registration",
+          "url": "https://evdealergroup-byd.com.au/inventory?model=sealion-6&state=QLD&type=n#carousel941461",
+          "sourceId": "audit-byd-sealion-6-qld-extended-stock",
+          "checked": "2026-10-18",
+          "note": "New/Available Now Dynamic Extended stock 8125424; 2026 model, Arctic White, 19-inch wheels, 160 kW, QLD registration. Distinct stock card and configurator record; VIN and odometer not published. Current published cash DAP used without subtracting cashback or finance benefits again. Link targets this exact inventory card’s published carousel anchor; card price, stock number, new condition and QLD registration verified together. VIN still requires seller confirmation."
+        },
+        {
+          "price": 49931,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": null,
+          "location": "Queensland pickup/registration",
+          "url": "https://evdealergroup-byd.com.au/inventory?model=sealion-6&state=QLD&type=n#carousel941462",
+          "sourceId": "audit-byd-sealion-6-qld-extended-stock",
+          "checked": "2026-10-18",
+          "note": "New/Available Now Dynamic Extended stock 8125425; 2026 model, Arctic White, 19-inch wheels, 160 kW, QLD registration. Distinct stock card and configurator record; VIN and odometer not published. Current published cash DAP used without subtracting cashback or finance benefits again. Link targets this exact inventory card’s published carousel anchor; card price, stock number, new condition and QLD registration verified together. VIN still requires seller confirmation."
+        },
+        {
+          "price": 49931,
+          "basis": "drive-away",
+          "year": 2026,
+          "kilometres": null,
+          "location": "Queensland pickup/registration",
+          "url": "https://evdealergroup-byd.com.au/inventory?model=sealion-6&state=QLD&type=n#carousel941463",
+          "sourceId": "audit-byd-sealion-6-qld-extended-stock",
+          "checked": "2026-10-18",
+          "note": "New/Available Now Dynamic Extended stock 8125426; 2026 model, Arctic White, 19-inch wheels, 160 kW, QLD registration. Distinct stock card and configurator record; VIN and odometer not published. Current published cash DAP used without subtracting cashback or finance benefits again. Link targets this exact inventory card’s published carousel anchor; card price, stock number, new condition and QLD registration verified together. VIN still requires seller confirmation."
+        }
+      ]
+    }
+  ],
+  "ownershipUpdates": [
+    {
+      "familyId": "byd-sealion-6",
+      "serviceInterval": "Current official PHEV guidance: 12 months, 20,000 total km or 10,000 HEV km, whichever first; the original MY24 plan also has an initial 6-month/3,500-km visit. Check the exact VIN handbook and initial-service trigger.",
+      "serviceAnnual": 450.0,
+      "serviceBasis": "ESTIMATE — A$450 per year at 15,000 km per year. Re-read MY24 Dynamic caps: first five annual visits total A$1,593; eleven total A$4,549 (A$413.55 per year), including a A$1,119 year-eight visit. A$300–600 remains a planning range, with wear and repairs separate. The maker now states 20,000 total km, 10,000 HEV km or 12 months, whichever first. Exact Extended caps remain unverified; its separate A$300–750 range is retained.",
+      "warrantyCautions": [
+        "Australian press reports distributor confirmation that the April 2025 simplified warranty was backdated to deliveries since August 2022. Do not treat old three-year infotainment/shock-absorber limits as the current position without checking this change.",
+        "Current Australian booklets state 6 years / 150,000 km for the vehicle, and 8 years / 160,000 km for the power battery and drive unit, with 70% battery capacity retention. Ask BYD to confirm the backdated cover against the actual used VIN.",
+        "The current written booklet still gives lead-acid starting batteries 12 months / 20,000 km and portable charging/discharging devices 12 months. Press descriptions of blanket coverage conflict on some minor items; written VIN confirmation is needed.",
+        "In Queensland, the current booklet starts cover at first registration, including dealer demonstrator use. Service and repair records must accompany a used car. It expressly excludes vehicles acquired at auction and past insurance write-offs; obtain written eligibility confirmation.",
+        "Normal wear, overdue servicing, collision/flood damage and misuse are separate from covered manufacturing defects. Australian Consumer Law rights are additional to the written warranty."
+      ],
+      "risks": [
+        {
+          "title": "Traction battery diagnosis or replacement",
+          "detail": "Battery damage or out-of-cover faults could require specialist pack work. Confirm the applicable capacity threshold and battery health; no failure probability is established.",
+          "low": 12000,
+          "high": 24000,
+          "priceBasis": "ESTIMATE — A$12,000–24,000 fitted pack scenario, assuming labour and GST. Analogue: Australian-installed 18 kWh Outlander aftermarket upgrade A$14,600 incl GST; broaden roughly 0.8–1.6 times and round for Sealion 6 18.3/26.6 kWh packs and unknown OEM logistics. This is NOT a BYD quote or a claimed compatible part.",
+          "warranty": "Current booklets specify pack cover of 8 years / 160,000 km and 70% retention. Confirm the applicable backdated terms, cause of fault and remaining VIN cover before treating a pack scenario as owner-paid.",
+          "sourceIds": [
+            "own-hy-byd-warranty",
+            "own-hy-phev-pack-proxy",
+            "audit-byd-sealion-6-2026-warranty",
+            "audit-byd-sealion-6-warranty-backdating"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Drive-unit controller and cooling",
+          "detail": "Motor/controller and coolant systems add components to inspect. Confirm warning-free operation and cooling-system service records; this is component exposure, not evidence of common failure.",
+          "low": 2000,
+          "high": 8000,
+          "priceBasis": "ESTIMATE — A$2,000–8,000 for ONE drive-controller/motor-cooling repair or replacement scenario, pack excluded. Toyota/Lexus specialist inverter repair/replacement guide A$1,000–2,500 is the donor benchmark; widen for newer BYD integrated electronics, fitment, assumed labour/GST and uncertain parts access. Not a compatible-unit quote.",
+          "warranty": "Current written drive-unit cover is 8 years / 160,000 km. Distributor-confirmed April 2025 backdating is reported for older cars; ask for written VIN confirmation.",
+          "sourceIds": [
+            "own-hy-byd-warranty",
+            "own-hy-byd-handbook",
+            "own-hy-hybrid-inverter-proxy",
+            "audit-byd-sealion-6-2026-warranty",
+            "audit-byd-sealion-6-warranty-backdating"
+          ],
+          "confidence": "low"
+        },
+        {
+          "title": "Petrol engine and EHS maintenance",
+          "detail": "Budget for engine oil, filters, plugs, EHS oil/filter and engine/motor coolant even when most kilometres are electric. Overdue work is distinct from an unexpected failure.",
+          "low": 450,
+          "high": 1150,
+          "priceBasis": "ESTIMATE — A$450–1,150 for a major scheduled/catch-up maintenance visit. Published MY24 Dynamic caps include A$457 at year four and A$1,119 at year eight incl GST; rounded for variant uncertainty. This work is already represented in annual servicing: do not add it again as an unexpected repair unless budgeting overdue work.",
+          "warranty": "Scheduled maintenance is payable; an eligible defect claim is conditional on the applicable warranty.",
+          "sourceIds": [
+            "own-hy-byd-servicing",
+            "own-hy-byd-handbook",
+            "audit-byd-sealion-6-2026-warranty",
+            "audit-byd-sealion-6-warranty-backdating"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sourceIds": [
+        "own-hy-byd-warranty",
+        "own-hy-byd-servicing",
+        "own-hy-byd-handbook",
+        "own-hy-refresh-byd-service",
+        "audit-byd-sealion-6-2026-warranty",
+        "audit-byd-sealion-6-2025-warranty",
+        "audit-byd-sealion-6-warranty-backdating",
+        "audit-byd-sealion-6-dynamic-service-caps",
+        "audit-byd-sealion-6-maker-service",
+        "audit-byd-sealion-6-recall-vin",
+        "audit-byd-sealion-6-original-spec-archive"
+      ],
+      "checked": "2026-10-18",
+      "serviceLow": 300,
+      "serviceHigh": 600,
+      "serviceConfidence": "medium",
+      "energyEstimate": {
+        "low": 16,
+        "high": 22,
+        "point": 19,
+        "basis": "ESTIMATE — battery-side kWh/100 km of electric driving. From manufacturer SOC windows: 18.3×75%/92×100≈14.9; 26.6×80%/140×100≈15.2 on NEDC. Add about 25% real-road uplift and round to 19, with 16–22 sensitivity for load and HVAC. SOC is only a proxy for usable energy. Apply charging loss once; this does not reinterpret the published ADR electricity figure as verified battery-side data.",
+        "sourceIds": [
+          "own-hy-byd-energy-proxy",
+          "own-hy-byd-new-energy-proxy"
+        ],
+        "confidence": "low"
+      },
+      "serviceByVehicle": {
+        "sealion6-dynamic-extended": {
+          "serviceAnnual": 450,
+          "serviceLow": 300,
+          "serviceHigh": 750,
+          "serviceConfidence": "low",
+          "serviceBasis": "ESTIMATE — A$450/year (A$300–750) at 15,000 km/year, using the original 18.3-kWh Dynamic MY24 cap table only as an analogue. A separate 26.6-kWh Extended schedule/capped-price table was not verified. Confirm both elapsed time and HEV-distance triggers, major EHS/coolant items and actual VIN pricing; this is not a manufacturer quote for Extended."
+        }
+      }
+    }
+  ],
+  "reviewUpdates": [
+    {
+      "familyId": "byd-sealion-6",
+      "rating": 3.7,
+      "outOf": 5,
+      "count": 9,
+      "scope": "ProductReview Sealion 6 page labelled 2024–2026, mixed variants. Some posts rate dealer/lease experiences as well as the vehicle; nine self-selected posts.",
+      "summary": "Owners praise comfort, equipment and charged-up economy. Dealer and warranty experiences vary sharply; individual complaints are not verified fault-frequency evidence.",
+      "positiveThemes": [
+        "Quiet, comfortable driving and plentiful equipment",
+        "Low petrol use when regularly charged",
+        "Strong perceived value"
+      ],
+      "negativeThemes": [
+        "Dealer communication and dispute handling",
+        "Individual reports of panel fit, wipers or charging quirks",
+        "Soft suspension and limited boot space noted"
+      ],
+      "sourceIds": [
+        "ownreview-hy-sealion6",
+        "audit-byd-sealion-6-owner-reviews"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "expertReviews": [
+    {
+      "id": "audit-sealion6-essential-aug2026",
+      "familyId": "byd-sealion-6",
+      "vehicleIds": [],
+      "tested": "2026 BYD Sealion 6 Essential Standard Range",
+      "scope": "Related 18.3 kWh FWD entry grade, not the original Dynamic or 26.6 kWh Dynamic Extended. Equipment, camera and suspension observations must not be transferred as exact trim results. The charged-up 1.5 L/100 km test result is not depleted-battery consumption.",
+      "publisher": "CarExpert",
+      "published": "2026-08-26",
+      "checked": "2026-10-18",
+      "rating": null,
+      "outOf": 10,
+      "verdict": "Good",
+      "positiveThemes": [
+        "Roomy second row, useful cabin storage and quiet highway cruising.",
+        "Smooth plug-in powertrain and value."
+      ],
+      "negativeThemes": [
+        "Reviewer criticised ride/body control, braking effort and climate control consistency.",
+        "Small boot; weak rear visibility and basic reversing camera on the tested Essential."
+      ],
+      "sourceIds": [
+        "audit-byd-sealion-6-2026-essential-road-test"
+      ]
+    }
+  ],
+  "insuranceUpdates": [
+    {
+      "familyId": "byd-sealion-6",
+      "low": 1250,
+      "high": 2800,
+      "point": 1820,
+      "basis": "ESTIMATE — A$1,820 per year, rounded from the March 2026 A$1,821 Essential average for a 34-year-old male in Alderley, Brisbane, 15,000 km per year and about A$900 excess. Dynamic and Extended were not separately quoted. Youi reports A$1,039–1,960 for its national mixed-trim policies sold November 2025–May 2026. The A$1,250–2,800 bounds are assumptions, not a personalised quote or statistical confidence interval.",
+      "confidence": "medium",
+      "sourceIds": [
+        "budget-insurance-study",
+        "budget-insurance-factors",
+        "budget-insurance-youi-byd",
+        "audit-byd-sealion-6-brisbane-insurance",
+        "audit-byd-sealion-6-youi-insurance"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "tyreUpdates": [
+    {
+      "vehicleId": "sealion6-dynamic-183",
+      "setCost": 1196,
+      "setLow": 922,
+      "setHigh": 1940,
+      "lifeKm": 40000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 50000,
+      "confidence": "low",
+      "basis": "ESTIMATE — 235/50 R19 wheels; verify the actual load/speed placard. Re-read fitted retail anchor: Dunlop Grandtrek PT5 103V XL, A$299 each including GST, fitting, balancing, valve and disposal; four cost A$1,196 before temporary multi-buy offers. Alignment is excluded. A 40,000 km life is assumed, with 30,000–50,000 km sensitivity, not measured Sealion 6 tyre-life evidence. At 15,000 km per year this is A$448.50 per year. Existing A$922–1,940 set-price bounds remain illustrative.",
+      "sourceIds": [
+        "budget-tyre-2355019",
+        "hy-sl6-25",
+        "budget-tyre-life",
+        "audit-byd-sealion-6-fitted-tyres",
+        "audit-byd-sealion-6-current-spec",
+        "audit-byd-sealion-6-au-handbook"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/50R19 103V XL",
+        "product": "Dunlop Grandtrek PT5",
+        "unitPrice": 299,
+        "quantity": 4,
+        "sourceId": "budget-tyre-2355019",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    },
+    {
+      "vehicleId": "sealion6-dynamic-extended",
+      "setCost": 1196,
+      "setLow": 922,
+      "setHigh": 1940,
+      "lifeKm": 40000,
+      "lifeLowKm": 30000,
+      "lifeHighKm": 50000,
+      "confidence": "low",
+      "basis": "ESTIMATE — 235/50 R19 wheels; verify the actual load/speed placard. Re-read fitted retail anchor: Dunlop Grandtrek PT5 103V XL, A$299 each including GST, fitting, balancing, valve and disposal; four cost A$1,196 before temporary multi-buy offers. Alignment is excluded. A 40,000 km life is assumed, with 30,000–50,000 km sensitivity, not measured Sealion 6 tyre-life evidence. At 15,000 km per year this is A$448.50 per year. Existing A$922–1,940 set-price bounds remain illustrative.",
+      "sourceIds": [
+        "budget-tyre-2355019",
+        "hy-sl6-25",
+        "budget-tyre-life",
+        "audit-byd-sealion-6-fitted-tyres",
+        "audit-byd-sealion-6-current-spec",
+        "audit-byd-sealion-6-au-handbook"
+      ],
+      "checked": "2026-10-18",
+      "retailAnchor": {
+        "size": "235/50R19 103V XL",
+        "product": "Dunlop Grandtrek PT5",
+        "unitPrice": 299,
+        "quantity": 4,
+        "sourceId": "budget-tyre-2355019",
+        "fitted": true,
+        "gstIncluded": true
+      }
+    }
+  ],
+  "repairReserveUpdates": [
+    {
+      "vehicleId": "sealion6-dynamic-183",
+      "point": 650,
+      "low": 350,
+      "high": 1400,
+      "confidence": "low",
+      "basis": "ESTIMATE — A$650 per year for the original used Dynamic. No credible Australian model-specific annual failure-cost average was found. This is a low-confidence savings allowance for unplanned owner-paid faults, not an expected bill. Simplified warranty was reportedly backdated in April 2025; the earlier shorter infotainment/suspension limits are not a reason for this reserve. Keep servicing, tyres, insured collision repairs and pack-replacement stress cases separate. Claim eligible warranty and recall remedies first.",
+      "sourceIds": [
+        "own-hy-byd-warranty",
+        "audit-byd-sealion-6-2026-warranty",
+        "audit-byd-sealion-6-warranty-backdating",
+        "audit-byd-sealion-6-recall-vin"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "vehicleId": "sealion6-dynamic-extended",
+      "point": 600,
+      "low": 300,
+      "high": 1400,
+      "confidence": "low",
+      "basis": "ESTIMATE — A$600 per year for the newer Dynamic Extended. No credible Australian model-specific annual failure-cost average was found. This is a low-confidence savings allowance for unplanned owner-paid faults, not an expected bill. Simplified warranty was reportedly backdated in April 2025; the earlier shorter infotainment/suspension limits are not a reason for this reserve. Keep servicing, tyres, insured collision repairs and pack-replacement stress cases separate. Claim eligible warranty and recall remedies first.",
+      "sourceIds": [
+        "own-hy-byd-warranty",
+        "audit-byd-sealion-6-2026-warranty",
+        "audit-byd-sealion-6-warranty-backdating",
+        "audit-byd-sealion-6-recall-vin"
+      ],
+      "checked": "2026-10-18"
+    }
+  ],
+  "fitAssessments": [
+    {
+      "vehicleId": "sealion6-dynamic-183",
+      "scope": "related",
+      "summary": "Anchors are verified. A related Premium review claims a tight three-seat fit without naming seats or their facing directions. One rear-facing plus two forward-facing seats or boosters remains unverified.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "No named, simultaneous mixed-facing Australian three-seat installation found. ANCAP tests each restraint individually; its full installation result does not establish three across.",
+          "sourceIds": [
+            "audit-byd-sealion-6-ancap-report",
+            "audit-byd-sealion-6-premium-practicality"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No demonstrated daily booster-buckle access with neighbouring restraints. A physically packed three-seat photo would not establish this.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "unknown",
+          "detail": "Independent reviews describe generous adult rear room, but no front-adult height or usable front-seat position with a rear-facing restraint is measured.",
+          "sourceIds": [
+            "audit-byd-sealion-6-premium-practicality"
+          ]
+        },
+        "access": {
+          "rating": "unknown",
+          "detail": "No observed loading/access test with the target restraints. Handbook instructions require cargo-cover removal to reach outboard top tethers; there is no third row.",
+          "sourceIds": [
+            "audit-byd-sealion-6-au-handbook"
+          ]
+        }
+      }
+    },
+    {
+      "vehicleId": "sealion6-dynamic-extended",
+      "scope": "related",
+      "summary": "Anchors are verified. A related Premium review claims a tight three-seat fit without naming seats or their facing directions. One rear-facing plus two forward-facing seats or boosters remains unverified.",
+      "criteria": {
+        "arrangement": {
+          "rating": "unknown",
+          "detail": "No named, simultaneous mixed-facing Australian three-seat installation found. ANCAP tests each restraint individually; its full installation result does not establish three across.",
+          "sourceIds": [
+            "audit-byd-sealion-6-ancap-report",
+            "audit-byd-sealion-6-premium-practicality"
+          ]
+        },
+        "buckles": {
+          "rating": "unknown",
+          "detail": "No demonstrated daily booster-buckle access with neighbouring restraints. A physically packed three-seat photo would not establish this.",
+          "sourceIds": []
+        },
+        "space": {
+          "rating": "unknown",
+          "detail": "Independent reviews describe generous adult rear room, but no front-adult height or usable front-seat position with a rear-facing restraint is measured.",
+          "sourceIds": [
+            "audit-byd-sealion-6-premium-practicality"
+          ]
+        },
+        "access": {
+          "rating": "unknown",
+          "detail": "No observed loading/access test with the target restraints. Handbook instructions require cargo-cover removal to reach outboard top tethers; there is no third row.",
+          "sourceIds": [
+            "audit-byd-sealion-6-au-handbook"
+          ]
+        }
+      }
+    }
+  ],
+  "audit": {
+    "summary": "Warranty backdating corrects an outdated repair premise. Mixed-facing three-seat fit remains a real evidence gap; do not infer it from anchors or an unnamed tight fit in a related Premium.",
+    "items": [
+      {
+        "key": "pricing",
+        "status": "estimate",
+        "finding": "Re-opened current public dealer HTML: original Dynamic A$38,990 drive-away, one Hendra car at 9,193 km; Extended A$49,931 drive-away, three distinct Queensland stock cards on one seller platform. Thin samples, not valuations. Search-cached prices and sold/reserved cross-posts are excluded.",
+        "sourceIds": [
+          "audit-byd-sealion-6-hendra-current-ask",
+          "audit-byd-sealion-6-qld-extended-stock",
+          "audit-byd-sealion-6-cars24-current-model-inventory"
+        ],
+        "vehicleIds": [
+          "sealion6-dynamic-183",
+          "sealion6-dynamic-extended"
+        ]
+      },
+      {
+        "key": "powertrain",
+        "status": "gap",
+        "finding": "Original Australian/New Zealand brochure recovered as an archived copy: 18.3 kWh, 92 km NEDC electric, 4.8 L/100 km below 25% SOC, 7 kW AC and 18 kW DC. Current Extended is 26.6 kWh/140 km NEDC, 4.8 below 20%, 6.6 kW AC and 18 kW DC. Both require 95 RON. No matched observed electric-consumption boundary or supported charging-time window found.",
+        "sourceIds": [
+          "audit-byd-sealion-6-current-spec",
+          "audit-byd-sealion-6-current-range",
+          "audit-byd-sealion-6-au-handbook",
+          "audit-byd-sealion-6-dynamic-road-test",
+          "audit-byd-sealion-6-premium-practicality",
+          "audit-byd-sealion-6-original-spec-archive",
+          "audit-byd-sealion-6-extended-gov-spec"
+        ],
+        "vehicleIds": [
+          "sealion6-dynamic-183",
+          "sealion6-dynamic-extended"
+        ]
+      },
+      {
+        "key": "family",
+        "status": "gap",
+        "finding": "Two rear ISOFIX positions and three top tethers verified. Related Premium review claims a tight three-child-seat fit, but models, directions and buckles are unspecified. No demonstrated one-rear-facing plus two-forward-facing/booster arrangement. Five seats only, rear vents, 425 L official boot; a historical 574 L review claim conflicts.",
+        "sourceIds": [
+          "audit-byd-sealion-6-au-handbook",
+          "audit-byd-sealion-6-ancap-report",
+          "audit-byd-sealion-6-premium-practicality",
+          "audit-byd-sealion-6-current-spec",
+          "audit-byd-sealion-6-raa-practicality-conflict"
+        ],
+        "vehicleIds": [
+          "sealion6-dynamic-183",
+          "sealion6-dynamic-extended"
+        ]
+      },
+      {
+        "key": "warranty",
+        "status": "conflict",
+        "finding": "Corrected stale shorter-component premise: distributor-confirmed simplified April 2025 warranty was reported as backdated to August 2022 deliveries. Current booklets state vehicle 6 years/150,000 km and battery/drive unit 8 years/160,000 km, 70% retention. Written minor-item exclusions differ from blanket press wording; VIN confirmation remains necessary.",
+        "sourceIds": [
+          "audit-byd-sealion-6-2026-warranty",
+          "audit-byd-sealion-6-2025-warranty",
+          "audit-byd-sealion-6-warranty-backdating"
+        ],
+        "vehicleIds": [
+          "sealion6-dynamic-183",
+          "sealion6-dynamic-extended"
+        ]
+      },
+      {
+        "key": "servicing",
+        "status": "estimate",
+        "finding": "MY24 Dynamic five annual caps A$1,593, eleven A$4,549, including A$1,119 at year eight. A$450 annual budget retained; exact Extended cap table remains missing. Maker HEV-distance triggers and EHS oil, filters, plugs and coolant prevent treating this as BEV servicing.",
+        "sourceIds": [
+          "audit-byd-sealion-6-dynamic-service-caps",
+          "audit-byd-sealion-6-maker-service"
+        ],
+        "vehicleIds": [
+          "sealion6-dynamic-183",
+          "sealion6-dynamic-extended"
+        ]
+      },
+      {
+        "key": "insurance",
+        "status": "estimate",
+        "finding": "Kept A$1,820 annual midpoint with a precisely scoped Essential Brisbane quote-study anchor and Youi national mixed-trim cross-check. Neither is a household quote for Dynamic or Extended; bounds remain assumptions.",
+        "sourceIds": [
+          "audit-byd-sealion-6-brisbane-insurance",
+          "audit-byd-sealion-6-youi-insurance"
+        ],
+        "vehicleIds": [
+          "sealion6-dynamic-183",
+          "sealion6-dynamic-extended"
+        ]
+      },
+      {
+        "key": "tyres",
+        "status": "estimate",
+        "finding": "235/50 R19 verified; A$299 fitted Dunlop 103V XL retail anchor still supports A$1,196 per set. At assumed 40,000 km life and 15,000 km per year, A$448.50 annual allowance. No measured model-specific tyre life.",
+        "sourceIds": [
+          "audit-byd-sealion-6-current-spec",
+          "audit-byd-sealion-6-au-handbook",
+          "audit-byd-sealion-6-fitted-tyres"
+        ],
+        "vehicleIds": [
+          "sealion6-dynamic-183",
+          "sealion6-dynamic-extended"
+        ]
+      },
+      {
+        "key": "repairs",
+        "status": "gap",
+        "finding": "No defensible Australian annual repair average or exact OEM pack/controller fitted quote found. Retain provisional A$650 original/A$600 Extended reserves, remove obsolete short-component-cover rationale. Existing pack/controller stress prices are cross-model analogues, not BYD quotes. Official VIN checker needs the actual car; unrelated Atto 3 recall is not assigned here.",
+        "sourceIds": [
+          "audit-byd-sealion-6-2026-warranty",
+          "audit-byd-sealion-6-warranty-backdating",
+          "audit-byd-sealion-6-recall-vin"
+        ],
+        "vehicleIds": [
+          "sealion6-dynamic-183",
+          "sealion6-dynamic-extended"
+        ]
+      },
+      {
+        "key": "reviews",
+        "status": "verified",
+        "finding": "ProductReview remains 3.7/5 from nine mixed-variant self-selected posts. Original Dynamic Driving Enthusiast review is directly relevant. Added August 2026 Essential verdict Good as a related unscored review, separate from older Very Good review; no fabricated number or cross-trim fuel transfer.",
+        "sourceIds": [
+          "audit-byd-sealion-6-owner-reviews",
+          "audit-byd-sealion-6-dynamic-road-test",
+          "audit-byd-sealion-6-2026-essential-road-test"
+        ],
+        "vehicleIds": [
+          "sealion6-dynamic-183",
+          "sealion6-dynamic-extended"
+        ]
+      },
+      {
+        "key": "ownership",
+        "status": "gap",
+        "finding": "Original 2WD handbook verifies 750 kg braked/unbraked towing and 95 RON/E10 maximum. Exact Extended towing still unverified. ANCAP five-star 2023 PHEV applicability checked. Four-cylinder QLD rego plus Class 1 CTP is A$864.50–880.50; hybrid duty differs from BEV registration. Resale remains a scenario.",
+        "sourceIds": [
+          "audit-byd-sealion-6-au-handbook",
+          "audit-byd-sealion-6-ancap-scope",
+          "audit-byd-sealion-6-qld-fees",
+          "audit-byd-sealion-6-qld-duty"
+        ],
+        "vehicleIds": [
+          "sealion6-dynamic-183",
+          "sealion6-dynamic-extended"
+        ]
+      }
+    ]
+  },
+  "fuelUpdates": [
+    {
+      "vehicleId": "sealion6-dynamic-extended",
+      "planningRon": 95,
+      "minimumRon": 95,
+      "basis": "The current Australian model page links the handbook specifying 95 RON or above and no more than E10. The exact Dynamic Extended FWD government VESR record independently lists Petrol 95RON. Confirm the actual fuel flap and delivered handbook.",
+      "confidence": "high",
+      "sourceIds": [
+        "audit-byd-sealion-6-au-handbook",
+        "audit-byd-sealion-6-current-range",
+        "audit-byd-sealion-6-extended-gov-spec"
+      ],
+      "checked": "2026-10-18"
+    }
+  ]
+}
