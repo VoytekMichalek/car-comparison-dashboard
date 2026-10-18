@@ -69,7 +69,7 @@ Browser-storage denial and quota exhaustion are covered by isolated storage-fail
 
 - The current build passes strict TypeScript and 63 automated tests, including purchase/setup/resale/repair-scenario independence from recurring budgets, totals without a purchase price, and old-backup compatibility after roadside removal.
 - Verified matching annual and period running figures on Ownership, Compare and the Tesla detail page. Switching from ten years to five halves the period running total while leaving the annual amount unchanged.
-- Verified the original Tesla Model Y RWD uses the published A$1,800 insurance planning default, including after reload, and later explicit browser-local inputs still take priority.
+- Verified the original Tesla Model Y RWD uses the published A$2,000 insurance planning default, including after reload, and later explicit browser-local inputs still take priority.
 - Verified purchase and setup appear separately from the running-cost highlights, the purchase column is absent from the annual table, and roadside is absent from inputs, breakdowns, comparison rows and the detail cost ledger.
 - Checked desktop tables and 390px mobile car-detail/ownership views without page-wide horizontal overflow. Column help describes the running-only calculation.
 

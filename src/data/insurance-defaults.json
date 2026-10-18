@@ -1,10 +1,10 @@
 [
   {
     "vehicleId": "model-y-rwd-2022",
-    "annual": 1800,
+    "annual": 2000,
     "low": 1200,
     "high": 3500,
     "confidence": "low",
-    "basis": "Published planning default: A$1,800/year comprehensive insurance for the original Model Y RWD. This is an editable budget, not a personal insurance quote or an observed premium. A$1,200\u20133,500 is an illustrative sensitivity band; use a current quote for the exact car, driver and cover."
+    "basis": "Published planning default: A$2,000/year comprehensive insurance for the original Model Y RWD. This is an editable budget, not a personal insurance quote or an observed premium. A$1,200\u20133,500 is an illustrative sensitivity band; use a current quote for the exact car, driver and cover."
   }
 ]

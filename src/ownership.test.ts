@@ -39,7 +39,7 @@ describe('Queensland ownership budgeting', () => {
       expect(e.runningConfidence).toBeLessThan(1);
     }
     const e = ownershipEstimate(ev, emptyPersonal());
-    expect(e.components.insurance).toBe(1800);
+    expect(e.components.insurance).toBe(2000);
     expect(e.evidence.energy.estimated).toBe(true);
     expect(e.energyReason).toContain('proxy');
     expect(ev.consumption.energyBasis).toBe('unspecified');
@@ -67,7 +67,7 @@ describe('Queensland ownership budgeting', () => {
   it('retains the public Tesla insurance budget across saved settings and allows a quote override', () => {
     const personal = emptyPersonal();
     const saved = { ...personal, ownership: { ...defaultOwnership, vehicleOverrides: { [ev.id]: { tyres: 400 } } } };
-    expect(ownershipEstimate(ev, saved).components.insurance).toBe(1800);
+    expect(ownershipEstimate(ev, saved).components.insurance).toBe(2000);
     expect(ownershipEstimate(ev, saved).evidence.insurance.basis).toContain('Published planning default');
     const replacement = { ...personal, ownership: { ...defaultOwnership, vehicleOverrides: { [ev.id]: { insurance: 2100 } } } };
     expect(ownershipEstimate(ev, replacement).components.insurance).toBe(2100);

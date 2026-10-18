@@ -61,7 +61,7 @@ The React/TypeScript UI is in `src/`, JSON research in `src/data/`, calculation 
 
 The [18 October research audit](docs/RESEARCH-AUDIT-2026-10-18.md) records the pricing corrections, sample counts, representative budgets and remaining evidence limits.
 
-The original Model Y RWD bundles an editable A$1,800/year repair reserve and an anonymous A$1,800/year insurance planning budget. These are assumptions, not predicted bills or personalised insurance quotes. Your browser-local inputs take priority.
+The original Model Y RWD bundles an editable A$1,800/year repair reserve and an anonymous A$2,000/year insurance planning budget. These are assumptions, not predicted bills or personalised insurance quotes. Your browser-local inputs take priority.
 
 ## Mobile update — 18 October 2026
 
