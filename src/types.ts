@@ -197,6 +197,7 @@ export interface OwnershipSettings {
   charger: number;
   inspection: number;
   otherUpfront: number;
+  /** Legacy backup field; ignored for cash-purchase calculations. */
   financeInterestAnnual: number;
   repairScenario: number;
   vehicleOverrides: Record<string, { insurance?: number | null; servicing?: number | null; rego?: number | null; resale?: number | null; energy?: number | null; electricity?: number | null; petrol?: number | null; tyres?: number | null; repairReserve?: number | null; financeInterestAnnual?: number | null; purchase?: number | null; dutiableValue?: number | null; feesIncluded?: 'auto' | 'yes' | 'no' }>;

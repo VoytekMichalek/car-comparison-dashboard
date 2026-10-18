@@ -114,10 +114,7 @@ export function priceScorePoints(vehicles: Vehicle[], personal: PersonalData, we
   });
 }
 
-export function initialChartSelection(vehicles: Vehicle[], compareIds: string[] = [], budget = 45000): string[] {
-  const comparisons = vehicles.filter(v => compareIds.includes(v.id));
-  if (comparisons.length) return comparisons.map(v => v.id);
-  const withinBudget = vehicles.filter(v => { const p = getPrice(v.id); return p?.point != null ? p.point <= budget : p?.low != null && p.low <= budget; });
-  const priority = [...withinBudget, ...vehicles.filter(v => !withinBudget.includes(v))];
-  return priority.slice(0, 5).map(v => v.id);
+/** null means all current page results; explicit family choices survive variant and page-filter changes. */
+export function depreciationCars(vehicles: Vehicle[], selectedFamilies: string[] | null): Vehicle[] {
+  return selectedFamilies === null ? vehicles : vehicles.filter(vehicle => selectedFamilies.includes(vehicle.familyId));
 }

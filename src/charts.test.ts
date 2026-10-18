@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { depreciationSeries, formatPurchaseChange, initialChartSelection, priceIndependentScore, priceScorePoints } from './charts';
+import { depreciationSeries, formatPurchaseChange, depreciationCars, priceIndependentScore, priceScorePoints } from './charts';
 import { budgetBenchmarks, vehicles } from './data';
 import { defaultOwnership, defaultWeights, emptyPersonal } from './lib';
 import { ownershipEstimate } from './ownership';
@@ -179,12 +179,17 @@ describe('Chart scenarios and score data', () => {
     expect(priceScorePoints([unknown], emptyPersonal(), defaultWeights, 45000)).toEqual([]);
     expect(depreciationSeries(unknown, emptyPersonal())).toBeNull();
   });
-  it('starts with selected comparison cars, otherwise a small budget-relevant set', () => {
-    expect(initialChartSelection([ev, hybrid], [hybrid.id])).toEqual([hybrid.id]);
-    expect(initialChartSelection([], [ev.id])).toEqual([]);
-    const initial = initialChartSelection(vehicles);
-    expect(initial).toHaveLength(5);
-    expect(new Set(initial).size).toBe(5);
-    expect(initial.every(id => vehicles.some(v => v.id === id))).toBe(true);
+  it('includes every available car by default as page filters change', () => {
+    expect(depreciationCars([], null)).toEqual([]);
+    expect(depreciationCars([ev], null)).toEqual([ev]);
+    expect(depreciationCars(vehicles, null)).toEqual(vehicles);
+  });
+  it('keeps explicit family choices through filtering and variant changes without silently adding cars', () => {
+    const chosen = [ev.familyId];
+    expect(depreciationCars([hybrid], chosen)).toEqual([]);
+    const otherVariant = vehicles.find(v => v.familyId === ev.familyId && v.id !== ev.id)!;
+    expect(depreciationCars([hybrid, otherVariant], chosen)).toEqual([otherVariant]);
+    expect(depreciationCars(vehicles, [])).toEqual([]);
+    expect(depreciationCars(vehicles, chosen).every(v => v.familyId === ev.familyId)).toBe(true);
   });
 });

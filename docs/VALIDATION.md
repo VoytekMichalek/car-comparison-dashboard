@@ -219,3 +219,12 @@ Public-source preparation: the original Model Y insurance amount is an anonymous
 - Desktop comparison shows11 PHEV configurations under the shared filter; all catalogue mode remains default. All 11 table columns fit at1280px without overflowing cells. Phone checks at320px passed Browse, Compare, Ownership, Scores, Notebook and new-car family/cost/score sections.
 - Bubbles are filled by powertrain; provisional ratings use dashed outlines. Keyboard focus shows actual price, price-excluded score, year/variant, fee basis and coverage without selecting a car. Escape dismisses the transient details. Pointer handlers update only hover state, not retained or cross-chart selection.
 - New running-cost bars total the same six actual cost components and exclude repair savings regardless of its optional switch. Show-all works with9 filtered PHEV families. Zero overrides and missing-cost withholding are tested. A mobile heading overflow found during QA was fixed by stacking controls; final320px document width305px with no overflowing panels.
+
+## 19 October 2026 — all-car depreciation and cash purchase
+
+- Depreciation starts with all page-filtered model representatives, matching the price/score chart. Explicit family choices survive year/variant and page-filter changes; an empty choice is not silently refilled.
+- Visible car-filter toolbar includes count, search, checkboxes and Show all reset. The graph precedes the longer all-car legend. Compare navigation no longer displays a selected-car count.
+- Finance rows, inputs and chart segments removed. Legacy shared/per-car finance values remain importable but cannot affect running costs, ownership totals or scores. Optional repair savings remain separate and off by default.
+- 195 tests across 19 suites passed; TypeScript and production build passed.
+- Browser preview: 25 depreciation lines and 25 scatter dots by default; excluding Tesla gave 24 lines while preserving all 25 dots. Filtering to the excluded family correctly showed zero lines, without auto-selection. Clear/Show all restored the intended state.
+- 320px phone and 1280px desktop checked: filter and cost layouts fit the viewport; cash cost table has eight columns and no finance input. Existing Vite research-chunk size warning remains.

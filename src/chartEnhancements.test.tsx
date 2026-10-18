@@ -11,16 +11,17 @@ import { ownershipEstimate } from './ownership';
 const ev = vehicles.find(vehicle => vehicle.id === 'model-y-rwd-2022')!;
 
 describe('annual running-cost breakdown chart', () => {
-  it('totals the six displayed ownership amounts and always excludes repair savings', () => {
+  it('totals the five displayed ownership amounts and excludes repair savings and legacy finance inputs', () => {
     const personal = emptyPersonal();
     personal.ownership = { ...defaultOwnership, includeRepairFund: true, vehicleOverrides: { [ev.id]: { electricity: 1000, insurance: 1100, rego: 800, servicing: 300, tyres: 200, financeInterestAnnual: 100, repairReserve: 5000 } } };
     const row = annualCostChartRows([ev], personal)[0];
-    expect(row.total).toBe(3500);
+    expect(row.total).toBe(3400);
     expect(row.categories.reduce((sum, category) => sum + category.value!, 0)).toBe(row.total);
-    expect(row.estimate.annual).toBe(8500);
+    expect(row.estimate.annual).toBe(8400);
     personal.ownership.includeRepairFund = false;
-    expect(annualCostChartRows([ev], personal)[0].total).toBe(3500);
-    expect(annualCostCategories.some(category => (category.key as string) === 'reserve')).toBe(false);
+    expect(annualCostChartRows([ev], personal)[0].total).toBe(3400);
+    expect(annualCostCategories).toHaveLength(5);
+    expect(annualCostCategories.some(category => ['reserve', 'finance'].includes(category.key))).toBe(false);
   });
 
   it('uses the same researched values as Ownership and preserves explicit zero inputs', () => {

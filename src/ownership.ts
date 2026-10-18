@@ -76,7 +76,6 @@ export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
   const reserveReference = repairReserveFor(v.id);
   const reserveInput = override.repairReserve ?? (s.repairMode === 'shared' ? s.repairReserve : null);
   const reserve = reserveInput ?? reserveReference?.point ?? s.repairReserve;
-  const finance = override.financeInterestAnnual ?? s.financeInterestAnnual;
   const insuranceBudget = override.insurance ?? s.insurance;
   const insuranceInput = insuranceBudget ?? null;
   const insurance = insuranceInput ?? insuranceReference?.point ?? null;
@@ -94,7 +93,8 @@ export function ownershipEstimate(v: Vehicle, personal: PersonalData) {
     rego: { estimated: !rego.overridden && rego.assumedCtp, low: rego.overridden || !rego.assumedCtp ? rego.total : rego.group ? rego.group.registration + rego.group.trafficFee + rego.group.ctpLow : null, high: rego.overridden || !rego.assumedCtp ? rego.total : rego.group ? rego.group.registration + rego.group.trafficFee + rego.group.ctpHigh : null, basis: 'Official QLD rates; CTP midpoint unless quoted.', confidence: .95, sourceIds: rego.group?.sourceIds ?? [] },
     tyres: { estimated: tyreInput == null, low: tyreInput ?? (tyreReference ? Math.round(tyreReference.setLow * annualKm / tyreReference.lifeHighKm / 10) * 10 : tyres), high: tyreInput ?? (tyreReference ? Math.round(tyreReference.setHigh * annualKm / tyreReference.lifeLowKm / 10) * 10 : tyres), basis: tyreInput != null ? 'Your tyre replacement allowance' : tyreReference?.basis ?? budgetBenchmarks.tyresAnnual.basis, confidence: tyreInput != null ? 1 : .35, sourceIds: tyreReference?.sourceIds ?? budgetBenchmarks.tyresAnnual.sourceIds },
   };
-  const components = { energy, insurance, rego: rego.total, servicing, tyres, reserve, finance };
+  // Cash purchase: legacy finance inputs remain importable but never enter costs or scores.
+  const components = { energy, insurance, rego: rego.total, servicing, tyres, reserve };
   const includedReserve = s.includeRepairFund ? reserve : 0;
   const missing = Object.entries(components).filter(([, value]) => value === null).map(([key]) => ({ energy: 'energy', insurance: 'insurance', rego: 'registration', servicing: 'servicing' }[key] ?? key));
   const annual = Object.entries(components).reduce<number>((sum, [key, value]) => sum + (key === 'reserve' ? includedReserve : value ?? 0), 0);

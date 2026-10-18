@@ -10,7 +10,6 @@ export const annualCostCategories = [
   { key: 'rego', label: 'Rego + CTP', colour: '#a57723' },
   { key: 'servicing', label: 'Servicing', colour: '#367e68' },
   { key: 'tyres', label: 'Tyres', colour: '#be6552' },
-  { key: 'finance', label: 'Finance interest', colour: '#6a6a9d' },
 ] as const;
 export type AnnualCostKey = typeof annualCostCategories[number]['key'];
 
@@ -21,9 +20,7 @@ export function annualCostChartRows(vehicles: Vehicle[], personal: PersonalData)
     const categories = annualCostCategories.map(category => ({
       ...category,
       value: estimate.components[category.key],
-      evidence: category.key === 'finance'
-        ? { estimated: false, basis: 'Your annual finance-interest input; zero unless entered.', sourceIds: [] as string[] }
-        : estimate.evidence[category.key],
+      evidence: estimate.evidence[category.key],
     }));
     return { vehicle, estimate, categories, total: estimate.annualBeforeRepairFund };
   }).sort((a, b) => (a.total ?? Infinity) - (b.total ?? Infinity) || a.vehicle.id.localeCompare(b.vehicle.id));
@@ -50,6 +47,6 @@ export function AnnualCostChart({ vehicles, personal, onDetail }: { vehicles: Ve
       <details className="annual-cost-breakdown"><summary>Amounts & sources</summary><dl>{row.categories.map(category => <div key={category.key}><dt><i style={{ backgroundColor: category.colour }} />{category.label}</dt><dd><strong className={category.evidence.estimated ? 'estimated-value' : ''}>{category.value === null ? 'Input needed' : money(category.value)}</strong><small>{category.evidence.estimated ? 'Estimate · ' : ''}{category.evidence.basis} <SourceRefs ids={category.evidence.sourceIds} /></small></dd></div>)}</dl></details>
     </li>)}</ol> : <p className="insight-empty">Enter the missing ownership inputs to draw the annual running-cost bars.</p>}
     {withheld.length > 0 && <p className="insight-gap-note">Costs need an input for {withheld.map(row => `${row.vehicle.make} ${row.vehicle.model} (${row.estimate.missing.join(', ')})`).join('; ')}. These cars are withheld from this graph; missing costs are not counted as $0.</p>}
-    <p className="insight-footnote">Electricity / fuel, comprehensive insurance, QLD registration + CTP, servicing, tyre replacement and finance interest. Purchase price, depreciation and upfront fees are separate. The repair fund stays excluded even when its optional toggle is on elsewhere. Yellow amounts are estimates, and future costs can change.</p>
+    <p className="insight-footnote">Electricity / fuel, comprehensive insurance, QLD registration + CTP, servicing and tyre replacement. Purchase price, depreciation and upfront fees are separate. The repair fund stays excluded even when its optional toggle is on elsewhere. Yellow amounts are estimates, and future costs can change.</p>
   </section>;
 }

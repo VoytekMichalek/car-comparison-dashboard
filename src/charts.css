@@ -11,12 +11,19 @@
 .charts-page .insight-estimate-note { display: flex; align-items: flex-start; gap: 10px; padding: 14px 16px; background: #fff7d9; border: 1px solid #e6d7a0; border-radius: 5px; color: #665526; }
 .charts-page .insight-estimate-note svg { margin-top: 3px; }
 .charts-page .insight-estimate-note p { font-size: 13px; line-height: 1.7; margin: 0; }
-.charts-page .insight-car-picker { margin-top: 18px; border: 1px solid var(--line); border-radius: 6px; }
-.charts-page .insight-car-picker > summary { padding: 13px 42px 13px 16px; font-size: 14px; font-weight: 600; }
-.charts-page .insight-car-picker > summary > span { margin-left: 10px; font-size: 12px; font-weight: 400; color: #61715b; }
-.charts-page .insight-picker-actions { display: flex; flex-wrap: wrap; gap: 16px; padding: 10px 16px; }
+.charts-page .insight-car-filter { margin-top: 18px; border: 1px solid #aebfa6; border-radius: 7px; background: #f4f7ef; }
+.charts-page .insight-car-filter-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; padding: 16px; }
+.charts-page .insight-car-filter-heading strong { font-size: 15px; color: #2f4839; }
+.charts-page .insight-car-filter-heading p { margin: 5px 0 0; font-size: 13px; color: #52644e; }
+.charts-page .insight-car-filter-buttons { display: flex; flex-wrap: wrap; gap: 10px; }
+.charts-page .insight-car-filter-buttons .button { min-height: 44px; font-size: 13px; }
+.charts-page .insight-car-picker { border-top: 1px solid #cdd8c6; background: white; border-radius: 0 0 7px 7px; }
+.charts-page .insight-picker-actions { display: flex; align-items: end; flex-wrap: wrap; gap: 16px; padding: 16px; }
 .charts-page .insight-picker-actions button { min-height: 40px; font-size: 13px; }
-.charts-page .insight-car-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 0 14px 14px; gap: 4px 14px; }
+.charts-page .insight-car-search { display: grid; flex: 1 1 220px; gap: 6px; min-width: 0; font-size: 13px; }
+.charts-page .insight-car-search input { width: 100%; min-width: 0; min-height: 44px; border: 1px solid #cdd6c5; border-radius: 5px; padding: 10px 12px; font-size: 16px; }
+.charts-page .insight-picker-help { margin: 0; padding: 0 16px 14px; font-size: 12px; line-height: 1.6; color: #52644e; }
+.charts-page .insight-car-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 0 14px 14px; gap: 4px 14px; max-height: 320px; overflow-y: auto; overscroll-behavior: contain; }
 .charts-page .insight-car-options > label { min-width: 0; display: flex; align-items: flex-start; gap: 10px; padding: 12px 8px; cursor: pointer; border-radius: 4px; }
 .charts-page .insight-car-options > label:hover { background: #f4f6ef; }
 .charts-page .insight-car-options input { margin: 3px 0 0; }
@@ -106,7 +113,9 @@
   .charts-page .insight-car-options { grid-template-columns: 1fr; padding-inline: 8px; }
   .charts-page .insight-line-legend { gap: 6px; }
   .charts-page .insight-line-legend button { padding: 9px; font-size: 12px; }
-  .charts-page .insight-car-picker > summary > span { display: block; margin: 4px 0 0; }
+  .charts-page .insight-car-filter-heading { padding: 14px; }
+  .charts-page .insight-car-filter-buttons { width: 100%; }
+  .charts-page .insight-car-filter-buttons .button { flex: 1 1 130px; }
   .charts-page .insight-focus-bar { gap: 16px; }
   .charts-page .insight-focus-bar > div { width: 100%; }
   .charts-page .insight-selected-values { gap: 18px 14px; padding-block: 20px; }

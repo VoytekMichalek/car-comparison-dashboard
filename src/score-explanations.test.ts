@@ -81,7 +81,7 @@ describe('headline-first score explanations', () => {
     expect(category.headline).toBe(`${money(estimate.annual)}/year`);
     expect(category.headlineDetail).toContain('repair savings excluded');
     expect(category.summary).toContain('Repair savings, purchase and depreciation are separate');
-    expect(category.summary).toContain('finance interest');
+    expect(category.summary).not.toContain('finance');
     expect(category.score).toBe(8.8);
   });
 

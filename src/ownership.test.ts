@@ -203,7 +203,7 @@ describe('Queensland ownership budgeting', () => {
     expect(e.components.tyres).toBe(420);
     expect(e.components.reserve).toBe(600);
     expect(e.evidence.tyres.estimated).toBe(false);
-    expect(e.annual).toBeCloseTo(3660.15);
+    expect(e.annual).toBeCloseTo(3560.15);
     expect(ownershipEstimate(rav4, p).components.tyres).toBe(ownershipEstimate(rav4, emptyPersonal()).components.tyres);
     expect(parseBackup(JSON.stringify(p))).toEqual(p);
   });
@@ -272,11 +272,11 @@ describe('Queensland ownership budgeting', () => {
   it('counts purchase once in a ten-year total and deducts resale once', () => {
     const p = { ...emptyPersonal(), ownership: { ...defaultOwnership, years: 10, insurance: 1000, servicing: 200, tyres: 100, tyreMode: 'shared' as const, repairReserve: 300, repairMode: 'shared' as const, financeInterestAnnual: 150, purchasePrice: 40000, resaleValue: 10000, charger: 2000, inspection: 400, otherUpfront: 100, feesIncluded: 'yes' as const, repairScenario: 5000, vehicleOverrides: { [ev.id]: { energy: 600, rego: 800 } } } };
     const e = ownershipEstimate(ev, p);
-    expect(e.annual).toBe(2850);
+    expect(e.annual).toBe(2700);
     expect(e.upfront).toBe(2502);
     expect(e.excessRepair).toBe(5000);
-    expect(e.runningTotal).toBe(28500);
-    expect(e.total).toBe(66002);
+    expect(e.runningTotal).toBe(27000);
+    expect(e.total).toBe(64502);
   });
 });
 
