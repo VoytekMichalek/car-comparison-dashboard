@@ -1,6 +1,6 @@
 import { budgetBenchmarks, getPrice } from './data';
 import { ownershipEstimate, settingsFor } from './ownership';
-import { scoreVehicle } from './scoring';
+import { scoreVehicle, summariseScores } from './scoring';
 import type { ScoreResult } from './scoring';
 import type { PersonalData, Powertrain, ScoreWeights, Vehicle } from './types';
 
@@ -15,6 +15,8 @@ export interface DepreciationPoint {
   low: number;
   high: number;
   loss: number;
+  /** Signed change from the actual purchase input, not the car's original new price. */
+  changePercent: number | null;
 }
 export interface DepreciationSeries {
   vehicle: Vehicle;
@@ -29,6 +31,13 @@ export interface DepreciationSeries {
 }
 const validAmount = (amount: number | null | undefined): amount is number => amount != null && Number.isFinite(amount) && amount >= 0;
 const roundResale = (value: number) => Math.max(0, Math.round(value / 100) * 100);
+
+export function formatPurchaseChange(changePercent: number | null): string {
+  if (changePercent === null || !Number.isFinite(changePercent)) return 'Percentage unavailable';
+  const rounded = Math.round(changePercent * 10) / 10;
+  const sign = rounded < 0 ? '−' : rounded > 0 ? '+' : '';
+  return `${sign}${Math.abs(rounded).toLocaleString('en-AU', { maximumFractionDigits: 1 })}% from purchase`;
+}
 
 /**
  * This is the same reducing-balance scenario used by Ownership, not a model-level forecast.
@@ -59,7 +68,9 @@ export function depreciationSeries(vehicle: Vehicle, personal: PersonalData, hor
     const value = valueAt(year);
     const low = customResale || year === 0 ? value : roundResale(purchase * (1 - scenario.highRate) ** year);
     const high = customResale || year === 0 ? value : roundResale(purchase * (1 - scenario.lowRate) ** year);
-    return { year, value, low: Math.min(low, value), high: Math.max(high, value), loss: purchase - value };
+    const relativeChange = purchase > 0 ? (value / purchase - 1) * 100 : null;
+    const changePercent = relativeChange !== null && Number.isFinite(relativeChange) ? relativeChange : null;
+    return { year, value, low: Math.min(low, value), high: Math.max(high, value), loss: purchase - value, changePercent };
   });
   if (points.some(point => ![point.value, point.low, point.high, point.loss].every(Number.isFinite))) return null;
   const afterAnchor = end > years ? ` Beyond year ${years}, the same implied rate continues; this is an extrapolation.` : '';
@@ -82,11 +93,16 @@ export interface PriceScorePoint {
   priceBasis: string;
   sourceIds: string[];
 }
-/** Use the same purchase inputs and scoring function as the rest of the dashboard. */
+/** Price is the horizontal axis, so omit it from both the score and evidence denominator. */
+export function priceIndependentScore(score: ScoreResult): ScoreResult {
+  return summariseScores(score.categories.filter(category => category.key !== 'price'));
+}
+
+/** Use saved purchase inputs, with the remaining dashboard categories and their user weights. */
 export function priceScorePoints(vehicles: Vehicle[], personal: PersonalData, weights: ScoreWeights, budget: number): PriceScorePoint[] {
   return vehicles.flatMap(vehicle => {
     const estimate = ownershipEstimate(vehicle, personal);
-    const score = scoreVehicle(vehicle, personal, weights, budget);
+    const score = priceIndependentScore(scoreVehicle(vehicle, personal, weights, budget));
     if (!validAmount(estimate.purchasePrice) || score.total === null || !Number.isFinite(score.total)) return [];
     const price = getPrice(vehicle.id);
     const personalPrice = (personal.ownership?.vehicleOverrides?.[vehicle.id]?.purchase ?? personal.ownership?.purchasePrice) != null;

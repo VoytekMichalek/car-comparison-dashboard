@@ -4,11 +4,15 @@ A local-first Australian car-research dashboard for a Queensland family with **o
 
 The latest research audit was checked **18 October 2026**. It contains **35 configurations across 19 model families**, **1,179 source records** and **23 genuine, attributed vehicle photographs**. The data is curated, not a live inventory or a valuation service. Evidence gaps are part of the catalogue. The [latest model-by-model audit](docs/research/README.md) contains 190 item checks and 35 detailed fit assessments.
 
+## Latest dashboard changes
+
+Score categories show their actual figure or rating immediately: purchase price and fees, annual running budget, boot litres, range standard, safety result and owner rating. Expand a category for a short explanation; detailed sources and formulas sit under **Evidence & scoring**. Uncertain price and running-budget headlines retain yellow estimate highlighting. These presentation changes leave the main scoring formulas unchanged.
+
 ## Latest research update
 
 Multi-site review research now adds **76 cohorts from 89 source records** across all 19 families: owner ratings, professional rating indexes and reliability studies remain distinct. Large matching or related cohorts exceed 50 contributions for several established models; newer models and Australian-only powertrains retain explicit gaps. Ratings show country, original scale, actual denominator and applicability. Mixed engines, borrowed professional tests and dealer-service scores are reference-only when a suitable owner denominator cannot be recovered. Cross-site totals are contributions, not distinct people. Reports: [EVs](docs/research/REVIEWS-EVS-2026-10-18.md), [other family cars](docs/research/REVIEWS-FAMILY-CARS-2026-10-18.md).
 
-The new **Charts** page shows annual depreciation scenarios and purchase price versus your weighted overall score, coloured by powertrain. Filters, selected year/variant and personal purchase/resale inputs apply. Annual values have mobile cards; uncertain future values stay visibly labelled estimates. These broad powertrain curves are assumptions, not model-specific resale forecasts.
+The **Charts** page shows annual depreciation scenarios and purchase price versus your weighted score **excluding purchase price**, coloured by powertrain. Removing that category from the graph score and evidence denominator avoids counting the x-axis twice. Each car/year shows its percentage change from the purchase input; the score graph offers a labelled focused range and a full 1–10 scale. Filters, selected year/variant and personal purchase/resale inputs apply. Annual values have mobile cards; uncertain future values stay visibly labelled estimates. These broad powertrain curves are assumptions, not model-specific resale forecasts.
 
 Every listed model now has a dedicated audit of ten research categories. Child-seat scores separate the tested mixed arrangement, booster buckles, front-seat clearance and access; unknown items have no scoring influence. Older saved fit confirmations need a new check for the rear-facing target, while other notebook data is retained. The Sources section on each car shows the item-by-item findings and unresolved gaps.
 

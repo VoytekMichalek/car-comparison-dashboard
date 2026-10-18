@@ -1,0 +1,98 @@
+/* The fact comes first; provenance stays available in a second disclosure. */
+:root .score-breakdown .breakdown-rows > details > summary {
+  grid-template-columns: minmax(0, 1fr) 70px 64px;
+  gap: 12px;
+  padding: 16px 46px 16px 16px;
+  align-items: center;
+}
+:root .score-breakdown .score-row-label {
+  display: block;
+  font-size: 13px;
+  line-height: 1.45;
+}
+:root .score-breakdown .score-row-fact {
+  display: block;
+  margin-top: 5px;
+  color: #2f4e3b;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+:root .score-breakdown .score-row-price-basis {
+  display: block;
+  margin-top: 3px;
+  color: #63725e;
+  font-size: 12px;
+  line-height: 1.6;
+}
+:root .score-breakdown .breakdown-rows > details > div {
+  padding: 5px 16px 18px;
+}
+:root .score-category-evidence .score-fact-headline {
+  padding-top: 10px;
+  color: #2f4e3b;
+}
+:root .score-category-evidence .score-fact-headline > strong {
+  display: block;
+  color: #2f4e3b;
+  font-size: 23px;
+  line-height: 1.45;
+  letter-spacing: -.3px;
+  overflow-wrap: anywhere;
+}
+:root .score-category-evidence .score-fact-headline > span {
+  display: block;
+  margin-top: 5px;
+  color: #63725e;
+  font-size: 13px;
+  line-height: 1.7;
+}
+:root .score-category-evidence p.score-fact-summary {
+  margin: 12px 0 16px;
+  font-size: 14px;
+  line-height: 1.75;
+  color: #455e45;
+}
+:root .score-category-evidence .score-evidence-detail {
+  margin: 12px 0 0;
+  border: 0;
+}
+:root .score-category-evidence .score-evidence-detail > summary {
+  display: block;
+  min-height: 44px;
+  padding: 12px 44px 12px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.6;
+  background: #f7f8f4;
+}
+:root .score-category-evidence .score-evidence-detail > summary::before { display: none; }
+:root .score-category-evidence .score-evidence-detail > div { padding: 8px 3px 0; }
+:root .score-category-evidence .score-evidence-detail p {
+  margin: 12px 0;
+  color: #5b7054;
+  font-size: 13px;
+  line-height: 1.75;
+}
+:root .score-breakdown .score-total-method { margin-top: 18px; border-top: 1px solid var(--line); }
+:root .score-breakdown .score-total-method > summary { font-size: 12px; }
+:root .score-breakdown .score-total-method .score-method-note { border-top: 0; margin: 0; padding: 12px; font-size: 12px; }
+:root .comparison-table .score-category-evidence .score-fact-headline > strong { font-size: 17px; }
+:root .comparison-table .score-category-evidence .score-fact-headline > span,
+:root .comparison-table .score-category-evidence p.score-fact-summary { font-size: 12px; }
+
+@media (max-width: 650px) {
+  :root .score-breakdown .breakdown-rows > details > summary {
+    grid-template-columns: minmax(0, 1fr) 60px;
+    gap: 6px 10px;
+    padding: 15px 43px 15px 13px;
+  }
+  :root .score-breakdown .breakdown-rows > details > summary > .score-row-label { grid-column: 1; grid-row: 1; }
+  :root .score-breakdown .breakdown-rows > details > summary > .category-weight { grid-column: 1; grid-row: 2; font-size: 11px; }
+  :root .score-breakdown .breakdown-rows > details > summary > strong { grid-column: 2; grid-row: 1 / span 2; }
+  :root .score-breakdown .score-row-fact { font-size: 14px; }
+  :root .score-breakdown .score-row-price-basis { font-size: 11px; }
+  :root .score-breakdown .breakdown-rows > details > div { padding: 5px 13px 16px; }
+  :root .score-category-evidence .score-fact-headline > strong { font-size: 21px; }
+}

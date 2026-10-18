@@ -228,3 +228,5 @@
   :root .breakdown-rows summary .category-weight { grid-column: 1; grid-row: 2; font-size: 11px; }
   .breakdown-rows summary > strong { grid-column: 2; grid-row: 1 / span 2; align-self: center; }
 }
+
+.vehicle-ledger .resale-percentage{display:block;margin-top:5px;font-size:12px;line-height:1.6;font-weight:400;color:#66501c;white-space:normal}

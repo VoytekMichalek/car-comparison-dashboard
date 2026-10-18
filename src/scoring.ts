@@ -1,9 +1,9 @@
 import { brandFor, getPrice } from './data';
-import { defaultWeights, rangeStandard, isFuelOnly, money } from './lib';
+import { defaultWeights, rangeStandard, isFuelOnly, money, formatDate } from './lib';
 import { ownershipEstimate } from './ownership';
 import { reviewEvidenceFor } from './reviewEvidence';
 import { fitAssessmentFor } from './research';
-import { calculateFamilyFit } from './familyFit';
+import { calculateFamilyFit, familyFitTarget } from './familyFit';
 import type { PersonalData, ScoreCategory, ScoreWeights, Vehicle } from './types';
 
 export const categoryLabels: Record<ScoreCategory, string> = { seating: 'Child-seat fit', price: 'Purchase price', running: 'Running budget', boot: 'Boot space', range: 'Electric range', safety: 'Safety rating', owners: 'People’s reviews', brand: 'Brand support' };
@@ -17,7 +17,7 @@ export const categoryRules: Record<ScoreCategory, string> = {
   owners: 'Owner ratings converted to /10 and averaged using source evidence. Each source factor = min(80%, n/(n+20)) × configuration-match factor. Only the strongest applicable cohort per publisher and overlap group contributes. Category evidence equals the strongest contributing source, so more sites do not inflate confidence. Cross-site counts are contributions, not unique people. Overseas samples have reduced relevance. Professional ratings and reliability surveys remain separate. Unknown counts and incompatible generations are excluded.',
   brand: 'Australian service-support evidence: established = 8; developing = 6; limited = 3. Unverified support is excluded. This is support access, not a prediction of reliability.',
 };
-export interface CategoryScore { key: ScoreCategory; score: number | null; weight: number; confidence: number; effectiveWeight: number; applicable: boolean; reason: string; sourceIds: string[]; breakdown?: { label: string; score: number | null; share: number; detail: string; sourceIds: string[] }[] }
+export interface CategoryScore { key: ScoreCategory; score: number | null; weight: number; confidence: number; effectiveWeight: number; applicable: boolean; reason: string; sourceIds: string[]; headline?: string; headlineDetail?: string; headlineEstimated?: boolean; summary?: string; breakdown?: { label: string; score: number | null; share: number; detail: string; sourceIds: string[] }[] }
 export interface ScoreResult { total: number | null; coverage: number; provisional: boolean; categories: CategoryScore[] }
 const clamp = (value: number) => Math.max(1, Math.min(10, value));
 export const formatScore = (value: number | null) => value === null ? '—' : value.toFixed(1);
@@ -66,5 +66,30 @@ export function scoreVehicle(v: Vehicle, personal: PersonalData, weights: ScoreW
   add('owners', owners.score, owners.confidence, owners.score === null ? 'No suitable numeric owner aggregate with a verified sample size and matching scope; excluded.' : `${owners.contributing.length} publisher cohort${owners.contributing.length === 1 ? '' : 's'} · ${owners.count.toLocaleString('en-AU')} review/rating contributions (${owners.australianCount.toLocaleString('en-AU')} Australian). Counts across sites are not unique people. Ratings are averaged using sample-and-scope evidence; one cohort per publisher. Category evidence is limited to the strongest source (${Math.round(owners.confidence * 100)}%). Overseas and mixed-variant samples have reduced relevance.`, owners.sourceIds);
   const supportScore = { established: 8, developing: 6, limited: 3, unverified: null };
   add('brand', brand ? supportScore[brand.support] : null, !brand || brand.support === 'unverified' ? 0 : .7, brand?.summary ?? 'Australian service-support evidence unverified; excluded.', brand?.sourceIds ?? []);
+
+  // Put the fact being scored ahead of its provenance. These labels never change a score.
+  const explain = (key: ScoreCategory, headline: string, headlineDetail: string, summary: string, headlineEstimated = false) => Object.assign(categories.find(c => c.key === key)!, { headline, headlineDetail, summary, headlineEstimated });
+  const arrangement = fitAudit && fitAudit.scope !== 'unknown' && fitAudit.criteria.arrangement.sourceIds.length ? fitAudit.criteria.arrangement.rating : 'unknown';
+  const arrangementHeadlines = { good: 'Three-seat arrangement demonstrated', workable: 'Three seats, with constraints', restricted: 'Three-seat arrangement restricted', unknown: 'Three-seat fit not established' };
+  explain('seating', confirmed ? 'Your three-seat fit confirmed' : arrangementHeadlines[arrangement], familyFitTarget, confirmed ? 'Your saved fit confirmation applies to this configuration.' : fitAudit?.summary ?? v.familyFit.summary);
+
+  const researchedPriceType = price?.condition === 'new' ? 'new asking price' : 'used asking price';
+  const priceType = hasSavedPrice ? 'Your saved price' : price?.kind === 'estimate' ? 'Planning estimate' : price && price.sampleCount > 1 ? `Representative ${researchedPriceType}` : `${researchedPriceType[0].toUpperCase()}${researchedPriceType.slice(1)}`;
+  const savedFees = personal.ownership?.vehicleOverrides?.[v.id]?.feesIncluded ?? personal.ownership?.feesIncluded;
+  const uncertainFees = savedFees !== 'yes' && savedFees !== 'no' && (!price || price.basis === 'mixed' || price.basis === 'unverified');
+  const fees = uncertainFees ? 'Charges unconfirmed · duty + transfer budgeted separately' : costs.feesIncluded ? 'duty + transfer included' : 'QLD duty + transfer separate';
+  const rangeText = price?.low != null && price.high != null && price.low !== price.high ? `Research range ${money(price.low)}–${money(price.high)}. ` : '';
+  const sampleText = price && !hasSavedPrice ? `${price.sampleCount > 0 ? `${price.sampleCount} asking-price observation${price.sampleCount === 1 ? '' : 's'}` : 'No verified asking-price sample'} · ${formatDate(price.observed)}. ` : '';
+  explain('price', asking === null ? 'Price unavailable' : money(asking), asking === null ? 'No researched or saved purchase price' : `${priceType} · ${fees}`, asking === null ? 'Excluded until a purchase price is available.' : `${hasSavedPrice ? 'Used in Ownership costs. ' : rangeText + sampleText}${Math.round(asking / budget * 100)}% of your ${money(budget)} budget.`, asking !== null && !hasSavedPrice && (price?.kind === 'estimate' || price?.confidence === 'low' || price?.basis === 'mixed' || price?.basis === 'unverified'));
+
+  explain('running', costs.complete ? `${money(costs.annual)}/year` : 'Annual budget incomplete', costs.complete ? `${money(costs.annualBeforeRepairFund!)} before repair savings` : `Missing: ${costs.missing.join(', ')}`, costs.complete ? `Includes electricity/fuel, insurance, rego, servicing, tyres, ${money(costs.components.reserve)} repair savings and interest. Purchase and depreciation are separate.` : 'Excluded until every running-cost component is available. Add missing amounts in Ownership costs.', costs.complete && Object.values(costs.evidence).some(e => e.estimated));
+  explain('boot', v.boot.value === null ? 'Boot capacity unavailable' : `${v.boot.value.toLocaleString('en-AU')} L${comparableBoot ? ' VDA' : ' · different measurement'}`, comparableBoot ? 'Comparable five-seat boot figure' : 'Excluded from the boot score', comparableBoot ? v.boot.basis : v.boot.value === null ? 'No verified comparable capacity is recorded.' : 'The available measurement is shown for reference. It cannot be scored against five-seat VDA figures.');
+  explain('range', !rangeApplicable ? 'Not applicable' : rangeKnown ? `${v.range.value!.toLocaleString('en-AU')} km ${rangeStandard(v.range)}` : 'Electric range unavailable', !rangeApplicable ? 'No plug-in electric range' : v.powertrain === 'PHEV' ? 'Electric-only range · not total driving range' : 'Published test-cycle range', !rangeApplicable ? 'Excluded from the score and evidence coverage for this powertrain.' : rangeKnown ? 'A laboratory figure. Weather, speed, load and battery condition change real driving range. WLTP and NEDC use different tests.' : 'No comparable published WLTP or NEDC figure is recorded; excluded from scoring.');
+  explain('safety', v.safety.stars === null ? 'Safety rating unavailable' : `${v.safety.stars} ANCAP stars`, v.safety.year === null ? 'Assessment year unverified' : `${v.safety.year} assessment`, v.safety.stars === null ? 'No applicable ANCAP rating is verified; excluded from scoring.' : v.safety.applicability);
+  const soleOwnerSource = owners.contributing.length === 1 ? owners.contributing[0].cohort : null;
+  const ownerDetail = soleOwnerSource ? `${soleOwnerSource.rating}/${soleOwnerSource.outOf} on ${soleOwnerSource.publisher} · ${owners.count.toLocaleString('en-AU')} ${soleOwnerSource.countKind}` : `${owners.count.toLocaleString('en-AU')} review/rating contributions · ${owners.contributing.length} sites`;
+  explain('owners', owners.score === null ? 'No matched owner rating' : `${owners.score.toFixed(1)}/10${soleOwnerSource ? ' owner rating' : ' combined owner rating'}`, owners.score === null ? 'No usable rating with a known sample size' : ownerDetail, owners.score === null ? 'Available comments remain visible under Reviews. Unsuitable or uncounted ratings do not contribute to this score.' : `${owners.australianCount.toLocaleString('en-AU')} Australian contributions. ${soleOwnerSource ? 'Converted to a ten-point scale.' : 'Ratings are averaged using sample size and configuration relevance.'} Contributions across sites are not unique people; overseas and related-variant evidence has less influence.`);
+  const supportLabels = { established: 'Established Australian support', developing: 'Developing Australian support', limited: 'Limited verified Australian support', unverified: 'Australian support unverified' };
+  explain('brand', brand ? supportLabels[brand.support] : 'Australian support unverified', 'Service access · not a reliability rating', brand?.summary ?? 'No verified local service-support assessment is recorded; excluded from scoring.');
   return summariseScores(categories);
 }

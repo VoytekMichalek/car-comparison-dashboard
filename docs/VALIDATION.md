@@ -1,6 +1,15 @@
 # Validation record — 18 October 2026
 
-## Latest: expanded reviews and Charts — 18 October 2026
+## Latest: readable graphs and fact-first scores — 18 October 2026
+
+- **149 automated tests across ten suites pass**, along with strict TypeScript and the production build. Existing Zod annotation and static research chunk warnings remain unchanged in kind.
+- The scatter excludes purchase price from its weighted total and evidence denominator. Tests prove its y-values/coverage do not change with purchase price importance, budget or saved purchase amount; its x-value still follows the saved amount. Other category weights remain effective. Main catalogue scores retain purchase price.
+- Depreciation points report signed percentage change from the actual purchase input, including appreciation, exact personal resale anchors and null percentages for zero purchase. Captions appear per car, per annual value, in the all-car ledger and under individual-car resale values.
+- Chart scale tests cover focused/full ranges, minimum spans, edge values, in-order/in-bounds ticks and labels clamped at plot corners. Browser checked 320, 390, 1024 and 1280 px, focused/full toggles, selected annotations, per-car percentage updates, all-car annual ledger and keyboard traversal. No horizontal overflow or console errors were found.
+- Every score category exposes its actual fact/rating while collapsed, then a headline, short interpretation and separate Evidence & scoring disclosure. Tests cover researched, saved/shared/zero and representative purchase values; uncertain fees; estimated/saved highlights; incomplete budgets; non-comparable known boot capacity; electric-range applicability; unsuitable owner means; and headline-before-evidence rendering. Numeric main-score formulas are unchanged.
+- The exact Atto 3 Standard case from the user's screenshot now leads with **A$28,090**, its representative asking-price basis, extra QLD duty/transfer and the two-observation range. All **35** configurations' score categories and evidence disclosures were expanded and measured at **320 px** with no internal/document overflow. Mobile comparison explanations and per-car resale percentage also fit.
+
+## Previous: expanded reviews and Charts — 18 October 2026
 
 - **134 automated tests across eight suites pass.** Strict TypeScript and production build pass. Existing Zod annotation notices and the larger bundled-research warning remain; no runtime vehicle-data API is required.
 - **76 new review cohorts / 89 source records** cover every one of 19 families and explicitly match or exclude all 35 configurations. Full registry: **1,179 source records / 715 distinct URLs**. Counts are source contributions, not unique people or certainty measures.
