@@ -1,6 +1,18 @@
-# Publish later on free static hosting
+# Hosting and deployments
 
-The dashboard is a Vite static build: no database, functions, API secrets or accounts are needed. Publication is not part of the initial local delivery.
+The dashboard is a Vite static build: no database, functions or runtime API secrets are needed.
+
+## Live deployment
+
+Published on 18 October 2026 at **https://car-comparison-dashboard.pages.dev** using Cloudflare Pages' free static hosting.
+
+- Source: [VoytekMichalek/car-comparison-dashboard](https://github.com/VoytekMichalek/car-comparison-dashboard).
+- Production branch: `main`. Each push triggers an automatic build and deployment.
+- Build command: `npm run build`; output directory: `dist`; root: repository root.
+- Build environment: `NODE_VERSION=22` (Cloudflare used Node 22.22.0 for the initial deployment).
+- No custom domain, paid add-on or Pages Functions is configured.
+
+Personal notebook data and cost overrides stay in each visitor's browser. To move your localhost notebook to the live site, export it locally and import that backup on the live hostname.
 
 ## Cloudflare Pages
 
@@ -8,7 +20,7 @@ Cloudflare's current documentation says requests to static assets are free and u
 
 ### Git integration
 
-1. Put the project in a Git repository and push it to your own GitHub or GitLab repository. The current workspace did not start as a functional Git repository.
+1. Push changes to the GitHub repository above, or connect a different GitHub or GitLab repository for another installation.
 2. In Cloudflare, create a Pages project and connect that repository.
 3. Set the build command to `npm run build` and output directory to `dist`.
 4. Select Node.js 22.12 or later (22.23.3 was used for validation). Commit `package-lock.json` so installs are reproducible.
