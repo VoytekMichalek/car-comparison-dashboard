@@ -8,6 +8,7 @@ import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { ScoreBreakdown } from './components/Scores';
 import { reviewScope } from './reviewScope';
+import { reviewEvidenceFor } from './reviewEvidence';
 import { fitAssessmentFor } from './research';
 import { calculateFamilyFit } from './familyFit';
 import type { ScoreWeights } from './types';
@@ -54,10 +55,11 @@ describe('transparent importance-weighted scoring', () => {
     expect(changed.total!).toBeGreaterThan(base.total!);
     expect(changed.categories.find(c => c.key === 'seating')?.weight).toBe(10);
   });
-  it('keeps a single favourable community post from dominating the score', () => {
+  it('excludes a single favourable delivery-service post from vehicle satisfaction scoring', () => {
     const ev5 = vehicles.find(v => v.id === 'ev5-air-standard-2024')!;
     const owners = scoreVehicle(ev5, emptyPersonal()).categories.find(c => c.key === 'owners')!;
-    expect(owners.score).toBe(10);
+    expect(owners.score).toBeNull();
+    expect(reviewEvidenceFor(ev5).assessed.some(e => e.cohort.count === 1 && e.factor === 0)).toBe(true);
     expect(owners.effectiveWeight).toBeLessThan(owners.weight / 10);
     expect(owners.confidence).toBeLessThan(.1);
   });
@@ -70,7 +72,7 @@ describe('transparent importance-weighted scoring', () => {
     expect(result.provisional).toBe(true);
   });
   it('does not apply original-generation owner ratings to the Atto 3 EVO or new RAV4', () => {
-    for (const id of ['atto3-evo-premium-2026', 'rav4-gxl-hev-2026', 'forester-awd-petrol-2025']) {
+    for (const id of ['atto3-evo-premium-2026', 'rav4-gxl-hev-2026', 'ioniq5-rwd-84-2025']) {
       const car = vehicles.find(v => v.id === id)!;
       const owners = scoreVehicle(car, emptyPersonal()).categories.find(c => c.key === 'owners')!;
       expect(owners.confidence).toBe(0);
@@ -79,6 +81,11 @@ describe('transparent importance-weighted scoring', () => {
     }
     const oldForester = vehicles.find(v => v.id === 'forester-25il-2021')!;
     expect(reviewScope(oldForester).factor).toBe(.5);
+    const newForester = vehicles.find(v => v.id === 'forester-awd-petrol-2025')!;
+    const newerEvidence = reviewEvidenceFor(newForester);
+    expect(newerEvidence.contributing.length).toBeGreaterThan(0);
+    expect(newerEvidence.contributing.every(e => /sixth-generation/.test(e.cohort.scope))).toBe(true);
+    expect(newerEvidence.contributing.some(e => /SK \/ S5/.test(e.cohort.scope))).toBe(false);
     expect(scoreVehicle(oldForester, emptyPersonal()).categories.find(c => c.key === 'owners')!.confidence).toBeGreaterThan(0);
   });
   it('limits contaminated review aggregates and further reduces unmatched updates', () => {
@@ -88,7 +95,11 @@ describe('transparent importance-weighted scoring', () => {
     expect(reviewScope(updated).factor).toBeLessThan(reviewScope(older).factor);
     expect(reviewScope(older).note).toContain('2021 GSR');
     const air = vehicles.find(v => v.id === 'ev6-air-2022')!;
-    expect(scoreVehicle(air, emptyPersonal()).categories.find(c => c.key === 'owners')!.confidence).toBeLessThan(.05);
+    const airEvidence = reviewEvidenceFor(air);
+    expect(airEvidence.contributing.some(e => e.cohort.publisher === 'CARFAX' && e.cohort.count! > 50)).toBe(true);
+    expect(airEvidence.confidence).toBeLessThanOrEqual(.4);
+    expect(airEvidence.assessed.some(e => e.cohort.publisher === 'ProductReview.com.au' && e.confidence === 0)).toBe(true);
+    expect(airEvidence.assessed.some(e => e.cohort.id.startsWith('legacy-'))).toBe(false);
   });
   it('excludes electric range for every fuel-only powertrain without a score penalty', () => {
     for (const powertrain of ['HEV', 'PETROL', 'DIESEL'] as const) {

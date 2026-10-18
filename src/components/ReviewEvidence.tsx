@@ -1,0 +1,25 @@
+import { Star } from 'lucide-react';
+import { formatDate, yearLabel } from '../lib';
+import { reviewEvidenceFor } from '../reviewEvidence';
+import type { AssessedCohort } from '../reviewEvidence';
+import type { Vehicle } from '../types';
+import { SourceRefs } from './Shared';
+
+function Cohort({ entry }: { entry: AssessedCohort }) {
+  const { cohort: c } = entry;
+  return <details className="review-cohort"><summary><span><strong>{c.publisher}</strong><small>{c.region} · {c.count === null ? 'Sample size unavailable' : `${c.count.toLocaleString('en-AU')} ${c.countKind === 'unknown' ? 'contributions' : c.countKind.replace('-', ' ')}`}</small><small>{entry.included ? 'Contributes to owner score' : c.kind !== 'owner' ? `${c.kind === 'reliability' ? 'Reliability survey' : 'Professional rating'} · separate from owner score` : entry.confidence > 0 ? 'Overlapping publisher / cohort · not counted again' : 'Reference only · excluded from score'}</small></span><strong className="cohort-rating">{c.rating === null ? 'No aggregate' : <>{c.rating}<small>/{c.outOf}</small></>}</strong></summary><div><p>{c.scope}</p><p>{c.summary}</p><p className="review-scope"><strong>Applicability: </strong>{entry.note} {entry.included && `Source evidence factor ${Math.round(entry.confidence * 100)}%.`}</p>{(c.positiveThemes.length > 0 || c.negativeThemes.length > 0) && <div className="review-themes"><div><h4>Positive themes</h4><ul>{c.positiveThemes.map(t => <li key={t}>{t}</li>)}</ul></div><div><h4>Concerns raised</h4><ul>{c.negativeThemes.map(t => <li key={t}>{t}</li>)}</ul></div></div>}<p className="micro muted">{c.limitations}</p><p className="micro muted">Checked {formatDate(c.checked)} <SourceRefs ids={c.sourceIds} /></p></div></details>;
+}
+
+export function OwnerReviewEvidence({ vehicle }: { vehicle: Vehicle }) {
+  const evidence = reviewEvidenceFor(vehicle);
+  const owners = evidence.assessed.filter(e => e.cohort.kind === 'owner').sort((a, b) => Number(b.included) - Number(a.included) || b.confidence - a.confidence);
+  const other = evidence.assessed.filter(e => e.cohort.kind !== 'owner');
+  return <section className="community-review expanded-reviews"><h3><Star size={18} />People’s ratings</h3>{evidence.score === null ? <p>No suitable numeric owner aggregate with a verified sample size for this configuration. Reference material remains available below.</p> : <div className="review-aggregate"><strong>{evidence.score.toFixed(1)}<small>/10</small></strong><div><b>{evidence.contributing.length} rating {evidence.contributing.length === 1 ? 'site' : 'sites'} used</b><span>{evidence.count.toLocaleString('en-AU')} contributions · {evidence.australianCount.toLocaleString('en-AU')} Australian</span><span>{Math.round(evidence.confidence * 100)}% category evidence</span></div></div>}<p className="micro muted">Contributions across websites are not unique people. Each site keeps its original rating scale below. Overseas and mixed-variant samples have less influence. These ratings describe owner sentiment, not failure rates.</p>{evidence.coverage && <p className="review-coverage-summary">{evidence.coverage.summary} <SourceRefs ids={evidence.coverage.sourceIds} /></p>}<div className="review-cohorts">{owners.map(entry => <Cohort key={entry.cohort.id} entry={entry} />)}</div>{other.length > 0 && <section className="review-other"><h4>Other rating websites & surveys</h4><p className="micro muted">Kept separate from the owner average. Survey populations and scoring methods differ.</p>{other.map(entry => <Cohort key={entry.cohort.id} entry={entry} />)}</section>}{evidence.coverage && evidence.coverage.gaps.length > 0 && <details className="review-gaps"><summary>Remaining review gaps</summary><ul>{evidence.coverage.gaps.map(g => <li key={g}>{g}</li>)}</ul></details>}</section>;
+}
+
+export function ReviewCoverage({ vehicles, onInspect }: { vehicles: Vehicle[]; onInspect: (familyId: string) => void }) {
+  return <details className="panel review-coverage-overview"><summary><strong>Review coverage across these cars</strong><span>Samples, websites & remaining gaps</span></summary><p className="micro muted">One selected configuration per model. Scoring samples below exclude duplicate publisher cohorts and mismatched cars. Counts across websites are not unique owners; new models may have fewer than 50 suitable contributions.</p><div className="review-coverage-grid">{vehicles.map(v => {
+    const evidence = reviewEvidenceFor(v);
+    return <article key={v.id}><h3>{v.make} {v.model}</h3><p className="micro muted">{yearLabel(v)} · {v.variant}</p><div className="review-coverage-numbers"><strong>{evidence.count.toLocaleString('en-AU')}<small>scoring contributions</small></strong><span>{evidence.contributing.length} rating sites<br />{evidence.australianCount.toLocaleString('en-AU')} Australian</span></div><p>{evidence.coverage?.summary ?? 'See the scoped rating sources for sample limits.'}</p><button className="text-button" onClick={() => onInspect(v.familyId)}>Read reviews & evidence →</button></article>;
+  })}</div></details>;
+}

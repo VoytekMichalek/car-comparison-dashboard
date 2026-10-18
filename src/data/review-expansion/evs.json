@@ -1,0 +1,1682 @@
+{
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "crowd-ev-tesla-carfax-2023",
+      "title": "2023 Tesla Model Y: CARFAX consumer reviews",
+      "url": "https://www.carfax.com/Research/Tesla/Model-Y/2023",
+      "publisher": "CARFAX",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-tesla-edmunds-2023",
+      "title": "2023 Model Y: Edmunds consumer review pool",
+      "url": "https://www.edmunds.com/tesla/model-y/2023/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-tesla-kbb-pooled",
+      "title": "Model Y: KBB pooled consumer reviews",
+      "url": "https://www.kbb.com/tesla/model-y/2023/consumer-reviews/",
+      "publisher": "Kelley Blue Book",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-tesla-kbb-2026-overlap",
+      "title": "2026 Model Y: same KBB pooled cohort",
+      "url": "https://www.kbb.com/tesla/model-y/2026/consumer-reviews/",
+      "publisher": "Kelley Blue Book",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-tesla-edmunds-juniper",
+      "title": "2026 Model Y: Edmunds consumer reviews",
+      "url": "https://www.edmunds.com/tesla/model-y/2026/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-tesla-media",
+      "title": "Model Y: The Car Expert media index",
+      "url": "https://www.thecarexpert.co.uk/tesla-model-y-2022/",
+      "publisher": "The Car Expert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-productreview",
+      "title": "Atto 3: ProductReview model aggregate",
+      "url": "https://www.productreview.com.au/listings/byd-atto-3",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-carsales",
+      "title": "Atto 3: Carsales owner aggregate",
+      "url": "https://www.carsales.com.au/owner-reviews/byd/atto-3/",
+      "publisher": "Carsales",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-zigwheels",
+      "title": "Atto 3: ZigWheels user-review count and rating caveat",
+      "url": "https://www.zigwheels.com/user-reviews/byd/atto-3",
+      "publisher": "ZigWheels",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-autocar-india",
+      "title": "Atto 3: Autocar India user reviews",
+      "url": "https://www.autocarindia.com/cars/byd/atto-3/user-reviews",
+      "publisher": "Autocar India",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-autohome",
+      "title": "Yuan Plus / Atto 3: Autohome participant aggregate",
+      "url": "https://k.m.autohome.com.cn/6298/-1",
+      "publisher": "Autohome",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-media",
+      "title": "Atto 3: The Car Expert media index",
+      "url": "https://www.thecarexpert.co.uk/byd-atto-3-2023/",
+      "publisher": "The Car Expert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev6-carfax",
+      "title": "2022 EV6: CARFAX consumer reviews",
+      "url": "https://www.carfax.com/Research/Kia/EV6/2022",
+      "publisher": "CARFAX",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev6-edmunds",
+      "title": "2023 EV6: Edmunds pooled consumer reviews",
+      "url": "https://www.edmunds.com/kia/ev6/2023/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev6-kbb",
+      "title": "EV6: KBB pooled consumer reviews",
+      "url": "https://www.kbb.com/kia/ev6/2023/consumer-reviews/",
+      "publisher": "Kelley Blue Book",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev6-media",
+      "title": "EV6: The Car Expert media index",
+      "url": "https://www.thecarexpert.co.uk/kia-ev6-2021/",
+      "publisher": "The Car Expert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ioniq-carfax-2022",
+      "title": "2022 Ioniq 5: CARFAX consumer reviews",
+      "url": "https://www.carfax.com/Research/Hyundai/Ioniq-5/2022",
+      "publisher": "CARFAX",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ioniq-carfax-2025",
+      "title": "2025 Ioniq 5: CARFAX consumer reviews",
+      "url": "https://www.carfax.com/Research/Hyundai/Ioniq-5/2025",
+      "publisher": "CARFAX",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ioniq-edmunds-2023",
+      "title": "2023 Ioniq 5: Edmunds consumer reviews",
+      "url": "https://www.edmunds.com/hyundai/ioniq-5/2023/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ioniq-kbb",
+      "title": "Ioniq 5: KBB pooled consumer reviews",
+      "url": "https://www.kbb.com/hyundai/ioniq-5/2023/consumer-reviews/",
+      "publisher": "Kelley Blue Book",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ioniq-media",
+      "title": "Ioniq 5: The Car Expert media index",
+      "url": "https://www.thecarexpert.co.uk/hyundai-ioniq-5-2021/",
+      "publisher": "The Car Expert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev5-autoweek-index",
+      "title": "EV5: AutoWeek owner-report index",
+      "url": "https://www.autoweek.nl/reviews/kia/ev5/",
+      "publisher": "AutoWeek",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev5-autoweek-5600",
+      "title": "EV5 GT-Line: 5,600 km owner report",
+      "url": "https://www.autoweek.nl/reviews/artikel/kia-ev5-81-4kwh-gt-line-2026/",
+      "publisher": "AutoWeek",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev5-autoweek-7000",
+      "title": "EV5 GT-Line Business: 7,000 km owner report",
+      "url": "https://www.autoweek.nl/reviews/artikel/kia-ev5-81-4-kwh-gt-line-business-edition-2026/",
+      "publisher": "AutoWeek",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev5-carexpert-index",
+      "title": "EV5: CarExpert rating and owner-coverage check",
+      "url": "https://www.carexpert.com.au/kia/ev5",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-zeekr-autoweek-index",
+      "title": "7X: AutoWeek owner-report index",
+      "url": "https://www.autoweek.nl/reviews/zeekr/7x/",
+      "publisher": "AutoWeek",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-zeekr-autoweek-lr-23052",
+      "title": "7X Long Range RWD: 23,052 km owner report",
+      "url": "https://www.autoweek.nl/reviews/artikel/zeekr-7x-long-range-rwd-2025-3/",
+      "publisher": "AutoWeek",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-zeekr-autoweek-lr-24500",
+      "title": "7X Long Range RWD: 24,500 km owner report",
+      "url": "https://www.autoweek.nl/reviews/artikel/zeekr-7x-long-range-rwd-2025-2/",
+      "publisher": "AutoWeek",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-zeekr-autohome",
+      "title": "7X: Autohome Chinese participant aggregate",
+      "url": "https://k.m.autohome.com.cn/7777/-1",
+      "publisher": "Autohome",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-zeekr-carexpert-index",
+      "title": "7X: CarExpert rating and owner-coverage check",
+      "url": "https://www.carexpert.com.au/zeekr/7x",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-zeekr-carexpert-longterm",
+      "title": "7X Long Range RWD: Australian long-term introduction",
+      "url": "https://www.carexpert.com.au/car-reviews/2026-zeekr-7x-long-range-rwd-review-long-term-introduction",
+      "publisher": "CarExpert",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-whatcar-ev6-access",
+      "title": "EV6: What Car reliability source access gap",
+      "url": "https://www.whatcar.com/kia/ev6/estate/review/n23462",
+      "publisher": "What Car?",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev5-autohome-access",
+      "title": "EV5: Autohome primary review page access gap",
+      "url": "https://k.m.autohome.com.cn/7352/",
+      "publisher": "Autohome",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev5-dongchedi-access",
+      "title": "EV5: Dongchedi primary review page access gap",
+      "url": "https://www.dongchedi.com/auto/series/score/9237-x-x-x-x-x-x",
+      "publisher": "Dongchedi",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-evo-autoweek",
+      "title": "Atto 3 EVO Design: 8,000 km Dutch owner report",
+      "url": "https://www.autoweek.nl/reviews/artikel/byd-atto-3-evo-design-2026/",
+      "publisher": "AutoWeek",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-tesla-au-productreview",
+      "title": "tesla-model-y: ProductReview contributor-scope audit",
+      "url": "https://www.productreview.com.au/listings/tesla-model-y",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ioniq-au-productreview",
+      "title": "hyundai-ioniq-5: ProductReview contributor-scope audit",
+      "url": "https://www.productreview.com.au/listings/hyundai-ioniq-5",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev6-au-productreview",
+      "title": "kia-ev6: ProductReview contributor-scope audit",
+      "url": "https://www.productreview.com.au/listings/kia-ev6-rwd-air",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev5-au-productreview",
+      "title": "kia-ev5: ProductReview contributor-scope audit",
+      "url": "https://www.productreview.com.au/listings/kia-ev5",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    }
+  ],
+  "cohorts": [
+    {
+      "id": "crowd-ev-tesla-carfax-2023",
+      "familyId": "tesla-model-y",
+      "publisher": "CARFAX",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.8,
+      "outOf": 5,
+      "count": 611,
+      "countKind": "reviews",
+      "scope": "2023 US Model Y consumer aggregate; base, Long Range and Performance are not isolated.",
+      "summary": "Largest verified numeric pool found for the original Model Y.",
+      "positiveThemes": [
+        "Owners report strong acceleration, useful space and convenient home charging."
+      ],
+      "negativeThemes": [
+        "US satisfaction does not settle Australian build quality or service outcomes."
+      ],
+      "limitations": "Self-selected reviews; not 611 Australian owners or a measured defect/failure rate. Exact battery, wheels and factory mix is unpublished.",
+      "sourceIds": [
+        "crowd-ev-tesla-carfax-2023"
+      ],
+      "matches": [
+        {
+          "vehicleId": "model-y-rwd-2022",
+          "factor": 0.35,
+          "note": "US original models; Australian LFP RWD differs."
+        },
+        {
+          "vehicleId": "model-y-long-range-2023",
+          "factor": 0.5,
+          "note": "Related US original Long Range; different factory/support."
+        },
+        {
+          "vehicleId": "model-y-rwd-juniper-2025",
+          "factor": 0,
+          "note": "Original-model experiences cannot establish Juniper satisfaction."
+        }
+      ],
+      "overlapGroup": "carfax-model-y-original",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-tesla-edmunds-2023",
+      "familyId": "tesla-model-y",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 3.9,
+      "outOf": 5,
+      "count": 75,
+      "countKind": "reviews",
+      "scope": "Page labelled 2023; visible entries include Long Range AWD and an owner describing a 2021 purchase.",
+      "summary": "More mixed sentiment than CARFAX; preserve the publisher difference.",
+      "positiveThemes": [
+        "Acceleration, cabin/storage space and charging/navigation."
+      ],
+      "negativeThemes": [
+        "Firm ride, panel alignment, screen/wiper controls and service complaints."
+      ],
+      "limitations": "Not an exact late-2023 Shanghai or Australian RWD sample; older-year and trim mixing is visible. Complaints are allegations, not incidence estimates.",
+      "sourceIds": [
+        "crowd-ev-tesla-edmunds-2023"
+      ],
+      "matches": [
+        {
+          "vehicleId": "model-y-rwd-2022",
+          "factor": 0.35,
+          "note": "US original models; Australian LFP RWD differs."
+        },
+        {
+          "vehicleId": "model-y-long-range-2023",
+          "factor": 0.5,
+          "note": "Related US original Long Range; different factory/support."
+        },
+        {
+          "vehicleId": "model-y-rwd-juniper-2025",
+          "factor": 0,
+          "note": "Original-model experiences cannot establish Juniper satisfaction."
+        }
+      ],
+      "overlapGroup": "edmunds-model-y-original",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-tesla-kbb-pooled",
+      "familyId": "tesla-model-y",
+      "publisher": "Kelley Blue Book",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.2,
+      "outOf": 5,
+      "count": 89,
+      "countKind": "reviews",
+      "scope": "2023 and 2026 pages both show the identical 89-review pool; includes a January 2021 purchase.",
+      "summary": "One cohort only: 80% recommend, with quality rated below performance.",
+      "positiveThemes": [
+        "Performance, comfort and storage."
+      ],
+      "negativeThemes": [
+        "Fit/finish and customer-support dissatisfaction in critical accounts."
+      ],
+      "limitations": "KBB explicitly widens to pertinent model years. The 2026 heading does not make these 89 Juniper reviews. Unsegmented year/trim pool receives limited original-model weight.",
+      "sourceIds": [
+        "crowd-ev-tesla-kbb-pooled",
+        "crowd-ev-tesla-kbb-2026-overlap"
+      ],
+      "matches": [
+        {
+          "vehicleId": "model-y-rwd-2022",
+          "factor": 0.3,
+          "note": "Mixed years; no Australian LFP subset."
+        },
+        {
+          "vehicleId": "model-y-long-range-2023",
+          "factor": 0.35,
+          "note": "Mixed original years and unverified later entries."
+        },
+        {
+          "vehicleId": "model-y-rwd-juniper-2025",
+          "factor": 0,
+          "note": "Identical pool includes 2021 cars; Juniper cannot be isolated."
+        }
+      ],
+      "overlapGroup": "kbb-model-y-all-years",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-tesla-edmunds-juniper",
+      "familyId": "tesla-model-y",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.3,
+      "outOf": 5,
+      "count": 33,
+      "countKind": "reviews",
+      "scope": "US 2026 page: explicit Juniper/Launch AWD reviews, plus an entry whose ownership chronology is inconsistent with an all-Juniper sample.",
+      "summary": "Useful refreshed-model feedback, with year/trim contamination kept visible.",
+      "positiveThemes": [
+        "Quieter cabin, improved suspension and comfortable seats in Juniper-labelled reports."
+      ],
+      "negativeThemes": [
+        "Screen-control learning curve; requests for better blind-spot and parking views."
+      ],
+      "limitations": "US AWD/Long Range dominates visible entries. No isolated Australian Premium RWD/LFP count; assisted-driving and connectivity features vary by country.",
+      "sourceIds": [
+        "crowd-ev-tesla-edmunds-juniper"
+      ],
+      "matches": [
+        {
+          "vehicleId": "model-y-rwd-2022",
+          "factor": 0,
+          "note": "Refresh review pool is not an original-model cohort."
+        },
+        {
+          "vehicleId": "model-y-long-range-2023",
+          "factor": 0,
+          "note": "Refresh review pool is not an original-model cohort."
+        },
+        {
+          "vehicleId": "model-y-rwd-juniper-2025",
+          "factor": 0.3,
+          "note": "Related refresh; US AWD and inconsistent year tagging limit relevance."
+        }
+      ],
+      "overlapGroup": "edmunds-model-y-juniper",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-tesla-media",
+      "familyId": "tesla-model-y",
+      "publisher": "The Car Expert",
+      "region": "United Kingdom",
+      "kind": "professional",
+      "rating": 77,
+      "outOf": 100,
+      "count": null,
+      "countKind": "unknown",
+      "scope": "Media Rating only; index explicitly combines original and 2025 facelift reviews.",
+      "summary": "77/100 is the media subscore, not its separate all-in new/used car score.",
+      "positiveThemes": [
+        "Technology, performance, charging network and family space."
+      ],
+      "negativeThemes": [
+        "Build consistency and original-model ride; UK insurance costs."
+      ],
+      "limitations": "Number of included reviews is not verified. Mixed generations/variants; index also links reviews already available elsewhere. Not owner reviews or reliability data.",
+      "sourceIds": [
+        "crowd-ev-tesla-media"
+      ],
+      "matches": [
+        {
+          "vehicleId": "model-y-rwd-2022",
+          "factor": 0.25,
+          "note": "Pooled originals/facelift UK index."
+        },
+        {
+          "vehicleId": "model-y-long-range-2023",
+          "factor": 0.25,
+          "note": "Pooled originals/facelift UK index."
+        },
+        {
+          "vehicleId": "model-y-rwd-juniper-2025",
+          "factor": 0.25,
+          "note": "Pooled originals/facelift UK index."
+        }
+      ],
+      "overlapGroup": "thecarexpert-model-y-media",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-productreview",
+      "familyId": "byd-atto-3",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia / some New Zealand accounts",
+      "kind": "owner",
+      "rating": 3.2,
+      "outOf": 5,
+      "count": 10,
+      "countKind": "reviews",
+      "scope": "Original Atto 3, predominantly Extended; Australian platform includes a detailed New Zealand account.",
+      "summary": "Small local-market pool with positives and substantial support/software complaints.",
+      "positiveThemes": [
+        "Comfort, equipment and everyday electric driving."
+      ],
+      "negativeThemes": [
+        "Software updates, service communication and 12 V complaints."
+      ],
+      "limitations": "Ten self-selected reports; not a representative Australian survey. No isolated Essential or EVO results; New Zealand running costs are not Queensland costs.",
+      "sourceIds": [
+        "crowd-ev-atto-productreview"
+      ],
+      "matches": [
+        {
+          "vehicleId": "atto3-standard-2022",
+          "factor": 0.7,
+          "note": "Australian original family; mixed battery variants."
+        },
+        {
+          "vehicleId": "atto3-extended-2022",
+          "factor": 0.8,
+          "note": "Australian original family; Extended reports visible."
+        },
+        {
+          "vehicleId": "atto3-essential-2025",
+          "factor": 0.35,
+          "note": "Related FWD platform; no exact Essential cohort."
+        },
+        {
+          "vehicleId": "atto3-evo-premium-2026",
+          "factor": 0,
+          "note": "FWD original does not establish RWD EVO ownership."
+        }
+      ],
+      "overlapGroup": "productreview-byd-atto-3-original",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-carsales",
+      "familyId": "byd-atto-3",
+      "publisher": "Carsales",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 4.7,
+      "outOf": 5,
+      "count": 6,
+      "countKind": "reviews",
+      "scope": "Two 2022, three 2023 and one 2024 review; original FWD family.",
+      "summary": "A much more positive small sample than ProductReview; both remain visible.",
+      "positiveThemes": [
+        "Value, daily usability and electric driving satisfaction."
+      ],
+      "negativeThemes": [
+        "At least one owner flags tail-light problems."
+      ],
+      "limitations": "Only six submissions across trims. Carsales year filters are subsets of these six and must not be added again; no EVO evidence.",
+      "sourceIds": [
+        "crowd-ev-atto-carsales"
+      ],
+      "matches": [
+        {
+          "vehicleId": "atto3-standard-2022",
+          "factor": 0.7,
+          "note": "Australian original family; mixed battery variants."
+        },
+        {
+          "vehicleId": "atto3-extended-2022",
+          "factor": 0.8,
+          "note": "Australian original family; Extended reports visible."
+        },
+        {
+          "vehicleId": "atto3-essential-2025",
+          "factor": 0.35,
+          "note": "Related FWD platform; no exact Essential cohort."
+        },
+        {
+          "vehicleId": "atto3-evo-premium-2026",
+          "factor": 0,
+          "note": "FWD original does not establish RWD EVO ownership."
+        }
+      ],
+      "overlapGroup": "carsales-byd-atto-3-original",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-zigwheels",
+      "familyId": "byd-atto-3",
+      "publisher": "ZigWheels",
+      "region": "India",
+      "kind": "owner",
+      "rating": 3.6,
+      "outOf": 5,
+      "count": 4,
+      "countKind": "ratings",
+      "scope": "Header says 63 reviews and 4 ratings; an embedded card says 62 user reviews. Anonymous, test-drive and research-only posts are visible.",
+      "summary": "A 50+ text-post claim is available, but it is not 63 verified owners or 63 numerical ratings.",
+      "positiveThemes": [
+        "Posted comments praise cabin design and electric response."
+      ],
+      "negativeThemes": [
+        "Price, charging access and dealer explanation concerns."
+      ],
+      "limitations": "Review/rating denominator conflicts and non-owner posts make this reference-only. The recorded count is the explicitly labelled four ratings; no score contribution.",
+      "sourceIds": [
+        "crowd-ev-atto-zigwheels"
+      ],
+      "matches": [
+        {
+          "vehicleId": "atto3-standard-2022",
+          "factor": 0,
+          "note": "Owner status and numeric rating denominator are not established."
+        },
+        {
+          "vehicleId": "atto3-extended-2022",
+          "factor": 0,
+          "note": "Owner status and numeric rating denominator are not established."
+        },
+        {
+          "vehicleId": "atto3-essential-2025",
+          "factor": 0,
+          "note": "Owner status and numeric rating denominator are not established."
+        },
+        {
+          "vehicleId": "atto3-evo-premium-2026",
+          "factor": 0,
+          "note": "Owner status and numeric rating denominator are not established."
+        }
+      ],
+      "overlapGroup": "zigwheels-byd-atto-3",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-autocar-india",
+      "familyId": "byd-atto-3",
+      "publisher": "Autocar India",
+      "region": "India",
+      "kind": "owner",
+      "rating": 4.1,
+      "outOf": 5,
+      "count": 11,
+      "countKind": "ratings",
+      "scope": "Page labels 11 ratings and 11 reviews; Indian Dynamic/Premium/Superior FWD models.",
+      "summary": "Additional international feedback, kept outside the Australian ownership score.",
+      "positiveThemes": [
+        "Cabin space and refinement appear in posted feedback."
+      ],
+      "negativeThemes": [
+        "Charging ecosystem and local support questions."
+      ],
+      "limitations": "Owner verification and exact trim/usage for the aggregate are not established; buyer questions/editorial replies on the page are not extra owner reviews.",
+      "sourceIds": [
+        "crowd-ev-atto-autocar-india"
+      ],
+      "matches": [
+        {
+          "vehicleId": "atto3-standard-2022",
+          "factor": 0,
+          "note": "Unverified ownership/trim mix; reference only."
+        },
+        {
+          "vehicleId": "atto3-extended-2022",
+          "factor": 0,
+          "note": "Unverified ownership/trim mix; reference only."
+        },
+        {
+          "vehicleId": "atto3-essential-2025",
+          "factor": 0,
+          "note": "Unverified ownership/trim mix; reference only."
+        },
+        {
+          "vehicleId": "atto3-evo-premium-2026",
+          "factor": 0,
+          "note": "Unverified ownership/trim mix; reference only."
+        }
+      ],
+      "overlapGroup": "autocarindia-byd-atto-3",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-autohome",
+      "familyId": "byd-atto-3",
+      "publisher": "Autohome",
+      "region": "China",
+      "kind": "owner",
+      "rating": 4.52,
+      "outOf": 5,
+      "count": 356,
+      "countKind": "ratings",
+      "scope": "Chinese Yuan Plus family, mixed model years/specifications; page labels 356 participants.",
+      "summary": "Large domestic-market reference pool; not an Australian Atto 3 owner sample.",
+      "positiveThemes": [
+        "Low home-charging costs, response and city practicality."
+      ],
+      "negativeThemes": [
+        "Highway noise, small low-voltage battery and software complaints in visible accounts."
+      ],
+      "limitations": "Chinese equipment/software, warranty and support differ. Some employee/fan accounts are visible. Participant count is not independently verified ownership; no transfer to Australian scoring or failure estimates.",
+      "sourceIds": [
+        "crowd-ev-atto-autohome"
+      ],
+      "matches": [
+        {
+          "vehicleId": "atto3-standard-2022",
+          "factor": 0,
+          "note": "Chinese variants/updates cannot be isolated to this Australian configuration."
+        },
+        {
+          "vehicleId": "atto3-extended-2022",
+          "factor": 0,
+          "note": "Chinese variants/updates cannot be isolated to this Australian configuration."
+        },
+        {
+          "vehicleId": "atto3-essential-2025",
+          "factor": 0,
+          "note": "Chinese variants/updates cannot be isolated to this Australian configuration."
+        },
+        {
+          "vehicleId": "atto3-evo-premium-2026",
+          "factor": 0,
+          "note": "Chinese variants/updates cannot be isolated to this Australian configuration."
+        }
+      ],
+      "overlapGroup": "autohome-yuan-plus-all",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-media",
+      "familyId": "byd-atto-3",
+      "publisher": "The Car Expert",
+      "region": "United Kingdom",
+      "kind": "professional",
+      "rating": 62,
+      "outOf": 100,
+      "count": null,
+      "countKind": "unknown",
+      "scope": "Original UK FWD Atto 3; February 2026 summary, before EVO.",
+      "summary": "62/100 media rating; the separate 73/100 new-car score includes other categories.",
+      "positiveThemes": [
+        "Equipment, cabin finish and comfort."
+      ],
+      "negativeThemes": [
+        "Steering/brake finesse, charging pace and rear headroom."
+      ],
+      "limitations": "Review count is unverified; mixed UK trims. This index is professional opinion, not owner satisfaction or measured reliability.",
+      "sourceIds": [
+        "crowd-ev-atto-media"
+      ],
+      "matches": [
+        {
+          "vehicleId": "atto3-standard-2022",
+          "factor": 0.4,
+          "note": "Related original platform; UK battery/trim mix."
+        },
+        {
+          "vehicleId": "atto3-extended-2022",
+          "factor": 0.5,
+          "note": "Related original UK FWD model."
+        },
+        {
+          "vehicleId": "atto3-essential-2025",
+          "factor": 0.25,
+          "note": "Equipment differs from the reviewed UK model."
+        },
+        {
+          "vehicleId": "atto3-evo-premium-2026",
+          "factor": 0,
+          "note": "Original FWD index does not review EVO RWD."
+        }
+      ],
+      "overlapGroup": "thecarexpert-atto-original-media",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev6-carfax",
+      "familyId": "kia-ev6",
+      "publisher": "CARFAX",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.7,
+      "outOf": 5,
+      "count": 414,
+      "countKind": "reviews",
+      "scope": "US 2022 EV6; original Light/Wind/GT-Line, mixed drivetrains.",
+      "summary": "Large, positive owner pool; family and cost subscores are 4.6 and 4.5/5.",
+      "positiveThemes": [
+        "Driving enjoyment, home charging and low routine maintenance in visible reports."
+      ],
+      "negativeThemes": [
+        "Rear visibility and missing rear wiper; door/control usability in publisher summary."
+      ],
+      "limitations": "Not an Australian Air-specific pool. Self-selection, original US warranty/dealer/charging differences and unpublished trim mix limit relevance; not a defect-rate survey.",
+      "sourceIds": [
+        "crowd-ev-ev6-carfax"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ev6-air-2022",
+          "factor": 0.5,
+          "note": "Related US original generation, mixed RWD/AWD trims; no isolated Air cohort."
+        }
+      ],
+      "overlapGroup": "carfax-ev6-original",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev6-edmunds",
+      "familyId": "kia-ev6",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.2,
+      "outOf": 5,
+      "count": 68,
+      "countKind": "reviews",
+      "scope": "Page explicitly includes other years since last redesign; visible 2022 Wind AWD reviews.",
+      "summary": "Broader but less positive than CARFAX.",
+      "positiveThemes": [
+        "Performance, comfort and fast DC charging."
+      ],
+      "negativeThemes": [
+        "Dealer mark-ups/support, update processes and control/visibility complaints."
+      ],
+      "limitations": "68 is a pooled-year count, not 68 reviews of 2023 Air RWD. US charger-network and subscription complaints cannot be copied into Australian specifications.",
+      "sourceIds": [
+        "crowd-ev-ev6-edmunds"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ev6-air-2022",
+          "factor": 0.5,
+          "note": "Related US original generation, mixed RWD/AWD trims; no isolated Air cohort."
+        }
+      ],
+      "overlapGroup": "edmunds-ev6-original",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev6-kbb",
+      "familyId": "kia-ev6",
+      "publisher": "Kelley Blue Book",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.0,
+      "outOf": 5,
+      "count": 34,
+      "countKind": "reviews",
+      "scope": "KBB combines pertinent model years; original and later-year accounts are not isolated.",
+      "summary": "75% recommend; performance and comfort rate higher than value.",
+      "positiveThemes": [
+        "Performance, rapid charging and comfortable travel."
+      ],
+      "negativeThemes": [
+        "Critical reports describe electrical failures, delays and winter range loss."
+      ],
+      "limitations": "Mixed years/variants, including later updates; posted failures are not verified frequency or Australian repair costs. Do not sum the same pool through other year pages.",
+      "sourceIds": [
+        "crowd-ev-ev6-kbb"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ev6-air-2022",
+          "factor": 0.35,
+          "note": "Mixed US years/variants; original Air relevance limited."
+        }
+      ],
+      "overlapGroup": "kbb-ev6-all-years",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev6-media",
+      "familyId": "kia-ev6",
+      "publisher": "The Car Expert",
+      "region": "United Kingdom",
+      "kind": "professional",
+      "rating": 87,
+      "outOf": 100,
+      "count": null,
+      "countKind": "unknown",
+      "scope": "Non-GT EV6 index, mixed original/facelift UK range; GT has a separate index.",
+      "summary": "87/100 media rating, distinct from its 82/100 all-in new-car score.",
+      "positiveThemes": [
+        "Charging speed, driving dynamics and usable range."
+      ],
+      "negativeThemes": [
+        "Some usability and cabin/visibility compromises."
+      ],
+      "limitations": "No verified review denominator or Air-only result; professional review index cannot establish ownership reliability.",
+      "sourceIds": [
+        "crowd-ev-ev6-media"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ev6-air-2022",
+          "factor": 0.35,
+          "note": "Mixed UK trims and facelift years; no Air-only aggregate."
+        }
+      ],
+      "overlapGroup": "thecarexpert-ev6-media",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ioniq-carfax-2022",
+      "familyId": "hyundai-ioniq-5",
+      "publisher": "CARFAX",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.7,
+      "outOf": 5,
+      "count": 302,
+      "countKind": "reviews",
+      "scope": "2022 US original model, mixed RWD/AWD and batteries/trims.",
+      "summary": "Large owner pool; family subscore 4.7/5 and cost 4.6/5.",
+      "positiveThemes": [
+        "Spacious comfortable cabin, response and charging convenience."
+      ],
+      "negativeThemes": [
+        "Rear visibility and lack of rear wiper in publisher review summary."
+      ],
+      "limitations": "US original long-range battery differs from Australian 72.6 kWh launch cars. Self-selected feedback; neither a local failure rate nor an exact Techniq/Dynamiq result.",
+      "sourceIds": [
+        "crowd-ev-ioniq-carfax-2022"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ioniq5-awd-2021",
+          "factor": 0.35,
+          "note": "Related early model; Australian 72.6 kWh differs."
+        },
+        {
+          "vehicleId": "ioniq5-dynamiq-rwd-2023",
+          "factor": 0.5,
+          "note": "Related 77.4 kWh generation; US equipment/support differs."
+        },
+        {
+          "vehicleId": "ioniq5-techniq-awd-2023",
+          "factor": 0.5,
+          "note": "Related 77.4 kWh generation; US equipment/support differs."
+        },
+        {
+          "vehicleId": "ioniq5-rwd-84-2025",
+          "factor": 0,
+          "note": "Do not transfer original-model ownership onto 84 kWh facelift."
+        }
+      ],
+      "overlapGroup": "carfax-ioniq5-generation1",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ioniq-carfax-2025",
+      "familyId": "hyundai-ioniq-5",
+      "publisher": "CARFAX",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.6,
+      "outOf": 5,
+      "count": 212,
+      "countKind": "reviews",
+      "scope": "US 2025 model-wide pool; facelift, XRT and high-performance N are discussed together.",
+      "summary": "Useful 212-review reference, but exact Australian 84 kWh RWD applicability is not established.",
+      "positiveThemes": [
+        "Space, comfort and quick charging in publisher overview."
+      ],
+      "negativeThemes": [
+        "US NACS/adaptor experience differs from Australian CCS2."
+      ],
+      "limitations": "Page mixes ordinary and N specifications and contains internally inconsistent power/range prose. No battery/drivetrain-isolated owner denominator; reference only. Same publisher family group prevents pooled count inflation.",
+      "sourceIds": [
+        "crowd-ev-ioniq-carfax-2025"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ioniq5-awd-2021",
+          "factor": 0,
+          "note": "US model-wide facelift/N mixture is not an isolated matching configuration."
+        },
+        {
+          "vehicleId": "ioniq5-dynamiq-rwd-2023",
+          "factor": 0,
+          "note": "US model-wide facelift/N mixture is not an isolated matching configuration."
+        },
+        {
+          "vehicleId": "ioniq5-techniq-awd-2023",
+          "factor": 0,
+          "note": "US model-wide facelift/N mixture is not an isolated matching configuration."
+        },
+        {
+          "vehicleId": "ioniq5-rwd-84-2025",
+          "factor": 0,
+          "note": "US model-wide facelift/N mixture is not an isolated matching configuration."
+        }
+      ],
+      "overlapGroup": "carfax-ioniq5-generation1",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ioniq-edmunds-2023",
+      "familyId": "hyundai-ioniq-5",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 3.8,
+      "outOf": 5,
+      "count": 33,
+      "countKind": "reviews",
+      "scope": "2023 US SEL/SE/Limited and RWD/AWD; 77.4 kWh long-range generation.",
+      "summary": "More negative than CARFAX; charging reliability and support recur in critical reports.",
+      "positiveThemes": [
+        "Comfort, rear cabin room, efficiency and electric performance."
+      ],
+      "negativeThemes": [
+        "AC charge-port overheating/throttling, electrical problems and parts/warranty delays."
+      ],
+      "limitations": "A reported US AC charging problem does not establish Australian frequency or the same charging hardware. 33 self-selected accounts; official recall/repair evidence remains separate.",
+      "sourceIds": [
+        "crowd-ev-ioniq-edmunds-2023"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ioniq5-awd-2021",
+          "factor": 0.35,
+          "note": "Related early model; Australian 72.6 kWh differs."
+        },
+        {
+          "vehicleId": "ioniq5-dynamiq-rwd-2023",
+          "factor": 0.5,
+          "note": "Related 77.4 kWh generation; US equipment/support differs."
+        },
+        {
+          "vehicleId": "ioniq5-techniq-awd-2023",
+          "factor": 0.5,
+          "note": "Related 77.4 kWh generation; US equipment/support differs."
+        },
+        {
+          "vehicleId": "ioniq5-rwd-84-2025",
+          "factor": 0,
+          "note": "Do not transfer original-model ownership onto 84 kWh facelift."
+        }
+      ],
+      "overlapGroup": "edmunds-ioniq5-original",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ioniq-kbb",
+      "familyId": "hyundai-ioniq-5",
+      "publisher": "Kelley Blue Book",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.1,
+      "outOf": 5,
+      "count": 19,
+      "countKind": "reviews",
+      "scope": "KBB explicitly combines pertinent model years; US original-generation accounts visible.",
+      "summary": "Comfort and styling score highly; critical reports include ICCU-related breakdown/support.",
+      "positiveThemes": [
+        "Comfort, design and everyday electric driving."
+      ],
+      "negativeThemes": [
+        "Charging-unit failures, replacement delays and occasional climate/software faults."
+      ],
+      "limitations": "Nineteen mixed-year reviews, not nineteen Australian 2023 owners; no 84 kWh facelift subset. Reliability stars are opinion, not an annual repair probability.",
+      "sourceIds": [
+        "crowd-ev-ioniq-kbb"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ioniq5-awd-2021",
+          "factor": 0.35,
+          "note": "Related early model; Australian 72.6 kWh differs."
+        },
+        {
+          "vehicleId": "ioniq5-dynamiq-rwd-2023",
+          "factor": 0.35,
+          "note": "Related 77.4 kWh generation; US equipment/support differs."
+        },
+        {
+          "vehicleId": "ioniq5-techniq-awd-2023",
+          "factor": 0.35,
+          "note": "Related 77.4 kWh generation; US equipment/support differs."
+        },
+        {
+          "vehicleId": "ioniq5-rwd-84-2025",
+          "factor": 0,
+          "note": "Do not transfer original-model ownership onto 84 kWh facelift."
+        }
+      ],
+      "overlapGroup": "kbb-ioniq5-all-years",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ioniq-media",
+      "familyId": "hyundai-ioniq-5",
+      "publisher": "The Car Expert",
+      "region": "United Kingdom",
+      "kind": "professional",
+      "rating": 88,
+      "outOf": 100,
+      "count": null,
+      "countKind": "unknown",
+      "scope": "Standard Ioniq 5 UK range; N has a separate index, original/facelift reviews can overlap.",
+      "summary": "88/100 media subscore; separate new-car all-category score is 81/100.",
+      "positiveThemes": [
+        "Design, comfort, space and fast charging."
+      ],
+      "negativeThemes": [
+        "Price/equipment and usability vary by reviewed trim."
+      ],
+      "limitations": "Verified review denominator unavailable. UK battery/equipment years differ; this is not a local owner-reliability survey.",
+      "sourceIds": [
+        "crowd-ev-ioniq-media"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ioniq5-awd-2021",
+          "factor": 0.3,
+          "note": "Pooled UK years and batteries."
+        },
+        {
+          "vehicleId": "ioniq5-dynamiq-rwd-2023",
+          "factor": 0.35,
+          "note": "Related UK range; mixed years/trims."
+        },
+        {
+          "vehicleId": "ioniq5-techniq-awd-2023",
+          "factor": 0.35,
+          "note": "Related UK range; mixed years/trims."
+        },
+        {
+          "vehicleId": "ioniq5-rwd-84-2025",
+          "factor": 0.25,
+          "note": "Facelift contribution is not isolated."
+        }
+      ],
+      "overlapGroup": "thecarexpert-ioniq5-media",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev5-autoweek",
+      "familyId": "kia-ev5",
+      "publisher": "AutoWeek",
+      "region": "Netherlands",
+      "kind": "owner",
+      "rating": null,
+      "outOf": 10,
+      "count": 6,
+      "countKind": "reviews",
+      "scope": "Six European 81.4 kWh owner reports in index; two longer reports inspected. No aggregate vehicle rating verified.",
+      "summary": "Useful family-use accounts; European battery/equipment differs from Australian LFP Air.",
+      "positiveThemes": [
+        "Rear passenger space, comfortable seats and practical storage in inspected reports."
+      ],
+      "negativeThemes": [
+        "Alert beeps, software start-up, key/frunk access and tyre-dependent behaviour."
+      ],
+      "limitations": "Index numbers beside reports are comments and reader usefulness votes, not vehicle scores. No six-owner numerical mean is invented; 81.4 kWh GT-Line findings do not prove Australian Air equipment or reliability.",
+      "sourceIds": [
+        "crowd-ev-ev5-autoweek-index",
+        "crowd-ev-ev5-autoweek-5600",
+        "crowd-ev-ev5-autoweek-7000"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ev5-air-standard-2024",
+          "factor": 0,
+          "note": "Different battery/trim; reference-only owner evidence."
+        },
+        {
+          "vehicleId": "ev5-air-long-2024",
+          "factor": 0,
+          "note": "European 81.4 kWh differs from Australian 88.1 kWh Air."
+        }
+      ],
+      "overlapGroup": "autoweek-ev5-europe",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev5-carexpert",
+      "familyId": "kia-ev5",
+      "publisher": "CarExpert",
+      "region": "Australia",
+      "kind": "professional",
+      "rating": null,
+      "outOf": 10,
+      "count": 4,
+      "countKind": "reviews",
+      "scope": "Showroom lists four editorial reviews; latest Air Long Range judgement is Very Good, not a numerical score.",
+      "summary": "Current professional coverage exists, but the model page has no owner reviews.",
+      "positiveThemes": [
+        "Air LR value, refined everyday driving and spacious boxy cabin."
+      ],
+      "negativeThemes": [
+        "Air equipment omissions and persistent speed warning."
+      ],
+      "limitations": "Four articles include launch/AWD/GT-Line coverage, not four Air tests or owner submissions. Do not translate the new verbal rating into an invented score. Individual review URL failed direct retrieval; showroom excerpt was readable.",
+      "sourceIds": [
+        "crowd-ev-ev5-carexpert-index"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ev5-air-standard-2024",
+          "factor": 0.4,
+          "note": "Related Air; latest verdict focuses on Long Range."
+        },
+        {
+          "vehicleId": "ev5-air-long-2024",
+          "factor": 0.8,
+          "note": "Latest Australian Air LR excerpt, qualitative verdict only."
+        }
+      ],
+      "overlapGroup": "carexpert-ev5-editorial",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-zeekr-autoweek",
+      "familyId": "zeekr-7x",
+      "publisher": "AutoWeek",
+      "region": "Netherlands",
+      "kind": "owner",
+      "rating": null,
+      "outOf": 10,
+      "count": 11,
+      "countKind": "reviews",
+      "scope": "Eleven export-model reports: Long Range RWD and Privilege AWD. Two detailed Long Range RWD reports inspected.",
+      "summary": "Adds actual longer-distance owner evidence without assigning an invented aggregate score.",
+      "positiveThemes": [
+        "Seat comfort, rear space and rapid charging in inspected reports."
+      ],
+      "negativeThemes": [
+        "Software/phone connection, keyless access, screen controls and straight-line steering complaints."
+      ],
+      "limitations": "Comment totals and reader usefulness percentages are not car ratings. No verified eleven-owner car-score mean. Left-hand drive, software and service differ; AWD suspension/equipment does not transfer to RWD.",
+      "sourceIds": [
+        "crowd-ev-zeekr-autoweek-index",
+        "crowd-ev-zeekr-autoweek-lr-23052",
+        "crowd-ev-zeekr-autoweek-lr-24500"
+      ],
+      "matches": [
+        {
+          "vehicleId": "zeekr7x-rwd-2025",
+          "factor": 0.25,
+          "note": "Related export body; 75 kWh RWD experience not isolated."
+        },
+        {
+          "vehicleId": "zeekr7x-long-range-2025",
+          "factor": 0.5,
+          "note": "Related export Long Range RWD accounts; Dutch service/software."
+        }
+      ],
+      "overlapGroup": "autoweek-zeekr7x-export",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-zeekr-autohome",
+      "familyId": "zeekr-7x",
+      "publisher": "Autohome",
+      "region": "China",
+      "kind": "owner",
+      "rating": 4.55,
+      "outOf": 5,
+      "count": 397,
+      "countKind": "ratings",
+      "scope": "Chinese 7X family, original and domestic updates; page labels 397 participants and includes a prospective test-drive account.",
+      "summary": "Large reference pool, separate from Australian/export owner evidence.",
+      "positiveThemes": [
+        "Cabin packaging, response and perceived safety in visible posts."
+      ],
+      "negativeThemes": [
+        "Wind/tyre noise, software quirks, update pace and assistance behaviour."
+      ],
+      "limitations": "Domestic Chinese model updates, glazing, assistance systems and support differ. Some posts are not ownership reports. No reliable matched export subset or ownership verification denominator; not scored.",
+      "sourceIds": [
+        "crowd-ev-zeekr-autohome"
+      ],
+      "matches": [
+        {
+          "vehicleId": "zeekr7x-rwd-2025",
+          "factor": 0,
+          "note": "Chinese updates/variants and non-owner posts; reference only."
+        },
+        {
+          "vehicleId": "zeekr7x-long-range-2025",
+          "factor": 0,
+          "note": "Chinese updates/variants and non-owner posts; reference only."
+        }
+      ],
+      "overlapGroup": "autohome-zeekr7x-domestic",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-zeekr-carexpert",
+      "familyId": "zeekr-7x",
+      "publisher": "CarExpert",
+      "region": "Australia",
+      "kind": "professional",
+      "rating": null,
+      "outOf": 10,
+      "count": 4,
+      "countKind": "reviews",
+      "scope": "Showroom lists four professional articles, including Australian Long Range RWD long-term introduction; Very Good verbal verdict.",
+      "summary": "Editorial testing is developing; model page still has no owner submissions.",
+      "positiveThemes": [
+        "Promising cabin comfort, equipment and everyday packaging."
+      ],
+      "negativeThemes": [
+        "Long-term durability is not established by a fleet introduction."
+      ],
+      "limitations": "Four articles are not four owners; early overseas drives also appear. No invented conversion of verbal rating to ten. Long-term introduction is not a completed endurance/reliability survey.",
+      "sourceIds": [
+        "crowd-ev-zeekr-carexpert-index",
+        "crowd-ev-zeekr-carexpert-longterm"
+      ],
+      "matches": [
+        {
+          "vehicleId": "zeekr7x-rwd-2025",
+          "factor": 0.4,
+          "note": "Related RWD; exact article tests Long Range."
+        },
+        {
+          "vehicleId": "zeekr7x-long-range-2025",
+          "factor": 0.8,
+          "note": "Exact Australian Long Range introduction; not long-term outcome."
+        }
+      ],
+      "overlapGroup": "carexpert-zeekr7x-editorial",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-atto-evo-autoweek",
+      "familyId": "byd-atto-3",
+      "publisher": "AutoWeek",
+      "region": "Netherlands",
+      "kind": "owner",
+      "rating": 8.5,
+      "outOf": 10,
+      "count": 1,
+      "countKind": "reviews",
+      "scope": "Single 2026 Atto 3 EVO Design owner, 8,000 km; report updated 12 October 2026.",
+      "summary": "A current EVO ownership account, separate from the original FWD Atto 3.",
+      "positiveThemes": [
+        "Seat comfort, quiet travel, usable space and responsive screen."
+      ],
+      "negativeThemes": [
+        "Firm ride, wipers/alerts, software quirks and weaker-than-expected charging sessions."
+      ],
+      "limitations": "One self-selected report. Exact Design drivetrain, wheels and Australian Premium equipment equivalence is not verified; reference only. The 80% reader usefulness figure is not the 8.5/10 vehicle score.",
+      "sourceIds": [
+        "crowd-ev-atto-evo-autoweek"
+      ],
+      "matches": [
+        {
+          "vehicleId": "atto3-standard-2022",
+          "factor": 0,
+          "note": "EVO is a different configuration from original FWD."
+        },
+        {
+          "vehicleId": "atto3-extended-2022",
+          "factor": 0,
+          "note": "EVO is a different configuration from original FWD."
+        },
+        {
+          "vehicleId": "atto3-essential-2025",
+          "factor": 0,
+          "note": "EVO is a different configuration from original FWD."
+        },
+        {
+          "vehicleId": "atto3-evo-premium-2026",
+          "factor": 0,
+          "note": "Related EVO report; Design-to-Premium drivetrain/equipment match unverified."
+        }
+      ],
+      "overlapGroup": "autoweek-atto-evo",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-tesla-au-productreview",
+      "familyId": "tesla-model-y",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 4.4,
+      "outOf": 5,
+      "count": 30,
+      "countKind": "reviews",
+      "scope": "All years and RWD/Long Range/Performance, original and Juniper; two disclosed borrowed-car expert posts visible.",
+      "summary": "Mixed owner/professional and generation pool, retained as local context only.",
+      "positiveThemes": [
+        "Owners praise space, acceleration and home charging."
+      ],
+      "negativeThemes": [
+        "Ride, controls, driver assistance and support complaints."
+      ],
+      "limitations": "Owner-only mean and generation denominators cannot be separated. Some posts misstate suspension and other equipment. The 30 contributions are not 30 matching owners.",
+      "sourceIds": [
+        "crowd-ev-tesla-au-productreview"
+      ],
+      "matches": [
+        {
+          "vehicleId": "model-y-rwd-2022",
+          "factor": 0,
+          "note": "Reference only: matching owner-only vehicle rating is not isolated."
+        },
+        {
+          "vehicleId": "model-y-long-range-2023",
+          "factor": 0,
+          "note": "Reference only: matching owner-only vehicle rating is not isolated."
+        },
+        {
+          "vehicleId": "model-y-rwd-juniper-2025",
+          "factor": 0,
+          "note": "Reference only: matching owner-only vehicle rating is not isolated."
+        }
+      ],
+      "overlapGroup": "productreview-tesla-model-y-all",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ioniq-au-productreview",
+      "familyId": "hyundai-ioniq-5",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 3.8,
+      "outOf": 5,
+      "count": 8,
+      "countKind": "reviews",
+      "scope": "Mixed original RWD/AWD; two entries explicitly disclose an expert borrowing the test cars.",
+      "summary": "Eight contributions are not an eight-owner statistical sample.",
+      "positiveThemes": [
+        "Comfort, features and enjoyable electric driving."
+      ],
+      "negativeThemes": [
+        "Individual electrical breakdown, repair-delay and connectivity complaints."
+      ],
+      "limitations": "No owner-only aggregate or exact battery denominator; no isolated 84 kWh facelift cohort. Expert posts remain useful reading but cannot inflate owner-score confidence.",
+      "sourceIds": [
+        "crowd-ev-ioniq-au-productreview"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ioniq5-awd-2021",
+          "factor": 0,
+          "note": "Reference only: matching owner-only vehicle rating is not isolated."
+        },
+        {
+          "vehicleId": "ioniq5-dynamiq-rwd-2023",
+          "factor": 0,
+          "note": "Reference only: matching owner-only vehicle rating is not isolated."
+        },
+        {
+          "vehicleId": "ioniq5-techniq-awd-2023",
+          "factor": 0,
+          "note": "Reference only: matching owner-only vehicle rating is not isolated."
+        },
+        {
+          "vehicleId": "ioniq5-rwd-84-2025",
+          "factor": 0,
+          "note": "Reference only: matching owner-only vehicle rating is not isolated."
+        }
+      ],
+      "overlapGroup": "productreview-hyundai-ioniq-5-all",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev6-au-productreview",
+      "familyId": "kia-ev6",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 4.0,
+      "outOf": 5,
+      "count": 2,
+      "countKind": "reviews",
+      "scope": "Original Australian Air RWD: one owner plus one disclosed borrowed-car expert contribution.",
+      "summary": "Two-post figure is a mixed owner/professional aggregate, not an owner-only average.",
+      "positiveThemes": [
+        "Enjoyable drive and charging convenience."
+      ],
+      "negativeThemes": [
+        "Equipment/value and control-layout reservations."
+      ],
+      "limitations": "Cannot attribute the two-post mean to the single owner. Expert also mixes some variant specifications; official/AAA evidence takes precedence.",
+      "sourceIds": [
+        "crowd-ev-ev6-au-productreview"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ev6-air-2022",
+          "factor": 0,
+          "note": "Reference only: matching owner-only vehicle rating is not isolated."
+        }
+      ],
+      "overlapGroup": "productreview-kia-ev6-all",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-ev-ev5-au-productreview",
+      "familyId": "kia-ev5",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 5.0,
+      "outOf": 5,
+      "count": 1,
+      "countKind": "reviews",
+      "scope": "One Queensland buyer, tagged GT-Line Long Range, purchased August 2026; review praises sales/finance/delivery.",
+      "summary": "A real purchase account, but its stars rate the buying experience rather than vehicle ownership.",
+      "positiveThemes": [
+        "Buyer praises dealer knowledge and delivery support."
+      ],
+      "negativeThemes": [
+        "No car reliability or driving evidence established."
+      ],
+      "limitations": "GT-Line is not an Air variant. A sales-process rating cannot supply an Air vehicle-satisfaction score or long-term reliability claim.",
+      "sourceIds": [
+        "crowd-ev-ev5-au-productreview"
+      ],
+      "matches": [
+        {
+          "vehicleId": "ev5-air-standard-2024",
+          "factor": 0,
+          "note": "Reference only: matching owner-only vehicle rating is not isolated."
+        },
+        {
+          "vehicleId": "ev5-air-long-2024",
+          "factor": 0,
+          "note": "Reference only: matching owner-only vehicle rating is not isolated."
+        }
+      ],
+      "overlapGroup": "productreview-kia-ev5-all",
+      "checked": "2026-10-18"
+    }
+  ],
+  "coverage": [
+    {
+      "familyId": "tesla-model-y",
+      "summary": "Original Model Y has a 611-review US CARFAX cohort plus other independent publisher pools. Juniper has a separate smaller Edmunds pool.",
+      "gaps": [
+        "Counts describe publisher contributions, not distinct people across websites.",
+        "No 50-owner matched Australian late-2023 RWD or Juniper cohort verified.",
+        "KBB year pages reuse one 89-review pool; no transfer of old-car results to Juniper.",
+        "Local ProductReview numerical aggregate is reference-only: contributor, trim or review-purpose scope prevents a matching owner-only vehicle rating."
+      ],
+      "sourceIds": [
+        "crowd-ev-tesla-carfax-2023",
+        "crowd-ev-tesla-edmunds-2023",
+        "crowd-ev-tesla-edmunds-juniper",
+        "crowd-ev-tesla-kbb-2026-overlap",
+        "crowd-ev-tesla-kbb-pooled",
+        "crowd-ev-tesla-media",
+        "crowd-ev-tesla-au-productreview"
+      ]
+    },
+    {
+      "familyId": "byd-atto-3",
+      "summary": "Local originals: 10 ProductReview and 6 Carsales submissions. China Yuan Plus has 356 participants; ZigWheels claims 63 text reviews but only 4 ratings. A separate Dutch EVO owner describes 8,000 km of use.",
+      "gaps": [
+        "No verified 50-owner matched Australian cohort, Essential-only aggregate or Australian EVO owner aggregate.",
+        "Large domestic/test-drive pools are reference-only and do not increase Australian score confidence.",
+        "Autocar India is small; owner/trim verification is insufficient for scoring."
+      ],
+      "sourceIds": [
+        "crowd-ev-atto-autocar-india",
+        "crowd-ev-atto-autohome",
+        "crowd-ev-atto-carsales",
+        "crowd-ev-atto-media",
+        "crowd-ev-atto-productreview",
+        "crowd-ev-atto-zigwheels",
+        "crowd-ev-atto-evo-autoweek"
+      ]
+    },
+    {
+      "familyId": "kia-ev6",
+      "summary": "US CARFAX supplies 414 original-model reviews; Edmunds supplies a pooled 68, with KBB and UK media comparison alongside.",
+      "gaps": [
+        "Air RWD/19-inch/Australian dealer experience is not isolated.",
+        "What Car primary page failed direct access; search-only reliability number is deliberately not imported.",
+        "Cross-site repeat contributors cannot be removed; do not call the summed contributions unique owners.",
+        "Local ProductReview numerical aggregate is reference-only: contributor, trim or review-purpose scope prevents a matching owner-only vehicle rating."
+      ],
+      "sourceIds": [
+        "crowd-ev-ev6-carfax",
+        "crowd-ev-ev6-edmunds",
+        "crowd-ev-ev6-kbb",
+        "crowd-ev-ev6-media",
+        "crowd-ev-whatcar-ev6-access",
+        "crowd-ev-ev6-au-productreview"
+      ]
+    },
+    {
+      "familyId": "kia-ev5",
+      "summary": "Six readable Dutch owner reports exist, with different 81.4 kWh battery/trim scope. Current Australian professional coverage is available. One local GT-Line purchase-service review is reference-only.",
+      "gaps": [
+        "A 50-owner matching Australian Air cohort was not verified.",
+        "CarExpert explicitly reports no owner reviews; its four reviews are editorial articles.",
+        "Autohome search claims a larger pool, but the primary review page repeatedly failed; Dongchedi returned an empty body. Neither search-only number is imported.",
+        "Local ProductReview numerical aggregate is reference-only: contributor, trim or review-purpose scope prevents a matching owner-only vehicle rating."
+      ],
+      "sourceIds": [
+        "crowd-ev-ev5-autoweek-5600",
+        "crowd-ev-ev5-autoweek-7000",
+        "crowd-ev-ev5-autoweek-index",
+        "crowd-ev-ev5-carexpert-index",
+        "crowd-ev-ev5-autohome-access",
+        "crowd-ev-ev5-dongchedi-access",
+        "crowd-ev-ev5-au-productreview"
+      ]
+    },
+    {
+      "familyId": "hyundai-ioniq-5",
+      "summary": "Original US CARFAX has 302 reviews. The 212-review 2025 page is separately recorded but excluded from configuration scoring because N/facelift/drivetrain scope is unresolved.",
+      "gaps": [
+        "No Australian battery/trim-isolated 50-owner sample verified.",
+        "KBB/Edmunds samples are smaller and international; electrical complaints do not measure AU failure frequency.",
+        "CARFAX 2025 summary has conflicting ordinary/N specifications; its aggregate is reference-only.",
+        "Local ProductReview numerical aggregate is reference-only: contributor, trim or review-purpose scope prevents a matching owner-only vehicle rating."
+      ],
+      "sourceIds": [
+        "crowd-ev-ioniq-carfax-2022",
+        "crowd-ev-ioniq-carfax-2025",
+        "crowd-ev-ioniq-edmunds-2023",
+        "crowd-ev-ioniq-kbb",
+        "crowd-ev-ioniq-media",
+        "crowd-ev-ioniq-au-productreview"
+      ]
+    },
+    {
+      "familyId": "zeekr-7x",
+      "summary": "Eleven Dutch export-model owner reports provide longer-distance context; Chinese Autohome has 397 participants with incompatible scope.",
+      "gaps": [
+        "No verified 50-owner Australian/export numeric cohort.",
+        "CarExpert model page has no owner submissions; four editorial articles are not four owners.",
+        "Chinese assistance/software, updated hardware and prospective-driver posts prevent scoring transfer.",
+        "No invented average from AutoWeek comment counts or usefulness votes."
+      ],
+      "sourceIds": [
+        "crowd-ev-zeekr-autohome",
+        "crowd-ev-zeekr-autoweek-index",
+        "crowd-ev-zeekr-autoweek-lr-23052",
+        "crowd-ev-zeekr-autoweek-lr-24500",
+        "crowd-ev-zeekr-carexpert-index",
+        "crowd-ev-zeekr-carexpert-longterm"
+      ]
+    }
+  ]
+}

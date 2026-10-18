@@ -1,11 +1,11 @@
 import { Star, ShieldCheck } from 'lucide-react';
-import { brandFor, reviewFor, expertReviews } from '../data';
+import { brandFor, expertReviews } from '../data';
 import { formatDate } from '../lib';
 import { categoryLabels, categoryRules, formatScore } from '../scoring';
 import type { CategoryScore, ScoreResult } from '../scoring';
 import type { Vehicle } from '../types';
 import { SourceRefs } from './Shared';
-import { reviewScope } from '../reviewScope';
+import { OwnerReviewEvidence } from './ReviewEvidence';
 
 export function ScoreBadge({ score, onClick }: { score: ScoreResult; onClick: () => void }) {
   return <button className="score-badge" onClick={onClick} aria-label={`${score.total === null ? 'Insufficient data for an overall score' : `Overall score ${formatScore(score.total)} out of 10`}. ${score.coverage}% evidence coverage${score.provisional ? '; provisional' : ''}. View scoring weights.`}><Star size={12} fill="currentColor" /><strong>{formatScore(score.total)}</strong>{score.total !== null && <span>/10</span>}</button>;
@@ -24,10 +24,8 @@ export function ScoreBreakdown({ score }: { score: ScoreResult }) {
   </section>;
 }
 export function ReviewsPanel({ vehicle: v }: { vehicle: Vehicle }) {
-  const review = reviewFor(v.familyId);
   const brand = brandFor(v.make);
-  const scope = reviewScope(v);
-  return <div className="reviews-panel"><section className="community-review"><h3><Star size={18} />People’s ratings</h3>{review?.rating != null ? <><div className="community-rating"><strong>{review.rating.toFixed(1)}<span>/{review.outOf}</span></strong><div><span className="review-stars" aria-hidden="true">{[1, 2, 3, 4, 5].map(n => <Star size={15} key={n} fill={n <= Math.round(review.rating!) ? 'currentColor' : 'none'} />)}</span><small>{review.count ?? 'Unverified count'} contributions · checked {formatDate(review.checked)}</small></div></div><p className="review-scope"><strong>{scope.factor === 0 ? 'Reference only — excluded from this score. ' : ''}</strong>{scope.note} {review.scope} <SourceRefs ids={review.sourceIds} /></p><p>{review.summary}</p>{(review.positiveThemes.length > 0 || review.negativeThemes.length > 0) && <div className="review-themes"><div><h4>Positive themes</h4><ul>{review.positiveThemes.map(t => <li key={t}>{t}</li>)}</ul></div><div><h4>Concerns raised</h4><ul>{review.negativeThemes.map(t => <li key={t}>{t}</li>)}</ul></div></div>}</> : <p>No suitable model-level aggregate verified. Brand/dealer ratings are not substituted. <SourceRefs ids={review?.sourceIds ?? []} /></p>}<p className="micro muted">Self-selected posts may mix trims, years and expert contributors. These are not verified failure rates. Small samples have less influence on your overall score.</p></section><ProfessionalReviews vehicle={v} />{brand && <section className="brand-review"><h3><ShieldCheck size={18} />Brand support</h3><span className="support-pill">{brand.support === 'established' ? 'Established Australian support' : brand.support === 'developing' ? 'Developing Australian network' : brand.support === 'limited' ? 'Limited verified support' : 'Support to verify'}</span><p>{brand.summary}</p><p>{brand.network} <SourceRefs ids={brand.sourceIds} /></p><p className="micro muted">{brand.warrantyNote}</p><p className="micro muted">Service access is a trust proxy. It does not establish a brand’s mechanical reliability or the condition of a used car.</p></section>}</div>;
+  return <div className="reviews-panel"><OwnerReviewEvidence vehicle={v} /><ProfessionalReviews vehicle={v} />{brand && <section className="brand-review"><h3><ShieldCheck size={18} />Brand support</h3><span className="support-pill">{brand.support === 'established' ? 'Established Australian support' : brand.support === 'developing' ? 'Developing Australian network' : brand.support === 'limited' ? 'Limited verified support' : 'Support to verify'}</span><p>{brand.summary}</p><p>{brand.network} <SourceRefs ids={brand.sourceIds} /></p><p className="micro muted">{brand.warrantyNote}</p><p className="micro muted">Service access is a trust proxy. It does not establish a brand’s mechanical reliability or the condition of a used car.</p></section>}</div>;
 }
 
 function ProfessionalReviews({ vehicle }: { vehicle: Vehicle }) {

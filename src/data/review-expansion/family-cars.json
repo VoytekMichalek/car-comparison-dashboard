@@ -1,0 +1,2205 @@
+{
+  "checked": "2026-10-18",
+  "sources": [
+    {
+      "id": "crowd-family-forester-edmunds-2021",
+      "title": "2021 Subaru Forester consumer reviews — 4.3/5, 79 reviews",
+      "url": "https://www.edmunds.com/subaru/forester/2021/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-forester-edmunds-2025",
+      "title": "2025 Subaru Forester consumer reviews — 4.3/5, 80 reviews",
+      "url": "https://www.edmunds.com/subaru/forester/2025/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-forester-cars-2021",
+      "title": "2021 Forester owner rating and consumer-review count",
+      "url": "https://www.cars.com/research/subaru-forester-2021/",
+      "publisher": "Cars.com",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-forester-cars-comments",
+      "title": "2021 Forester consumer comments; includes a 2024 owner entry",
+      "url": "https://www.cars.com/research/subaru-forester-2021/consumer-reviews/",
+      "publisher": "Cars.com",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outback-edmunds-2021",
+      "title": "2021 Outback consumer reviews — 3.8/5, 93 mixed-engine reviews",
+      "url": "https://www.edmunds.com/subaru/outback/2021/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outback-cars-2021",
+      "title": "2021 Outback overall owner rating — 4.6/5, 90 reviews",
+      "url": "https://www.cars.com/research/subaru-outback-2021/",
+      "publisher": "Cars.com",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outback-cars-comments",
+      "title": "2021 Outback comments include XT turbo owners",
+      "url": "https://www.cars.com/research/subaru-outback-2021/consumer-reviews/",
+      "publisher": "Cars.com",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outback-edmunds-25-touring",
+      "title": "2021 Outback Touring 2.5 petrol consumer reviews",
+      "url": "https://www.edmunds.com/subaru/outback/2021/st-401867662/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-rav4-edmunds-2021",
+      "title": "2021 RAV4 Hybrid owner review page — 4.2/5, 71 reviews",
+      "url": "https://www.edmunds.com/toyota/rav4-hybrid/2021/suv/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-rav4-cars-2021",
+      "title": "2021 RAV4 Hybrid overall owner rating — 4.8/5, 62 reviews",
+      "url": "https://www.cars.com/research/toyota-rav4_hybrid-2021/",
+      "publisher": "Cars.com",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-rav4-cars-comments",
+      "title": "2021 RAV4 Hybrid consumer comments",
+      "url": "https://www.cars.com/research/toyota-rav4_hybrid-2021/consumer-reviews/",
+      "publisher": "Cars.com",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-rav4-whatcar-used",
+      "title": "RAV4 2019–2026 used review: reliability figure 98.3%",
+      "url": "https://www.whatcar.com/toyota/rav4/4x4/used-review/n22427",
+      "publisher": "What Car?",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-rav4-whatcar-reliability",
+      "title": "RAV4 used reliability page: conflicting 99.2% survey figure",
+      "url": "https://www.whatcar.com/toyota/rav4/4x4/used-review/n22427/reliability",
+      "publisher": "What Car?",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-highlander-edmunds-2021",
+      "title": "2021 Highlander Hybrid consumer reviews — 4.1/5, 57 reviews",
+      "url": "https://www.edmunds.com/toyota/highlander-hybrid/2021/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-highlander-cars-2021",
+      "title": "2021 Highlander Hybrid overall owner rating — 4.8/5, 32 reviews",
+      "url": "https://www.cars.com/research/toyota-highlander_hybrid-2021/",
+      "publisher": "Cars.com",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sorento-hev-edmunds",
+      "title": "2025 Sorento Hybrid consumer reviews — 3.7/5, 42 generation-pooled reviews",
+      "url": "https://www.edmunds.com/kia/sorento-hybrid/2025/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sorento-phev-edmunds",
+      "title": "2022 Sorento Plug-in Hybrid consumer reviews — 4.0/5, 22 reviews",
+      "url": "https://www.edmunds.com/kia/sorento-plug-in-hybrid/2022/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-phev-edmunds-2024",
+      "title": "2024 Outlander PHEV consumer reviews — 4.2/5, 20 reviews",
+      "url": "https://www.edmunds.com/mitsubishi/outlander-phev/2024/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-phev-kbb-contaminated",
+      "title": "2024 Outlander PHEV owner page contains petrol Outlander reviews",
+      "url": "https://www.kbb.com/mitsubishi/outlander-phev/2024/consumer-reviews/",
+      "publisher": "Kelley Blue Book",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-phev-cars-2023",
+      "title": "2023 Outlander PHEV overall owner rating — 4.0/5, 6 reviews",
+      "url": "https://www.cars.com/research/mitsubishi-outlander_phev-2023/",
+      "publisher": "Cars.com",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sealion-productreview",
+      "title": "Sealion 6 AU reviews — mixed car/dealer/lease-service content",
+      "url": "https://www.productreview.com.au/listings/byd-sealion-6",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sealion-carsales",
+      "title": "Sealion 6 owner rating — 4.8/5, five reviews across 2024/2025",
+      "url": "https://www.carsales.com.au/owner-reviews/byd/sealion-6/",
+      "publisher": "Carsales",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-xtrail-epower-productreview",
+      "title": "X-Trail Ti e-POWER AU owner reviews — 4.2/5, four reviews",
+      "url": "https://www.productreview.com.au/listings/nissan-x-trail-t33-ti-e-power",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-xtrail-carbuyer-professional",
+      "title": "X-Trail UK professional review — 3.9/5, October 2024",
+      "url": "https://www.carbuyer.co.uk/nissan/x-trail",
+      "publisher": "Carbuyer",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-xtrail-carbuyer-owner-scope",
+      "title": "X-Trail owner page carries a single 2017 diesel review beneath the current review",
+      "url": "https://www.carbuyer.co.uk/nissan/x-trail/owner-reviews",
+      "publisher": "Carbuyer",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-petrol-edmunds",
+      "title": "2022 Outlander petrol consumer reviews — 3.5/5, 67 reviews",
+      "url": "https://www.edmunds.com/mitsubishi/outlander/2022/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-petrol-cars",
+      "title": "2022 Outlander overall owner rating — 3.5/5, 46 reviews",
+      "url": "https://www.cars.com/research/mitsubishi-outlander-2022/",
+      "publisher": "Cars.com",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-jdpower",
+      "title": "2023 Outlander quality/reliability rating, with prior-year data warning",
+      "url": "https://www.jdpower.com/cars/2023/mitsubishi/outlander",
+      "publisher": "J.D. Power",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-rogue-edmunds-25",
+      "title": "2021 Rogue 2.5 petrol consumer reviews — 3.3/5, 134 reviews",
+      "url": "https://www.edmunds.com/nissan/rogue/2021/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-rogue-cars-25",
+      "title": "2021 Rogue overall owner rating — 4.4/5, 118 reviews",
+      "url": "https://www.cars.com/research/nissan-rogue-2021/",
+      "publisher": "Cars.com",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-xtrail-st-awd-au",
+      "title": "AU T33 ST seven-seat AWD — one owner review",
+      "url": "https://www.productreview.com.au/listings/nissan-x-trail-t33-st-7-seat-4wd",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sportage-edmunds-us",
+      "title": "2023 Sportage US 2.5 petrol owner reviews — 3.6/5, 99 reviews",
+      "url": "https://www.edmunds.com/kia/sportage/2023/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sportage-cars-us",
+      "title": "2023 Sportage US overall owner rating — 4.2/5, 36 reviews",
+      "url": "https://www.cars.com/research/kia-sportage-2023/",
+      "publisher": "Cars.com",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sportage-productreview-au",
+      "title": "Sportage NQ5 AU model reviews — 3.1/5, 13 mixed-powertrain reviews",
+      "url": "https://www.productreview.com.au/listings/kia-sportage-nq5",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sportage-carsales-au",
+      "title": "2022 Sportage AU owner rating — 5.0/5, two reviews",
+      "url": "https://www.carsales.com.au/owner-reviews/kia/sportage/2022/",
+      "publisher": "Carsales",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-tucson-edmunds-us",
+      "title": "2022 Tucson US owner reviews — 3.8/5, 177 mixed-engine reviews",
+      "url": "https://www.edmunds.com/hyundai/tucson/2022/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-tucson-cars-us",
+      "title": "2022 Tucson US overall owner rating — 4.1/5, 63 reviews",
+      "url": "https://www.cars.com/research/hyundai-tucson-2022/",
+      "publisher": "Cars.com",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-tucson-productreview-au",
+      "title": "Tucson NX4 AU reviews include diesel/hybrid and borrowed professional review cars",
+      "url": "https://www.productreview.com.au/listings/hyundai-tucson-nx4",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-tucson-carsales-au",
+      "title": "2021 Tucson AU owner rating — 4.5/5, five reviews",
+      "url": "https://www.carsales.com.au/owner-reviews/hyundai/tucson/2021/",
+      "publisher": "Carsales",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-carnival-edmunds-us",
+      "title": "2022 Carnival US V6 consumer reviews — 3.8/5, 41 reviews",
+      "url": "https://www.edmunds.com/kia/carnival/2022/consumer-reviews/",
+      "publisher": "Edmunds",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-carnival-cars-us",
+      "title": "2022 Carnival US V6 overall owner rating — 4.5/5, 13 reviews",
+      "url": "https://www.cars.com/research/kia-carnival-2022/",
+      "publisher": "Cars.com",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-carnival-productreview-au",
+      "title": "Carnival KA4 AU reviews mix engines, facelift years and a professional test review",
+      "url": "https://www.productreview.com.au/listings/kia-carnival-ka4",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-carnival-carsales-au",
+      "title": "2021 Carnival AU owner rating — 5.0/5, four reviews",
+      "url": "https://www.carsales.com.au/owner-reviews/kia/carnival/2021/",
+      "publisher": "Carsales",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outback-productreview-au-mixed",
+      "title": "Subaru Outback 6GEN Australian aggregate — mixed scope and non-owner test reviews",
+      "url": "https://www.productreview.com.au/listings/subaru-outback-6gen",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sorento-productreview-au-mixed",
+      "title": "Kia Sorento MQ4 Australian aggregate — mixed scope and non-owner test reviews",
+      "url": "https://www.productreview.com.au/listings/kia-sorento-mq4",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-rav4-productreview-au",
+      "title": "RAV4 XA50 FWD Hybrid — 3.9/5, 18 mixed owner/rental/professional submissions",
+      "url": "https://www.productreview.com.au/listings/toyota-rav4-xa50-fwd-25l-hybrid",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-kluger-productreview-au",
+      "title": "Kluger AWD Hybrid — 3.0/5, seven AU owner submissions across GX/GXL/Grande",
+      "url": "https://www.productreview.com.au/listings/toyota-kluger-awd-hybrid",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-forester-au-s5-mixed",
+      "title": "Forester S5 AU 3.1/5, 57 mixed and misclassified submissions",
+      "url": "https://www.productreview.com.au/listings/subaru-forester-sk-2019-present",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-forester-au-il-mistagged",
+      "title": "Forester S5 2.5i-L AU 3.5/5, eleven reviews with taxonomy errors",
+      "url": "https://www.productreview.com.au/listings/subaru-forester-s5-25i-l",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-petrol-au-ls-reference",
+      "title": "Outlander ZM petrol LS FWD AU 2.8/5, five submissions including a loan car",
+      "url": "https://www.productreview.com.au/listings/mitsubishi-outlander-4th-gen-zm-petrol-ls-fwd",
+      "publisher": "ProductReview.com.au",
+      "kind": "review",
+      "checked": "2026-10-18"
+    }
+  ],
+  "cohorts": [
+    {
+      "id": "crowd-family-forester-edmunds-sk",
+      "familyId": "subaru-forester",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.3,
+      "outOf": 5,
+      "count": 79,
+      "countKind": "reviews",
+      "scope": "US 2021 SK / S5 Forester, 2.5 petrol CVT AWD; several trim levels.",
+      "summary": "A larger same-generation owner sample; Australian equipment and warranty differ.",
+      "positiveThemes": [
+        "Open sightlines and passenger space",
+        "Comfortable ride"
+      ],
+      "negativeThemes": [
+        "Electronic controls and infotainment",
+        "Stop-start behaviour in individual comments"
+      ],
+      "limitations": "Self-selected reviews, not a random reliability survey or Australian repair-cost sample.",
+      "sourceIds": [
+        "crowd-family-forester-edmunds-2021"
+      ],
+      "matches": [
+        {
+          "vehicleId": "forester-25il-2021",
+          "factor": 0.5,
+          "note": "Related US 2.5 petrol generation; not an Australian 2.5i-L aggregate."
+        },
+        {
+          "vehicleId": "forester-awd-petrol-2025",
+          "factor": 0,
+          "note": "Different generation: no transfer to S6."
+        }
+      ],
+      "overlapGroup": "edmunds-forester-sk",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-forester-edmunds-sl",
+      "familyId": "subaru-forester",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.3,
+      "outOf": 5,
+      "count": 80,
+      "countKind": "reviews",
+      "scope": "US 2025 sixth-generation Forester, displayed comments identify 2.5 petrol CVT trims.",
+      "summary": "New-generation owners give useful early feedback; long-term durability remains less established.",
+      "positiveThemes": [
+        "Comfort and visibility",
+        "Roomy cabin and easy entry"
+      ],
+      "negativeThemes": [
+        "Infotainment and technology usability",
+        "Seats and warranty concerns in the site topic list"
+      ],
+      "limitations": "International early ownership; different model-year labels, local tune and trim. Not 80 Australian base-car reviews.",
+      "sourceIds": [
+        "crowd-family-forester-edmunds-2025"
+      ],
+      "matches": [
+        {
+          "vehicleId": "forester-25il-2021",
+          "factor": 0,
+          "note": "S6 reviews do not describe S5."
+        },
+        {
+          "vehicleId": "forester-awd-petrol-2025",
+          "factor": 0.5,
+          "note": "Related sixth-generation US 2.5 petrol; Australian base equipment differs."
+        }
+      ],
+      "overlapGroup": "edmunds-forester-sl",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-forester-cars-sk",
+      "familyId": "subaru-forester",
+      "publisher": "Cars.com",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.9,
+      "outOf": 5,
+      "count": 113,
+      "countKind": "reviews",
+      "scope": "US Forester page labelled 2021; comments also include a 2024 SK owner.",
+      "summary": "This platform is much more positive than Edmunds; retain both results rather than treating either as definitive.",
+      "positiveThemes": [
+        "Cabin room and comfort",
+        "Owner appreciation of safety equipment"
+      ],
+      "negativeThemes": [
+        "Control layout",
+        "Isolated battery and power-loss complaints"
+      ],
+      "limitations": "Same-generation year contamination is visible. Rating is overall satisfaction, not the separate 4.9 reliability subscore. Cross-site contributors may overlap.",
+      "sourceIds": [
+        "crowd-family-forester-cars-2021",
+        "crowd-family-forester-cars-comments"
+      ],
+      "matches": [
+        {
+          "vehicleId": "forester-25il-2021",
+          "factor": 0.4,
+          "note": "Related SK 2.5 petrol, mixed trim/model-year comments."
+        },
+        {
+          "vehicleId": "forester-awd-petrol-2025",
+          "factor": 0,
+          "note": "Different generation."
+        }
+      ],
+      "overlapGroup": "cars-com-forester-sk",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outback-edmunds-mixed",
+      "familyId": "subaru-outback",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 3.8,
+      "outOf": 5,
+      "count": 93,
+      "countKind": "reviews",
+      "scope": "US 2021 BT Outback: naturally aspirated 2.5 and turbocharged 2.4 XT combined.",
+      "summary": "Large sample for broader cabin and electronics context, excluded from the non-XT score.",
+      "positiveThemes": [
+        "Ride comfort and cargo space",
+        "All-weather usability"
+      ],
+      "negativeThemes": [
+        "Infotainment and electronic controls",
+        "Windshield complaints in individual reports"
+      ],
+      "limitations": "Includes an Onyx XT complaint and both engine types; cannot assign its aggregate to the Australian 2.5. The 2.5 Touring subset overlaps this pool.",
+      "sourceIds": [
+        "crowd-family-outback-edmunds-2021"
+      ],
+      "matches": [
+        {
+          "vehicleId": "outback-awd-25-2021",
+          "factor": 0,
+          "note": "Known mixed-engine aggregate, including incompatible XT powertrain."
+        }
+      ],
+      "overlapGroup": "edmunds-outback-bt",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outback-edmunds-25",
+      "familyId": "subaru-outback",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 3.8,
+      "outOf": 5,
+      "count": 8,
+      "countKind": "reviews",
+      "scope": "US 2021 Touring 2.5 petrol CVT AWD trim subset.",
+      "summary": "Small but powertrain-identified subset; not eight extra reviews on top of the parent model pool.",
+      "positiveThemes": [
+        "Comfortable seating and ride",
+        "Visibility"
+      ],
+      "negativeThemes": [
+        "Touchscreen and driver-monitoring complaints",
+        "Modest acceleration"
+      ],
+      "limitations": "Higher trim and US equipment differ from Australian base. Selected reviews include impressions after short ownership.",
+      "sourceIds": [
+        "crowd-family-outback-edmunds-25-touring"
+      ],
+      "matches": [
+        {
+          "vehicleId": "outback-awd-25-2021",
+          "factor": 0.5,
+          "note": "Related BT non-XT 2.5 petrol; equipment differs."
+        }
+      ],
+      "overlapGroup": "edmunds-outback-bt",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outback-cars-mixed",
+      "familyId": "subaru-outback",
+      "publisher": "Cars.com",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.6,
+      "outOf": 5,
+      "count": 90,
+      "countKind": "reviews",
+      "scope": "US 2021 Outback, mixed 2.5 and 2.4 XT trims.",
+      "summary": "A second large platform gives a more positive result, but the petrol-engine subset is not isolated.",
+      "positiveThemes": [
+        "Comfort and useful wagon layout",
+        "All-wheel-drive practicality"
+      ],
+      "negativeThemes": [
+        "Screen responsiveness",
+        "Driver-assistance and control complaints"
+      ],
+      "limitations": "The first visible review explicitly concerns a Limited XT. This is not a verified non-XT owner aggregate or a reliability probability.",
+      "sourceIds": [
+        "crowd-family-outback-cars-2021",
+        "crowd-family-outback-cars-comments"
+      ],
+      "matches": [
+        {
+          "vehicleId": "outback-awd-25-2021",
+          "factor": 0,
+          "note": "Turbo and non-turbo pooled; reference only."
+        }
+      ],
+      "overlapGroup": "cars-com-outback-bt",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-rav4-edmunds-xa50",
+      "familyId": "toyota-rav4-hybrid",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.2,
+      "outOf": 5,
+      "count": 71,
+      "countKind": "reviews",
+      "scope": "US 2021 fifth-generation RAV4 Hybrid, mainly AWD LE/XLE/XSE trims.",
+      "summary": "A substantial hybrid-only cohort; its detailed owner page gives 4.2 rather than the rounded four stars in overview copy.",
+      "positiveThemes": [
+        "Low petrol use",
+        "Comfort and responsive hybrid driving"
+      ],
+      "negativeThemes": [
+        "12-volt battery complaints",
+        "Infotainment and seat criticisms"
+      ],
+      "limitations": "Australian GXL 2WD differs from these AWD grades. Do not transfer rear-electric-motor repair experiences to a 2WD car or apply these owners to XA60.",
+      "sourceIds": [
+        "crowd-family-rav4-edmunds-2021"
+      ],
+      "matches": [
+        {
+          "vehicleId": "rav4-gxl-hev-2021-25",
+          "factor": 0.4,
+          "note": "Related XA50 hybrid, different drive and market specification."
+        },
+        {
+          "vehicleId": "rav4-gxl-hev-2026",
+          "factor": 0,
+          "note": "XA60 new generation excluded."
+        }
+      ],
+      "overlapGroup": "edmunds-rav4-xa50-hybrid",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-rav4-cars-xa50",
+      "familyId": "toyota-rav4-hybrid",
+      "publisher": "Cars.com",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.8,
+      "outOf": 5,
+      "count": 62,
+      "countKind": "reviews",
+      "scope": "US 2021 fifth-generation RAV4 Hybrid model cohort.",
+      "summary": "Cars.com owners rate it more highly than Edmunds; keep the source disagreement visible.",
+      "positiveThemes": [
+        "Hybrid efficiency",
+        "Comfort and everyday usability"
+      ],
+      "negativeThemes": [
+        "Radio/navigation issues in individual comments",
+        "Hybrid sound at low speeds"
+      ],
+      "limitations": "4.8 is the overall rating; 4.9 is a separate perceived reliability subscore. Reviews are self-selected and US AWD equipment differs.",
+      "sourceIds": [
+        "crowd-family-rav4-cars-2021",
+        "crowd-family-rav4-cars-comments"
+      ],
+      "matches": [
+        {
+          "vehicleId": "rav4-gxl-hev-2021-25",
+          "factor": 0.4,
+          "note": "Related XA50 hybrid, not a GXL 2WD-specific sample."
+        },
+        {
+          "vehicleId": "rav4-gxl-hev-2026",
+          "factor": 0,
+          "note": "Do not inherit old-generation satisfaction."
+        }
+      ],
+      "overlapGroup": "cars-com-rav4-xa50-hybrid",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-rav4-whatcar-scope-conflict",
+      "familyId": "toyota-rav4-hybrid",
+      "publisher": "What Car?",
+      "region": "United Kingdom",
+      "kind": "reliability",
+      "rating": null,
+      "outOf": 100,
+      "count": null,
+      "countKind": "survey-responses",
+      "scope": "UK fifth-generation RAV4 used/reliability pages; HEV and PHEV scope is not consistently separated.",
+      "summary": "The publisher describes strong reliability, but its current pages disagree on the numeric survey result.",
+      "positiveThemes": [
+        "Favourable reported dependability",
+        "Efficient hybrid operation"
+      ],
+      "negativeThemes": [
+        "Source pages give different reliability percentages"
+      ],
+      "limitations": "The main used page shows 98.3%, the reliability page 99.2%; model response count is not disclosed. Withhold a numeric combined result and do not apply it to XA60.",
+      "sourceIds": [
+        "crowd-family-rav4-whatcar-used",
+        "crowd-family-rav4-whatcar-reliability"
+      ],
+      "matches": [
+        {
+          "vehicleId": "rav4-gxl-hev-2021-25",
+          "factor": 0,
+          "note": "Conflicting percentages and unclear HEV/PHEV cohort scope."
+        },
+        {
+          "vehicleId": "rav4-gxl-hev-2026",
+          "factor": 0,
+          "note": "Different generation."
+        }
+      ],
+      "overlapGroup": "whatcar-rav4-xa50-reliability",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-kluger-edmunds-xu70",
+      "familyId": "toyota-kluger-hybrid",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.1,
+      "outOf": 5,
+      "count": 57,
+      "countKind": "reviews",
+      "scope": "US 2021 XU70 Highlander Hybrid: 2.5 hybrid FWD/AWD, mainly upper trims.",
+      "summary": "Useful related-model owner evidence for the Australian Kluger Hybrid, with different local seating and equipment.",
+      "positiveThemes": [
+        "Fuel savings for a three-row vehicle",
+        "Smooth ride and cabin comfort"
+      ],
+      "negativeThemes": [
+        "Engine sound under load",
+        "Seasonal and short-trip economy varies"
+      ],
+      "limitations": "Highlander name, trim, FWD availability and seven/eight-seat layouts differ. No US family-fit report confirms Australian child restraints.",
+      "sourceIds": [
+        "crowd-family-highlander-edmunds-2021"
+      ],
+      "matches": [
+        {
+          "vehicleId": "kluger-gx-hev-awd",
+          "factor": 0.45,
+          "note": "Same-generation 2.5 hybrid relative; not Australian GX eFour-specific."
+        }
+      ],
+      "overlapGroup": "edmunds-highlander-xu70-hybrid",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-kluger-cars-xu70",
+      "familyId": "toyota-kluger-hybrid",
+      "publisher": "Cars.com",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.8,
+      "outOf": 5,
+      "count": 32,
+      "countKind": "reviews",
+      "scope": "US 2021 Highlander Hybrid owner model page, FWD/AWD trims.",
+      "summary": "A second publisher adds a smaller, more positive owner cohort.",
+      "positiveThemes": [
+        "Passenger comfort",
+        "Hybrid economy"
+      ],
+      "negativeThemes": [
+        "Third-row and luggage compromises in the accompanying editorial assessment"
+      ],
+      "limitations": "Overall 4.8 must not be confused with the separate 5.0 perceived reliability subscore. Regional equipment differs and repeat contributors across sites cannot be ruled out.",
+      "sourceIds": [
+        "crowd-family-highlander-cars-2021"
+      ],
+      "matches": [
+        {
+          "vehicleId": "kluger-gx-hev-awd",
+          "factor": 0.45,
+          "note": "Related XU70 hybrid; not GX AWD-specific Australian owners."
+        }
+      ],
+      "overlapGroup": "cars-com-highlander-xu70-hybrid",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sorento-edmunds-hev",
+      "familyId": "kia-sorento",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 3.7,
+      "outOf": 5,
+      "count": 42,
+      "countKind": "reviews",
+      "scope": "US MQ4 Sorento Hybrid page labelled 2025; explicitly includes other model years since redesign.",
+      "summary": "Hybrid owners value the space and economy, while some report quality or support frustrations.",
+      "positiveThemes": [
+        "Efficient family transport",
+        "Comfort and usable cabin space"
+      ],
+      "negativeThemes": [
+        "Technology and quality complaints",
+        "Wind noise and dealer delays in individual reports"
+      ],
+      "limitations": "Visible reviews include pre-facelift 2023/2024 cars; US six-seat captain chairs differ from Australian seven-seat GT-Line. Not 42 MY26 AWD owners.",
+      "sourceIds": [
+        "crowd-family-sorento-hev-edmunds"
+      ],
+      "matches": [
+        {
+          "vehicleId": "sorento-gtline-hev-awd-2026",
+          "factor": 0.3,
+          "note": "Related MQ4 HEV with mixed pre/post-facelift years and US seating."
+        },
+        {
+          "vehicleId": "sorento-phev-gtline-2021-23",
+          "factor": 0,
+          "note": "HEV cannot substitute for the PHEV owner cohort."
+        }
+      ],
+      "overlapGroup": "edmunds-sorento-mq4-hev",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sorento-edmunds-phev",
+      "familyId": "kia-sorento",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.0,
+      "outOf": 5,
+      "count": 22,
+      "countKind": "reviews",
+      "scope": "US MQ4 Sorento Plug-in Hybrid, page labelled 2022; other redesign-era years included.",
+      "summary": "PHEV-specific feedback is more relevant than general Sorento engine and DCT complaints.",
+      "positiveThemes": [
+        "Electric commuting with petrol backup",
+        "Comfortable and adaptable cabin"
+      ],
+      "negativeThemes": [
+        "Hybrid-system and support complaints",
+        "Slow charging and acceleration hesitation in individual reports"
+      ],
+      "limitations": "Small voluntary sample. US six-seat layout and warranty differ. Complaints here cannot establish an Australian failure rate or annual repair bill.",
+      "sourceIds": [
+        "crowd-family-sorento-phev-edmunds"
+      ],
+      "matches": [
+        {
+          "vehicleId": "sorento-phev-gtline-2021-23",
+          "factor": 0.5,
+          "note": "Related original MQ4 1.6 turbo PHEV AWD."
+        },
+        {
+          "vehicleId": "sorento-gtline-hev-awd-2026",
+          "factor": 0,
+          "note": "PHEV failures and satisfaction are not HEV data."
+        }
+      ],
+      "overlapGroup": "edmunds-sorento-mq4-phev",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-phev-edmunds-zm",
+      "familyId": "mitsubishi-outlander-phev",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.2,
+      "outOf": 5,
+      "count": 20,
+      "countKind": "reviews",
+      "scope": "US 2024 Outlander PHEV page; explicitly pools other years since the 2023 redesign.",
+      "summary": "PHEV-specific owners describe quiet electric driving and economy when charged regularly.",
+      "positiveThemes": [
+        "EV-like operation",
+        "Interior space and comfort"
+      ],
+      "negativeThemes": [
+        "Charging and app frustrations in individual reports",
+        "Seats and maintenance topics"
+      ],
+      "limitations": "Visible 2023 entries recur on other Edmunds year pages; 20 is one overlapping cohort, not an extra 20. US third-row specification differs from Australian five-seat Aspire; updated 22.7 kWh car is a weaker match.",
+      "sourceIds": [
+        "crowd-family-outlander-phev-edmunds-2024"
+      ],
+      "matches": [
+        {
+          "vehicleId": "outlander-phev-aspire-20",
+          "factor": 0.4,
+          "note": "Related original ZM PHEV; US trim and seating differ."
+        },
+        {
+          "vehicleId": "outlander-phev-aspire-227",
+          "factor": 0.2,
+          "note": "Related body but larger-battery update not isolated."
+        }
+      ],
+      "overlapGroup": "edmunds-outlander-zm-phev",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-phev-kbb-excluded",
+      "familyId": "mitsubishi-outlander-phev",
+      "publisher": "Kelley Blue Book",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.1,
+      "outOf": 5,
+      "count": 46,
+      "countKind": "reviews",
+      "scope": "Page labelled 2024 PHEV, but the aggregate contains petrol and PHEV vehicles across years.",
+      "summary": "Reference only: the headline sample is contaminated by petrol Outlander submissions.",
+      "positiveThemes": [
+        "Cabin comfort and styling in mixed-model comments"
+      ],
+      "negativeThemes": [
+        "Mixed powertrains prevent a PHEV conclusion"
+      ],
+      "limitations": "Most-helpful text identifies a 2022 ES AWC petrol; another visible entry identifies a 181 hp 2024 SE petrol. No valid PHEV denominator can be recovered. Some entries disclose a sweepstakes incentive.",
+      "sourceIds": [
+        "crowd-family-outlander-phev-kbb-contaminated"
+      ],
+      "matches": [
+        {
+          "vehicleId": "outlander-phev-aspire-20",
+          "factor": 0,
+          "note": "Petrol/PHEV contamination."
+        },
+        {
+          "vehicleId": "outlander-phev-aspire-227",
+          "factor": 0,
+          "note": "Petrol/PHEV contamination and no update-specific pool."
+        }
+      ],
+      "overlapGroup": "kbb-outlander-zm-mixed",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-phev-cars-zm",
+      "familyId": "mitsubishi-outlander-phev",
+      "publisher": "Cars.com",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.0,
+      "outOf": 5,
+      "count": 6,
+      "countKind": "reviews",
+      "scope": "US 2023 ZM Outlander PHEV model owner cohort.",
+      "summary": "Another PHEV-only rating website is available, but the sample is very small.",
+      "positiveThemes": [
+        "Electric driving and equipment in the model context"
+      ],
+      "negativeThemes": [
+        "Value ratings are lower than styling or comfort"
+      ],
+      "limitations": "Six voluntary reviews cannot establish durability. The overall 4.0 differs from the separate 4.7 perceived reliability score; do not substitute the latter.",
+      "sourceIds": [
+        "crowd-family-outlander-phev-cars-2023"
+      ],
+      "matches": [
+        {
+          "vehicleId": "outlander-phev-aspire-20",
+          "factor": 0.4,
+          "note": "Related original PHEV; US seven-seat trims differ."
+        },
+        {
+          "vehicleId": "outlander-phev-aspire-227",
+          "factor": 0.2,
+          "note": "Updated battery and tuning not isolated."
+        }
+      ],
+      "overlapGroup": "cars-com-outlander-zm-phev",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sealion-productreview-reference",
+      "familyId": "byd-sealion-6",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 3.7,
+      "outOf": 5,
+      "count": 9,
+      "countKind": "reviews",
+      "scope": "Australian Sealion 6 model page; trims, battery updates and non-car service experiences mixed.",
+      "summary": "The public headline includes a novated-lease service review, so it is not a clean nine-owner vehicle sample.",
+      "positiveThemes": [
+        "Value and cabin quietness in site subscores"
+      ],
+      "negativeThemes": [
+        "Warranty/support disputes",
+        "Headlight and quality complaints in individual reports"
+      ],
+      "limitations": "An entry by Ash T. praises a lease adviser without assessing the car. Cannot remove it from the aggregate accurately; retain as reference rather than score.",
+      "sourceIds": [
+        "crowd-family-sealion-productreview"
+      ],
+      "matches": [
+        {
+          "vehicleId": "sealion6-dynamic-183",
+          "factor": 0,
+          "note": "Non-vehicle service content contaminates the owner aggregate."
+        },
+        {
+          "vehicleId": "sealion6-dynamic-extended",
+          "factor": 0,
+          "note": "Contaminated aggregate and no Extended-only subgroup."
+        }
+      ],
+      "overlapGroup": "productreview-sealion6-au",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sealion-carsales-owner",
+      "familyId": "byd-sealion-6",
+      "publisher": "Carsales",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 4.8,
+      "outOf": 5,
+      "count": 5,
+      "countKind": "reviews",
+      "scope": "Australian model-level cohort: four 2024 reviews, one 2025 review; variant subset not shown.",
+      "summary": "A second Australian rating website provides five owner submissions.",
+      "positiveThemes": [
+        "Strong overall satisfaction in a small sample"
+      ],
+      "negativeThemes": [],
+      "limitations": "Very small self-selected pool; no Dynamic versus Premium or 18.3 versus 26.6 kWh breakdown. No long-term repair inference.",
+      "sourceIds": [
+        "crowd-family-sealion-carsales"
+      ],
+      "matches": [
+        {
+          "vehicleId": "sealion6-dynamic-183",
+          "factor": 0.5,
+          "note": "Mostly original model years but Dynamic-only match is not isolated."
+        },
+        {
+          "vehicleId": "sealion6-dynamic-extended",
+          "factor": 0.25,
+          "note": "Only one 2025 entry; Extended battery is not identified."
+        }
+      ],
+      "overlapGroup": "carsales-sealion6-au",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-xtrail-epower-au",
+      "familyId": "nissan-x-trail-epower",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 4.2,
+      "outOf": 5,
+      "count": 4,
+      "countKind": "reviews",
+      "scope": "Australian T33 Ti e-POWER AWD; reviews include MY25.",
+      "summary": "Specific Australian hybrid feedback is useful, although far smaller than general X-Trail totals.",
+      "positiveThemes": [
+        "Smooth electric-motor driving",
+        "Comfort and wet-weather grip"
+      ],
+      "negativeThemes": [
+        "Speakers and connected technology",
+        "After-sales communication"
+      ],
+      "limitations": "A voluntary four-review sample; owner comments about software, warranty and equipment are not verified specifications. New FWD drivetrain and MY26 equipment differ.",
+      "sourceIds": [
+        "crowd-family-xtrail-epower-productreview"
+      ],
+      "matches": [
+        {
+          "vehicleId": "xtrail-ti-epower-awd",
+          "factor": 0.8,
+          "note": "Direct AU Ti e-POWER model cohort; several model years."
+        },
+        {
+          "vehicleId": "xtrail-stl-epower-fwd-2026",
+          "factor": 0.25,
+          "note": "Earlier Ti AWD feedback is only related context for ST-L FWD."
+        }
+      ],
+      "overlapGroup": "productreview-xtrail-t33-epower",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-xtrail-carbuyer-expert",
+      "familyId": "nissan-x-trail-epower",
+      "publisher": "Carbuyer",
+      "region": "United Kingdom",
+      "kind": "professional",
+      "rating": 3.9,
+      "outOf": 5,
+      "count": null,
+      "countKind": "unknown",
+      "scope": "Professional review of T33 X-Trail range, including e-POWER and UK mild-hybrid petrol alternatives.",
+      "summary": "Editorial assessment favours family usability and comfort but questions fuel savings.",
+      "positiveThemes": [
+        "Practical cabin",
+        "Comfort-oriented ride"
+      ],
+      "negativeThemes": [
+        "Modest fuel savings in testing",
+        "Some inexpensive-feeling trim"
+      ],
+      "limitations": "One publication assessment, not an owner-review count. UK seven-seat hybrid availability, trim and equipment differ. Keep separate from owner satisfaction.",
+      "sourceIds": [
+        "crowd-family-xtrail-carbuyer-professional"
+      ],
+      "matches": [
+        {
+          "vehicleId": "xtrail-ti-epower-awd",
+          "factor": 0.4,
+          "note": "Related T33 e-POWER assessment."
+        },
+        {
+          "vehicleId": "xtrail-stl-epower-fwd-2026",
+          "factor": 0.25,
+          "note": "Related range review predates new Australian FWD specification."
+        }
+      ],
+      "overlapGroup": "carbuyer-xtrail-t33-professional",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-xtrail-carbuyer-owner-excluded",
+      "familyId": "nissan-x-trail-epower",
+      "publisher": "Carbuyer",
+      "region": "United Kingdom",
+      "kind": "owner",
+      "rating": 5,
+      "outOf": 5,
+      "count": 1,
+      "countKind": "reviews",
+      "scope": "The current-looking X-Trail owner page contains one identified 2017 Acenta SE dCi 4x4 diesel review.",
+      "summary": "The displayed five-star owner rating describes a different generation and diesel engine.",
+      "positiveThemes": [
+        "The older diesel owner liked solidity"
+      ],
+      "negativeThemes": [],
+      "limitations": "Do not inherit the five-star owner banner into T33 e-POWER. Professional 3.9/5 on the same page is a different rating.",
+      "sourceIds": [
+        "crowd-family-xtrail-carbuyer-owner-scope"
+      ],
+      "matches": [
+        {
+          "vehicleId": "xtrail-ti-epower-awd",
+          "factor": 0,
+          "note": "T32 diesel, not T33 e-POWER."
+        },
+        {
+          "vehicleId": "xtrail-stl-epower-fwd-2026",
+          "factor": 0,
+          "note": "T32 diesel, not T33 e-POWER."
+        }
+      ],
+      "overlapGroup": "carbuyer-xtrail-t32-diesel",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-petrol-edmunds-zm",
+      "familyId": "mitsubishi-outlander-petrol",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 3.5,
+      "outOf": 5,
+      "count": 67,
+      "countKind": "reviews",
+      "scope": "US 2022 ZM Outlander 2.5 petrol CVT; mixed FWD/AWD trims.",
+      "summary": "A larger petrol-specific pool is available; satisfaction is more mixed than the PHEV sample.",
+      "positiveThemes": [
+        "Cabin finish and styling",
+        "Comfort and value"
+      ],
+      "negativeThemes": [
+        "Bonnet movement complaints",
+        "Quality, parts and support complaints"
+      ],
+      "limitations": "US launch-year cars and dealer experience differ. Complaints do not establish Australian incidence or prove an unrepaired fault on a particular LS.",
+      "sourceIds": [
+        "crowd-family-outlander-petrol-edmunds"
+      ],
+      "matches": [
+        {
+          "vehicleId": "outlander-ls-petrol-fwd-2022",
+          "factor": 0.4,
+          "note": "Related ZM 2.5 petrol CVT, US trims and AWD mixed."
+        }
+      ],
+      "overlapGroup": "edmunds-outlander-zm-petrol",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-petrol-cars-zm",
+      "familyId": "mitsubishi-outlander-petrol",
+      "publisher": "Cars.com",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 3.5,
+      "outOf": 5,
+      "count": 46,
+      "countKind": "reviews",
+      "scope": "US 2022 Outlander petrol model cohort.",
+      "summary": "A second platform reports the same overall score from a separate displayed sample.",
+      "positiveThemes": [
+        "Comfort and interior ratings exceed overall satisfaction"
+      ],
+      "negativeThemes": [
+        "Reliability and value ratings trail styling"
+      ],
+      "limitations": "Self-selected owner satisfaction. Cannot deduplicate contributors across publishers or infer an annual repair probability.",
+      "sourceIds": [
+        "crowd-family-outlander-petrol-cars"
+      ],
+      "matches": [
+        {
+          "vehicleId": "outlander-ls-petrol-fwd-2022",
+          "factor": 0.4,
+          "note": "Related original ZM petrol; mixed US trim/drivetrain."
+        }
+      ],
+      "overlapGroup": "cars-com-outlander-zm-petrol",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-jdpower-quality",
+      "familyId": "mitsubishi-outlander-petrol",
+      "publisher": "J.D. Power",
+      "region": "United States",
+      "kind": "reliability",
+      "rating": 74,
+      "outOf": 100,
+      "count": null,
+      "countKind": "survey-responses",
+      "scope": "2023 US petrol Outlander Quality & Reliability subscore; page explicitly says previous-year ratings/data used.",
+      "summary": "A survey-based quality benchmark adds a different evidence type, separate from public review stars.",
+      "positiveThemes": [
+        "Driving-experience subscore is stronger than quality"
+      ],
+      "negativeThemes": [
+        "Quality & Reliability is rated average"
+      ],
+      "limitations": "74/100 is a defects/design-quality index, not 74% reliable or 74% satisfied. Model response denominator is not disclosed; first-90-day context and carry-forward data do not predict ten-year repairs.",
+      "sourceIds": [
+        "crowd-family-outlander-jdpower"
+      ],
+      "matches": [
+        {
+          "vehicleId": "outlander-ls-petrol-fwd-2022",
+          "factor": 0.4,
+          "note": "Related US ZM petrol survey, prior-year data and market differences."
+        }
+      ],
+      "overlapGroup": "jdpower-outlander-zm-quality",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-xtrail-petrol-edmunds-t33",
+      "familyId": "nissan-x-trail-petrol",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 3.3,
+      "outOf": 5,
+      "count": 134,
+      "countKind": "reviews",
+      "scope": "US 2021 T33 Rogue 2.5 petrol CVT, FWD/AWD; five seats.",
+      "summary": "Large related-model cohort, with substantial owner complaints alongside cabin praise.",
+      "positiveThemes": [
+        "Comfort and space",
+        "Ride quality"
+      ],
+      "negativeThemes": [
+        "CVT complaints in displayed reviews",
+        "Electronics and dealer-support frustrations"
+      ],
+      "limitations": "Rogue is the US relative, introduced earlier with local build/calibration differences and five seats. Later US 1.5 VC-turbo engine stories must not be assigned to Australian 2.5 petrol.",
+      "sourceIds": [
+        "crowd-family-rogue-edmunds-25"
+      ],
+      "matches": [
+        {
+          "vehicleId": "xtrail-st-petrol-awd-2023",
+          "factor": 0.35,
+          "note": "Same broad T33 2.5 petrol CVT family; earlier US launch cohort and five-seat trim mix."
+        }
+      ],
+      "overlapGroup": "edmunds-rogue-t33-25",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-xtrail-petrol-cars-t33",
+      "familyId": "nissan-x-trail-petrol",
+      "publisher": "Cars.com",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.4,
+      "outOf": 5,
+      "count": 118,
+      "countKind": "reviews",
+      "scope": "US 2021 Rogue T33 2.5 petrol owner model cohort.",
+      "summary": "This site is materially more positive than Edmunds; visible disagreement limits certainty.",
+      "positiveThemes": [
+        "Comfortable interior",
+        "Practical passenger space"
+      ],
+      "negativeThemes": [
+        "Perceived reliability trails comfort"
+      ],
+      "limitations": "Overall 4.4 is distinct from the separate 4.3 perceived reliability subscore. US equipment and dealer experience differ; cross-platform unique-owner count is unknown.",
+      "sourceIds": [
+        "crowd-family-rogue-cars-25"
+      ],
+      "matches": [
+        {
+          "vehicleId": "xtrail-st-petrol-awd-2023",
+          "factor": 0.35,
+          "note": "Related early T33 2.5 petrol; not an AU ST seven-seat owner sample."
+        }
+      ],
+      "overlapGroup": "cars-com-rogue-t33-25",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-xtrail-petrol-au-st",
+      "familyId": "nissan-x-trail-petrol",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 1,
+      "outOf": 5,
+      "count": 1,
+      "countKind": "reviews",
+      "scope": "Australian T33 ST seven-seat 4WD listing; one self-identified 2023 owner.",
+      "summary": "A direct but single negative report concerns steering sensation and warranty handling. Its evidence weight remains very small.",
+      "positiveThemes": [],
+      "negativeThemes": [
+        "Steering sensation and support dispute"
+      ],
+      "limitations": "One unresolved owner allegation is not a measured vehicle-wide fault rate; it should not dominate a score or establish the condition of a used car.",
+      "sourceIds": [
+        "crowd-family-xtrail-st-awd-au"
+      ],
+      "matches": [
+        {
+          "vehicleId": "xtrail-st-petrol-awd-2023",
+          "factor": 0.8,
+          "note": "Direct AU configuration family, one voluntary review."
+        }
+      ],
+      "overlapGroup": "productreview-xtrail-t33-st-petrol",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sportage-edmunds-us-reference",
+      "familyId": "kia-sportage",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 3.6,
+      "outOf": 5,
+      "count": 99,
+      "countKind": "reviews",
+      "scope": "US 2023 NQ5 2.5 petrol, eight-speed automatic; not Australian 2.0 MPi six-speed.",
+      "summary": "Ninety-nine reviews are easy to find, but they describe a different powertrain.",
+      "positiveThemes": [
+        "Cabin room and design"
+      ],
+      "negativeThemes": [
+        "US engine and transmission complaints"
+      ],
+      "limitations": "Excluded from the 2.0 petrol score. US 2.5 faults are not evidence that Australian 2.0 MPi cars share the same issue.",
+      "sourceIds": [
+        "crowd-family-sportage-edmunds-us"
+      ],
+      "matches": [
+        {
+          "vehicleId": "sportage-s-petrol-2022",
+          "factor": 0,
+          "note": "Incompatible US 2.5 engine/eight-speed transmission."
+        }
+      ],
+      "overlapGroup": "edmunds-sportage-nq5-us",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sportage-cars-us-reference",
+      "familyId": "kia-sportage",
+      "publisher": "Cars.com",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.2,
+      "outOf": 5,
+      "count": 36,
+      "countKind": "reviews",
+      "scope": "US 2023 NQ5 Sportage 2.5 petrol model page.",
+      "summary": "Another international rating is available for reference.",
+      "positiveThemes": [
+        "Comfort and interior satisfaction"
+      ],
+      "negativeThemes": [
+        "Performance/value ratings are lower than comfort"
+      ],
+      "limitations": "Different engine and transmission from the Australian S. Do not merge with Hybrid/PHEV or old QL Sportage ratings.",
+      "sourceIds": [
+        "crowd-family-sportage-cars-us"
+      ],
+      "matches": [
+        {
+          "vehicleId": "sportage-s-petrol-2022",
+          "factor": 0,
+          "note": "US 2.5 petrol does not match 2.0 MPi six-speed."
+        }
+      ],
+      "overlapGroup": "cars-com-sportage-nq5-us",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sportage-productreview-au-reference",
+      "familyId": "kia-sportage",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 3.1,
+      "outOf": 5,
+      "count": 13,
+      "countKind": "reviews",
+      "scope": "Australian NQ5 model pool: petrol, diesel and hybrid variants.",
+      "summary": "Useful local comments exist, but the aggregate mixes powertrains.",
+      "positiveThemes": [
+        "Ride and front-seat comfort in petrol SX reports"
+      ],
+      "negativeThemes": [
+        "Documentation and safety-assistance irritation",
+        "Hybrid failure allegations in a different drivetrain"
+      ],
+      "limitations": "A highly negative Hybrid entry is visibly in the same pool. Cannot reconstruct a 2.0 MPi S denominator from this headline.",
+      "sourceIds": [
+        "crowd-family-sportage-productreview-au"
+      ],
+      "matches": [
+        {
+          "vehicleId": "sportage-s-petrol-2022",
+          "factor": 0,
+          "note": "Mixed petrol/diesel/HEV aggregate without a recoverable 2.0 S subset."
+        }
+      ],
+      "overlapGroup": "productreview-sportage-nq5-au",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sportage-carsales-au-reference",
+      "familyId": "kia-sportage",
+      "publisher": "Carsales",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 5,
+      "outOf": 5,
+      "count": 2,
+      "countKind": "reviews",
+      "scope": "Australian 2022 Sportage owner year page, trim/powertrain detail not exposed in the retrieved body.",
+      "summary": "A second local site shows two submissions, too few and insufficiently scoped for a configuration score.",
+      "positiveThemes": [],
+      "negativeThemes": [],
+      "limitations": "The aggregate is verified but engine/trim matching is not. Display as reference rather than assume these are S 2.0 automatic owners.",
+      "sourceIds": [
+        "crowd-family-sportage-carsales-au"
+      ],
+      "matches": [
+        {
+          "vehicleId": "sportage-s-petrol-2022",
+          "factor": 0,
+          "note": "Powertrain subset unverified."
+        }
+      ],
+      "overlapGroup": "carsales-sportage-nq5-au",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-tucson-edmunds-us-reference",
+      "familyId": "hyundai-tucson",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 3.8,
+      "outOf": 5,
+      "count": 177,
+      "countKind": "reviews",
+      "scope": "US 2022 NX4 Tucson 2.5 petrol/eight-speed with hybrid submissions visibly included.",
+      "summary": "A large sample exists, but it cannot represent the Australian base 2.0 six-speed.",
+      "positiveThemes": [
+        "Cabin space and styling"
+      ],
+      "negativeThemes": [
+        "Engine/transmission complaints in a different powertrain",
+        "Electronics and support frustrations"
+      ],
+      "limitations": "Visible reviews identify a 2.5 petrol SEL and a 1.6 Hybrid Limited. Neither is Australian 2.0 MPi; no matching denominator.",
+      "sourceIds": [
+        "crowd-family-tucson-edmunds-us"
+      ],
+      "matches": [
+        {
+          "vehicleId": "tucson-base-petrol-2021",
+          "factor": 0,
+          "note": "Mixed incompatible US powertrains."
+        }
+      ],
+      "overlapGroup": "edmunds-tucson-nx4-us",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-tucson-cars-us-reference",
+      "familyId": "hyundai-tucson",
+      "publisher": "Cars.com",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.1,
+      "outOf": 5,
+      "count": 63,
+      "countKind": "reviews",
+      "scope": "US 2022 NX4 Tucson model page, 2.5 petrol specification.",
+      "summary": "A second large site is more positive than Edmunds, with a different engine and gearbox from this shortlist car.",
+      "positiveThemes": [
+        "Comfort and interior finish"
+      ],
+      "negativeThemes": [
+        "Performance and value ratings trail comfort"
+      ],
+      "limitations": "63 is not the number of Australian 2.0 base owners. Overall 4.1 differs from the 4.0 perceived reliability subscore.",
+      "sourceIds": [
+        "crowd-family-tucson-cars-us"
+      ],
+      "matches": [
+        {
+          "vehicleId": "tucson-base-petrol-2021",
+          "factor": 0,
+          "note": "US 2.5/eight-speed is incompatible with AU 2.0/six-speed."
+        }
+      ],
+      "overlapGroup": "cars-com-tucson-nx4-us",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-tucson-productreview-au-reference",
+      "familyId": "hyundai-tucson",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 2.5,
+      "outOf": 5,
+      "count": 25,
+      "countKind": "reviews",
+      "scope": "Australian NX4 model aggregate; petrol, diesel, hybrid and facelift years; at least one disclosed professional test-car review.",
+      "summary": "Local 2.0 owners repeatedly discuss modest acceleration, alongside praise for cabin presentation.",
+      "positiveThemes": [
+        "Space and appearance in local comments"
+      ],
+      "negativeThemes": [
+        "2.0 petrol highway performance",
+        "Assistance-system and support complaints"
+      ],
+      "limitations": "Not a clean owner cohort: Cameron explicitly identifies himself as an independent reviewer borrowing manufacturer/owner vehicles. Cannot subtract that rating or isolate original base 2.0 owners accurately. The opened page gives 2.5/5 while a search cache showed 2.6; use the directly read page.",
+      "sourceIds": [
+        "crowd-family-tucson-productreview-au"
+      ],
+      "matches": [
+        {
+          "vehicleId": "tucson-base-petrol-2021",
+          "factor": 0,
+          "note": "Mixed powertrains, facelift years and professional-review submissions."
+        }
+      ],
+      "overlapGroup": "productreview-tucson-nx4-au",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-tucson-carsales-au-reference",
+      "familyId": "hyundai-tucson",
+      "publisher": "Carsales",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 4.5,
+      "outOf": 5,
+      "count": 5,
+      "countKind": "reviews",
+      "scope": "Australian 2021 Tucson owner year-page aggregate; precise engine and generation of each submission not exposed.",
+      "summary": "Local rating website provides five displayed reviews; the configuration subset remains unresolved.",
+      "positiveThemes": [],
+      "negativeThemes": [],
+      "limitations": "2021 spans the Australian generation transition. The retrieved canonical body shows five reviews without trim-level entries; do not assume all are NX4 base 2.0.",
+      "sourceIds": [
+        "crowd-family-tucson-carsales-au"
+      ],
+      "matches": [
+        {
+          "vehicleId": "tucson-base-petrol-2021",
+          "factor": 0,
+          "note": "Model-year aggregate without a verified NX4 2.0 base subset."
+        }
+      ],
+      "overlapGroup": "carsales-tucson-2021-au",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-carnival-edmunds-us-reference",
+      "familyId": "kia-carnival",
+      "publisher": "Edmunds",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 3.8,
+      "outOf": 5,
+      "count": 41,
+      "countKind": "reviews",
+      "scope": "US 2022 KA4 Carnival 3.5 V6/eight-speed, mixed seven/eight-seat trims.",
+      "summary": "Useful cabin and sliding-door context, but not a diesel ownership sample.",
+      "positiveThemes": [
+        "Passenger room",
+        "Comfortable ride"
+      ],
+      "negativeThemes": [
+        "Sliding-door and support complaints",
+        "Infotainment issues"
+      ],
+      "limitations": "US V6 fuel-pump/engine complaints and captain-chair packaging do not establish Australian S diesel reliability or restraint fit.",
+      "sourceIds": [
+        "crowd-family-carnival-edmunds-us"
+      ],
+      "matches": [
+        {
+          "vehicleId": "carnival-s-diesel-2021",
+          "factor": 0,
+          "note": "Incompatible V6 engine; US higher-trim seating/equipment differs."
+        }
+      ],
+      "overlapGroup": "edmunds-carnival-ka4-us",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-carnival-cars-us-reference",
+      "familyId": "kia-carnival",
+      "publisher": "Cars.com",
+      "region": "United States",
+      "kind": "owner",
+      "rating": 4.5,
+      "outOf": 5,
+      "count": 13,
+      "countKind": "reviews",
+      "scope": "US 2022 KA4 Carnival V6 model cohort.",
+      "summary": "A second international site gives a more positive result from a smaller sample.",
+      "positiveThemes": [
+        "Comfort and perceived reliability"
+      ],
+      "negativeThemes": [
+        "Interior/value ratings below comfort"
+      ],
+      "limitations": "Overall 4.5 is distinct from a 4.8 perceived reliability subscore. Neither is a 2.2 diesel Australian S score.",
+      "sourceIds": [
+        "crowd-family-carnival-cars-us"
+      ],
+      "matches": [
+        {
+          "vehicleId": "carnival-s-diesel-2021",
+          "factor": 0,
+          "note": "US V6, not the shortlisted diesel."
+        }
+      ],
+      "overlapGroup": "cars-com-carnival-ka4-us",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-carnival-productreview-au-reference",
+      "familyId": "kia-carnival",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 3.1,
+      "outOf": 5,
+      "count": 18,
+      "countKind": "reviews",
+      "scope": "Australian KA4 aggregate, 2.2 diesel and 3.5 petrol; facelift GT-Line and original models mixed.",
+      "summary": "Local diesel comments praise space and economy; some describe door, screen and warranty-handling problems.",
+      "positiveThemes": [
+        "Space with all rows occupied",
+        "Diesel economy in owner reports"
+      ],
+      "negativeThemes": [
+        "Door/screen issues and support delays",
+        "Headlights in S diesel comments"
+      ],
+      "limitations": "Aggregate includes a professional borrowed-car review by Cameron as well as petrol and facelift cars. Cannot recover a clean original S-diesel owner denominator. Powered-door faults do not automatically apply to manual-door S.",
+      "sourceIds": [
+        "crowd-family-carnival-productreview-au"
+      ],
+      "matches": [
+        {
+          "vehicleId": "carnival-s-diesel-2021",
+          "factor": 0,
+          "note": "Mixed engines/equipment and non-owner professional review content."
+        }
+      ],
+      "overlapGroup": "productreview-carnival-ka4-au",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-carnival-carsales-au-reference",
+      "familyId": "kia-carnival",
+      "publisher": "Carsales",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 5,
+      "outOf": 5,
+      "count": 4,
+      "countKind": "reviews",
+      "scope": "Australian 2021 Carnival model-year owner pool; engine, trim and generation details not visible in retrieved body.",
+      "summary": "Four local submissions are displayed, with no recoverable S-diesel subgroup.",
+      "positiveThemes": [],
+      "negativeThemes": [],
+      "limitations": "2021 model-year label alone does not verify original KA4 S diesel. Keep rating as reference until individual car details can be checked.",
+      "sourceIds": [
+        "crowd-family-carnival-carsales-au"
+      ],
+      "matches": [
+        {
+          "vehicleId": "carnival-s-diesel-2021",
+          "factor": 0,
+          "note": "Unverified diesel/S/generation applicability."
+        }
+      ],
+      "overlapGroup": "carsales-carnival-2021-au",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outback-productreview-au-mixed-reference",
+      "familyId": "subaru-outback",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 3.1,
+      "outOf": 5,
+      "count": 25,
+      "countKind": "reviews",
+      "scope": "Australian BT / 6GEN Outback model aggregate: Sport/Touring non-XT and Sport/Touring XT, plus a disclosed professional borrowed-car review.",
+      "summary": "The local pool confirms useful inspection topics, but does not isolate the shortlisted non-XT.",
+      "positiveThemes": [
+        "Comfortable touring and useful space"
+      ],
+      "negativeThemes": [
+        "Infotainment/alerts and support disputes"
+      ],
+      "limitations": "Visible XT owners and a borrowed Sport XT review are mixed into the aggregate. Do not transfer the 25-review average to the base 2.5 petrol or count professional tests as owners.",
+      "sourceIds": [
+        "crowd-family-outback-productreview-au-mixed"
+      ],
+      "matches": [
+        {
+          "vehicleId": "outback-awd-25-2021",
+          "factor": 0,
+          "note": "Mixed powertrains/generations and professional-review submissions; reference only."
+        }
+      ],
+      "overlapGroup": "productreview-outback-au-mixed",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-sorento-productreview-au-mixed-reference",
+      "familyId": "kia-sorento",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 3.4,
+      "outOf": 5,
+      "count": 31,
+      "countKind": "reviews",
+      "scope": "Australian MQ4 model aggregate: petrol, diesel, HEV and PHEV; pre/post-facelift years and professional borrowed-car tests combined.",
+      "summary": "Useful local observations exist, but the 31-review headline is not a clean HEV or PHEV owner cohort.",
+      "positiveThemes": [
+        "Cabin equipment and comfort in individual reports"
+      ],
+      "negativeThemes": [
+        "Seats, assistance systems and support concerns"
+      ],
+      "limitations": "Several Cameron entries explicitly disclose borrowed professional test cars, including diesel, HEV and PHEV. The page also displays a 2018 earlier-generation owner entry. Cannot recover a matching HEV/PHEV denominator.",
+      "sourceIds": [
+        "crowd-family-sorento-productreview-au-mixed"
+      ],
+      "matches": [
+        {
+          "vehicleId": "sorento-gtline-hev-awd-2026",
+          "factor": 0,
+          "note": "Mixed powertrains/generations and professional-review submissions; reference only."
+        },
+        {
+          "vehicleId": "sorento-phev-gtline-2021-23",
+          "factor": 0,
+          "note": "Mixed powertrains/generations and professional-review submissions; reference only."
+        }
+      ],
+      "overlapGroup": "productreview-sorento-au-mixed",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-rav4-productreview-au-reference",
+      "familyId": "toyota-rav4-hybrid",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 3.9,
+      "outOf": 5,
+      "count": 18,
+      "countKind": "reviews",
+      "scope": "Australian XA50 FWD 2.5 hybrid model pool, 2019 onward; owner, rental, professional and accessory-focused entries combined.",
+      "summary": "Local comments add inspection context, but the headline is not a clean eighteen-owner vehicle sample.",
+      "positiveThemes": [
+        "Hybrid economy and comfort in several owner reports"
+      ],
+      "negativeThemes": [
+        "Road noise, seat comfort and control complaints"
+      ],
+      "limitations": "Grant B. and Stop_shonky_sellers explicitly describe hire cars; Cameron discloses a borrowed professional test car; Harrism reviews a fitted dashcam under Fair Incentive. Early 2019/2020 cars and multiple trims also appear. Cannot recover a clean 2021-onward GXL owner mean.",
+      "sourceIds": [
+        "crowd-family-rav4-productreview-au"
+      ],
+      "matches": [
+        {
+          "vehicleId": "rav4-gxl-hev-2021-25",
+          "factor": 0,
+          "note": "Rental, professional and accessory content contaminates the model owner aggregate."
+        },
+        {
+          "vehicleId": "rav4-gxl-hev-2026",
+          "factor": 0,
+          "note": "Different XA60 generation as well as contaminated source scope."
+        }
+      ],
+      "overlapGroup": "productreview-rav4-xa50-fwd-au",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-kluger-productreview-au-owners",
+      "familyId": "toyota-kluger-hybrid",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 3,
+      "outOf": 5,
+      "count": 7,
+      "countKind": "reviews",
+      "scope": "Australian XU70 Kluger AWD Hybrid, 2021 onward; GX/GXL/Grande owner posts.",
+      "summary": "All seven visible entries concern the correct hybrid generation. Most describe higher trims, so apply limited weight to the base GX.",
+      "positiveThemes": [
+        "Space and smoothness",
+        "Lower petrol use than previous large cars in individual reports"
+      ],
+      "negativeThemes": [
+        "Trim, door-seal and equipment concerns",
+        "Lane-assist and sunroof complaints on Grande"
+      ],
+      "limitations": "One entry is labelled Fair Incentive. Only one visible post identifies GX; most identify Grande/GXL. Sunroof and Grande trim complaints do not establish GX faults. No model-wide failure rate or representative sample.",
+      "sourceIds": [
+        "crowd-family-kluger-productreview-au"
+      ],
+      "matches": [
+        {
+          "vehicleId": "kluger-gx-hev-awd",
+          "factor": 0.5,
+          "note": "Correct AU hybrid generation/drivetrain, but mostly Grande/GXL and one incentivised entry."
+        }
+      ],
+      "overlapGroup": "productreview-kluger-xu70-hybrid-au",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-forester-au-s5-mixed-cohort",
+      "familyId": "subaru-forester",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 3.1,
+      "outOf": 5,
+      "count": 57,
+      "countKind": "reviews",
+      "scope": "Australian ProductReview S5 generation pool; multiple trims/years, hybrid-labelled content and a professional borrowed-car review.",
+      "summary": "The local 57-submission pool is not a clean 2.5 petrol owner cohort.",
+      "positiveThemes": [
+        "Visibility, space and handling in individual reports"
+      ],
+      "negativeThemes": [
+        "Assistance-system irritation and service disputes"
+      ],
+      "limitations": "Cameron discloses a borrowed professional test car. Cheryl describes a hybrid beneath a 2.5i Premium tag, demonstrating unreliable powertrain taxonomy. Cannot recover a clean 2021–24 2.5i-L denominator; the child eleven-review pool also has classification errors.",
+      "sourceIds": [
+        "crowd-family-forester-au-s5-mixed"
+      ],
+      "matches": [
+        {
+          "vehicleId": "forester-25il-2021",
+          "factor": 0,
+          "note": "Misclassified or non-owner content; no defensible matching owner mean."
+        },
+        {
+          "vehicleId": "forester-awd-petrol-2025",
+          "factor": 0,
+          "note": "Misclassified or non-owner content; no defensible matching owner mean."
+        }
+      ],
+      "overlapGroup": "productreview-forester-sk-au",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-forester-au-il-mistagged-cohort",
+      "familyId": "subaru-forester",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 3.5,
+      "outOf": 5,
+      "count": 11,
+      "countKind": "reviews",
+      "scope": "Australian page labelled S5 2.5i-L; original 2018 Special Edition and 2019 Premium reports appear alongside genuine later 2.5i-L posts.",
+      "summary": "The apparently exact trim subset still contains incorrectly classified vehicles and years.",
+      "positiveThemes": [
+        "Comfort and visibility in identified 2023/2021 posts"
+      ],
+      "negativeThemes": [
+        "Cooling-valve and starting complaints in other years"
+      ],
+      "limitations": "Chippy explicitly identifies a 2019 Premium under the i-L tag. rbvm identifies a 2018 Special Edition without Apple CarPlay; several posts are dated eight years ago. Individual star ratings and a defensible matched mean are not exposed. This child pool overlaps the 57-review parent and is not eleven additional owners.",
+      "sourceIds": [
+        "crowd-family-forester-au-il-mistagged"
+      ],
+      "matches": [
+        {
+          "vehicleId": "forester-25il-2021",
+          "factor": 0,
+          "note": "Misclassified or non-owner content; no defensible matching owner mean."
+        },
+        {
+          "vehicleId": "forester-awd-petrol-2025",
+          "factor": 0,
+          "note": "Misclassified or non-owner content; no defensible matching owner mean."
+        }
+      ],
+      "overlapGroup": "productreview-forester-sk-au",
+      "checked": "2026-10-18"
+    },
+    {
+      "id": "crowd-family-outlander-petrol-au-ls-reference-cohort",
+      "familyId": "mitsubishi-outlander-petrol",
+      "publisher": "ProductReview.com.au",
+      "region": "Australia",
+      "kind": "owner",
+      "rating": 2.8,
+      "outOf": 5,
+      "count": 5,
+      "countKind": "reviews",
+      "scope": "Australian ZM petrol LS FWD category, five reviews including a temporary loan-car report.",
+      "summary": "Closer vehicle specification than a broad model aggregate, but the five-entry headline is not five owners.",
+      "positiveThemes": [
+        "Space and highway economy in owner comments"
+      ],
+      "negativeThemes": [
+        "Trim and support complaints",
+        "Phone charger/camera/audio criticisms"
+      ],
+      "limitations": "Darron64 explicitly identifies a temporary loan car while their Hyundai Tucson was repaired. Individual stars are not exposed in the read page, so subtracting that contribution to reconstruct a four-owner mean is not defensible. Category starts 2023 but owner purchases include December 2021 and May 2022.",
+      "sourceIds": [
+        "crowd-family-outlander-petrol-au-ls-reference"
+      ],
+      "matches": [
+        {
+          "vehicleId": "outlander-ls-petrol-fwd-2022",
+          "factor": 0,
+          "note": "Misclassified or non-owner content; no defensible matching owner mean."
+        }
+      ],
+      "overlapGroup": "productreview-outlander-zm-ls-au",
+      "checked": "2026-10-18"
+    }
+  ],
+  "coverage": [
+    {
+      "familyId": "subaru-forester",
+      "summary": "Both Forester generations now have separately scoped 50-plus US owner cohorts, alongside the existing Australian evidence.",
+      "gaps": [
+        "The US samples are not Australian trim-specific reviews.",
+        "S6 has limited long-term age exposure; S5 complaints cannot automatically be applied to it.",
+        "The local 57-submission pool is not a clean 2.5 petrol owner cohort.",
+        "The apparently exact trim subset still contains incorrectly classified vehicles and years."
+      ],
+      "sourceIds": [
+        "crowd-family-forester-edmunds-2021",
+        "crowd-family-forester-edmunds-2025",
+        "crowd-family-forester-cars-2021",
+        "crowd-family-forester-cars-comments",
+        "crowd-family-forester-au-s5-mixed",
+        "crowd-family-forester-au-il-mistagged"
+      ]
+    },
+    {
+      "familyId": "subaru-outback",
+      "summary": "Two large international model pools are visible, plus an identified 2.5 petrol subset for limited scoring.",
+      "gaps": [
+        "The 93-review and 90-review totals include XT turbo cars.",
+        "Only eight identified US Touring 2.5 reviews were verified here; do not claim 50 matched base-car owners.",
+        "Australian ProductReview model aggregate includes incompatible powertrains and borrowed professional test-car reviews; excluded from owner scoring."
+      ],
+      "sourceIds": [
+        "crowd-family-outback-edmunds-2021",
+        "crowd-family-outback-cars-2021",
+        "crowd-family-outback-cars-comments",
+        "crowd-family-outback-edmunds-25-touring",
+        "crowd-family-outback-productreview-au-mixed"
+      ]
+    },
+    {
+      "familyId": "toyota-rav4-hybrid",
+      "summary": "Two independently displayed 50-plus US hybrid cohorts supplement Australian owner evidence; the sixth-generation car remains separate.",
+      "gaps": [
+        "No 50-plus verified XA60 owner cohort established.",
+        "UK reliability pages conflict numerically; no fabricated response denominator or combined reliability percentage.",
+        "AU FWD hybrid eighteen-review pool includes rental cars, a borrowed professional test and a dashcam review; reference only."
+      ],
+      "sourceIds": [
+        "crowd-family-rav4-edmunds-2021",
+        "crowd-family-rav4-cars-2021",
+        "crowd-family-rav4-cars-comments",
+        "crowd-family-rav4-whatcar-used",
+        "crowd-family-rav4-whatcar-reliability",
+        "crowd-family-rav4-productreview-au"
+      ]
+    },
+    {
+      "familyId": "toyota-kluger-hybrid",
+      "summary": "A 57-review US Highlander Hybrid cohort and a 32-review Cars.com cohort add broader related-model feedback. The seven-entry AU hybrid cohort was also rechecked: correct drivetrain, mostly higher trims and one Fair Incentive label.",
+      "gaps": [
+        "Neither count is an Australian Kluger GX sample.",
+        "Do not add the two platforms and call the sum unique owners; no respondent identity deduplication is possible."
+      ],
+      "sourceIds": [
+        "crowd-family-highlander-edmunds-2021",
+        "crowd-family-highlander-cars-2021",
+        "crowd-family-kluger-productreview-au"
+      ]
+    },
+    {
+      "familyId": "kia-sorento",
+      "summary": "Verified larger international HEV and PHEV cohorts separately; neither reaches 50 on the pages read.",
+      "gaps": [
+        "HEV pool includes earlier years and captain-chair layouts.",
+        "The 22 PHEV reviews overlap year-labelled pages and must not be summed with them.",
+        "Australian ProductReview model aggregate includes incompatible powertrains and borrowed professional test-car reviews; excluded from owner scoring."
+      ],
+      "sourceIds": [
+        "crowd-family-sorento-hev-edmunds",
+        "crowd-family-sorento-phev-edmunds",
+        "crowd-family-sorento-productreview-au-mixed"
+      ]
+    },
+    {
+      "familyId": "mitsubishi-outlander-phev",
+      "summary": "Added two identified international PHEV owner pools and exposed a misleading larger mixed-powertrain aggregate.",
+      "gaps": [
+        "No honest 50-plus current-generation PHEV-only cohort verified.",
+        "KBB 46-review headline is excluded from scoring because it contains petrol vehicles.",
+        "No strong 22.7 kWh update-specific long-term cohort yet."
+      ],
+      "sourceIds": [
+        "crowd-family-outlander-phev-edmunds-2024",
+        "crowd-family-outlander-phev-kbb-contaminated",
+        "crowd-family-outlander-phev-cars-2023"
+      ]
+    },
+    {
+      "familyId": "byd-sealion-6",
+      "summary": "Verified a second Australian owner-rating source; the current public samples remain small.",
+      "gaps": [
+        "No verified 50-plus Australian or closely matched international owner aggregate found.",
+        "Song Plus / Seal U / Sealion 06 versions cannot be assumed to share the same battery and calibration.",
+        "ProductReview includes lease-service content and is excluded from owner scoring."
+      ],
+      "sourceIds": [
+        "crowd-family-sealion-productreview",
+        "crowd-family-sealion-carsales"
+      ]
+    },
+    {
+      "familyId": "nissan-x-trail-epower",
+      "summary": "Retained exact Australian Ti e-POWER feedback and added a UK editorial benchmark, while excluding a misleading old-diesel owner banner.",
+      "gaps": [
+        "No verified 50-plus T33 e-POWER owner aggregate found.",
+        "US Rogue engine/CVT reviews do not apply to e-POWER.",
+        "New ST-L FWD lacks an established matching owner cohort."
+      ],
+      "sourceIds": [
+        "crowd-family-xtrail-epower-productreview",
+        "crowd-family-xtrail-carbuyer-professional",
+        "crowd-family-xtrail-carbuyer-owner-scope"
+      ]
+    },
+    {
+      "familyId": "mitsubishi-outlander-petrol",
+      "summary": "Added a 67-review petrol owner cohort, a second 46-review site and a separately labelled J.D. Power quality benchmark.",
+      "gaps": [
+        "US launch-year responses are not an Australian LS FWD failure-rate study.",
+        "The 74/100 quality index has no public model response count and uses prior-year data.",
+        "Closer vehicle specification than a broad model aggregate, but the five-entry headline is not five owners."
+      ],
+      "sourceIds": [
+        "crowd-family-outlander-petrol-edmunds",
+        "crowd-family-outlander-petrol-cars",
+        "crowd-family-outlander-jdpower",
+        "crowd-family-outlander-petrol-au-ls-reference"
+      ]
+    },
+    {
+      "familyId": "nissan-x-trail-petrol",
+      "summary": "Two 100-plus US 2.5 petrol Rogue cohorts broaden context alongside a direct Australian ST report.",
+      "gaps": [
+        "Large international samples disagree strongly.",
+        "Neither cohort is an Australian seven-seat sample, and later US VC-turbo reliability data is incompatible."
+      ],
+      "sourceIds": [
+        "crowd-family-rogue-edmunds-25",
+        "crowd-family-rogue-cars-25",
+        "crowd-family-xtrail-st-awd-au"
+      ]
+    },
+    {
+      "familyId": "kia-sportage",
+      "summary": "Four rating sites/cohorts checked; the large overseas pool is visible with its engine mismatch.",
+      "gaps": [
+        "No verified 50-plus 2.0 MPi six-speed cohort.",
+        "AU NQ5 aggregate mixes diesel and HEV with petrol; US 2.5/eight-speed is incompatible.",
+        "No owner score should be created from the unscoped local two-review pool."
+      ],
+      "sourceIds": [
+        "crowd-family-sportage-edmunds-us",
+        "crowd-family-sportage-cars-us",
+        "crowd-family-sportage-productreview-au",
+        "crowd-family-sportage-carsales-au"
+      ]
+    },
+    {
+      "familyId": "hyundai-tucson",
+      "summary": "Four sources read; two large US cohorts remain clearly labelled reference evidence rather than contaminating the AU base score.",
+      "gaps": [
+        "No verified 50-plus Australian NX4 base 2.0 petrol cohort.",
+        "US 2.5 engine and hybrid complaints are incompatible.",
+        "ProductReview includes borrowed professional review cars, so its model aggregate is not a clean owner count."
+      ],
+      "sourceIds": [
+        "crowd-family-tucson-edmunds-us",
+        "crowd-family-tucson-cars-us",
+        "crowd-family-tucson-productreview-au",
+        "crowd-family-tucson-carsales-au"
+      ]
+    },
+    {
+      "familyId": "kia-carnival",
+      "summary": "Added four publisher cohorts, with the AU diesel applicability limits made explicit.",
+      "gaps": [
+        "No verified 50-plus original KA4 S-diesel owner cohort.",
+        "US V6 cannot be counted as diesel evidence.",
+        "AU model aggregates mix variants and a professional review; powered-door complaints differ from S manual doors."
+      ],
+      "sourceIds": [
+        "crowd-family-carnival-edmunds-us",
+        "crowd-family-carnival-cars-us",
+        "crowd-family-carnival-productreview-au",
+        "crowd-family-carnival-carsales-au"
+      ]
+    }
+  ]
+}

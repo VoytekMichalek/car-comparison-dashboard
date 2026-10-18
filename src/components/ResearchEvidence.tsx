@@ -1,6 +1,7 @@
 import { fitAssessmentFor, researchFor, researchItemLabels } from '../research';
 import { familyFitTarget, fitCriterionLabels, fitCriterionWeights, fitRatingLabels, fitRatingScores } from '../familyFit';
 import { formatDate } from '../lib';
+import { reviewEvidenceFor } from '../reviewEvidence';
 import type { FamilyFitCriterionKey, Vehicle } from '../types';
 import { SourceRefs } from './Shared';
 
@@ -14,6 +15,7 @@ export function FamilyFitEvidence({ vehicle }: { vehicle: Vehicle }) {
 export function ResearchAudit({ vehicle }: { vehicle: Vehicle }) {
   const audit = researchFor(vehicle.familyId);
   if (!audit) return null;
-  const items = audit.audit.items.filter(item => item.vehicleIds.includes(vehicle.id));
+  const ownerEvidence = reviewEvidenceFor(vehicle);
+  const items = audit.audit.items.filter(item => item.vehicleIds.includes(vehicle.id)).map(item => item.key === 'reviews' && ownerEvidence.coverage ? { ...item, status: ownerEvidence.score === null ? 'gap' as const : 'verified' as const, finding: `${ownerEvidence.coverage.summary} ${ownerEvidence.count} eligible review/rating contributions across ${ownerEvidence.contributing.length} publisher cohorts; these are not unique people. The ratings section shows original scales, configuration matches and reference-only exclusions.`, sourceIds: ownerEvidence.coverage.sourceIds } : item);
   return <details className="panel research-audit"><summary>Item-by-item research check · {formatDate(audit.checked)}</summary><p>{audit.audit.summary}</p><p className="micro muted">Checked means the cited finding was reviewed. Estimates and unresolved details retain their labels; it does not mean every cost is known.</p><div className="research-audit-items">{items.map(item => <section key={item.key}><div><h4>{researchItemLabels[item.key]}</h4><span className={`audit-status ${item.status}`}>{statusLabels[item.status]}</span></div><p>{item.finding} <SourceRefs ids={item.sourceIds} /></p></section>)}</div></details>;
 }

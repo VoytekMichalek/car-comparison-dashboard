@@ -2,7 +2,13 @@
 
 The current family target is **three restraints: one rear-facing plus two forward-facing seats or boosters**. Exact restraint models and your own installation remain unconfirmed.
 
-**19 families · 35 configurations · 190 item checks · 1,090 source records.** Source records can cite the same URL for separate claims; there are 644 distinct URLs. Each model family has a dedicated research agent and a separate report. Every audit checks pricing, powertrain, family practicality, warranty, servicing, insurance, tyres, repairs, reviews and other ownership considerations. A checked item can still contain an explicitly labelled estimate or unresolved gap. These checks are not a percentage of facts proven correct.
+**19 families · 35 configurations · 190 item checks · 1,179 source records.** Source records can cite the same URL for separate claims; there are 715 distinct URLs. Each model family has a dedicated research agent and a separate report. Every audit checks pricing, powertrain, family practicality, warranty, servicing, insurance, tyres, repairs, reviews and other ownership considerations. A checked item can still contain an explicitly labelled estimate or unresolved gap. These checks are not a percentage of facts proven correct.
+
+## Expanded rating research
+
+The latest multi-site review pass adds 76 cohorts and 89 source records, covering all 19 families and explicitly matching or excluding all 35 configurations. There are 67 owner cohorts, seven professional rating cohorts and two reliability/quality entries. Fifteen related or matched owner cohorts have at least 50 contributions; these are not fifteen distinct cars or counts of unique people. Source websites may share contributors. Large incompatible cohorts remain reference-only, and newer models retain explicit small-sample gaps.
+
+Read the [EV review report](REVIEWS-EVS-2026-10-18.md) and [hybrid/petrol/diesel report](REVIEWS-FAMILY-CARS-2026-10-18.md). Fresh reference-only cohorts suppress older contaminated aggregates, including Model Y, Ioniq 5, EV6, EV5, RAV4, Forester, Outback, Sorento and petrol Outlander. The live review panels and audit review items use the expanded applicability decisions. Previous dated model reports retain the original audit history.
 
 ## What changed
 

@@ -1,0 +1,117 @@
+/* The charts use measured viewports, so labels stay readable without horizontal scrolling. */
+.charts-page { min-width: 0; }
+.charts-page .insight-panel { padding: 28px; margin-block: 24px; min-width: 0; }
+.charts-page .insight-filter-note { margin: 16px 0; font-size: 13px; line-height: 1.7; color: #596a5d; }
+.charts-page .insight-panel-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 18px; }
+.charts-page .insight-panel-heading h2 { font-size: 26px; margin-bottom: 9px; }
+.charts-page .insight-panel-heading p:not(.eyebrow) { margin-bottom: 0; color: #596a5d; font-size: 14px; line-height: 1.7; }
+.charts-page .insight-horizon { display: grid; gap: 8px; flex-shrink: 0; font-size: 12px; color: #53664f; }
+.charts-page .insight-horizon select { min-width: 115px; min-height: 44px; }
+.charts-page select { border: 1px solid #cdd6c5; border-radius: 5px; background-color: white; min-height: 44px; padding: 10px 34px 10px 12px; font-size: 14px; max-width: 100%; }
+.charts-page .insight-estimate-note { display: flex; align-items: flex-start; gap: 10px; padding: 14px 16px; background: #fff7d9; border: 1px solid #e6d7a0; border-radius: 5px; color: #665526; }
+.charts-page .insight-estimate-note svg { margin-top: 3px; }
+.charts-page .insight-estimate-note p { font-size: 13px; line-height: 1.7; margin: 0; }
+.charts-page .insight-car-picker { margin-top: 18px; border: 1px solid var(--line); border-radius: 6px; }
+.charts-page .insight-car-picker > summary { padding: 13px 42px 13px 16px; font-size: 14px; font-weight: 600; }
+.charts-page .insight-car-picker > summary > span { margin-left: 10px; font-size: 12px; font-weight: 400; color: #61715b; }
+.charts-page .insight-picker-actions { display: flex; flex-wrap: wrap; gap: 16px; padding: 10px 16px; }
+.charts-page .insight-picker-actions button { min-height: 40px; font-size: 13px; }
+.charts-page .insight-car-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 0 14px 14px; gap: 4px 14px; }
+.charts-page .insight-car-options > label { min-width: 0; display: flex; align-items: flex-start; gap: 10px; padding: 12px 8px; cursor: pointer; border-radius: 4px; }
+.charts-page .insight-car-options > label:hover { background: #f4f6ef; }
+.charts-page .insight-car-options input { margin: 3px 0 0; }
+.charts-page .insight-car-options .insight-swatch { margin-top: 7px; }
+.charts-page .insight-car-options strong { display: block; font-size: 13px; line-height: 1.6; font-weight: 550; }
+.charts-page .insight-car-options small { display: block; font-size: 12px; color: #61715b; line-height: 1.7; }
+.charts-page .insight-swatch { display: inline-block; width: 17px; height: 4px; border-radius: 1px; flex-shrink: 0; }
+.charts-page .insight-line-legend { display: flex; flex-wrap: wrap; align-items: stretch; gap: 7px; margin: 18px 0 10px; }
+.charts-page .insight-line-legend button { display: inline-flex; align-items: center; gap: 8px; padding: 10px 12px; border: 1px solid #d7ded0; border-radius: 5px; min-height: 43px; font-size: 13px; text-align: left; line-height: 1.5; }
+.charts-page .insight-line-legend button.is-active { border-color: #63785b; background: #edf2e8; box-shadow: inset 0 0 0 1px #63785b; }
+.charts-page .insight-plot { width: 100%; min-width: 0; }
+.charts-page .insight-plot > svg { display: block; width: 100%; height: auto; overflow: visible; }
+.charts-page .insight-grid { stroke: #e3e7dd; stroke-width: 1; }
+.charts-page .insight-tick { font-size: 12px; fill: #5b6d58; }
+.charts-page .insight-axis-title { font-size: 12px; fill: #4e624c; font-weight: 500; }
+.charts-page .insight-cursor { stroke: #a4ad9e; stroke-dasharray: 3 4; }
+.charts-page .year-value-label { font-size: 11px; font-weight: 600; fill: #554b2b; paint-order: stroke; stroke: white; stroke-width: 4px; stroke-linejoin: round; pointer-events: none; }
+.charts-page .point-hit-target { fill: transparent; stroke: transparent; }
+.charts-page .insight-year-point, .charts-page .insight-score-point { cursor: pointer; outline: none; }
+.charts-page .insight-year-point:focus-visible .point-hit-target, .charts-page .insight-score-point:focus-visible .point-hit-target { stroke: #1c3e30; stroke-width: 2; stroke-dasharray: 3 2; }
+.charts-page .insight-focus-bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px 24px; border-top: 1px solid var(--line); padding-top: 20px; margin-top: 10px; }
+.charts-page .insight-focus-bar h3 { font-size: 19px; margin: 0 0 5px; }
+.charts-page .insight-focus-bar .eyebrow { display: block; font-size: 9px; margin-bottom: 6px; }
+.charts-page .insight-focus-bar p { font-size: 12px; margin-bottom: 0; color: #5b6d58; }
+.charts-page .insight-focus-bar > label { display: grid; gap: 7px; font-size: 12px; }
+.charts-page .insight-focus-bar .text-button { font-size: 13px; min-height: 42px; }
+.charts-page .insight-selected-values { display: grid; grid-template-columns: 1fr 1fr 1.5fr; gap: 16px; padding: 20px 0; }
+.charts-page .insight-selected-values > div { min-width: 0; }
+.charts-page .insight-selected-values span { display: block; color: #5c6b59; font-size: 12px; margin-bottom: 9px; line-height: 1.6; }
+.charts-page .insight-selected-values strong { font-size: 22px; line-height: 1.5; font-weight: 600; overflow-wrap: anywhere; }
+.charts-page .insight-year-values { display: grid; grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); gap: 7px; }
+.charts-page .insight-year-values button { display: grid; gap: 6px; padding: 10px 7px; min-width: 0; border: 1px solid #e2d6ad; border-radius: 4px; background: #fffbee; text-align: left; }
+.charts-page .insight-year-values button[aria-pressed=true] { border-color: #8a713c; box-shadow: inset 0 0 0 1px #8a713c; background: #fff2c9; }
+.charts-page .insight-year-values span { color: #6a5c38; font-size: 11px; }
+.charts-page .insight-year-values strong { font-size: 13px; line-height: 1.5; color: #6a511b; font-variant-numeric: tabular-nums; }
+.charts-page .insight-method-note { color: #665526; background: #fffbee; padding: 13px 15px; border-radius: 4px; font-size: 12px; line-height: 1.8; margin: 16px 0; }
+.charts-page .insight-footnote { font-size: 12px; line-height: 1.8; color: #596a5d; padding-top: 16px; margin: 16px 0 0; border-top: 1px solid var(--line); }
+.charts-page .insight-value-data { margin-block: 14px; border: 1px solid var(--line); border-radius: 5px; }
+.charts-page .insight-value-data > summary { padding: 13px 40px 13px 15px; font-size: 13px; }
+.charts-page .insight-data-cars { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; padding: 16px; }
+.charts-page .insight-data-cars > section { min-width: 0; }
+.charts-page .insight-data-cars h3 { font-size: 15px; margin-bottom: 6px; }
+.charts-page .insight-data-cars p { font-size: 12px; color: #596a5d; }
+.charts-page .insight-data-cars dl { margin: 0; font-size: 13px; }
+.charts-page .insight-data-cars dl > div { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 9px 0; border-bottom: 1px solid #e7e9e1; }
+.charts-page .insight-data-cars dd { margin: 0; color: #725a25; font-weight: 550; }
+.charts-page .insight-empty { padding: 26px 18px; font-size: 14px; line-height: 1.8; color: #586852; }
+.charts-page .insight-gap-note { padding: 12px 15px; background: #fff7dc; border-radius: 4px; color: #6a562b; font-size: 12px; line-height: 1.8; }
+.charts-page .insight-power-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px; margin: 18px 0 8px; }
+.charts-page .insight-power-legend > span { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; line-height: 1.8; }
+.charts-page .insight-power-legend i { width: 10px; height: 10px; border-radius: 50%; }
+.charts-page .insight-power-legend .insight-hollow-key { border: 2px solid #6c786a; background: white; width: 11px; height: 11px; }
+.charts-page .insight-budget-line { stroke: #8d9275; stroke-dasharray: 5 5; stroke-width: 1.5; }
+.charts-page .insight-budget-label { fill: #666b4c; font-size: 11px; }
+.charts-page .insight-point-picker { display: grid; gap: 9px; margin-top: 12px; font-size: 13px; color: #52644e; }
+.charts-page .insight-point-picker select { width: 100%; min-width: 0; text-overflow: ellipsis; }
+.charts-page .insight-scatter-detail { display: grid; grid-template-columns: 1.3fr 1fr .8fr; gap: 20px 24px; padding: 22px 0 4px; align-items: start; }
+.charts-page .insight-scatter-detail > div { min-width: 0; }
+.charts-page .insight-scatter-detail h3 { font-size: 20px; margin: 6px 0; }
+.charts-page .insight-scatter-detail p { font-size: 12px; color: #596a5d; margin-bottom: 12px; }
+.charts-page .insight-scatter-detail .text-button { font-size: 12px; min-height: 36px; }
+.charts-page .insight-scatter-detail > div:not(:first-child) > span { font-size: 12px; display: block; margin-bottom: 8px; color: #596a5d; }
+.charts-page .insight-scatter-detail > div > strong { display: block; font-size: 27px; line-height: 1.6; }
+.charts-page .insight-scatter-detail small { display: block; color: #596a5d; font-size: 12px; line-height: 1.8; }
+.charts-page .insight-scatter-detail strong > small { display: inline; font-size: 14px; font-weight: 400; }
+.charts-page .insight-power-label { font-size: 12px; font-weight: 600; }
+@media(max-width: 1150px) {
+  .charts-page .insight-panel { padding: 22px; }
+  .charts-page .insight-selected-values { grid-template-columns: 1fr 1fr; }
+  .charts-page .insight-selected-values > div:last-child { grid-column: 1 / -1; }
+  .charts-page .insight-data-cars { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media(max-width: 650px) {
+  .charts-page .insight-panel { padding: 18px; margin-block: 20px; }
+  .charts-page .insight-panel-heading { flex-wrap: wrap; gap: 15px; }
+  .charts-page .insight-panel-heading h2 { font-size: 23px; }
+  .charts-page .insight-panel-heading p:not(.eyebrow) { font-size: 13px; }
+  .charts-page .insight-horizon { display: flex; flex-wrap: wrap; align-items: center; gap: 13px; }
+  .charts-page .insight-estimate-note { padding: 12px; }
+  .charts-page .insight-car-options { grid-template-columns: 1fr; padding-inline: 8px; }
+  .charts-page .insight-line-legend { gap: 6px; }
+  .charts-page .insight-line-legend button { padding: 9px; font-size: 12px; }
+  .charts-page .insight-car-picker > summary > span { display: block; margin: 4px 0 0; }
+  .charts-page .insight-focus-bar { gap: 16px; }
+  .charts-page .insight-focus-bar > div { width: 100%; }
+  .charts-page .insight-selected-values { gap: 18px 14px; padding-block: 20px; }
+  .charts-page .insight-selected-values strong { font-size: 21px; }
+  .charts-page .insight-selected-values > div:last-child strong { font-size: 19px; }
+  .charts-page .insight-year-values { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .charts-page .insight-year-values button { padding: 12px 8px; }
+  .charts-page .insight-data-cars { grid-template-columns: 1fr; }
+  .charts-page .insight-scatter-detail { grid-template-columns: 1fr 1fr; gap: 18px; }
+  .charts-page .insight-scatter-car { grid-column: 1 / -1; }
+  .charts-page .insight-scatter-detail > div > strong { font-size: 23px; }
+}
+@media(prefers-reduced-motion: reduce) {
+  .charts-page *, .charts-page *::before, .charts-page *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}

@@ -11,6 +11,7 @@ import { ReviewsPanel, ScoreBreakdown } from '../components/Scores';
 import VehicleCosts from '../components/VehicleCosts';
 import { FamilyFitEvidence, ResearchAudit } from '../components/ResearchEvidence';
 import { fitAssessmentFor, researchFor } from '../research';
+import { reviewEvidenceFor } from '../reviewEvidence';
 
 const sections: [VehicleSection, string][] = [['overview', 'Overview'], ['costs', 'All costs'], ['scores', 'Category scores'], ['specs', 'Specifications'], ['family', 'Child-seat fit'], ['ownership', 'Warranty & repairs'], ['sources', 'Sources'], ['notes', 'Your notes']];
 
@@ -24,7 +25,7 @@ export default function VehicleDetails({ vehicle: v, options, personal, compared
   const conventional = v.powertrain === 'PETROL' || v.powertrain === 'DIESEL';
   const allFacts: [string, Fact][] = [[isFuelOnly(v.powertrain) ? 'Electric range (not applicable)' : 'Electric range', v.range], ['Battery capacity', v.battery], ['Published consumption', v.consumption], ...(v.observedConsumption ? [['Observed consumption', v.observedConsumption] as [string, Fact]] : []), ...(v.observedRange ? [['Road-test electric range', v.observedRange] as [string, Fact]] : []), ['Charge-depleted petrol use', v.depletedConsumption], ['AC charging maximum', v.acCharging], ['DC charging maximum', v.dcCharging], [v.seats > 5 ? 'Boot, third row folded' : 'Boot, rear seats up', v.boot], ['Boot, all rows occupied', v.bootAllRows], ['Length', v.length], ['Width', v.width], ['Braked towing', v.towing]];
   const facts = allFacts.filter(([label]) => !conventional || !['Electric range (not applicable)', 'Battery capacity', 'Charge-depleted petrol use', 'AC charging maximum', 'DC charging maximum'].includes(label));
-  const sourceIds = [...new Set([...v.sourceIds, ...(v.fuel?.sourceIds ?? []), ...v.familyFit.sourceIds, ...v.safety.sourceIds, ...facts.flatMap(([, f]) => f.sourceIds), ...v.changes.flatMap(c => c.sourceIds), ...(price?.sourceIds ?? []), ...(info?.sourceIds ?? []), ...(info?.risks.flatMap(r => r.sourceIds) ?? []), ...score.categories.flatMap(c => c.sourceIds), ...(researchFor(v.familyId)?.audit.items.filter(i => i.vehicleIds.includes(v.id)).flatMap(i => i.sourceIds) ?? []), ...Object.values(fitAssessmentFor(v.id)?.criteria ?? {}).flatMap(c => c.sourceIds)])];
+  const sourceIds = [...new Set([...v.sourceIds, ...(v.fuel?.sourceIds ?? []), ...v.familyFit.sourceIds, ...v.safety.sourceIds, ...facts.flatMap(([, f]) => f.sourceIds), ...v.changes.flatMap(c => c.sourceIds), ...(price?.sourceIds ?? []), ...(info?.sourceIds ?? []), ...(info?.risks.flatMap(r => r.sourceIds) ?? []), ...score.categories.flatMap(c => c.sourceIds), ...reviewEvidenceFor(v).assessed.flatMap(e => e.cohort.sourceIds), ...(reviewEvidenceFor(v).coverage?.sourceIds ?? []), ...(researchFor(v.familyId)?.audit.items.filter(i => i.vehicleIds.includes(v.id)).flatMap(i => i.sourceIds) ?? []), ...Object.values(fitAssessmentFor(v.id)?.criteria ?? {}).flatMap(c => c.sourceIds)])];
   function jump(section: VehicleSection) { const target = page.current?.querySelector<HTMLElement>(`#vehicle-${section}`); target?.scrollIntoView({ behavior: 'instant', block: 'start' }); target?.focus({ preventScroll: true }); }
   useEffect(() => {
     document.title = `${v.make} ${v.model} · ${yearLabel(v)} ${v.variant} | Fieldnotes`;

@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { reviewCohorts, reviewCoverage, reviewExpansionPacks, reviewExpansionSources } from './reviewData';
 import { applyResearchUpdates, familyFitAssessments, researchPacks, researchSources } from './research';
 import rawRepairReserves from './data/repair-reserve-estimates.json';
 import repairReserveSources from './data/repair-reserve-sources.json';
@@ -58,7 +59,7 @@ const fuelSchema = z.object({ vehicleId: z.string(), planningRon: z.union([z.lit
 export const fuelRequirements = z.array(fuelSchema).parse(applyResearchUpdates([...rawFuelRequirements, ...icePacks.flatMap(p => p.fuelRequirements)], 'fuelUpdates', 'vehicleId'));
 export const energyAssumptions = z.object({ checked: date, regularRate: z.number().nonnegative(), premiumRate: z.number().nonnegative(), dieselRate: z.number().nonnegative(), dieselBasis: z.string(), regularBasis: z.string(), premiumBasis: z.string(), homeBasis: z.string(), publicBasis: z.string(), sourceIds: refs.min(1) }).parse(rawEnergyAssumptions);
 export const vehicles: Vehicle[] = z.array(vehicleSchema).parse(applyResearchUpdates([...evVehicles, ...hybridVehicles, ...icePacks.flatMap(p => p.vehicles)], 'vehicleUpdates', 'id')).map(v => ({ ...v, fuel: fuelRequirements.find(f => f.vehicleId === v.id) }));
-export const sources: Source[] = z.array(sourceSchema).parse([...evSources, ...hybridSources, ...evOwnershipSources, ...hybridOwnershipSources, ...qldSources, ...brandSources, ...evReviewSources, ...hybridReviewSources, ...budgetSources, ...expertSources, ...repairReserveSources, ...icePacks.flatMap(p => p.sources), ...researchSources]);
+export const sources: Source[] = z.array(sourceSchema).parse([...evSources, ...hybridSources, ...evOwnershipSources, ...hybridOwnershipSources, ...qldSources, ...brandSources, ...evReviewSources, ...hybridReviewSources, ...budgetSources, ...expertSources, ...repairReserveSources, ...icePacks.flatMap(p => p.sources), ...researchSources, ...reviewExpansionSources]);
 export const prices: PriceSnapshot[] = z.array(priceSchema).parse(applyResearchUpdates([...evPrices, ...hybridPrices, ...icePacks.flatMap(p => p.prices)], 'priceUpdates', 'id'));
 export const images: ImageAsset[] = z.array(imageSchema).parse([...rawImages, ...icePacks.flatMap(p => p.images)]);
 export const vehicleIds = new Set(vehicles.map(v => v.id));
@@ -98,6 +99,23 @@ export function imageFor(v: Vehicle) {
 }
 export function validateReferences(): string[] {
   const errors: string[] = [];
+  for (const family of new Set(vehicles.map(v => v.familyId))) if (!reviewCoverage.some(c => c.familyId === family)) errors.push(`${family}: missing expanded review coverage`);
+  for (const v of vehicles) if (!reviewCohorts.some(c => c.familyId === v.familyId && c.matches.some(m => m.vehicleId === v.id))) errors.push(`${v.id}: missing expanded review applicability`);
+  if (new Set(reviewCohorts.map(c => c.id)).size !== reviewCohorts.length) errors.push('Duplicate expanded review cohort');
+  if (new Set(reviewCoverage.map(c => c.familyId)).size !== reviewCoverage.length) errors.push('Duplicate review coverage family');
+  for (const pack of reviewExpansionPacks) {
+    for (const source of pack.sources) if (source.checked !== pack.checked) errors.push(`${source.id}: review check date mismatch`);
+    for (const c of pack.cohorts) {
+      if (!vehicles.some(v => v.familyId === c.familyId)) errors.push(`Unknown review family ${c.familyId}`);
+      if (c.checked !== pack.checked) errors.push(`${c.id}: review check date mismatch`);
+      for (const match of c.matches) if (vehicleMap.get(match.vehicleId)?.familyId !== c.familyId) errors.push(`${c.id}: review match outside family ${match.vehicleId}`);
+      for (const id of c.sourceIds) if (!sourceMap.has(id)) errors.push(`${c.id}: missing review source ${id}`);
+    }
+    for (const c of pack.coverage) {
+      if (!vehicles.some(v => v.familyId === c.familyId)) errors.push(`Unknown review coverage ${c.familyId}`);
+      for (const id of c.sourceIds) if (!sourceMap.has(id)) errors.push(`${c.familyId}: missing review coverage source ${id}`);
+    }
+  }
   if (new Set(researchPacks.map(p => p.familyId)).size !== researchPacks.length) errors.push('Duplicate research family');
   if (new Set(familyFitAssessments.map(a => a.vehicleId)).size !== familyFitAssessments.length) errors.push('Duplicate family-fit assessment');
   for (const pack of researchPacks) {

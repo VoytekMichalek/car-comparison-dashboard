@@ -93,13 +93,13 @@ export const powertrainTypes: Powertrain[] = ['BEV', 'PHEV', 'HEV', 'PETROL', 'D
 export const normalisePowertrains = (values: string[]): Powertrain[] => powertrainTypes.filter(type => values.includes(type));
 export const defaultFilters: Filters = { search: '', powertrains: [], make: 'all', condition: 'all', withinBudgetOnly: false, year: 'all', seats: 'all', fit: 'all', budget: 45000, favourites: false };
 export const activeFilterCount = (filters: Filters): number => Object.entries(defaultFilters).filter(([key, value]) => key === 'powertrains' ? filters.powertrains.length > 0 : filters[key as keyof Filters] !== value).length;
-export type View = 'browse' | 'compare' | 'vehicle' | 'costs' | 'notebook' | 'scores';
+export type View = 'browse' | 'compare' | 'vehicle' | 'costs' | 'notebook' | 'scores' | 'charts';
 export const vehicleSections = ['overview', 'costs', 'scores', 'specs', 'family', 'ownership', 'sources', 'notes'] as const;
 export type VehicleSection = typeof vehicleSections[number];
 export interface PublicState { view: View; compare: string[]; filters: Filters; weights?: ScoreWeights; vehicleId?: string; section?: VehicleSection }
 export function parseHash(hash: string, validIds: Set<string>): PublicState {
   const p = new URLSearchParams(hash.replace(/^#/, ''));
-  const allowedViews = ['browse', 'compare', 'vehicle', 'costs', 'notebook', 'scores'];
+  const allowedViews = ['browse', 'compare', 'vehicle', 'costs', 'notebook', 'scores', 'charts'];
   const vehicleId = p.get('vehicle') ?? '';
   const requestedView = allowedViews.includes(p.get('view') ?? '') ? p.get('view') as View : 'browse';
   const view = requestedView === 'vehicle' && !validIds.has(vehicleId) ? 'browse' : requestedView;

@@ -1,7 +1,7 @@
-import { brandFor, getPrice, reviewFor } from './data';
+import { brandFor, getPrice } from './data';
 import { defaultWeights, rangeStandard, isFuelOnly, money } from './lib';
 import { ownershipEstimate } from './ownership';
-import { reviewScope } from './reviewScope';
+import { reviewEvidenceFor } from './reviewEvidence';
 import { fitAssessmentFor } from './research';
 import { calculateFamilyFit } from './familyFit';
 import type { PersonalData, ScoreCategory, ScoreWeights, Vehicle } from './types';
@@ -14,7 +14,7 @@ export const categoryRules: Record<ScoreCategory, string> = {
   boot: 'VDA five-seat boot: 300 L = 1, 600 L = 10, linear between. Missing or non-comparable measurements are excluded.',
   range: 'Plug-in electric range: 50 km or less = 1, 600 km or more = 10; linear between. WLTP has a 90% evidence factor; NEDC 50%. This category does not apply to conventional hybrids, petrol or diesel cars and is excluded for them.',
   safety: 'Applicable ANCAP stars × 2. Assessment years and protocols differ; this is a rating summary, not a collision-risk prediction. Unknown ratings are excluded.',
-  owners: 'Community aggregate converted to /10. Evidence factor = n/(n+20), capped at 80%, multiplied by the scope-match factor. Small or poorly matched samples have less influence. Missing ratings, unknown sample sizes and incompatible generations are excluded.',
+  owners: 'Owner ratings converted to /10 and averaged using source evidence. Each source factor = min(80%, n/(n+20)) × configuration-match factor. Only the strongest applicable cohort per publisher and overlap group contributes. Category evidence equals the strongest contributing source, so more sites do not inflate confidence. Cross-site counts are contributions, not unique people. Overseas samples have reduced relevance. Professional ratings and reliability surveys remain separate. Unknown counts and incompatible generations are excluded.',
   brand: 'Australian service-support evidence: established = 8; developing = 6; limited = 3. Unverified support is excluded. This is support access, not a prediction of reliability.',
 };
 export interface CategoryScore { key: ScoreCategory; score: number | null; weight: number; confidence: number; effectiveWeight: number; applicable: boolean; reason: string; sourceIds: string[]; breakdown?: { label: string; score: number | null; share: number; detail: string; sourceIds: string[] }[] }
@@ -38,7 +38,7 @@ export function summariseScores(categories: CategoryScore[]): ScoreResult {
 
 export function scoreVehicle(v: Vehicle, personal: PersonalData, weights: ScoreWeights = defaultWeights, budget = 45000): ScoreResult {
   const price = getPrice(v.id);
-  const owners = reviewFor(v.familyId);
+  const owners = reviewEvidenceFor(v);
   const brand = brandFor(v.make);
   const costs = ownershipEstimate(v, personal);
   const categories: CategoryScore[] = [];
@@ -63,9 +63,7 @@ export function scoreVehicle(v: Vehicle, personal: PersonalData, weights: ScoreW
   const rangeApplicable = !isFuelOnly(v.powertrain);
   add('range', rangeApplicable && rangeKnown ? 1 + (v.range.value! - 50) * 9 / 550 : null, rangeKnown ? rangeStandard(v.range) === 'WLTP' ? .9 : .5 : 0, !rangeApplicable ? 'Not applicable: this car has no plug-in electric range. Excluded from both the overall score and evidence coverage.' : rangeKnown ? `${v.range.value} km. ${v.range.basis}` : `No comparable published electric-range figure; excluded. ${v.range.basis}`, v.range.sourceIds, rangeApplicable);
   add('safety', v.safety.stars === null ? null : v.safety.stars * 2, v.safety.stars === null ? 0 : 1, `${v.safety.year ?? 'Unverified assessment year'}. ${v.safety.applicability}`, v.safety.sourceIds);
-  const scope = reviewScope(v);
-  const reviewConfidence = owners?.rating == null ? 0 : Math.min(.8, (owners.count ?? 0) / ((owners.count ?? 0) + 20)) * scope.factor;
-  add('owners', owners?.rating == null ? null : owners.rating / owners.outOf * 10, reviewConfidence, owners?.rating == null ? 'No suitable model-level aggregate verified; excluded.' : `${owners.rating}/${owners.outOf} · ${owners.count ?? 'unverified'} contributions. Scope factor ${Math.round(scope.factor * 100)}%. ${scope.note} ${owners.scope}${reviewConfidence === 0 ? ' Excluded from the overall score.' : ''}`, owners?.sourceIds ?? []);
+  add('owners', owners.score, owners.confidence, owners.score === null ? 'No suitable numeric owner aggregate with a verified sample size and matching scope; excluded.' : `${owners.contributing.length} publisher cohort${owners.contributing.length === 1 ? '' : 's'} · ${owners.count.toLocaleString('en-AU')} review/rating contributions (${owners.australianCount.toLocaleString('en-AU')} Australian). Counts across sites are not unique people. Ratings are averaged using sample-and-scope evidence; one cohort per publisher. Category evidence is limited to the strongest source (${Math.round(owners.confidence * 100)}%). Overseas and mixed-variant samples have reduced relevance.`, owners.sourceIds);
   const supportScore = { established: 8, developing: 6, limited: 3, unverified: null };
   add('brand', brand ? supportScore[brand.support] : null, !brand || brand.support === 'unverified' ? 0 : .7, brand?.summary ?? 'Australian service-support evidence unverified; excluded.', brand?.sourceIds ?? []);
   return summariseScores(categories);

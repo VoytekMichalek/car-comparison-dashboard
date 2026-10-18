@@ -1,6 +1,16 @@
 # Validation record — 18 October 2026
 
-## Latest: model-by-model audit and rear-facing target — 18 October 2026
+## Latest: expanded reviews and Charts — 18 October 2026
+
+- **134 automated tests across eight suites pass.** Strict TypeScript and production build pass. Existing Zod annotation notices and the larger bundled-research warning remain; no runtime vehicle-data API is required.
+- **76 new review cohorts / 89 source records** cover every one of 19 families and explicitly match or exclude all 35 configurations. Full registry: **1,179 source records / 715 distinct URLs**. Counts are source contributions, not unique people or certainty measures.
+- Tests cover original rating scales, true numeric denominators, duplicate publisher/year pools, overlap groups, mixed-country count labels, unknown counts, professional/survey separation, incompatible generations and reference-only replacements. No numeric legacy cohort contributes after fresh scope checks. An independent review confirmed these properties and all publisher domains.
+- Chart tests cover all 35 default depreciation curves, sensitivity bounds, personal purchase and exact resale anchors, zero resale, appreciation/invalid inputs, missing-price withholding, exact shared weighted scores and initial comparison selection. Chart URLs round-trip public weights/filters/IDs without personal data.
+- Production-preview browser checked both charts at **320, 390, 1024 and 1440 px**. All-car selection and the annual ledger fit without page or internal horizontal overflow. Tested powertrain combinations, empty results, reset, clear/show-all, a shared four-car URL restored after reload, annual point keyboard navigation and stable scatter-point tab order. Scatter selectors resolve overlapping dots; annual mobile value cards remain visible.
+- Expanded review panels for **all 35 configurations** were opened and measured at **320 px** with no internal/document horizontal overflow. The 19-model review coverage overview also fits. No browser console errors or warnings were recorded in this walkthrough. Physical iOS/Android hardware was not used.
+- Depreciation remains a labelled broad powertrain scenario, not a verified individual-model forecast. Overseas owner sentiment does not establish Australian annual repair probabilities. Notebook storage and cost override formats are unchanged.
+
+## Previous: model-by-model audit and rear-facing target — 18 October 2026
 
 - **116 automated tests pass across six suites.** Strict TypeScript and production build pass. Build retains the existing Zod annotation notices and a large static research-chunk warning; the research chunk is about 311 kB compressed. No runtime vehicle-data API is required.
 - All **19 model families / 35 configurations** have dedicated audit reports, **190 item checks** and **35 structured fit assessments**. The integrated registry has **1,090 source records / 644 distinct URLs**, 35 price snapshots, 85 physical asking observations and 23 distinct local reference photos. A source record can reuse a URL; counts are not measures of certainty.
