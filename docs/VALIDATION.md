@@ -1,6 +1,14 @@
 # Validation record — 18 October 2026
 
-## Latest: readable graphs and fact-first scores — 18 October 2026
+## Latest: verified Tesla cargo presentation — 18 October 2026
+
+- **154 automated tests across eleven suites pass**, with strict TypeScript and the production build. Existing Zod annotation and static research chunk warnings remain.
+- Original Model Y capacities are 854 L rear seats up, 117 L front and 2,041 L rear folded; the Premium five-seat Juniper table gives 822 L, 116 L and 2,022 L. Australian manual references, checked dates and model scope are retained. Combined values are derived once, without an extra underfloor addition. The six-seat Model Y L is excluded.
+- Strict cargo tests cover schema validity, configuration/source references, published versus derived totals and headline ordering. Integration validation prevents rear-boot facts or seat counts drifting from the cargo records. Known capacity with an unverified VDA method reads Not comparable, rather than No data; numeric boot scoring is unchanged.
+- Browser checked all **35** configurations with every score/evidence disclosure expanded at **320 px**: no internal or document horizontal overflow. Original/Juniper cargo panels fit at 320 and 1024 px. A three-car comparison with both Tesla generations and RAV4 fits at 320 px and desktop; rear/front/folded figures and exclusion explanations remain readable. The original 854 L headline, separate 117 L front and 971 L combined capacity are visible without opening a research panel.
+- Independent final code/evidence review found no remaining material cargo issue. Personal storage formats and scoring formulas are unchanged.
+
+## Previous: readable graphs and fact-first scores — 18 October 2026
 
 - **149 automated tests across ten suites pass**, along with strict TypeScript and the production build. Existing Zod annotation and static research chunk warnings remain unchanged in kind.
 - The scatter excludes purchase price from its weighted total and evidence denominator. Tests prove its y-values/coverage do not change with purchase price importance, budget or saved purchase amount; its x-value still follows the saved amount. Other category weights remain effective. Main catalogue scores retain purchase price.

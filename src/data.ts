@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { cargoRecords } from './cargo';
 import { reviewCohorts, reviewCoverage, reviewExpansionPacks, reviewExpansionSources } from './reviewData';
 import { applyResearchUpdates, familyFitAssessments, researchPacks, researchSources } from './research';
 import rawRepairReserves from './data/repair-reserve-estimates.json';
@@ -99,6 +100,14 @@ export function imageFor(v: Vehicle) {
 }
 export function validateReferences(): string[] {
   const errors: string[] = [];
+  for (const cargo of cargoRecords) {
+    for (const id of cargo.sourceIds) if (!sourceMap.has(id)) errors.push(`${cargo.id}: missing cargo source ${id}`);
+    for (const id of cargo.vehicleIds) {
+      const v = vehicleMap.get(id);
+      if (!v) errors.push(`${cargo.id}: unknown cargo configuration ${id}`);
+      else if (v.seats !== cargo.seats || v.boot.unit !== 'L' || v.boot.value !== cargo.rearSeatsUpLitres) errors.push(`${id}: cargo detail disagrees with vehicle rear-boot capacity/seats`);
+    }
+  }
   for (const family of new Set(vehicles.map(v => v.familyId))) if (!reviewCoverage.some(c => c.familyId === family)) errors.push(`${family}: missing expanded review coverage`);
   for (const v of vehicles) if (!reviewCohorts.some(c => c.familyId === v.familyId && c.matches.some(m => m.vehicleId === v.id))) errors.push(`${v.id}: missing expanded review applicability`);
   if (new Set(reviewCohorts.map(c => c.id)).size !== reviewCohorts.length) errors.push('Duplicate expanded review cohort');

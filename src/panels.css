@@ -94,7 +94,7 @@
 /* Leave enough space for the widest score, including its /10 suffix. */
 :root .breakdown-rows details > summary,
 :root .vehicle-score-panel .breakdown-rows details > summary {
-  grid-template-columns: minmax(0, 1fr) 75px 62px;
+  grid-template-columns: minmax(0, 1fr) 75px 72px;
 }
 .breakdown-rows summary > * { min-width: 0; }
 .breakdown-rows summary > strong { white-space: nowrap; }
@@ -131,7 +131,7 @@
   .rank-score { min-width: 0; }
   :root .breakdown-rows details > summary,
   :root .vehicle-score-panel .breakdown-rows details > summary {
-    grid-template-columns: minmax(0, 1fr) 52px 62px;
+    grid-template-columns: minmax(0, 1fr) 52px 72px;
   }
   .repair-evidence,
   .estimate-method,
@@ -223,10 +223,12 @@
   :root .comparison-table thead > tr > th:not(.row-label) { padding: 16px 12px; }
   .comparison-table .compare-photo { height: 76px; }
   :root .breakdown-rows details > summary,
-  :root .vehicle-score-panel .breakdown-rows details > summary { grid-template-columns: minmax(0, 1fr) 62px; padding: 16px 44px 16px 14px; gap: 6px 10px; }
+  :root .vehicle-score-panel .breakdown-rows details > summary { grid-template-columns: minmax(0, 1fr) 72px; padding: 16px 44px 16px 14px; gap: 6px 10px; }
   .breakdown-rows summary > span:first-child { grid-column: 1; grid-row: 1; font-size: 13px; line-height: 1.5; }
   :root .breakdown-rows summary .category-weight { grid-column: 1; grid-row: 2; font-size: 11px; }
   .breakdown-rows summary > strong { grid-column: 2; grid-row: 1 / span 2; align-self: center; }
 }
 
 .vehicle-ledger .resale-percentage{display:block;margin-top:5px;font-size:12px;line-height:1.6;font-weight:400;color:#66501c;white-space:normal}
+
+.vehicle-page .cargo-capacity{margin-bottom:24px}

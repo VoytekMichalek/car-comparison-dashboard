@@ -1,0 +1,26 @@
+[
+  {
+    "id": "tesla-model-y-original-five-seat",
+    "vehicleIds": ["model-y-rwd-2022", "model-y-long-range-2023"],
+    "seats": 5,
+    "rearSeatsUpLitres": 854,
+    "frontLitres": 117,
+    "rearSeatsFoldedLitres": 2041,
+    "scope": "Original Australian five-seat Model Y. RWD and Long Range share this published cargo table.",
+    "method": "Tesla published capacity. The manual does not identify a VDA method or loading-height limit; compare with other brands cautiously.",
+    "sourceIds": ["ev-tesla-original-dimensions"],
+    "checked": "2026-10-18"
+  },
+  {
+    "id": "tesla-model-y-juniper-five-seat",
+    "vehicleIds": ["model-y-rwd-juniper-2025"],
+    "seats": 5,
+    "rearSeatsUpLitres": 822,
+    "frontLitres": 116,
+    "rearSeatsFoldedLitres": 2022,
+    "scope": "Updated Australian five-seat Model Y, using the Premium five-seat manual table. Excludes the six-seat Model Y L.",
+    "method": "Tesla published capacity. The manual does not identify a VDA method or loading-height limit; compare with other brands cautiously.",
+    "sourceIds": ["ev-deep-tesla-refresh-dimensions"],
+    "checked": "2026-10-18"
+  }
+]

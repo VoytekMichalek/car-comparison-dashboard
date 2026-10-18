@@ -1,0 +1,28 @@
+.cargo-capacity { min-width: 0; padding: 22px; border: 1px solid var(--line); border-radius: 7px; background: #fff; }
+.cargo-capacity h3 { margin: 0 0 18px; font-size: 18px; line-height: 1.5; }
+.cargo-capacity .cargo-primary { padding: 17px; border-radius: 6px; background: #f1f5eb; }
+.cargo-capacity .cargo-primary > span { display: block; color: #52634a; font-size: 13px; line-height: 1.6; }
+.cargo-capacity .cargo-primary > strong { display: block; margin: 5px 0; color: #315638; font-size: 38px; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.cargo-capacity .cargo-primary > small { display: block; color: #63725e; font-size: 12px; line-height: 1.6; }
+.cargo-capacity .cargo-extra-capacities { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; margin: 18px 0; }
+.cargo-capacity .cargo-extra-capacities > div { min-width: 0; }
+.cargo-capacity .cargo-extra-capacities > div:last-child { grid-column: 1 / -1; border-top: 1px solid var(--line); padding-top: 14px; }
+.cargo-capacity .cargo-extra-capacities dt { color: #63725e; font-size: 12px; line-height: 1.6; }
+.cargo-capacity .cargo-extra-capacities dd { margin: 5px 0 0; color: #2f4e3b; font-size: 21px; font-weight: 600; line-height: 1.4; font-variant-numeric: tabular-nums; }
+.cargo-capacity .cargo-extra-capacities small { display: block; margin-top: 5px; color: #63725e; font-size: 12px; font-weight: 400; line-height: 1.6; }
+.cargo-capacity p.cargo-method { color: #63725e; font-size: 12px; line-height: 1.75; }
+.cargo-capacity .cargo-source { margin-top: 15px; }
+.cargo-capacity .cargo-source > summary { font-size: 12px; }
+.cargo-capacity .cargo-source > p { margin: 10px 0 0; color: #63725e; font-size: 12px; line-height: 1.75; }
+@media (min-width: 700px) {
+  .cargo-capacity { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 18px 24px; align-items: start; }
+  .cargo-capacity h3,
+  .cargo-capacity .cargo-method,
+  .cargo-capacity .cargo-source { grid-column: 1 / -1; margin: 0; }
+  .cargo-capacity .cargo-extra-capacities { margin: 0; }
+}
+@media (max-width: 400px) {
+  .cargo-capacity { padding: 17px; }
+  .cargo-capacity .cargo-extra-capacities { grid-template-columns: minmax(0, 1fr); }
+  .cargo-capacity .cargo-extra-capacities > div:last-child { grid-column: auto; }
+}

@@ -4,6 +4,7 @@ import { ownershipEstimate } from './ownership';
 import { reviewEvidenceFor } from './reviewEvidence';
 import { fitAssessmentFor } from './research';
 import { calculateFamilyFit, familyFitTarget } from './familyFit';
+import { cargoFor, cargoTotals } from './cargo';
 import type { PersonalData, ScoreCategory, ScoreWeights, Vehicle } from './types';
 
 export const categoryLabels: Record<ScoreCategory, string> = { seating: 'Child-seat fit', price: 'Purchase price', running: 'Running budget', boot: 'Boot space', range: 'Electric range', safety: 'Safety rating', owners: 'People’s reviews', brand: 'Brand support' };
@@ -17,7 +18,7 @@ export const categoryRules: Record<ScoreCategory, string> = {
   owners: 'Owner ratings converted to /10 and averaged using source evidence. Each source factor = min(80%, n/(n+20)) × configuration-match factor. Only the strongest applicable cohort per publisher and overlap group contributes. Category evidence equals the strongest contributing source, so more sites do not inflate confidence. Cross-site counts are contributions, not unique people. Overseas samples have reduced relevance. Professional ratings and reliability surveys remain separate. Unknown counts and incompatible generations are excluded.',
   brand: 'Australian service-support evidence: established = 8; developing = 6; limited = 3. Unverified support is excluded. This is support access, not a prediction of reliability.',
 };
-export interface CategoryScore { key: ScoreCategory; score: number | null; weight: number; confidence: number; effectiveWeight: number; applicable: boolean; reason: string; sourceIds: string[]; headline?: string; headlineDetail?: string; headlineEstimated?: boolean; summary?: string; breakdown?: { label: string; score: number | null; share: number; detail: string; sourceIds: string[] }[] }
+export interface CategoryScore { key: ScoreCategory; score: number | null; weight: number; confidence: number; effectiveWeight: number; applicable: boolean; reason: string; sourceIds: string[]; headline?: string; headlineDetail?: string; headlineEstimated?: boolean; unscoredLabel?: string; summary?: string; breakdown?: { label: string; score: number | null; share: number; detail: string; sourceIds: string[] }[] }
 export interface ScoreResult { total: number | null; coverage: number; provisional: boolean; categories: CategoryScore[] }
 const clamp = (value: number) => Math.max(1, Math.min(10, value));
 export const formatScore = (value: number | null) => value === null ? '—' : value.toFixed(1);
@@ -41,6 +42,7 @@ export function scoreVehicle(v: Vehicle, personal: PersonalData, weights: ScoreW
   const owners = reviewEvidenceFor(v);
   const brand = brandFor(v.make);
   const costs = ownershipEstimate(v, personal);
+  const cargo = cargoFor(v.id);
   const categories: CategoryScore[] = [];
   const add = (key: ScoreCategory, score: number | null, confidence: number, reason: string, sourceIds: string[], applicable = true, breakdown?: CategoryScore['breakdown']) => {
     const evidence = applicable && score !== null && Number.isFinite(score) && Number.isFinite(confidence) ? Math.max(0, Math.min(1, confidence)) : 0;
@@ -83,7 +85,8 @@ export function scoreVehicle(v: Vehicle, personal: PersonalData, weights: ScoreW
   explain('price', asking === null ? 'Price unavailable' : money(asking), asking === null ? 'No researched or saved purchase price' : `${priceType} · ${fees}`, asking === null ? 'Excluded until a purchase price is available.' : `${hasSavedPrice ? 'Used in Ownership costs. ' : rangeText + sampleText}${Math.round(asking / budget * 100)}% of your ${money(budget)} budget.`, asking !== null && !hasSavedPrice && (price?.kind === 'estimate' || price?.confidence === 'low' || price?.basis === 'mixed' || price?.basis === 'unverified'));
 
   explain('running', costs.complete ? `${money(costs.annual)}/year` : 'Annual budget incomplete', costs.complete ? `${money(costs.annualBeforeRepairFund!)} before repair savings` : `Missing: ${costs.missing.join(', ')}`, costs.complete ? `Includes electricity/fuel, insurance, rego, servicing, tyres, ${money(costs.components.reserve)} repair savings and interest. Purchase and depreciation are separate.` : 'Excluded until every running-cost component is available. Add missing amounts in Ownership costs.', costs.complete && Object.values(costs.evidence).some(e => e.estimated));
-  explain('boot', v.boot.value === null ? 'Boot capacity unavailable' : `${v.boot.value.toLocaleString('en-AU')} L${comparableBoot ? ' VDA' : ' · different measurement'}`, comparableBoot ? 'Comparable five-seat boot figure' : 'Excluded from the boot score', comparableBoot ? v.boot.basis : v.boot.value === null ? 'No verified comparable capacity is recorded.' : 'The available measurement is shown for reference. It cannot be scored against five-seat VDA figures.');
+  explain('boot', cargo ? `${cargo.rearSeatsUpLitres.toLocaleString('en-AU')} L rear boot` : v.boot.value === null ? 'Boot capacity unavailable' : `${v.boot.value.toLocaleString('en-AU')} L${comparableBoot ? ' VDA' : ' · different measurement'}`, cargo ? 'Tesla published capacity · seats up' : comparableBoot ? 'Comparable five-seat boot figure' : 'Excluded from the boot score', cargo ? `${cargo.frontLitres} L separate front storage; ${cargoTotals(cargo).seatsUpLitres.toLocaleString('en-AU')} L combined with all ${cargo.seats} seats available. Tesla’s measurement is not verified VDA, so it is excluded from the VDA boot score.` : comparableBoot ? v.boot.basis : v.boot.value === null ? 'No verified comparable capacity is recorded.' : 'The available measurement is shown for reference. It cannot be scored against five-seat VDA figures.');
+  if (!comparableBoot && (v.boot.value !== null || cargo)) categories.find(c => c.key === 'boot')!.unscoredLabel = 'Not comparable';
   explain('range', !rangeApplicable ? 'Not applicable' : rangeKnown ? `${v.range.value!.toLocaleString('en-AU')} km ${rangeStandard(v.range)}` : 'Electric range unavailable', !rangeApplicable ? 'No plug-in electric range' : v.powertrain === 'PHEV' ? 'Electric-only range · not total driving range' : 'Published test-cycle range', !rangeApplicable ? 'Excluded from the score and evidence coverage for this powertrain.' : rangeKnown ? 'A laboratory figure. Weather, speed, load and battery condition change real driving range. WLTP and NEDC use different tests.' : 'No comparable published WLTP or NEDC figure is recorded; excluded from scoring.');
   explain('safety', v.safety.stars === null ? 'Safety rating unavailable' : `${v.safety.stars} ANCAP stars`, v.safety.year === null ? 'Assessment year unverified' : `${v.safety.year} assessment`, v.safety.stars === null ? 'No applicable ANCAP rating is verified; excluded from scoring.' : v.safety.applicability);
   const soleOwnerSource = owners.contributing.length === 1 ? owners.contributing[0].cohort : null;

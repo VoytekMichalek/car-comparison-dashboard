@@ -86,7 +86,7 @@ describe('headline-first score explanations', () => {
   });
 
   it('keeps a known boot measurement visible while explaining why it is excluded', () => {
-    const nonComparable = { ...car, boot: { ...car.boot, value: 854, basis: 'Manufacturer capacity; not VDA comparable.' } };
+    const nonComparable = { ...car, id: 'different-manufacturer-example', boot: { ...car.boot, value: 854, basis: 'Manufacturer capacity; not VDA comparable.' } };
     const category = scoreVehicle(nonComparable, emptyPersonal()).categories.find(c => c.key === 'boot')!;
     expect(category.score).toBeNull();
     expect(category.headline).toBe('854 L · different measurement');

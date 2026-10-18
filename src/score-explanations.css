@@ -1,6 +1,6 @@
 /* The fact comes first; provenance stays available in a second disclosure. */
 :root .score-breakdown .breakdown-rows > details > summary {
-  grid-template-columns: minmax(0, 1fr) 70px 64px;
+  grid-template-columns: minmax(0, 1fr) 70px 72px;
   gap: 12px;
   padding: 16px 46px 16px 16px;
   align-items: center;
@@ -84,7 +84,7 @@
 
 @media (max-width: 650px) {
   :root .score-breakdown .breakdown-rows > details > summary {
-    grid-template-columns: minmax(0, 1fr) 60px;
+    grid-template-columns: minmax(0, 1fr) 72px;
     gap: 6px 10px;
     padding: 15px 43px 15px 13px;
   }
